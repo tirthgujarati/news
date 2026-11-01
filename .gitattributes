@@ -1,0 +1,7 @@
+# Keep LF line endings everywhere so latest.json stays a byte-for-byte copy
+# of the newest edition on every machine.
+* text=auto eol=lf
+*.jpg binary
+*.png binary
+*.webp binary
+*.jks binary
