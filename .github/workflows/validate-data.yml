@@ -1,0 +1,27 @@
+name: Validate data
+
+on:
+  push:
+    paths:
+      - "data/**"
+      - "schema/**"
+      - "tools/**"
+      - ".github/workflows/validate-data.yml"
+  pull_request:
+    paths:
+      - "data/**"
+      - "schema/**"
+      - "tools/**"
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r tools/requirements.txt
+      - name: Validate latest.json, index.json and every edition
+        run: python tools/validate.py

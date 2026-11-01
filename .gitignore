@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Signing secrets: never commit these
+*.jks
+*.keystore
+key.properties
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

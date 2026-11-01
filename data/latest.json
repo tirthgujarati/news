@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-02-morning",
+  "date": "2026-11-02",
+  "slot": "morning",
+  "title": "Monday Morning Edition",
+  "generated_at": "2026-11-02T01:55:00+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "95.25",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-10-30T13:00:00+05:30",
+      "source": { "name": "RBI (FBIL reference rate)", "url": "https://www.rbi.org.in/" }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "106.55",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-10-30T13:00:00+05:30",
+      "source": { "name": "RBI (FBIL reference rate)", "url": "https://www.rbi.org.in/" }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India FX reserves",
+      "value": "$719.75bn",
+      "change": "-0.18%",
+      "dir": "down",
+      "as_of": "2026-10-23T00:00:00+05:30",
+      "source": { "name": "Business Standard", "url": "https://www.business-standard.com/amp/economy/news/india-forex-reserves-fall-1-27-bn-to-719-75-bn-as-gold-holdings-dip-126103001339_1.html" }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "23,053.10",
+      "change": "+0.51%",
+      "dir": "up",
+      "as_of": "2026-10-30T15:30:00+05:30",
+      "source": { "name": "Business Standard", "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html" }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "74,459.53",
+      "change": "+0.42%",
+      "dir": "up",
+      "as_of": "2026-10-30T15:30:00+05:30",
+      "source": { "name": "Business Standard", "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html" }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,580.07",
+      "change": "-1.82%",
+      "dir": "down",
+      "as_of": "2026-10-30T16:00:00-04:00",
+      "source": { "name": "AP", "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-friday-10-30-2026" }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "25,437.00",
+      "change": "-2.86%",
+      "dir": "down",
+      "as_of": "2026-10-30T16:00:00-04:00",
+      "source": { "name": "AP", "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-friday-10-30-2026" }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$113.43",
+      "change": "+2.37%",
+      "dir": "up",
+      "as_of": "2026-10-30T00:00:00-04:00",
+      "source": { "name": "Kitco", "url": "https://www.kitco.com/news/article/2026-10-30/gold-falls-below-3900-silver-tumbles-wall-street-selloff-triggers" }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$77,446",
+      "change": "-4.1%",
+      "dir": "down",
+      "as_of": "2026-10-30T12:15:00-04:00",
+      "source": { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/30/bitcoin-ether-price-binance-security-scare-rattles-crypto-markets.html" }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.93%",
+      "change": "-6 bp",
+      "dir": "down",
+      "as_of": "2026-10-30T00:00:00-04:00",
+      "source": { "name": "Investing.com", "url": "https://www.investing.com/rates-bonds/u.s.-10-year-bond-yield-historical-data" }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-cyclone-murasu-2026-11-01",
+          "headline": "Cyclone Murasu set to hit south Andhra coast overnight; Odisha on alert",
+          "summary": "The storm over the Bay of Bengal has winds of 100 to 110 km/h and is expected to cross the south Andhra Pradesh coast as a very severe cyclonic storm between midnight on 2 November and early 3 November, according to IMD. Andhra Pradesh has deployed six NDRF and seven SDRF teams and ordered evacuations, and fishermen in both states have been told to stay ashore.",
+          "why_it_matters": "Landfall could disrupt homes, crops and ports along the east coast this week.",
+          "importance": 5,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio, citing IMD.",
+          "published_at": "2026-11-01T20:52:00+05:30",
+          "tags": ["cyclone", "IMD", "Andhra Pradesh", "Odisha"],
+          "sources": [
+            { "name": "All India Radio", "url": "https://newsonair.gov.in/cyclonic-storm-murasu-intensifies-over-bay-of-bengal-andhra-pradesh-on-high-alert/" }
+          ],
+          "image": null
+        },
+        {
+          "id": "india-gst-october-2026-11-01",
+          "headline": "GST collections jump 23% to ₹2.31 lakh crore in October",
+          "summary": "Gross GST revenue rose 22.9% from a year earlier, the fastest growth in more than four years, helped by a 42% rise in tax on imports. Net collections after refunds rose 25.6% to about ₹2.03 lakh crore. Part of the jump comes from a low base after last year's GST rate cuts.",
+          "why_it_matters": "Strong tax receipts give the government more room to spend while oil prices stay high.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-01T00:00:00+05:30",
+          "tags": ["GST", "tax", "economy"],
+          "sources": [
+            { "name": "Business Standard", "url": "https://www.business-standard.com/economy/news/gross-gst-collections-rise-23-to-2-31-trillion-in-october-on-strong-sales-126110100248_1.html" },
+            { "name": "The Tribune", "url": "https://www.tribuneindia.com/news/business/gross-gst-collections-rise-22-9-to-rs-2-31-lakh-crore-in-october-net-revenue-up-25-6" }
+          ],
+          "image": null
+        },
+        {
+          "id": "india-banking-reform-panel-2026-10-31",
+          "headline": "Centre sets up high-level panel to plan banking reforms for 2047",
+          "summary": "Former Central Vigilance Commissioner Suresh N. Patel will chair a committee to recommend structural, regulatory and legal changes for banks. Members include RBI Deputy Governor Shirish Chandra Murmu and former RBI Deputy Governor N. S. Vishwanathan. It has six months and will also draw up a roadmap for AI and digital banking with cyber safeguards.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-10-31T07:46:00+05:30",
+          "tags": ["banking", "RBI", "reform"],
+          "sources": [
+            { "name": "All India Radio", "url": "https://newsonair.gov.in/centre-constitutes-high-level-committee-to-recommend-banking-reforms-for-viksit-bharat-2047/" }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-iran-us-hormuz-talks-2026-11-01",
+          "headline": "Iran cuts its Hormuz reopening timeline to two days as US talks go on",
+          "summary": "After Qatar-mediated talks in Tehran and Qatar on 30 and 31 October, Iran's foreign minister Abbas Araghchi said a partial reopening of the Strait of Hormuz would now take two days instead of seven. Tehran wants the US naval blockade lifted, oil sanctions waived and frozen assets released. President Trump called the talks fine but said Iran was not reliable.",
+          "why_it_matters": "Any reopening of Hormuz would ease the oil squeeze that has pushed Brent above $113 and kept the rupee near 95.",
+          "importance": 5,
+          "lead": true,
+          "verified": false,
+          "note": "Single source: Al Jazeera.",
+          "published_at": "2026-11-01T00:00:00+03:00",
+          "tags": ["Iran", "US", "Hormuz", "oil"],
+          "sources": [
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war" }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/14405199-1793530960.jpg?resize=1920%2C1440",
+            "credit": "EPA/Abedin Taherkenareh",
+            "source_url": "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war",
+            "alt": "A man waves Iran's national flag on a street in Tehran"
+          }
+        },
+        {
+          "id": "world-us-midterms-2026-11-01",
+          "headline": "Americans vote in midterm elections on Tuesday",
+          "summary": "The US holds midterm elections on 3 November, which decide control of Congress, and candidates spent the weekend on last-minute campaigning. Markets face a busy week around the vote, with Apple results on Monday and the October jobs report on Friday.",
+          "why_it_matters": "The result shapes US trade and spending policy for the next two years.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-01T00:00:00+03:00",
+          "tags": ["US", "elections", "Congress"],
+          "sources": [
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/liveblog/2026/11/1/us-midterms-live-last-ditch-efforts-ahead-of-tuesdays-elections" },
+            { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html" }
+          ],
+          "image": null
+        },
+        {
+          "id": "world-israel-election-deadlock-2026-10-28",
+          "headline": "Israel's election leaves no bloc with a majority",
+          "summary": "Final counts give Netanyahu's camp 53 of the Knesset's 120 seats, the opposition bloc led by Gadi Eisenkot 48 and Arab-led parties 19, with 61 needed to govern. President Isaac Herzog must choose who tries to form a government by 11 November. Turnout was 77.7%, the highest in more than two decades.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-01T00:00:00+03:00",
+          "tags": ["Israel", "elections", "Netanyahu"],
+          "sources": [
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/1/israel-election-when-will-government-be-formed-who-will-lead-it" },
+            { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html" }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "id": "currency-forex-reserves-fall-2026-10-30",
+          "headline": "India's forex reserves fall for a seventh week to $719.75 billion",
+          "summary": "Reserves fell $1.27 billion in the week to 23 October, RBI data showed, mainly because the value of gold holdings dropped $2.65 billion. Foreign currency assets rose $1.36 billion to $593.2 billion. Reserves are down from a record of about $785.7 billion in early September.",
+          "why_it_matters": "Smaller reserves leave the RBI less room to defend the rupee near 95 per dollar.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-10-30T00:00:00+05:30",
+          "tags": ["forex reserves", "RBI", "rupee", "gold"],
+          "sources": [
+            { "name": "Business Standard", "url": "https://www.business-standard.com/amp/economy/news/india-forex-reserves-fall-1-27-bn-to-719-75-bn-as-gold-holdings-dip-126103001339_1.html" },
+            { "name": "Moneycontrol", "url": "https://www.tradingview.com/news/moneycontrol:463fd8a57094b:0-india-s-forex-reserves-fall-1-27-billion-to-719-75-billion/" }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "id": "markets-wall-street-tech-selloff-2026-10-30",
+          "headline": "Wall Street ends October with its worst day since June as tech sinks",
+          "summary": "The S&P 500 fell 1.8% to 7,580.07 and the Nasdaq 2.9% to 25,437.00 on Friday after disappointing results and heavy AI spending plans from Amazon and Intel. Alphabet had its worst day on record on Thursday, down 12%. The S&P 500 is still up 10.7% this year.",
+          "why_it_matters": "Markets go into a heavy week with US midterms, Apple results and the jobs report.",
+          "importance": 5,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-10-30T16:22:00-04:00",
+          "tags": ["Wall Street", "tech", "AI", "Nasdaq"],
+          "sources": [
+            { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html" },
+            { "name": "AP", "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-friday-10-30-2026" }
+          ],
+          "image": {
+            "url": "https://image.cnbcfm.com/api/v1/image/108432673-1792420157696-gettyimages-2300478114-AFP_D3QN9WE.jpeg?v=1792420206&w=1920&h=1080",
+            "credit": "AFP via Getty Images",
+            "source_url": "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html",
+            "alt": "A trader checks a tablet on the floor of the New York Stock Exchange"
+          }
+        },
+        {
+          "id": "markets-sensex-nifty-gain-2026-10-30",
+          "headline": "Sensex rises 308 points and Nifty closes back above 23,000",
+          "summary": "The Sensex closed 0.42% higher at 74,459.53 and the Nifty 50 rose 0.51% to 23,053.10 on Friday, a second straight day of gains. IT stocks led while consumer durables fell most. Higher oil prices and foreign fund selling limited the rise.",
+          "why_it_matters": null,
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-10-30T15:30:00+05:30",
+          "tags": ["Sensex", "Nifty", "IT stocks"],
+          "sources": [
+            { "name": "Business Standard", "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html" },
+            { "name": "Kotak Neo", "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-close-higher-amid-global-headwinds/" }
+          ],
+          "image": null
+        },
+        {
+          "id": "markets-binance-hack-bitcoin-2026-10-30",
+          "headline": "Bitcoin drops 4% after record $6.3 billion Binance hack",
+          "summary": "Binance said an attacker took an estimated $6.3 billion, the largest crypto theft on record, after getting into an engineer's laptop; about $3 billion has been frozen and Binance says it will cover all losses. Bitcoin fell 4.1% to $77,446 and ether 4.4%. Withdrawals were paused, with deposits unaffected.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-10-29T20:32:00-04:00",
+          "tags": ["bitcoin", "Binance", "crypto", "hack"],
+          "sources": [
+            { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/30/bitcoin-ether-price-binance-security-scare-rattles-crypto-markets.html" },
+            { "name": "Bitcoin Magazine", "url": "https://bitcoinmagazine.com/news/bitcoin-price-slides-binance" }
+          ],
+          "image": null
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "id": "built-deepseek-super-agent-2026-10-31",
+          "headline": "DeepSeek releases a coding agent that offers fixes without being asked",
+          "summary": "China's DeepSeek released a prototype open-source 'Super-agent' that watches developers' group chats for coding problems and suggests solutions on its own. DeepSeek's Harness team announced it on 31 October, aiming at rivals such as Anthropic's Claude Code.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "It is a prototype; no independent tests yet.",
+          "published_at": "2026-11-01T00:00:00+05:30",
+          "tags": ["AI", "DeepSeek", "coding", "China"],
+          "sources": [
+            { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic" },
+            { "name": "Business Standard", "url": "https://business-standard.com/technology/tech-news/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic-126110100865_1.html" }
+          ],
+          "image": null
+        },
+        {
+          "id": "built-cowboy-space-big-iron-2026-10-27",
+          "headline": "Cowboy Space unveils a rocket whose upper stage becomes a data centre",
+          "summary": "Cowboy Space says the upper stage of its Big Iron rocket will stay in orbit as a data centre of about 1 megawatt, carrying five Nvidia Vera Rubin GPU racks. It has also applied to the US FCC for a 20,000-satellite network called Stampede. Nothing has launched yet.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Company announcement; the specs are not independently confirmed.",
+          "published_at": "2026-10-28T00:00:00-04:00",
+          "tags": ["space", "data centres", "Nvidia"],
+          "sources": [
+            { "name": "HPCwire", "url": "https://www.hpcwire.com/off-the-wire/cowboy-space-unveils-big-iron-rocket-designed-to-become-an-orbital-data-center/" }
+          ],
+          "image": null
+        }
+      ]
+    }
+  ],
+  "weekend_special": null,
+  "week_ahead": [
+    {
+      "date": "2026-11-02",
+      "events": [
+        { "text": "Cyclone Murasu expected to cross the south Andhra coast overnight", "section": "india" },
+        { "text": "US ISM manufacturing index for October", "section": "markets" },
+        { "text": "Apple and Palantir report results", "section": "markets" }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "events": [
+        { "text": "US midterm elections", "section": "world" },
+        { "text": "Reserve Bank of Australia rate decision", "section": "markets" },
+        { "text": "AMD and Pfizer report results", "section": "markets" }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "events": [
+        { "text": "US ISM services index", "section": "markets" },
+        { "text": "Israel's election results due to be certified", "section": "world" }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "events": [
+        { "text": "Bank of England rate decision", "section": "markets" }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "events": [
+        { "text": "US October jobs report", "section": "markets" }
+      ]
+    }
+  ]
+}
