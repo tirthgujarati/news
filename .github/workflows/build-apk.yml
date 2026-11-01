@@ -1,0 +1,90 @@
+name: Build APK
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "app/**"
+      - ".github/workflows/build-apk.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write # to create GitHub Releases
+
+concurrency:
+  group: build-apk
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: "3.47.9"
+          cache: true
+
+      - run: flutter pub get
+      - run: flutter analyze --no-fatal-infos
+      - run: flutter test
+
+      - name: Read version from pubspec
+        id: version
+        run: |
+          VERSION=$(grep '^version:' pubspec.yaml | sed -E 's/version: *([0-9.]+).*/\1/')
+          echo "name=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Decode signing key
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+        run: |
+          if [ -z "$ANDROID_KEYSTORE_BASE64" ]; then
+            echo "::error::ANDROID_KEYSTORE_BASE64 secret is missing"; exit 1
+          fi
+          echo "$ANDROID_KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/release.p12"
+
+      - name: Build signed release APKs
+        env:
+          ANDROID_KEYSTORE_PATH: ${{ runner.temp }}/release.p12
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: >
+          flutter build apk --release --split-per-abi
+          --build-name=${{ steps.version.outputs.name }}
+          --build-number=${{ github.run_number }}
+          --dart-define=APP_VERSION=${{ steps.version.outputs.name }}+${{ github.run_number }}
+
+      - name: Check size (target under 25 MB)
+        run: |
+          APK=build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
+          SIZE=$(stat -c %s "$APK")
+          echo "arm64 APK: $((SIZE / 1024 / 1024)) MB"
+          [ "$SIZE" -lt $((25 * 1024 * 1024)) ] || echo "::warning::APK is over 25 MB"
+          cp "$APK" "$RUNNER_TEMP/apex.apk"
+
+      - name: Publish release v${{ steps.version.outputs.name }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.version.outputs.name }}
+          BUILD: ${{ github.run_number }}
+        run: |
+          NOTES="apex $VERSION (build $BUILD). Install apex.apk on your Android phone."
+          gh release delete "v$VERSION" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "v$VERSION" "$RUNNER_TEMP/apex.apk" \
+            --title "apex $VERSION" --notes "$NOTES" --target "$GITHUB_SHA"
+          # A fixed "latest" release, so the download link never changes.
+          gh release delete latest --yes --cleanup-tag 2>/dev/null || true
+          gh release create latest "$RUNNER_TEMP/apex.apk" \
+            --title "Latest build" --notes "$NOTES" --target "$GITHUB_SHA" --prerelease

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- apex letter mark: a bold "A" with the green dot from the Night desk logo.
+     108dp canvas; the visible safe zone is the middle 66dp. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#E9EDF2"
+        android:fillType="evenOdd"
+        android:pathData="M48.5,31 L59.5,31 L77,77 L67.5,77 L63.9,67 L44.1,67 L40.5,77 L31,77 Z M46.9,59 L61.1,59 L54,39.2 Z" />
+    <path
+        android:fillColor="#5EE0A0"
+        android:pathData="M79,73 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+</vector>

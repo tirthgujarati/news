@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>apex Home mockups</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Inter:wght@400;500;600&family=Inter+Tight:wght@600;800;900&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root { --page:#e9e9ee; --ink:#111; --muted:#666; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--page); font-family:Inter, system-ui, sans-serif; color:var(--ink); padding:24px 16px 48px; }
+  header.page { max-width:1180px; margin:0 auto 20px; }
+  header.page h1 { font:800 22px/1.2 Archivo, sans-serif; }
+  header.page p { color:var(--muted); font-size:14px; margin-top:6px; max-width:760px; }
+  .row { display:flex; flex-wrap:wrap; gap:28px; justify-content:center; max-width:1180px; margin:0 auto; }
+  .col { display:flex; flex-direction:column; align-items:center; gap:10px; }
+  .label { font:700 15px Archivo, sans-serif; }
+  .label small { display:block; font:400 12.5px Inter, sans-serif; color:var(--muted); text-align:center; margin-top:2px; }
+  .phone { width:360px; height:760px; border-radius:36px; overflow:hidden; border:8px solid #1b1b1f; position:relative; box-shadow:0 18px 40px rgba(0,0,0,.18); }
+  .screen { height:100%; overflow-y:auto; scrollbar-width:none; }
+  .screen::-webkit-scrollbar { display:none; }
+  .status { height:28px; display:flex; justify-content:space-between; align-items:center; padding:0 18px; font:600 12px Inter, sans-serif; }
+  img { display:block; width:100%; object-fit:cover; }
+  .up { color:#14a44d; } .down { color:#e5383b; } .flat { opacity:.6; }
+  .tag1 { font:600 9.5px Inter, sans-serif; letter-spacing:.04em; text-transform:uppercase; padding:2px 6px; border-radius:4px; margin-left:6px; white-space:nowrap; }
+
+  /* ---------- A: Paper ---------- */
+  .A { background:#fafaf7; color:#111; }
+  .A .bar { padding:6px 18px 10px; display:flex; justify-content:space-between; align-items:flex-end; }
+  .A .brand { font:900 28px/1 Archivo, sans-serif; letter-spacing:-.03em; }
+  .A .ed { text-align:right; font-size:11.5px; color:#555; line-height:1.35; }
+  .A .ed b { color:#111; font-weight:600; }
+  .A .ticker { display:flex; gap:8px; overflow-x:auto; padding:2px 18px 12px; scrollbar-width:none; border-bottom:1px solid #e4e2dc; }
+  .A .tile { flex:0 0 auto; background:#fff; border:1px solid #e7e5df; border-radius:10px; padding:7px 10px; }
+  .A .tile .l { font-size:10.5px; color:#666; }
+  .A .tile .v { font:700 14px Archivo, sans-serif; margin-top:1px; }
+  .A .tile .c { font-size:10.5px; font-weight:600; }
+  .A .lead { margin:14px 18px 6px; background:#fff; border-radius:16px; overflow:hidden; border:1px solid #e7e5df; }
+  .A .lead img { height:190px; }
+  .A .lead .body { padding:12px 14px 14px; }
+  .A .lead h2 { font:800 21px/1.18 Archivo, sans-serif; letter-spacing:-.01em; margin-top:6px; }
+  .A .lead p { font-size:13px; color:#444; margin-top:7px; line-height:1.45; }
+  .A .tabs { display:flex; gap:18px; overflow-x:auto; padding:12px 18px 0; border-bottom:1px solid #e4e2dc; scrollbar-width:none; position:sticky; top:0; background:#fafaf7; }
+  .A .tab { flex:0 0 auto; font:700 13px Archivo, sans-serif; color:#888; padding-bottom:9px; border-bottom:3px solid transparent; }
+  .A .tab.on { color:#111; border-color:var(--sec); }
+  .A .story { padding:14px 18px; border-bottom:1px solid #ebe9e3; }
+  .A .story img { height:150px; border-radius:10px; margin-bottom:10px; }
+  .A .src { font:600 10.5px Inter, sans-serif; letter-spacing:.06em; text-transform:uppercase; color:#777; display:flex; align-items:center; }
+  .A .src .dot { width:7px; height:7px; border-radius:50%; background:var(--sec); margin-right:6px; }
+  .A .story h3 { font:800 16px/1.25 Archivo, sans-serif; margin-top:5px; }
+  .A .story p { font-size:12.5px; color:#555; margin-top:5px; line-height:1.45; }
+  .A .tag1 { background:#f1ede4; color:#7a6a45; }
+
+  /* ---------- B: Night desk ---------- */
+  .B { background:#0c0e12; color:#e9edf2; }
+  .B .bar { padding:6px 18px 12px; display:flex; justify-content:space-between; align-items:center; }
+  .B .brand { font:700 24px Space Grotesk, sans-serif; letter-spacing:-.02em; }
+  .B .brand span { color:#5ee0a0; }
+  .B .ed { font:500 11px JetBrains Mono, monospace; color:#8b95a3; text-align:right; line-height:1.4; }
+  .B .ticker { display:flex; overflow-x:auto; scrollbar-width:none; background:#12151b; border-top:1px solid #1f242c; border-bottom:1px solid #1f242c; }
+  .B .tile { flex:0 0 auto; padding:9px 14px; border-right:1px solid #1f242c; }
+  .B .tile .l { font-size:10px; color:#8b95a3; text-transform:uppercase; letter-spacing:.05em; }
+  .B .tile .v { font:500 13.5px JetBrains Mono, monospace; margin-top:2px; }
+  .B .tile .c { font:500 10.5px JetBrains Mono, monospace; }
+  .B .up { color:#4cd98a; } .B .down { color:#ff5c66; }
+  .B .lead { position:relative; margin:14px 14px 4px; border-radius:18px; overflow:hidden; height:300px; }
+  .B .lead img { height:100%; }
+  .B .lead .shade { position:absolute; inset:0; background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(5,7,10,.92) 85%); }
+  .B .lead .body { position:absolute; left:0; right:0; bottom:0; padding:16px; }
+  .B .lead h2 { font:700 22px/1.15 Space Grotesk, sans-serif; margin-top:6px; }
+  .B .lead p { font-size:12.5px; color:#c3cad4; margin-top:6px; line-height:1.4; }
+  .B .tabs { display:flex; gap:8px; overflow-x:auto; padding:12px 14px 8px; scrollbar-width:none; position:sticky; top:0; background:#0c0e12; }
+  .B .tab { flex:0 0 auto; font:500 12.5px Space Grotesk, sans-serif; color:#9aa4b2; padding:6px 12px; border-radius:20px; border:1px solid #232934; }
+  .B .tab.on { color:#0c0e12; background:var(--sec); border-color:var(--sec); font-weight:700; }
+  .B .story { padding:13px 18px; border-bottom:1px solid #1a1f27; }
+  .B .story img { height:150px; border-radius:12px; margin-bottom:10px; }
+  .B .src { font:500 10.5px JetBrains Mono, monospace; color:#8b95a3; text-transform:uppercase; display:flex; align-items:center; }
+  .B .src .dot { width:7px; height:7px; border-radius:2px; background:var(--sec); margin-right:7px; }
+  .B .story h3 { font:700 16px/1.25 Space Grotesk, sans-serif; margin-top:5px; }
+  .B .story p { font-size:12.5px; color:#9ea8b5; margin-top:5px; line-height:1.45; }
+  .B .tag1 { background:#2a2414; color:#e6c06a; font-family:JetBrains Mono, monospace; }
+
+  /* ---------- C: Bold ---------- */
+  .C { background:#fff; color:#0d0d0d; }
+  .C .bar { padding:4px 18px 8px; }
+  .C .brand { font:900 40px/0.95 'Inter Tight', sans-serif; letter-spacing:-.05em; }
+  .C .ed { font:600 12px Inter, sans-serif; color:#555; margin-top:4px; }
+  .C .ticker { display:flex; gap:16px; overflow-x:auto; padding:10px 18px; scrollbar-width:none; background:#0d0d0d; color:#fff; }
+  .C .tile { flex:0 0 auto; display:flex; gap:6px; align-items:baseline; font-size:12px; }
+  .C .tile .l { color:#aaa; font-weight:500; }
+  .C .tile .v { font:800 13px 'Inter Tight', sans-serif; }
+  .C .tile .c { font-weight:600; font-size:11px; }
+  .C .up { color:#3ddc84; } .C .down { color:#ff6b6b; }
+  .C .lead { margin:0 0 4px; }
+  .C .lead img { height:240px; }
+  .C .lead .body { padding:14px 18px 16px; border-bottom:6px solid #0d0d0d; }
+  .C .lead .kicker { font:800 11px 'Inter Tight', sans-serif; letter-spacing:.12em; text-transform:uppercase; color:var(--leadc); }
+  .C .lead h2 { font:900 26px/1.06 'Inter Tight', sans-serif; letter-spacing:-.02em; margin-top:6px; }
+  .C .lead p { font-size:13px; color:#333; margin-top:8px; line-height:1.45; }
+  .C .tabs { display:flex; overflow-x:auto; scrollbar-width:none; position:sticky; top:0; background:#fff; border-bottom:1px solid #e5e5e5; }
+  .C .tab { flex:0 0 auto; font:800 12.5px 'Inter Tight', sans-serif; text-transform:uppercase; letter-spacing:.04em; color:#999; padding:12px 12px 10px; }
+  .C .tab.on { color:#fff; background:var(--sec); }
+  .C .story { padding:14px 18px; border-bottom:1px solid #ececec; display:block; }
+  .C .story img { height:170px; margin:-14px -18px 12px; width:calc(100% + 36px); }
+  .C .src { font:700 10.5px Inter, sans-serif; letter-spacing:.06em; text-transform:uppercase; color:var(--sec); display:flex; align-items:center; }
+  .C .story h3 { font:800 17px/1.2 'Inter Tight', sans-serif; letter-spacing:-.01em; margin-top:5px; }
+  .C .story p { font-size:12.5px; color:#555; margin-top:5px; line-height:1.45; }
+  .C .tag1 { background:#fff1e0; color:#b35c00; }
+  .credit { font-size:9.5px; opacity:.6; margin-top:4px; }
+  .B .credit { color:#c3cad4; }
+</style>
+</head>
+<body>
+<header class="page">
+  <h1>apex · Home screen, 3 styles</h1>
+  <p>All three show the real Monday Morning Edition with the Money &amp; Markets tab open. Each has the market ticker, the lead story with its photo, section tabs, a source label above every headline and a "single source" tag where needed. Scroll inside each phone. Pick one, or mix parts (e.g. "B's lead, A's list").</p>
+</header>
+<div class="row" id="row"></div>
+<script>
+const ED = /*EDITION*/null;
+const SEC = {
+  A: { india:'#e8771e', world:'#2f6fde', currency:'#0e9f8e', markets:'#7a4dd8', built:'#c9184a' },
+  B: { india:'#ffa94d', world:'#6ea8ff', currency:'#3ee0c4', markets:'#b794ff', built:'#ff7aa2' },
+  C: { india:'#ff6a00', world:'#1d4ed8', currency:'#0d9488', markets:'#6d28d9', built:'#e11d48' },
+};
+const ABBR = { india:'India', world:'World', currency:'Currency Desk', markets:'Money & Markets', built:'Built This Week' };
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function istTime(iso) {
+  const d = new Date(iso);
+  const ist = new Date(d.getTime() + (330 + d.getTimezoneOffset()) * 60000);
+  const edDay = ED.date;
+  const day = ist.toISOString ? `${ist.getFullYear()}-${String(ist.getMonth()+1).padStart(2,'0')}-${String(ist.getDate()).padStart(2,'0')}` : '';
+  const hasTime = !/T00:00:00/.test(iso);
+  const mon = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][ist.getMonth()];
+  if (day === edDay && hasTime) {
+    let h = ist.getHours(), m = String(ist.getMinutes()).padStart(2,'0'), ap = h >= 12 ? 'PM' : 'AM'; h = h % 12 || 12;
+    return `${h}:${m} ${ap}`;
+  }
+  return `${mon} ${ist.getDate()}`;
+}
+const genTime = () => { const t = ED.generated_at.slice(11,16).split(':'); let h=+t[0]; const ap=h>=12?'PM':'AM'; h=h%12||12; return `${h}:${t[1]} ${ap}`; };
+const arrow = d => d === 'up' ? '▲' : d === 'down' ? '▼' : '';
+const lead = ED.sections.flatMap(s => s.stories.map(st => ({...st, sec:s.id}))).find(s => s.lead);
+const tabSec = 'markets';
+const stories = ED.sections.find(s => s.id === tabSec).stories;
+
+function tiles(style) {
+  return ED.snapshot.map(t => `<div class="tile"><div class="l">${esc(t.label)}</div><div class="v">${esc(t.value)}</div><div class="c ${t.dir}">${t.change ? arrow(t.dir)+' '+esc(t.change) : '—'}</div></div>`).join('');
+}
+function srcLine(st, withDot) {
+  return `<div class="src">${withDot ? '<span class="dot"></span>' : ''}${esc(st.sources[0].name)} · ${istTime(st.published_at)}${st.verified ? '' : '<span class="tag1">single source</span>'}</div>`;
+}
+function storyList(style, withDot) {
+  return stories.map((st, i) => `<div class="story">${i === 0 && st.image ? `<img referrerpolicy="no-referrer" src="${esc(st.image.url)}" alt="${esc(st.image.alt)}">` : ''}${srcLine(st, withDot)}<h3>${esc(st.headline)}</h3><p>${esc(st.summary.split('. ')[0])}.</p></div>`).join('');
+}
+function tabs() {
+  return ED.sections.map(s => `<div class="tab ${s.id === tabSec ? 'on' : ''}">${ABBR[s.id]}</div>`).join('');
+}
+const status = `<div class="status"><span>7:42</span><span>▴ ◆ ▮</span></div>`;
+
+const A = `<div class="screen A" style="--sec:${SEC.A[tabSec]}">${status}
+  <div class="bar"><div class="brand">apex</div><div class="ed"><b>${esc(ED.title)}</b><br>Updated ${genTime()}</div></div>
+  <div class="ticker">${tiles('A')}</div>
+  <div class="lead"><img referrerpolicy="no-referrer" src="${esc(lead.image.url)}" alt=""><div class="body" style="--sec:${SEC.A[lead.sec]}">${srcLine(lead, true)}<h2>${esc(lead.headline)}</h2><p>${esc(lead.why_it_matters)}</p><div class="credit">Photo: ${esc(lead.image.credit)}</div></div></div>
+  <div class="tabs">${tabs()}</div>${storyList('A', true)}</div>`;
+
+const B = `<div class="screen B" style="--sec:${SEC.B[tabSec]}">${status}
+  <div class="bar"><div class="brand">apex<span>.</span></div><div class="ed">${esc(ED.title.replace(' Edition',''))}<br>${genTime()} IST</div></div>
+  <div class="ticker">${tiles('B')}</div>
+  <div class="lead"><img referrerpolicy="no-referrer" src="${esc(lead.image.url)}" alt=""><div class="shade"></div><div class="body" style="--sec:${SEC.B[lead.sec]}">${srcLine(lead, true)}<h2>${esc(lead.headline)}</h2><p>${esc(lead.why_it_matters)}</p><div class="credit">Photo: ${esc(lead.image.credit)}</div></div></div>
+  <div class="tabs">${tabs()}</div>${storyList('B', true)}</div>`;
+
+const C = `<div class="screen C" style="--sec:${SEC.C[tabSec]};--leadc:${SEC.C[lead.sec]}">${status}
+  <div class="bar"><div class="brand">apex</div><div class="ed">${esc(ED.title)} · ${genTime()}</div></div>
+  <div class="ticker">${ED.snapshot.map(t => `<div class="tile"><span class="l">${esc(t.label)}</span><span class="v">${esc(t.value)}</span><span class="c ${t.dir}">${t.change ? arrow(t.dir)+esc(t.change) : ''}</span></div>`).join('')}</div>
+  <div class="lead"><img referrerpolicy="no-referrer" src="${esc(lead.image.url)}" alt=""><div class="body"><div class="kicker">Lead · ${ABBR[lead.sec]}</div><div style="--sec:${SEC.C[lead.sec]};margin-top:8px">${srcLine(lead, false)}</div><h2>${esc(lead.headline)}</h2><p>${esc(lead.why_it_matters)}</p><div class="credit">Photo: ${esc(lead.image.credit)}</div></div></div>
+  <div class="tabs">${tabs()}</div>${storyList('C', false)}</div>`;
+
+const cols = [
+  ['A · Paper', 'Light, calm, newspaper-like. Archivo headlines.', A],
+  ['B · Night desk', 'Dark, finance-terminal feel. Space Grotesk + mono numbers.', B],
+  ['C · Bold', 'Loud magazine look, full-width photos. Inter Tight Black.', C],
+];
+document.getElementById('row').innerHTML = cols.map(([t, s, html]) =>
+  `<div class="col"><div class="label">${t}<small>${s}</small></div><div class="phone">${html}</div></div>`).join('');
+</script>
+</body>
+</html>

@@ -13,3 +13,13 @@ key.properties
 Thumbs.db
 .vscode/
 .idea/
+
+# Local design previews (photos are never committed)
+design/_cache/
+design/mockups.html
+
+# Visual check renders (machine-specific)
+app/test_goldens/goldens/
+
+# Local editor/preview config
+.claude/
