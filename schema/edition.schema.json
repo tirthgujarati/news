@@ -48,6 +48,11 @@
         }
       ]
     },
+    "forex_results": {
+      "description": "Actual results of released High/Medium Forex Factory events. The app adds them to its live calendar.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/forex_result" }
+    },
     "week_ahead": {
       "type": "array",
       "items": {
@@ -183,6 +188,30 @@
           "maxItems": 4,
           "items": { "$ref": "#/$defs/impact" }
         }
+      }
+    },
+    "forex_result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["country", "title", "date", "impact", "actual", "vs_forecast", "why", "source"],
+      "properties": {
+        "country": { "enum": ["USD", "EUR", "GBP", "JPY", "AUD", "CAD", "CHF", "NZD", "CNY"] },
+        "title": {
+          "description": "Exactly as in the Forex Factory feed",
+          "type": "string", "minLength": 1, "maxLength": 80
+        },
+        "date": {
+          "description": "Exactly as in the Forex Factory feed, e.g. 2026-11-02T10:00:00-05:00",
+          "$ref": "#/$defs/any_time"
+        },
+        "impact": { "enum": ["High", "Medium"] },
+        "actual": { "type": "string", "minLength": 1, "maxLength": 24 },
+        "vs_forecast": {
+          "description": "For the currency: better or worse than forecast, in line, or no forecast given",
+          "enum": ["better", "worse", "in_line", "no_forecast"]
+        },
+        "why": { "type": "string", "minLength": 1, "maxLength": 160 },
+        "source": { "$ref": "#/$defs/source" }
       }
     },
     "impact": {

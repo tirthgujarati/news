@@ -183,6 +183,42 @@ and which way. The app shows each as a coloured chip, e.g. "● GOLD ▼" in red
   moves; many stories (e.g. most World and Built stories) have `[]`. Never
   invent an effect to fill the list. Weekend Special stories use `[]`.
 
+## Forex results
+
+The app has a Forex tab that reads Forex Factory's live calendar itself. The
+feed has forecast and previous values but **no actual results**, so each run
+adds them:
+
+1. Fetch `https://nfs.faireconomy.media/ff_calendar_thisweek.json`.
+2. Take every event with `impact` `"High"` or `"Medium"` whose time has passed
+   in the last 24 hours. (Reuse an actual already in `data/latest.json`'s
+   `forex_results` instead of looking it up again.)
+3. Find its actual result from a trusted or official source (the statistics
+   agency or central bank first; then Reuters, CNBC, Bloomberg, FXStreet,
+   Investing.com via search). Never guess a number. If you can't confirm it,
+   leave that event out.
+4. Add it to the edition's `forex_results`:
+
+```json
+"forex_results": [
+  {"country": "USD", "title": "ISM Manufacturing PMI",
+   "date": "2026-11-02T10:00:00-05:00", "impact": "Medium",
+   "actual": "55.1", "vs_forecast": "better",
+   "why": "Factories grew faster than expected, which supports the dollar.",
+   "source": {"name": "ISM", "url": "https://..."}}
+]
+```
+
+- `country`, `title`, `date` and `impact` are copied **exactly** from the
+  feed; the app matches on them.
+- `vs_forecast` is from the currency's point of view: `better` (good for that
+  currency, e.g. higher growth or inflation above forecast), `worse`,
+  `in_line`, or `no_forecast` (speeches, statements, elections).
+- `why`: one plain sentence, under 160 characters, on what it means for the
+  currency (and for India if relevant).
+- Include results from the last 24 hours, even ones an earlier edition already
+  had, so the newest edition always carries the day's results. `[]` if none.
+
 ## Market snapshot
 
 Cover, each with `value`, `change` (percent as a string, or `null` if unknown),
