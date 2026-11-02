@@ -56,6 +56,17 @@ void main() {
     expect(Edition.fromJson(old).allStories.every((s) => s.impact.isEmpty), isTrue);
   });
 
+  test('labels sectors, companies and currencies by name', () {
+    ImpactTag tag(String on, [String? detail]) =>
+        ImpactTag(on: on, detail: detail, level: 'high', dir: 'up', why: 'x');
+    expect(tag('indian_stocks', 'Defence').label, 'Defence stocks');
+    expect(tag('us_stocks', 'Tech').label, 'US Tech stocks');
+    expect(tag('company', 'Reliance').label, 'Reliance');
+    expect(tag('currency', 'Dollar').label, 'Dollar');
+    expect(tag('india_economy').label, 'Economy');
+    expect(tag('gold').label, 'Gold');
+  });
+
   test('keeps the raw story JSON for Saved', () {
     final e = parseEdition(fixture());
     final st = e.allStories.first;

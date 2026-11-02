@@ -38,10 +38,11 @@ class StoryImage {
 /// Shown as a chip: red = high, orange = medium, yellow = low.
 class ImpactTag {
   /// indian_stocks, gold, silver, oil, rupee, crypto, rates, us_stocks,
-  /// india_economy.
+  /// india_economy, company, currency.
   final String on;
 
-  /// Optional narrower target, e.g. a sector ("IT") for indian_stocks.
+  /// Narrower target named in the news: a sector ("Defence"), a company
+  /// ("Reliance") or a currency ("Dollar").
   final String? detail;
 
   /// high, medium or low.
@@ -79,11 +80,22 @@ class ImpactTag {
     'india_economy': 'Economy',
   };
 
-  /// "Gold", or "IT stocks" when a sector is given.
+  /// "Gold"; "IT stocks" / "US Tech stocks" for a sector; the name itself
+  /// for a company ("Reliance") or currency ("Dollar").
   String get label {
-    if (on == 'indian_stocks' && detail != null) return '$detail stocks';
+    final d = detail;
+    if (d != null) {
+      switch (on) {
+        case 'company' || 'currency':
+          return d;
+        case 'indian_stocks':
+          return '$d stocks';
+        case 'us_stocks':
+          return 'US $d stocks';
+      }
+    }
     final base = _labels[on] ?? on;
-    return detail == null ? base : '$base · $detail';
+    return d == null ? base : '$base · $d';
   }
 
   String get arrow => switch (dir) {
