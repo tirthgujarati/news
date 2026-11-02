@@ -93,13 +93,19 @@ So:
    allowed, with `"verified": false` and `note` saying so, e.g.
    `"Single source: All India Radio."`. The app shows a "single source" tag.
 4. No rumours. "Reportedly" or anonymous-source stories are left out.
-5. Write every headline and summary in your own words. No copied sentences.
+5. **One-side claims.** When a government, army, company or party makes a claim
+   about itself or a rival (e.g. Iran saying tankers hit mines), write it as
+   "<who> says ..." in the headline and summary. It counts as `verified: true`
+   only if an independent source confirms the facts; several outlets repeating
+   the same side's claim is still one claim, so `verified: false` with a `note`
+   such as `"Claim by Iran's IRGC; not independently confirmed."`.
+6. Write every headline and summary in your own words. No copied sentences.
    Quotes under 15 words, at most one per source.
-6. Stamp the edition with its generation time in IST (`+05:30`), and give every
+7. Stamp the edition with its generation time in IST (`+05:30`), and give every
    snapshot number an `as_of` time. If only the date of a time is known, use
    `T00:00:00` with the source's offset; never invent a time.
-7. If a section has no real news, include fewer stories. Never pad.
-8. Don't repeat a story from the previous edition (`data/latest.json` before you
+8. If a section has no real news, include fewer stories. Never pad.
+9. Don't repeat a story from the previous edition (`data/latest.json` before you
    overwrite it) unless something new happened. If so, say what changed.
 
 ## Sorting and writing
@@ -120,9 +126,15 @@ Photos go on **the lead story and the first story of each section only**
 
 - Use the main photo of a trusted source article you opened for that story
   (usually the page's `og:image`). Prefer the page cited in `sources`.
+- If no news article has a usable photo, a **real photograph from an official
+  source** is allowed: a company's own product or press photo (newsroom, press
+  kit), or a government/PIB/agency photo of the event. `credit` names that
+  source (e.g. `"Apple"`, `"PIB"`); `source_url` is the official page.
 - It must be a **real, clear photograph** of the subject: no AI-generated or
-  illustrated images, no animations/GIFs, no logos, charts, stock "concept"
-  art, or generic placeholder images. If there's no good real photo, use `null`.
+  illustrated images, no 3D renders, no animations/GIFs, no logos, charts, maps,
+  murals, text overlays, stock "concept" art, or generic placeholder images. If
+  there's no good real photo, use `null`.
+- Download each candidate to `/tmp` and look at it before using it.
 - `url` is the direct link to the image file; `source_url` is the article page;
   `credit` is the photographer/agency as shown on the page (else the publisher
   name); `alt` is a short plain description of what the photo shows.
@@ -168,3 +180,6 @@ short `text` and the `section` it belongs to. Only scheduled, confirmed events
 5. `python tools/validate.py`. If it fails, fix the edition and run it again.
    **Never commit an invalid file.**
 6. Commit `edition: YYYY-MM-DD <slot> (N stories)` and push to `main`.
+7. If the edition could not be published (push refused, validation still
+   failing, or no edition written), send a phone notification saying why. Send
+   none when it publishes normally.
