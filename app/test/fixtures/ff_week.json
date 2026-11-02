@@ -1,0 +1,82 @@
+[
+ {
+  "title": "ISM Manufacturing PMI",
+  "country": "USD",
+  "date": "2026-11-02T10:00:00-05:00",
+  "impact": "Medium",
+  "forecast": "54.5",
+  "previous": "54.5"
+ },
+ {
+  "title": "Cash Rate",
+  "country": "AUD",
+  "date": "2026-11-02T22:30:00-05:00",
+  "impact": "High",
+  "forecast": "4.85%",
+  "previous": "4.60%"
+ },
+ {
+  "title": "RBA Monetary Policy Statement",
+  "country": "AUD",
+  "date": "2026-11-02T22:30:00-05:00",
+  "impact": "High",
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "title": "RBA Rate Statement",
+  "country": "AUD",
+  "date": "2026-11-02T22:30:00-05:00",
+  "impact": "High",
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "title": "RBA Press Conference",
+  "country": "AUD",
+  "date": "2026-11-02T23:30:00-05:00",
+  "impact": "High",
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "title": "CPI m/m",
+  "country": "CHF",
+  "date": "2026-11-03T02:30:00-05:00",
+  "impact": "Medium",
+  "forecast": "0.0%",
+  "previous": "0.0%"
+ },
+ {
+  "title": "JOLTS Job Openings",
+  "country": "USD",
+  "date": "2026-11-03T10:00:00-05:00",
+  "impact": "Medium",
+  "forecast": "7.11M",
+  "previous": "7.08M"
+ },
+ {
+  "title": "Congressional Elections",
+  "country": "USD",
+  "date": "2026-11-03T10:16:00-05:00",
+  "impact": "High",
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "title": "MI Inflation Gauge m/m",
+  "country": "AUD",
+  "date": "2026-11-01T19:00:00-05:00",
+  "impact": "Low",
+  "forecast": "",
+  "previous": "0.3%"
+ },
+ {
+  "title": "Building Approvals m/m",
+  "country": "AUD",
+  "date": "2026-11-01T19:30:00-05:00",
+  "impact": "Low",
+  "forecast": "1.8%",
+  "previous": "-6.1%"
+ }
+]

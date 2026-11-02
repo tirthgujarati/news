@@ -11,6 +11,7 @@ import 'data/remote.dart';
 import 'data/settings.dart';
 import 'theme/look.dart';
 import 'ui/archive_screen.dart';
+import 'ui/forex_screen.dart';
 import 'ui/home_screen.dart';
 import 'ui/saved_screen.dart';
 import 'ui/scope.dart';
@@ -106,6 +107,7 @@ class _ShellState extends State<Shell> {
     final look = Look.of(context);
     final screens = [
       const HomeScreen(),
+      const ForexScreen(),
       const WeekAheadScreen(),
       const SavedScreen(),
       ArchiveScreen(onOpened: () => setState(() => _tab = 0)),
@@ -122,6 +124,7 @@ class _ShellState extends State<Shell> {
         labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
         destinations: const [
           NavigationDestination(icon: Icon(Icons.newspaper_outlined), selectedIcon: Icon(Icons.newspaper), label: 'Home'),
+          NavigationDestination(icon: Icon(Icons.currency_exchange), label: 'Forex'),
           NavigationDestination(icon: Icon(Icons.event_outlined), selectedIcon: Icon(Icons.event), label: 'Week'),
           NavigationDestination(icon: Icon(Icons.bookmark_border), selectedIcon: Icon(Icons.bookmark), label: 'Saved'),
           NavigationDestination(icon: Icon(Icons.history), label: 'Archive'),

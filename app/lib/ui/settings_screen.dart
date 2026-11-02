@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../data/settings.dart';
+import '../models/forex.dart' show forexCurrencies;
 import '../theme/look.dart';
 import 'format.dart';
 import 'widgets.dart';
@@ -105,6 +106,22 @@ class SettingsScreen extends StatelessWidget {
               onChanged: (v) => s.photosWifiOnly = v,
             ),
             const _StorageUsed(),
+            heading('Forex calendar currencies'),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 18),
+              child: Wrap(spacing: 8, runSpacing: 8, children: [
+                for (final c in forexCurrencies)
+                  FilterChip(
+                    label: Text(c),
+                    selected: s.forexShown.contains(c),
+                    onSelected: (on) {
+                      final next = {...s.forexShown};
+                      on ? next.add(c) : next.remove(c);
+                      s.forexShown = next;
+                    },
+                  ),
+              ]),
+            ),
             heading('Updates'),
             ListTile(
               contentPadding: const EdgeInsets.symmetric(horizontal: 18),

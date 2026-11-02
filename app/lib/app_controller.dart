@@ -9,6 +9,7 @@ import 'data/remote.dart';
 import 'data/settings.dart';
 import 'data/sync.dart';
 import 'models/edition.dart';
+import 'models/forex.dart';
 import 'startup_timer.dart';
 
 /// App state: which edition is showing, online/offline, saved stories.
@@ -47,12 +48,28 @@ class AppController extends ChangeNotifier {
 
   bool get ready => edition != null;
 
+  /// Forex Factory's calendar (all impacts), oldest first.
+  List<ForexEvent> forexEvents = const [];
+
+  /// True when the last Forex Factory download failed (showing the copy
+  /// stored on the phone).
+  bool forexOffline = false;
+
+  /// Red and orange events for the currencies chosen in Settings.
+  List<ForexEvent> get forexShown {
+    final ccy = settings.forexShown;
+    return [for (final e in forexEvents) if (e.shown && ccy.contains(e.country)) e];
+  }
+
+  ForexResult? forexResult(ForexEvent e) => store.forexResults[e.key];
+
   /// Time from tapping the icon to readable news on this launch (cold
   /// starts only), shown in Settings.
   int? openedInMs;
 
   Future<void> start() async {
     await store.init();
+    forexEvents = parseForexFeeds(await store.readForexFeeds());
     if (store.entries.isNotEmpty) {
       await _show(store.entries.first.editionId);
     }
@@ -72,6 +89,8 @@ class AppController extends ChangeNotifier {
     if (refreshing) return;
     refreshing = true;
     notifyListeners();
+    // The Forex calendar is fetched alongside; its failure doesn't affect news.
+    final forex = _refreshForex();
     try {
       await _updatePhotoPermission();
       final result = await syncEditions(remote, store);
@@ -94,8 +113,24 @@ class AppController extends ChangeNotifier {
       debugPrint('Refresh failed: $e');
       offline = true;
     } finally {
+      await forex;
       refreshing = false;
       notifyListeners();
+    }
+  }
+
+  Future<void> _refreshForex() async {
+    try {
+      final raws = await remote.fetchForexFeeds();
+      final events = parseForexFeeds(raws);
+      if (events.isNotEmpty) {
+        forexEvents = events;
+        await store.saveForexFeeds(raws);
+      }
+      forexOffline = false;
+    } catch (e) {
+      debugPrint('Forex calendar refresh failed: $e');
+      forexOffline = true;
     }
   }
 

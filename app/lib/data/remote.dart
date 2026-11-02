@@ -6,6 +6,10 @@ import 'package:http/http.dart' as http;
 const dataBaseUrl =
     'https://raw.githubusercontent.com/tirthgujarati/news/main/data/';
 
+/// Forex Factory's public weekly calendar feeds (red/orange/low events).
+const forexThisWeekUrl = 'https://nfs.faireconomy.media/ff_calendar_thisweek.json';
+const forexNextWeekUrl = 'https://nfs.faireconomy.media/ff_calendar_nextweek.json';
+
 /// Some photo and data servers refuse requests that don't say who they are.
 const userAgent = 'apex-news/1.0 (Android; personal news reader)';
 
@@ -40,6 +44,19 @@ class Remote {
 
   /// The edition's JSON text. [path] is relative to data/.
   Future<String> fetchEdition(String path) => _get('$dataBaseUrl$path');
+
+  /// Forex Factory's public calendar: this week, plus next week once it's
+  /// published (it may not exist yet early in the week).
+  Future<List<String>> fetchForexFeeds() async {
+    final thisWeek = await _get(forexThisWeekUrl);
+    String? nextWeek;
+    try {
+      nextWeek = await _get(forexNextWeekUrl);
+    } catch (_) {
+      nextWeek = null;
+    }
+    return [thisWeek, ?nextWeek];
+  }
 
   Future<String> _get(String url) async {
     final res = await _client

@@ -45,6 +45,7 @@ Future<AppController> makeTestApp(
   await store.init();
   final raw = File('test/fixtures/edition.json').readAsStringSync();
   await store.save(raw, parseEdition(raw));
+  await store.saveForexFeeds([File('test/fixtures/ff_week.json').readAsStringSync()]);
   final cache = PhotoCache(dir, MockClient((_) async => throw const SocketException('offline')));
   for (final MapEntry(key: url, value: path) in photos.entries) {
     final f = cache.fileFor(url);

@@ -68,4 +68,19 @@ void main() {
       });
     }
   }
+
+  testWidgets('forex night dark', timeout: const Timeout(Duration(minutes: 2)), (tester) async {
+    final dir = Directory.systemTemp.createTempSync('golden');
+    addTearDown(() => dir.deleteSync(recursive: true));
+    tester.view.physicalSize = const Size(1080, 2340);
+    tester.view.devicePixelRatio = 2.625;
+    addTearDown(tester.view.reset);
+    final app = (await tester.runAsync(() => makeTestApp(dir)))!;
+    await tester.pumpWidget(ApexApp(app: app));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Forex').last);
+    await tester.pumpAndSettle();
+    await expectLater(find.byType(MaterialApp), matchesGoldenFile('goldens/forex_night_dark.png'));
+  });
 }
+

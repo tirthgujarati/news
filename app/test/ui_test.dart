@@ -4,6 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:newsapp/data/settings.dart';
 import 'package:newsapp/main.dart';
+import 'package:newsapp/theme/look.dart';
+import 'package:newsapp/ui/forex_screen.dart';
+import 'package:newsapp/ui/scope.dart';
 
 import 'ui_helpers.dart';
 
@@ -50,7 +53,7 @@ void main() {
 
   testWidgets('every bottom tab opens without errors', (tester) async {
     await pumpApp(tester, AppStyle.night, ThemeMode.dark);
-    for (final tab in ['Week', 'Saved', 'Archive', 'Settings', 'Home']) {
+    for (final tab in ['Forex', 'Week', 'Saved', 'Archive', 'Settings', 'Home']) {
       await tester.tap(find.text(tab).last);
       await tester.pumpAndSettle();
       expect(tester.takeException(), isNull, reason: tab);
@@ -99,5 +102,36 @@ void main() {
     await tester.enterText(find.byType(TextField), 'binance');
     await tester.pumpAndSettle();
     expect(find.textContaining('Binance hack'), findsOneWidget);
+  });
+
+  testWidgets('Forex tab: next event, IST times, actual result', (tester) async {
+    tester.view.physicalSize = const Size(1080, 2400);
+    tester.view.devicePixelRatio = 2.625;
+    addTearDown(tester.view.reset);
+    final app = (await tester.runAsync(() => makeTestApp(dir)))!;
+    // 2 Nov 2026, 6:00 PM IST; ISM is at 8:30 PM IST (10:00 AM New York).
+    final now = DateTime.utc(2026, 11, 2, 12, 30);
+    await tester.pumpWidget(AppScope(
+      app: app,
+      child: MaterialApp(
+        theme: themeFor(AppStyle.night, Brightness.dark),
+        home: ForexScreen(now: now),
+      ),
+    ));
+    await tester.pumpAndSettle();
+    expect(find.text('NEXT'), findsOneWidget);
+    expect(find.text('USD  ISM Manufacturing PMI'), findsOneWidget);
+    expect(find.text('in 2h 30m'), findsOneWidget);
+    expect(find.text('Actual 55.1'), findsOneWidget);
+    expect(find.text('HIGH'), findsWidgets);
+    expect(find.text('MED'), findsWidgets);
+    expect(find.textContaining('MI Inflation Gauge'), findsNothing); // Low impact
+    expect(tester.takeException(), isNull);
+
+    // Hide USD in Settings: US events disappear.
+    app.settings.forexShown = {'AUD', 'CHF'};
+    await tester.pumpAndSettle();
+    expect(find.textContaining('ISM Manufacturing'), findsNothing);
+    expect(find.textContaining('Cash Rate'), findsWidgets);
   });
 }

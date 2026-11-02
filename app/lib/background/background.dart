@@ -69,6 +69,11 @@ Future<bool> _checkForEditions() async {
   final photos = PhotoCache(docs);
   try {
     final result = await syncEditions(remote, store);
+    try {
+      await store.saveForexFeeds(await remote.fetchForexFeeds());
+    } catch (_) {
+      // The Forex tab keeps its last copy.
+    }
     await store.prune(settings.keepTextDays, DateTime.now());
 
     var photosAllowed = true;

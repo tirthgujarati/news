@@ -1,6 +1,8 @@
 /// Data model for one news edition, matching schema/edition.schema.json.
 library;
 
+import 'forex.dart';
+
 const supportedSchemaVersion = 1;
 
 const sectionOrder = ['india', 'world', 'currency', 'markets', 'built'];
@@ -279,6 +281,9 @@ class Edition {
   final WeekendSpecial? weekendSpecial;
   final List<WeekDay> weekAhead;
 
+  /// Actual results the editor added for released Forex Factory events.
+  final List<ForexResult> forexResults;
+
   const Edition({
     required this.schemaVersion,
     required this.editionId,
@@ -290,6 +295,7 @@ class Edition {
     required this.sections,
     required this.weekendSpecial,
     required this.weekAhead,
+    this.forexResults = const [],
   });
 
   /// Throws [FormatException] for an unknown schema version or bad shape.
@@ -323,6 +329,9 @@ class Edition {
               ),
         weekAhead: (j['week_ahead'] as List)
             .map((d) => WeekDay.fromJson(d as Map<String, dynamic>))
+            .toList(),
+        forexResults: ((j['forex_results'] as List?) ?? const [])
+            .map((r) => ForexResult.fromJson(r as Map<String, dynamic>))
             .toList(),
       );
     } on TypeError catch (e) {

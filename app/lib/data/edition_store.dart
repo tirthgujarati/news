@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import '../models/edition.dart';
+import '../models/forex.dart';
 
 /// One edition in the local archive list (kept small so the list loads fast).
 class EditionEntry {
@@ -138,11 +139,14 @@ class EditionStore {
   Future<void>? _hitsLoading;
   bool _hitsLoaded = false;
   List<SavedStory> _saved = [];
+  Map<String, ForexResult> _fxResults = {};
 
   Directory get _editionsDir => Directory('${root.path}/editions');
   File get _indexFile => File('${root.path}/editions_index.json');
   File get _searchFile => File('${root.path}/search_index.json');
   File get _savedFile => File('${root.path}/saved.json');
+  File get _fxResultsFile => File('${root.path}/forex_results.json');
+  File get _fxFeedFile => File('${root.path}/forex_feed.json');
   File _editionFile(String id) => File('${_editionsDir.path}/$id.json');
 
   /// Newest first.
@@ -153,6 +157,9 @@ class EditionStore {
     await _editionsDir.create(recursive: true);
     _entries = await _readList(_indexFile, EditionEntry.fromJson);
     _saved = await _readList(_savedFile, SavedStory.fromJson);
+    _fxResults = {
+      for (final r in await _readList(_fxResultsFile, ForexResult.fromJson)) r.key: r
+    };
   }
 
   /// The search index can grow past 1 MB, so it is read after the first
@@ -203,7 +210,33 @@ class EditionStore {
       ));
     }
     await _writeList(_searchFile, _hits.map((h) => h.toJson()));
+
+    if (edition.forexResults.isNotEmpty) {
+      for (final r in edition.forexResults) {
+        _fxResults[r.key] = r;
+      }
+      // Results older than ~2 weeks are no longer on the calendar.
+      final cutoff = DateTime.now().subtract(const Duration(days: 16));
+      _fxResults.removeWhere((_, r) => r.date.isBefore(cutoff));
+      await _writeList(_fxResultsFile, _fxResults.values.map((r) => r.toJson()));
+    }
   }
+
+  /// Actual results for Forex Factory events, by [ForexEvent.key].
+  Map<String, ForexResult> get forexResults => Map.unmodifiable(_fxResults);
+
+  /// The last Forex Factory feeds downloaded (JSON arrays), for offline use.
+  Future<List<String>> readForexFeeds() async {
+    if (!await _fxFeedFile.exists()) return const [];
+    try {
+      return (jsonDecode(await _fxFeedFile.readAsString()) as List).cast<String>();
+    } catch (_) {
+      return const [];
+    }
+  }
+
+  Future<void> saveForexFeeds(List<String> raws) =>
+      _writeAtomic(_fxFeedFile, jsonEncode(raws));
 
   /// Deletes editions whose date is more than [keepDays] before [today].
   /// `null` keeps everything. The newest edition is always kept.

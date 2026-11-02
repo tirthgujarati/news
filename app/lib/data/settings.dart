@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../models/forex.dart' show forexCurrencies;
+
 /// The three looks the app can wear. Night desk is the default.
 enum AppStyle { night, paper, bold }
 
@@ -47,6 +49,7 @@ class Settings extends ChangeNotifier {
   static const _kKeepText = 'keep_text_days';
   static const _kKeepPhotos = 'keep_photo_days';
   static const _kWifiOnly = 'photos_wifi_only';
+  static const _kForex = 'forex_currencies';
 
   AppStyle get style =>
       AppStyle.values.asNameMap()[_prefs.getString(_kStyle)] ?? AppStyle.night;
@@ -70,6 +73,12 @@ class Settings extends ChangeNotifier {
   set keepPhotoDays(int? v) => _set(() => _writeDays(_kKeepPhotos, v));
 
   bool get photosWifiOnly => _prefs.getBool(_kWifiOnly) ?? false;
+
+  /// Currencies shown in the Forex tab. All 9 by default.
+  Set<String> get forexShown =>
+      (_prefs.getStringList(_kForex) ?? forexCurrencies).toSet();
+  set forexShown(Set<String> v) => _set(() => _prefs.setStringList(
+      _kForex, [for (final c in forexCurrencies) if (v.contains(c)) c]));
   set photosWifiOnly(bool v) => _set(() => _prefs.setBool(_kWifiOnly, v));
 
   // -1 is stored for "forever" so it differs from "never set".
