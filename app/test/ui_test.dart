@@ -123,6 +123,10 @@ void main() {
     expect(find.text('USD  ISM Manufacturing PMI'), findsOneWidget);
     expect(find.text('in 2h 30m'), findsOneWidget);
     expect(find.text('Actual 55.1'), findsOneWidget);
+    // Instant chips from actual vs forecast (ISM is orange/Medium).
+    expect(find.text('USD ▲'), findsOneWidget);
+    expect(find.text('GOLD ▼'), findsOneWidget);
+    expect(find.text('RUPEE ▼'), findsOneWidget);
     expect(find.text('HIGH'), findsWidgets);
     expect(find.text('MED'), findsWidgets);
     expect(find.textContaining('MI Inflation Gauge'), findsNothing); // Low impact

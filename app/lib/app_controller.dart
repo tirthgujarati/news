@@ -4,6 +4,7 @@ import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/widgets.dart';
 
 import 'data/edition_store.dart';
+import 'data/forex_live.dart';
 import 'data/photo_cache.dart';
 import 'data/remote.dart';
 import 'data/settings.dart';
@@ -22,7 +23,17 @@ class AppController extends ChangeNotifier {
     required this.store,
     required this.photos,
     required this.remote,
-  });
+    this.liveUpdates = true,
+  }) {
+    live = ForexLive(remote: remote, events: () => forexEvents);
+  }
+
+  /// Live actual results for the Forex tab (Myfxbook, checked every second
+  /// around releases while the app is open).
+  late final ForexLive live;
+
+  /// Off in tests, so nothing polls the network.
+  final bool liveUpdates;
 
   final Settings settings;
   final EditionStore store;
@@ -70,6 +81,7 @@ class AppController extends ChangeNotifier {
   Future<void> start() async {
     await store.init();
     forexEvents = parseForexFeeds(await store.readForexFeeds());
+    if (liveUpdates) live.start();
     if (store.entries.isNotEmpty) {
       await _show(store.entries.first.editionId);
     }
@@ -126,6 +138,7 @@ class AppController extends ChangeNotifier {
       if (events.isNotEmpty) {
         forexEvents = events;
         await store.saveForexFeeds(raws);
+        live.checkNow();
       }
       forexOffline = false;
     } catch (e) {
@@ -202,6 +215,7 @@ class AppController extends ChangeNotifier {
 
   @override
   void dispose() {
+    live.dispose();
     newEditionSignal.dispose();
     remote.close();
     super.dispose();

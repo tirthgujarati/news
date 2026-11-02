@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:io' show HttpDate, HttpException;
 
 import 'package:http/http.dart' as http;
 
@@ -9,6 +10,9 @@ const dataBaseUrl =
 /// Forex Factory's public weekly calendar feeds (red/orange/low events).
 const forexThisWeekUrl = 'https://nfs.faireconomy.media/ff_calendar_thisweek.json';
 const forexNextWeekUrl = 'https://nfs.faireconomy.media/ff_calendar_nextweek.json';
+
+/// Myfxbook's public calendar RSS: has actual results right after release.
+const liveCalendarUrl = 'https://www.myfxbook.com/rss/forex-economic-calendar-events';
 
 /// Some photo and data servers refuse requests that don't say who they are.
 const userAgent = 'apex-news/1.0 (Android; personal news reader)';
@@ -56,6 +60,27 @@ class Remote {
       nextWeek = null;
     }
     return [thisWeek, ?nextWeek];
+  }
+
+  /// Myfxbook's calendar, which has actual results seconds after release,
+  /// plus the server's clock (to correct a phone clock that is off).
+  /// Uses the same kept-alive connection every time, so each check is just
+  /// a ~5 KB gzip transfer with no new handshake.
+  Future<(String, DateTime?)> fetchLiveCalendar() async {
+    final res = await _client
+        .get(Uri.parse(liveCalendarUrl), headers: {'User-Agent': userAgent})
+        .timeout(const Duration(seconds: 8));
+    if (res.statusCode != 200) {
+      throw http.ClientException('HTTP ${res.statusCode}', Uri.parse(liveCalendarUrl));
+    }
+    final date = res.headers['date'];
+    DateTime? server;
+    try {
+      server = date == null ? null : HttpDate.parse(date);
+    } on HttpException {
+      server = null;
+    }
+    return (utf8.decode(res.bodyBytes), server);
   }
 
   Future<String> _get(String url) async {

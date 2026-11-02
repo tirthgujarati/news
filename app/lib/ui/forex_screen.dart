@@ -1,10 +1,62 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
+import '../app_controller.dart';
+import '../models/edition.dart' show ImpactTag, Source;
 import '../models/forex.dart';
+import '../models/live.dart' as rules;
 import '../theme/look.dart';
 import 'format.dart';
 import 'widgets.dart';
+
+/// What we know about one event right now: the actual (live first, then the
+/// editor's), the forecast, how it compares, and the instant chips.
+class Readout {
+  final String? actual;
+  final String forecast;
+  final String previous;
+
+  /// better, worse, in_line or no_forecast; null before release.
+  final String? verdict;
+  final List<ImpactTag> chips;
+
+  /// The editor's one-line meaning and source, once an edition has it.
+  final String? why;
+  final Source? source;
+
+  const Readout({
+    required this.actual,
+    required this.forecast,
+    required this.previous,
+    required this.verdict,
+    required this.chips,
+    required this.why,
+    required this.source,
+  });
+
+  factory Readout.of(AppController app, ForexEvent e) {
+    final row = app.live.rowFor(e);
+    final edited = app.forexResult(e);
+    final forecast = (row != null && row.consensus.isNotEmpty) ? row.consensus : e.forecast;
+    final previous = (row != null && row.previous.isNotEmpty) ? row.previous : e.previous;
+    final actual = (row != null && row.released) ? row.actual : edited?.actual;
+    String? v;
+    if (actual != null) {
+      v = rules.verdict(e.title, actual, forecast);
+      // Speeches and statements: use the editor's reading if there is one.
+      if (v == 'no_forecast' && edited != null) v = edited.vsForecast;
+    }
+    return Readout(
+      actual: actual,
+      forecast: forecast,
+      previous: previous,
+      verdict: v,
+      chips: actual == null || v == null ? const [] : rules.instantChips(e, actual, forecast, v),
+      why: edited?.why,
+      source: edited?.source,
+    );
+  }
+}
 
 /// Forex Factory's red (High) and orange (Medium) events, in IST.
 class ForexScreen extends StatelessWidget {
@@ -15,9 +67,9 @@ class ForexScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Rebuild when the currencies are changed in Settings.
+    // Rebuild on new live results and when currencies change in Settings.
     return ListenableBuilder(
-      listenable: context.app.settings,
+      listenable: Listenable.merge([context.app.settings, context.app.live]),
       builder: (context, _) => _build(context),
     );
   }
@@ -26,7 +78,7 @@ class ForexScreen extends StatelessWidget {
     final look = Look.of(context);
     final app = context.app;
     final events = app.forexShown;
-    final t = now ?? DateTime.now();
+    final t = now ?? app.live.now;
     final next = events.where((e) => e.date.isAfter(t)).firstOrNull;
 
     final rows = <Widget>[];
@@ -48,7 +100,7 @@ class ForexScreen extends StatelessWidget {
           ]),
         ));
       }
-      rows.add(_EventRow(event: e, result: app.forexResult(e), now: t));
+      rows.add(_EventRow(event: e, readout: Readout.of(app, e), now: t));
     }
 
     return Scaffold(
@@ -67,6 +119,7 @@ class ForexScreen extends StatelessWidget {
                 style: look.body(12.5),
               ),
             ),
+            _LiveStatus(app: app),
             if (next != null) _NextCard(event: next, now: t),
             if (events.isEmpty)
               Padding(
@@ -161,24 +214,25 @@ class _NextCard extends StatelessWidget {
 }
 
 class _EventRow extends StatelessWidget {
-  const _EventRow({required this.event, required this.result, required this.now});
+  const _EventRow({required this.event, required this.readout, required this.now});
   final ForexEvent event;
-  final ForexResult? result;
+  final Readout readout;
   final DateTime now;
 
   @override
   Widget build(BuildContext context) {
     final look = Look.of(context);
+    final r = readout;
     final past = !event.date.isAfter(now);
-    final r = result;
-    final actualColor = switch (r?.vsForecast) {
+    final waiting = past && r.actual == null && now.difference(event.date).inMinutes < 5;
+    final actualColor = switch (r.verdict) {
       'better' => look.up,
       'worse' => look.down,
       _ => look.ink,
     };
     return Opacity(
       // Past events without a result fade back; results stay readable.
-      opacity: past && r == null ? 0.55 : 1,
+      opacity: past && r.actual == null && !waiting ? 0.55 : 1,
       child: Container(
         padding: const EdgeInsets.fromLTRB(18, 10, 18, 10),
         decoration: BoxDecoration(border: Border(bottom: BorderSide(color: look.line))),
@@ -200,19 +254,25 @@ class _EventRow extends StatelessWidget {
               Text(event.title, style: look.headline(15, height: 1.25)),
               const SizedBox(height: 4),
               Wrap(spacing: 12, children: [
-                if (r != null)
+                if (r.actual != null)
                   Text('Actual ${r.actual}',
                       style: look.number(12.5, color: actualColor, weight: FontWeight.w700)),
-                if (event.forecast.isNotEmpty)
-                  Text('Forecast ${event.forecast}', style: look.number(12.5, color: look.muted)),
-                if (event.previous.isNotEmpty)
-                  Text('Previous ${event.previous}', style: look.number(12.5, color: look.muted)),
+                if (waiting)
+                  Text('Actual …', style: look.number(12.5, color: look.ink, weight: FontWeight.w700)),
+                if (r.forecast.isNotEmpty)
+                  Text('Forecast ${r.forecast}', style: look.number(12.5, color: look.muted)),
+                if (r.previous.isNotEmpty)
+                  Text('Previous ${r.previous}', style: look.number(12.5, color: look.muted)),
               ]),
-              if (r != null) ...[
-                const SizedBox(height: 5),
+              if (r.chips.isNotEmpty) ...[
+                const SizedBox(height: 7),
+                ImpactChips(impact: r.chips),
+              ],
+              if (r.why != null && r.source != null) ...[
+                const SizedBox(height: 6),
                 GestureDetector(
-                  onTap: () => openLink(r.source.url),
-                  child: Text('${r.why}  (${r.source.name})',
+                  onTap: () => openLink(r.source!.url),
+                  child: Text('${r.why}  (${r.source!.name})',
                       style: look.body(12.5, color: look.ink, height: 1.4)),
                 ),
               ],
@@ -220,6 +280,45 @@ class _EventRow extends StatelessWidget {
           ),
         ]),
       ),
+    );
+  }
+}
+
+/// "● LIVE · checking every second" around releases; otherwise when the
+/// last check ran.
+class _LiveStatus extends StatelessWidget {
+  const _LiveStatus({required this.app});
+  final AppController app;
+
+  @override
+  Widget build(BuildContext context) {
+    final look = Look.of(context);
+    final live = app.live;
+    final String text;
+    final Color color;
+    if (live.failing) {
+      text = 'Live results paused: no connection';
+      color = look.down;
+    } else if (live.hot) {
+      text = 'LIVE · checking every second for the actual';
+      color = look.up;
+    } else if (live.lastChecked != null) {
+      text = 'Live results on · last checked ${DateFormat('h:mm:ss a').format(live.lastChecked!.toLocal())}';
+      color = look.muted;
+    } else {
+      return const SizedBox.shrink();
+    }
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(18, 2, 18, 4),
+      child: Row(children: [
+        Container(
+          width: 7,
+          height: 7,
+          decoration: BoxDecoration(color: color, shape: BoxShape.circle),
+        ),
+        const SizedBox(width: 6),
+        Expanded(child: Text(text, style: look.body(12, color: color))),
+      ]),
     );
   }
 }

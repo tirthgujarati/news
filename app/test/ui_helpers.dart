@@ -57,6 +57,7 @@ Future<AppController> makeTestApp(
     store: store,
     photos: cache,
     remote: Remote(MockClient((_) async => throw const SocketException('offline'))),
+    liveUpdates: false,
   );
   await app.start();
   // Let the background refresh fail (offline) before the test continues.
