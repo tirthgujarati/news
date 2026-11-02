@@ -1,33 +1,45 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-02-morning",
+  "edition_id": "2026-11-02-midday",
   "date": "2026-11-02",
-  "slot": "morning",
-  "title": "Monday Morning Edition",
-  "generated_at": "2026-11-02T11:18:40+05:30",
+  "slot": "midday",
+  "title": "Monday Midday Edition",
+  "generated_at": "2026-11-02T13:55:00+05:30",
   "snapshot": [
     {
       "id": "usdinr",
       "label": "USD/INR",
-      "value": "94.97",
-      "change": "+0.22%",
+      "value": "94.96",
+      "change": "+0.21%",
       "dir": "up",
-      "as_of": "2026-11-02T00:00:00+05:30",
+      "as_of": "2026-11-02T13:47:00+05:30",
       "source": {
-        "name": "PTI (via DT Next)",
-        "url": "https://www.dtnext.in/news/business/rupee-falls-21-paise-to-9497-against-us-dollar-in-early-trade"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/INR%3DX/"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "106.38",
+      "change": "-0.01%",
+      "dir": "flat",
+      "as_of": "2026-11-02T13:47:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR%3DX/"
       }
     },
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "101.94",
-      "change": "+0.07%",
-      "dir": "up",
-      "as_of": "2026-11-02T00:00:00+05:30",
+      "value": "101.74",
+      "change": "-0.14%",
+      "dir": "down",
+      "as_of": "2026-11-02T13:37:00+05:30",
       "source": {
-        "name": "PTI (via DT Next)",
-        "url": "https://www.dtnext.in/news/business/rupee-falls-21-paise-to-9497-against-us-dollar-in-early-trade"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
       }
     },
     {
@@ -45,25 +57,25 @@
     {
       "id": "nifty",
       "label": "Nifty 50",
-      "value": "23,329.45",
-      "change": "+1.20%",
+      "value": "23,246.20",
+      "change": "+0.84%",
       "dir": "up",
-      "as_of": "2026-11-02T11:00:00+05:30",
+      "as_of": "2026-11-02T13:47:00+05:30",
       "source": {
-        "name": "Business Standard",
-        "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
+        "name": "NSE",
+        "url": "https://www.nseindia.com/market-data/live-market-indices"
       }
     },
     {
       "id": "sensex",
       "label": "Sensex",
-      "value": "75,439.94",
-      "change": "+1.32%",
+      "value": "75,059.52",
+      "change": "+0.81%",
       "dir": "up",
-      "as_of": "2026-11-02T11:00:00+05:30",
+      "as_of": "2026-11-02T13:32:00+05:30",
       "source": {
-        "name": "Business Standard",
-        "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN/"
       }
     },
     {
@@ -93,10 +105,10 @@
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$3,915.40",
-      "change": "+1.06%",
+      "value": "$3,893.20",
+      "change": "+0.49%",
       "dir": "up",
-      "as_of": "2026-11-02T00:44:00-05:00",
+      "as_of": "2026-11-02T03:17:00-05:00",
       "source": {
         "name": "Kitco",
         "url": "https://www.kitco.com/price/precious-metals"
@@ -105,25 +117,25 @@
     {
       "id": "brent",
       "label": "Brent crude",
-      "value": "$109.95",
-      "change": "-3.07%",
-      "dir": "down",
-      "as_of": "2026-11-02T00:00:00+05:30",
+      "value": "$109.89",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-02T13:37:00+05:30",
       "source": {
-        "name": "PTI (via DT Next)",
-        "url": "https://www.dtnext.in/news/business/rupee-falls-21-paise-to-9497-against-us-dollar-in-early-trade"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ%3DF/"
       }
     },
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$78,353",
-      "change": "+0.82%",
-      "dir": "up",
-      "as_of": "2026-11-02T11:15:00+05:30",
+      "value": "$78,046",
+      "change": "-0.26%",
+      "dir": "down",
+      "as_of": "2026-11-02T13:47:00+05:30",
       "source": {
-        "name": "CoinGecko",
-        "url": "https://www.coingecko.com/en/coins/bitcoin"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD/"
       }
     },
     {
@@ -146,24 +158,24 @@
       "stories": [
         {
           "id": "india-cyclone-murasu-2026-11-01",
-          "headline": "Cyclone Murasu turns severe; landfall near Ongole expected tonight",
-          "summary": "IMD has upgraded Murasu to a severe cyclonic storm with winds of 100 to 110 km/h, gusting to 120 km/h. It is expected to cross the south Andhra Pradesh coast between Nellore and Narsapur, near Ongole, from about 11:30 pm tonight to 4 am Tuesday. In Odisha, 19 districts are under yellow warnings and five southern districts face heavy to very heavy rain on Tuesday and Wednesday; Balimela reservoir gates have been opened as a precaution.",
-          "why_it_matters": "Landfall tonight could damage homes, crops and ports along the east coast.",
+          "headline": "Andhra orders evacuations as Cyclone Murasu nears landfall near Ongole tonight",
+          "summary": "Severe cyclonic storm Murasu is expected to cross the south Andhra Pradesh coast near Ongole around midnight or in the early hours of Tuesday. The state has told officials to move people out of low-lying areas, and six NDRF and seven SDRF teams are on standby. Heavy to extremely heavy rain is forecast for coastal districts and Rayalaseema.",
+          "why_it_matters": "Landfall tonight could damage homes, crops, power lines and ports along the east coast.",
           "importance": 5,
           "lead": true,
           "verified": true,
-          "note": "Update: the storm is now rated severe and IMD has narrowed the landfall area and time.",
-          "published_at": "2026-11-02T10:23:00+05:30",
+          "note": "Update since the morning edition: Andhra Pradesh has ordered evacuations and deployed rescue teams.",
+          "published_at": "2026-11-02T13:22:00+05:30",
           "tags": [
             "cyclone",
-            "IMD",
             "Andhra Pradesh",
-            "Odisha"
+            "IMD",
+            "NDRF"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/cyclone-murasu-threatens-odisha-with-heavy-rain/"
+              "url": "https://newsonair.gov.in/deep-depression-over-bay-of-bengal-intensifies-into-cyclonic-storm-murasu-likely-to-make-landfall-along-ap-coast-tomorrow/"
             },
             {
               "name": "Business Standard",
@@ -171,67 +183,80 @@
             }
           ],
           "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/odi.jpg",
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/cy.jpg",
             "credit": "News On AIR",
-            "source_url": "https://newsonair.gov.in/cyclone-murasu-threatens-odisha-with-heavy-rain/",
-            "alt": "Heavy rain on a waterlogged street with vehicles moving slowly"
-          }
+            "source_url": "https://newsonair.gov.in/deep-depression-over-bay-of-bengal-intensifies-into-cyclonic-storm-murasu-likely-to-make-landfall-along-ap-coast-tomorrow/",
+            "alt": "Palm trees bending in strong wind under a grey sky near the coast"
+          },
+          "impact": []
         },
         {
-          "id": "india-opposition-rally-cec-2026-11-01",
-          "headline": "Opposition rally in Delhi demands Election Commission chief resign",
-          "summary": "Thousands marched in New Delhi on Sunday in a rally led by Rahul Gandhi, demanding that Chief Election Commissioner Gyanesh Kumar quit over the revision of voter rolls. Opposition parties say the revision wrongly removed a huge number of names; the Election Commission denies bias and says anyone wrongly removed can register again. Delhi Police put the crowd at about 50,000.",
-          "why_it_matters": "The row over voter lists has become the biggest political challenge to the government in years.",
+          "id": "india-gst-october-2026-11-01",
+          "headline": "GST collections jump 23% to ₹2.31 lakh crore in October",
+          "summary": "Gross GST collections rose about 23% from a year earlier to over ₹2.31 lakh crore in October, provisional government data show. Tax on imports jumped 42% to ₹72,246 crore, while domestic collections rose 15.8% to about ₹1.59 lakh crore. Net collections after refunds rose about 26% to over ₹2.03 lakh crore.",
+          "why_it_matters": "Strong tax receipts give the government more room on spending and its deficit target.",
           "importance": 4,
           "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-01T16:56:08+05:30",
+          "published_at": "2026-11-02T08:23:00+05:30",
           "tags": [
-            "Election Commission",
-            "Congress",
-            "voter rolls",
-            "protest"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign"
-            },
-            {
-              "name": "The Week",
-              "url": "https://www.theweek.in/news/india/2026/11/01/india-bloc-rally-ramlila-maidan-rahul-gandhi.html"
-            }
-          ],
-          "image": null
-        },
-        {
-          "id": "india-manufacturing-pmi-october-2026-11-02",
-          "headline": "Factory growth eases in October, but export orders rise fastest in six months",
-          "summary": "The HSBC India manufacturing PMI fell to 54.7 in October from 55.1 in September, below the flash reading of 54.9. New orders slipped slightly from a seven-month high, while export orders grew at the quickest pace in six months. Firms built up stocks of finished goods at a record rate, and price pressures eased.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-02T00:00:00+05:30",
-          "tags": [
-            "PMI",
-            "manufacturing",
-            "exports",
+            "GST",
+            "tax",
             "economy"
           ],
           "sources": [
             {
-              "name": "Business Standard",
-              "url": "https://www.business-standard.com/amp/economy/news/manufacturing-pmi-eases-to-54-7-in-october-despite-strong-export-demand-126110200290_1.html"
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/gst-collections-in-the-country-surge-by-23-percent-to-2-31-lakh-crore-rupees-in-october/"
             },
             {
-              "name": "Investing.com",
-              "url": "https://www.investing.com/news/economic-indicators/india-manufacturing-pmi-eases-in-october-on-weaker-demand-4989864"
+              "name": "Zee Business",
+              "url": "https://www.zeebiz.com/economy-infra/news-gst-collection-october-2026-gross-revenue-rises-23-to-rs-231-lakh-crore-net-collection-up-256-404894"
             }
           ],
-          "image": null
+          "image": null,
+          "impact": [
+            {
+              "on": "india_economy",
+              "level": "medium",
+              "dir": "up",
+              "why": "Higher tax receipts point to firm demand and ease pressure on government finances."
+            }
+          ]
+        },
+        {
+          "id": "india-navy-corvettes-contract-2026-11-02",
+          "headline": "Defence ministry signs ₹53,880 crore deal for eight Navy corvettes",
+          "summary": "The defence ministry signed contracts with Garden Reach Shipbuilders (GRSE) for five next-generation corvettes and Goa Shipyard for three. The warships are designed by the Navy and will carry missiles and sensors for anti-submarine, anti-ship and coastal defence roles. The ministry expects the project to create about 72 lakh person-days of work in the shipyards.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio. Last week's cabinet approval was reported at over ₹40,000 crore; the signed value is from AIR.",
+          "published_at": "2026-11-02T13:08:00+05:30",
+          "tags": [
+            "defence",
+            "Navy",
+            "GRSE",
+            "Goa Shipyard"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/defence-ministry-signs-worth-over-rs-53880-crore-deals-for-8-next-generation-navy-corvettes/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Defence",
+              "level": "medium",
+              "dir": "up",
+              "why": "Large signed orders add to the order books of listed shipbuilder GRSE."
+            }
+          ]
         }
       ]
     },
@@ -240,109 +265,94 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-iran-us-hormuz-talks-2026-11-01",
-          "headline": "Iran says two tankers hit mines in Hormuz as reopening talks go on",
-          "summary": "Iran's Revolutionary Guard navy says two oil tankers, one a supertanker, struck mines while using an unauthorised route with their tracking switched off, and one is on fire. The ships were not named. Separately, UK maritime agency UKMTO reported a vessel hit by an unknown projectile in the strait on Sunday afternoon. President Trump said the war would end very soon 'one way or the other', while Iran says talks on a two-day reopening plan continue.",
-          "why_it_matters": "Fresh attacks in Hormuz keep oil supply risks high for India even as prices dip.",
-          "importance": 5,
-          "lead": false,
-          "verified": true,
-          "note": "Update since the last edition: new tanker attacks. The mine claim comes from Iran and is not independently confirmed.",
-          "published_at": "2026-11-02T05:02:00+05:30",
-          "tags": [
-            "Iran",
-            "Hormuz",
-            "tankers",
-            "oil"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon"
-            },
-            {
-              "name": "The Tribune (ANI)",
-              "url": "https://www.tribuneindia.com/news/world/2-tankers-explode-after-allegedly-hitting-naval-mines-in-strait-of-hormuz-iran-claims"
-            }
-          ],
-          "image": null
-        },
-        {
-          "id": "world-israel-election-deadlock-2026-10-28",
-          "headline": "Netanyahu calls Israel's vote 'stolen'; election officials say results stand",
-          "summary": "Netanyahu's Likud party, without evidence, claimed Arab-led parties stole the election with Qatari money; Qatar rejected this as disinformation. The head of the Central Elections Committee said the results would stand even if suspicions of foreign interference were proven. Results are due to be certified this week, after which President Herzog picks who tries to form a government.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera. Update: Likud now disputes the result.",
-          "published_at": "2026-11-02T00:29:16Z",
-          "tags": [
-            "Israel",
-            "elections",
-            "Netanyahu"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen"
-            }
-          ],
-          "image": null
-        },
-        {
-          "id": "world-ukraine-russia-alert-apps-2026-11-02",
-          "headline": "Fake nuclear alerts hit Ukraine and Russia warning apps as truce ends",
-          "summary": "Ukrainians around Kyiv got false alerts on Sunday evening warning of nuclear and chemical threats; Ukraine's air force said there was no radiation threat and blamed Russia. Early on Monday, Russia said its own drone-warning app suffered a massive cyberattack. It came as a local ceasefire in part of the Kherson region, the longest of the war, ended on Sunday.",
-          "why_it_matters": null,
+          "id": "world-bangladesh-garment-protests-2026-11-02",
+          "headline": "Bangladesh garment wage protests shut about 500 factories for a third day",
+          "summary": "Thousands of garment workers in Dhaka, Savar, Ashulia and Gazipur are protesting for a minimum monthly wage of 30,000 taka ($242), up from 12,500 taka. About 500 factories have shut temporarily and police have used tear gas. The government set up a wage board on Sunday, and factory owners warn of a 'no work, no pay' rule if protests go on.",
+          "why_it_matters": "Disruption in Bangladesh's $38bn garment industry could shift some export orders to Indian textile makers.",
           "importance": 3,
           "lead": false,
           "verified": false,
           "note": "Single source: Al Jazeera.",
-          "published_at": "2026-11-02T01:40:50Z",
+          "published_at": "2026-11-02T00:00:00Z",
           "tags": [
-            "Ukraine",
-            "Russia",
-            "cyberattack"
+            "Bangladesh",
+            "garments",
+            "wages",
+            "protest"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings"
+              "url": "https://www.aljazeera.com/news/2026/11/2/bangladesh-garment-factories-disrupted-as-protests-continue-for-third-day"
             }
           ],
-          "image": null
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6ae821c11817-1793597889.jpg?resize=770%2C513",
+            "credit": "AFP",
+            "source_url": "https://www.aljazeera.com/news/2026/11/2/bangladesh-garment-factories-disrupted-as-protests-continue-for-third-day",
+            "alt": "Garment workers sit and stand blocking a road in Dhaka during a wage protest"
+          },
+          "impact": []
+        },
+        {
+          "id": "world-hebron-israeli-withdrawal-2026-11-02",
+          "headline": "Hebron officials say Israeli forces have withdrawn after a 10-day siege",
+          "summary": "Hebron's governor says Israeli troops pulled out of the West Bank city early on Monday and Palestinian security forces have taken control. The siege began on October 23 after two Israeli soldiers were killed in a shooting. Local officials say more than 537 families were displaced and at least 317 shops shut.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera (citing Anadolu). Withdrawal announced by Palestinian officials; not confirmed by Israel's military.",
+          "published_at": "2026-11-02T00:00:00Z",
+          "tags": [
+            "Israel",
+            "Palestine",
+            "West Bank",
+            "Hebron"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/2/hebron-governor-says-israeli-forces-withdraw-from-city-after-10-day-siege"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-florida-jet-crash-2026-11-01",
+          "headline": "Nine killed as business jet crashes into Florida neighbourhood",
+          "summary": "A Learjet 60 flying from Austin, Texas, to the Bahamas crashed into a residential area of Palm Beach County on Sunday, killing all nine people on board. Florida's governor said there appeared to be no casualties on the ground. US crash investigators (NTSB) are looking into the cause.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-02T00:00:00Z",
+          "tags": [
+            "United States",
+            "plane crash",
+            "Florida"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/2/nine-die-in-cataclysmic-florida-business-jet"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/a-learjet-60-business-aircraft-carrying-nine-people-crashed-in-a-residential-area-of-palm-beach-county-in-florida/"
+            }
+          ],
+          "image": null,
+          "impact": []
         }
       ]
     },
     {
       "id": "currency",
       "title": "Currency Desk",
-      "stories": [
-        {
-          "id": "currency-rupee-slips-2026-11-02",
-          "headline": "Rupee slips 21 paise to 94.97 per dollar as the greenback firms",
-          "summary": "The rupee opened at 94.90 on Monday and weakened to 94.97, from Friday's close of 94.76, as the dollar strengthened overseas; the dollar index rose 0.07% to 101.94. Lower crude prices and gains in Indian shares limited the fall. Kotak's Anindya Banerjee expects a 94.40 to 95.60 range.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: PTI, published via DT Next.",
-          "published_at": "2026-11-02T00:00:00+05:30",
-          "tags": [
-            "rupee",
-            "dollar",
-            "forex"
-          ],
-          "sources": [
-            {
-              "name": "PTI (via DT Next)",
-              "url": "https://www.dtnext.in/news/business/rupee-falls-21-paise-to-9497-against-us-dollar-in-early-trade"
-            }
-          ],
-          "image": null
-        }
-      ]
+      "stories": []
     },
     {
       "id": "markets",
@@ -350,90 +360,86 @@
       "stories": [
         {
           "id": "markets-sensex-reliance-rally-2026-11-02",
-          "headline": "Sensex jumps about 1,000 points as Reliance surges on record profit",
-          "summary": "By 11 am the Sensex was up 980 points (1.3%) at 75,439.94 and the Nifty up 276 points (1.2%). Reliance rose more than 6% after a record September-quarter profit of ₹29,550 crore, up 33.8%, led by its oil-to-chemicals business; retail was weaker. Foreign investors bought ₹3,599 crore of shares on Friday and Brent fell about 3%.",
-          "why_it_matters": "Reliance's results and cheaper oil gave Indian stocks their best start in weeks.",
+          "headline": "Sensex, Nifty trim gains to 0.8% by midday as IT and private banks slip",
+          "summary": "At 1:47 pm the Nifty was up 0.84% at 23,246 and the Sensex about 0.8% higher near 75,060, down from gains of over 1.2% in the morning. Reliance held a rise of about 7.5%, lifting the oil and gas index 4.1%, and metals gained 2.7%. IT shares fell 0.75%, with Infosys down nearly 3%, and private banks lost 0.7%.",
+          "why_it_matters": "Reliance alone is carrying the rally while tech and bank shares lag.",
           "importance": 5,
           "lead": false,
           "verified": true,
-          "note": null,
-          "published_at": "2026-11-02T11:00:00+05:30",
+          "note": "Update since the morning edition: the indices have given back part of their early gains.",
+          "published_at": "2026-11-02T13:47:00+05:30",
           "tags": [
             "Sensex",
             "Nifty",
             "Reliance",
-            "results"
+            "IT stocks"
           ],
           "sources": [
             {
-              "name": "Business Standard",
-              "url": "https://www.business-standard.com/markets/news/stock-market-live-november-2-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-jio-share-price-ipo-today-126110200053_1.html"
+              "name": "NSE",
+              "url": "https://www.nseindia.com/market-data/live-market-indices"
             },
             {
-              "name": "Deccan Chronicle (PTI)",
-              "url": "https://www.deccanchronicle.com/business/economics/sensex-surges-765-points-nifty-jumps-201-points-as-reliance-rallies-over-6-2000986"
+              "name": "IBTimes",
+              "url": "https://www.ibtimes.com.au/indian-stocks-rally-reliance-lifts-nifty-50-1877719"
             },
             {
-              "name": "Millennium Post",
-              "url": "https://www.millenniumpost.in/business/reliance-industries-q2-net-profit-jumps-338-to-rs-29550-crore-profit-681600"
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/RELIANCE.NS/"
             }
           ],
-          "image": null
-        },
-        {
-          "id": "markets-oil-falls-opec-hold-2026-11-02",
-          "headline": "Brent drops 3% to about $110 as OPEC+ keeps December output flat",
-          "summary": "Brent crude fell about 3% to $109.95 a barrel on Monday, down from last week's high near $118, after rising more than 10% in October. Seven OPEC+ members including Saudi Arabia, Russia and Iraq agreed on Sunday to hold December production quotas at their September level.",
-          "why_it_matters": "Cheaper oil eases pressure on India's import bill and the rupee.",
-          "importance": 4,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-01T19:35:00+05:30",
-          "tags": [
-            "oil",
-            "Brent",
-            "OPEC+"
-          ],
-          "sources": [
+          "image": null,
+          "impact": [
             {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/seven-opec-countries-keep-december-2026-oil-production-quotas-unchanged/"
+              "on": "indian_stocks",
+              "detail": "Energy",
+              "level": "high",
+              "dir": "up",
+              "why": "Reliance's record profit is lifting oil, gas and energy shares."
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
-            },
-            {
-              "name": "PTI (via DT Next)",
-              "url": "https://www.dtnext.in/news/business/rupee-falls-21-paise-to-9497-against-us-dollar-in-early-trade"
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "medium",
+              "dir": "down",
+              "why": "Last week's US tech sell-off is weighing on Indian IT shares."
             }
-          ],
-          "image": null
+          ]
         },
         {
-          "id": "markets-us-futures-busy-week-2026-11-01",
-          "headline": "US stock futures rise ahead of midterms, Apple results and jobs data",
-          "summary": "Dow futures rose 186 points (0.4%), S&P 500 futures 0.5% and Nasdaq-100 futures 0.9% early Monday after a weak October for tech. Apple reports after Monday's close, Americans vote on Tuesday, and Friday's jobs report is expected to show 55,000 new jobs.",
+          "id": "markets-asia-europe-gold-2026-11-02",
+          "headline": "Kospi jumps 2.4% as Asia ends mixed; gold edges up 0.5%",
+          "summary": "South Korea's Kospi rose 2.4% and Japan's Nikkei 0.3% on Monday, while Australia's ASX 200 fell 0.6%. Europe's Stoxx 600 opened 0.2% lower. Spot gold was up 0.5% at about $3,893 an ounce by early afternoon India time.",
           "why_it_matters": null,
-          "importance": 3,
+          "importance": 2,
           "lead": false,
           "verified": false,
-          "note": "Single source: CNBC.",
-          "published_at": "2026-11-01T23:06:00-05:00",
+          "note": "Single source for each figure: CNBC for stock indices, Kitco for gold.",
+          "published_at": "2026-11-02T03:10:00-05:00",
           "tags": [
-            "Wall Street",
-            "futures",
-            "Apple",
-            "midterms"
+            "Asia",
+            "Europe",
+            "gold"
           ],
           "sources": [
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "Kitco",
+              "url": "https://www.kitco.com/price/precious-metals"
             }
           ],
-          "image": null
+          "image": null,
+          "impact": [
+            {
+              "on": "gold",
+              "level": "low",
+              "dir": "up",
+              "why": "A small rise in gold as the dollar eases slightly."
+            }
+          ]
         }
       ]
     },
@@ -450,10 +456,6 @@
       "events": [
         {
           "text": "Cyclone Murasu expected to cross the south Andhra coast near Ongole overnight",
-          "section": "india"
-        },
-        {
-          "text": "PM Modi opens Bharat Renewable Energy Summit in New Delhi (runs to 5 Nov)",
           "section": "india"
         },
         {
