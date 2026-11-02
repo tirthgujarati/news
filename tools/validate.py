@@ -113,6 +113,9 @@ def rule_errors(ed: dict, label: str) -> list[str]:
                 leads.append(stid)
             if st.get("verified") is False and not st.get("note"):
                 bad(f"story '{stid}' is unverified, so it needs a note")
+            targets = [(i.get("on"), i.get("detail")) for i in st.get("impact", [])]
+            if len(targets) != len(set(targets)):
+                bad(f"story '{stid}' lists the same impact target twice")
             source_names = {s.get("name") for s in st.get("sources", [])}
             if st.get("verified") is True and len(source_names) < 2:
                 bad(f"story '{stid}' is verified, so it needs at least 2 different sources")

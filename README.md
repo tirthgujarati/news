@@ -140,6 +140,34 @@ Photos go on **the lead story and the first story of each section only**
   name); `alt` is a short plain description of what the photo shows.
 - Never download or commit image files. Only links.
 
+## Impact tags
+
+Every story has an `impact` list: what the story is likely to move, how much,
+and which way. The app shows each as a coloured chip, e.g. "● GOLD ▼" in red.
+
+```json
+"impact": [
+  {"on": "gold", "level": "high", "dir": "down",
+   "why": "Higher oil keeps rates high, which weighs on gold."},
+  {"on": "indian_stocks", "detail": "IT", "level": "medium", "dir": "up",
+   "why": "A weaker rupee lifts IT exporters' earnings."}
+]
+```
+
+- `on` is one of: `indian_stocks`, `gold`, `silver`, `oil`, `rupee`, `crypto`,
+  `rates` (interest rates and bonds), `us_stocks`, `india_economy` (inflation,
+  growth, jobs). For `indian_stocks`, add `detail` with the sector when the
+  effect is mostly on one (e.g. `"IT"`, `"Banks"`, `"Auto"`).
+- `level`: `high` (red) = likely to move it noticeably today or this week, or a
+  big policy shift; `medium` (orange) = a real but smaller push; `low` (yellow)
+  = minor or indirect.
+- `dir`: `up` or `down` for the likely push on the price or level (for
+  `rupee`, `up` = rupee strengthens); `mixed` when it could go either way.
+- `why`: one plain sentence, under 120 characters, giving the reason.
+- At most 3 per story, highest level first. Only tag what the story genuinely
+  moves; many stories (e.g. most World and Built stories) have `[]`. Never
+  invent an effect to fill the list. Weekend Special stories use `[]`.
+
 ## Market snapshot
 
 Cover, each with `value`, `change` (percent as a string, or `null` if unknown),
