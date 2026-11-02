@@ -156,15 +156,30 @@ and which way. The app shows each as a coloured chip, e.g. "● GOLD ▼" in red
 
 - `on` is one of: `indian_stocks`, `gold`, `silver`, `oil`, `rupee`, `crypto`,
   `rates` (interest rates and bonds), `us_stocks`, `india_economy` (inflation,
-  growth, jobs). For `indian_stocks`, add `detail` with the sector when the
-  effect is mostly on one (e.g. `"IT"`, `"Banks"`, `"Auto"`).
+  growth, jobs), `company`, `currency`.
+- **Be specific when the news is.** Use `detail` whenever the story itself
+  directly names the thing moved:
+  - a sector, with `indian_stocks` (or `us_stocks`): `"IT"`, `"Banks"`,
+    `"Defence"`, `"Auto"`, `"Pharma"`, `"Metals"`, `"Tech"` ...
+  - a company, with `on: "company"` and `detail` = its short common name:
+    `"Reliance"`, `"HAL"`, `"Infosys"`, `"Apple"`. Only when the story is about
+    that company (its results, deal, launch, order, penalty), never a guess at
+    who might benefit.
+  - a currency other than the rupee, with `on: "currency"` and `detail`:
+    `"Dollar"`, `"Euro"`, `"Yen"`, `"Yuan"`, `"Pound"`. `dir` is that currency's
+    likely move.
+  `company` and `currency` always need `detail`. If the link is indirect or a
+  guess, use the broader target (e.g. `indian_stocks`) or leave it out.
+- Example for a story on HAL winning a defence order:
+  `{"on": "company", "detail": "HAL", "level": "high", "dir": "up", ...}` and
+  `{"on": "indian_stocks", "detail": "Defence", "level": "medium", "dir": "up", ...}`.
 - `level`: `high` (red) = likely to move it noticeably today or this week, or a
   big policy shift; `medium` (orange) = a real but smaller push; `low` (yellow)
   = minor or indirect.
 - `dir`: `up` or `down` for the likely push on the price or level (for
   `rupee`, `up` = rupee strengthens); `mixed` when it could go either way.
 - `why`: one plain sentence, under 120 characters, giving the reason.
-- At most 3 per story, highest level first. Only tag what the story genuinely
+- At most 4 per story, highest level first. Only tag what the story genuinely
   moves; many stories (e.g. most World and Built stories) have `[]`. Never
   invent an effect to fill the list. Weekend Special stories use `[]`.
 

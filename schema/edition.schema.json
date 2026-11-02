@@ -180,7 +180,7 @@
         "impact": {
           "description": "What this story is likely to move, and how much. Empty when it moves nothing in the list.",
           "type": "array",
-          "maxItems": 3,
+          "maxItems": 4,
           "items": { "$ref": "#/$defs/impact" }
         }
       }
@@ -189,18 +189,20 @@
       "type": "object",
       "additionalProperties": false,
       "required": ["on", "level", "dir", "why"],
+      "if": { "properties": { "on": { "enum": ["company", "currency"] } } },
+      "then": { "required": ["detail"] },
       "properties": {
         "on": {
           "enum": [
             "indian_stocks", "gold", "silver", "oil", "rupee", "crypto",
-            "rates", "us_stocks", "india_economy"
+            "rates", "us_stocks", "india_economy", "company", "currency"
           ]
         },
         "detail": {
-          "description": "Optional narrower target, e.g. a sector for indian_stocks: \"IT\", \"Banks\"",
+          "description": "Narrower target named directly in the news: a sector (\"IT\", \"Defence\"), a company (\"Reliance\") for on=company, or a currency (\"Dollar\") for on=currency",
           "type": "string",
           "minLength": 1,
-          "maxLength": 20
+          "maxLength": 30
         },
         "level": {
           "description": "high = red, medium = orange, low = yellow",
