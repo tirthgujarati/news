@@ -35,11 +35,13 @@ void main() {
         expect(find.text('SINGLE SOURCE'), findsWidgets);
 
         // Switch to Money & Markets and open the first story.
-        await tester.tap(find.text(style == AppStyle.bold ? 'MONEY & MARKETS' : 'Money & Markets'));
+        await tester.tap(find.textContaining(style == AppStyle.bold ? 'MONEY & MARKETS' : 'Money & Markets'));
         await tester.pumpAndSettle();
         await tester.tap(find.textContaining('Wall Street ends October'));
         await tester.pumpAndSettle();
         expect(find.text('WHY IT MATTERS'), findsOneWidget);
+        expect(find.text('IMPACT'), findsOneWidget);
+        expect(find.text('US STOCKS ▼'), findsWidgets);
         expect(find.text('Save'), findsOneWidget);
         expect(tester.takeException(), isNull);
       });
@@ -62,6 +64,9 @@ void main() {
     await pumpApp(tester, AppStyle.paper, ThemeMode.light);
     await tester.tap(find.textContaining('Iran cuts its Hormuz'));
     await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(find.text('Save'), 300,
+        scrollable: find.byType(Scrollable).last);
+    await tester.pumpAndSettle();
     await tester.runAsync(() async {
       await tester.tap(find.text('Save'));
       await Future<void>.delayed(const Duration(milliseconds: 200));
@@ -83,7 +88,7 @@ void main() {
     await tester.pumpAndSettle();
     await tester.tap(find.text('Home').last);
     await tester.pumpAndSettle();
-    expect(find.text('MONEY & MARKETS'), findsOneWidget);
+    expect(find.textContaining('MONEY & MARKETS'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
 

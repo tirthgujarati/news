@@ -46,9 +46,40 @@ class StorySheet extends StatelessWidget {
       controller: scroll,
       padding: const EdgeInsets.fromLTRB(20, 0, 20, 32),
       children: [
-        Text(sectionTitle(story.sectionId).toUpperCase(),
-            style: look.label(11, color: sec)),
-        const SizedBox(height: 8),
+        // Save and Share sit at the top so they're reachable on long stories.
+        Row(children: [
+          Expanded(
+            child: Text(sectionTitle(story.sectionId).toUpperCase(),
+                style: look.label(11, color: sec)),
+          ),
+          FilledButton.tonalIcon(
+            style: FilledButton.styleFrom(
+              visualDensity: VisualDensity.compact,
+              padding: const EdgeInsets.symmetric(horizontal: 12),
+            ),
+            icon: Icon(saved ? Icons.bookmark : Icons.bookmark_border, size: 18),
+            label: Text(saved ? 'Saved' : 'Save'),
+            onPressed: () async {
+              final now = await app.toggleSaved(story, edition);
+              if (context.mounted) {
+                ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                  content: Text(now ? 'Saved' : 'Removed from Saved'),
+                  duration: const Duration(seconds: 2),
+                ));
+              }
+            },
+          ),
+          const SizedBox(width: 4),
+          IconButton(
+            tooltip: 'Share',
+            visualDensity: VisualDensity.compact,
+            icon: const Icon(Icons.share_outlined, size: 20),
+            onPressed: () => SharePlus.instance.share(ShareParams(
+              text: '${story.headline}\n${story.sources.first.url}',
+            )),
+          ),
+        ]),
+        const SizedBox(height: 6),
         SourceLabel(story: story, editionDate: edition.date),
         const SizedBox(height: 8),
         Text(story.headline, style: look.headline(24, height: 1.18)),
@@ -77,6 +108,10 @@ class StorySheet extends StatelessWidget {
             ]),
           ),
         ],
+        if (story.impact.isNotEmpty) ...[
+          const SizedBox(height: 12),
+          ImpactBox(impact: story.impact),
+        ],
         if (story.note != null) ...[
           const SizedBox(height: 12),
           Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
@@ -97,34 +132,6 @@ class StorySheet extends StatelessWidget {
               side: BorderSide(color: look.line),
               onPressed: () => openLink(s.url),
             ),
-        ]),
-        const SizedBox(height: 22),
-        Row(children: [
-          Expanded(
-            child: FilledButton.tonalIcon(
-              icon: Icon(saved ? Icons.bookmark : Icons.bookmark_border),
-              label: Text(saved ? 'Saved' : 'Save'),
-              onPressed: () async {
-                final now = await app.toggleSaved(story, edition);
-                if (context.mounted) {
-                  ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                    content: Text(now ? 'Saved' : 'Removed from Saved'),
-                    duration: const Duration(seconds: 2),
-                  ));
-                }
-              },
-            ),
-          ),
-          const SizedBox(width: 12),
-          Expanded(
-            child: OutlinedButton.icon(
-              icon: const Icon(Icons.share_outlined),
-              label: const Text('Share'),
-              onPressed: () => SharePlus.instance.share(ShareParams(
-                text: '${story.headline}\n${story.sources.first.url}',
-              )),
-            ),
-          ),
         ]),
       ],
     );

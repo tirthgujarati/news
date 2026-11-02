@@ -135,6 +135,8 @@ class EditionStore {
 
   List<EditionEntry> _entries = [];
   List<SearchHit> _hits = [];
+  Future<void>? _hitsLoading;
+  bool _hitsLoaded = false;
   List<SavedStory> _saved = [];
 
   Directory get _editionsDir => Directory('${root.path}/editions');
@@ -150,9 +152,17 @@ class EditionStore {
   Future<void> init() async {
     await _editionsDir.create(recursive: true);
     _entries = await _readList(_indexFile, EditionEntry.fromJson);
-    _hits = await _readList(_searchFile, SearchHit.fromJson);
     _saved = await _readList(_savedFile, SavedStory.fromJson);
   }
+
+  /// The search index can grow past 1 MB, so it is read after the first
+  /// screen is up instead of at launch. Safe to call many times.
+  Future<void> loadSearchIndex() => _hitsLoading ??= () async {
+        _hits = await _readList(_searchFile, SearchHit.fromJson);
+        _hitsLoaded = true;
+      }();
+
+  bool get searchReady => _hitsLoaded;
 
   bool has(String editionId) => _entries.any((e) => e.editionId == editionId);
 
@@ -179,6 +189,7 @@ class EditionStore {
     _sortEntries();
     await _writeList(_indexFile, _entries.map((e) => e.toJson()));
 
+    await loadSearchIndex();
     _hits.removeWhere((h) => h.editionId == edition.editionId);
     for (final st in edition.allStories) {
       _hits.add(SearchHit(
@@ -210,6 +221,7 @@ class EditionStore {
     }
     if (removed.isEmpty) return removed;
     _entries.removeWhere((e) => removed.contains(e.editionId));
+    await loadSearchIndex();
     _hits.removeWhere((h) => removed.contains(h.editionId));
     await _writeList(_indexFile, _entries.map((e) => e.toJson()));
     await _writeList(_searchFile, _hits.map((h) => h.toJson()));

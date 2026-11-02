@@ -152,14 +152,22 @@ class PhotoCredit extends StatelessWidget {
 
 /// The horizontally scrolling market ticker.
 class Ticker extends StatelessWidget {
-  const Ticker({super.key, required this.items});
+  const Ticker({super.key, required this.items, required this.editionDate});
   final List<SnapshotItem> items;
+
+  /// Prices from an earlier day get a day label, e.g. "NIFTY 50 · FRI".
+  final String editionDate;
 
   @override
   Widget build(BuildContext context) {
     final look = Look.of(context);
     if (items.isEmpty) return const SizedBox.shrink();
     String arrow(String dir) => dir == 'up' ? '▲ ' : dir == 'down' ? '▼ ' : '';
+    String lab(SnapshotItem t) {
+      final day = staleDay(t.asOf, editionDate);
+      return day == null ? t.label : '${t.label} · $day';
+    }
+
     // Grow with the text-size setting so tiles never clip.
     final k = MediaQuery.textScalerOf(context).scale(10) / 10;
 
@@ -185,7 +193,7 @@ class Ticker extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text(t.label, style: look.body(10.5, height: 1.2)),
+                    Text(lab(t), style: look.body(10.5, height: 1.2)),
                     Text(t.value,
                         style: look.number(14,
                             weight: FontWeight.w700, color: look.ink)),
@@ -221,7 +229,7 @@ class Ticker extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text(t.label.toUpperCase(),
+                    Text(lab(t).toUpperCase(),
                         style: look.body(9.5, height: 1.2)
                             .copyWith(letterSpacing: 0.5)),
                     const SizedBox(height: 2),
@@ -246,7 +254,7 @@ class Ticker extends StatelessWidget {
             itemBuilder: (context, i) {
               final t = items[i];
               return Row(children: [
-                Text(t.label,
+                Text(lab(t),
                     style: look.body(12,
                         color: look.tickerInk.withValues(alpha: 0.65),
                         weight: FontWeight.w500)),
@@ -307,6 +315,9 @@ class SectionTabs extends StatelessWidget {
       button: true,
       child: InkWell(
         onTap: () => onSelect(s.id),
+        child: Opacity(
+        // An empty section stays tappable but reads as quiet.
+        opacity: s.stories.isEmpty && !on ? 0.45 : 1,
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 180),
           margin: look.tabShape == TabShape.pill
@@ -330,7 +341,7 @@ class SectionTabs extends StatelessWidget {
             TabShape.block => BoxDecoration(color: on ? color : Colors.transparent),
           },
           child: Text(
-            title,
+            s.stories.isEmpty ? title : '$title  ${s.stories.length}',
             style: TextStyle(
               fontFamily: look.headlineFont,
               fontWeight: on ? FontWeight.w800 : FontWeight.w600,
@@ -343,6 +354,7 @@ class SectionTabs extends StatelessWidget {
               },
             ),
           ),
+        ),
         ),
       ),
     );
@@ -385,6 +397,7 @@ class LeadStory extends StatelessWidget {
                     Text(story.headline, style: look.headline(21, height: 1.18)),
                     const SizedBox(height: 7),
                     Text(why, style: look.body(13.5)),
+                    if (story.impact.isNotEmpty) ...[const SizedBox(height: 8), ImpactChips(impact: story.impact)],
                     if (img != null) ...[const SizedBox(height: 6), PhotoCredit(img)],
                   ]),
                 ),
@@ -434,6 +447,10 @@ class LeadStory extends StatelessWidget {
                       const SizedBox(height: 6),
                       Text(why,
                           style: look.body(12.5, color: const Color(0xFFC3CAD4))),
+                      if (story.impact.isNotEmpty) ...[
+                        const SizedBox(height: 8),
+                        ImpactChips(impact: story.impact, onPhoto: true),
+                      ],
                       const SizedBox(height: 4),
                       PhotoCredit(img, color: const Color(0xFF9AA4B2)),
                     ]),
@@ -469,6 +486,7 @@ class LeadStory extends StatelessWidget {
                 Text(story.headline, style: look.headline(26, height: 1.06)),
                 const SizedBox(height: 8),
                 Text(why, style: look.body(13.5, color: look.ink.withValues(alpha: 0.8))),
+                if (story.impact.isNotEmpty) ...[const SizedBox(height: 8), ImpactChips(impact: story.impact)],
                 if (img != null) ...[const SizedBox(height: 6), PhotoCredit(img)],
               ]),
             ),
@@ -487,6 +505,7 @@ class LeadStory extends StatelessWidget {
             Text(story.headline, style: look.headline(24, height: 1.15)),
             const SizedBox(height: 6),
             Text(why, style: look.body(13.5)),
+            if (story.impact.isNotEmpty) ...[const SizedBox(height: 8), ImpactChips(impact: story.impact)],
           ]),
         ),
       );
@@ -542,12 +561,102 @@ class StoryTile extends StatelessWidget {
                   Text(story.headline, style: look.headline(16.5, height: 1.25)),
                   const SizedBox(height: 5),
                   Text(firstSentence(story.summary), style: look.body(13)),
+                  if (story.impact.isNotEmpty) ...[const SizedBox(height: 8), ImpactChips(impact: story.impact)],
                 ]),
               ),
             ]),
           ),
         ]),
       ),
+    );
+  }
+}
+
+/// Coloured chips for what a story moves: "● GOLD ▼". Red = big impact,
+/// orange = medium, yellow = small; the arrow is the likely direction.
+class ImpactChips extends StatelessWidget {
+  const ImpactChips({super.key, required this.impact, this.onPhoto = false});
+  final List<ImpactTag> impact;
+
+  /// Drawn over a dark photo (Night desk lead).
+  final bool onPhoto;
+
+  @override
+  Widget build(BuildContext context) {
+    if (impact.isEmpty) return const SizedBox.shrink();
+    final look = Look.of(context);
+    return Wrap(
+      spacing: 6,
+      runSpacing: 6,
+      children: [
+        for (final t in impact)
+          Semantics(
+            label: '${t.level} impact on ${t.label}, likely ${t.dir}',
+            child: ExcludeSemantics(
+              child: Container(
+                padding: const EdgeInsets.fromLTRB(7, 3, 8, 3),
+                decoration: BoxDecoration(
+                  color: look.impact(t.level).withValues(alpha: onPhoto ? 0.28 : 0.14),
+                  border: Border.all(color: look.impact(t.level).withValues(alpha: 0.55)),
+                  borderRadius: BorderRadius.circular(6),
+                ),
+                child: Row(mainAxisSize: MainAxisSize.min, children: [
+                  Container(
+                    width: 7,
+                    height: 7,
+                    decoration: BoxDecoration(
+                        color: look.impact(t.level), shape: BoxShape.circle),
+                  ),
+                  const SizedBox(width: 5),
+                  Text(
+                    '${t.label.toUpperCase()} ${t.arrow}',
+                    style: look.label(10,
+                        color: onPhoto ? const Color(0xFFE9EDF2) : look.ink),
+                  ),
+                ]),
+              ),
+            ),
+          ),
+      ],
+    );
+  }
+}
+
+/// The story sheet's Impact box: each target with its reason.
+class ImpactBox extends StatelessWidget {
+  const ImpactBox({super.key, required this.impact});
+  final List<ImpactTag> impact;
+
+  @override
+  Widget build(BuildContext context) {
+    final look = Look.of(context);
+    return Container(
+      padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: look.surface,
+        border: Border.all(color: look.line),
+        borderRadius: BorderRadius.circular(12),
+      ),
+      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        Text('IMPACT', style: look.label(10.5)),
+        const SizedBox(height: 10),
+        for (final t in impact)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 10),
+            child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              ImpactChips(impact: [t]),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 2),
+                  child: Text(t.why, style: look.body(13.5, color: look.ink, height: 1.4)),
+                ),
+              ),
+            ]),
+          ),
+        Text('Red = big impact · Orange = medium · Yellow = small · ▲▼ likely direction',
+            style: look.body(11)),
+      ]),
     );
   }
 }

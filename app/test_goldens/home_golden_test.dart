@@ -5,6 +5,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:newsapp/data/settings.dart';
 import 'package:newsapp/main.dart';
@@ -19,7 +20,17 @@ const _photos = {
 };
 
 void main() {
-  setUpAll(loadAppFonts);
+  setUpAll(() async {
+    await loadAppFonts();
+    // Material icons, so screenshots show icons instead of empty boxes.
+    final sdk = Platform.environment['FLUTTER_ROOT'] ?? '';
+    final icons = File('$sdk/bin/cache/artifacts/material_fonts/materialicons-regular.otf');
+    if (icons.existsSync()) {
+      final loader = FontLoader('MaterialIcons')
+        ..addFont(Future.value(ByteData.sublistView(icons.readAsBytesSync())));
+      await loader.load();
+    }
+  });
 
   for (final style in AppStyle.values) {
     for (final theme in [ThemeMode.dark, ThemeMode.light]) {
@@ -33,15 +44,27 @@ void main() {
             style: style, theme: theme, photos: _photos)))!;
         await tester.pumpWidget(ApexApp(app: app));
         await tester.pumpAndSettle();
-        await tester.tap(find.text(style == AppStyle.bold ? 'MONEY & MARKETS' : 'Money & Markets'));
+        await tester.tap(find.textContaining(style == AppStyle.bold ? 'MONEY & MARKETS' : 'Money & Markets'));
         await tester.pumpAndSettle();
         // Decode photos (real file IO), then draw again.
         for (var i = 0; i < 3; i++) {
           await tester.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 700)));
           await tester.pump();
         }
+        await tester.pump(const Duration(milliseconds: 400));
         await expectLater(find.byType(MaterialApp),
             matchesGoldenFile('goldens/home_${style.name}_${theme.name}.png'));
+
+        // The lead story's sheet.
+        await tester.tap(find.textContaining('Iran cuts its Hormuz').first);
+        await tester.pumpAndSettle();
+        for (var i = 0; i < 2; i++) {
+          await tester.runAsync(() => Future<void>.delayed(const Duration(milliseconds: 500)));
+          await tester.pump();
+        }
+        await tester.pump(const Duration(milliseconds: 400)); // let photo fade-ins finish
+        await expectLater(find.byType(MaterialApp),
+            matchesGoldenFile('goldens/sheet_${style.name}_${theme.name}.png'));
       });
     }
   }

@@ -19,8 +19,9 @@ import 'ui/week_ahead_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  final settings = await Settings.load();
-  final docs = await getApplicationDocumentsDirectory();
+  // Both are disk lookups: run them side by side.
+  final (settings, docs) =
+      await (Settings.load(), getApplicationDocumentsDirectory()).wait;
   final app = AppController(
     settings: settings,
     store: EditionStore(docs),

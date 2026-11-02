@@ -125,6 +125,23 @@ class SettingsScreen extends StatelessWidget {
             heading('About'),
             ListTile(
               contentPadding: const EdgeInsets.symmetric(horizontal: 18),
+              title: Text('Opened in', style: look.body(15, color: look.ink)),
+              subtitle: Text('Tap on the icon to readable news, this launch. Target: under 1 s',
+                  style: look.body(12.5)),
+              trailing: Text(
+                app.openedInMs == null
+                    ? '—'
+                    : '${(app.openedInMs! / 1000).toStringAsFixed(2)} s',
+                style: look.number(13,
+                    color: app.openedInMs == null
+                        ? look.muted
+                        : app.openedInMs! < 1000
+                            ? look.up
+                            : look.down),
+              ),
+            ),
+            ListTile(
+              contentPadding: const EdgeInsets.symmetric(horizontal: 18),
               title: Text('App version', style: look.body(15, color: look.ink)),
               trailing: Text(appVersion, style: look.number(13, color: look.muted)),
             ),

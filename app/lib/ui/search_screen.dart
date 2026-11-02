@@ -18,6 +18,18 @@ class _SearchScreenState extends State<SearchScreen> {
   String _query = '';
 
   @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    // Usually already loaded just after launch; wait for it if not.
+    final store = context.app.store;
+    if (!store.searchReady) {
+      store.loadSearchIndex().then((_) {
+        if (mounted) setState(() {});
+      });
+    }
+  }
+
+  @override
   Widget build(BuildContext context) {
     final look = Look.of(context);
     final app = context.app;

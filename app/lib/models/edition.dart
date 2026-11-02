@@ -34,6 +34,72 @@ class StoryImage {
       );
 }
 
+/// How much a story is likely to move one thing, and which way.
+/// Shown as a chip: red = high, orange = medium, yellow = low.
+class ImpactTag {
+  /// indian_stocks, gold, silver, oil, rupee, crypto, rates, us_stocks,
+  /// india_economy.
+  final String on;
+
+  /// Optional narrower target, e.g. a sector ("IT") for indian_stocks.
+  final String? detail;
+
+  /// high, medium or low.
+  final String level;
+
+  /// up, down or mixed.
+  final String dir;
+  final String why;
+
+  const ImpactTag({
+    required this.on,
+    required this.detail,
+    required this.level,
+    required this.dir,
+    required this.why,
+  });
+
+  factory ImpactTag.fromJson(Map<String, dynamic> j) => ImpactTag(
+        on: j['on'] as String,
+        detail: j['detail'] as String?,
+        level: j['level'] as String,
+        dir: j['dir'] as String,
+        why: j['why'] as String,
+      );
+
+  static const _labels = {
+    'indian_stocks': 'Indian stocks',
+    'gold': 'Gold',
+    'silver': 'Silver',
+    'oil': 'Oil',
+    'rupee': 'Rupee',
+    'crypto': 'Crypto',
+    'rates': 'Rates',
+    'us_stocks': 'US stocks',
+    'india_economy': 'Economy',
+  };
+
+  /// "Gold", or "IT stocks" when a sector is given.
+  String get label {
+    if (on == 'indian_stocks' && detail != null) return '$detail stocks';
+    final base = _labels[on] ?? on;
+    return detail == null ? base : '$base · $detail';
+  }
+
+  String get arrow => switch (dir) {
+        'up' => '▲',
+        'down' => '▼',
+        _ => '±',
+      };
+
+  /// 0 = high, 1 = medium, 2 = low (for sorting).
+  int get rank => switch (level) {
+        'high' => 0,
+        'medium' => 1,
+        _ => 2,
+      };
+}
+
 class Story {
   final String id;
   final String headline;
@@ -50,6 +116,9 @@ class Story {
   final List<String> tags;
   final List<Source> sources;
   final StoryImage? image;
+
+  /// What the story moves, biggest first. Empty for older editions.
+  final List<ImpactTag> impact;
 
   /// Only set for Weekend Special stories (1 = biggest).
   final int? rank;
@@ -72,6 +141,7 @@ class Story {
     required this.sources,
     required this.image,
     required this.raw,
+    this.impact = const [],
     this.rank,
   });
 
@@ -100,6 +170,10 @@ class Story {
       image: j['image'] == null
           ? null
           : StoryImage.fromJson(j['image'] as Map<String, dynamic>),
+      impact: ((j['impact'] as List?) ?? const [])
+          .map((i) => ImpactTag.fromJson(i as Map<String, dynamic>))
+          .toList()
+        ..sort((a, b) => a.rank.compareTo(b.rank)),
       rank: j['rank'] as int?,
       raw: j,
     );

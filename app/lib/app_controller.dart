@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:connectivity_plus/connectivity_plus.dart';
-import 'package:flutter/foundation.dart';
+import 'package:flutter/widgets.dart';
 
 import 'data/edition_store.dart';
 import 'data/photo_cache.dart';
@@ -9,6 +9,7 @@ import 'data/remote.dart';
 import 'data/settings.dart';
 import 'data/sync.dart';
 import 'models/edition.dart';
+import 'startup_timer.dart';
 
 /// App state: which edition is showing, online/offline, saved stories.
 ///
@@ -46,12 +47,23 @@ class AppController extends ChangeNotifier {
 
   bool get ready => edition != null;
 
+  /// Time from tapping the icon to readable news on this launch (cold
+  /// starts only), shown in Settings.
+  int? openedInMs;
+
   Future<void> start() async {
     await store.init();
     if (store.entries.isNotEmpty) {
       await _show(store.entries.first.editionId);
     }
     notifyListeners();
+    if (edition != null) {
+      WidgetsBinding.instance.addPostFrameCallback((_) async {
+        openedInMs = await msSinceProcessStart();
+        notifyListeners();
+      });
+    }
+    unawaited(store.loadSearchIndex());
     unawaited(refresh());
   }
 
@@ -106,7 +118,8 @@ class AppController extends ChangeNotifier {
     final raw = await store.readRaw(editionId);
     if (raw == null) return null;
     try {
-      return await compute(parseEdition, raw);
+      // A 25 KB edition decodes in a few ms; a helper isolate costs more.
+      return parseEdition(raw);
     } on FormatException {
       return null;
     }

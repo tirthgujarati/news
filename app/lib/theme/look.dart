@@ -70,6 +70,13 @@ class Look extends ThemeExtension<Look> {
 
   Color section(String id) => sections[id] ?? ink;
 
+  /// Impact size colour: red = high, orange = medium, yellow = low.
+  Color impact(String level) => switch (level) {
+        'high' => dark ? const Color(0xFFFF5C66) : const Color(0xFFD62839),
+        'medium' => dark ? const Color(0xFFFFA94D) : const Color(0xFFE8740C),
+        _ => dark ? const Color(0xFFFFD43B) : const Color(0xFFE0B000),
+      };
+
   Color forDir(String dir) => switch (dir) {
         'up' => up,
         'down' => down,

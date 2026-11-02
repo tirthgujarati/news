@@ -20,6 +20,22 @@ String storyTime(Story s, String editionDate) {
 
 String clock(DateTime t) => _time.format(t.toLocal());
 
+/// "just now", "25 min ago", "3h ago", "2d ago".
+String ago(DateTime t, [DateTime? now]) {
+  final d = (now ?? DateTime.now()).difference(t);
+  if (d.inMinutes < 2) return 'just now';
+  if (d.inMinutes < 60) return '${d.inMinutes} min ago';
+  if (d.inHours < 24) return '${d.inHours}h ago';
+  return '${d.inDays}d ago';
+}
+
+/// "FRI" when a market price is from an earlier day than the edition.
+String? staleDay(DateTime asOf, String editionDate) {
+  final local = asOf.toLocal();
+  if (DateFormat('yyyy-MM-dd').format(local) == editionDate) return null;
+  return DateFormat('EEE').format(local).toUpperCase();
+}
+
 /// "Mon 2 Nov"
 String dayLabel(DateTime d) => DateFormat('EEE d MMM').format(d);
 

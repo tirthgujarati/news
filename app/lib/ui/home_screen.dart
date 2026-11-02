@@ -55,7 +55,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: CustomScrollView(
         slivers: [
           SliverToBoxAdapter(child: _Header(edition: edition)),
-          SliverToBoxAdapter(child: Ticker(items: edition.snapshot)),
+          SliverToBoxAdapter(child: Ticker(items: edition.snapshot, editionDate: edition.date)),
           if (app.viewingArchive)
             SliverToBoxAdapter(child: _ArchiveBanner(edition: edition)),
           if (app.offline && !app.viewingArchive)
@@ -141,7 +141,9 @@ class _Header extends StatelessWidget {
                   style: look.body(12, color: look.ink, weight: FontWeight.w600),
                   overflow: TextOverflow.ellipsis),
               Text(
-                app.refreshing ? 'Checking…' : 'Updated ${clock(edition.generatedAt)}',
+                app.refreshing
+                    ? 'Checking…'
+                    : 'Updated ${clock(edition.generatedAt)} · ${ago(edition.generatedAt)}',
                 style: look.body(11.5),
               ),
             ]),

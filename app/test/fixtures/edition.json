@@ -13,7 +13,10 @@
       "change": null,
       "dir": "flat",
       "as_of": "2026-10-30T13:00:00+05:30",
-      "source": { "name": "RBI (FBIL reference rate)", "url": "https://www.rbi.org.in/" }
+      "source": {
+        "name": "RBI (FBIL reference rate)",
+        "url": "https://www.rbi.org.in/"
+      }
     },
     {
       "id": "eurinr",
@@ -22,7 +25,10 @@
       "change": null,
       "dir": "flat",
       "as_of": "2026-10-30T13:00:00+05:30",
-      "source": { "name": "RBI (FBIL reference rate)", "url": "https://www.rbi.org.in/" }
+      "source": {
+        "name": "RBI (FBIL reference rate)",
+        "url": "https://www.rbi.org.in/"
+      }
     },
     {
       "id": "fx_reserves",
@@ -31,7 +37,10 @@
       "change": "-0.18%",
       "dir": "down",
       "as_of": "2026-10-23T00:00:00+05:30",
-      "source": { "name": "Business Standard", "url": "https://www.business-standard.com/amp/economy/news/india-forex-reserves-fall-1-27-bn-to-719-75-bn-as-gold-holdings-dip-126103001339_1.html" }
+      "source": {
+        "name": "Business Standard",
+        "url": "https://www.business-standard.com/amp/economy/news/india-forex-reserves-fall-1-27-bn-to-719-75-bn-as-gold-holdings-dip-126103001339_1.html"
+      }
     },
     {
       "id": "nifty",
@@ -40,7 +49,10 @@
       "change": "+0.51%",
       "dir": "up",
       "as_of": "2026-10-30T15:30:00+05:30",
-      "source": { "name": "Business Standard", "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html" }
+      "source": {
+        "name": "Business Standard",
+        "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
+      }
     },
     {
       "id": "sensex",
@@ -49,7 +61,10 @@
       "change": "+0.42%",
       "dir": "up",
       "as_of": "2026-10-30T15:30:00+05:30",
-      "source": { "name": "Business Standard", "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html" }
+      "source": {
+        "name": "Business Standard",
+        "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
+      }
     },
     {
       "id": "spx",
@@ -58,7 +73,10 @@
       "change": "-1.82%",
       "dir": "down",
       "as_of": "2026-10-30T16:00:00-04:00",
-      "source": { "name": "AP", "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-friday-10-30-2026" }
+      "source": {
+        "name": "AP",
+        "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-friday-10-30-2026"
+      }
     },
     {
       "id": "nasdaq",
@@ -67,7 +85,10 @@
       "change": "-2.86%",
       "dir": "down",
       "as_of": "2026-10-30T16:00:00-04:00",
-      "source": { "name": "AP", "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-friday-10-30-2026" }
+      "source": {
+        "name": "AP",
+        "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-friday-10-30-2026"
+      }
     },
     {
       "id": "brent",
@@ -76,7 +97,10 @@
       "change": "+2.37%",
       "dir": "up",
       "as_of": "2026-10-30T00:00:00-04:00",
-      "source": { "name": "Kitco", "url": "https://www.kitco.com/news/article/2026-10-30/gold-falls-below-3900-silver-tumbles-wall-street-selloff-triggers" }
+      "source": {
+        "name": "Kitco",
+        "url": "https://www.kitco.com/news/article/2026-10-30/gold-falls-below-3900-silver-tumbles-wall-street-selloff-triggers"
+      }
     },
     {
       "id": "btc",
@@ -85,7 +109,10 @@
       "change": "-4.1%",
       "dir": "down",
       "as_of": "2026-10-30T12:15:00-04:00",
-      "source": { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/30/bitcoin-ether-price-binance-security-scare-rattles-crypto-markets.html" }
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/30/bitcoin-ether-price-binance-security-scare-rattles-crypto-markets.html"
+      }
     },
     {
       "id": "us10y",
@@ -94,7 +121,10 @@
       "change": "-6 bp",
       "dir": "down",
       "as_of": "2026-10-30T00:00:00-04:00",
-      "source": { "name": "Investing.com", "url": "https://www.investing.com/rates-bonds/u.s.-10-year-bond-yield-historical-data" }
+      "source": {
+        "name": "Investing.com",
+        "url": "https://www.investing.com/rates-bonds/u.s.-10-year-bond-yield-historical-data"
+      }
     }
   ],
   "sections": [
@@ -112,11 +142,20 @@
           "verified": false,
           "note": "Single source: All India Radio, citing IMD.",
           "published_at": "2026-11-01T20:52:00+05:30",
-          "tags": ["cyclone", "IMD", "Andhra Pradesh", "Odisha"],
-          "sources": [
-            { "name": "All India Radio", "url": "https://newsonair.gov.in/cyclonic-storm-murasu-intensifies-over-bay-of-bengal-andhra-pradesh-on-high-alert/" }
+          "tags": [
+            "cyclone",
+            "IMD",
+            "Andhra Pradesh",
+            "Odisha"
           ],
-          "image": null
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/cyclonic-storm-murasu-intensifies-over-bay-of-bengal-andhra-pradesh-on-high-alert/"
+            }
+          ],
+          "image": null,
+          "impact": []
         },
         {
           "id": "india-gst-october-2026-11-01",
@@ -128,12 +167,23 @@
           "verified": true,
           "note": null,
           "published_at": "2026-11-01T00:00:00+05:30",
-          "tags": ["GST", "tax", "economy"],
-          "sources": [
-            { "name": "Business Standard", "url": "https://www.business-standard.com/economy/news/gross-gst-collections-rise-23-to-2-31-trillion-in-october-on-strong-sales-126110100248_1.html" },
-            { "name": "The Tribune", "url": "https://www.tribuneindia.com/news/business/gross-gst-collections-rise-22-9-to-rs-2-31-lakh-crore-in-october-net-revenue-up-25-6" }
+          "tags": [
+            "GST",
+            "tax",
+            "economy"
           ],
-          "image": null
+          "sources": [
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/economy/news/gross-gst-collections-rise-23-to-2-31-trillion-in-october-on-strong-sales-126110100248_1.html"
+            },
+            {
+              "name": "The Tribune",
+              "url": "https://www.tribuneindia.com/news/business/gross-gst-collections-rise-22-9-to-rs-2-31-lakh-crore-in-october-net-revenue-up-25-6"
+            }
+          ],
+          "image": null,
+          "impact": []
         },
         {
           "id": "india-banking-reform-panel-2026-10-31",
@@ -145,11 +195,19 @@
           "verified": false,
           "note": "Single source: All India Radio.",
           "published_at": "2026-10-31T07:46:00+05:30",
-          "tags": ["banking", "RBI", "reform"],
-          "sources": [
-            { "name": "All India Radio", "url": "https://newsonair.gov.in/centre-constitutes-high-level-committee-to-recommend-banking-reforms-for-viksit-bharat-2047/" }
+          "tags": [
+            "banking",
+            "RBI",
+            "reform"
           ],
-          "image": null
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/centre-constitutes-high-level-committee-to-recommend-banking-reforms-for-viksit-bharat-2047/"
+            }
+          ],
+          "image": null,
+          "impact": []
         }
       ]
     },
@@ -167,16 +225,38 @@
           "verified": false,
           "note": "Single source: Al Jazeera.",
           "published_at": "2026-11-01T00:00:00+03:00",
-          "tags": ["Iran", "US", "Hormuz", "oil"],
+          "tags": [
+            "Iran",
+            "US",
+            "Hormuz",
+            "oil"
+          ],
           "sources": [
-            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war" }
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war"
+            }
           ],
           "image": {
             "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/14405199-1793530960.jpg?resize=1920%2C1440",
             "credit": "EPA/Abedin Taherkenareh",
             "source_url": "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war",
             "alt": "A man waves Iran's national flag on a street in Tehran"
-          }
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "high",
+              "dir": "down",
+              "why": "A reopened Hormuz would ease the supply squeeze behind Brent above $113."
+            },
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "up",
+              "why": "Cheaper oil cuts India's import bill, which supports the rupee."
+            }
+          ]
         },
         {
           "id": "world-us-midterms-2026-11-01",
@@ -188,12 +268,23 @@
           "verified": true,
           "note": null,
           "published_at": "2026-11-01T00:00:00+03:00",
-          "tags": ["US", "elections", "Congress"],
-          "sources": [
-            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/liveblog/2026/11/1/us-midterms-live-last-ditch-efforts-ahead-of-tuesdays-elections" },
-            { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html" }
+          "tags": [
+            "US",
+            "elections",
+            "Congress"
           ],
-          "image": null
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/1/us-midterms-live-last-ditch-efforts-ahead-of-tuesdays-elections"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html"
+            }
+          ],
+          "image": null,
+          "impact": []
         },
         {
           "id": "world-israel-election-deadlock-2026-10-28",
@@ -205,12 +296,23 @@
           "verified": true,
           "note": null,
           "published_at": "2026-11-01T00:00:00+03:00",
-          "tags": ["Israel", "elections", "Netanyahu"],
-          "sources": [
-            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/1/israel-election-when-will-government-be-formed-who-will-lead-it" },
-            { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html" }
+          "tags": [
+            "Israel",
+            "elections",
+            "Netanyahu"
           ],
-          "image": null
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/1/israel-election-when-will-government-be-formed-who-will-lead-it"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html"
+            }
+          ],
+          "image": null,
+          "impact": []
         }
       ]
     },
@@ -228,12 +330,31 @@
           "verified": true,
           "note": null,
           "published_at": "2026-10-30T00:00:00+05:30",
-          "tags": ["forex reserves", "RBI", "rupee", "gold"],
-          "sources": [
-            { "name": "Business Standard", "url": "https://www.business-standard.com/amp/economy/news/india-forex-reserves-fall-1-27-bn-to-719-75-bn-as-gold-holdings-dip-126103001339_1.html" },
-            { "name": "Moneycontrol", "url": "https://www.tradingview.com/news/moneycontrol:463fd8a57094b:0-india-s-forex-reserves-fall-1-27-billion-to-719-75-billion/" }
+          "tags": [
+            "forex reserves",
+            "RBI",
+            "rupee",
+            "gold"
           ],
-          "image": null
+          "sources": [
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/amp/economy/news/india-forex-reserves-fall-1-27-bn-to-719-75-bn-as-gold-holdings-dip-126103001339_1.html"
+            },
+            {
+              "name": "Moneycontrol",
+              "url": "https://www.tradingview.com/news/moneycontrol:463fd8a57094b:0-india-s-forex-reserves-fall-1-27-billion-to-719-75-billion/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "down",
+              "why": "Smaller reserves leave the RBI less room to defend the rupee."
+            }
+          ]
         }
       ]
     },
@@ -251,17 +372,43 @@
           "verified": true,
           "note": null,
           "published_at": "2026-10-30T16:22:00-04:00",
-          "tags": ["Wall Street", "tech", "AI", "Nasdaq"],
+          "tags": [
+            "Wall Street",
+            "tech",
+            "AI",
+            "Nasdaq"
+          ],
           "sources": [
-            { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html" },
-            { "name": "AP", "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-friday-10-30-2026" }
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html"
+            },
+            {
+              "name": "AP",
+              "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-friday-10-30-2026"
+            }
           ],
           "image": {
             "url": "https://image.cnbcfm.com/api/v1/image/108432673-1792420157696-gettyimages-2300478114-AFP_D3QN9WE.jpeg?v=1792420206&w=1920&h=1080",
             "credit": "AFP via Getty Images",
             "source_url": "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html",
             "alt": "A trader checks a tablet on the floor of the New York Stock Exchange"
-          }
+          },
+          "impact": [
+            {
+              "on": "us_stocks",
+              "level": "high",
+              "dir": "down",
+              "why": "AI spending worries hit the biggest tech stocks."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "medium",
+              "dir": "down",
+              "why": "US tech weakness often spills into Indian IT."
+            }
+          ]
         },
         {
           "id": "markets-sensex-nifty-gain-2026-10-30",
@@ -273,12 +420,23 @@
           "verified": true,
           "note": null,
           "published_at": "2026-10-30T15:30:00+05:30",
-          "tags": ["Sensex", "Nifty", "IT stocks"],
-          "sources": [
-            { "name": "Business Standard", "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html" },
-            { "name": "Kotak Neo", "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-close-higher-amid-global-headwinds/" }
+          "tags": [
+            "Sensex",
+            "Nifty",
+            "IT stocks"
           ],
-          "image": null
+          "sources": [
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-q2-results-october-30-126103000074_1.html"
+            },
+            {
+              "name": "Kotak Neo",
+              "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-close-higher-amid-global-headwinds/"
+            }
+          ],
+          "image": null,
+          "impact": []
         },
         {
           "id": "markets-binance-hack-bitcoin-2026-10-30",
@@ -290,12 +448,31 @@
           "verified": true,
           "note": null,
           "published_at": "2026-10-29T20:32:00-04:00",
-          "tags": ["bitcoin", "Binance", "crypto", "hack"],
-          "sources": [
-            { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/30/bitcoin-ether-price-binance-security-scare-rattles-crypto-markets.html" },
-            { "name": "Bitcoin Magazine", "url": "https://bitcoinmagazine.com/news/bitcoin-price-slides-binance" }
+          "tags": [
+            "bitcoin",
+            "Binance",
+            "crypto",
+            "hack"
           ],
-          "image": null
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/30/bitcoin-ether-price-binance-security-scare-rattles-crypto-markets.html"
+            },
+            {
+              "name": "Bitcoin Magazine",
+              "url": "https://bitcoinmagazine.com/news/bitcoin-price-slides-binance"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "crypto",
+              "level": "high",
+              "dir": "down",
+              "why": "The biggest exchange hack on record hurts trust in crypto."
+            }
+          ]
         }
       ]
     },
@@ -313,12 +490,24 @@
           "verified": true,
           "note": "It is a prototype; no independent tests yet.",
           "published_at": "2026-11-01T00:00:00+05:30",
-          "tags": ["AI", "DeepSeek", "coding", "China"],
-          "sources": [
-            { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic" },
-            { "name": "Business Standard", "url": "https://business-standard.com/technology/tech-news/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic-126110100865_1.html" }
+          "tags": [
+            "AI",
+            "DeepSeek",
+            "coding",
+            "China"
           ],
-          "image": null
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic"
+            },
+            {
+              "name": "Business Standard",
+              "url": "https://business-standard.com/technology/tech-news/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic-126110100865_1.html"
+            }
+          ],
+          "image": null,
+          "impact": []
         },
         {
           "id": "built-cowboy-space-big-iron-2026-10-27",
@@ -330,11 +519,19 @@
           "verified": false,
           "note": "Company announcement; the specs are not independently confirmed.",
           "published_at": "2026-10-28T00:00:00-04:00",
-          "tags": ["space", "data centres", "Nvidia"],
-          "sources": [
-            { "name": "HPCwire", "url": "https://www.hpcwire.com/off-the-wire/cowboy-space-unveils-big-iron-rocket-designed-to-become-an-orbital-data-center/" }
+          "tags": [
+            "space",
+            "data centres",
+            "Nvidia"
           ],
-          "image": null
+          "sources": [
+            {
+              "name": "HPCwire",
+              "url": "https://www.hpcwire.com/off-the-wire/cowboy-space-unveils-big-iron-rocket-designed-to-become-an-orbital-data-center/"
+            }
+          ],
+          "image": null,
+          "impact": []
         }
       ]
     }
@@ -344,36 +541,66 @@
     {
       "date": "2026-11-02",
       "events": [
-        { "text": "Cyclone Murasu expected to cross the south Andhra coast overnight", "section": "india" },
-        { "text": "US ISM manufacturing index for October", "section": "markets" },
-        { "text": "Apple and Palantir report results", "section": "markets" }
+        {
+          "text": "Cyclone Murasu expected to cross the south Andhra coast overnight",
+          "section": "india"
+        },
+        {
+          "text": "US ISM manufacturing index for October",
+          "section": "markets"
+        },
+        {
+          "text": "Apple and Palantir report results",
+          "section": "markets"
+        }
       ]
     },
     {
       "date": "2026-11-03",
       "events": [
-        { "text": "US midterm elections", "section": "world" },
-        { "text": "Reserve Bank of Australia rate decision", "section": "markets" },
-        { "text": "AMD and Pfizer report results", "section": "markets" }
+        {
+          "text": "US midterm elections",
+          "section": "world"
+        },
+        {
+          "text": "Reserve Bank of Australia rate decision",
+          "section": "markets"
+        },
+        {
+          "text": "AMD and Pfizer report results",
+          "section": "markets"
+        }
       ]
     },
     {
       "date": "2026-11-04",
       "events": [
-        { "text": "US ISM services index", "section": "markets" },
-        { "text": "Israel's election results due to be certified", "section": "world" }
+        {
+          "text": "US ISM services index",
+          "section": "markets"
+        },
+        {
+          "text": "Israel's election results due to be certified",
+          "section": "world"
+        }
       ]
     },
     {
       "date": "2026-11-05",
       "events": [
-        { "text": "Bank of England rate decision", "section": "markets" }
+        {
+          "text": "Bank of England rate decision",
+          "section": "markets"
+        }
       ]
     },
     {
       "date": "2026-11-06",
       "events": [
-        { "text": "US October jobs report", "section": "markets" }
+        {
+          "text": "US October jobs report",
+          "section": "markets"
+        }
       ]
     }
   ]

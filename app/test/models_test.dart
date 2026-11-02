@@ -38,6 +38,24 @@ void main() {
     expect(gst.publishedDateOnly, isTrue);
   });
 
+  test('reads impact tags, biggest first, and tolerates older editions', () {
+    final e = parseEdition(fixture());
+    final wallSt = e.section('markets')!.stories.first;
+    expect(wallSt.impact.map((t) => t.level), ['high', 'medium']);
+    expect(wallSt.impact.last.label, 'IT stocks');
+    expect(wallSt.impact.first.arrow, '▼');
+    expect(e.leadStory!.impact.first.on, 'oil');
+
+    // Editions written before impact tags existed have no "impact" key.
+    final old = jsonDecode(fixture()) as Map<String, dynamic>;
+    for (final s in old['sections'] as List) {
+      for (final st in (s as Map)['stories'] as List) {
+        (st as Map).remove('impact');
+      }
+    }
+    expect(Edition.fromJson(old).allStories.every((s) => s.impact.isEmpty), isTrue);
+  });
+
   test('keeps the raw story JSON for Saved', () {
     final e = parseEdition(fixture());
     final st = e.allStories.first;
