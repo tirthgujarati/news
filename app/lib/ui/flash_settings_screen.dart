@@ -99,12 +99,9 @@ class _FlashSettingsScreenState extends State<FlashSettingsScreen> with WidgetsB
               step(s.battery, 'Battery: Unrestricted',
                   'So Android doesn\'t pause apex while the phone sleeps.',
                   action: s.battery ? null : 'Set', onTap: () => f.native('openBatterySettings')),
-              step(s.apiKey, 'Claude API key (quick judge)',
-                  'Your own key from console.anthropic.com. Stored encrypted on this phone only.',
-                  action: s.apiKey ? 'Change' : 'Add',
-                  onTap: () => _editSecret('anthropic_key', 'Claude API key', 'sk-ant-...')),
               step(s.githubToken, 'GitHub token (Opus flash desk)',
-                  'Fine-grained token for tirthgujarati/news with Issues: read and write and Contents: read.',
+                  'Fine-grained token for tirthgujarati/news with Issues: read and write and Contents: read. '
+                  'Stored encrypted on this phone only.',
                   action: s.githubToken ? 'Change' : 'Add',
                   onTap: () => _editSecret('github_token', 'GitHub token', 'github_pat_...')),
               heading('Flash'),
@@ -151,30 +148,12 @@ class _FlashSettingsScreenState extends State<FlashSettingsScreen> with WidgetsB
                 onChanged: (v) => f.setConfig((p) => p.setBool(FlashConfig.kHide, v)),
               ),
               heading('Claude'),
-              ListTile(
-                contentPadding: const EdgeInsets.symmetric(horizontal: 18),
-                title: Text('Monthly limit for the quick judge', style: look.body(14.5, color: look.ink)),
-                subtitle: Text('Sonnet 5.5, about ₹0.25 a call. At the limit, apex uses rules only.',
-                    style: look.body(12.5)),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 18),
-                child: SegmentedButton<double>(
-                  segments: const [
-                    ButtonSegment(value: 100, label: Text('₹100')),
-                    ButtonSegment(value: 200, label: Text('₹200')),
-                    ButtonSegment(value: 500, label: Text('₹500')),
-                  ],
-                  selected: {c.monthlyInr},
-                  showSelectedIcon: false,
-                  onSelectionChanged: (v) => f.setConfig((p) => p.setDouble(FlashConfig.kMonthly, v.first)),
-                ),
-              ),
               SwitchListTile(
                 contentPadding: const EdgeInsets.symmetric(horizontal: 18),
-                title: Text('Opus flash desk on HOT', style: look.body(14.5, color: look.ink)),
+                title: Text('Opus flash desk', style: look.body(14.5, color: look.ink)),
                 subtitle: Text(
-                    'Your plan\'s Opus checks HOT news with real sources in ~3 minutes. Up to ${c.deskDaily} a day.',
+                    'Opus on your plan judges strong news with real sources in about 3 minutes: HOT, WATCH '
+                    'or NOISE, and the chips. Up to ${c.deskDaily} a day; no API cost.',
                     style: look.body(12.5)),
                 value: c.deskAuto,
                 onChanged: (v) => f.setConfig((p) => p.setBool(FlashConfig.kDeskAuto, v)),

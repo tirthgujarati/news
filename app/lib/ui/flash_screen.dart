@@ -18,8 +18,8 @@ Color verdictColor(Look look, Verdict v) => switch (v) {
       Verdict.noise => look.muted,
     };
 
-/// Hot news in seconds: squawk headlines judged by rules, Claude Sonnet and
-/// the Opus flash desk, with the market's own reaction.
+/// Hot news in seconds: squawk headlines scored by rules at once and judged
+/// by the Opus flash desk in minutes, with the market's own reaction.
 class FlashScreen extends StatefulWidget {
   const FlashScreen({super.key, required this.flash, this.visible = true});
   final FlashView flash;
@@ -102,7 +102,7 @@ class _FlashScreenState extends State<FlashScreen> {
               children: [
                 if (!f.status.ready) _SetupCard(flash: f),
                 _Meter(flash: f),
-                _SpendLine(flash: f),
+                _DeskLine(flash: f),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(14, 6, 14, 6),
                   child: Row(children: [
@@ -193,22 +193,15 @@ class VerdictBadge extends StatelessWidget {
   }
 }
 
-/// "Sonnet 2.1 s · Opus ✓ confirmed" / "Opus checking…" / "Rules (No key)".
+/// "Opus ✓ confirmed in 3 min" / "Rules · Opus checking…" / "Rules · No GitHub token".
 String calledByLine(FlashEvent e) {
-  final parts = <String>[];
-  final j = e.judgement;
-  if (j != null) {
-    parts.add('Sonnet ${(j.ms / 1000).toStringAsFixed(1)} s${j.isNew ? '' : ' · already known'}');
-  } else {
-    parts.add(e.judgeError == null ? 'Rules' : 'Rules · ${e.judgeError}');
+  final d = e.desk;
+  if (d != null) {
+    final mins = d.checkedAt.difference(e.at).inMinutes;
+    return 'Opus ${d.confirmed ? '✓ confirmed' : 'not confirmed'}${mins > 0 ? ' in $mins min' : ''}';
   }
-  if (e.desk != null) {
-    final mins = e.desk!.checkedAt.difference(e.at).inMinutes;
-    parts.add('Opus ${e.desk!.confirmed ? '✓ confirmed' : 'not confirmed'}${mins > 0 ? ' in $mins min' : ''}');
-  } else if (e.issue != null) {
-    parts.add('Opus checking…');
-  }
-  return parts.join(' · ');
+  if (e.deskChecking) return 'Rules · Opus checking…';
+  return e.deskError == null ? 'Rules' : 'Rules · ${e.deskError}';
 }
 
 /// "Market agrees ✓ · USD/INR +0.21%" from the latest check.
@@ -235,7 +228,7 @@ class FlashCard extends StatelessWidget {
     final look = Look.of(context);
     final e = event;
     final c = verdictColor(look, e.verdict);
-    final why = e.desk?.why ?? e.judgement?.why;
+    final why = e.desk?.why;
     final market = marketLine(e);
     return InkWell(
       onTap: () => showFlashEvent(context, e),
@@ -342,25 +335,15 @@ class _EventDetail extends StatelessWidget {
                 child: Text('↗ ${s.name}', style: look.body(13.5, color: look.section('markets'))),
               ),
             ),
-        ] else if (e.issue != null) ...[
+        ] else if (e.deskChecking) ...[
           heading('Opus flash desk'),
-          Text('Checking with independent sources… usually 2–4 minutes.', style: look.body(14)),
-        ],
-        if (e.judgement != null) ...[
-          heading('Sonnet quick judge'),
+          Text('Judging and checking with independent sources… usually about 3 minutes.', style: look.body(14)),
+        ] else ...[
+          heading('Rules only'),
           Text(
-            '${e.judgement!.verdict.label}${e.judgement!.isNew ? '' : ' · already known'} · '
-            '${(e.judgement!.ms / 1000).toStringAsFixed(1)} s',
+            e.deskError ?? 'Not strong enough to send to Opus (rule score ${e.score}).',
             style: look.body(13),
           ),
-          if (d != null && e.judgement!.why.isNotEmpty)
-            Padding(
-              padding: const EdgeInsets.only(top: 4),
-              child: Text(e.judgement!.why, style: look.body(13.5, color: look.ink)),
-            ),
-        ] else if (e.judgeError != null) ...[
-          heading('Quick judge'),
-          Text('Rules only: ${e.judgeError}', style: look.body(13)),
         ],
         if (e.moves.isNotEmpty) ...[
           heading('Market reaction'),
@@ -426,21 +409,17 @@ class _Meter extends StatelessWidget {
   }
 }
 
-class _SpendLine extends StatelessWidget {
-  const _SpendLine({required this.flash});
+class _DeskLine extends StatelessWidget {
+  const _DeskLine({required this.flash});
   final FlashView flash;
 
   @override
   Widget build(BuildContext context) {
     final look = Look.of(context);
-    final s = flash.spend;
-    final c = flash.config;
-    final used = s == null || s.month != DateTime.now().toIso8601String().substring(0, 7) ? 0.0 : s.usd * c.inrPerUsd;
     return Padding(
       padding: const EdgeInsets.fromLTRB(18, 6, 18, 2),
       child: Text(
-        'Claude Sonnet: ₹${used.toStringAsFixed(0)} of ₹${c.monthlyInr.toStringAsFixed(0)} this month'
-        '${s == null ? '' : ' · ${s.calls} calls'} · Opus desk ${flash.deskToday}/${c.deskDaily} today',
+        'Opus flash desk: ${flash.deskToday} of ${flash.config.deskDaily} checks today · on your plan',
         style: look.body(12),
       ),
     );

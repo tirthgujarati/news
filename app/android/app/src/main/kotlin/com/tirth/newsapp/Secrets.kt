@@ -11,7 +11,7 @@ import javax.crypto.SecretKey
 import javax.crypto.spec.GCMParameterSpec
 
 /**
- * The Claude API key and GitHub token, encrypted with a key that never
+ * The GitHub token (and any other secret), encrypted with a key that never
  * leaves the phone's Android Keystore. Only apex can read them.
  */
 object Secrets {

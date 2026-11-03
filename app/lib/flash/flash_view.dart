@@ -9,9 +9,9 @@ import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'desk.dart' show deskDayOf;
 import 'engine.dart' show FlashConfig;
 import 'flash.dart';
-import 'judge.dart' show Spend;
 import 'prices.dart';
 import 'store.dart';
 
@@ -24,7 +24,6 @@ class FlashStatus {
   final bool notifications;
   final bool battery;
   final bool telegram;
-  final bool apiKey;
   final bool githubToken;
 
   const FlashStatus({
@@ -32,11 +31,10 @@ class FlashStatus {
     this.notifications = false,
     this.battery = false,
     this.telegram = false,
-    this.apiKey = false,
     this.githubToken = false,
   });
 
-  bool get ready => listener && notifications && apiKey;
+  bool get ready => listener && notifications && githubToken;
 }
 
 class FlashView extends ChangeNotifier {
@@ -49,8 +47,7 @@ class FlashView extends ChangeNotifier {
 
   List<FlashEvent> get events => _store.events;
   List<TapeItem> get tape => _store.tape;
-  Spend? get spend => _store.spend;
-  int get deskToday => _store.deskDay == Spend.dayOf(DateTime.now()) ? _store.deskCount : 0;
+  int get deskToday => _store.deskDay == deskDayOf(DateTime.now()) ? _store.deskCount : 0;
 
   FlashStatus status = const FlashStatus();
   FlashConfig config = const FlashConfig();
@@ -115,14 +112,12 @@ class FlashView extends ChangeNotifier {
     if (!live) return;
     try {
       final s = (await _native.invokeMethod<Map>('status'))!.cast<String, Object?>();
-      final key = await _native.invokeMethod<String>('secret', {'name': 'anthropic_key'});
       final gh = await _native.invokeMethod<String>('secret', {'name': 'github_token'});
       status = FlashStatus(
         listener: s['listener'] == true,
         notifications: s['notifications'] == true,
         battery: s['battery'] == true,
         telegram: s['telegram'] == true,
-        apiKey: key != null && key.isNotEmpty,
         githubToken: gh != null && gh.isNotEmpty,
       );
       notifyListeners();

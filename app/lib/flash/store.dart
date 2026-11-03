@@ -1,5 +1,5 @@
-/// Flash events, the squawk tape and the API spend, kept in one file on the
-/// phone (flash.json). Only the background Flash engine writes it; the app's
+/// Flash events, the squawk tape and the flash desk count, kept in one file
+/// on the phone (flash.json). Only the background Flash engine writes it; the app's
 /// screens read it.
 library;
 
@@ -7,7 +7,6 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'flash.dart';
-import 'judge.dart' show Spend;
 
 /// One line of the tape: every squawk headline, scored.
 class TapeItem {
@@ -37,7 +36,6 @@ class FlashStore {
 
   /// Newest first.
   List<TapeItem> tape = [];
-  Spend? spend;
 
   /// Flash desk runs today: ("2026-11-03", 2).
   String deskDay = '';
@@ -53,7 +51,6 @@ class FlashStore {
         for (final e in (j['events'] as List? ?? const [])) FlashEvent.fromJson(e as Map<String, dynamic>)
       ];
       tape = [for (final t in (j['tape'] as List? ?? const [])) TapeItem.fromJson(t as Map<String, dynamic>)];
-      spend = j['spend'] == null ? null : Spend.fromJson(j['spend'] as Map<String, dynamic>);
       deskDay = j['desk_day'] as String? ?? '';
       deskCount = j['desk_count'] as int? ?? 0;
     } catch (_) {
@@ -72,7 +69,6 @@ class FlashStore {
     await tmp.writeAsString(jsonEncode({
       'events': [for (final e in events) e.toJson()],
       'tape': [for (final t in tape) t.toJson()],
-      if (spend != null) 'spend': spend!.toJson(),
       'desk_day': deskDay,
       'desk_count': deskCount,
     }));

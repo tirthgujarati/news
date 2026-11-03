@@ -9,11 +9,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:path_provider/path_provider.dart';
 
-import '../data/edition_store.dart';
-import '../models/forex.dart';
 import 'desk.dart';
 import 'engine.dart';
-import 'judge.dart';
 import 'prices.dart';
 import 'store.dart';
 import 'watcher.dart';
@@ -53,8 +50,6 @@ Future<void> runFlashEngine() async {
     store: FlashStore(docs),
     platform: ChannelPlatform(),
     config: FlashConfig.read,
-    calendar: () async => parseForexFeeds(await EditionStore(docs).readForexFeeds()),
-    judgeFor: (key) => SonnetJudge(apiKey: key),
     deskFor: (token) => FlashDesk(token: token),
     prices: prices,
   );

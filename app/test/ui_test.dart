@@ -71,7 +71,7 @@ void main() {
     expect(tester.takeException(), isNull);
   });
 
-  testWidgets('Flash tab: verdicts, chips, Sonnet and Opus calls, market check', (tester) async {
+  testWidgets('Flash tab: verdicts, chips, Opus calls, market check', (tester) async {
     await pumpApp(tester, AppStyle.night, ThemeMode.dark);
     await tester.tap(find.text('Flash').last);
     await tester.pumpAndSettle();
@@ -80,7 +80,8 @@ void main() {
     expect(find.text('USD ▼'), findsOneWidget);
     expect(find.text('GOLD ▲'), findsOneWidget);
     expect(find.text('RUPEE ▲'), findsOneWidget);
-    expect(find.textContaining('Sonnet 2.1 s · Opus ✓ confirmed in 3 min'), findsOneWidget);
+    expect(find.textContaining('Opus ✓ confirmed in 3 min'), findsOneWidget);
+    expect(find.textContaining('of 15 checks today'), findsOneWidget);
     expect(find.textContaining('Market agrees ✓'), findsOneWidget);
     expect(find.textContaining('ECB holds'), findsNothing); // NOISE hidden by default
     expect(find.textContaining('Finish setting up Flash'), findsOneWidget);

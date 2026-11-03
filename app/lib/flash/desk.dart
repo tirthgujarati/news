@@ -1,6 +1,7 @@
-/// The flash desk: for a HOT event the phone opens a GitHub issue labelled
-/// `flash`; that fires the plan's Opus routine, which checks the news and
-/// writes `data/flash/<issue>.json` (a few minutes later).
+/// The flash desk: for a strong event the phone opens a GitHub issue
+/// labelled `flash`; that fires the plan's Opus routine, which judges and
+/// checks the news and writes `data/flash/<issue>.json` (about 3 minutes
+/// later).
 library;
 
 import 'dart:convert';
@@ -13,7 +14,10 @@ const _repo = 'tirthgujarati/news';
 const _api = 'https://api.github.com/repos/$_repo';
 
 /// At most this many flash desk runs a day (each uses a plan routine run).
-const deskDailyLimit = 6;
+const deskDailyLimit = 15;
+
+/// "2026-11-03": the day the daily limit counts in.
+String deskDayOf(DateTime t) => t.toIso8601String().substring(0, 10);
 
 class DeskException implements Exception {
   DeskException(this.message);
@@ -24,17 +28,16 @@ class DeskException implements Exception {
 
 String _clip(String s, int n) => s.length <= n ? s : '${s.substring(0, n - 1)}…';
 
-/// The issue the desk reads: the squawk headlines and the quick judge's call.
+/// The issue the desk reads: the squawk headlines and the rules' guess.
 ({String title, String body}) deskIssue(FlashEvent e) {
-  final j = e.judgement;
   final payload = {
     'event_id': e.id,
     'headlines': [for (final h in e.headlines.take(10)) h.toJson()],
-    'quick_judge': {
-      'model': 'claude-sonnet-5-5',
+    'rules': {
+      'topic': e.topic,
+      'score': e.score,
       'verdict': e.verdict.label,
       'chips': [for (final c in e.chips) c.toJson()..remove('why')],
-      'why': j?.why ?? '',
     },
   };
   return (

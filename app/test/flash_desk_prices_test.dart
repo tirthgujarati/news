@@ -23,14 +23,15 @@ FlashEvent _event() => FlashEvent(
     );
 
 void main() {
-  test('desk issue carries the headlines and the quick call as JSON', () {
+  test('desk issue carries the headlines and the rules\' guess as JSON', () {
     final i = deskIssue(_event());
     expect(i.title, startsWith('flash: RBA RAISES CASH RATE'));
     final json = RegExp(r'```json\n(.*)\n```', dotAll: true).firstMatch(i.body)![1]!;
     final m = jsonDecode(json) as Map;
     expect(m['event_id'], 'ev-20261103-033040');
     expect((m['headlines'] as List).single['channel'], 'marketfeed');
-    expect((m['quick_judge'] as Map)['chips'], [
+    expect((m['rules'] as Map)['score'], 6);
+    expect((m['rules'] as Map)['chips'], [
       {'on': 'currency', 'detail': 'AUD', 'level': 'high', 'dir': 'up'}
     ]);
   });

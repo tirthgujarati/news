@@ -1,6 +1,6 @@
-/// Flash: hot market headlines caught from squawk channels, judged in
-/// seconds (rules, then Claude Sonnet) and checked in minutes (the Opus
-/// flash desk on the plan, and the market itself).
+/// Flash: hot market headlines caught from squawk channels, scored in an
+/// instant by rules and judged in minutes by Claude Opus on the plan (the
+/// flash desk) and by the market itself.
 library;
 
 import '../models/edition.dart' show ImpactTag, Source;
@@ -42,51 +42,6 @@ List<ImpactTag> _tags(Object? list) => [
       for (final t in (list as List?) ?? const [])
         ImpactTag.fromJson(t as Map<String, dynamic>)
     ];
-
-/// Claude Sonnet's quick reading, seconds after the headline.
-class Judgement {
-  final Verdict verdict;
-
-  /// False when the news was already known or fully expected.
-  final bool isNew;
-
-  /// Claude's own one-line version of what happened.
-  final String headline;
-  final String why;
-  final List<ImpactTag> chips;
-  final int ms;
-  final DateTime at;
-
-  const Judgement({
-    required this.verdict,
-    required this.isNew,
-    required this.headline,
-    required this.why,
-    required this.chips,
-    required this.ms,
-    required this.at,
-  });
-
-  Map<String, dynamic> toJson() => {
-        'verdict': verdict.label,
-        'is_new': isNew,
-        'headline': headline,
-        'why': why,
-        'chips': [for (final c in chips) c.toJson()],
-        'ms': ms,
-        'at': at.toUtc().toIso8601String(),
-      };
-
-  factory Judgement.fromJson(Map<String, dynamic> j) => Judgement(
-        verdict: Verdict.parse(j['verdict'] as String?) ?? Verdict.watch,
-        isNew: j['is_new'] as bool? ?? true,
-        headline: j['headline'] as String? ?? '',
-        why: j['why'] as String? ?? '',
-        chips: _tags(j['chips']),
-        ms: j['ms'] as int? ?? 0,
-        at: DateTime.parse(j['at'] as String),
-      );
-}
 
 /// The Opus flash desk's checked result (`data/flash/<issue>.json`).
 class DeskResult {
@@ -170,8 +125,7 @@ class FlashEvent {
     required this.topic,
     required this.score,
     required this.ruleChips,
-    this.judgement,
-    this.judgeError,
+    this.deskError,
     this.issue,
     this.desk,
     List<Move>? moves,
@@ -186,10 +140,8 @@ class FlashEvent {
   int score;
   List<ImpactTag> ruleChips;
 
-  Judgement? judgement;
-
-  /// Why there's no judgement ("No API key", "Monthly limit reached", ...).
-  String? judgeError;
+  /// Why Opus didn't (or couldn't) check it ("No GitHub token", ...).
+  String? deskError;
 
   /// The GitHub issue that asked the flash desk, once opened.
   int? issue;
@@ -199,16 +151,22 @@ class FlashEvent {
 
   DateTime get at => headlines.first.at;
 
-  /// Best reading so far: the desk, then Claude, then the rules.
-  Verdict get verdict =>
-      desk?.verdict ?? judgement?.verdict ?? (score >= hotScore ? Verdict.hot : Verdict.watch);
+  /// Best reading so far: the desk, then the rules.
+  Verdict get verdict => desk?.verdict ?? (score >= hotScore ? Verdict.hot : Verdict.watch);
 
-  List<ImpactTag> get chips => desk?.impact ?? judgement?.chips ?? ruleChips;
+  List<ImpactTag> get chips => desk?.impact ?? ruleChips;
 
-  String get title => desk?.headline ?? judgement?.headline ?? headlines.first.text;
+  String get title => desk?.headline ?? headlines.first.text;
 
-  /// Who made the current call: "Opus", "Sonnet" or "Rules".
-  String get calledBy => desk != null ? 'Opus' : (judgement != null ? 'Sonnet' : 'Rules');
+  /// Who made the current call: "Opus" or "Rules".
+  String get calledBy => desk != null ? 'Opus' : 'Rules';
+
+  /// Sent to the flash desk and waiting for its answer.
+  bool get deskChecking => issue != null && desk == null && deskError == null;
+
+  /// Strong enough to spend a flash desk run on: HOT by the rules, or a
+  /// strong central bank, war, oil, trade or India headline.
+  bool get worthDesk => score >= hotScore || (score >= deskScore && deskTopics.contains(topic));
 
   Map<String, dynamic> toJson() => {
         'id': id,
@@ -216,8 +174,7 @@ class FlashEvent {
         'topic': topic,
         'score': score,
         'rule_chips': [for (final c in ruleChips) c.toJson()],
-        if (judgement != null) 'judgement': judgement!.toJson(),
-        if (judgeError != null) 'judge_error': judgeError,
+        if (deskError != null) 'desk_error': deskError,
         if (issue != null) 'issue': issue,
         if (desk != null) 'desk': desk!.toJson(),
         'moves': [for (final m in moves) m.toJson()],
@@ -232,10 +189,7 @@ class FlashEvent {
         topic: j['topic'] as String,
         score: j['score'] as int,
         ruleChips: _tags(j['rule_chips']),
-        judgement: j['judgement'] == null
-            ? null
-            : Judgement.fromJson(j['judgement'] as Map<String, dynamic>),
-        judgeError: j['judge_error'] as String?,
+        deskError: j['desk_error'] as String?,
         issue: j['issue'] as int?,
         desk: j['desk'] == null ? null : DeskResult.fromJson(j['desk'] as Map<String, dynamic>),
         moves: [for (final m in (j['moves'] as List?) ?? const []) Move.fromJson(m as Map<String, dynamic>)],
@@ -243,8 +197,12 @@ class FlashEvent {
       );
 }
 
-/// Rule score from which an event counts as HOT when Claude can't judge it.
+/// Rule score from which an event counts as HOT before Opus has checked it.
 const hotScore = 8;
 
-/// Rule score from which a headline is worth showing and judging.
+/// Rule score from which a headline is worth showing.
 const candidateScore = 3;
+
+/// Rule score from which an event on one of [deskTopics] goes to Opus.
+const deskScore = 5;
+const deskTopics = {'rates', 'war', 'oil', 'trade', 'india'};

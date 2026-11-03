@@ -7,12 +7,11 @@ import 'package:http/testing.dart';
 import 'package:newsapp/flash/desk.dart';
 import 'package:newsapp/flash/engine.dart';
 import 'package:newsapp/flash/flash.dart';
-import 'package:newsapp/flash/judge.dart';
 import 'package:newsapp/flash/prices.dart';
 import 'package:newsapp/flash/store.dart';
 
 class FakePlatform implements FlashPlatform {
-  final secrets = <String, String>{'anthropic_key': 'sk', 'github_token': 'gh'};
+  final secrets = <String, String>{'github_token': 'gh'};
   final alerts = <FlashAlert>[];
   final cancelled = <int>[];
   final dismissed = <String>[];
@@ -30,28 +29,57 @@ class FakePlatform implements FlashPlatform {
   void changed() => changes++;
 }
 
-http.Response _sonnet(String verdict, {List chips = const []}) => http.Response(
+http.Response _result(int issue, String verdict, {String headline = 'Checked headline'}) => http.Response(
     jsonEncode({
-      'stop_reason': 'end_turn',
-      'content': [
-        {
-          'type': 'text',
-          'text': jsonEncode({
-            'verdict': verdict,
-            'is_new': true,
-            'headline': 'Fed cuts rates by 50 bps in surprise move',
-            'why': 'A surprise cut weakens the dollar.',
-            'chips': chips,
-          })
-        }
+      'issue': issue,
+      'event_id': 'x',
+      'verdict': verdict,
+      'confirmed': true,
+      'headline': headline,
+      'why': 'Checked.',
+      'impact': [
+        {'on': 'currency', 'detail': 'USD', 'level': 'high', 'dir': 'down', 'why': 'Cut.'}
       ],
-      'usage': {'input_tokens': 400, 'output_tokens': 100, 'cache_read_input_tokens': 700},
+      'sources': [
+        {'name': 'Federal Reserve', 'url': 'https://www.federalreserve.gov/'}
+      ],
+      'checked_at': '2026-11-04T23:33:00+05:30',
     }),
     200);
 
+/// A fake GitHub: numbers issues from 5 up, answers each after [after] polls.
+class FakeGithub {
+  FakeGithub(this.answer, {this.after = 1});
+  final http.Response? Function(int issue) answer;
+  final int after;
+  final bodies = <String>[];
+  final closed = <int>[];
+  final _polls = <int, int>{};
+
+  late final client = MockClient((req) async {
+    if (req.method == 'POST') {
+      bodies.add((jsonDecode(req.body) as Map)['body'] as String);
+      return http.Response('{"number": ${4 + bodies.length}}', 201);
+    }
+    final n = int.parse(RegExp(r'(\d+)(\.json)?$').firstMatch(req.url.path)![1]!);
+    if (req.method == 'PATCH') {
+      closed.add(n);
+      return http.Response('{}', 200);
+    }
+    _polls[n] = (_polls[n] ?? 0) + 1;
+    if (_polls[n]! <= after) return http.Response('', 404);
+    return answer(n) ?? http.Response('', 404);
+  });
+}
+
 void main() {
+  final t0 = DateTime.utc(2026, 11, 4, 18, 0, 0);
   late Directory dir;
-  setUp(() async => dir = await Directory.systemTemp.createTemp('fl'));
+  late DateTime clock;
+  setUp(() async {
+    dir = await Directory.systemTemp.createTemp('fl');
+    clock = t0.add(const Duration(seconds: 1));
+  });
   tearDown(() async {
     // Timers of the last test may still be finishing a write.
     await Future<void>.delayed(const Duration(milliseconds: 200));
@@ -62,88 +90,58 @@ void main() {
     }
   });
 
-  final t0 = DateTime.utc(2026, 11, 4, 18, 0, 0);
-
   FlashEngine engine(FakePlatform p,
-          {required http.Client claude, http.Client? github, FlashConfig cfg = const FlashConfig(), String sub = 'a'}) =>
+          {FakeGithub? github,
+          FlashConfig cfg = const FlashConfig(),
+          String sub = 'a',
+          Duration deskTimeout = const Duration(minutes: 12)}) =>
       FlashEngine(
         store: FlashStore(Directory('${dir.path}/$sub')..createSync()),
         platform: p,
         config: () async => cfg,
-        calendar: () async => const [],
-        judgeFor: (k) => SonnetJudge(apiKey: k, client: claude),
-        deskFor: (t) => FlashDesk(token: t, client: github ?? MockClient((_) async => http.Response('', 404))),
+        deskFor: (t) => FlashDesk(token: t, client: (github ?? FakeGithub((_) => null)).client),
         prices: Prices(MockClient((_) async => http.Response('', 500))),
-        clock: () => t0.add(const Duration(seconds: 1)),
-        gather: const Duration(milliseconds: 500),
+        clock: () => clock,
+        gather: const Duration(milliseconds: 300),
         deskPoll: const Duration(milliseconds: 30),
+        deskTimeout: deskTimeout,
         checkAfter: const [],
       );
+
+  /// Waits (up to 10 s) for timers and fake network calls to get there.
+  Future<void> until(bool Function() done) async {
+    for (var i = 0; i < 200 && !done(); i++) {
+      await Future<void>.delayed(const Duration(milliseconds: 50));
+    }
+    expect(done(), isTrue, reason: 'timed out waiting');
+  }
 
   Headline h(String text, {String ch = 'marketfeed', int s = 0}) =>
       Headline(text: text, channel: ch, at: t0.add(Duration(seconds: s)));
 
-  test('a burst is one event, judged once; echoes are dropped; HOT goes to the desk', () async {
+  test('a burst is one event; echoes are dropped; HOT is loud at once, then Opus checks it', () async {
     final p = FakePlatform();
-    var claudeCalls = 0;
-    final claude = MockClient((req) async {
-      claudeCalls++;
-      final body = jsonDecode(req.body) as Map;
-      final user = ((body['messages'] as List).single as Map)['content'] as String;
-      // Both burst headlines are in the one call.
-      expect(user, contains('FED UNEXPECTEDLY CUTS RATES BY 50 BPS'));
-      expect(user, contains('POWELL'));
-      return _sonnet('HOT', chips: [
-        {'on': 'currency', 'detail': 'USD', 'level': 'high', 'dir': 'down'},
-        {'on': 'gold', 'detail': '', 'level': 'high', 'dir': 'up'},
-      ]);
-    });
-    var opened = 0;
-    var polls = 0;
-    final github = MockClient((req) async {
-      if (req.method == 'POST') {
-        opened++;
-        return http.Response('{"number": 5}', 201);
-      }
-      if (req.method == 'PATCH') return http.Response('{}', 200);
-      polls++;
-      if (polls < 2) return http.Response('', 404);
-      return http.Response(
-          jsonEncode({
-            'issue': 5,
-            'event_id': 'x',
-            'verdict': 'HOT',
-            'confirmed': true,
-            'headline': 'Fed cuts 50 bp in surprise move',
-            'why': 'Dollar falls.',
-            'impact': [
-              {'on': 'currency', 'detail': 'USD', 'level': 'high', 'dir': 'down', 'why': 'Cut.'}
-            ],
-            'sources': [
-              {'name': 'Federal Reserve', 'url': 'https://www.federalreserve.gov/'}
-            ],
-            'checked_at': '2026-11-04T23:33:00+05:30',
-          }),
-          200);
-    });
-    final e = engine(p, claude: claude, github: github);
+    final gh = FakeGithub((n) => _result(n, 'HOT', headline: 'Fed cuts 50 bp in surprise move'));
+    final e = engine(p, github: gh);
     await e.start();
     final ev = await e.ingest(h('FED UNEXPECTEDLY CUTS RATES BY 50 BPS'));
     await e.ingest(h('Fed unexpectedly cuts rates by 50 bps| FJ', ch: 'FinancialJuice')); // echo
     await e.ingest(h('POWELL: FED RATE DECISION WAS UNANIMOUS', s: 1));
-    expect(ev, isNotNull);
     expect(ev!.headlines.length, 2);
+    // Loud straight away, from the rules.
+    expect(p.alerts.first.loud, isTrue);
+    expect(p.alerts.first.title, 'HOT · FED UNEXPECTEDLY CUTS RATES BY 50 BPS');
 
-    await Future<void>.delayed(const Duration(milliseconds: 1600));
-    expect(claudeCalls, 1);
-    expect(e.store.events.single.judgement!.verdict, Verdict.hot);
-    expect(opened, 1);
-    expect(e.store.events.single.issue, 5);
+    await until(() => gh.closed.isNotEmpty);
+    // One issue for the whole burst, after the gather window.
+    expect(gh.bodies.length, 1);
+    expect(gh.bodies.single, contains('POWELL: FED RATE DECISION'));
+    expect(gh.bodies.single, contains('"rules"'));
     expect(e.store.deskCount, 1);
     expect(e.store.events.single.desk?.confirmed, isTrue);
-    expect(e.store.spend!.calls, 1);
+    expect(gh.closed, [5]);
 
-    // Rules alone were already HOT-strong: one loud alert, then silent updates.
+    // Loud once; the Opus update is silent.
     expect(p.alerts.where((a) => a.loud).length, 1);
     expect(p.alerts.last.title, 'HOT · Fed cuts 50 bp in surprise move');
     expect(p.alerts.last.text, contains('Opus checked ✓ confirmed'));
@@ -155,51 +153,81 @@ void main() {
     expect(again.tape.length, 2); // the echo was skipped
   });
 
-  test('NOISE clears the alert; WATCH is silent; no key falls back to rules', () async {
+  test('strong WATCH is silent until Opus calls it HOT; NOISE clears it; weak stays in the app', () async {
     final p = FakePlatform();
-    final e = engine(p, claude: MockClient((_) async => _sonnet('WATCH')));
+    final gh = FakeGithub((n) => n == 5 ? _result(n, 'HOT') : _result(n, 'NOISE'));
+    final e = engine(p, github: gh);
     await e.start();
-    await e.ingest(h('ECB HOLDS RATES UNCHANGED, AS EXPECTED'));
-    await Future<void>.delayed(const Duration(milliseconds: 1000));
+    await e.ingest(h('RBI CUTS REPO RATE BY 25 BPS'));
     expect(p.alerts.single.loud, isFalse);
     expect(p.alerts.single.title, startsWith('WATCH'));
+    expect(p.alerts.single.text, contains('Rules'));
+    await until(() => p.alerts.any((a) => a.loud));
+    expect(p.alerts.where((a) => a.loud).length, 1);
+    expect(p.alerts.last.title, startsWith('HOT'));
 
-    final p2 = FakePlatform()..secrets.remove('anthropic_key');
-    final e2 = engine(p2, claude: MockClient((_) async => _sonnet('HOT')), sub: 'b');
-    await e2.start();
-    await e2.ingest(h('IRAN SAYS IT WILL CLOSE THE STRAIT OF HORMUZ'));
-    await Future<void>.delayed(const Duration(milliseconds: 1000));
-    expect(e2.store.events.single.judgeError, 'No Claude API key');
-    expect(p2.alerts.last.text, contains('Rules (No Claude API key)'));
+    await e.ingest(h('IRAN SAYS IT WILL CLOSE THE STRAIT OF HORMUZ', s: 600));
+    await until(() => p.cancelled.isNotEmpty);
+    expect(p.cancelled, isNotEmpty); // NOISE removes the alert
+
+    final before = p.alerts.length;
+    await e.ingest(h('ECB HOLDS RATES UNCHANGED, AS EXPECTED', s: 1200));
+    await Future<void>.delayed(const Duration(milliseconds: 500));
+    expect(p.alerts.length, before); // no alert
+    expect(gh.bodies.length, 2); // not sent to Opus
+    expect(e.store.events.first.calledBy, 'Rules');
+  });
+
+  test('without a GitHub token, rules alone', () async {
+    final p = FakePlatform()..secrets.clear();
+    final e = engine(p);
+    await e.start();
+    await e.ingest(h('IRAN SAYS IT WILL CLOSE THE STRAIT OF HORMUZ'));
+    await until(() => e.store.events.single.deskError != null);
+    expect(e.store.events.single.deskError, 'No GitHub token');
+    expect(p.alerts.last.text, contains('Rules (No GitHub token)'));
+  });
+
+  test('daily limit, one run per running story, and a desk that never answers', () async {
+    final p = FakePlatform();
+    final gh = FakeGithub((_) => null);
+    final e = engine(p, github: gh, deskTimeout: const Duration(milliseconds: 100));
+    await e.start();
+    e.store.deskDay = deskDayOf(t0);
+    e.store.deskCount = 14;
+
+    await e.ingest(h('RBI CUTS REPO RATE BY 25 BPS'));
+    await until(() => e.store.deskCount == 15);
+    expect(gh.bodies.length, 1);
+    expect(e.store.deskCount, 15);
+
+    // Same story 4 minutes later: a new event, but Opus isn't asked again.
+    clock = t0.add(const Duration(minutes: 4));
+    await e.ingest(h('RBI GOVERNOR: RATE CUT TO SUPPORT GROWTH, POLICY STANCE NEUTRAL', s: 240));
+    await until(() => e.store.events.first.deskError != null);
+    expect(gh.bodies.length, 1);
+    expect(e.store.events.first.deskError, 'Opus checked this story already');
+
+    // A different story: the day's limit is used up.
+    clock = t0.add(const Duration(minutes: 5));
+    await e.ingest(h('IRAN SAYS IT WILL CLOSE THE STRAIT OF HORMUZ', s: 300));
+    await until(() => e.store.events.first.deskError != null);
+    expect(gh.bodies.length, 1);
+    expect(e.store.events.first.deskError, 'Daily Opus limit (15) reached');
+
+    // The first one timed out.
+    await until(() => e.store.events.last.deskError != null);
+    expect(e.store.events.last.deskError, startsWith("Opus didn't answer"));
   });
 
   test('channel filter and Telegram take-over', () async {
     final p = FakePlatform();
-    final e = engine(p,
-        claude: MockClient((_) async => _sonnet('NOISE')),
-        cfg: const FlashConfig(hideTelegram: true));
+    final e = engine(p, cfg: const FlashConfig(hideTelegram: true));
     await e.start();
     await e.onTelegram(title: 'Some Group', text: 'FED CUTS RATES', at: t0, key: 'k1');
     expect(e.store.tape, isEmpty);
     await e.onTelegram(title: 'Market Feed 📈', text: 'FED HIKES RATES BY 25 BPS', at: t0, key: 'k2');
     expect(e.store.tape.single.headline.channel, 'marketfeed');
     expect(p.dismissed, ['k2']);
-    await Future<void>.delayed(const Duration(milliseconds: 1000));
-    expect(p.cancelled, isNotEmpty); // NOISE removes the alert
-  });
-
-  test('monthly limit stops Claude calls', () async {
-    final p = FakePlatform();
-    var calls = 0;
-    final e = engine(p, claude: MockClient((_) async {
-      calls++;
-      return _sonnet('WATCH');
-    }));
-    await e.start();
-    e.store.spend!.usd = 5; // over ₹200
-    await e.ingest(h('RBI CUTS REPO RATE BY 25 BPS'));
-    await Future<void>.delayed(const Duration(milliseconds: 1000));
-    expect(calls, 0);
-    expect(e.store.events.single.judgeError, 'Monthly limit reached');
   });
 }
