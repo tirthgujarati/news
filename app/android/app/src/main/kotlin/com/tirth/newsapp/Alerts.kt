@@ -7,11 +7,13 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 
-/** Flash notifications: HOT with sound, WATCH silent. */
+/** Flash notifications (HOT with sound, WATCH silent) and new editions. */
 object Alerts {
     const val HOT = "flash_hot"
     const val WATCH = "flash_watch"
     const val SERVICE = "flash_service"
+    const val EDITIONS = "editions"
+    private const val EDITION_ID = 9001
     const val EXTRA_EVENT = "flash_event"
 
     fun createChannels(ctx: Context) {
@@ -25,6 +27,11 @@ object Alerts {
         nm.createNotificationChannel(
             NotificationChannel(WATCH, "Watch news", NotificationManager.IMPORTANCE_LOW).apply {
                 description = "Worth knowing, no sound"
+            }
+        )
+        nm.createNotificationChannel(
+            NotificationChannel(EDITIONS, "New editions", NotificationManager.IMPORTANCE_DEFAULT).apply {
+                description = "When the morning, midday and evening editions arrive"
             }
         )
         nm.createNotificationChannel(
@@ -59,6 +66,20 @@ object Alerts {
             .setGroup("flash")
             .build()
         ctx.getSystemService(NotificationManager::class.java).notify(id, n)
+    }
+
+    /** "Midday Edition is ready" (replaces the previous one). */
+    fun edition(ctx: Context, title: String, text: String) {
+        createChannels(ctx)
+        val n = Notification.Builder(ctx, EDITIONS)
+            .setSmallIcon(R.drawable.ic_stat_flash)
+            .setContentTitle(title)
+            .setContentText(text)
+            .setStyle(Notification.BigTextStyle().bigText(text))
+            .setContentIntent(openApp(ctx, null, EDITION_ID))
+            .setAutoCancel(true)
+            .build()
+        ctx.getSystemService(NotificationManager::class.java).notify(EDITION_ID, n)
     }
 
     fun cancel(ctx: Context, id: Int) {

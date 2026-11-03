@@ -94,7 +94,8 @@ void main() {
           {FakeGithub? github,
           FlashConfig cfg = const FlashConfig(),
           String sub = 'a',
-          Duration deskTimeout = const Duration(minutes: 12)}) =>
+          Duration deskTimeout = const Duration(minutes: 12),
+          Duration deskPoll = const Duration(milliseconds: 30)}) =>
       FlashEngine(
         store: FlashStore(Directory('${dir.path}/$sub')..createSync()),
         platform: p,
@@ -103,7 +104,7 @@ void main() {
         prices: Prices(MockClient((_) async => http.Response('', 500))),
         clock: () => clock,
         gather: const Duration(milliseconds: 300),
-        deskPoll: const Duration(milliseconds: 30),
+        deskPoll: deskPoll,
         deskTimeout: deskTimeout,
         checkAfter: const [],
       );
@@ -218,6 +219,31 @@ void main() {
     // The first one timed out.
     await until(() => e.store.events.last.deskError != null);
     expect(e.store.events.last.deskError, startsWith("Opus didn't answer"));
+  });
+
+  test('a push reads the answer at once; a restarted engine picks up waiting events', () async {
+    final p = FakePlatform();
+    final gh = FakeGithub((n) => _result(n, 'HOT'), after: 0);
+    final slow = engine(p, github: gh, deskPoll: const Duration(hours: 1));
+    await slow.start();
+    await slow.ingest(h('RBI CUTS REPO RATE BY 25 BPS'));
+    await until(() => slow.store.events.single.issue == 5);
+    expect(slow.store.events.single.desk, isNull); // next check is an hour away
+    await slow.deskReady(5);
+    expect(slow.store.events.single.desk!.verdict, Verdict.hot);
+    expect(p.alerts.last.title, startsWith('HOT'));
+
+    // An engine that stopped while Opus was working checks again on start.
+    final store = FlashStore(Directory('${dir.path}/a'));
+    await store.load();
+    store.events.single
+      ..desk = null
+      ..issue = 6;
+    await store.save(clock);
+    final again = engine(FakePlatform(), github: gh);
+    await again.start();
+    await until(() => gh.closed.contains(6));
+    expect(again.store.events.single.desk!.verdict, Verdict.hot);
   });
 
   test('channel filter and Telegram take-over', () async {

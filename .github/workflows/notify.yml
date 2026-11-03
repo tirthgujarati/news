@@ -1,0 +1,41 @@
+name: Push notifications
+
+# New editions and flash desk results -> the apex app, through Firebase.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/editions/**"
+      - "data/flash/*.json"
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install google-auth requests
+
+      - name: Send
+        env:
+          FCM_SERVICE_ACCOUNT: ${{ secrets.FCM_SERVICE_ACCOUNT }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          # Only files this push added (a replaced edition doesn't notify again).
+          if git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            RANGE="$BEFORE $GITHUB_SHA"
+          else
+            RANGE="HEAD~1 HEAD"
+          fi
+          FILES=$(git diff --name-only --diff-filter=A $RANGE -- data/editions data/flash)
+          echo "Added: $FILES"
+          python tools/notify.py $FILES

@@ -33,6 +33,9 @@ class FlashConfig {
   /// instead).
   final bool hideTelegram;
 
+  /// A notification when a new edition arrives (Firebase push).
+  final bool pushEditions;
+
   const FlashConfig({
     this.enabled = true,
     this.channels = defaultChannels,
@@ -40,6 +43,7 @@ class FlashConfig {
     this.deskDaily = deskDailyLimit,
     this.watchMode = false,
     this.hideTelegram = false,
+    this.pushEditions = true,
   });
 
   static const defaultChannels = ['marketfeed', 'FinancialJuice'];
@@ -48,7 +52,8 @@ class FlashConfig {
       kChannels = 'flash_channels',
       kDeskAuto = 'flash_desk_auto',
       kWatch = 'flash_watch_mode',
-      kHide = 'flash_hide_telegram';
+      kHide = 'flash_hide_telegram',
+      kPushEditions = 'push_editions';
 
   static Future<FlashConfig> read() async {
     final p = await SharedPreferences.getInstance();
@@ -60,6 +65,7 @@ class FlashConfig {
       deskAuto: p.getBool(kDeskAuto) ?? true,
       watchMode: p.getBool(kWatch) ?? false,
       hideTelegram: p.getBool(kHide) ?? false,
+      pushEditions: p.getBool(kPushEditions) ?? true,
     );
   }
 
@@ -150,7 +156,25 @@ class FlashEngine {
 
   DateTime get now => _clock();
 
-  Future<void> start() => store.load();
+  Future<void> start() async {
+    await store.load();
+    // Events still waiting for Opus when the engine stopped: check again.
+    final token = await platform.secret('github_token');
+    if (token == null || token.isEmpty || deskFor == null) return;
+    for (final x in store.events.where((x) => x.deskChecking)) {
+      final giveUp = x.at.add(deskTimeout);
+      _pollDesk(x, token, giveUp.isAfter(now) ? giveUp : now);
+    }
+  }
+
+  /// A push says the flash desk has answered [issue]: read it now.
+  Future<void> deskReady(int issue) => _serial(() async {
+        final e = store.events.where((x) => x.issue == issue).firstOrNull;
+        if (e == null || e.desk != null) return;
+        final token = await platform.secret('github_token');
+        if (token == null || token.isEmpty || deskFor == null) return;
+        await _readDesk(e, token);
+      });
 
   /// Runs [f] after everything queued before it: headlines are handled one
   /// at a time, in order, so the file is never written twice at once.
@@ -322,22 +346,7 @@ class FlashEngine {
   void _pollDesk(FlashEvent e, String token, DateTime giveUp) {
     Timer(deskPoll, () => _serial(() async {
           if (e.desk != null || e.issue == null) return;
-          final desk = deskFor!(token);
-          try {
-            final r = await desk.result(e.issue!);
-            if (r != null) {
-              e.desk = r;
-              await _alert(e);
-              await _save();
-              await desk.close(e.issue!).catchError((_) {});
-              if (e.chips.isNotEmpty) _scheduleMarketChecks(e);
-              return;
-            }
-          } catch (_) {
-            // Try again on the next round.
-          } finally {
-            desk.dispose();
-          }
+          if (await _readDesk(e, token)) return;
           if (now.isBefore(giveUp)) {
             _pollDesk(e, token, giveUp);
           } else {
@@ -346,6 +355,27 @@ class FlashEngine {
             await _save();
           }
         }));
+  }
+
+  /// Reads the desk's answer for [e]; true once it's there.
+  Future<bool> _readDesk(FlashEvent e, String token) async {
+    final desk = deskFor!(token);
+    try {
+      final r = await desk.result(e.issue!);
+      if (r == null) return false;
+      e.desk = r;
+      e.deskError = null;
+      await _alert(e);
+      await _save();
+      await desk.close(e.issue!).catchError((_) {});
+      if (e.chips.isNotEmpty) _scheduleMarketChecks(e);
+      return true;
+    } catch (_) {
+      // Try again on the next round.
+      return false;
+    } finally {
+      desk.dispose();
+    }
   }
 
   final _checking = <String>{};

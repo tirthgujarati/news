@@ -3,47 +3,202 @@
     {
       "id": "ev-20261104-180000-1a2b",
       "headlines": [
-        {"text": "FED UNEXPECTEDLY CUTS RATES BY 50 BPS", "channel": "marketfeed", "at": "2026-11-04T18:00:00.000Z"},
-        {"text": "POWELL: FED RATE DECISION WAS UNANIMOUS", "channel": "marketfeed", "at": "2026-11-04T18:00:04.000Z"}
+        {
+          "text": "FED UNEXPECTEDLY CUTS RATES BY 50 BPS",
+          "channel": "marketfeed",
+          "at": "2026-11-04T18:00:00.000Z"
+        },
+        {
+          "text": "POWELL: FED RATE DECISION WAS UNANIMOUS",
+          "channel": "marketfeed",
+          "at": "2026-11-04T18:00:04.000Z"
+        }
       ],
       "topic": "rates",
       "score": 9,
       "rule_chips": [],
       "issue": 5,
       "desk": {
-        "verdict": "HOT", "confirmed": true,
+        "verdict": "HOT",
+        "confirmed": true,
         "headline": "Fed cuts 50 bp in surprise move; Powell says decision was unanimous",
         "why": "Markets expected a hold. The dollar fell about 0.6% and gold jumped.",
         "india": "A weaker dollar helps the rupee; IT exporters may slip.",
         "watch_next": "Powell's press conference.",
         "impact": [
-          {"on": "currency", "detail": "USD", "level": "high", "dir": "down", "why": "Surprise cut."},
-          {"on": "gold", "level": "high", "dir": "up", "why": "Weaker dollar."},
-          {"on": "rupee", "level": "medium", "dir": "up", "why": "Weaker dollar."}
+          {
+            "on": "currency",
+            "detail": "USD",
+            "level": "high",
+            "dir": "down",
+            "why": "Surprise cut."
+          },
+          {
+            "on": "gold",
+            "level": "high",
+            "dir": "up",
+            "why": "Weaker dollar."
+          },
+          {
+            "on": "rupee",
+            "level": "medium",
+            "dir": "up",
+            "why": "Weaker dollar."
+          }
         ],
-        "sources": [{"name": "Federal Reserve", "url": "https://www.federalreserve.gov/"}],
+        "sources": [
+          {
+            "name": "Federal Reserve",
+            "url": "https://www.federalreserve.gov/"
+          }
+        ],
         "checked_at": "2026-11-04T18:03:10.000Z"
       },
-      "moves": [{"name": "USD/INR", "pct": -0.21, "after": 5}, {"name": "Gold", "pct": 0.9, "after": 5}],
+      "moves": [
+        {
+          "name": "USD/INR",
+          "pct": -0.21,
+          "after": 5
+        },
+        {
+          "name": "Gold",
+          "pct": 0.9,
+          "after": 5
+        }
+      ],
       "seen": false
     },
     {
+      "id": "ev-20261104-172000-5e6f",
+      "headlines": [
+        {
+          "text": "HORMUZ: TANKERS DIVERTED AFTER ATTACK",
+          "channel": "FinancialJuice",
+          "at": "2026-11-04T17:20:00.000Z"
+        }
+      ],
+      "topic": "oil",
+      "score": 6,
+      "rule_chips": [
+        {
+          "on": "oil",
+          "level": "high",
+          "dir": "up",
+          "why": "Supply at risk."
+        },
+        {
+          "on": "rupee",
+          "level": "medium",
+          "dir": "down",
+          "why": "India imports most of its oil."
+        },
+        {
+          "on": "indian_stocks",
+          "level": "medium",
+          "dir": "down",
+          "why": "Oil costs hit Indian companies and inflation."
+        },
+        {
+          "on": "gold",
+          "level": "low",
+          "dir": "up",
+          "why": "Supply shocks drive safe-haven buying."
+        }
+      ],
+      "moves": [],
+      "seen": true
+    },
+    {
+      "id": "ev-20261104-160000-7a8b",
+      "headlines": [
+        {
+          "text": "IRAN SAYS IT WILL CLOSE THE STRAIT OF HORMUZ",
+          "channel": "FinancialJuice",
+          "at": "2026-11-04T16:00:00.000Z"
+        }
+      ],
+      "topic": "oil",
+      "score": 6,
+      "rule_chips": [
+        {
+          "on": "oil",
+          "level": "high",
+          "dir": "up",
+          "why": "Supply at risk."
+        },
+        {
+          "on": "rupee",
+          "level": "medium",
+          "dir": "down",
+          "why": "India imports most of its oil."
+        },
+        {
+          "on": "indian_stocks",
+          "level": "medium",
+          "dir": "down",
+          "why": "Oil costs hit Indian companies and inflation."
+        },
+        {
+          "on": "gold",
+          "level": "low",
+          "dir": "up",
+          "why": "Supply shocks drive safe-haven buying."
+        }
+      ],
+      "moves": [],
+      "seen": true
+    },
+    {
       "id": "ev-20261104-170000-3c4d",
-      "headlines": [{"text": "ECB HOLDS RATES UNCHANGED", "channel": "FinancialJuice", "at": "2026-11-04T17:00:00.000Z"}],
-      "topic": "rates", "score": 6, "rule_chips": [],
+      "headlines": [
+        {
+          "text": "ECB HOLDS RATES UNCHANGED",
+          "channel": "FinancialJuice",
+          "at": "2026-11-04T17:00:00.000Z"
+        }
+      ],
+      "topic": "rates",
+      "score": 6,
+      "rule_chips": [],
       "issue": 4,
       "desk": {
-        "verdict": "NOISE", "confirmed": true, "headline": "ECB holds rates, as expected", "why": "Fully priced in.",
-        "india": "", "watch_next": "", "impact": [],
-        "sources": [{"name": "ECB", "url": "https://www.ecb.europa.eu/"}],
+        "verdict": "NOISE",
+        "confirmed": true,
+        "headline": "ECB holds rates, as expected",
+        "why": "Fully priced in.",
+        "india": "",
+        "watch_next": "",
+        "impact": [],
+        "sources": [
+          {
+            "name": "ECB",
+            "url": "https://www.ecb.europa.eu/"
+          }
+        ],
         "checked_at": "2026-11-04T17:02:40.000Z"
       },
-      "moves": [], "seen": true
+      "moves": [],
+      "seen": true
     }
   ],
   "tape": [
-    {"text": "POWELL: FED RATE DECISION WAS UNANIMOUS", "channel": "marketfeed", "at": "2026-11-04T18:00:04.000Z", "score": 6, "topic": "rates", "event": "ev-20261104-180000-1a2b"},
-    {"text": "FED UNEXPECTEDLY CUTS RATES BY 50 BPS", "channel": "marketfeed", "at": "2026-11-04T18:00:00.000Z", "score": 9, "topic": "rates", "event": "ev-20261104-180000-1a2b"}
+    {
+      "text": "POWELL: FED RATE DECISION WAS UNANIMOUS",
+      "channel": "marketfeed",
+      "at": "2026-11-04T18:00:04.000Z",
+      "score": 6,
+      "topic": "rates",
+      "event": "ev-20261104-180000-1a2b"
+    },
+    {
+      "text": "FED UNEXPECTEDLY CUTS RATES BY 50 BPS",
+      "channel": "marketfeed",
+      "at": "2026-11-04T18:00:00.000Z",
+      "score": 9,
+      "topic": "rates",
+      "event": "ev-20261104-180000-1a2b"
+    }
   ],
-  "desk_day": "2026-11-04", "desk_count": 2
+  "desk_day": "2026-11-04",
+  "desk_count": 2
 }

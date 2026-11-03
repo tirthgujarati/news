@@ -28,8 +28,9 @@ tools/
   validate.py             checks editions + index; run before every commit
   validate_flash.py       checks flash desk results
   prune.py                deletes editions older than 7 days, rebuilds index.json
+  notify.py               push notifications to the app (run by notify.yml)
   requirements.txt        pip install -r tools/requirements.txt
-.github/workflows/        validate-data.yml (and build-apk.yml in Phase 3)
+.github/workflows/        validate-data.yml, build-apk.yml, notify.yml
 ```
 
 The app reads:
@@ -319,3 +320,25 @@ and the chips. Be quick: the user waits for you (aim for under 3 minutes).
 7. If the edition could not be published (push refused, validation still
    failing, or no edition written), send a phone notification saying why. Send
    none when it publishes normally.
+
+## Push notifications (Firebase)
+
+Not part of any routine: nothing to do when writing editions or flash
+results. When a push adds an edition or a flash result, `notify.yml` runs
+`tools/notify.py`, which sends a Firebase Cloud Messaging push to the app:
+"<Edition> is ready" (topic `editions`) or "Opus has answered" (topic
+`flash`, the phone then reads `data/flash/<n>.json` at once).
+
+One-time setup (by the owner; both secrets stay in GitHub, never in the repo):
+
+1. https://console.firebase.google.com -> Add project ("apex"; Analytics off).
+2. Add an Android app with package name `com.tirth.newsapp`; download
+   `google-services.json`.
+3. GitHub repo -> Settings -> Secrets and variables -> Actions -> New secret
+   `GOOGLE_SERVICES_JSON`: paste the whole file.
+4. Firebase -> Project settings -> Service accounts -> Generate new private
+   key. New secret `FCM_SERVICE_ACCOUNT`: paste the whole file. Then delete
+   both downloaded files from the computer.
+5. Build the app again (Actions -> Build APK -> Run workflow) and install it.
+
+Without the secrets the app and the workflow still work, just without pushes.

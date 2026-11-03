@@ -158,6 +158,18 @@ class _FlashSettingsScreenState extends State<FlashSettingsScreen> with WidgetsB
                 value: c.deskAuto,
                 onChanged: (v) => f.setConfig((p) => p.setBool(FlashConfig.kDeskAuto, v)),
               ),
+              heading('Notifications'),
+              SwitchListTile(
+                contentPadding: const EdgeInsets.symmetric(horizontal: 18),
+                title: Text('New edition ready', style: look.body(14.5, color: look.ink)),
+                subtitle: Text(
+                    s.push
+                        ? 'A notification when the morning, midday and evening editions arrive.'
+                        : 'Not set up yet: needs the one-time Firebase setup (see the README).',
+                    style: look.body(12.5)),
+                value: c.pushEditions,
+                onChanged: s.push ? f.setPushEditions : null,
+              ),
               heading('Faster when closed'),
               SwitchListTile(
                 contentPadding: const EdgeInsets.symmetric(horizontal: 18),

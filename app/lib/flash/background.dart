@@ -93,6 +93,8 @@ Future<void> runFlashEngine() async {
         );
       case 'settings':
         await applySettings();
+      case 'desk':
+        await engine.deskReady((call.arguments as Map)['issue'] as int);
     }
     return null;
   });

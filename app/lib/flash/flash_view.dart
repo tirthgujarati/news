@@ -26,12 +26,16 @@ class FlashStatus {
   final bool telegram;
   final bool githubToken;
 
+  /// The app was built with Firebase (push notifications work).
+  final bool push;
+
   const FlashStatus({
     this.listener = false,
     this.notifications = false,
     this.battery = false,
     this.telegram = false,
     this.githubToken = false,
+    this.push = false,
   });
 
   bool get ready => listener && notifications && githubToken;
@@ -84,6 +88,7 @@ class FlashView extends ChangeNotifier {
       if (launch != null) openRequest.value = launch;
       // Make sure the background engine runs (it also starts with Telegram access).
       await _native.invokeMethod('startEngine');
+      await _native.invokeMethod('setPush', {'editions': config.pushEditions});
     } on MissingPluginException {
       // Not on Android.
     }
@@ -119,6 +124,7 @@ class FlashView extends ChangeNotifier {
         battery: s['battery'] == true,
         telegram: s['telegram'] == true,
         githubToken: gh != null && gh.isNotEmpty,
+        push: s['push'] == true,
       );
       notifyListeners();
     } on MissingPluginException {
@@ -145,6 +151,11 @@ class FlashView extends ChangeNotifier {
     config = await FlashConfig.read();
     await native('settingsChanged');
     notifyListeners();
+  }
+
+  Future<void> setPushEditions(bool on) async {
+    await setConfig((p) => p.setBool(FlashConfig.kPushEditions, on));
+    await native('setPush', {'editions': on});
   }
 
   Future<void> setWatchMode(bool on) async {

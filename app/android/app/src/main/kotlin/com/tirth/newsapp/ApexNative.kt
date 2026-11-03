@@ -71,7 +71,8 @@ object ApexNative {
                             "notifications" to nm.areNotificationsEnabled(),
                             "battery" to pm.isIgnoringBatteryOptimizations(app.packageName),
                             "telegram" to telegram,
-                            "engine" to FlashHub.running
+                            "engine" to FlashHub.running,
+                            "push" to Push.available(app)
                         )
                     )
                 }
@@ -104,6 +105,10 @@ object ApexNative {
                 }
                 "setWatch" -> {
                     if (call.argument<Boolean>("on") == true) WatchService.start(app) else WatchService.stop(app)
+                    result.success(null)
+                }
+                "setPush" -> {
+                    Push.subscribe(app, call.argument<Boolean>("editions") ?: true)
                     result.success(null)
                 }
                 "settingsChanged" -> {

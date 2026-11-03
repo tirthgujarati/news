@@ -1,7 +1,27 @@
+import groovy.json.JsonSlurper
+
 plugins {
     id("com.android.application")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
+}
+
+// Firebase (push notifications): read google-services.json when it's there
+// (CI writes it from the GOOGLE_SERVICES_JSON secret). Without it the app
+// builds and runs as before, just without pushes.
+val firebaseConfig: Map<String, String>? = file("google-services.json").takeIf { it.exists() }?.let { f ->
+    val j = JsonSlurper().parse(f) as Map<*, *>
+    val project = j["project_info"] as Map<*, *>
+    val client = (j["client"] as List<*>).map { it as Map<*, *> }.first {
+        val info = it["client_info"] as Map<*, *>
+        (info["android_client_info"] as Map<*, *>)["package_name"] == "com.tirth.newsapp"
+    }
+    mapOf(
+        "google_app_id" to (client["client_info"] as Map<*, *>)["mobilesdk_app_id"] as String,
+        "google_api_key" to ((client["api_key"] as List<*>).first() as Map<*, *>)["current_key"] as String,
+        "gcm_defaultSenderId" to project["project_number"] as String,
+        "project_id" to project["project_id"] as String,
+    )
 }
 
 android {
@@ -26,6 +46,12 @@ android {
         // flag during build.
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+        // What Google's google-services plugin would generate.
+        firebaseConfig?.forEach { (name, value) -> resValue("string", name, value) }
+    }
+
+    buildFeatures {
+        resValues = true
     }
 
     // The release key comes from GitHub Actions secrets (see build-apk.yml).
@@ -64,4 +90,9 @@ kotlin {
 
 flutter {
     source = "../.."
+}
+
+dependencies {
+    implementation(platform("com.google.firebase:firebase-bom:34.0.0"))
+    implementation("com.google.firebase:firebase-messaging")
 }

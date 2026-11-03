@@ -5,6 +5,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:newsapp/data/settings.dart';
 import 'package:newsapp/main.dart';
 import 'package:newsapp/theme/look.dart';
+import 'package:newsapp/ui/flash_screen.dart';
 import 'package:newsapp/ui/forex_screen.dart';
 import 'package:newsapp/ui/scope.dart';
 
@@ -76,7 +77,9 @@ void main() {
     await tester.tap(find.text('Flash').last);
     await tester.pumpAndSettle();
     expect(find.text('Fed cuts 50 bp in surprise move; Powell says decision was unanimous'), findsOneWidget);
-    expect(find.text('HOT'), findsOneWidget);
+    expect(find.widgetWithText(VerdictBadge, 'HOT'), findsOneWidget);
+    expect(find.text("TODAY'S PUSH"), findsOneWidget);
+    expect(find.text('WATCH'), findsOneWidget); // filter, off: HOT only
     expect(find.text('USD ▼'), findsOneWidget);
     expect(find.text('GOLD ▲'), findsOneWidget);
     expect(find.text('RUPEE ▲'), findsOneWidget);

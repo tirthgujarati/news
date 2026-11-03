@@ -52,6 +52,14 @@
                 android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
                 android:value="Watches market news channels and prices for the user's own alerts"/>
         </service>
+        <!-- Pushes from GitHub through Firebase: new editions, Opus answers. -->
+        <service
+            android:name=".ApexPushService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data

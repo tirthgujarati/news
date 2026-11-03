@@ -17,7 +17,8 @@ object FlashHub {
     private var engine: FlutterEngine? = null
     private var channel: MethodChannel? = null
     private var ready = false
-    private val queue = ArrayDeque<Map<String, Any?>>()
+    /** (method, arguments) waiting for the engine. */
+    private val queue = ArrayDeque<Pair<String, Any?>>()
     private val main = Handler(Looper.getMainLooper())
 
     /** Called when flash.json changes, so the open app can reload. */
@@ -58,8 +59,17 @@ object FlashHub {
     fun deliver(context: Context, item: Map<String, Any?>) {
         main.post {
             start(context.applicationContext)
-            queue.addLast(item)
+            queue.addLast("telegram" to item)
             if (queue.size > 200) queue.removeFirst()
+            flush()
+        }
+    }
+
+    /** The Opus flash desk has answered [issue] (a push from GitHub). */
+    fun deskReady(context: Context, issue: Int) {
+        main.post {
+            start(context.applicationContext)
+            queue.addLast("desk" to mapOf("issue" to issue))
             flush()
         }
     }
@@ -72,7 +82,10 @@ object FlashHub {
     private fun flush() {
         if (!ready) return
         val ch = channel ?: return
-        while (queue.isNotEmpty()) ch.invokeMethod("telegram", queue.removeFirst())
+        while (queue.isNotEmpty()) {
+            val (method, args) = queue.removeFirst()
+            ch.invokeMethod(method, args)
+        }
     }
 
     fun changed() {
