@@ -1,0 +1,18 @@
+{
+  "issue": 1,
+  "event_id": "ev-20261103-033040",
+  "verdict": "WATCH",
+  "confirmed": true,
+  "headline": "RBA lifts cash rate 25bp to 4.85%, as expected, in a split 6-3 vote; sees inflation above 3% for the coming year",
+  "why": "The hike was fully expected (about 80-90% priced). The 6-3 split and dropped tightening bias read slightly dovish, so the Aussie dollar slipped about 0.3% instead of rallying.",
+  "india": "Little direct effect on India. The rupee and Indian stocks are unlikely to react; Australian rate moves matter mainly for AUD/INR remittances and education payments.",
+  "watch_next": "Governor Bullock's comments and the next RBA meeting: some banks see one more hike by February 2027, others say rates have peaked.",
+  "impact": [
+    {"on": "currency", "detail": "Aussie dollar", "level": "low", "dir": "down", "why": "Hike was priced in and the split vote hints at a peak, so AUD dipped about 0.3%."}
+  ],
+  "sources": [
+    {"name": "Reserve Bank of Australia", "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html"},
+    {"name": "ABC News", "url": "https://www.abc.net.au/news/2026-11-03/rba-interest-rates-markets-live-coverage/107338216"}
+  ],
+  "checked_at": "2026-11-03T13:04:41+05:30"
+}
