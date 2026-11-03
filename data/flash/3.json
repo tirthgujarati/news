@@ -1,0 +1,18 @@
+{
+  "issue": 3,
+  "event_id": "ev-20261103-160314",
+  "verdict": "WATCH",
+  "confirmed": true,
+  "headline": "BoC's Macklem tells MPs growth will slow in Q4 on new US tariffs, repeating the October forecast of 1% GDP growth in 2026",
+  "why": "Nothing new: these are the Bank of Canada's October 28 forecasts, given again in testimony to Parliament. The BoC raised rates to 2.5% then. The CAD may move only if he hints at December policy.",
+  "india": "Little direct effect on India. The remarks about high oil and refinery margins match the pressure on India's import bill and the rupee, but they add nothing new.",
+  "watch_next": "Macklem's Q&A for hints of a December rate hike, and the next Canadian CPI data.",
+  "impact": [
+    {"on": "currency", "detail": "Canadian dollar", "level": "low", "dir": "mixed", "why": "Repeats the known outlook: hawkish on inflation, softer on Q4 growth. Little new for the CAD."}
+  ],
+  "sources": [
+    {"name": "Bank of Canada", "url": "https://www.bankofcanada.ca/2026/11/parliamentary-appearance-governor-senior-deputy-governor-2026-11-3/"},
+    {"name": "BIS (Bank of Canada MPR remarks)", "url": "https://www.bis.org/speeches/20261029-release-monetary-policy-report"}
+  ],
+  "checked_at": "2026-11-03T21:56:08+05:30"
+}
