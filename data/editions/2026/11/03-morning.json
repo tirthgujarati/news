@@ -1,0 +1,658 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-03-morning",
+  "date": "2026-11-03",
+  "slot": "morning",
+  "title": "Tuesday Morning Edition",
+  "generated_at": "2026-11-03T07:45:00+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "94.90",
+      "change": "-0.05%",
+      "dir": "down",
+      "as_of": "2026-11-02T17:16:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/rupee-appreciates-by-30-paise-against-us-dollar/"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "106.30",
+      "change": "-0.08%",
+      "dir": "down",
+      "as_of": "2026-11-02T21:09:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR%3DX/"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "101.80",
+      "change": "+0.05%",
+      "dir": "up",
+      "as_of": "2026-11-03T07:23:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India FX reserves",
+      "value": "$719.75bn",
+      "change": "-0.18%",
+      "dir": "down",
+      "as_of": "2026-10-23T00:00:00+05:30",
+      "source": {
+        "name": "Business Standard",
+        "url": "https://www.business-standard.com/amp/economy/news/india-forex-reserves-fall-1-27-bn-to-719-75-bn-as-gold-holdings-dip-126103001339_1.html"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "23,440.80",
+      "change": "+1.68%",
+      "dir": "up",
+      "as_of": "2026-11-02T15:30:00+05:30",
+      "source": {
+        "name": "NSE",
+        "url": "https://www.nseindia.com/market-data/live-market-indices"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "75,692.78",
+      "change": "+1.66%",
+      "dir": "up",
+      "as_of": "2026-11-02T15:30:00+05:30",
+      "source": {
+        "name": "BSE",
+        "url": "https://www.bseindia.com/"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,541.40",
+      "change": "-0.51%",
+      "dir": "down",
+      "as_of": "2026-11-02T16:00:00-05:00",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "25,164.36",
+      "change": "-1.07%",
+      "dir": "down",
+      "as_of": "2026-11-02T16:00:00-05:00",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,961.30",
+      "change": "-0.21%",
+      "dir": "down",
+      "as_of": "2026-11-03T07:23:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/GC=F/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$104.75",
+      "change": "-0.02%",
+      "dir": "flat",
+      "as_of": "2026-11-03T07:23:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ=F/"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$76,932",
+      "change": "+0.32%",
+      "dir": "up",
+      "as_of": "2026-11-03T07:33:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD/"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.89%",
+      "change": "-0.71%",
+      "dir": "down",
+      "as_of": "2026-11-02T15:00:00-05:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "why_it_matters": "It is the second cyclone to hit this coast in a week, threatening crops, power and transport across coastal Andhra.",
+          "lead": true,
+          "verified": true,
+          "note": "Landfall time from IMD as reported by ETV Bharat; damage reports still awaited.",
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/cy.jpg",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/deep-depression-over-bay-of-bengal-intensifies-into-cyclonic-storm-murasu-likely-to-make-landfall-along-ap-coast-tomorrow/",
+            "alt": "Palm trees bend in strong wind on the Andhra Pradesh coast"
+          },
+          "impact": [
+            {
+              "on": "india_economy",
+              "detail": "Agriculture",
+              "level": "low",
+              "dir": "down",
+              "why": "Heavy rain and wind can damage standing crops in coastal Andhra."
+            }
+          ],
+          "tags": [
+            "Cyclone",
+            "Andhra Pradesh",
+            "IMD"
+          ],
+          "id": "india-cyclone-murasu-2026-11-01",
+          "headline": "Cyclone Murasu crosses Andhra coast near Ongole; red alert in six districts",
+          "summary": "New since last night: IMD says the severe cyclonic storm crossed the south Andhra Pradesh coast near Ongole between about 3:30 and 5:30 am, with winds of 100-110 km/h gusting to 120 km/h. Red alerts cover Prakasam, Bapatla, Krishna, Guntur, Palnadu and NTR districts, and a storm surge of up to 2 metres is possible. Dozens of flights were cancelled at Chennai, Vijayawada, Visakhapatnam and Tirupati; no damage or casualty figures yet.",
+          "importance": 5,
+          "published_at": "2026-11-03T07:32:00+05:30",
+          "sources": [
+            {
+              "name": "ETV Bharat",
+              "url": "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/deep-depression-over-bay-of-bengal-intensifies-into-cyclonic-storm-murasu-likely-to-make-landfall-along-ap-coast-tomorrow/"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/2/thousands-evacuated-as-india-braces-for-second-cyclone-in-a-week"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Infrastructure",
+              "level": "low",
+              "dir": "up",
+              "why": "New metro work adds to the order pipeline for builders."
+            }
+          ],
+          "tags": [
+            "Infrastructure",
+            "Pune",
+            "Metro"
+          ],
+          "id": "india-pune-metro-2026-11-03",
+          "headline": "Modi to open Pune Metro line and launch ₹21,800 crore of new projects today",
+          "summary": "PM Narendra Modi will open the 23 km Pink Line (Line 3) from Maan to District Court, built for over ₹8,300 crore, by video link. He will also lay the foundation for Phase-II lines worth about ₹13,500 crore, including a 25.5 km line from Kharadi to Khadakwasla. The Pink Line will be run entirely by women train operators.",
+          "importance": 3,
+          "published_at": "2026-11-03T06:41:00+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/pm-narendra-modi-to-inaugurate-and-lay-foundation-stone-of-pune-metro-projects-today/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "why_it_matters": "Any deal that reopens Hormuz would push oil lower, easing pressure on the rupee and India’s import bill.",
+          "lead": false,
+          "verified": false,
+          "note": "Statements by US and Iranian officials; tanker claim by Iran's IRGC, not independently confirmed. Single source: Al Jazeera.",
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-02T151545Z_1847478069_RC2NFOAHXR6L_RTRMADP_3_IRAN-CRISIS-1793658445.jpg",
+            "credit": "Reuters",
+            "source_url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court",
+            "alt": "Armed guards stand outside a tiled shrine in Tehran as a woman walks past"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "high",
+              "dir": "mixed",
+              "why": "Talk of progress pulls oil down, but mine attacks in Hormuz keep supply risk alive."
+            },
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "mixed",
+              "why": "The rupee tracks oil: a deal would help it, new attacks would hurt it."
+            }
+          ],
+          "tags": [
+            "Iran",
+            "US",
+            "Hormuz",
+            "Oil"
+          ],
+          "id": "world-iran-us-hormuz-talks-2026-11-01",
+          "headline": "Vance says Iran talks show progress; Tehran says 'ball is in US court'",
+          "summary": "New today: US Vice President JD Vance says indirect peace talks with Iran have made progress. Iran says it is now up to Washington, and insists the US lift its naval blockade and meet its demands before any deal. Iran's Revolutionary Guards also say two crude tankers caught fire after hitting mines in the Strait of Hormuz.",
+          "importance": 5,
+          "published_at": "2026-11-03T00:00:00+03:00",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "Control of Congress shapes US spending, tariffs and the Iran war, which all feed into the dollar and global markets.",
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera.",
+          "image": null,
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "Dollar",
+              "level": "medium",
+              "dir": "mixed",
+              "why": "A split Congress is seen weighing on the dollar; a clean sweep could lift it."
+            }
+          ],
+          "tags": [
+            "US",
+            "Elections",
+            "Congress"
+          ],
+          "id": "world-us-midterms-2026-11-03",
+          "headline": "Americans vote today in midterms; Supreme Court refuses to block California ballots",
+          "summary": "Voting is under way for all 435 House seats, 35 of 100 Senate seats and 36 governors. On the eve of the vote, the US Supreme Court rejected President Trump's bid to stop the counting of more than 20,000 mail-in ballots in California.",
+          "importance": 4,
+          "published_at": "2026-11-02T00:00:00+03:00",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/us-midterms-2026-live-trump-democrats-make-final-push-amid-michigan-rift"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Death toll from Ukrainian officials; Russia has not commented. Single source: Al Jazeera (with Reuters).",
+          "image": null,
+          "impact": [],
+          "tags": [
+            "Ukraine",
+            "Russia",
+            "Peace talks"
+          ],
+          "id": "world-ukraine-aid-hub-strike-2026-11-02",
+          "headline": "Ukraine says Russian strike on aid hub kills 26; US sets Abu Dhabi peace talks",
+          "summary": "Ukrainian officials say a Russian strike on an aid centre at a school in Komyshuvakha, Zaporizhzhia region, killed at least 26 people, including rescuers and police, with 27 missing. US envoy Steve Witkoff says Ukrainian and Russian delegations will meet in Abu Dhabi on November 10-11, the first US-brokered talks since February.",
+          "importance": 4,
+          "published_at": "2026-11-02T00:00:00+03:00",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/2/russian-bombing-of-ukrainian-aid-centre-kills-24-people-zelenskyy"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera, citing Africa CDC data.",
+          "image": null,
+          "impact": [],
+          "tags": [
+            "Ebola",
+            "Health",
+            "Africa"
+          ],
+          "id": "world-ebola-congo-2026-11-03",
+          "headline": "Ebola deaths pass 5,300 in Congo-centred outbreak",
+          "summary": "Africa CDC data put the death toll at 5,376, almost all in DR Congo, with two each in Kenya and Uganda. About 10,444 people have been infected with the Bundibugyo strain, which has no approved vaccine or treatment and kills more than half of those infected.",
+          "importance": 3,
+          "published_at": "2026-11-03T00:00:00+03:00",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/3/ebola-outbreak-kills-more-than-5300-people-in-dr-congo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "why_it_matters": "A calm dollar and lower oil give the rupee room to hold near 94.90 at today’s open.",
+          "lead": false,
+          "verified": false,
+          "note": "Single trusted source: CNBC; latest level from Yahoo Finance data.",
+          "image": null,
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "Dollar",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Election results could move the dollar either way later today."
+            },
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Rupee likely to follow the dollar and oil after the US vote."
+            }
+          ],
+          "tags": [
+            "Dollar",
+            "Euro",
+            "Rupee"
+          ],
+          "id": "currency-dollar-midterms-2026-11-03",
+          "headline": "Dollar index holds near 101.8 as traders wait for US vote and RBA",
+          "summary": "The dollar index was little changed near 101.8 in Asian trade after slipping on Monday as oil fell. The euro stayed near $1.12 after Fitch cut its outlook on France to negative. Traders are waiting for US midterm results and an Australian rate decision due at 9 am IST, where a hike to 4.85% is widely expected.",
+          "importance": 3,
+          "published_at": "2026-11-03T07:23:00+05:30",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/02/dollar-rangebound-ahead-of-us-midterms-bitcoin-reels-from-crypto-heist.html"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "why_it_matters": "A tech pullback in New York can weigh on Indian IT stocks at today’s open.",
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "image": null,
+          "impact": [
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "medium",
+              "dir": "down",
+              "why": "Big tech sold off and Apple fell after hours on its margin forecast."
+            },
+            {
+              "on": "company",
+              "detail": "Apple",
+              "level": "medium",
+              "dir": "down",
+              "why": "Margin guidance and iPad sales disappointed despite record iPhone revenue."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "low",
+              "dir": "down",
+              "why": "Weak US tech mood often spills into Indian IT shares."
+            }
+          ],
+          "tags": [
+            "Wall Street",
+            "Apple",
+            "Nasdaq"
+          ],
+          "id": "markets-wall-street-apple-2026-11-02",
+          "headline": "Nasdaq ends 1.1% lower; Apple slips after hours despite record iPhone sales",
+          "summary": "Update at the close: the S&P 500 fell 0.51% and the Nasdaq 1.07%, while the Dow rose about 214 points. Marvell sank about 12% after its $115 billion Lumentum deal and Oracle fell 8% on plans to raise $20 billion. Apple reported revenue of $114.5 billion, up 12%, with iPhone sales up about 17% to $57.6 billion, but its shares fell about 2% after hours on a weak margin outlook.",
+          "importance": 4,
+          "published_at": "2026-11-02T20:59:00-05:00",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "Apple (SEC filing)",
+              "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000024/a8-kex991q4202609262026.htm"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: CNBC.",
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "level": "low",
+              "dir": "down",
+              "why": "Weak Asian tech stocks may make Indian traders cautious at the open."
+            }
+          ],
+          "tags": [
+            "Asia",
+            "Kospi",
+            "Samsung"
+          ],
+          "id": "markets-kospi-slump-2026-11-03",
+          "headline": "Korea’s Kospi drops over 3% as Samsung falls; Japan shut for holiday",
+          "summary": "South Korea’s Kospi fell about 3.3-3.6% early on Tuesday, with Samsung Electronics down 4-5%. Australia’s ASX 200 rose about 0.2% and Hong Kong’s Hang Seng 0.16%, while China’s CSI 300 slipped 0.8%.",
+          "importance": 3,
+          "published_at": "2026-11-03T00:00:00-05:00",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Denial is North Korea's claim; tracing figures from Elliptic. Single source: CNBC.",
+          "image": null,
+          "impact": [
+            {
+              "on": "crypto",
+              "level": "low",
+              "dir": "up",
+              "why": "Large freezes of stolen coins ease fears of a fire sale of hacked funds."
+            }
+          ],
+          "tags": [
+            "Crypto",
+            "Binance",
+            "Bitcoin"
+          ],
+          "id": "markets-binance-north-korea-2026-11-03",
+          "headline": "North Korea denies Binance hack; tracers say $2.85bn of stolen funds frozen",
+          "summary": "North Korea called US claims that it was behind the record Binance hack a “grave political provocation”. Blockchain firm Elliptic puts the theft at $6.43 billion and says about $2.85 billion has been frozen or seized, with only a tiny amount cashed out. Binance says it has covered about 95% of losses and is reopening withdrawals in phases.",
+          "importance": 3,
+          "published_at": "2026-11-02T20:52:00-05:00",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/03/north-korea-binance-elliptic-chainalysis.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "why_it_matters": "It could put the most effective HIV prevention shot within reach of millions, made by an Indian drugmaker.",
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Dr. Reddy's",
+              "level": "medium",
+              "dir": "up",
+              "why": "First FDA-cleared generic opens a large public-health supply market."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "Pharma",
+              "level": "low",
+              "dir": "up",
+              "why": "Shows Indian generic makers leading on a new class of drugs."
+            }
+          ],
+          "tags": [
+            "Pharma",
+            "Dr. Reddy's",
+            "HIV"
+          ],
+          "id": "built-dr-reddys-lenacapavir-2026-11-02",
+          "headline": "US FDA clears Dr. Reddy's generic twice-yearly HIV prevention shot",
+          "summary": "India's Dr. Reddy's Laboratories won tentative US FDA approval for the first generic version of lenacapavir, Gilead's twice-yearly HIV prevention injection. It will cost about $40 per person a year in 120 low- and middle-income countries, against a US list price of over $28,000 for the brand. First supplies are due before the end of 2026.",
+          "importance": 4,
+          "published_at": "2026-11-02T08:28:00-06:00",
+          "sources": [
+            {
+              "name": "AP (via KFVS12)",
+              "url": "https://www.kfvs12.com/2026/11/02/fda-approves-more-affordable-version-hiv-prevention-shot/"
+            },
+            {
+              "name": "Unitaid",
+              "url": "https://unitaid.org/news-blog/u-s-fda-approves-first-generic-injectable-lenacapavir-for-hiv-prevention/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "USD",
+      "title": "ISM Manufacturing PMI",
+      "date": "2026-11-02T10:00:00-05:00",
+      "impact": "Medium",
+      "actual": "55.5",
+      "vs_forecast": "better",
+      "why": "US factories grew faster than expected in October, which supports the dollar and keeps US rates high.",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-03",
+      "events": [
+        {
+          "text": "Reserve Bank of Australia rate decision (9:00 am IST)",
+          "section": "markets"
+        },
+        {
+          "text": "US midterm elections",
+          "section": "world"
+        },
+        {
+          "text": "US JOLTS job openings data",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "events": [
+        {
+          "text": "Bank of England rate decision",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "events": [
+        {
+          "text": "US October jobs report",
+          "section": "markets"
+        },
+        {
+          "text": "RBI weekly forex reserves data",
+          "section": "currency"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "events": [
+        {
+          "text": "New Zealand general election",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "events": [
+        {
+          "text": "Russia-Ukraine talks in Abu Dhabi (Nov 10-11)",
+          "section": "world"
+        }
+      ]
+    }
+  ]
+}
