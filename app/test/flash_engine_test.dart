@@ -255,5 +255,8 @@ void main() {
     await e.onTelegram(title: 'Market Feed 📈', text: 'FED HIKES RATES BY 25 BPS', at: t0, key: 'k2');
     expect(e.store.tape.single.headline.channel, 'marketfeed');
     expect(p.dismissed, ['k2']);
+    // @marketfeed's notifications are titled with its display name.
+    await e.onTelegram(title: 'Market News Feed', text: 'ECB CUTS RATES BY 25 BPS', at: t0, key: 'k3');
+    expect(e.store.tape.last.headline.channel, 'marketfeed');
   });
 }

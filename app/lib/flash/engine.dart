@@ -69,12 +69,17 @@ class FlashConfig {
     );
   }
 
+  /// Telegram shows a channel's display name, not its @handle, as the
+  /// notification title (@marketfeed is "Market News Feed").
+  static const knownTitles = {'marketfeed': 'Market News Feed'};
+
   /// True when a Telegram notification title belongs to one of the channels.
   bool matches(String title) {
-    final t = title.toLowerCase().replaceAll(RegExp(r'[^a-z0-9]'), '');
+    String norm(String s) => s.toLowerCase().replaceAll(RegExp(r'[^a-z0-9]'), '');
+    final t = norm(title);
     return channels.any((c) {
-      final n = c.toLowerCase().replaceAll(RegExp(r'[^a-z0-9]'), '');
-      return n.isNotEmpty && t.contains(n);
+      final names = [norm(c), if (knownTitles[norm(c)] case final shown?) norm(shown)];
+      return names.any((n) => n.isNotEmpty && t.contains(n));
     });
   }
 }
