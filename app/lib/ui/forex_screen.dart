@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 import '../app_controller.dart';
+import '../models/combined.dart';
 import '../models/edition.dart' show ImpactTag, Source;
 import '../models/forex.dart';
 import '../models/live.dart' as rules;
@@ -81,6 +82,17 @@ class ForexScreen extends StatelessWidget {
     final t = now ?? app.live.now;
     final next = events.where((e) => e.date.isAfter(t)).firstOrNull;
 
+    // Events at the same moment, for the combined-effect panel.
+    final slots = <DateTime, List<ForexEvent>>{};
+    for (final e in events) {
+      slots.putIfAbsent(e.date, () => []).add(e);
+    }
+    CombinedEffect? combinedFor(ForexEvent e) {
+      final group = slots[e.date]!;
+      if (group.length < 2) return null;
+      return combine(group, (x) => Readout.of(app, x).verdict);
+    }
+
     final rows = <Widget>[];
     String? day;
     for (final e in events) {
@@ -98,6 +110,21 @@ class ForexScreen extends StatelessWidget {
               Text('TODAY', style: look.label(10.5, color: look.section('markets'))),
             ],
           ]),
+        ));
+      }
+      final group = slots[e.date]!;
+      final effect = combinedFor(e);
+      // The NEXT card already shows the next slot's panel.
+      if (effect != null && identical(group.first, e) && e.date != next?.date) {
+        rows.add(Container(
+          margin: const EdgeInsets.fromLTRB(14, 6, 14, 6),
+          padding: const EdgeInsets.all(12),
+          decoration: BoxDecoration(
+            color: look.surface,
+            borderRadius: BorderRadius.circular(14),
+            border: Border.all(color: look.line),
+          ),
+          child: CombinedPanel(effect: effect, count: group.length),
         ));
       }
       rows.add(_EventRow(event: e, readout: Readout.of(app, e), now: t));
@@ -120,7 +147,13 @@ class ForexScreen extends StatelessWidget {
               ),
             ),
             _LiveStatus(app: app),
-            if (next != null) _NextCard(event: next, now: t),
+            if (next != null)
+              _NextCard(
+                event: next,
+                now: t,
+                others: slots[next.date]!.length - 1,
+                effect: combinedFor(next),
+              ),
             if (events.isEmpty)
               Padding(
                 padding: const EdgeInsets.all(32),
@@ -174,9 +207,13 @@ String _countdown(Duration d) {
 }
 
 class _NextCard extends StatelessWidget {
-  const _NextCard({required this.event, required this.now});
+  const _NextCard({required this.event, required this.now, this.others = 0, this.effect});
   final ForexEvent event;
   final DateTime now;
+
+  /// Other events at the same moment, and their combined effect.
+  final int others;
+  final CombinedEffect? effect;
 
   @override
   Widget build(BuildContext context) {
@@ -208,8 +245,64 @@ class _NextCard extends StatelessWidget {
           '${event.previous.isEmpty ? '' : ' · Previous ${event.previous}'}',
           style: look.body(13),
         ),
+        if (others > 0) ...[
+          const SizedBox(height: 2),
+          Text('+ $others more at the same time', style: look.body(13, color: look.ink)),
+        ],
+        if (effect != null) ...[
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 10),
+            child: Divider(height: 1, color: look.line),
+          ),
+          CombinedPanel(effect: effect!, count: others + 1),
+        ],
       ]),
     );
+  }
+}
+
+/// "COMBINED EFFECT": the two scenarios before release, then the net effect
+/// of the results so far.
+class CombinedPanel extends StatelessWidget {
+  const CombinedPanel({super.key, required this.effect, required this.count});
+  final CombinedEffect effect;
+  final int count;
+
+  @override
+  Widget build(BuildContext context) {
+    final look = Look.of(context);
+    final f = effect;
+    Widget caption(String s) => Padding(
+          padding: const EdgeInsets.only(top: 8, bottom: 5),
+          child: Text(s, style: look.body(12.5, color: look.ink)),
+        );
+    return Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+      Text(
+        'COMBINED EFFECT · $count EVENTS${f.released && f.waiting.isNotEmpty ? ' · SO FAR' : ''}',
+        style: look.label(10.5, color: look.section('markets')),
+      ),
+      if (!f.released) ...[
+        caption(f.rateDecision ? 'If hawkish (rates higher than expected)' : 'If stronger than forecast'),
+        ImpactChips(impact: f.ifStronger),
+        caption(f.rateDecision ? 'If dovish (rates lower than expected)' : 'If weaker than forecast'),
+        ImpactChips(impact: f.ifWeaker),
+      ] else ...[
+        if (f.flat) caption('In line with forecasts so far: little combined move.'),
+        if (f.chips.isNotEmpty) ...[
+          const SizedBox(height: 8),
+          ImpactChips(impact: f.chips),
+        ],
+        if (f.waiting.isNotEmpty)
+          caption('Waiting for: ${f.waiting.map((e) => e.title).join(', ')}'),
+      ],
+      const SizedBox(height: 8),
+      Text(
+        f.rateDecision
+            ? 'Approximate, from usual market reactions. The rate decision outweighs the rest.'
+            : 'Approximate, from usual market reactions. Red counts double.',
+        style: look.body(11, color: look.muted),
+      ),
+    ]);
   }
 }
 
@@ -255,7 +348,11 @@ class _EventRow extends StatelessWidget {
               const SizedBox(height: 4),
               Wrap(spacing: 12, children: [
                 if (r.actual != null)
-                  Text('Actual ${r.actual}',
+                  Text(
+                      // Statements: the editor's read of the tone.
+                      rules.parseFigure(r.actual!) == null && r.verdict != 'no_forecast'
+                          ? 'Tone ${r.actual}'
+                          : 'Actual ${r.actual}',
                       style: look.number(12.5, color: actualColor, weight: FontWeight.w700)),
                 if (waiting)
                   Text('Actual …', style: look.number(12.5, color: look.ink, weight: FontWeight.w700)),

@@ -213,7 +213,13 @@ adds them:
   feed; the app matches on them.
 - `vs_forecast` is from the currency's point of view: `better` (good for that
   currency, e.g. higher growth or inflation above forecast), `worse`,
-  `in_line`, or `no_forecast` (speeches, statements, elections).
+  `in_line`, or `no_forecast` (elections and events with no clear reading).
+- **Statements, press conferences and speeches** (e.g. "RBA Rate Statement",
+  "FOMC Press Conference"): read the tone from the central bank's own text or
+  trusted coverage. Set `actual` to `Hawkish`, `Dovish` or `Neutral` and
+  `vs_forecast` to `better`, `worse` or `in_line` to match. The app combines
+  these with the rate decision in its "Combined effect" panel, so include
+  every statement you can read; leave out one you can't confirm.
 - `why`: one plain sentence, under 160 characters, on what it means for the
   currency (and for India if relevant).
 - Include results from the last 24 hours, even ones an earlier edition already

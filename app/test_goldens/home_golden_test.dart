@@ -9,6 +9,9 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:newsapp/data/settings.dart';
 import 'package:newsapp/main.dart';
+import 'package:newsapp/theme/look.dart';
+import 'package:newsapp/ui/scope.dart';
+import 'package:newsapp/ui/forex_screen.dart';
 
 import '../test/ui_helpers.dart';
 
@@ -82,5 +85,25 @@ void main() {
     await tester.pumpAndSettle();
     await expectLater(find.byType(MaterialApp), matchesGoldenFile('goldens/forex_night_dark.png'));
   });
-}
 
+  testWidgets('forex combined paper light', timeout: const Timeout(Duration(minutes: 2)), (tester) async {
+    final dir = Directory.systemTemp.createTempSync('golden');
+    addTearDown(() => dir.deleteSync(recursive: true));
+    tester.view.physicalSize = const Size(1080, 2340);
+    tester.view.devicePixelRatio = 2.625;
+    addTearDown(tester.view.reset);
+    final app = (await tester.runAsync(() => makeTestApp(dir)))!;
+    for (final (style, b) in [(AppStyle.paper, Brightness.light), (AppStyle.night, Brightness.dark)]) {
+      await tester.pumpWidget(AppScope(
+        app: app,
+        child: MaterialApp(
+          theme: themeFor(style, b),
+          home: ForexScreen(now: DateTime.utc(2026, 11, 3, 3, 0)),
+        ),
+      ));
+      await tester.pumpAndSettle();
+      await expectLater(find.byType(MaterialApp),
+          matchesGoldenFile('goldens/forex_combined_${style.name}.png'));
+    }
+  });
+}

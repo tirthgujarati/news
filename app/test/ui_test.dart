@@ -125,7 +125,7 @@ void main() {
     expect(find.text('Actual 55.1'), findsOneWidget);
     // Instant chips from actual vs forecast (ISM is orange/Medium).
     expect(find.text('USD ▲'), findsOneWidget);
-    expect(find.text('GOLD ▼'), findsOneWidget);
+    expect(find.text('GOLD ▼'), findsWidgets); // also in the RBA scenario panel
     expect(find.text('RUPEE ▼'), findsOneWidget);
     expect(find.text('HIGH'), findsWidgets);
     expect(find.text('MED'), findsWidgets);
@@ -137,5 +137,29 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.textContaining('ISM Manufacturing'), findsNothing);
     expect(find.textContaining('Cash Rate'), findsWidgets);
+  });
+
+  testWidgets('Forex tab: combined effect for the 9:00 AM RBA block', (tester) async {
+    tester.view.physicalSize = const Size(1080, 2400);
+    tester.view.devicePixelRatio = 2.625;
+    addTearDown(tester.view.reset);
+    final app = (await tester.runAsync(() => makeTestApp(dir)))!;
+    // 3 Nov 2026, 8:30 AM IST; three red RBA events at 9:00 AM.
+    final now = DateTime.utc(2026, 11, 3, 3, 0);
+    await tester.pumpWidget(AppScope(
+      app: app,
+      child: MaterialApp(
+        theme: themeFor(AppStyle.paper, Brightness.light),
+        home: ForexScreen(now: now),
+      ),
+    ));
+    await tester.pumpAndSettle();
+    expect(find.text('AUD  Cash Rate'), findsOneWidget);
+    expect(find.text('+ 2 more at the same time'), findsOneWidget);
+    expect(find.text('COMBINED EFFECT · 3 EVENTS'), findsWidgets);
+    expect(find.text('If hawkish (rates higher than expected)'), findsWidgets);
+    expect(find.text('AUD ▲'), findsWidgets);
+    expect(find.text('AUD ▼'), findsWidgets);
+    expect(tester.takeException(), isNull);
   });
 }
