@@ -7,6 +7,8 @@ on:
     paths:
       - "data/editions/**"
       - "data/flash/*.json"
+  # Actions -> Push notifications -> Run workflow: sends a test notification.
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -30,6 +32,10 @@ jobs:
           FCM_SERVICE_ACCOUNT: ${{ secrets.FCM_SERVICE_ACCOUNT }}
           BEFORE: ${{ github.event.before }}
         run: |
+          if [ "$GITHUB_EVENT_NAME" = workflow_dispatch ]; then
+            python tools/notify.py --test
+            exit
+          fi
           # Only files this push added (a replaced edition doesn't notify again).
           if git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
             RANGE="$BEFORE $GITHUB_SHA"

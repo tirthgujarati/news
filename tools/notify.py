@@ -7,6 +7,8 @@ Run by .github/workflows/notify.yml with the files a push added:
 - A new flash desk result -> topic "flash": tells the phone's Flash engine to
   read the Opus answer now (the phone shows it; no text is sent).
 
+`python tools/notify.py --test` sends a test "edition" notification.
+
 Needs the FCM_SERVICE_ACCOUNT secret (a Firebase service account key, JSON).
 Without it this does nothing, so the repo works before Firebase is set up.
 """
@@ -49,7 +51,17 @@ def flash_message(path):
     }
 
 
+def test_message():
+    return {
+        "topic": "editions",
+        "data": {"type": "edition", "title": "apex test push", "text": "Firebase works: editions will arrive like this."},
+        "android": {"priority": "high", "ttl": "3600s"},
+    }
+
+
 def messages(paths):
+    if paths == ["--test"]:
+        return [test_message()]
     out = []
     for p in paths:
         p = p.replace("\\", "/")
