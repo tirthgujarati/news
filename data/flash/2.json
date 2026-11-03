@@ -1,0 +1,18 @@
+{
+  "issue": 2,
+  "event_id": "ev-20261103-151429",
+  "verdict": "WATCH",
+  "confirmed": false,
+  "headline": "Arab media say the US has approved a Qatari draft deal with Iran; Iran says nothing new has been agreed",
+  "why": "Only anonymous-source reports (Al Arabiya, Al-Araby Al-Jadeed) back the US approval, and Iran denies being close to a deal. Deal hopes can knock oil lower, but nothing is confirmed.",
+  "india": "A real US-Iran deal would cut oil prices, helping the rupee, oil marketing firms and airlines. Until it is confirmed, expect only brief swings in crude.",
+  "watch_next": "Iran's formal reply to the Qatari draft and any official statement from the US or Qatar.",
+  "impact": [
+    {"on": "oil", "level": "medium", "dir": "mixed", "why": "Deal reports push crude down, but Iran's denial limits the drop until something is confirmed."},
+    {"on": "rupee", "level": "low", "dir": "mixed", "why": "The rupee follows crude; a confirmed deal would help it, but a denial would reverse that."}
+  ],
+  "sources": [
+    {"name": "Anadolu Agency", "url": "https://www.aa.com.tr/en/americas/us-approves-qatar-presented-draft-deal-with-iran-sources/4110260"}
+  ],
+  "checked_at": "2026-11-03T21:40:26+05:30"
+}
