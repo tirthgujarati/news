@@ -1,0 +1,730 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-03-evening",
+  "date": "2026-11-03",
+  "slot": "evening",
+  "title": "Tuesday Evening Edition",
+  "generated_at": "2026-11-03T20:58:00+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "94.71",
+      "change": "-0.14%",
+      "dir": "down",
+      "as_of": "2026-11-03T16:15:00+05:30",
+      "source": {
+        "name": "PTI (via HDFC Sky)",
+        "url": "https://hdfcsky.com/news/rupee-rises-13-paise-to-settle-at-94-71-against-us-dollar"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "105.99",
+      "change": "-0.21%",
+      "dir": "down",
+      "as_of": "2026-11-03T20:04:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR%3DX/"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "101.80",
+      "change": "+0.06%",
+      "dir": "up",
+      "as_of": "2026-11-03T20:35:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India FX reserves",
+      "value": "$719.75bn",
+      "change": "-0.18%",
+      "dir": "down",
+      "as_of": "2026-10-23T00:00:00+05:30",
+      "source": {
+        "name": "Business Standard",
+        "url": "https://www.business-standard.com/amp/economy/news/india-forex-reserves-fall-1-27-bn-to-719-75-bn-as-gold-holdings-dip-126103001339_1.html"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "23,810.85",
+      "change": "+1.58%",
+      "dir": "up",
+      "as_of": "2026-11-03T15:30:00+05:30",
+      "source": {
+        "name": "NSE",
+        "url": "https://www.nseindia.com/market-data/live-market-indices"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "76,917.85",
+      "change": "+1.62%",
+      "dir": "up",
+      "as_of": "2026-11-03T15:30:00+05:30",
+      "source": {
+        "name": "BSE",
+        "url": "https://www.bseindia.com/"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,564.10",
+      "change": "+0.30%",
+      "dir": "up",
+      "as_of": "2026-11-03T20:45:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "25,347.60",
+      "change": "+0.73%",
+      "dir": "up",
+      "as_of": "2026-11-03T20:45:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,948.50",
+      "change": "-0.53%",
+      "dir": "down",
+      "as_of": "2026-11-03T20:35:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/GC=F/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$103.41",
+      "change": "-1.30%",
+      "dir": "down",
+      "as_of": "2026-11-03T20:35:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ=F/"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$77,259",
+      "change": "+0.75%",
+      "dir": "up",
+      "as_of": "2026-11-03T20:45:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD/"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.95%",
+      "change": "+1.19%",
+      "dir": "up",
+      "as_of": "2026-11-03T20:30:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-rbi-service-forex-reporting-2026-11-03",
+          "headline": "RBI eases forex paperwork for small service exports and imports",
+          "summary": "Resident individuals who export services no longer need a separate Export Declaration Form; giving payment details to their bank is enough. Other service exporters get the same relief on receipts up to ₹10 lakh. On the import side, banks must report a payment only when the importer is not a resident individual and the bill is above ₹10 lakh. The changes were notified on November 2 and apply from October 1.",
+          "why_it_matters": "Less paperwork helps freelancers and small firms that earn in foreign currency.",
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-03T17:20:00+05:30",
+          "tags": [
+            "RBI",
+            "Forex",
+            "Services exports"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/rbi-simplifies-forex-reporting-rules-for-small-value-service-exports-and-imports/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "india_economy",
+              "level": "low",
+              "dir": "up",
+              "why": "Simpler rules cut costs for small service exporters."
+            }
+          ]
+        },
+        {
+          "id": "india-drug-batch-release-2026-11-03",
+          "headline": "Centre proposes a named, qualified person to sign off every drug batch",
+          "summary": "The Health Ministry has proposed changes to the Drugs Rules, 1945, so that drug makers must name a qualified and experienced person who approves each batch before it is shipped. Firms would also have to keep batch-release records and use a set format for a Batch Release Certificate.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio. This is a draft proposal, not yet a final rule.",
+          "published_at": "2026-11-03T20:40:00+05:30",
+          "tags": [
+            "Pharma",
+            "Regulation",
+            "Drug quality"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/centre-proposes-mandatory-authorisation-of-qualified-personnel-for-drug-batch-release/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Pharma",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Tighter quality rules may add compliance work for drug makers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-trump-israel-aid-2026-11-03",
+          "headline": "Trump says US will stop paying Israel's $4bn yearly aid after this year",
+          "summary": "President Trump told Fox News that he and Prime Minister Benjamin Netanyahu agreed months ago to end the roughly $4 billion a year the US gives Israel, from the end of this year. He said Israel no longer needs it but the US will still help if asked. It is not clear which aid would stop, and the State Department did not comment.",
+          "why_it_matters": "US military aid has backed Israel for decades, so ending it would be a big shift in Middle East policy.",
+          "importance": 4,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera. Claim by President Trump; details not confirmed by the State Department.",
+          "published_at": "2026-11-03T00:00:00+00:00",
+          "tags": [
+            "US",
+            "Israel",
+            "Military aid"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/3/trump-announces-that-us-will-stop-paying-israel-after-year-end"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6ae9e4f6-1793713398.jpg?resize=1920%2C1440",
+            "credit": "Jonathan Ernst/Reuters",
+            "source_url": "https://www.aljazeera.com/news/2026/11/3/trump-announces-that-us-will-stop-paying-israel-after-year-end",
+            "alt": "Donald Trump points at Benjamin Netanyahu as they shake hands in front of US and Israeli flags"
+          },
+          "impact": []
+        },
+        {
+          "id": "world-iran-us-hormuz-talks-2026-11-01",
+          "headline": "Trump calls overnight Iran strikes 'minor'; Qatar keeps mediating",
+          "summary": "New since midday: Trump says the US strikes on Iran on Monday night were \"minor, it wasn't war\" and hit an anti-aircraft site the US had watched for two months. Qatar says it is still mediating between Washington and Tehran. Iran's security chief Mohsen Rezaei says the US must fully meet Tehran's conditions before the Strait of Hormuz fully reopens.",
+          "why_it_matters": "Any deal that reopens Hormuz would lower oil prices, which matters a lot for India's import bill.",
+          "importance": 4,
+          "lead": false,
+          "verified": false,
+          "note": "Trump's and Rezaei's remarks from Al Jazeera; Qatar's mediation from CNBC. Claims by each side not independently confirmed.",
+          "published_at": "2026-11-03T00:00:00+00:00",
+          "tags": [
+            "Iran",
+            "US",
+            "Hormuz",
+            "Qatar"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "high",
+              "dir": "down",
+              "why": "Signs that talks continue keep pressure on crude prices."
+            }
+          ]
+        },
+        {
+          "id": "world-ukraine-kharkiv-hospital-2026-11-03",
+          "headline": "Ukraine says Russian strike hit Kharkiv hospital, injuring at least 73",
+          "summary": "President Zelenskyy says Russia fired 289 drones and 76 missiles overnight, hitting a Kharkiv hospital and power sites in nine regions; more than 180,000 people in Zhytomyr lost power. Russia's defence ministry says it targeted energy facilities that serve the army. US envoy Steve Witkoff says peace talks in Abu Dhabi next week will cover security arrangements and next steps.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Casualty and weapon figures are claims by Ukrainian officials; Russia confirms striking energy sites. Reported by Al Jazeera with Reuters.",
+          "published_at": "2026-11-03T00:00:00+00:00",
+          "tags": [
+            "Ukraine",
+            "Russia",
+            "War"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-israel-eisenkot-2026-11-03",
+          "headline": "Israel's opposition backs Gadi Eisenkot to try to replace Netanyahu",
+          "summary": "Opposition party leaders agreed to recommend former army chief Gadi Eisenkot to President Isaac Herzog as the person to form a government. After the October 27 vote, Netanyahu's bloc has 53 of 120 seats, the opposition 48 and Arab-led parties 19, so neither side has the 61 needed. Herzog starts consultations on Wednesday.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-03T19:59:00+05:30",
+          "tags": [
+            "Israel",
+            "Election",
+            "Coalition"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/3/israeli-opposition-leaders-back-eisenkot-to-oust-netanyahu"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/israel-opposition-deliberations-on-to-form-first-coalition-govt/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "id": "currency-rupee-oil-2026-11-03",
+          "headline": "Rupee ends 13 paise stronger at 94.71 as stock rally draws foreign money",
+          "summary": "New since midday: the rupee closed at 94.71 per dollar (provisional), up 13 paise from Monday, after opening at 94.68. Buying of Indian shares by foreign investors helped, while oil's bounce on the Qeshm strikes capped gains. Analysts see a 94.40 to 95 range in the near term.",
+          "why_it_matters": "A firmer rupee makes imports such as oil and electronics a little cheaper.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": "Close from PTI (via HDFC Sky); Yahoo Finance showed about 94.73 in the evening. PTI puts Monday's close at 94.84, not the 94.90 in our Monday edition.",
+          "published_at": "2026-11-03T16:15:00+05:30",
+          "tags": [
+            "Rupee",
+            "Dollar",
+            "FPI"
+          ],
+          "sources": [
+            {
+              "name": "PTI (via HDFC Sky)",
+              "url": "https://hdfcsky.com/news/rupee-rises-13-paise-to-settle-at-94-71-against-us-dollar"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/INR%3DX/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "up",
+              "why": "Foreign buying of Indian shares adds dollar supply."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "id": "markets-nifty-rally-2026-11-03",
+          "headline": "Sensex jumps 1,225 points to 76,918 as rally runs to a fourth day",
+          "summary": "New since midday: the Sensex closed up 1,225 points (1.6%) at 76,918 and the Nifty up 370 points (1.6%) at 23,811. FMCG, realty and private banks led, with Hindustan Unilever, Bharti Airtel and HDFC Bank the top gainers; PSU banks and power stocks fell. Gainers beat losers by 2,510 to 1,895 on the BSE.",
+          "why_it_matters": "Four straight up days with foreign buying suggests investors are coming back as oil eases.",
+          "importance": 5,
+          "lead": true,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-03T16:30:00+05:30",
+          "tags": [
+            "Sensex",
+            "Nifty",
+            "FMCG",
+            "Banks"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/domestic-indices-surge-around-1-6-extending-winning-streak-for-fourth-consecutive-session/"
+            },
+            {
+              "name": "PTI (via HDFC Sky)",
+              "url": "https://hdfcsky.com/news/rupee-rises-13-paise-to-settle-at-94-71-against-us-dollar"
+            },
+            {
+              "name": "NSE",
+              "url": "https://www.nseindia.com/market-data/live-market-indices"
+            }
+          ],
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2025/12/BSE-sensex-1-3.jpg",
+            "credit": "ANI (via All India Radio)",
+            "source_url": "https://newsonair.gov.in/domestic-indices-surge-around-1-6-extending-winning-streak-for-fourth-consecutive-session/",
+            "alt": "The Bombay Stock Exchange tower in Mumbai with its red BSE sign"
+          },
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "FMCG",
+              "level": "medium",
+              "dir": "up",
+              "why": "Broad buying and foreign inflows keep the rally going."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "Banks",
+              "level": "medium",
+              "dir": "up",
+              "why": "Private lenders such as HDFC Bank led the gains."
+            }
+          ]
+        },
+        {
+          "id": "markets-wall-street-open-2026-11-03",
+          "headline": "Wall Street opens mixed on US Election Day; Apple drags the Dow",
+          "summary": "Shortly after the open the Dow was down about 0.4-0.6% while the Nasdaq rose 0.4-0.7%, as chip stocks such as Micron, Nvidia and Intel bounced. Apple fell about 2-3% on a weak margin forecast, and Shopify slid over 9% on a sales miss. Investors await midterm results and AMD's earnings after the close.",
+          "why_it_matters": null,
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": "Moves changed during the session; figures from CNBC around 9:40 am ET and Yahoo Finance later.",
+          "published_at": "2026-11-03T09:40:00-05:00",
+          "tags": [
+            "Wall Street",
+            "Midterms",
+            "Apple",
+            "Chips"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "medium",
+              "dir": "up",
+              "why": "Chip makers rebounded after Monday's sell-off."
+            },
+            {
+              "on": "company",
+              "detail": "Apple",
+              "level": "medium",
+              "dir": "down",
+              "why": "A weak margin forecast hit the shares."
+            }
+          ]
+        },
+        {
+          "id": "markets-oil-qeshm-2026-11-03",
+          "headline": "Brent slips to about $103.5 as hopes for US-Iran talks return",
+          "summary": "New since midday: Brent erased its morning bounce and was down about $1.20 at around $103.5 a barrel by the US morning, after Monday's 7.6% plunge. US crude fell to about $96 after briefly going below $95. Traders are betting on a diplomatic deal, though fresh strikes or ship attacks could lift prices again.",
+          "why_it_matters": "Cheaper oil eases India's import bill and supports the rupee.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": "Prices from CNBC, matched by Yahoo Finance ($103.41 at 8:35 pm IST).",
+          "published_at": "2026-11-03T01:41:00-05:00",
+          "tags": [
+            "Oil",
+            "Brent",
+            "Iran"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/BZ=F/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "high",
+              "dir": "down",
+              "why": "Hopes of a US-Iran deal are pulling crude lower."
+            },
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "up",
+              "why": "Lower oil reduces India's need for dollars."
+            }
+          ]
+        },
+        {
+          "id": "markets-us-jolts-2026-11-03",
+          "headline": "US job openings rise to 7.5 million, above forecasts; 10-year yield near 4.95%",
+          "summary": "US employers had 7.5 million job openings in September, the Labor Department said, above the roughly 7.15 million economists expected. The 10-year Treasury yield rose to about 4.95%, up from 4.89% on Monday.",
+          "why_it_matters": "A firm US job market keeps US rates high, which tends to weigh on gold and on money flows into India.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "Forecast from the Forex Factory calendar; yield from Yahoo Finance.",
+          "published_at": "2026-11-03T10:00:00-05:00",
+          "tags": [
+            "US",
+            "Jobs",
+            "Treasuries"
+          ],
+          "sources": [
+            {
+              "name": "US Bureau of Labor Statistics",
+              "url": "https://www.bls.gov/news.release/jolts.nr0.htm"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "rates",
+              "level": "medium",
+              "dir": "up",
+              "why": "Strong hiring demand reduces the case for Fed rate cuts."
+            },
+            {
+              "on": "currency",
+              "detail": "Dollar",
+              "level": "low",
+              "dir": "up",
+              "why": "Better-than-expected data supports the dollar."
+            },
+            {
+              "on": "gold",
+              "level": "low",
+              "dir": "down",
+              "why": "Higher yields make non-yielding gold less attractive."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "id": "built-honda-e-compressor-2026-11-03",
+          "headline": "Honda says it will build a motorcycle with an electric compressor",
+          "summary": "At the EICMA show in Milan, Honda showed the V3R 900 E-Compressor as a planned production model. Honda says its electronically controlled compressor, which forces extra air into the engine, is the first ever on a motorcycle. It also showed a new Africa Twin and Fireblade and its first electric-assist mountain bike, the RN0.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Honda press release. The 'world's first' claim is Honda's own; no launch date given.",
+          "published_at": "2026-11-03T00:00:00+09:00",
+          "tags": [
+            "Honda",
+            "Motorcycles",
+            "EICMA"
+          ],
+          "sources": [
+            {
+              "name": "Honda",
+              "url": "https://global.honda/en/newsroom/news/2026/2261103aeng.html"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "AUD",
+      "title": "Cash Rate",
+      "date": "2026-11-02T22:30:00-05:00",
+      "impact": "High",
+      "actual": "4.85%",
+      "vs_forecast": "in_line",
+      "why": "The RBA hiked by 0.25 point as expected, so the move itself was priced in.",
+      "source": {
+        "name": "Reserve Bank of Australia",
+        "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html"
+      }
+    },
+    {
+      "country": "AUD",
+      "title": "RBA Rate Statement",
+      "date": "2026-11-02T22:30:00-05:00",
+      "impact": "High",
+      "actual": "Dovish",
+      "vs_forecast": "worse",
+      "why": "A 6-3 split and no firm hint of more hikes made markets cut bets on further tightening; the Aussie fell.",
+      "source": {
+        "name": "ABC News (Australia)",
+        "url": "https://www.abc.net.au/news/2026-11-03/rba-interest-rates-markets-live-coverage/107338216"
+      }
+    },
+    {
+      "country": "AUD",
+      "title": "RBA Press Conference",
+      "date": "2026-11-02T23:30:00-05:00",
+      "impact": "High",
+      "actual": "Neutral",
+      "vs_forecast": "in_line",
+      "why": "Bullock said inflation is too high but she does not know the next move and it is time to take stock.",
+      "source": {
+        "name": "ABC News (Australia)",
+        "url": "https://www.abc.net.au/news/2026-11-03/rba-interest-rates-markets-live-coverage/107338216"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "JOLTS Job Openings",
+      "date": "2026-11-03T10:00:00-05:00",
+      "impact": "Medium",
+      "actual": "7.5M",
+      "vs_forecast": "better",
+      "why": "More US job openings than expected point to a firm labour market, which supports the dollar and high US rates.",
+      "source": {
+        "name": "US Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/jolts.nr0.htm"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-03",
+      "events": [
+        {
+          "text": "US midterm election results due overnight (IST)",
+          "section": "world"
+        },
+        {
+          "text": "AMD quarterly results after US close",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "events": [
+        {
+          "text": "Israel's President Herzog begins coalition consultations (Nov 4-5)",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "events": [
+        {
+          "text": "Bank of England rate decision",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "events": [
+        {
+          "text": "US October jobs report",
+          "section": "markets"
+        },
+        {
+          "text": "RBI weekly forex reserves data",
+          "section": "currency"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "events": [
+        {
+          "text": "New Zealand general election",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "events": [
+        {
+          "text": "Russia-Ukraine talks in Abu Dhabi (Nov 10-11)",
+          "section": "world"
+        }
+      ]
+    }
+  ]
+}
