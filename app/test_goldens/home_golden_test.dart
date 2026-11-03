@@ -106,4 +106,29 @@ void main() {
           matchesGoldenFile('goldens/forex_combined_${style.name}.png'));
     }
   });
+
+  testWidgets('flash screens', timeout: const Timeout(Duration(minutes: 2)), (tester) async {
+    final dir = Directory.systemTemp.createTempSync('golden');
+    addTearDown(() => dir.deleteSync(recursive: true));
+    tester.view.physicalSize = const Size(1080, 2340);
+    tester.view.devicePixelRatio = 2.625;
+    addTearDown(tester.view.reset);
+    for (final (style, theme) in [(AppStyle.night, ThemeMode.dark), (AppStyle.paper, ThemeMode.light)]) {
+      final app = (await tester.runAsync(() => makeTestApp(dir, style: style, theme: theme)))!;
+      await tester.pumpWidget(ApexApp(app: app));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('Flash').last);
+      await tester.pumpAndSettle();
+      await expectLater(find.byType(MaterialApp), matchesGoldenFile('goldens/flash_${style.name}.png'));
+      await tester.tap(find.byIcon(Icons.tune).first);
+      await tester.pumpAndSettle();
+      await expectLater(find.byType(MaterialApp), matchesGoldenFile('goldens/flash_setup_${style.name}.png'));
+      await tester.pageBack();
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('Fed cuts 50 bp in surprise move; Powell says decision was unanimous'));
+      await tester.pumpAndSettle();
+      await expectLater(find.byType(MaterialApp), matchesGoldenFile('goldens/flash_detail_${style.name}.png'));
+      await tester.pumpWidget(const SizedBox());
+    }
+  });
 }

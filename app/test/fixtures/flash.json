@@ -1,0 +1,54 @@
+{
+  "events": [
+    {
+      "id": "ev-20261104-180000-1a2b",
+      "headlines": [
+        {"text": "FED UNEXPECTEDLY CUTS RATES BY 50 BPS", "channel": "marketfeed", "at": "2026-11-04T18:00:00.000Z"},
+        {"text": "POWELL: FED RATE DECISION WAS UNANIMOUS", "channel": "marketfeed", "at": "2026-11-04T18:00:04.000Z"}
+      ],
+      "topic": "rates",
+      "score": 9,
+      "rule_chips": [],
+      "judgement": {
+        "verdict": "HOT", "is_new": true,
+        "headline": "Fed cuts rates by 50 bps in a surprise move",
+        "why": "A surprise cut weakens the dollar and lifts gold.",
+        "chips": [
+          {"on": "currency", "detail": "USD", "level": "high", "dir": "down", "why": "x"},
+          {"on": "gold", "level": "high", "dir": "up", "why": "x"}
+        ],
+        "ms": 2140, "at": "2026-11-04T18:00:03.700Z"
+      },
+      "issue": 5,
+      "desk": {
+        "verdict": "HOT", "confirmed": true,
+        "headline": "Fed cuts 50 bp in surprise move; Powell says decision was unanimous",
+        "why": "Markets expected a hold. The dollar fell about 0.6% and gold jumped.",
+        "india": "A weaker dollar helps the rupee; IT exporters may slip.",
+        "watch_next": "Powell's press conference.",
+        "impact": [
+          {"on": "currency", "detail": "USD", "level": "high", "dir": "down", "why": "Surprise cut."},
+          {"on": "gold", "level": "high", "dir": "up", "why": "Weaker dollar."},
+          {"on": "rupee", "level": "medium", "dir": "up", "why": "Weaker dollar."}
+        ],
+        "sources": [{"name": "Federal Reserve", "url": "https://www.federalreserve.gov/"}],
+        "checked_at": "2026-11-04T18:03:10.000Z"
+      },
+      "moves": [{"name": "USD/INR", "pct": -0.21, "after": 5}, {"name": "Gold", "pct": 0.9, "after": 5}],
+      "seen": false
+    },
+    {
+      "id": "ev-20261104-170000-3c4d",
+      "headlines": [{"text": "ECB HOLDS RATES UNCHANGED, AS EXPECTED", "channel": "FinancialJuice", "at": "2026-11-04T17:00:00.000Z"}],
+      "topic": "rates", "score": 4, "rule_chips": [],
+      "judgement": {"verdict": "NOISE", "is_new": false, "headline": "ECB holds rates", "why": "Expected.", "chips": [], "ms": 1800, "at": "2026-11-04T17:00:02.000Z"},
+      "moves": [], "seen": true
+    }
+  ],
+  "tape": [
+    {"text": "POWELL: FED RATE DECISION WAS UNANIMOUS", "channel": "marketfeed", "at": "2026-11-04T18:00:04.000Z", "score": 6, "topic": "rates", "event": "ev-20261104-180000-1a2b"},
+    {"text": "FED UNEXPECTEDLY CUTS RATES BY 50 BPS", "channel": "marketfeed", "at": "2026-11-04T18:00:00.000Z", "score": 9, "topic": "rates", "event": "ev-20261104-180000-1a2b"}
+  ],
+  "spend": {"month": "2026-11", "day": "2026-11-04", "usd": 0.42, "day_usd": 0.05, "calls": 150},
+  "desk_day": "2026-11-04", "desk_count": 2
+}

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../models/edition.dart';
 import '../theme/look.dart';
+import 'archive_screen.dart';
 import 'story_sheet.dart';
 import 'widgets.dart';
 
@@ -16,7 +17,22 @@ class SavedScreen extends StatelessWidget {
     final app = context.app;
     final saved = app.store.saved;
     return Scaffold(
-      appBar: AppBar(title: const Text('Saved')),
+      appBar: AppBar(
+        title: const Text('Saved'),
+        actions: [
+          // Archive lives here so the tab bar has room for Flash.
+          TextButton.icon(
+            icon: const Icon(Icons.history),
+            label: const Text('Archive'),
+            onPressed: () => Navigator.of(context).push(MaterialPageRoute<void>(
+              builder: (route) => ArchiveScreen(onOpened: () {
+                Navigator.of(route).pop();
+                app.tabRequest.value = 0;
+              }),
+            )),
+          ),
+        ],
+      ),
       body: saved.isEmpty
           ? Center(
               child: Padding(

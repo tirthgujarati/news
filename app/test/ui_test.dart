@@ -53,7 +53,7 @@ void main() {
 
   testWidgets('every bottom tab opens without errors', (tester) async {
     await pumpApp(tester, AppStyle.night, ThemeMode.dark);
-    for (final tab in ['Forex', 'Week', 'Saved', 'Archive', 'Settings', 'Home']) {
+    for (final tab in ['Flash', 'Forex', 'Week', 'Saved', 'Settings', 'Home']) {
       await tester.tap(find.text(tab).last);
       await tester.pumpAndSettle();
       expect(tester.takeException(), isNull, reason: tab);
@@ -61,6 +61,42 @@ void main() {
     await tester.tap(find.text('Week').last);
     await tester.pumpAndSettle();
     expect(find.text('US midterm elections'), findsOneWidget);
+
+    // Archive now opens from Saved.
+    await tester.tap(find.text('Saved').last);
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Archive'));
+    await tester.pumpAndSettle();
+    expect(find.text('Monday Morning Edition'), findsWidgets);
+    expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('Flash tab: verdicts, chips, Sonnet and Opus calls, market check', (tester) async {
+    await pumpApp(tester, AppStyle.night, ThemeMode.dark);
+    await tester.tap(find.text('Flash').last);
+    await tester.pumpAndSettle();
+    expect(find.text('Fed cuts 50 bp in surprise move; Powell says decision was unanimous'), findsOneWidget);
+    expect(find.text('HOT'), findsOneWidget);
+    expect(find.text('USD ▼'), findsOneWidget);
+    expect(find.text('GOLD ▲'), findsOneWidget);
+    expect(find.text('RUPEE ▲'), findsOneWidget);
+    expect(find.textContaining('Sonnet 2.1 s · Opus ✓ confirmed in 3 min'), findsOneWidget);
+    expect(find.textContaining('Market agrees ✓'), findsOneWidget);
+    expect(find.textContaining('ECB holds'), findsNothing); // NOISE hidden by default
+    expect(find.textContaining('Finish setting up Flash'), findsOneWidget);
+
+    await tester.tap(find.text('Noise'));
+    await tester.pumpAndSettle();
+    expect(find.textContaining('ECB holds'), findsOneWidget);
+
+    // Details: the desk's sources and the raw squawk.
+    await tester.tap(find.text('Fed cuts 50 bp in surprise move; Powell says decision was unanimous'));
+    await tester.pumpAndSettle();
+    expect(find.textContaining('India: A weaker dollar'), findsOneWidget);
+    expect(find.text('↗ Federal Reserve'), findsOneWidget);
+    await tester.scrollUntilVisible(find.textContaining('POWELL: FED RATE DECISION'), 200,
+        scrollable: find.byType(Scrollable).last);
+    expect(tester.takeException(), isNull);
   });
 
   testWidgets('saving a story shows it in Saved', (tester) async {

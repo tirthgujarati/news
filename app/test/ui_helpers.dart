@@ -46,6 +46,8 @@ Future<AppController> makeTestApp(
   final raw = File('test/fixtures/edition.json').readAsStringSync();
   await store.save(raw, parseEdition(raw));
   await store.saveForexFeeds([File('test/fixtures/ff_week.json').readAsStringSync()]);
+  // What the background Flash engine would have saved.
+  File('test/fixtures/flash.json').copySync('${dir.path}/flash.json');
   final cache = PhotoCache(dir, MockClient((_) async => throw const SocketException('offline')));
   for (final MapEntry(key: url, value: path) in photos.entries) {
     final f = cache.fileFor(url);
@@ -60,6 +62,7 @@ Future<AppController> makeTestApp(
     liveUpdates: false,
   );
   await app.start();
+  await app.flashStarted;
   // Let the background refresh fail (offline) before the test continues.
   while (app.refreshing) {
     await Future<void>.delayed(const Duration(milliseconds: 10));

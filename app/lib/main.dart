@@ -9,8 +9,9 @@ import 'data/edition_store.dart';
 import 'data/photo_cache.dart';
 import 'data/remote.dart';
 import 'data/settings.dart';
+import 'flash/background.dart';
 import 'theme/look.dart';
-import 'ui/archive_screen.dart';
+import 'ui/flash_screen.dart';
 import 'ui/forex_screen.dart';
 import 'ui/home_screen.dart';
 import 'ui/saved_screen.dart';
@@ -34,6 +35,11 @@ Future<void> main() async {
   unawaited(app.start());
   unawaited(scheduleBackgroundChecks());
 }
+
+/// Entry point of the background Flash engine (started by Android for the
+/// Telegram listener and the market watcher; see FlashHub.kt).
+@pragma('vm:entry-point')
+Future<void> flashMain() => runFlashEngine();
 
 class ApexApp extends StatelessWidget {
   const ApexApp({super.key, required this.app});
@@ -84,14 +90,33 @@ class _ShellState extends State<Shell> {
     final app = AppScope.of(context);
     if (!identical(app, _app)) {
       _app?.newEditionSignal.removeListener(_onNewEdition);
-      _app = app..newEditionSignal.addListener(_onNewEdition);
+      _app?.tabRequest.removeListener(_onTabRequest);
+      _app?.flash.openRequest.removeListener(_onFlashOpen);
+      _app = app
+        ..newEditionSignal.addListener(_onNewEdition)
+        ..tabRequest.addListener(_onTabRequest)
+        ..flash.openRequest.addListener(_onFlashOpen);
     }
   }
 
   @override
   void dispose() {
     _app?.newEditionSignal.removeListener(_onNewEdition);
+    _app?.tabRequest.removeListener(_onTabRequest);
+    _app?.flash.openRequest.removeListener(_onFlashOpen);
     super.dispose();
+  }
+
+  void _onTabRequest() {
+    final t = _app?.tabRequest.value;
+    if (t == null) return;
+    _app!.tabRequest.value = null;
+    setState(() => _tab = t);
+  }
+
+  // A Flash notification was tapped: show the Flash tab (it opens the event).
+  void _onFlashOpen() {
+    if (_app?.flash.openRequest.value != null && _tab != 1) setState(() => _tab = 1);
   }
 
   void _onNewEdition() {
@@ -107,10 +132,10 @@ class _ShellState extends State<Shell> {
     final look = Look.of(context);
     final screens = [
       const HomeScreen(),
+      FlashScreen(flash: _app!.flash, visible: _tab == 1),
       const ForexScreen(),
       const WeekAheadScreen(),
       const SavedScreen(),
-      ArchiveScreen(onOpened: () => setState(() => _tab = 0)),
       const SettingsScreen(),
     ];
     return Scaffold(
@@ -124,10 +149,10 @@ class _ShellState extends State<Shell> {
         labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
         destinations: const [
           NavigationDestination(icon: Icon(Icons.newspaper_outlined), selectedIcon: Icon(Icons.newspaper), label: 'Home'),
+          NavigationDestination(icon: Icon(Icons.bolt_outlined), selectedIcon: Icon(Icons.bolt), label: 'Flash'),
           NavigationDestination(icon: Icon(Icons.currency_exchange), label: 'Forex'),
           NavigationDestination(icon: Icon(Icons.event_outlined), selectedIcon: Icon(Icons.event), label: 'Week'),
           NavigationDestination(icon: Icon(Icons.bookmark_border), selectedIcon: Icon(Icons.bookmark), label: 'Saved'),
-          NavigationDestination(icon: Icon(Icons.history), label: 'Archive'),
           NavigationDestination(icon: Icon(Icons.tune), label: 'Settings'),
         ],
       ),

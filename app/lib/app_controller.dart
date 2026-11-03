@@ -9,6 +9,7 @@ import 'data/photo_cache.dart';
 import 'data/remote.dart';
 import 'data/settings.dart';
 import 'data/sync.dart';
+import 'flash/flash_view.dart';
 import 'models/edition.dart';
 import 'models/forex.dart';
 import 'startup_timer.dart';
@@ -34,6 +35,15 @@ class AppController extends ChangeNotifier {
 
   /// Off in tests, so nothing polls the network.
   final bool liveUpdates;
+
+  /// Hot news caught from squawk channels (written by the background engine).
+  late final FlashView flash = FlashView(store.root, live: liveUpdates);
+
+  /// Completes when Flash has read its file (tests wait for it).
+  Future<void>? flashStarted;
+
+  /// Asks the tab bar to switch tab (e.g. Archive opened an edition: Home).
+  final tabRequest = ValueNotifier<int?>(null);
 
   final Settings settings;
   final EditionStore store;
@@ -93,6 +103,7 @@ class AppController extends ChangeNotifier {
       });
     }
     unawaited(store.loadSearchIndex());
+    unawaited(flashStarted = flash.start());
     unawaited(refresh());
   }
 
@@ -216,6 +227,8 @@ class AppController extends ChangeNotifier {
   @override
   void dispose() {
     live.dispose();
+    flash.dispose();
+    tabRequest.dispose();
     newEditionSignal.dispose();
     remote.close();
     super.dispose();

@@ -1,0 +1,475 @@
+/// The Flash engine: every squawk headline goes through
+///   rules (instant) -> Sonnet judge (~2 s) -> alert
+///   -> Opus flash desk on the plan (HOT only, ~3 min) -> market check.
+/// It runs in the background (started by the Telegram listener or the watch
+/// service), so it works with the app closed.
+library;
+
+import 'dart:async';
+import 'dart:math';
+
+import 'package:shared_preferences/shared_preferences.dart';
+
+import '../models/edition.dart' show ImpactTag;
+import '../models/forex.dart';
+import 'desk.dart';
+import 'flash.dart';
+import 'judge.dart';
+import 'prices.dart';
+import 'rules.dart';
+import 'store.dart';
+
+/// Flash settings (written by the Settings screen, read on every event).
+class FlashConfig {
+  final bool enabled;
+
+  /// Telegram channel names to listen to (matched case-insensitively).
+  final List<String> channels;
+  final double monthlyInr;
+  final double inrPerUsd;
+  final bool deskAuto;
+  final int deskDaily;
+
+  /// Also read the channels' public pages and watch prices (backup).
+  final bool watchMode;
+
+  /// Clear Telegram's own notifications for these channels (apex alerts
+  /// instead).
+  final bool hideTelegram;
+
+  const FlashConfig({
+    this.enabled = true,
+    this.channels = defaultChannels,
+    this.monthlyInr = 200,
+    this.inrPerUsd = 95,
+    this.deskAuto = true,
+    this.deskDaily = deskDailyLimit,
+    this.watchMode = false,
+    this.hideTelegram = false,
+  });
+
+  static const defaultChannels = ['marketfeed', 'FinancialJuice'];
+
+  double get monthlyUsd => monthlyInr / inrPerUsd;
+
+  static const kEnabled = 'flash_enabled',
+      kChannels = 'flash_channels',
+      kMonthly = 'flash_monthly_inr',
+      kDeskAuto = 'flash_desk_auto',
+      kWatch = 'flash_watch_mode',
+      kHide = 'flash_hide_telegram';
+
+  static Future<FlashConfig> read() async {
+    final p = await SharedPreferences.getInstance();
+    // Another part of the app may have changed them.
+    await p.reload();
+    return FlashConfig(
+      enabled: p.getBool(kEnabled) ?? true,
+      channels: p.getStringList(kChannels) ?? defaultChannels,
+      monthlyInr: p.getDouble(kMonthly) ?? 200,
+      deskAuto: p.getBool(kDeskAuto) ?? true,
+      watchMode: p.getBool(kWatch) ?? false,
+      hideTelegram: p.getBool(kHide) ?? false,
+    );
+  }
+
+  /// True when a Telegram notification title belongs to one of the channels.
+  bool matches(String title) {
+    final t = title.toLowerCase().replaceAll(RegExp(r'[^a-z0-9]'), '');
+    return channels.any((c) {
+      final n = c.toLowerCase().replaceAll(RegExp(r'[^a-z0-9]'), '');
+      return n.isNotEmpty && t.contains(n);
+    });
+  }
+}
+
+/// A phone notification about an event.
+class FlashAlert {
+  final int id;
+
+  /// Sound and vibration (HOT) or silent (WATCH).
+  final bool loud;
+  final String title;
+  final String text;
+  final String eventId;
+
+  const FlashAlert({
+    required this.id,
+    required this.loud,
+    required this.title,
+    required this.text,
+    required this.eventId,
+  });
+}
+
+/// What the engine needs from Android.
+abstract class FlashPlatform {
+  /// "anthropic_key" or "github_token"; null when not set.
+  Future<String?> secret(String name);
+  Future<void> alert(FlashAlert a);
+  Future<void> cancelAlert(int id);
+
+  /// Clears a Telegram notification apex has taken over.
+  Future<void> dismissSource(String key);
+
+  /// Tells the open app that flash.json changed.
+  void changed();
+}
+
+int alertId(String eventId) => eventId.hashCode & 0x7fffffff;
+
+String chipLine(FlashEvent e) => [for (final c in e.chips.take(4)) '${c.label} ${c.arrow}'].join(' · ');
+
+class FlashEngine {
+  FlashEngine({
+    required this.store,
+    required this.platform,
+    required this.config,
+    required this.calendar,
+    this.judgeFor,
+    this.deskFor,
+    Prices? prices,
+    DateTime Function()? clock,
+    this.gather = const Duration(milliseconds: 1500),
+    this.deskPoll = const Duration(seconds: 20),
+    this.deskTimeout = const Duration(minutes: 12),
+    this.checkAfter = const [2, 5, 10],
+  })  : prices = prices ?? Prices(),
+        _clock = clock ?? DateTime.now;
+
+  final FlashStore store;
+  final FlashPlatform platform;
+
+  /// Reads the settings (fresh for each event).
+  final Future<FlashConfig> Function() config;
+
+  /// Today's red/orange Forex Factory events, for the judge's context.
+  final Future<List<ForexEvent>> Function() calendar;
+
+  final SonnetJudge Function(String key)? judgeFor;
+  final FlashDesk Function(String token)? deskFor;
+  final Prices prices;
+  final DateTime Function() _clock;
+
+  /// How long to collect a burst before judging it.
+  final Duration gather;
+  final Duration deskPoll;
+  final Duration deskTimeout;
+
+  /// Minutes after the news to check the market.
+  final List<int> checkAfter;
+
+  final _rand = Random();
+  final _judgeCalls = <String, int>{};
+  final _loud = <String>{};
+  Future<void> _queue = Future.value();
+  Map<String, Bars> _lastPrices = {};
+  DateTime? _pricesAt;
+
+  DateTime get now => _clock();
+
+  Future<void> start() async {
+    await store.load();
+    store.spend ??= Spend.fresh(now);
+  }
+
+  /// Runs [f] after everything queued before it: headlines are handled one
+  /// at a time, in order, so the file is never written twice at once.
+  Future<T> _serial<T>(Future<T> Function() f) {
+    final r = _queue.then((_) => f());
+    _queue = r.then((_) {}, onError: (_) {});
+    return r;
+  }
+
+  /// A Telegram notification arrived. [title] is the channel name.
+  Future<void> onTelegram({required String title, required String text, required DateTime at, String? key}) async {
+    final cfg = await config();
+    if (!cfg.enabled || !cfg.matches(title)) return;
+    if (cfg.hideTelegram && key != null) unawaited(platform.dismissSource(key));
+    await ingest(Headline(text: text.trim(), channel: _channelName(title, cfg), at: at));
+  }
+
+  String _channelName(String title, FlashConfig cfg) =>
+      cfg.channels.firstWhere((c) => FlashConfig(channels: [c]).matches(title), orElse: () => title);
+
+  /// One headline in. Returns the event it joined or started, if any.
+  Future<FlashEvent?> ingest(Headline h) => _serial(() => _ingest(h));
+
+  Future<FlashEvent?> _ingest(Headline h) async {
+    if (h.text.isEmpty) return null;
+    final t = now;
+    // The channels echo each other: skip a repeat from the last 15 minutes.
+    final recent = store.tape.takeWhile((x) => t.difference(x.headline.at).inMinutes < 15);
+    if (recent.any((x) => sameNews(x.headline.text, h.text))) return null;
+
+    final read = readHeadline(h.text);
+    FlashEvent? event;
+    if (read.candidate) {
+      event = _openEventFor(read, t);
+      if (event != null) {
+        event.headlines.add(h);
+        if (read.score > event.score) {
+          final rise = read.score - event.score;
+          event.score = read.score;
+          if (event.ruleChips.isEmpty) event.ruleChips = read.chips;
+          // Something clearly bigger in the same story: judge again (max twice).
+          if (rise >= 3 && event.judgement?.verdict != Verdict.hot) _scheduleJudge(event);
+        }
+      } else {
+        event = FlashEvent(
+          id: _newId(h.at),
+          headlines: [h],
+          topic: read.topic,
+          score: read.score,
+          ruleChips: read.chips,
+        );
+        store.events.insert(0, event);
+        // Very strong by the rules alone: alert now, Claude refines it.
+        if (event.score >= hotScore) await _alert(event);
+        _refreshPrices();
+        _scheduleJudge(event);
+      }
+    }
+    store.tape.insert(0, TapeItem(h, read.score, read.topic, event?.id));
+    await _save();
+    return event;
+  }
+
+  /// A recent unfinished event about the same thing.
+  FlashEvent? _openEventFor(RuleRead r, DateTime t) {
+    for (final e in store.events) {
+      if (t.difference(e.at).inMinutes >= 3) break;
+      final sameSubject = r.subject != null &&
+          e.headlines.any((h) => readHeadline(h.text).subject == r.subject);
+      if (sameSubject || (r.subject == null && e.topic == r.topic)) return e;
+    }
+    return null;
+  }
+
+  String _newId(DateTime at) {
+    String two(int n) => n.toString().padLeft(2, '0');
+    final u = at.toUtc();
+    return 'ev-${u.year}${two(u.month)}${two(u.day)}-${two(u.hour)}${two(u.minute)}${two(u.second)}'
+        '-${_rand.nextInt(1 << 16).toRadixString(16)}';
+  }
+
+  void _scheduleJudge(FlashEvent e) {
+    final n = _judgeCalls[e.id] ?? 0;
+    if (n >= 2) return;
+    _judgeCalls[e.id] = n + 1;
+    Timer(gather, () => _serial(() => _judge(e)));
+  }
+
+  Future<void> _judge(FlashEvent e) async {
+    final cfg = await config();
+    final key = await platform.secret('anthropic_key');
+    final spend = store.spend ??= Spend.fresh(now);
+    spend.roll(now);
+    String? blocked;
+    if (judgeFor == null || key == null || key.isEmpty) {
+      blocked = 'No Claude API key';
+    } else {
+      blocked = spend.blockedBy(monthlyUsd: cfg.monthlyUsd);
+    }
+    if (blocked != null) {
+      e.judgeError = blocked;
+      await _alert(e);
+      await _save();
+      return;
+    }
+    final judge = judgeFor!(key!);
+    try {
+      final (j, cost) = await judge.judge(e.headlines, await _context(e));
+      spend.add(cost);
+      e.judgement = j;
+      e.judgeError = null;
+    } on JudgeException catch (err) {
+      e.judgeError = err.message;
+    } finally {
+      judge.close();
+    }
+    await _alert(e);
+    await _save();
+    if (e.verdict == Verdict.hot && (e.judgement?.isNew ?? true)) await _askDesk(e, cfg);
+    if (e.verdict != Verdict.noise && e.chips.isNotEmpty) _scheduleMarketChecks(e);
+  }
+
+  Future<JudgeContext> _context(FlashEvent e) async {
+    final ids = e.headlines.map((h) => h.text).toSet();
+    final recent = [
+      for (final t in store.tape)
+        if (now.difference(t.headline.at).inMinutes < 30 && !ids.contains(t.headline.text) && t.score > 0)
+          t.headline
+    ];
+    final cal = <String>[];
+    try {
+      for (final f in await calendar()) {
+        final d = f.date.difference(now);
+        if (!f.shown || d.inHours.abs() > 12) continue;
+        final ist = f.date.toUtc().add(const Duration(hours: 5, minutes: 30));
+        cal.add('${ist.hour.toString().padLeft(2, '0')}:${ist.minute.toString().padLeft(2, '0')} '
+            '${f.country} ${f.title}${f.forecast.isEmpty ? '' : ' (forecast ${f.forecast}, previous ${f.previous})'}');
+      }
+    } catch (_) {}
+    final p = <String>[];
+    for (final MapEntry(key: name, value: b) in _lastPrices.entries) {
+      final l = b.last, ch = b.changeOver(const Duration(minutes: 15));
+      if (l == null) continue;
+      p.add('$name ${l.toStringAsFixed(name == 'USD/INR' || name == 'EUR/USD' ? 4 : 2)}'
+          '${ch == null ? '' : ' (${ch >= 0 ? '+' : ''}${ch.toStringAsFixed(2)}% in 15 min)'}');
+    }
+    return JudgeContext(now: now, recent: recent, calendar: cal.take(8).toList(), prices: p);
+  }
+
+  /// Fetches prices in the background (at most once a minute).
+  void _refreshPrices() {
+    final at = _pricesAt;
+    if (at != null && now.difference(at).inSeconds < 60) return;
+    _pricesAt = now;
+    unawaited(prices.all().then((b) => _lastPrices = b, onError: (_) {}));
+  }
+
+  Future<void> _alert(FlashEvent e) async {
+    final id = alertId(e.id);
+    final v = e.verdict;
+    if (v == Verdict.noise) {
+      await platform.cancelAlert(id);
+      return;
+    }
+    // Loud once per event (when it first becomes HOT); later updates are silent.
+    final loud = v == Verdict.hot && _loud.add(e.id);
+    final chips = chipLine(e);
+    final why = e.desk?.why ?? e.judgement?.why;
+    final by = switch (e.calledBy) {
+      'Opus' => 'Opus checked${e.desk!.confirmed ? ' ✓ confirmed' : ' (not confirmed)'}',
+      'Sonnet' => 'Sonnet ${(e.judgement!.ms / 1000).toStringAsFixed(1)} s',
+      _ => e.judgeError == null ? 'Rules' : 'Rules (${e.judgeError})',
+    };
+    await platform.alert(FlashAlert(
+      id: id,
+      loud: loud,
+      title: '${v.label} · ${e.title}',
+      text: [if (chips.isNotEmpty) chips, if (why != null && why.isNotEmpty) why, '$by · ${e.headlines.first.channel}']
+          .join('\n'),
+      eventId: e.id,
+    ));
+  }
+
+  Future<void> _askDesk(FlashEvent e, FlashConfig cfg) async {
+    if (!cfg.deskAuto || deskFor == null || e.issue != null) return;
+    final token = await platform.secret('github_token');
+    if (token == null || token.isEmpty) return;
+    final today = Spend.dayOf(now);
+    if (store.deskDay != today) {
+      store.deskDay = today;
+      store.deskCount = 0;
+    }
+    if (store.deskCount >= cfg.deskDaily) return;
+    final desk = deskFor!(token);
+    try {
+      e.issue = await desk.open(e);
+      store.deskCount++;
+      await _save();
+      _pollDesk(e, token, now.add(deskTimeout));
+    } on Exception catch (err) {
+      e.judgeError ??= 'Flash desk: $err';
+      desk.dispose();
+    }
+  }
+
+  void _pollDesk(FlashEvent e, String token, DateTime giveUp) {
+    Timer(deskPoll, () => _serial(() async {
+          if (e.desk != null || e.issue == null) return;
+          final desk = deskFor!(token);
+          try {
+            final r = await desk.result(e.issue!);
+            if (r != null) {
+              e.desk = r;
+              await _alert(e);
+              await _save();
+              unawaited(desk.close(e.issue!).catchError((_) {}));
+              if (e.chips.isNotEmpty) _scheduleMarketChecks(e);
+              return;
+            }
+          } catch (_) {
+            // Try again on the next round.
+          } finally {
+            desk.dispose();
+          }
+          if (now.isBefore(giveUp)) _pollDesk(e, token, giveUp);
+        }));
+  }
+
+  final _checking = <String>{};
+
+  void _scheduleMarketChecks(FlashEvent e) {
+    if (!_checking.add(e.id)) return;
+    for (final m in checkAfter) {
+      final due = e.at.add(Duration(minutes: m));
+      final wait = due.difference(now);
+      if (wait.isNegative && now.difference(due).inMinutes > 2) continue;
+      Timer(wait.isNegative ? Duration.zero : wait, () => _serial(() => _checkMarket(e, m)));
+    }
+  }
+
+  Future<void> _checkMarket(FlashEvent e, int after) async {
+    try {
+      final bars = await prices.all();
+      _lastPrices = bars;
+      _pricesAt = now;
+      e.moves
+        ..removeWhere((m) => m.after == after)
+        ..addAll(movesSince(e.at, after, bars, e.chips));
+      await _save();
+    } catch (_) {}
+  }
+
+  /// Watch mode: a sudden price move with or without a headline becomes a
+  /// silent "move" event, linked to the latest news (no Claude call).
+  Future<void> checkSpikes(Map<String, Bars> bars) => _serial(() async {
+        _lastPrices = bars;
+        _pricesAt = now;
+        for (final m in markets) {
+          final b = bars[m.name];
+          final ch = b?.changeOver(const Duration(minutes: 5));
+          if (ch == null || ch.abs() < m.spike) continue;
+          final already = store.events.any((e) =>
+              e.topic == 'move' &&
+              e.headlines.first.text.startsWith(m.name) &&
+              now.difference(e.at).inMinutes < 15);
+          if (already) continue;
+          final up = ch > 0;
+          final chip = switch (m.name) {
+            'Nifty' => const ImpactTag(on: 'indian_stocks', detail: null, level: 'medium', dir: 'up', why: ''),
+            'USD/INR' => const ImpactTag(on: 'rupee', detail: null, level: 'medium', dir: 'down', why: ''),
+            'EUR/USD' => const ImpactTag(on: 'currency', detail: 'USD', level: 'medium', dir: 'down', why: ''),
+            'Bitcoin' => const ImpactTag(on: 'crypto', detail: null, level: 'medium', dir: 'up', why: ''),
+            'Gold' => const ImpactTag(on: 'gold', detail: null, level: 'medium', dir: 'up', why: ''),
+            _ => const ImpactTag(on: 'oil', detail: null, level: 'medium', dir: 'up', why: ''),
+          };
+          // The chip templates above describe a rise; flip them for a fall.
+          final dir = up == (chip.dir == 'up') ? 'up' : 'down';
+          final e = FlashEvent(
+            id: _newId(now),
+            headlines: [
+              Headline(
+                  text: '${m.name} ${up ? '+' : ''}${ch.toStringAsFixed(2)}% in 5 min'
+                      '${m.delayed ? ' (price ~10 min delayed)' : ''}',
+                  channel: 'prices',
+                  at: now)
+            ],
+            topic: 'move',
+            score: candidateScore + 2,
+            ruleChips: [ImpactTag(on: chip.on, detail: chip.detail, level: chip.level, dir: dir, why: 'Price move.')],
+          );
+          store.events.insert(0, e);
+          await _alert(e);
+        }
+        await _save();
+      });
+
+  Future<void> _save() async {
+    await store.save(now);
+    platform.changed();
+  }
+}

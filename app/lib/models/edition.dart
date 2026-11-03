@@ -106,6 +106,14 @@ class ImpactTag {
         _ => '±',
       };
 
+  Map<String, dynamic> toJson() => {
+        'on': on,
+        if (detail != null) 'detail': detail,
+        'level': level,
+        'dir': dir,
+        'why': why,
+      };
+
   /// 0 = high, 1 = medium, 2 = low (for sorting).
   int get rank => switch (level) {
         'high' => 0,

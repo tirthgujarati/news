@@ -85,10 +85,10 @@ CombinedEffect combine(List<ForexEvent> group, String? Function(ForexEvent) verd
       final lv = e.impact == 'High' ? 'high' : 'medium';
       if (_rank[lv]! > _rank[l[e.country] ?? 'low']!) l[e.country] = lv;
     }
-    return _chips(s, l, {for (final e in group) if (isRateDecision(e.title)) e.country});
+    return effectChips(s, l, {for (final e in group) if (isRateDecision(e.title)) e.country});
   }
 
-  final chips = _chips(score, level, rateLed);
+  final chips = effectChips(score, level, rateLed);
   return CombinedEffect(
     released: counted > 0,
     chips: chips,
@@ -100,11 +100,11 @@ CombinedEffect combine(List<ForexEvent> group, String? Function(ForexEvent) verd
   );
 }
 
-/// Turns net scores per currency into chips: the currency itself, then what
+/// Turns net scores per currency (positive = stronger) into chips: the currency itself, then what
 /// usually follows it. The dollar moves gold, silver, the rupee, Indian
 /// stocks, oil and crypto the other way; other currencies move gold and
 /// silver a little (through the dollar).
-List<ImpactTag> _chips(Map<String, int> score, Map<String, String> level, Set<String> rateLed) {
+List<ImpactTag> effectChips(Map<String, int> score, Map<String, String> level, Set<String> rateLed) {
   final out = <ImpactTag>[];
   final seen = <String>{};
   void add(String on, String lv, String dir, String why, {String? detail}) {
