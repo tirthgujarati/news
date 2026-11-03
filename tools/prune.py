@@ -18,6 +18,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 EDITIONS = DATA / "editions"
+FLASH = DATA / "flash"
 KEEP_DAYS = 7
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 SLOT_ORDER = {"morning": 0, "weekend": 0, "midday": 1, "evening": 2}
@@ -42,6 +43,14 @@ def main() -> None:
             print(f"deleted {path.relative_to(ROOT).as_posix()}")
             continue
         kept.append((path, ed))
+
+    # Flash desk results: same 7 days, by when they were checked.
+    for path in sorted(FLASH.glob("*.json")) if FLASH.is_dir() else []:
+        with path.open(encoding="utf-8") as f:
+            checked = dt.datetime.fromisoformat(json.load(f)["checked_at"])
+        if checked.astimezone(IST).date() < cutoff:
+            path.unlink()
+            print(f"deleted {path.relative_to(ROOT).as_posix()}")
 
     # Remove month/year folders left empty.
     for d in sorted(EDITIONS.rglob("*"), key=lambda p: len(p.parts), reverse=True):

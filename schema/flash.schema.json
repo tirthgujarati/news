@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tirthgujarati/news/schema/flash.schema.json",
+  "title": "Flash desk result",
+  "description": "The Opus flash desk's verified reading of one hot-news event the app flagged (data/flash/<issue>.json).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["issue", "event_id", "verdict", "confirmed", "headline", "why", "impact", "sources", "checked_at"],
+  "properties": {
+    "issue": {"type": "integer", "minimum": 1},
+    "event_id": {"type": "string", "minLength": 1, "maxLength": 64},
+    "verdict": {"enum": ["HOT", "WATCH", "NOISE"]},
+    "confirmed": {
+      "type": "boolean",
+      "description": "True only when an independent trusted source confirms the news."
+    },
+    "headline": {"type": "string", "minLength": 1, "maxLength": 140},
+    "why": {"type": "string", "minLength": 1, "maxLength": 240},
+    "india": {"type": "string", "maxLength": 200},
+    "watch_next": {"type": "string", "maxLength": 160},
+    "impact": {
+      "type": "array",
+      "maxItems": 6,
+      "items": {"$ref": "edition.schema.json#/$defs/impact"}
+    },
+    "sources": {
+      "type": "array",
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "url"],
+        "properties": {
+          "name": {"type": "string", "minLength": 1, "maxLength": 60},
+          "url": {"type": "string", "pattern": "^https://"}
+        }
+      }
+    },
+    "checked_at": {"type": "string", "format": "date-time"}
+  }
+}
