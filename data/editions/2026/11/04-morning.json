@@ -1,0 +1,674 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-04-morning",
+  "date": "2026-11-04",
+  "slot": "morning",
+  "title": "Wednesday Morning Edition",
+  "generated_at": "2026-11-04T07:41:56+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "94.71",
+      "change": "-0.14%",
+      "dir": "down",
+      "as_of": "2026-11-03T16:15:00+05:30",
+      "source": {
+        "name": "PTI (via HDFC Sky)",
+        "url": "https://hdfcsky.com/news/rupee-rises-13-paise-to-settle-at-94-71-against-us-dollar"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "106.35",
+      "change": "+0.30%",
+      "dir": "up",
+      "as_of": "2026-11-04T06:39:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR%3DX/"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "101.46",
+      "change": "-0.40%",
+      "dir": "down",
+      "as_of": "2026-11-04T07:22:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India FX reserves",
+      "value": "$719.75bn",
+      "change": "-0.18%",
+      "dir": "down",
+      "as_of": "2026-10-23T00:00:00+05:30",
+      "source": {
+        "name": "Business Standard",
+        "url": "https://www.business-standard.com/amp/economy/news/india-forex-reserves-fall-1-27-bn-to-719-75-bn-as-gold-holdings-dip-126103001339_1.html"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "23,810.85",
+      "change": "+1.58%",
+      "dir": "up",
+      "as_of": "2026-11-03T15:30:00+05:30",
+      "source": {
+        "name": "NSE",
+        "url": "https://www.nseindia.com/market-data/live-market-indices"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "76,917.85",
+      "change": "+1.62%",
+      "dir": "up",
+      "as_of": "2026-11-03T15:30:00+05:30",
+      "source": {
+        "name": "BSE",
+        "url": "https://www.bseindia.com/"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,568.92",
+      "change": "+0.36%",
+      "dir": "up",
+      "as_of": "2026-11-03T16:00:00-05:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "25,372.01",
+      "change": "+0.83%",
+      "dir": "up",
+      "as_of": "2026-11-03T16:00:00-05:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,959.10",
+      "change": "+0.47%",
+      "dir": "up",
+      "as_of": "2026-11-04T07:22:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/GC=F/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$103.39",
+      "change": "-0.20%",
+      "dir": "down",
+      "as_of": "2026-11-04T07:22:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ=F/"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$76,978",
+      "change": "-0.47%",
+      "dir": "down",
+      "as_of": "2026-11-04T07:32:00+05:30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD/"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.92%",
+      "change": "-0.65%",
+      "dir": "down",
+      "as_of": "2026-11-03T21:00:00-05:00",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "why_it_matters": "It shows the Gulf conflict is still costing Indian seafarers' lives, with no end yet to attacks on shipping near Hormuz.",
+          "lead": false,
+          "verified": true,
+          "note": "UK maritime agency UKMTO also confirmed an attack on an Indian-crewed dhow.",
+          "image": null,
+          "impact": [],
+          "id": "india-oman-dhow-attack-2026-11-02",
+          "headline": "Indian sailor killed as dhow is hit by aerial object off Oman; 13 rescued",
+          "summary": "Shipping Minister Sarbananda Sonowal says the Indian vessel MSV Al Jusufi, with 14 Indian crew, was struck by an unidentified aerial object off Oman on Monday. One sailor died and the other 13 were rescued by Oman's coast guard. The foreign ministry and the embassy in Muscat are arranging to bring the crew and the body home. No one has claimed the attack.",
+          "importance": 4,
+          "published_at": "2026-11-03T14:23:00+05:30",
+          "tags": [
+            "Shipping",
+            "Oman",
+            "Seafarers",
+            "Hormuz"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/us-iran-tensions-escalate-after-reported-qeshm-island-strike/"
+            },
+            {
+              "name": "CBS News",
+              "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source for the new update: All India Radio (citing IMD).",
+          "image": null,
+          "impact": [],
+          "id": "india-cyclone-murasu-2026-11-01",
+          "headline": "Cyclone Murasu weakens near Bapatla, set to become a deep depression today",
+          "summary": "New since midday: IMD says Murasu moved north-northwest after landfall and weakened to a cyclonic storm, centred about 40 km west-northwest of Bapatla in Andhra Pradesh. It is expected to weaken further into a deep depression on Wednesday. Radars at Machilipatnam and Visakhapatnam are tracking it, and heavy rain warnings stay in place for coastal Andhra.",
+          "importance": 3,
+          "published_at": "2026-11-03T20:51:00+05:30",
+          "tags": [
+            "Cyclone",
+            "Andhra Pradesh",
+            "IMD"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/cyclonic-storm-murasu-intensifies-over-ongole-with-high-speed-winds/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "why_it_matters": "A Democratic Congress could block much of Trump's agenda for his last two years, from tariffs to spending, which markets are already pricing.",
+          "lead": true,
+          "verified": true,
+          "note": "Results as of about 9 pm ET (7:30 am IST); many races are still uncalled.",
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/dt.jpg",
+            "credit": "News On AIR",
+            "source_url": "https://newsonair.gov.in/democrats-take-early-leads-over-president-donald-trumps-republican-party-in-us-midterm-elections/",
+            "alt": "US President Donald Trump outdoors at night, with blurred lights behind him"
+          },
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "Dollar",
+              "level": "medium",
+              "dir": "down",
+              "why": "Bets on a Democratic Congress pushed the dollar index lower overnight."
+            },
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "medium",
+              "dir": "down",
+              "why": "Futures fell on worries a Democratic sweep brings tighter rules for AI data centres."
+            },
+            {
+              "on": "rates",
+              "level": "low",
+              "dir": "down",
+              "why": "US 10-year yields slipped as traders priced less fiscal spending."
+            }
+          ],
+          "id": "world-us-midterms-2026-11-03",
+          "headline": "Democrats take early lead in US midterms; Cooper flips North Carolina Senate seat",
+          "summary": "New since yesterday: results are coming in and Democrats are ahead. Roy Cooper won North Carolina's Senate seat from the Republicans, while Democrats Jon Ossoff (Georgia) and Chris Pappas (New Hampshire) held theirs; Republican Ashley Moody kept Florida. Control of Congress is not decided yet: CNBC's election desk says the House leans Democratic, and Senate races in Texas, Michigan and Maine were still being counted.",
+          "importance": 5,
+          "published_at": "2026-11-04T07:28:00+05:30",
+          "tags": [
+            "US",
+            "Midterms",
+            "Congress",
+            "Trump"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/democrats-take-early-leads-over-president-donald-trumps-republican-party-in-us-midterm-elections/"
+            },
+            {
+              "name": "CBS News",
+              "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "Each new attack near Hormuz keeps oil supply risk alive even as hopes for talks pull prices down.",
+          "lead": false,
+          "verified": false,
+          "note": "Tanker attack reported by UKMTO via CBS News; Iran's conditions are its own claim.",
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "Fresh attacks on ships near Hormuz add risk to Gulf oil supply."
+            }
+          ],
+          "id": "world-iran-us-hormuz-talks-2026-11-01",
+          "headline": "UKMTO says tanker hit by two projectiles off Oman; Qatar awaits replies on talks",
+          "summary": "New since last night: the UK maritime agency UKMTO says two projectiles struck a tanker's engine room off Oman's northeast coast; no one was hurt and no one has claimed it. Qatar says it still hopes for an interim deal and both sides are studying mediators' proposals. Iran says it will reopen the Strait of Hormuz and join talks only if the US accepts its seven-point plan.",
+          "importance": 4,
+          "published_at": "2026-11-03T16:44:00-05:00",
+          "tags": [
+            "Iran",
+            "US",
+            "Hormuz",
+            "Qatar",
+            "Shipping"
+          ],
+          "sources": [
+            {
+              "name": "CBS News",
+              "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/"
+            },
+            {
+              "name": "Reuters (via 93.3 The Drive)",
+              "url": "https://www.933thedrive.com/2026/11/03/dollar-dips-with-us-midterm-results-in-focus/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "why_it_matters": "A weaker dollar usually eases pressure on the rupee and on India's import bill.",
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "image": null,
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "Dollar",
+              "level": "medium",
+              "dir": "down",
+              "why": "Traders expect a Democratic Congress to limit US spending and growth."
+            },
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "up",
+              "why": "A softer dollar gives the rupee room to firm."
+            },
+            {
+              "on": "currency",
+              "detail": "Euro",
+              "level": "low",
+              "dir": "up",
+              "why": "The euro gains as the dollar eases."
+            }
+          ],
+          "id": "currency-dollar-midterms-2026-11-04",
+          "headline": "Dollar slips to about 101.5 as early US results point to Democratic gains",
+          "summary": "The dollar index fell about 0.4% to near 101.5 in Asian trade as early midterm results favoured Democrats. Reuters says the euro rose to about $1.121 and the yen was near 158.3 per dollar; the offshore yuan steadied after its biggest one-day fall since May. The rupee closed at 94.71 on Tuesday; a softer dollar may help it at Wednesday's open.",
+          "importance": 4,
+          "published_at": "2026-11-04T07:22:00+05:30",
+          "tags": [
+            "Dollar",
+            "Euro",
+            "Yen",
+            "Rupee"
+          ],
+          "sources": [
+            {
+              "name": "Reuters (via 93.3 The Drive)",
+              "url": "https://www.933thedrive.com/2026/11/03/dollar-dips-with-us-midterm-results-in-focus/"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "why_it_matters": "A weak US open could weigh on Indian IT and tech stocks and cool the Sensex's four-day rally.",
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "image": null,
+          "impact": [
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "high",
+              "dir": "down",
+              "why": "Nasdaq futures fell 1.6% on fears of tighter AI rules."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "medium",
+              "dir": "down",
+              "why": "Indian IT stocks often follow US tech lower."
+            }
+          ],
+          "id": "markets-us-futures-midterms-2026-11-04",
+          "headline": "US stock futures slide as traders bet on a Democratic sweep; Nasdaq futures -1.6%",
+          "summary": "By about 9 pm ET, Nasdaq-100 futures were down 1.6%, S&P 500 futures 0.7% and Dow futures 0.3%, CNBC said, as betting markets put Democratic control of the House near 97%. Some investors fear a Democratic Congress could tighten rules on AI data centres. On Tuesday the S&P 500 closed up 0.36% at 7,568.92 and the Nasdaq up 0.83% at 25,372.01 as chip stocks bounced; the Dow fell 0.38%.",
+          "importance": 5,
+          "published_at": "2026-11-03T21:00:00-05:00",
+          "tags": [
+            "Wall Street",
+            "Futures",
+            "Midterms",
+            "Nasdaq"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "It shows AI chip demand is still growing fast, and AMD is taking a bigger share from Nvidia.",
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "AMD",
+              "level": "high",
+              "dir": "up",
+              "why": "Results and outlook beat Wall Street forecasts."
+            },
+            {
+              "on": "us_stocks",
+              "detail": "Chips",
+              "level": "medium",
+              "dir": "up",
+              "why": "Strong AI chip demand supports the sector."
+            }
+          ],
+          "id": "markets-amd-results-2026-11-03",
+          "headline": "AMD posts record $13.4bn quarter and forecasts $17bn; shares rise after hours",
+          "summary": "AMD's July-September revenue rose 45% to a record $13.4 billion, and adjusted earnings of $2.09 a share beat forecasts of about $1.95. Data-centre sales nearly doubled to $8.5 billion on its new MI450 AI chips and EPYC processors. It expects about $17 billion this quarter. The stock jumped after the close but was last up about 4% as futures fell.",
+          "importance": 4,
+          "published_at": "2026-11-03T16:15:00-05:00",
+          "tags": [
+            "AMD",
+            "Chips",
+            "AI",
+            "Earnings"
+          ],
+          "sources": [
+            {
+              "name": "AMD (SEC filing)",
+              "url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/q32026991.htm"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "down",
+              "why": "Hopes for US-Iran talks keep pulling crude lower."
+            },
+            {
+              "on": "india_economy",
+              "level": "low",
+              "dir": "up",
+              "why": "Cheaper oil eases India's import bill and inflation."
+            }
+          ],
+          "id": "markets-oil-four-week-low-2026-11-03",
+          "headline": "Brent settles about 1% lower at $103.60, lowest in nearly four weeks",
+          "summary": "Brent fell about 1.1% on Tuesday to settle near $103.60 a barrel, its lowest in almost four weeks, as traders bet on a US-Iran deal. It was little changed near $103.4-103.9 in Asian trade on Wednesday, Reuters and Yahoo Finance data show.",
+          "importance": 3,
+          "published_at": "2026-11-04T06:00:00+05:30",
+          "tags": [
+            "Oil",
+            "Brent",
+            "Iran"
+          ],
+          "sources": [
+            {
+              "name": "Reuters (via 93.3 The Drive)",
+              "url": "https://www.933thedrive.com/2026/11/03/dollar-dips-with-us-midterm-results-in-focus/"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/BZ=F/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": []
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "AUD",
+      "title": "Cash Rate",
+      "date": "2026-11-02T22:30:00-05:00",
+      "impact": "High",
+      "actual": "4.85%",
+      "vs_forecast": "in_line",
+      "why": "The RBA hiked by 0.25 point as expected, so the move itself was priced in.",
+      "source": {
+        "name": "Reserve Bank of Australia",
+        "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html"
+      }
+    },
+    {
+      "country": "AUD",
+      "title": "RBA Rate Statement",
+      "date": "2026-11-02T22:30:00-05:00",
+      "impact": "High",
+      "actual": "Dovish",
+      "vs_forecast": "worse",
+      "why": "A 6-3 split and no firm hint of more hikes made markets cut bets on further tightening; the Aussie fell.",
+      "source": {
+        "name": "ABC News (Australia)",
+        "url": "https://www.abc.net.au/news/2026-11-03/rba-interest-rates-markets-live-coverage/107338216"
+      }
+    },
+    {
+      "country": "AUD",
+      "title": "RBA Press Conference",
+      "date": "2026-11-02T23:30:00-05:00",
+      "impact": "High",
+      "actual": "Neutral",
+      "vs_forecast": "in_line",
+      "why": "Bullock said inflation is too high but she does not know the next move and it is time to take stock.",
+      "source": {
+        "name": "ABC News (Australia)",
+        "url": "https://www.abc.net.au/news/2026-11-03/rba-interest-rates-markets-live-coverage/107338216"
+      }
+    },
+    {
+      "country": "CHF",
+      "title": "CPI m/m",
+      "date": "2026-11-03T02:30:00-05:00",
+      "impact": "Medium",
+      "actual": "0.2%",
+      "vs_forecast": "better",
+      "why": "Prices rose more than the flat reading expected, which cuts the odds of SNB easing and supports the franc.",
+      "source": {
+        "name": "Swiss Federal Statistical Office",
+        "url": "https://www.admin.ch/en/newnsb/UA8hylpLYO6i"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "JOLTS Job Openings",
+      "date": "2026-11-03T10:00:00-05:00",
+      "impact": "Medium",
+      "actual": "7.5M",
+      "vs_forecast": "better",
+      "why": "More US job openings than expected point to a firm labour market, which supports the dollar and high US rates.",
+      "source": {
+        "name": "US Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/jolts.nr0.htm"
+      }
+    },
+    {
+      "country": "NZD",
+      "title": "Employment Change q/q",
+      "date": "2026-11-03T16:45:00-05:00",
+      "impact": "High",
+      "actual": "-0.2%",
+      "vs_forecast": "worse",
+      "why": "Jobs fell by about 5,000 instead of rising, a weak sign for the kiwi and for RBNZ rate hopes.",
+      "source": {
+        "name": "Xinhua (citing Stats NZ)",
+        "url": "https://english.news.cn/20261104/d1bca192c02246abbc16c4bd213c5524/c.html"
+      }
+    },
+    {
+      "country": "NZD",
+      "title": "Unemployment Rate",
+      "date": "2026-11-03T16:45:00-05:00",
+      "impact": "High",
+      "actual": "5.7%",
+      "vs_forecast": "worse",
+      "why": "Joblessness rose to 5.7% instead of easing to 5.5%, which weighs on the New Zealand dollar.",
+      "source": {
+        "name": "Stats NZ",
+        "url": "https://www.stats.govt.nz/information-releases/labour-market-statistics-september-2026-quarter/"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-04",
+      "events": [
+        {
+          "text": "Eurozone October inflation flash estimate",
+          "section": "currency"
+        },
+        {
+          "text": "US ISM services PMI",
+          "section": "markets"
+        },
+        {
+          "text": "Israel's President Herzog holds coalition consultations (Nov 4-5)",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "events": [
+        {
+          "text": "Bank of England rate decision and Governor Bailey's news conference",
+          "section": "markets"
+        },
+        {
+          "text": "Canada federal budget",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "events": [
+        {
+          "text": "US October jobs report",
+          "section": "markets"
+        },
+        {
+          "text": "RBI weekly forex reserves data",
+          "section": "currency"
+        },
+        {
+          "text": "Canada October jobs data",
+          "section": "currency"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "events": [
+        {
+          "text": "New Zealand general election",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "events": [
+        {
+          "text": "Russia-Ukraine talks in Abu Dhabi (Nov 10-11)",
+          "section": "world"
+        }
+      ]
+    }
+  ]
+}
