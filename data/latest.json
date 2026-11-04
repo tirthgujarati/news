@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-04-midday",
+  "edition_id": "2026-11-04-evening",
   "date": "2026-11-04",
-  "slot": "midday",
-  "title": "Wednesday Midday Edition",
-  "generated_at": "2026-11-04T13:52:22+05:30",
+  "slot": "evening",
+  "title": "Wednesday Evening Edition",
+  "generated_at": "2026-11-04T20:50:32+05:30",
   "snapshot": [
     {
       "id": "usdinr",
       "label": "USD/INR",
-      "value": "94.61",
-      "change": "-0.15%",
+      "value": "94.58",
+      "change": "-0.18%",
       "dir": "down",
-      "as_of": "2026-11-04T10:25:00+05:30",
+      "as_of": "2026-11-04T16:09:26+05:30",
       "source": {
-        "name": "PTI (via DT Next)",
-        "url": "https://www.dtnext.in/news/business/rupee-rises-14-paise-to-9461-against-us-dollar-in-early-trade"
+        "name": "PTI (via Telangana Today)",
+        "url": "https://telanganatoday.com/rupee-rises-to-94-58-as-foreign-investor-inflows-support-local-currency"
       }
     },
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "106.52",
-      "change": "+0.46%",
+      "value": "106.41",
+      "change": "+0.27%",
       "dir": "up",
-      "as_of": "2026-11-04T13:43:00+05:30",
+      "as_of": "2026-11-04T20:39:26+05:30",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURINR%3DX/"
@@ -33,10 +33,10 @@
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "101.40",
-      "change": "-0.34%",
+      "value": "101.44",
+      "change": "-0.42%",
       "dir": "down",
-      "as_of": "2026-11-04T13:33:00+05:30",
+      "as_of": "2026-11-04T20:33:28+05:30",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
@@ -57,34 +57,34 @@
     {
       "id": "nifty",
       "label": "Nifty 50",
-      "value": "23,900.60",
-      "change": "+0.38%",
+      "value": "23,960.60",
+      "change": "+0.63%",
       "dir": "up",
-      "as_of": "2026-11-04T13:45:00+05:30",
+      "as_of": "2026-11-04T15:31:11+05:30",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/%5ENSEI/"
+        "name": "DSIJ",
+        "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-nifty-50-rises-nearly-150-points-above-23950-extending-gains-for-5th-day-60311"
       }
     },
     {
       "id": "sensex",
       "label": "Sensex",
-      "value": "77,084.20",
-      "change": "+0.22%",
+      "value": "77,301.40",
+      "change": "+0.50%",
       "dir": "up",
-      "as_of": "2026-11-04T13:30:00+05:30",
+      "as_of": "2026-11-04T15:32:29+05:30",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/%5EBSESN/"
+        "name": "DSIJ",
+        "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-nifty-50-rises-nearly-150-points-above-23950-extending-gains-for-5th-day-60311"
       }
     },
     {
       "id": "spx",
       "label": "S&P 500",
-      "value": "7,568.92",
-      "change": "+0.36%",
+      "value": "7,702.83",
+      "change": "+1.77%",
       "dir": "up",
-      "as_of": "2026-11-03T16:00:00-05:00",
+      "as_of": "2026-11-04T10:13:27-05:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EGSPC/"
@@ -93,10 +93,10 @@
     {
       "id": "nasdaq",
       "label": "Nasdaq",
-      "value": "25,372.01",
-      "change": "+0.83%",
+      "value": "26,000.49",
+      "change": "+2.48%",
       "dir": "up",
-      "as_of": "2026-11-03T16:00:00-05:00",
+      "as_of": "2026-11-04T10:13:27-05:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EIXIC/"
@@ -105,10 +105,10 @@
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$4,036.40",
-      "change": "+2.44%",
+      "value": "$4,048.90",
+      "change": "+2.75%",
       "dir": "up",
-      "as_of": "2026-11-04T13:33:00+05:30",
+      "as_of": "2026-11-04T10:03:24-05:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/GC=F/"
@@ -117,10 +117,10 @@
     {
       "id": "brent",
       "label": "Brent crude",
-      "value": "$103.66",
-      "change": "+0.06%",
-      "dir": "up",
-      "as_of": "2026-11-04T13:33:00+05:30",
+      "value": "$100.92",
+      "change": "-2.59%",
+      "dir": "down",
+      "as_of": "2026-11-04T10:03:20-05:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BZ=F/"
@@ -129,10 +129,10 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$78,234",
-      "change": "+1.16%",
+      "value": "$80,616",
+      "change": "+4.23%",
       "dir": "up",
-      "as_of": "2026-11-04T13:43:00+05:30",
+      "as_of": "2026-11-04T15:12:59+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BTC-USD/"
@@ -141,13 +141,13 @@
     {
       "id": "us10y",
       "label": "US 10Y yield",
-      "value": "4.92%",
-      "change": "-0.65%",
+      "value": "4.93%",
+      "change": "-0.42%",
       "dir": "down",
-      "as_of": "2026-11-03T21:00:00-05:00",
+      "as_of": "2026-11-04T09:58:23-05:00",
       "source": {
-        "name": "CNBC",
-        "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
       }
     }
   ],
@@ -157,33 +157,79 @@
       "title": "India",
       "stories": [
         {
-          "why_it_matters": "Crop losses on this scale can push up local food prices and add to the Centre's relief bill.",
+          "why_it_matters": "It is the biggest change to the Agnipath scheme since 2022 and affects tens of thousands of young soldiers each year.",
           "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio. Loss figures are the state's preliminary estimates.",
-          "image": null,
-          "impact": [
-            {
-              "on": "india_economy",
-              "level": "low",
-              "dir": "down",
-              "why": "Crop damage in coastal Andhra may lift local food prices."
-            }
-          ],
-          "id": "india-andhra-cyclone-aid-2026-11-04",
-          "headline": "Andhra Pradesh seeks central aid as cyclones Arnab and Murasu cause ₹4,900 cr losses",
-          "summary": "Chief Minister Chandrababu Naidu has asked Home Minister Amit Shah for help for farmers hit by two cyclones. The state's first estimate puts Cyclone Arnab's losses at ₹4,563 crore across 781 villages, with crops on over three lakh hectares damaged; Murasu caused about ₹343 crore of damage in 465 villages. Naidu also asked the Commerce Minister to free about 150 chilli containers worth ₹60 crore held at Colombo port.",
-          "importance": 4,
-          "published_at": "2026-11-04T13:09:34+05:30",
+          "verified": true,
+          "note": null,
+          "image": {
+            "url": "https://cf-images.assettype.com/outlookindia/2026-11-04/0o1h9hln/1719900853_agniveer.jpg",
+            "credit": "Outlook",
+            "source_url": "https://www.outlookindia.com/national/centre-extends-agniveer-service-by-two-years-opens-path-to-six-year-tenure",
+            "alt": "A line of Indian Army soldiers in combat uniform aiming rifles during a drill display"
+          },
+          "impact": [],
+          "id": "india-agniveer-extension-2026-11-04",
+          "headline": "Cabinet gives Agniveers an extra two years, opening a path to six years' service",
+          "summary": "The Union Cabinet approved a second two-year term for the 75% of Agniveers who were due to leave after four years, with higher pay. After it, those willing can seek enrolment as regular soldiers if they meet selection criteria; 25% are still absorbed on merit after four years. CDS Gen NS Raja Subramani said Army feedback on the recruits has been positive.",
+          "importance": 5,
+          "published_at": "2026-11-04T15:23:17+05:30",
           "tags": [
-            "Cyclone",
-            "Andhra Pradesh",
-            "Farmers"
+            "Agnipath",
+            "Defence",
+            "Cabinet"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/andhra-pradesh-govt-intensifies-rescue-relief-operations-in-view-of-heavy-rain-flood-caused-by-cyclone-murasu/"
+              "url": "https://newsonair.gov.in/agniveers-get-two-year-extension-as-cabinet-approves-extension-of-service-period/"
+            },
+            {
+              "name": "Outlook",
+              "url": "https://www.outlookindia.com/national/centre-extends-agniveer-service-by-two-years-opens-path-to-six-year-tenure"
+            },
+            {
+              "name": "ANI",
+              "url": "https://aninews.in/news/national/general-news/gateway-to-full-service-union-cabinet-opens-full-absorption-pathway-for-all-agniveers-with-2-year-extension-package20261104173853/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "Local processing of battery metals cuts India's dependence on China-dominated supply chains for EVs and electronics.",
+          "lead": false,
+          "verified": true,
+          "note": "Eligibility rules for the minerals scheme have not been published yet.",
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Metals",
+              "level": "low",
+              "dir": "up",
+              "why": "Subsidy for new lithium and nickel plants supports metal processors over the next few years."
+            }
+          ],
+          "id": "india-critical-minerals-vistar-2026-11-04",
+          "headline": "Cabinet clears ₹2,814 crore aid for lithium and nickel processing, ₹4,371 crore stats plan",
+          "summary": "The Cabinet approved a five-year capex scheme that pays a 30% capital subsidy for four plants, two for lithium and two for nickel, capped at ₹500 crore and ₹900 crore per company. It also cleared the ₹4,371 crore VISTAR scheme to modernise India's statistical system from 2026-27 to 2030-31.",
+          "importance": 4,
+          "published_at": "2026-11-04T20:35:00+05:30",
+          "tags": [
+            "Critical minerals",
+            "Lithium",
+            "Cabinet"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/cabinet-approves-over-rs-4371-crore-vistar-scheme-to-modernise-indias-statistical-system/"
+            },
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/amp/economy/news/cabinet-approves-five-year-2-814-cr-push-for-critical-mineral-processing-126110401052_1.html"
+            },
+            {
+              "name": "ANI",
+              "url": "https://aninews.in/news/business/cabinet-approves-rs-2814-crore-capex-scheme-for-domestic-lithium-and-nickel-processing20261104160725/"
             }
           ]
         },
@@ -193,28 +239,20 @@
           "verified": false,
           "note": "Single source: All India Radio.",
           "image": null,
-          "impact": [
-            {
-              "on": "india_economy",
-              "level": "low",
-              "dir": "up",
-              "why": "Record freight points to strong demand for coal, grain and industrial goods."
-            }
-          ],
-          "id": "india-railways-freight-record-2026-11-04",
-          "headline": "Indian Railways hauls record 145 million tonnes of freight in October",
-          "summary": "Indian Railways loaded more than 145 million tonnes of freight in October, its best month ever and over 8% more than a year earlier. Food grain loading rose over 26% and domestic coal 16%, with about 470 coal rakes a day sent to power plants. It also carried over 64 crore passengers in the month.",
+          "impact": [],
+          "id": "india-sc-cec-immunity-2026-11-04",
+          "headline": "Supreme Court asks Centre and EC to respond on election commissioners' legal immunity",
+          "summary": "A bench led by Chief Justice Surya Kant issued notice on a petition against Section 16 of the 2023 law on the CEC and Election Commissioners. The section bars civil and criminal cases against them for acts done in their official duties.",
           "importance": 3,
-          "published_at": "2026-11-04T13:15:38+05:30",
+          "published_at": "2026-11-04T19:57:00+05:30",
           "tags": [
-            "Railways",
-            "Freight",
-            "Economy"
+            "Supreme Court",
+            "Election Commission"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/indian-railways-registers-its-highest-ever-freight-loading-of-145-07-million-tonnes-in-october-2026/"
+              "url": "https://newsonair.gov.in/sc-seeks-responses-on-law-giving-blanket-lifelong-immunity-to-cec-election-commissioners/"
             }
           ]
         }
@@ -225,96 +263,93 @@
       "title": "World",
       "stories": [
         {
-          "why_it_matters": "A Democratic Congress can block Trump's laws and budgets for his last two years, from tariffs to spending on AI data centres.",
-          "lead": true,
-          "verified": true,
-          "note": "Seat counts still moving: All India Radio reports 53 Senate seats won; CNBC projects at least 51. Some races not yet called.",
+          "why_it_matters": "Any renewed US-Iran fighting would threaten Hormuz shipping, oil prices and India's energy imports.",
+          "lead": false,
+          "verified": false,
+          "note": "Claims by Iranian officials; not independently confirmed.",
           "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/us.jpg",
-            "credit": "News On AIR",
-            "source_url": "https://newsonair.gov.in/democrats-take-early-leads-over-president-donald-trumps-republican-party-in-us-midterm-elections/",
-            "alt": "The US Capitol building in Washington under a blue sky"
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6aeb16907daf-1793791632.jpg",
+            "credit": "Atta Kenare/AFP",
+            "source_url": "https://www.aljazeera.com/news/2026/11/4/iran-hails-us-voters-rejecting-war-while-khamenei-warns-hostility-wont-end",
+            "alt": "Protesters in Tehran hold an anti-US placard and a portrait of Iran's supreme leader at a rally"
           },
           "impact": [
             {
-              "on": "currency",
-              "detail": "Dollar",
-              "level": "high",
-              "dir": "down",
-              "why": "Traders expect less US spending and slower growth under a split government."
-            },
-            {
-              "on": "gold",
-              "level": "high",
-              "dir": "up",
-              "why": "A weaker dollar and lower yields lifted gold back above $4,000."
-            },
-            {
-              "on": "us_stocks",
-              "detail": "Tech",
+              "on": "oil",
               "level": "medium",
-              "dir": "down",
-              "why": "Investors fear tighter rules could slow AI data-centre spending."
-            },
-            {
-              "on": "rupee",
-              "level": "low",
               "dir": "up",
-              "why": "A softer dollar helps the rupee."
+              "why": "Threats of wider retaliation keep a risk premium on crude despite talks."
             }
           ],
-          "id": "world-us-midterms-2026-11-03",
-          "headline": "Democrats win control of both houses of US Congress in midterms",
-          "summary": "New since the morning: Democrats are projected to take both the House and the Senate. CNBC's election desk projects at least 245 House seats and at least 51 Senate seats, with Senate seats flipped in Texas, Ohio, Kansas, Iowa, North Carolina and South Carolina. Trump told the New York Times he accepts the results and will work with Democrats.",
+          "id": "world-iran-khamenei-warning-2026-11-04",
+          "headline": "Iran's Khamenei says US hostility won't end with midterms, warns of wider retaliation",
+          "summary": "Supreme leader Mojtaba Khamenei says anyone expecting US policy to change after Democrats won Congress is mistaken, and that any new US attack will meet a much wider response. An IRGC adviser says Iran could hit targets in Gulf states that host US strikes. An Iranian lawmaker says Indian ships remain exempt from Hormuz restrictions; Qatar says talks continue.",
           "importance": 5,
-          "published_at": "2026-11-04T13:33:07+05:30",
+          "published_at": "2026-11-04T20:31:00+05:30",
           "tags": [
-            "US",
-            "Midterms",
-            "Congress",
-            "Trump"
+            "Iran",
+            "Hormuz",
+            "US"
           ],
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html"
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/4/iran-hails-us-voters-rejecting-war-while-khamenei-warns-hostility-wont-end"
             },
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/democrats-take-early-leads-over-president-donald-trumps-republican-party-in-us-midterm-elections/"
+              "url": "https://newsonair.gov.in/iran-reiterates-no-restrictions-on-indian-shipping-through-strait-of-hormuz/"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes"
             }
           ]
         },
         {
-          "why_it_matters": "Ending decades of US military aid would be a major shift in Middle East policy amid the Iran conflict.",
+          "why_it_matters": "Netanyahu's hold on power now depends on coalition talks, and a deadlock could mean another election early next year.",
           "lead": false,
-          "verified": true,
-          "note": "Several outlets confirm Trump said this; how the aid would end before the 2028 deal expires is not clear.",
+          "verified": false,
+          "note": "Single source: Al Jazeera. Updates the 2 Nov story: results are now certified.",
           "image": null,
           "impact": [],
-          "id": "world-us-israel-aid-2026-11-03",
-          "headline": "Trump says US will end about $4 billion a year in military aid to Israel",
-          "summary": "Trump says US military aid to Israel, about $3.8 billion a year under a deal that runs to 2028, will end after this year because Israel no longer needs it. He said Israel could still buy US weapons and Washington would help if needed. He did not say how the aid would be stopped; Israeli opposition leader Gadi Eisenkot blamed Prime Minister Netanyahu.",
+          "id": "world-israel-results-certified-2026-11-04",
+          "headline": "Israel certifies election results, rejects Likud fraud claims; Herzog starts talks",
+          "summary": "Israel's election committee found no fraud after checking 9,069 polling stations and confirmed the 27 October results. Netanyahu's bloc has 53 seats and Gadi Eisenkot's bloc 48, short of the 61 needed. President Herzog began two days of talks with party leaders before choosing who gets 28 days to form a government.",
           "importance": 4,
-          "published_at": "2026-11-04T13:37:29+05:30",
+          "published_at": "2026-11-04T00:00:00+03:00",
           "tags": [
-            "US",
             "Israel",
-            "Military aid",
-            "Trump"
+            "Election",
+            "Netanyahu"
           ],
           "sources": [
             {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/us-to-stop-4-billion-in-aid-to-israel-says-president-donald-trump/"
-            },
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/4/israel-vote-results-confirmed-as-election-commission-rejects-fraud-claims"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera.",
+          "image": null,
+          "impact": [],
+          "id": "world-spain-minister-resigns-2026-11-04",
+          "headline": "Spain's transport minister quits after high-speed train crash that killed 69",
+          "summary": "Oscar Puente resigned and dropped out of the coming general election, a week after two high-speed trains collided on the Madrid-Seville line. He said no minister could stay on after two such accidents in under a year, following a January derailment that killed 46.",
+          "importance": 3,
+          "published_at": "2026-11-04T00:00:00+03:00",
+          "tags": [
+            "Spain",
+            "Rail"
+          ],
+          "sources": [
             {
-              "name": "ABC News",
-              "url": "https://abcnews.com/Politics/trump-israel-aid-end-year-citing-political-reasons/story?id=137809564"
-            },
-            {
-              "name": "CNN",
-              "url": "https://www.cnn.com/2026/11/03/politics/trump-us-aid-israel"
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/4/spanish-transport-minister-resigns-after-train-crash-killed-69-people"
             }
           ]
         }
@@ -325,44 +360,80 @@
       "title": "Currency Desk",
       "stories": [
         {
-          "why_it_matters": "A firmer rupee lowers the cost of oil and other imports.",
+          "why_it_matters": "A firmer rupee eases the cost of India's oil imports.",
           "lead": false,
           "verified": true,
-          "note": "PTI puts Tuesday's close at 94.75; the morning edition used 94.71 from an earlier PTI report.",
+          "note": "Closing level is provisional, as reported by PTI.",
           "image": null,
           "impact": [
             {
               "on": "rupee",
               "level": "medium",
               "dir": "up",
-              "why": "Softer dollar and foreign inflows lift the rupee."
+              "why": "Weaker dollar, cheaper crude and foreign inflows support the rupee."
             },
             {
               "on": "currency",
               "detail": "Dollar",
               "level": "medium",
               "dir": "down",
-              "why": "Democratic gains weigh on the dollar."
+              "why": "Dollar index fell about 0.5% after the US midterm result."
             }
           ],
-          "id": "currency-rupee-two-week-high-2026-11-04",
-          "headline": "Rupee hits near two-week high of 94.51 as dollar slips after US midterms",
-          "summary": "The rupee opened 14 paise stronger at 94.61 per dollar and touched about 94.51, its best in nearly two weeks, before easing to around 94.63, Reuters and PTI said. A weaker dollar, lower oil and foreign buying of Indian shares helped; foreign investors bought ₹6,837 crore of equities on Tuesday. The dollar index was near 101.4.",
+          "id": "currency-rupee-9458-2026-11-04",
+          "headline": "Rupee gains 17 paise to close at 94.58 as dollar and oil ease",
+          "summary": "The rupee traded between 94.50 and 94.87 and settled at 94.58 (provisional) against the dollar, up from 94.75 on Tuesday. A softer dollar, lower crude and foreign buying of Indian shares helped; foreign investors bought ₹6,837 crore of shares on Tuesday. The dollar index was down about 0.5% near 101.2-101.4.",
           "importance": 4,
-          "published_at": "2026-11-04T10:47:00+05:30",
+          "published_at": "2026-11-04T16:09:26+05:30",
           "tags": [
             "Rupee",
             "Dollar",
-            "FPI"
+            "FII"
           ],
           "sources": [
             {
-              "name": "PTI (via DT Next)",
-              "url": "https://www.dtnext.in/news/business/rupee-rises-14-paise-to-9461-against-us-dollar-in-early-trade"
+              "name": "PTI (via Telangana Today)",
+              "url": "https://telanganatoday.com/rupee-rises-to-94-58-as-foreign-investor-inflows-support-local-currency"
             },
             {
-              "name": "Reuters (via Rallies)",
-              "url": "https://rallies.ai/news/rupee-claims-near-two-week-high-as-us-midterms-singe-dollar-flows-improve-794f7530b0bfc3ff"
+              "name": "Deccan Herald",
+              "url": "https://www.deccanherald.com/business/markets/rupee-gains-17-paise-to-settle-at-9458-against-us-dollar-4207228"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/INR%3DX/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "A likely ECB hike supports the euro, which keeps the euro firm against the rupee.",
+          "lead": false,
+          "verified": false,
+          "note": "Single source: CNBC (citing Eurostat).",
+          "image": null,
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "Euro",
+              "level": "medium",
+              "dir": "up",
+              "why": "Higher inflation raises the odds of an ECB rate hike in December."
+            }
+          ],
+          "id": "currency-eurozone-inflation-4pc-2026-11-04",
+          "headline": "Euro zone inflation hits 4% in October, a three-year high, as energy costs jump",
+          "summary": "Flash data put euro-area inflation at 4.0% in October, up from 3.8% and in line with forecasts. Energy prices rose 20.8% from a year earlier. Markets see more than a 70% chance the ECB raises its 2.5% rate again in December.",
+          "importance": 3,
+          "published_at": "2026-11-04T05:47:00-05:00",
+          "tags": [
+            "Euro",
+            "Inflation",
+            "ECB"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html"
             }
           ]
         }
@@ -373,94 +444,47 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "why_it_matters": "Indian IT earns most of its revenue in the US, so any slowdown in US tech spending hits it first.",
-          "lead": false,
-          "verified": true,
-          "note": "Levels from Business Today and Yahoo Finance; Business Today is not on the trusted list, Reuters confirms the IT-led pullback.",
-          "image": null,
-          "impact": [
-            {
-              "on": "indian_stocks",
-              "detail": "IT",
-              "level": "high",
-              "dir": "down",
-              "why": "Fears of slower US AI spending hit TCS, Infosys and HCL Tech."
-            },
-            {
-              "on": "indian_stocks",
-              "detail": "Capital Goods",
-              "level": "medium",
-              "dir": "up",
-              "why": "Capital goods led the gainers on Wednesday."
-            }
-          ],
-          "id": "markets-india-it-slide-2026-11-04",
-          "headline": "Sensex gives up most gains as IT stocks slide on US midterm result",
-          "summary": "The Sensex rose to 77,396 in the morning but fell nearly 800 points to 76,604 as IT shares dropped; by early afternoon it was up only about 0.2% near 77,080, with the Nifty near 23,900. TCS, HCL Tech, Infosys and Tech Mahindra fell up to 2.75%, and IT was the only losing sector. Traders fear a Democratic Congress could slow US spending on AI; capital goods and metals rose.",
-          "importance": 5,
-          "published_at": "2026-11-04T13:16:27+05:30",
-          "tags": [
-            "Sensex",
-            "Nifty",
-            "IT stocks"
-          ],
-          "sources": [
-            {
-              "name": "Business Today",
-              "url": "https://www.businesstoday.in/markets/stocks/story/sensex-tumbles-800-points-from-days-high-key-trigger-behind-the-it-stocks-sell-off-565628-2026-11-04"
-            },
-            {
-              "name": "Reuters (via Rallies)",
-              "url": "https://rallies.ai/news/indian-shares-give-up-early-gains-as-it-stocks-drag-us-election-results-in-focus-e7f5884e54843759"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/%5EBSESN/"
-            }
-          ]
-        },
-        {
-          "why_it_matters": "Higher gold prices raise India's import bill and lift local jewellery prices.",
-          "lead": false,
+          "why_it_matters": "A strong Wall Street and a softer dollar tend to draw foreign money into Indian stocks.",
+          "lead": true,
           "verified": true,
           "note": null,
           "image": null,
           "impact": [
             {
-              "on": "gold",
+              "on": "us_stocks",
               "level": "high",
               "dir": "up",
-              "why": "A weaker dollar and lower US yields make gold more attractive."
+              "why": "Less political risk after a clear midterm result lifts US shares."
             },
             {
-              "on": "silver",
+              "on": "indian_stocks",
               "level": "medium",
               "dir": "up",
-              "why": "Precious metals rose together, CNBC says."
+              "why": "Global risk appetite and a weaker dollar support FII buying in India."
             }
           ],
-          "id": "markets-gold-4000-2026-11-04",
-          "headline": "Gold jumps about 2.4% back above $4,000 as dollar and yields fall",
-          "summary": "Gold futures rose about 2.4% to near $4,036 an ounce by early afternoon in India, back above $4,000, as Democrats won Congress and the dollar weakened. Kitco says some analysts expect a Democratic sweep to support gold into 2027 if it slows the US economy.",
-          "importance": 4,
-          "published_at": "2026-11-04T13:33:00+05:30",
+          "id": "markets-wall-street-rally-2026-11-04",
+          "headline": "Dow jumps over 1,100 points at the open as Democrats' Congress win eases risk",
+          "summary": "US stocks surged on Wednesday's open after Democrats took both houses and Trump said he accepts the result. The Dow was up about 2.2% and, by 10:13 a.m. New York time, the S&P 500 was up 1.8% and the Nasdaq 2.5%. Solar and hospital stocks led; AI data-centre names fell on fears of tighter rules. ISM services slowed slightly to 54.5.",
+          "importance": 5,
+          "published_at": "2026-11-04T09:58:00-05:00",
           "tags": [
-            "Gold",
-            "Dollar",
+            "Wall Street",
+            "Dow",
             "Midterms"
           ],
           "sources": [
             {
-              "name": "Kitco News",
-              "url": "https://www.kitco.com/news/article/2026-11-04/gold-prices-hit-4000-democrats-see-electoral-sweep-gain-control-congress"
-            },
-            {
               "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/04/gold-silver-platinum-dollar-midterms.html"
+              "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
             },
             {
               "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/GC=F/"
+              "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+            },
+            {
+              "name": "ISM (via PR Newswire)",
+              "url": "https://www.prnewswire.com/news-releases/services-pmi-at-54-5-october-2026-ism-services-pmi-report-302928112.html"
             }
           ]
         },
@@ -472,22 +496,119 @@
           "image": null,
           "impact": [
             {
-              "on": "us_stocks",
-              "detail": "Tech",
+              "on": "indian_stocks",
               "level": "medium",
-              "dir": "mixed",
-              "why": "Futures pared losses, but AI spending fears remain."
+              "dir": "up",
+              "why": "Broad buying and FII inflows extended the rally to five sessions."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "medium",
+              "dir": "down",
+              "why": "IT stocks slid as the rupee firmed and US policy worries weighed."
+            },
+            {
+              "on": "company",
+              "detail": "BEL",
+              "level": "low",
+              "dir": "up",
+              "why": "Quarterly revenue grew 26.5% and profit nearly 20%."
             }
           ],
-          "id": "markets-us-futures-midterms-2026-11-04",
-          "headline": "US stock futures recover; Nasdaq futures trim loss to about 0.2%",
-          "summary": "New since the morning: Nasdaq-100 futures, down 1.6% overnight, were off only about 0.2% by early afternoon in India, and CNBC described US futures as mixed. Investors still worry a Democratic Congress could slow the AI data-centre build-out.",
-          "importance": 3,
-          "published_at": "2026-11-04T13:33:00+05:30",
+          "id": "markets-nifty-five-day-gain-2026-11-04",
+          "headline": "Nifty rises 0.6% to 23,960 for fifth straight gain; IT lone loser",
+          "summary": "The Sensex closed up 384 points at 77,301.40 and the Nifty up 150 points at 23,960.60. Media, realty and metal stocks led and small caps gained 2%, while Nifty IT fell 1.5% with TCS, HCL Tech and Infosys lower. BEL rose 4.7% after strong results.",
+          "importance": 4,
+          "published_at": "2026-11-04T16:00:00+05:30",
           "tags": [
-            "Wall Street",
-            "Futures",
-            "Nasdaq"
+            "Nifty",
+            "Sensex",
+            "IT"
+          ],
+          "sources": [
+            {
+              "name": "DSIJ",
+              "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-nifty-50-rises-nearly-150-points-above-23950-extending-gains-for-5th-day-60311"
+            },
+            {
+              "name": "PTI (via Telangana Today)",
+              "url": "https://telanganatoday.com/rupee-rises-to-94-58-as-foreign-investor-inflows-support-local-currency"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "down",
+              "why": "Hopes for a Middle East deal pull crude lower."
+            },
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "up",
+              "why": "Cheaper oil trims India's import bill."
+            }
+          ],
+          "id": "markets-oil-falls-2026-11-04",
+          "headline": "Brent slips toward $101 as traders bet on a calmer Middle East",
+          "summary": "Brent crude fell about 2.6% to near $100.9 a barrel by mid-morning in New York, and US crude was down about 3%. Some investors expect a Gulf settlement after the US midterms to bring prices down.",
+          "importance": 4,
+          "published_at": "2026-11-04T19:27:00+05:30",
+          "tags": [
+            "Oil",
+            "Brent"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/oil-prices-up-again-amid-concerns-over-disruption-in-west-asia/"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/BZ=F/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": true,
+          "note": "Update to the midday story: gains widened.",
+          "image": null,
+          "impact": [
+            {
+              "on": "gold",
+              "level": "medium",
+              "dir": "up",
+              "why": "A weaker dollar and lower yields make gold more attractive."
+            },
+            {
+              "on": "silver",
+              "level": "medium",
+              "dir": "up",
+              "why": "Silver tracks gold higher with a bigger move."
+            }
+          ],
+          "id": "markets-gold-4000-2026-11-04",
+          "headline": "Gold extends rise to about $4,049; silver jumps over 4% to near $52",
+          "summary": "Gold futures rose about 2.8% to around $4,049 an ounce as the dollar and US yields slipped, adding to the gain seen at midday. Silver rose about 4.4% to near $52.",
+          "importance": 3,
+          "published_at": "2026-11-04T09:58:00-05:00",
+          "tags": [
+            "Gold",
+            "Silver"
           ],
           "sources": [
             {
@@ -496,7 +617,7 @@
             },
             {
               "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/NQ=F/"
+              "url": "https://finance.yahoo.com/quote/GC=F/"
             }
           ]
         }
@@ -507,32 +628,26 @@
       "title": "Built This Week",
       "stories": [
         {
-          "why_it_matters": "They are among the first large AI models built in India with state-backed computing power.",
+          "why_it_matters": null,
           "lead": false,
           "verified": false,
-          "note": "Single source: PIB (Ministry of Electronics and IT).",
-          "image": {
-            "url": "https://static.pib.gov.in/WriteReadData/userfiles/image/2026/nov/image002_20261103220419_424123.jpg",
-            "credit": "PIB",
-            "source_url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332358",
-            "alt": "An official speaks to reporters at the IndiaAI model launch in New Delhi"
-          },
+          "note": "Single source: CNBC. No company press release found.",
+          "image": null,
           "impact": [],
-          "id": "built-indiaai-eka1-dhir-2026-11-03",
-          "headline": "IndiaAI unveils home-grown AI models EKA-1 and Dhir 2B and 5B",
-          "summary": "The IndiaAI Mission has released two sets of Indian AI models. Soket Labs' EKA-1 has 26.3 billion parameters, was trained on about 7.5 trillion tokens and covers English plus all 22 scheduled Indian languages. GenteQ's open-source Dhir 2B and 5B assistants support English and 10 Indian languages and can run offline on local devices.",
-          "importance": 4,
-          "published_at": "2026-11-03T22:02:00+05:30",
+          "id": "built-crowdstrike-ai-kill-switch-2026-11-03",
+          "headline": "CrowdStrike launches an 'AI Kill Switch' to shut down rogue AI agents",
+          "summary": "CrowdStrike unveiled a tool in its Falcon platform that lets security teams stop misbehaving AI agents, block them from restarting and cut their network access. CEO George Kurtz called it an off button for AI agents; it is available now.",
+          "importance": 3,
+          "published_at": "2026-11-03T18:37:00-05:00",
           "tags": [
             "AI",
-            "IndiaAI",
-            "LLM",
-            "Soket"
+            "Cybersecurity",
+            "CrowdStrike"
           ],
           "sources": [
             {
-              "name": "PIB",
-              "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2332358"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/03/crowdstrikes-new-kill-switch-can-stop-rogue-ai-agents-in-their-tracks-ceo-says.html"
             }
           ]
         }
@@ -541,19 +656,6 @@
   ],
   "weekend_special": null,
   "forex_results": [
-    {
-      "country": "USD",
-      "title": "JOLTS Job Openings",
-      "date": "2026-11-03T10:00:00-05:00",
-      "impact": "Medium",
-      "actual": "7.5M",
-      "vs_forecast": "better",
-      "why": "More US job openings than expected point to a firm labour market, which supports the dollar and high US rates.",
-      "source": {
-        "name": "US Bureau of Labor Statistics",
-        "url": "https://www.bls.gov/news.release/jolts.nr0.htm"
-      }
-    },
     {
       "country": "USD",
       "title": "Congressional Elections",
@@ -592,31 +694,44 @@
         "name": "Stats NZ",
         "url": "https://www.stats.govt.nz/information-releases/labour-market-statistics-september-2026-quarter/"
       }
+    },
+    {
+      "country": "EUR",
+      "title": "CPI Flash Estimate y/y",
+      "date": "2026-11-04T05:00:00-05:00",
+      "impact": "Medium",
+      "actual": "4.0%",
+      "vs_forecast": "in_line",
+      "why": "Inflation hit a three-year high of 4% as expected, keeping an ECB hike in December likely; supportive for the euro.",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "ISM Services PMI",
+      "date": "2026-11-04T10:00:00-05:00",
+      "impact": "Medium",
+      "actual": "54.5",
+      "vs_forecast": "worse",
+      "why": "US services grew a little slower than expected, a mild negative for the dollar.",
+      "source": {
+        "name": "ISM (via PR Newswire)",
+        "url": "https://www.prnewswire.com/news-releases/services-pmi-at-54-5-october-2026-ism-services-pmi-report-302928112.html"
+      }
     }
   ],
   "week_ahead": [
-    {
-      "date": "2026-11-04",
-      "events": [
-        {
-          "text": "Eurozone October inflation flash estimate",
-          "section": "currency"
-        },
-        {
-          "text": "US ISM services PMI",
-          "section": "markets"
-        },
-        {
-          "text": "Israel's President Herzog holds coalition consultations (Nov 4-5)",
-          "section": "world"
-        }
-      ]
-    },
     {
       "date": "2026-11-05",
       "events": [
         {
           "text": "Bank of England rate decision and Governor Bailey's news conference",
+          "section": "markets"
+        },
+        {
+          "text": "Titan Company Q2 FY27 results",
           "section": "markets"
         },
         {
