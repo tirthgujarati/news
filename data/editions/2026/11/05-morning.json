@@ -1,0 +1,1031 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-05-morning",
+  "date": "2026-11-05",
+  "slot": "morning",
+  "title": "Thursday Morning Edition",
+  "generated_at": "2026-11-05T07:45:00+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "94.53",
+      "change": "-0.11%",
+      "dir": "down",
+      "as_of": "2026-11-05T01:14:56+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/INR=X"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "106.42",
+      "change": "+0.19%",
+      "dir": "up",
+      "as_of": "2026-11-05T01:44:29+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "101.32",
+      "change": "-0.25%",
+      "dir": "down",
+      "as_of": "2026-11-05T01:53:52+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India FX reserves",
+      "value": "$719.75bn",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-10-23T00:00:00+05:30",
+      "source": {
+        "name": "RBI Weekly Statistical Supplement",
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewWSS.aspx"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "23,960.60",
+      "change": "+0.63%",
+      "dir": "up",
+      "as_of": "2026-11-04T15:30:00+05:30",
+      "source": {
+        "name": "HDFC Sky",
+        "url": "https://hdfcsky.com/news/gift-nifty-points-to-flat-open-for-sensex-nifty-on-thursday"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "77,301.40",
+      "change": "+0.50%",
+      "dir": "up",
+      "as_of": "2026-11-04T15:30:00+05:30",
+      "source": {
+        "name": "HDFC Sky",
+        "url": "https://hdfcsky.com/news/gift-nifty-points-to-flat-open-for-sensex-nifty-on-thursday"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,688.62",
+      "change": "+1.58%",
+      "dir": "up",
+      "as_of": "2026-11-04T16:00:00-05:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/^GSPC"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "25,736.51",
+      "change": "+1.44%",
+      "dir": "up",
+      "as_of": "2026-11-04T16:00:00-05:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/^IXIC"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$4,139.80",
+      "change": "+1.64%",
+      "dir": "up",
+      "as_of": "2026-11-05T01:53:52+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/GC=F"
+      }
+    },
+    {
+      "id": "gold_mcx",
+      "label": "Gold MCX",
+      "value": "₹1,42,598/10g",
+      "change": "+2.2%",
+      "dir": "up",
+      "as_of": "2026-11-04T16:00:00+05:30",
+      "source": {
+        "name": "Upstox",
+        "url": "https://upstox.com/news/market-news/commodities/mcx-gold-rises-over-2-to-trade-near-1-42-lakh-silver-jump-nearly-4-driven-by-weaker-us-dollar-check-trade-setup-for-nov-4/article-202965/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$93.74",
+      "change": "-0.93%",
+      "dir": "down",
+      "as_of": "2026-11-05T01:53:44+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ=F"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$80,723",
+      "change": "+6.1%",
+      "dir": "up",
+      "as_of": "2026-11-05T02:08:17+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.89%",
+      "change": "-1.17%",
+      "dir": "down",
+      "as_of": "2026-11-04T19:59:53+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/^TNX"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-substandard-drug-licence-2026-11-05",
+          "headline": "Centre proposes instant licence suspension for makers of substandard drugs",
+          "summary": "The Health Ministry has published draft changes to the Drugs Rules, 1945, so that a manufacturing licence can be suspended at once when a drug is declared Not of Standard Quality on critical tests such as assay, dissolution, impurities or sterility. Today a show-cause notice usually comes first. The suspension would last until the maker completes a root cause analysis and corrective action accepted by the licensing authority; the draft is open for public comment for 30 days.",
+          "why_it_matters": "It would sharply tighten quality enforcement on India's drug industry, removing the delay that can keep failed medicines on the market.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": "Draft rules only; take effect after final Gazette publication.",
+          "published_at": "2026-11-05T06:56:00+05:30",
+          "tags": [
+            "health",
+            "pharma",
+            "regulation",
+            "drug quality"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/govt-proposes-immediate-suspension-of-manufacturing-licence-of-substandard-drugs/"
+            },
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/industry/news/govt-proposes-immediate-licence-suspension-for-substandard-drugmakers-126110500002_1.html"
+            },
+            {
+              "name": "The Tribune",
+              "url": "https://www.tribuneindia.com/news/india/centre-proposes-immediate-suspension-of-licences-for-substandard-drugs/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Pharma",
+              "level": "low",
+              "dir": "down",
+              "why": "Failed quality tests could halt production at once, raising compliance risk for drugmakers."
+            }
+          ]
+        },
+        {
+          "id": "india-tax-receipts-september-2026-11-04",
+          "headline": "Central tax receipts rebound 5% in September, but three key taxes fall",
+          "summary": "Business Standard's analysis of official data says the Centre's tax receipts rose about 5% year on year in September after a roughly 15% fall in August. Personal income tax fell for a second month (down 10% after 37%), excise duty kept falling on petroleum duty cuts, and customs duty dropped 25%, its first fall this fiscal year.",
+          "why_it_matters": "Weak income tax, excise and customs collections add pressure on the Centre's FY27 fiscal deficit, already at about 42% of target after six months.",
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Business Standard (analysis of government accounts data). Time is the article's 'updated' time.",
+          "published_at": "2026-11-04T23:07:00+05:30",
+          "tags": [
+            "economy",
+            "tax",
+            "fiscal deficit",
+            "CGA"
+          ],
+          "sources": [
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/economy/news/datanomics-collections-recover-in-september-but-not-for-3-crucial-taxes-126110401129_1.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "india_economy",
+              "level": "low",
+              "dir": "down",
+              "why": "Soft tax collections may squeeze government spending room or the deficit target."
+            },
+            {
+              "on": "rates",
+              "level": "low",
+              "dir": "up",
+              "why": "Fiscal slippage worries can push up government bond yields."
+            }
+          ]
+        },
+        {
+          "id": "india-rbi-tccfm-2026-11-04",
+          "headline": "RBI sets up market advisory panel on money, bond and forex markets",
+          "summary": "The RBI has formed a Technical Consultative Committee for Financial Markets, chaired by the Deputy Governor in charge of financial markets regulation, with seven outside members including a former SEBI whole-time member and executives from SBI, Axis, ICICI, Citi, CCIL and Morgan Stanley. It will advise on liquidity, market infrastructure, emerging risks and frictions from RBI measures, and meet at least once a quarter.",
+          "why_it_matters": "It gives market participants a formal channel to shape RBI rules for the bond, money and currency markets.",
+          "importance": 2,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-04T19:45:00+05:30",
+          "tags": [
+            "RBI",
+            "financial markets",
+            "forex",
+            "bonds"
+          ],
+          "sources": [
+            {
+              "name": "Reserve Bank of India",
+              "url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63914"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/technical-consultative-committee-to-focus-on-critical-policy-and-operational-matters-rbi/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-zaporizhzhia-aid-centre-toll-2026-11-04",
+          "headline": "Ukraine raises toll from Russian bombing of Zaporizhzhia aid centre to 40",
+          "summary": "Ukrainian authorities say 40 people were killed when Russian glide bombs hit an aid distribution point and then a nearby underground shelter in the village of Komyshuvakha on Monday; the previous local count was 37. President Zelensky says more than 30 people may still be under the rubble. Ukraine's police released bodycam footage of the moment the shelter was hit, which BBC Verify matched to the location.",
+          "why_it_matters": "One of the deadliest strikes on civilians of the war, it comes days before US-brokered Russia-Ukraine talks in Abu Dhabi on Nov 10-11.",
+          "importance": 4,
+          "lead": false,
+          "verified": false,
+          "note": "Death toll is Ukraine's figure; the strike itself is reported by Reuters, AP, AFP and BBC (BBC Verify geolocated footage), but the toll is not independently confirmed.",
+          "published_at": "2026-11-04T20:31:56+00:00",
+          "tags": [
+            "Ukraine",
+            "Russia",
+            "war",
+            "Zaporizhzhia",
+            "civilians"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/4/ukraine-raises-death-toll-from-russian-strike-on-zaporizhia-to-40-people"
+            },
+            {
+              "name": "BBC",
+              "url": "https://www.bbc.com/news/articles/c98rz6penv86o"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6aeb7dae-1793818030.jpg",
+            "credit": "Sergiy Chalyi/Reuters",
+            "source_url": "https://www.aljazeera.com/news/2026/11/4/ukraine-raises-death-toll-from-russian-strike-on-zaporizhia-to-40-people",
+            "alt": "Ukrainian police officers in helmets and body armour load a white body bag into a van during the rescue operation in Zaporizhzhia region"
+          },
+          "impact": []
+        },
+        {
+          "id": "world-europe-freezer-hacks-2026-11-04",
+          "headline": "Europe's freezer hacks spread to 11 countries and French blood storage",
+          "summary": "Hackers who pushed up temperatures in supermarket refrigeration systems have now hit at least 11 European countries, including Germany, Romania and the UK, spoiling tonnes of food. France's blood agency EFS said its cold rooms were also targeted, though staff stepped in and no blood was lost. The EU says the attacks are 'not isolated' and promises a joint response; no one has been identified as responsible.",
+          "why_it_matters": "The attacks show that connected cooling systems behind food and medical supply chains can be tampered with remotely, at scale.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "Culprit unknown; claims by Russian hacktivist groups are unproven, analysts say.",
+          "published_at": "2026-11-04T15:19:46+00:00",
+          "tags": [
+            "Europe",
+            "cyberattack",
+            "EU",
+            "France",
+            "food supply"
+          ],
+          "sources": [
+            {
+              "name": "BBC",
+              "url": "https://www.bbc.com/news/articles/c8vgxyvz6y9ro"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/4/eu-urges-action-as-germany-romania-and-uk-report-supermarket-cyberattacks"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-south-africa-local-elections-2026-11-04",
+          "headline": "South Africa counts votes in local polls seen as a test for the ANC",
+          "summary": "South Africans voted on Wednesday for metro, district and local councils, with a record 29.2 million people registered. The electoral commission has begun releasing results, but early figures cover only a small share of voting districts. Polls had suggested the ANC's support could fall below 40%, and Johannesburg is the biggest prize.",
+          "why_it_matters": "A further ANC slide would weaken President Ramaphosa's party within the national coalition government ahead of the 2029 election.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "Results are partial; no official overall tally yet.",
+          "published_at": "2026-11-04T23:34:37+02:00",
+          "tags": [
+            "South Africa",
+            "elections",
+            "ANC",
+            "DA",
+            "Johannesburg"
+          ],
+          "sources": [
+            {
+              "name": "SABC News",
+              "url": "https://www.sabcnews.com/sabcnews/iec-releases-first-2026-lge-results-from-eastern-cape/"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/4/south-africans-vote-in-local-elections-seen-as-test-for-embattled-anc"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-saudi-syria-defence-pact-2026-11-04",
+          "headline": "Saudi Arabia and Syria sign a defence cooperation agreement",
+          "summary": "Saudi state news agency SPA says the two countries' defence ministries signed a cooperation agreement during Syrian President Ahmed al-Sharaa's visit to Riyadh, where he met Crown Prince Mohammed bin Salman. No terms were disclosed. The deal comes as the kingdom faces ongoing missile and drone attacks from Yemen's Houthis.",
+          "why_it_matters": "It deepens Riyadh's role as post-Assad Syria's main patron at a time when Saudi Arabia is at war with the Iran-aligned Houthis.",
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Reported by Saudi state agency SPA, carried by Reuters; terms not disclosed.",
+          "published_at": "2026-11-04T20:20:41+00:00",
+          "tags": [
+            "Saudi Arabia",
+            "Syria",
+            "defence",
+            "Houthis",
+            "Middle East"
+          ],
+          "sources": [
+            {
+              "name": "Reuters (via WBOW)",
+              "url": "https://1027wbow.com/2026/11/04/saudi-syrian-defence-ministries-sign-cooperation-agreement-spa-reports/"
+            },
+            {
+              "name": "Middle East Eye",
+              "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-syrian-defence-ministries-sign-cooperation-agreement"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "id": "currency-rupee-oil-slump-2026-11-05",
+          "headline": "Rupee set for firmer start as Brent crashes below $95 overnight",
+          "summary": "After India's close, Brent fell about 8.7% to settle at $94.62 when VP JD Vance blamed the Iran war for Republican midterm losses, and it was near $93.7 in early Asia. Offshore USD/INR quotes eased to about 94.53 from Wednesday's onshore close of 94.58.",
+          "why_it_matters": "India imports most of its oil, so a sharp fall in crude cuts dollar demand from refiners and tends to support the rupee.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": "Oil settle confirmed by CNBC (WTI $88.12) and Yahoo Finance data (Brent $94.62). The 94.53 offshore USD/INR quote comes only from Yahoo Finance (01:14 UTC). No pre-open rupee forecast for Thursday was found.",
+          "published_at": "2026-11-05T01:14:56+00:00",
+          "tags": [
+            "rupee",
+            "oil",
+            "brent",
+            "usd-inr"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/INR=X"
+            },
+            {
+              "name": "DT Next (PTI)",
+              "url": "https://www.dtnext.in/news/business/rupee-gains-17-paise-to-settle-at-9458-against-us-dollar"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "up",
+              "why": "Lower crude reduces importers' dollar demand."
+            },
+            {
+              "on": "oil",
+              "level": "high",
+              "dir": "down",
+              "why": "Brent settled about 8.7% lower at $94.62."
+            },
+            {
+              "on": "india_economy",
+              "level": "medium",
+              "dir": "up",
+              "why": "A cheaper oil import bill eases inflation and current-account pressure."
+            }
+          ]
+        },
+        {
+          "id": "currency-boe-hike-preview-2026-11-04",
+          "headline": "Bank of England expected to make its first hike in three years today",
+          "summary": "The BoE announces its decision at 12:00 GMT (17:30 IST) on Thursday. Economists polled by Reuters expect a quarter-point rise to 4% from 3.75%, most likely on a 7-2 vote, after September inflation hit 3.5% on energy costs tied to the Iran war.",
+          "why_it_matters": "A hike, and what the BoE signals about further moves, will drive sterling and could affect GBP/INR and wider currency markets this evening.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "Expectations come from a Reuters poll (via Investing.com) and an investinglive preview, which cites Goldman Sachs for the 7-2 split. The decision itself has not been announced yet.",
+          "published_at": "2026-11-05T00:00:00+00:00",
+          "tags": [
+            "bank-of-england",
+            "rates",
+            "sterling",
+            "central-banks"
+          ],
+          "sources": [
+            {
+              "name": "Reuters via Investing.com",
+              "url": "https://www.investing.com/news/economy-news/bank-of-england-poised-to-hike-rates-for-first-time-in-3-years-5001845"
+            },
+            {
+              "name": "investinglive",
+              "url": "https://investinglive.com/central-banks/bank-of-england-preview-first-hike-to-4-expected-as-energy-pushes-inflation-to-3-5/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "Pound",
+              "level": "medium",
+              "dir": "up",
+              "why": "A hike is almost fully priced in, so the vote split and guidance will set sterling's direction."
+            },
+            {
+              "on": "rates",
+              "level": "medium",
+              "dir": "up",
+              "why": "Would be the BoE's first rate increase since August 2023."
+            }
+          ]
+        },
+        {
+          "id": "currency-dollar-index-slips-2026-11-05",
+          "headline": "Dollar index slips to about 101.3 as Treasury yields fall",
+          "summary": "The dollar index fell to about 101.32 in early Asian trade, from a prior close of 101.57, after the 10-year Treasury yield dropped to 4.89% from 4.95% on Wednesday. Traders now turn to Thursday's US jobless claims and Friday's October payrolls.",
+          "why_it_matters": "A softer dollar, together with cheaper oil, gives the rupee and other Asian currencies some room to firm.",
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source for the levels: Yahoo Finance market data. Bloomingbit reported only that US yields fell overnight, and CNBC listed the upcoming data.",
+          "published_at": "2026-11-05T01:53:52+00:00",
+          "tags": [
+            "dollar-index",
+            "treasury-yields",
+            "dxy"
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/^TNX"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "Dollar",
+              "level": "low",
+              "dir": "down",
+              "why": "Dollar index down about 0.25% from its prior close."
+            },
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "up",
+              "why": "A weaker dollar supports Asian currencies."
+            },
+            {
+              "on": "rates",
+              "level": "medium",
+              "dir": "down",
+              "why": "US 10-year yield fell about 6bp to 4.89%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "id": "markets-wall-street-close-midterms-2026-11-04",
+          "headline": "Dow jumps 1,569 points, best day since April 2025, after Democrats sweep",
+          "summary": "The Dow closed up 1,569.40 points (3.03%) at 53,356.12. The S&P 500 rose 1.58% to 7,688.62 and the Nasdaq 1.44% to 25,736.51, so the Nasdaq gave back part of its 2.5% early gain. Plunging oil and Trump's acceptance of the result drove the rally, while AI and data-centre stocks such as CoreWeave fell on fears of a regulatory backlash.",
+          "why_it_matters": "A relief rally on Wall Street usually lifts global risk appetite, but the move away from AI stocks is already hitting Asian chipmakers.",
+          "importance": 5,
+          "lead": true,
+          "verified": true,
+          "note": "Closes from Yahoo Finance data, matching ABC and CNBC reports (S&P +1.5% to +1.6%). After hours, AppLovin rose about 24%; Qualcomm fell 6.5% and Expedia over 7% (CNBC).",
+          "published_at": "2026-11-04T21:12:28+00:00",
+          "tags": [
+            "wall-street",
+            "dow",
+            "s&p-500",
+            "nasdaq",
+            "midterms"
+          ],
+          "sources": [
+            {
+              "name": "ABC News",
+              "url": "https://abcnews.com/Business/dow-surges-1000-points-democrats-control-congress/story?id=137842989"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/04/stock-market-rally-trump-midterms.html"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/^DJI"
+            }
+          ],
+          "image": {
+            "url": "https://i.abcnewsfe.com/a/044ceb08-ed87-4b06-ab2b-bac10fd14cbd/nyse-2-gty-jef-261104_1793806002829_hpMain_16x9.jpg?w=1600",
+            "credit": "Timothy A. Clary/AFP via Getty Images",
+            "source_url": "https://abcnews.com/Business/dow-surges-1000-points-democrats-control-congress/story?id=137842989",
+            "alt": "A trader watches screens on the floor of the New York Stock Exchange at the opening bell on November 4, 2026"
+          },
+          "impact": [
+            {
+              "on": "us_stocks",
+              "level": "high",
+              "dir": "up",
+              "why": "Dow posted its best post-midterm day since 1982."
+            },
+            {
+              "on": "indian_stocks",
+              "level": "low",
+              "dir": "up",
+              "why": "Global risk appetite improved, though Asian tech stocks are falling."
+            }
+          ]
+        },
+        {
+          "id": "markets-oil-plunge-vance-2026-11-04",
+          "headline": "Oil sinks about 8% after Vance blames Iran war for Republican losses",
+          "summary": "Brent settled at $94.62, down about 8.7% from $103.60, and WTI settled at $88.12, down more than 8%. Traders took Vance's comments as a sign that Washington could move to wind down the war. Brent slipped further to about $93.7 in early Asian trade.",
+          "why_it_matters": "Brent is now well below $100, which eases India's import bill, inflation outlook and pressure on the rupee.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": "WTI settle is from CNBC. Brent settle is from Yahoo Finance data and matches a search report of 8.7% to $94.62. ABC gave WTI at about $88.60 late in the session.",
+          "published_at": "2026-11-04T20:27:00-05:00",
+          "tags": [
+            "oil",
+            "brent",
+            "wti",
+            "iran",
+            "midterms"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "ABC News",
+              "url": "https://abcnews.com/Business/dow-surges-1000-points-democrats-control-congress/story?id=137842989"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/BZ=F"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "high",
+              "dir": "down",
+              "why": "Brent settled 8.7% lower at $94.62."
+            },
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "up",
+              "why": "Lower crude cuts India's demand for dollars."
+            },
+            {
+              "on": "india_economy",
+              "level": "medium",
+              "dir": "up",
+              "why": "Eases imported inflation."
+            },
+            {
+              "on": "indian_stocks",
+              "level": "medium",
+              "dir": "up",
+              "why": "Helps oil-marketing companies, airlines and paint makers."
+            }
+          ]
+        },
+        {
+          "id": "markets-asia-chip-rout-2026-11-05",
+          "headline": "Kospi slides more than 4% as Asian chip stocks are hit by AI regulation fears",
+          "summary": "South Korea's Kospi was down about 4.6% at 5,423 in Thursday morning trade, with SK Hynix and Samsung leading the losses. Investors fear a Democratic Congress will tighten rules on AI infrastructure. Japan's Nikkei turned lower (about -0.6%) after early gains, while Australia's ASX rose. Advantest, Tokyo Electron and Lasertec fell about 10-12%.",
+          "why_it_matters": "The selloff in AI hardware could weigh on Asian sentiment, though India has little direct exposure to chips.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": "Earlier figures: Kospi -2.27% at 9:07 am KST (Bloomingbit) and -2.33% (CNBC). The latest -4.6% and the Nikkei level come from Yahoo Finance data at about 01:45 UTC. No reliable GIFT Nifty reading for this morning was found.",
+          "published_at": "2026-11-04T20:27:00-05:00",
+          "tags": [
+            "asia",
+            "kospi",
+            "nikkei",
+            "semiconductors",
+            "ai"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "Bloomingbit",
+              "url": "https://en.bloomingbit.io/feed/news/123694"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/^KS11"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "SK Hynix",
+              "level": "high",
+              "dir": "down",
+              "why": "Memory chipmaker hit by AI regulation fears."
+            },
+            {
+              "on": "indian_stocks",
+              "level": "low",
+              "dir": "down",
+              "why": "Weak Asian tone, though India has little exposure to AI hardware."
+            }
+          ]
+        },
+        {
+          "id": "markets-gold-extends-rally-2026-11-05",
+          "headline": "Gold extends rally in Asia, futures near $4,140; silver above $53",
+          "summary": "COMEX December gold rose to about $4,140 an ounce in early Asian trade, up about 1.6% from Wednesday's $4,073 settle, with most of the gain in the past hour. Silver futures were near $53.3. Falling US yields and a weaker dollar after the midterms are supporting precious metals.",
+          "why_it_matters": "Higher global prices feed into Indian gold and silver rates when MCX opens.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "Futures prices are from Yahoo Finance (01:53 UTC). FXStreet reported spot gold near $4,065 around 23:21 GMT on Nov 4, before the latest leg up. This is futures pricing; spot was not checked separately this morning.",
+          "published_at": "2026-11-05T01:53:52+00:00",
+          "tags": [
+            "gold",
+            "silver",
+            "precious-metals"
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/GC=F"
+            },
+            {
+              "name": "FXStreet",
+              "url": "https://www.fxstreet.com/news/gold-surges-above-4-050-as-democrats-take-control-of-congress-202611042321"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "gold",
+              "level": "medium",
+              "dir": "up",
+              "why": "Futures up about 1.6% to about $4,140."
+            },
+            {
+              "on": "silver",
+              "level": "medium",
+              "dir": "up",
+              "why": "Futures near $53.3, up from a $52.28 settle."
+            }
+          ]
+        },
+        {
+          "id": "markets-dabur-nykaa-q2-2026-11-04",
+          "headline": "Dabur profit up 12% and Nykaa's triples in September-quarter results",
+          "summary": "Dabur's consolidated net profit rose 11.7% to Rs 505.5 crore on revenue of Rs 3,563 crore (+11.6%), although its operating margin narrowed by 60bp. Nykaa's net profit rose about 207% to Rs 101.19 crore, revenue grew 28% to Rs 3,006 crore and EBITDA margin widened to 8.7%. Both reported after Wednesday's close.",
+          "why_it_matters": "Both stocks are likely to react when trading opens on Thursday.",
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Business Today.",
+          "published_at": "2026-11-04T16:56:00+05:30",
+          "tags": [
+            "earnings",
+            "dabur",
+            "nykaa",
+            "q2fy27"
+          ],
+          "sources": [
+            {
+              "name": "Business Today",
+              "url": "https://www.businesstoday.in/markets/stocks/story/dabur-q2-results-net-profit-rises-12-revenue-at-rs-3563-crore-565730-2026-11-04"
+            },
+            {
+              "name": "Business Today",
+              "url": "https://www.businesstoday.in/markets/stocks/story/nykaa-q2-earnings-net-profit-rises-revenue-crosses-rs-3000-crore-565721-2026-11-04"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Dabur",
+              "level": "medium",
+              "dir": "up",
+              "why": "Fourth straight quarter of double-digit profit growth."
+            },
+            {
+              "on": "company",
+              "detail": "Nykaa",
+              "level": "medium",
+              "dir": "up",
+              "why": "Profit tripled and margins widened."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "id": "built-tencent-hy4-2026-11-04",
+          "headline": "Tencent releases Hy4, its first AI model that can see and operate a computer",
+          "summary": "Tencent launched the full version of Hy4, a 770-billion-parameter large language model that adds image understanding and the ability to work through command-line tools and on-screen apps. It is live in Tencent's own apps and through outside platforms such as OpenRouter. Tencent says it will publish the model weights in the coming days.",
+          "why_it_matters": "It puts another powerful, cheaply priced Chinese model into the open-weight race with DeepSeek, Alibaba and Z.ai. Tencent admits it still trails top closed models such as Claude and GPT on harder tests.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": "Tencent says its hallucination rate fell to 7.2% from 12.95%. That figure comes from Tencent's internal tests and has not been checked independently. Weights and licence are not yet released.",
+          "published_at": "2026-11-04T00:00:00+08:00",
+          "tags": [
+            "AI",
+            "Tencent",
+            "China",
+            "open-source",
+            "LLM",
+            "agents"
+          ],
+          "sources": [
+            {
+              "name": "Tencent",
+              "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/"
+            },
+            {
+              "name": "SiliconANGLE",
+              "url": "https://siliconangle.com/2026/11/04/tencent-releases-hy4-powerful-frontier-llm-introducing-visual-understanding-and-computer-use/"
+            },
+            {
+              "name": "Caixin Global",
+              "url": "https://www.caixinglobal.com/2026-11-05/tencent-launches-upgraded-hy4-ai-model-with-visual-understanding-102501068.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Tencent",
+              "level": "low",
+              "dir": "up",
+              "why": "A new flagship model adds to Tencent's AI products. Caixin reports its Hong Kong shares rose 1.1%."
+            }
+          ]
+        },
+        {
+          "id": "built-baidu-apollo-world-2026-11-03",
+          "headline": "Baidu unveils Apollo World, a simulator where AI trains its robotaxis",
+          "summary": "Baidu unveiled Apollo World, an AI 'world model' that builds interactive virtual streets in which simulated cars and pedestrians react to a self-driving car. It produces live camera and lidar data and is already used to test Baidu's Apollo Go robotaxis. Baidu says it can simulate up to 100,000 km of driving a day.",
+          "why_it_matters": "Baidu wants to use virtual testing to cut the cost and time of launching robotaxis in new cities, but it has not shared any numbers on cost or safety.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "No Baidu press release found; reported by CnEVPost and TechNode (citing Reuters).",
+          "published_at": "2026-11-05T09:47:00+08:00",
+          "tags": [
+            "Baidu",
+            "autonomous driving",
+            "robotaxi",
+            "world model",
+            "AI",
+            "China"
+          ],
+          "sources": [
+            {
+              "name": "CnEVPost",
+              "url": "https://cnevpost.com/2026/11/05/baidu-apollo-world-model-ai-teach-ai-to-drive/"
+            },
+            {
+              "name": "TechNode",
+              "url": "https://technode.com/2026/11/04/baidu-launches-apollo-world-model-to-train-robotaxis-in-simulated-environments/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "built-xiaomi-humanoid-8-hour-shift-2026-11-03",
+          "headline": "Xiaomi says its humanoid robots finished a full 8-hour shift in its EV factory",
+          "summary": "Xiaomi says its full-size humanoid robots worked a whole 8-hour shift sorting centre-console parts at its car factory, covering a full day of that workstation's output. Its video shows the robots fixing mistakes on their own, with a wheeled robot helping to pick up a dropped part. Xiaomi gave no success rate and did not say how the robots stayed charged.",
+          "why_it_matters": "A full shift is a step toward Xiaomi's goal of putting humanoid robots in its factories at scale within five years. The data so far is only what Xiaomi has released.",
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Electrek, based on Xiaomi's own video; no Xiaomi release found.",
+          "published_at": "2026-11-04T08:23:00-08:00",
+          "tags": [
+            "Xiaomi",
+            "robotics",
+            "humanoid",
+            "manufacturing",
+            "EV",
+            "China"
+          ],
+          "sources": [
+            {
+              "name": "Electrek",
+              "url": "https://electrek.co/2026/11/04/xiaomi-humanoid-robot-8-hour-shift-ev-factory/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "EUR",
+      "title": "Core CPI Flash Estimate y/y",
+      "date": "2026-11-04T05:00:00-05:00",
+      "impact": "Medium",
+      "actual": "2.5%",
+      "vs_forecast": "in_line",
+      "why": "Core inflation held at 2.5%, matching forecasts and September, while energy drove the headline rate up to 4.0%.",
+      "source": {
+        "name": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-04112026-ap"
+      }
+    },
+    {
+      "country": "EUR",
+      "title": "CPI Flash Estimate y/y",
+      "date": "2026-11-04T05:00:00-05:00",
+      "impact": "Medium",
+      "actual": "4.0%",
+      "vs_forecast": "in_line",
+      "why": "Headline inflation rose to 4.0%, a three-year high, in line with the Reuters poll; energy inflation was 20.8%.",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "ISM Services PMI",
+      "date": "2026-11-04T10:00:00-05:00",
+      "impact": "Medium",
+      "actual": "54.5",
+      "vs_forecast": "worse",
+      "why": "The October services PMI came in at 54.5, below estimates, although it still signals expansion.",
+      "source": {
+        "name": "ISM via PR Newswire",
+        "url": "https://www.prnewswire.com/news-releases/services-pmi-at-54-5-october-2026-ism-services-pmi-report-302928112.html"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-05",
+      "events": [
+        {
+          "text": "Bank of England rate decision (17:30 IST) and Governor Bailey's news conference",
+          "section": "currency"
+        },
+        {
+          "text": "Titan Company Q2 FY27 results",
+          "section": "markets"
+        },
+        {
+          "text": "US weekly jobless claims",
+          "section": "markets"
+        },
+        {
+          "text": "Canada federal budget",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "events": [
+        {
+          "text": "US October jobs report",
+          "section": "markets"
+        },
+        {
+          "text": "RBI weekly forex reserves data",
+          "section": "currency"
+        },
+        {
+          "text": "Canada October jobs data",
+          "section": "currency"
+        },
+        {
+          "text": "BOJ Governor Ueda speaks",
+          "section": "currency"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "events": [
+        {
+          "text": "New Zealand general election",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "events": [
+        {
+          "text": "Russia-Ukraine talks in Abu Dhabi (Nov 10-11)",
+          "section": "world"
+        }
+      ]
+    }
+  ]
+}
