@@ -1,42 +1,42 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-06-morning",
+  "edition_id": "2026-11-06-midday",
   "date": "2026-11-06",
-  "slot": "morning",
-  "title": "Friday Morning Edition",
-  "generated_at": "2026-11-06T07:55:00+05:30",
+  "slot": "midday",
+  "title": "Friday Midday Edition",
+  "generated_at": "2026-11-06T13:50:00+05:30",
   "snapshot": [
     {
       "id": "usdinr",
       "label": "USD/INR",
-      "value": "94.47",
-      "change": "-0.30%",
+      "value": "94.00",
+      "change": "-0.55%",
       "dir": "down",
-      "as_of": "2026-11-05T21:48:01+00:00",
+      "as_of": "2026-11-06T08:16:03+00:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/INR=X"
+        "url": "https://finance.yahoo.com/quote/INR%3DX"
       }
     },
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "106.01",
-      "change": "-0.14%",
+      "value": "105.17",
+      "change": "-0.94%",
       "dir": "down",
-      "as_of": "2026-11-05T22:14:25+00:00",
+      "as_of": "2026-11-06T08:16:05+00:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/EURINR=X"
+        "url": "https://finance.yahoo.com/quote/EURINR%3DX"
       }
     },
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "101.65",
-      "change": null,
-      "dir": "flat",
-      "as_of": "2026-11-06T01:56:11+00:00",
+      "value": "101.89",
+      "change": "+0.34%",
+      "dir": "up",
+      "as_of": "2026-11-06T08:06:03+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
@@ -57,10 +57,10 @@
     {
       "id": "nifty",
       "label": "Nifty 50",
-      "value": "24,536.60",
-      "change": "+2.40%",
+      "value": "24,803.75",
+      "change": "+1.09%",
       "dir": "up",
-      "as_of": "2026-11-05T10:01:16+00:00",
+      "as_of": "2026-11-06T08:16:04+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5ENSEI"
@@ -69,10 +69,10 @@
     {
       "id": "sensex",
       "label": "Sensex",
-      "value": "79,310.01",
-      "change": "+2.60%",
+      "value": "80,159.85",
+      "change": "+1.07%",
       "dir": "up",
-      "as_of": "2026-11-05T10:02:36+00:00",
+      "as_of": "2026-11-06T08:01:05+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EBSESN"
@@ -105,34 +105,34 @@
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$4,078.20",
-      "change": "-0.86%",
+      "value": "$4,066.30",
+      "change": "-1.15%",
       "dir": "down",
-      "as_of": "2026-11-06T01:56:08+00:00",
+      "as_of": "2026-11-06T08:06:04+00:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/GC=F"
+        "url": "https://finance.yahoo.com/quote/GC%3DF"
       }
     },
     {
       "id": "brent",
       "label": "Brent crude",
-      "value": "$99.36",
-      "change": "+1.09%",
+      "value": "$98.89",
+      "change": "+0.61%",
       "dir": "up",
-      "as_of": "2026-11-06T01:55:35+00:00",
+      "as_of": "2026-11-06T08:06:00+00:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/BZ=F"
+        "url": "https://finance.yahoo.com/quote/BZ%3DF"
       }
     },
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$75,992",
-      "change": "-5.5%",
+      "value": "$75,551",
+      "change": "-0.52%",
       "dir": "down",
-      "as_of": "2026-11-06T02:06:06+00:00",
+      "as_of": "2026-11-06T08:16:02+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BTC-USD"
@@ -157,130 +157,29 @@
       "title": "India",
       "stories": [
         {
-          "why_it_matters": "A short-range strike missile close to entering service adds to India's own defence capability and to orders for local defence makers.",
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio (citing Defence Ministry).",
-          "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/DRDO-successfully-tests-indigenously-developed-Pralay-missile-1.png",
-            "credit": "All India Radio",
-            "source_url": "https://newsonair.gov.in/drdo-successfully-tests-indigenously-developed-pralay-missile/",
-            "alt": "A Pralay missile lifts off from a mobile launcher truck in a cloud of smoke"
-          },
-          "impact": [
-            {
-              "on": "indian_stocks",
-              "detail": "Defence",
-              "level": "low",
-              "dir": "up",
-              "why": "A missile nearing induction points to future orders for defence suppliers."
-            }
-          ],
-          "tags": [
-            "DRDO",
-            "Pralay",
-            "defence",
-            "missile"
-          ],
-          "id": "india-pralay-test-2026-11-05",
-          "headline": "DRDO test-fires Pralay missile in user trials; induction now close, ministry says",
-          "summary": "DRDO flight-tested its home-built quasi-ballistic missile Pralay from Dr APJ Abdul Kalam Island off Odisha on Thursday. The Defence Ministry says all test goals were met as part of user evaluation trials with the armed forces present, and that the system's induction is now imminent.",
-          "importance": 3,
-          "published_at": "2026-11-05T21:24:00+05:30",
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/drdo-successfully-tests-indigenously-developed-pralay-missile/"
-            }
-          ]
-        },
-        {
+          "id": "india-passport-visa-exemptions-2026-11-06",
+          "headline": "Home Ministry widens passport and visa exemptions for some foreigners living in India",
+          "summary": "The Home Ministry has notified an amendment to the Immigration and Foreigners (Exemption) Order. It exempts persecuted Hindus, Sikhs, Buddhists, Jains, Parsis and Christians from Afghanistan, Bangladesh and Pakistan who arrived by 31 December 2024 from passport rules, though they still need a visa to stay. Registered Sri Lankan Tamils, Tibetans and some long-staying Pakistani nationals are also covered, and Indians travelling to Nepal or Bhutan can use listed ID instead of a passport.",
           "why_it_matters": null,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio (minister's remarks).",
-          "image": null,
-          "impact": [
-            {
-              "on": "indian_stocks",
-              "detail": "Power",
-              "level": "low",
-              "dir": "up",
-              "why": "Steady clean-energy investment supports power and renewable equipment firms."
-            }
-          ],
-          "tags": [
-            "renewables",
-            "energy",
-            "investment"
-          ],
-          "id": "india-renewable-investment-2026-11-06",
-          "headline": "Renewable investment to top $220 billion goal by 2030, says Pralhad Joshi",
-          "summary": "Energy minister Pralhad Joshi says India will beat its $220 billion investment target for adding 190 GW of clean power by 2030, after ₹7 lakh crore flowed into the sector in two years. He says non-fossil capacity now stands at 310 GW and the 500 GW target for 2030 will be met on time.",
           "importance": 2,
-          "published_at": "2026-11-06T06:15:00+05:30",
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/renewable-energy-investments-expected-to-exceed-220-bn-by-2030-says-pralhad-joshi/"
-            }
-          ]
-        },
-        {
-          "why_it_matters": null,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio (minister's remarks).",
-          "image": null,
-          "impact": [
-            {
-              "on": "indian_stocks",
-              "detail": "Metals",
-              "level": "low",
-              "dir": "mixed",
-              "why": "A common trading platform could change how coal and ore are priced and sold."
-            }
-          ],
-          "tags": [
-            "coal",
-            "mining",
-            "exchange"
-          ],
-          "id": "india-coal-mineral-exchange-2026-11-05",
-          "headline": "Coal and mineral exchanges to launch soon, says minister Kishan Reddy",
-          "summary": "Coal and Mines Minister G. Kishan Reddy says the Centre will soon launch exchanges for coal and minerals such as iron ore, bauxite, limestone and critical minerals, with about 90% of the groundwork done. He says states' income from non-coal mining has risen from about ₹13,000 crore in 2014-15 to over ₹70,000 crore.",
-          "importance": 2,
-          "published_at": "2026-11-06T06:26:00+05:30",
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/govt-calls-for-accelerated-coal-sector-reforms-to-strengthen-indias-energy-security/"
-            }
-          ]
-        },
-        {
-          "why_it_matters": null,
           "lead": false,
           "verified": false,
           "note": "Single source: All India Radio.",
-          "image": null,
-          "impact": [],
+          "published_at": "2026-11-06T08:20:00+05:30",
           "tags": [
-            "Supreme Court",
-            "UGC",
-            "education"
+            "immigration",
+            "passport",
+            "Home Ministry",
+            "refugees"
           ],
-          "id": "india-ugc-equity-panel-2026-11-05",
-          "headline": "Centre tells Supreme Court it will set up panel to review UGC equity rules",
-          "summary": "The government told the Supreme Court it is forming a special committee to review the UGC's 2026 rules against caste discrimination on campuses, which the court had stayed. The bench under Chief Justice Surya Kant said all students' interests must be protected and adjourned the case for four weeks.",
-          "importance": 2,
-          "published_at": "2026-11-05T21:23:00+05:30",
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/centre-sets-up-panel-to-review-ugcs-2026-equity-regulations/"
+              "url": "https://newsonair.gov.in/govt-relaxes-passport-and-visa-rules-for-several-categories-of-foreign-nationals-residing-in-india/"
             }
-          ]
+          ],
+          "image": null,
+          "impact": []
         }
       ]
     },
@@ -289,156 +188,74 @@
       "title": "World",
       "stories": [
         {
-          "why_it_matters": "Any real progress towards ending the war could ease energy prices and sanctions risk worldwide.",
+          "id": "world-iran-rezaei-putin-2026-11-06",
+          "headline": "Iran's security chief meets Putin, says no talks with US until seven demands are met",
+          "summary": "Mohsen Rezaei, secretary of Iran's Supreme National Security Council, met Vladimir Putin in Moscow on Thursday and handed over a letter from Supreme Leader Mojtaba Khamenei. Rezaei says Tehran will not negotiate with Washington or reopen the Strait of Hormuz until the US meets Iran's seven conditions, which include lifting sanctions and releasing frozen assets. He says Putin repeated Russia's readiness to help end the war.",
+          "why_it_matters": "Iran's hard line keeps Hormuz shut and the risk of renewed US strikes alive, which keeps oil near $100 and pressures India's import bill.",
+          "importance": 4,
           "lead": false,
           "verified": true,
-          "note": "Meeting confirmed by both sources; the 'very close' view is Trump's own claim.",
-          "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aed076216140-1793918818.jpg",
-            "credit": "Alex Brandon/AP Photo",
-            "source_url": "https://www.aljazeera.com/news/2026/11/6/trump-met-russian-envoy-after-he-appeared-with-melania-trump-and-ukrainians",
-            "alt": "Donald Trump gestures while speaking in the Oval Office"
-          },
-          "impact": [
-            {
-              "on": "oil",
-              "level": "low",
-              "dir": "down",
-              "why": "Hopes of a Russia-Ukraine deal can ease supply worries for energy."
-            }
-          ],
+          "note": "Meeting confirmed by Al Jazeera and All India Radio; the conditions are Iran's own position.",
+          "published_at": "2026-11-06T02:48:19+00:00",
           "tags": [
+            "Iran",
             "Russia",
-            "Ukraine",
-            "Trump",
-            "peace talks"
+            "Hormuz",
+            "diplomacy"
           ],
-          "id": "world-trump-dmitriev-ukraine-deal-2026-11-05",
-          "headline": "Trump says Russia-Ukraine deal 'very close' after meeting Putin envoy Dmitriev",
-          "summary": "Trump met Kremlin envoy Kirill Dmitriev at the White House on Thursday and says a peace deal is near, one that could involve all of Europe; he gave no details. Dmitriev was in Washington for a meeting of Russian and Ukrainian officials hosted by Melania Trump to build on a short Kherson truce.",
-          "importance": 4,
-          "published_at": "2026-11-06T00:06:31+00:00",
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/6/trump-met-russian-envoy-after-he-appeared-with-melania-trump-and-ukrainians"
+              "url": "https://www.aljazeera.com/news/2026/11/6/irans-security-chief-meets-putin-delivers-message-from-khamenei"
             },
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/president-trump-says-peace-agreement-between-russia-and-ukraine-may-involve-whole-of-europe/"
+              "url": "https://newsonair.gov.in/iran-gives-nuke-proposal-to-us-with-seven-demands/"
             }
-          ]
-        },
-        {
-          "why_it_matters": "Fresh US threats keep oil near $100, which hurts India's import bill and the rupee.",
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera. Statements by Trump and Iran; no new attack confirmed.",
-          "image": null,
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6aed15d3ae53-1793922515_78291e-1793931257.jpg?resize=1200%2C630&quality=80",
+            "credit": "Alexey Babushkin/Pool via AFP",
+            "source_url": "https://www.aljazeera.com/news/2026/11/6/irans-security-chief-meets-putin-delivers-message-from-khamenei",
+            "alt": "Vladimir Putin greets Iran's security chief Mohsen Rezaei in Moscow"
+          },
           "impact": [
             {
               "on": "oil",
               "level": "medium",
               "dir": "up",
-              "why": "Threats of new US strikes raise the risk to Gulf oil supply."
+              "why": "Iran refuses to reopen Hormuz before its demands are met, keeping supply risk high."
+            }
+          ]
+        },
+        {
+          "id": "world-israel-eisenkot-majority-2026-11-05",
+          "headline": "Arab parties back Eisenkot, giving him 67 Knesset nominations to be Israel's PM",
+          "summary": "The Joint List and Ra'am told President Isaac Herzog they recommend Yashar party leader Gadi Eisenkot to form the next government, lifting his support to 67 of 120 lawmakers. Netanyahu's bloc holds 53 seats. Eisenkot had earlier ruled out Arab parties as coalition partners, and the nominee will have 28 days, plus a possible 14, to form a government.",
+          "why_it_matters": "It puts Benjamin Netanyahu on course to lose power, which could reshape Israel's war policy and Middle East diplomacy.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-05T14:15:52+00:00",
+          "tags": [
+            "Israel",
+            "election",
+            "Eisenkot",
+            "Netanyahu"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/5/joint-list-says-it-will-back-eisenkot-to-form-israels-next-government"
             },
             {
-              "on": "gold",
-              "level": "low",
-              "dir": "up",
-              "why": "War fears add to safe-haven demand."
-            }
-          ],
-          "tags": [
-            "Iran",
-            "US",
-            "Trump",
-            "war"
-          ],
-          "id": "world-trump-iran-destroy-threat-2026-11-06",
-          "headline": "Trump says US may have to 'destroy' the rest of Iran",
-          "summary": "Trump says the US may have to destroy what is left of Iran and that rebuilding would take 25 years, adding on social media that people will 'know soon enough'. He did not say what action he meant. Iran said on Thursday that states helping any US attack would be legitimate targets.",
-          "importance": 4,
-          "published_at": "2026-11-06T00:00:00+00:00",
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
-            }
-          ]
-        },
-        {
-          "why_it_matters": "A mutual-defence pact that includes Pakistan matters for India's security planning.",
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera.",
-          "image": null,
-          "impact": [],
-          "tags": [
-            "Turkiye",
-            "Pakistan",
-            "Saudi Arabia",
-            "defence"
-          ],
-          "id": "world-turkiye-mecca-pact-ratified-2026-11-05",
-          "headline": "Turkiye's parliament ratifies defence pact with Saudi Arabia and Pakistan",
-          "summary": "Turkish lawmakers approved the Mecca defence agreement with Saudi Arabia and Pakistan by 279 votes to 119 on Thursday. The 10-year pact says members must immediately help any member that is attacked, similar to NATO's Article 5.",
-          "importance": 3,
-          "published_at": "2026-11-06T00:15:22+00:00",
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/6/turkiyes-parliament-ratifies-mecca-defence-agreement"
-            }
-          ]
-        },
-        {
-          "why_it_matters": null,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio.",
-          "image": null,
-          "impact": [],
-          "tags": [
-            "Europe",
-            "aviation",
-            "security"
-          ],
-          "id": "world-europe-flight-bomb-threats-2026-11-05",
-          "headline": "Bomb threats hit more than a dozen passenger flights across Europe",
-          "summary": "More than a dozen flights in Europe got bomb threats on Thursday, forcing diversions and checks in France, Bulgaria, Poland, Romania, Belgium and the Czech Republic. An Aer Lingus jet was diverted to a French air base; no dangerous objects were reported found. EU air safety agency EASA says it is monitoring.",
-          "importance": 2,
-          "published_at": "2026-11-05T22:04:00+05:30",
-          "sources": [
-            {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/bomb-threats-target-more-than-a-dozen-flights-across-europe/"
+              "url": "https://newsonair.gov.in/israel-arab-parties-agree-to-back-yashar-party-leader-gadi-eisenkot-as-pm/"
             }
-          ]
-        },
-        {
-          "why_it_matters": null,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera.",
-          "image": null,
-          "impact": [],
-          "tags": [
-            "Paraguay",
-            "banking",
-            "politics"
           ],
-          "id": "world-paraguay-pena-resigns-2026-11-05",
-          "headline": "Paraguay's President Peña resigns after collapse of digital bank ueno",
-          "summary": "Santiago Peña quit on Thursday as calls for his removal grew over the failure of lender ueno, which left about 3 million customers locked out of their accounts. The central bank stepped in after finding ueno broke solvency rules; Vice President Pedro Alliana is set to take over.",
-          "importance": 2,
-          "published_at": "2026-11-05T17:08:19+00:00",
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/economy/2026/11/5/paraguay-president-pena-resigns-in-wake-of-bank-collapse"
-            }
-          ]
+          "image": null,
+          "impact": []
         }
       ]
     },
@@ -447,82 +264,49 @@
       "title": "Currency Desk",
       "stories": [
         {
-          "why_it_matters": "A strong jobs number would raise Fed hike bets and could pressure the rupee and foreign flows into India.",
+          "id": "currency-rupee-six-month-high-2026-11-06",
+          "headline": "Rupee climbs to six-month high near 94 per dollar on foreign inflows",
+          "summary": "The rupee opened weaker at 94.50 but turned around to trade near 94.00 per dollar by early afternoon, its strongest level in about six months, after closing at 94.47 on Thursday. Dealers credit heavy foreign buying of Indian shares, after foreign investors bought about ₹14,975 crore of stocks on Thursday. The dollar index was up about 0.3% near 101.9 ahead of tonight's US jobs report.",
+          "why_it_matters": "A firmer rupee eases the cost of oil and other imports and signals foreign money is returning to India.",
+          "importance": 4,
           "lead": false,
           "verified": true,
-          "note": "Dollar index level from Yahoo Finance data; jobs forecast and FedWatch odds from CNBC.",
+          "note": "Intraday high reported as 94.06 by Business Standard and about 94.08 by FXStreet; level near 94.00 from Yahoo Finance at 1:46 PM IST.",
+          "published_at": "2026-11-06T00:00:00+05:30",
+          "tags": [
+            "rupee",
+            "dollar",
+            "FII",
+            "forex"
+          ],
+          "sources": [
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/amp/markets/news/rupee-hits-over-6-month-high-of-94-06-as-us-dollar-softens-post-midterms-126110600788_1.html"
+            },
+            {
+              "name": "ETV Bharat (PTI)",
+              "url": "https://www.etvbharat.com/en/business/rupee-vs-us-dollar-exchange-rate-on-november-6-2026-enn26110601035"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/rupee-rises-18-paise-against-us-dollar/"
+            }
+          ],
           "image": null,
           "impact": [
-            {
-              "on": "currency",
-              "detail": "Dollar",
-              "level": "medium",
-              "dir": "mixed",
-              "why": "The jobs report will steer Fed hike bets and the dollar's next move."
-            },
             {
               "on": "rupee",
-              "level": "medium",
-              "dir": "mixed",
-              "why": "A risk-off mood and Fed hike odds can weigh on the rupee."
-            }
-          ],
-          "tags": [
-            "dollar",
-            "Fed",
-            "US jobs",
-            "rupee"
-          ],
-          "id": "currency-dollar-jobs-fed-hike-2026-11-06",
-          "headline": "Dollar steady near 101.6 before US jobs data; markets see 70% chance of Fed hike",
-          "summary": "The dollar index held near 101.6 in Asian trade as investors waited for Friday's US October jobs report, where about 59,000 new jobs and 4.2% unemployment are expected, CNBC said. CME FedWatch shows about a 70% chance of a quarter-point Fed rate rise on 9 December. The rupee last closed at 94.47 per dollar.",
-          "importance": 4,
-          "published_at": "2026-11-05T20:54:00-05:00",
-          "sources": [
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
-            }
-          ]
-        },
-        {
-          "why_it_matters": null,
-          "lead": false,
-          "verified": false,
-          "note": "Single source each: Bank of Canada (Macklem); CTV News (budget figure).",
-          "image": null,
-          "impact": [
-            {
-              "on": "currency",
-              "detail": "Canadian dollar",
-              "level": "low",
+              "level": "high",
               "dir": "up",
-              "why": "Signals of further hikes support the Canadian dollar."
-            }
-          ],
-          "tags": [
-            "Canada",
-            "Bank of Canada",
-            "budget",
-            "CAD"
-          ],
-          "id": "currency-canada-boc-budget-2026-11-05",
-          "headline": "Bank of Canada's Macklem says more hikes may be needed; budget deficit at C$62.3bn",
-          "summary": "Bank of Canada Governor Tiff Macklem told senators the bank may need to raise rates further after last week's hike to 2.5%, but will move carefully, one meeting at a time. Hours later, Ottawa's budget put this year's deficit at C$62.3 billion, slightly below the spring estimate.",
-          "importance": 2,
-          "published_at": "2026-11-05T10:30:00-05:00",
-          "sources": [
-            {
-              "name": "Bank of Canada",
-              "url": "https://www.bankofcanada.ca/2026/11/opening-statement-standing-senate-committee-banking-commerce-and-economy-2026-11-05/"
+              "why": "Strong foreign equity inflows are adding dollar supply."
             },
             {
-              "name": "CTV News",
-              "url": "https://www.ctvnews.ca/politics/article/budget-2026-is-about-giving-canada-a-strong-footing-champagne/"
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "low",
+              "dir": "down",
+              "why": "A stronger rupee trims the value of IT exporters' dollar earnings."
             }
           ]
         }
@@ -533,93 +317,169 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "why_it_matters": "A global tech rout usually hits Indian IT stocks and foreign flows, so Indian markets may struggle to extend their six-day rally today.",
+          "id": "markets-india-shrugs-off-rout-2026-11-06",
+          "headline": "Sensex tops 80,000 as Indian stocks shrug off Asia's chip crash",
+          "summary": "The Sensex was up about 850 points, or 1.1%, near 80,160 and the Nifty up about 1.1% near 24,800 at 1:45 PM, even as Korea and Japan fell about 6%. Foreign investors bought about ₹14,975 crore of Indian shares on Thursday, while domestic funds sold about ₹10,444 crore. Private banks, consumer durables and pharma led; midcaps, smallcaps, capital goods and realty lagged.",
+          "why_it_matters": "India is acting as a haven as money rotates out of global AI and chip stocks, a shift that supports both the Nifty and the rupee.",
+          "importance": 5,
           "lead": true,
           "verified": true,
           "note": null,
+          "published_at": "2026-11-06T12:09:00+05:30",
+          "tags": [
+            "Sensex",
+            "Nifty",
+            "FII",
+            "Dhanteras"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/domestic-markets-trade-with-gains-in-forenoon-session/"
+            },
+            {
+              "name": "Business Standard",
+              "url": "https://business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+            },
+            {
+              "name": "ETV Bharat (PTI)",
+              "url": "https://www.etvbharat.com/en/business/rupee-vs-us-dollar-exchange-rate-on-november-6-2026-enn26110601035"
+            }
+          ],
           "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6aeca2851439-1793892997.jpg",
-            "credit": "Timothy A Clary/AFP",
-            "source_url": "https://www.aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets",
-            "alt": "A trader watches screens full of red market charts on a trading floor"
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/21.jpg",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/domestic-markets-trade-with-gains-in-forenoon-session/",
+            "alt": "The Bombay Stock Exchange tower in Mumbai seen through trees"
           },
           "impact": [
             {
-              "on": "us_stocks",
-              "detail": "Tech",
-              "level": "high",
-              "dir": "down",
-              "why": "Fears of curbs on data centres are hitting AI and chip valuations."
-            },
-            {
               "on": "indian_stocks",
-              "detail": "IT",
+              "detail": "Banks",
               "level": "high",
-              "dir": "down",
-              "why": "A global tech sell-off tends to drag Indian IT shares and foreign flows."
+              "dir": "up",
+              "why": "Record-sized foreign buying is flowing into large caps, led by private banks."
             },
             {
-              "on": "crypto",
+              "on": "rupee",
               "level": "medium",
-              "dir": "down",
-              "why": "Bitcoin fell about 5% as risk appetite collapsed."
-            }
-          ],
-          "tags": [
-            "Wall Street",
-            "Nasdaq",
-            "AI",
-            "chips"
-          ],
-          "id": "markets-wall-street-ai-rout-2026-11-05",
-          "headline": "Wall Street's worst day since April 2025: Nasdaq sinks 5.5% on AI sell-off",
-          "summary": "The Nasdaq fell 5.5% to 24,315 and into correction, the S&P 500 lost 4.4% to 7,354 and the Dow dropped 1,833 points, or 3.4%. Chip and AI stocks led: Micron and AMD fell about 17%, Broadcom about 10% and Nvidia about 9%, on fears a Democratic Congress will slow data centre building. The VIX fear gauge touched 28.",
-          "importance": 5,
-          "published_at": "2026-11-05T16:18:00-05:00",
-          "sources": [
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
-            },
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets"
+              "dir": "up",
+              "why": "Foreign equity inflows add dollar supply."
             }
           ]
         },
         {
-          "why_it_matters": "The rout reaching Asia raises the risk of heavy foreign selling across emerging markets, including India.",
+          "id": "markets-asia-close-rout-2026-11-06",
+          "headline": "Asia closes deep in red: Kospi down 6% to 5,060, Nikkei down 6% to 57,435",
+          "summary": "Update: Korea's Kospi ended about 6% lower at 5,059.69 after a trading halt and a brief dip below 5,000, and Japan's Nikkei closed down 5.96% at 57,434.77, deep in a bear market. Chip makers such as SK Hynix, Samsung and Kioxia led the losses after Wall Street's AI sell-off. Hong Kong's Hang Seng fell a milder 1.2%.",
+          "why_it_matters": null,
+          "importance": 3,
           "lead": false,
-          "verified": false,
-          "note": "Single source: CNBC (live coverage).",
-          "image": null,
-          "impact": [
-            {
-              "on": "indian_stocks",
-              "level": "high",
-              "dir": "down",
-              "why": "A deep Asian sell-off points to a weak open for Indian shares."
-            }
-          ],
+          "verified": true,
+          "note": "Closing levels from KED Global and Yahoo Finance; earlier intraday report from CNBC.",
+          "published_at": "2026-11-06T00:00:00+09:00",
           "tags": [
-            "Asia",
             "Kospi",
             "Nikkei",
-            "chips"
+            "chips",
+            "Asia"
           ],
-          "id": "markets-asia-chip-crash-2026-11-06",
-          "headline": "Asia follows: Kospi plunges over 8% with trading halt, Nikkei enters bear market",
-          "summary": "South Korea's Kospi fell more than 8% below 5,000 on Friday, triggering a 20-minute trading halt, and Japan's Nikkei slid about 6% into a bear market, CNBC reported. Chip makers led the fall: SoftBank lost 11.6%, TSMC 9.6%, SK Hynix over 8% and Samsung 7%.",
-          "importance": 5,
-          "published_at": "2026-11-05T20:54:00-05:00",
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+              "name": "KED Global",
+              "url": "https://www.kedglobal.com/korean-stock-market/newsView/ked202611060003"
             },
             {
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5EN225"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "medium",
+              "dir": "down",
+              "why": "The chip sell-off keeps spreading across markets."
+            }
+          ]
+        },
+        {
+          "id": "markets-gold-dhanteras-dip-2026-11-06",
+          "headline": "Gold falls about ₹2,000 on MCX on Dhanteras as dollar firms",
+          "summary": "MCX December gold fell roughly ₹2,000 to around ₹1.42 lakh per 10 grams on Friday, Dhanteras, with silver down about ₹3,000 per kg. Comex gold slipped about 1.3% to near $4,060 an ounce on profit-taking and a firmer dollar ahead of US jobs data.",
+          "why_it_matters": "Lower prices on Dhanteras, a top day for gold buying in India, could lift festive jewellery demand.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "Intraday levels vary by report time.",
+          "published_at": "2026-11-06T00:00:00+05:30",
+          "tags": [
+            "gold",
+            "silver",
+            "MCX",
+            "Dhanteras"
+          ],
+          "sources": [
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/amp/markets/commodities/gold-silver-turn-cheaper-on-dhanteras-amid-profit-booking-firm-dollar-126110600509_1.html"
+            },
+            {
+              "name": "Business Today",
+              "url": "https://www.businesstoday.in/personal-finance/news/story/gold-price-crashes-rs-2000-silver-down-by-rs-3000-on-dhanteras-2026-time-to-buy-566102-2026-11-06"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "gold",
+              "level": "medium",
+              "dir": "down",
+              "why": "Profit-taking and a firmer dollar weigh on prices."
+            },
+            {
+              "on": "silver",
+              "level": "medium",
+              "dir": "down",
+              "why": "Silver is falling with gold."
+            }
+          ]
+        },
+        {
+          "id": "markets-oil-iran-risk-2026-11-06",
+          "headline": "Brent hovers near $100 as analysts weigh renewed US-Iran fighting",
+          "summary": "Brent rose about 1.7% to near $99.90 and US crude to about $91.70 in Asian trade, CNBC said. Rapidan Energy's Bob McNally put the odds of renewed fighting at 80% now that the US midterms are over, while Iran reported three more tanker attacks in the Strait of Hormuz on Thursday. Brent was near $98.90 by early afternoon in India.",
+          "why_it_matters": "Oil near $100 raises India's import bill and keeps pressure on inflation.",
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: CNBC. Tanker attacks are Iran's report; not independently confirmed.",
+          "published_at": "2026-11-06T00:06:00-05:00",
+          "tags": [
+            "oil",
+            "Brent",
+            "Iran",
+            "Hormuz"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "Risk of renewed US-Iran fighting adds a supply premium."
             }
           ]
         }
@@ -628,7 +488,74 @@
     {
       "id": "built",
       "title": "Built This Week",
-      "stories": []
+      "stories": [
+        {
+          "id": "built-jnj-rybrevant-head-neck-2026-11-05",
+          "headline": "FDA approves J&J's Rybrevant Faspro for advanced head and neck cancer",
+          "summary": "The US FDA granted accelerated approval to Johnson & Johnson's under-the-skin amivantamab, Rybrevant Faspro, for head and neck squamous cell cancer that has come back or spread after chemotherapy and immunotherapy. In a 102-patient trial, 42% of patients responded, and over half of those responses lasted six months or more. It is not approved for HPV-linked throat cancer.",
+          "why_it_matters": "Patients with this cancer have few options once standard treatments fail.",
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: US FDA.",
+          "published_at": "2026-11-05T00:00:00-05:00",
+          "tags": [
+            "pharma",
+            "cancer",
+            "FDA",
+            "J&J"
+          ],
+          "sources": [
+            {
+              "name": "US FDA",
+              "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-amivantamab-and-hyaluronidase-lpuj-recurrent-or-metastatic-head-and"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Johnson & Johnson",
+              "level": "low",
+              "dir": "up",
+              "why": "A new approved use widens the cancer drug's market."
+            }
+          ]
+        },
+        {
+          "id": "built-grse-amini-asw-craft-2026-11-06",
+          "headline": "GRSE delivers home-built anti-submarine warship Amini to the Navy",
+          "summary": "Garden Reach Shipbuilders and Engineers of Kolkata has handed the Navy Amini, an anti-submarine shallow water craft it designed and built. The waterjet-driven ship carries lightweight torpedoes, Indian-made rocket launchers and sonars, and can also lay mines and watch the coast. More than 80% of it is made in India.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-06T12:40:00+05:30",
+          "tags": [
+            "defence",
+            "Navy",
+            "shipbuilding",
+            "GRSE"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/indigenous-anti-submarine-amini-inducted-into-indian-navy-to-strengthen-coastal-surveillance/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "GRSE",
+              "level": "low",
+              "dir": "up",
+              "why": "Another on-schedule warship delivery supports its order execution."
+            }
+          ]
+        }
+      ]
     }
   ],
   "weekend_special": null,
@@ -709,32 +636,6 @@
       "source": {
         "name": "US Department of Labor",
         "url": "https://www.dol.gov/ui/data.pdf"
-      }
-    },
-    {
-      "country": "CAD",
-      "title": "BOC Gov Macklem Speaks",
-      "date": "2026-11-05T10:30:00-05:00",
-      "impact": "Medium",
-      "actual": "Hawkish",
-      "vs_forecast": "better",
-      "why": "Macklem said rates may need to rise further after the hike to 2.5%, while moving carefully; supportive for the Canadian dollar.",
-      "source": {
-        "name": "Bank of Canada",
-        "url": "https://www.bankofcanada.ca/2026/11/opening-statement-standing-senate-committee-banking-commerce-and-economy-2026-11-05/"
-      }
-    },
-    {
-      "country": "CAD",
-      "title": "Annual Budget Release",
-      "date": "2026-11-05T16:00:00-05:00",
-      "impact": "Medium",
-      "actual": "C$62.3B deficit",
-      "vs_forecast": "no_forecast",
-      "why": "The deficit came in a little below the spring estimate of C$65.3B, a mild positive for the Canadian dollar.",
-      "source": {
-        "name": "CTV News",
-        "url": "https://www.ctvnews.ca/politics/article/budget-2026-is-about-giving-canada-a-strong-footing-champagne/"
       }
     },
     {
