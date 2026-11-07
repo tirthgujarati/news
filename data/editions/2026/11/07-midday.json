@@ -1,0 +1,636 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-07-midday",
+  "date": "2026-11-07",
+  "slot": "midday",
+  "title": "Saturday Midday Edition",
+  "generated_at": "2026-11-07T13:43:12+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "93.90",
+      "change": "-0.60%",
+      "dir": "down",
+      "as_of": "2026-11-06T21:36:46+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/INR%3DX"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "104.66",
+      "change": "-1.26%",
+      "dir": "down",
+      "as_of": "2026-11-06T22:04:28+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR%3DX"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "102.28",
+      "change": "+0.72%",
+      "dir": "up",
+      "as_of": "2026-11-06T21:59:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India FX reserves",
+      "value": "$717.06bn",
+      "change": "-0.37%",
+      "dir": "down",
+      "as_of": "2026-10-30T00:00:00+05:30",
+      "source": {
+        "name": "RBI Weekly Statistical Supplement",
+        "url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63939"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,030.35",
+      "change": "+2.01%",
+      "dir": "up",
+      "as_of": "2026-11-06T10:01:22+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "81,028.02",
+      "change": "+2.17%",
+      "dir": "up",
+      "as_of": "2026-11-06T10:02:33+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,376.86",
+      "change": "+0.31%",
+      "dir": "up",
+      "as_of": "2026-11-06T21:37:09+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "24,579.42",
+      "change": "+1.09%",
+      "dir": "up",
+      "as_of": "2026-11-06T22:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$4,074.90",
+      "change": "-0.94%",
+      "dir": "down",
+      "as_of": "2026-11-06T21:59:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/GC%3DF"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$98.32",
+      "change": "+0.03%",
+      "dir": "up",
+      "as_of": "2026-11-06T21:59:44+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ%3DF"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$76,008",
+      "change": "+0.34%",
+      "dir": "up",
+      "as_of": "2026-11-07T08:09:37+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.86%",
+      "change": "+0.45%",
+      "dir": "up",
+      "as_of": "2026-11-06T19:59:56+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "why_it_matters": "It gives Indian scientists and startups direct access to one of the world's largest pools of research money.",
+          "lead": false,
+          "note": null,
+          "image": null,
+          "impact": [],
+          "id": "india-horizon-europe-association-2026-11-06",
+          "headline": "India and EU finish talks for India to join the €93.5bn Horizon Europe research fund",
+          "summary": "India and the European Union have concluded negotiations on India's association with Horizon Europe, the EU's €93.5 billion research and innovation programme, the European Commission announced. Indian researchers, firms and labs will be able to get EU grants directly and lead joint projects in areas such as health, AI, digital, space, climate and energy. The deal still has to be signed and ratified; it is meant to take effect in January 2027.",
+          "importance": 3,
+          "verified": true,
+          "published_at": "2026-11-06T19:07:16+05:30",
+          "tags": [
+            "research",
+            "EU",
+            "Horizon Europe",
+            "science"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/india-eu-conclude-talks-on-93-5-billion-euro-research-programme/"
+            },
+            {
+              "name": "The Tribune",
+              "url": "https://www.tribuneindia.com/news/world/eu-and-india-conclude-negotiations-on-eur-93-5-billion-horizon-europe-programme"
+            },
+            {
+              "name": "Times Higher Education",
+              "url": "https://www.timeshighereducation.com/news/india-set-join-horizon-europe-january-2027"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "why_it_matters": "Fresh fighting at the mouth of the Gulf keeps oil, the rupee and Indian fuel costs exposed to any slip in the talks.",
+          "lead": true,
+          "note": "Single source: Al Jazeera (with AP). Trump's claim of progress in talks and Iran's drone claim are not independently confirmed.",
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6aee8e25881e-1794018853.jpg?resize=1920%2C1440",
+            "credit": "Alex Wroblewski/AFP",
+            "source_url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island",
+            "alt": "Donald Trump in a USA cap speaks to reporters on the tarmac at night in West Palm Beach"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "mixed",
+              "why": "New strikes near Hormuz add supply risk, but talk of a deal could calm prices."
+            },
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "mixed",
+              "why": "The rupee tracks oil; any jump in crude on Monday would weigh on it."
+            }
+          ],
+          "id": "world-qatar-us-iran-deal-qeshm-2026-11-07",
+          "headline": "Trump confirms 'minor' US strikes on Iran's Qeshm Island, says talks are progressing",
+          "summary": "Update: Donald Trump confirmed that US forces hit Iranian air defences on Qeshm Island in the Strait of Hormuz on Friday, calling them minor strikes on a newly built anti-aircraft site. He says the US has made a lot of progress in talks and that Iran wants a deal. Iran's army says it shot down a US MQ-9 drone over the island; US Central Command called the situation relatively calm. Qatar on Saturday rejected reports that the US-Iran talks had failed.",
+          "importance": 5,
+          "verified": false,
+          "published_at": "2026-11-07T03:53:01+00:00",
+          "tags": [
+            "Iran",
+            "US",
+            "Strait of Hormuz",
+            "Qatar"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": "Preliminary count; figures will change as more votes are counted.",
+          "image": null,
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "NZ dollar",
+              "level": "low",
+              "dir": "mixed",
+              "why": "A hung result could mean weeks of coalition talks and some uncertainty for the kiwi."
+            }
+          ],
+          "id": "world-nz-election-2026-11-07",
+          "headline": "New Zealand election too close to call as National and Labour run neck and neck",
+          "summary": "With about 36% of voting places counted on election night, Labour had 29.8% of the party vote and Luxon's governing National Party 29.4%, though National led on seats, 42 to 36. The Greens had 14%, ACT 10.6%, NZ First 9.4%, and the new Opportunity Party 5.4%, enough to enter parliament. No one has claimed victory; official results are due on November 27.",
+          "importance": 3,
+          "verified": true,
+          "published_at": "2026-11-07T06:20:27+00:00",
+          "tags": [
+            "New Zealand",
+            "election",
+            "Luxon",
+            "Hipkins"
+          ],
+          "sources": [
+            {
+              "name": "RNZ",
+              "url": "https://www.rnz.co.nz/news/election-2026-results"
+            },
+            {
+              "name": "ABC News (Australia)",
+              "url": "https://www.abc.net.au/news/2026-11-07/nz-election-2026-live-blog/107355448"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/7/governing-party-leads-in-new-zealands-knife-edge-vote-early-results"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": "Single source: Al Jazeera (with AP and Reuters).",
+          "image": null,
+          "impact": [],
+          "id": "world-russia-kyiv-missile-2026-11-07",
+          "headline": "Russia fires ballistic missiles at Kyiv; two hurt, homes and kindergarten damaged",
+          "summary": "Russia attacked Kyiv with ballistic missiles on Saturday, Mayor Vitali Klitschko said, after President Zelenskyy warned that new strikes on energy sites and bridges were coming. Debris hit a five-storey apartment block in a western district, and the city says two people were hurt and a kindergarten building was damaged. The attack comes days before planned Russia-Ukraine talks in Abu Dhabi.",
+          "importance": 3,
+          "verified": false,
+          "published_at": "2026-11-07T05:11:03+00:00",
+          "tags": [
+            "Russia",
+            "Ukraine",
+            "Kyiv"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": "Single source: Al Jazeera (with Reuters). Claims by the US Treasury.",
+          "image": null,
+          "impact": [],
+          "id": "world-us-sanctions-canada-exchange-iran-2026-11-07",
+          "headline": "US sanctions eight Canadian currency exchange firms it says helped Iran dodge sanctions",
+          "summary": "The US Treasury says eight money exchange businesses in Ontario and British Columbia helped Iranian entities get around sanctions, some by turning rials into crypto, and handled money for an alleged drug ring leader. The action is part of its 'Operation Economic Outcast' campaign against Iran's finances.",
+          "importance": 2,
+          "verified": false,
+          "published_at": "2026-11-07T04:50:46+00:00",
+          "tags": [
+            "sanctions",
+            "Iran",
+            "Canada",
+            "US Treasury"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": []
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "why_it_matters": "A rally this sharp sets a strong mood for Diwali, but much of it came in a few days and may be tested when oil moves.",
+          "lead": false,
+          "note": null,
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Banks",
+              "level": "medium",
+              "dir": "up",
+              "why": "Banks led the week's rally and carry the momentum into Sunday's Muhurat session."
+            }
+          ],
+          "id": "markets-india-best-week-since-2021-2026-11-06",
+          "headline": "Sensex and Nifty jump nearly 9% in their best week since February 2021",
+          "summary": "Indian shares are shut today. Over the week the Sensex rose 6,568 points, or 8.8%, to 81,028 and the Nifty gained 1,977 points, or 8.6%, to 25,030, after seven straight days of gains led by banks, foreign buying and lower oil. Both indices are still about 4 to 5% lower for the year. Markets open for a one-hour Diwali Muhurat session on Sunday, 2:20 to 3:30 PM.",
+          "importance": 4,
+          "verified": true,
+          "published_at": "2026-11-06T00:00:00+05:30",
+          "tags": [
+            "Sensex",
+            "Nifty",
+            "weekly",
+            "Muhurat"
+          ],
+          "sources": [
+            {
+              "name": "Zee Business",
+              "url": "https://www.zeebiz.com/market-news/news-weekly-market-wrap-sensex-nifty-surge-nearly-9-best-weekly-rally-since-feb-2021-rs-2870-lakh-crore-added-muhurat-trading-in-focus-405246"
+            },
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5ENSEI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": "Single source: IBM.",
+          "image": {
+            "url": "https://newsroom.ibm.com/image/IBM-Quantum-System-Two+Chicago+1_1920x1080.jpg",
+            "credit": "IBM",
+            "source_url": "https://newsroom.ibm.com/2026-11-06-ibm-unveils-its-most-advanced-quantum-computer-in-chicago,-marking-a-milestone-for-illinoiss-quantum-future",
+            "alt": "The silver IBM Quantum System Two cabinets with its cryogenic enclosure in a glass-walled lab"
+          },
+          "impact": [],
+          "id": "built-ibm-quantum-chicago-2026-11-06",
+          "headline": "IBM switches on its most advanced quantum computer in Chicago",
+          "summary": "IBM unveiled an IBM Quantum System Two in Chicago, its first quantum computer in Illinois, running on its Nighthawk chip, the most powerful quantum processor it has built. The machine sits at the University of Chicago's Hyde Park Labs for now and will move to the Illinois Quantum and Microelectronics Park once that campus is built.",
+          "importance": 3,
+          "verified": false,
+          "published_at": "2026-11-06T00:00:00-06:00",
+          "tags": [
+            "quantum computing",
+            "IBM",
+            "chips"
+          ],
+          "sources": [
+            {
+              "name": "IBM Newsroom",
+              "url": "https://newsroom.ibm.com/2026-11-06-ibm-unveils-its-most-advanced-quantum-computer-in-chicago,-marking-a-milestone-for-illinoiss-quantum-future"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "CAD",
+      "title": "Employment Change",
+      "date": "2026-11-06T08:30:00-05:00",
+      "impact": "High",
+      "actual": "-4.7K",
+      "vs_forecast": "worse",
+      "why": "Canada lost jobs when a 14,600 gain was expected, which weighs on the Canadian dollar.",
+      "source": {
+        "name": "Statistics Canada",
+        "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261106/dq261106a-eng.htm"
+      }
+    },
+    {
+      "country": "CAD",
+      "title": "Unemployment Rate",
+      "date": "2026-11-06T08:30:00-05:00",
+      "impact": "High",
+      "actual": "6.7%",
+      "vs_forecast": "worse",
+      "why": "Unemployment rose to 6.7% against a 6.5% forecast, a weak sign for the Canadian dollar.",
+      "source": {
+        "name": "Statistics Canada",
+        "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261106/dq261106a-eng.htm"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "Average Hourly Earnings m/m",
+      "date": "2026-11-06T08:30:00-05:00",
+      "impact": "High",
+      "actual": "0.4%",
+      "vs_forecast": "better",
+      "why": "Pay rose faster than the 0.3% forecast, keeping inflation risk and Fed hike bets alive.",
+      "source": {
+        "name": "US Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "Non-Farm Employment Change",
+      "date": "2026-11-06T08:30:00-05:00",
+      "impact": "High",
+      "actual": "165K",
+      "vs_forecast": "better",
+      "why": "Hiring far beat the 65,000 forecast, lifting the dollar and Treasury yields.",
+      "source": {
+        "name": "US Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "Unemployment Rate",
+      "date": "2026-11-06T08:30:00-05:00",
+      "impact": "High",
+      "actual": "4.1%",
+      "vs_forecast": "better",
+      "why": "The jobless rate dipped below the 4.2% forecast, a sign of a firm job market.",
+      "source": {
+        "name": "US Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+      }
+    },
+    {
+      "country": "CAD",
+      "title": "Ivey PMI",
+      "date": "2026-11-06T10:00:00-05:00",
+      "impact": "Medium",
+      "actual": "58.3",
+      "vs_forecast": "better",
+      "why": "Purchasing activity edged up to 58.3, above the 57.7 forecast, a small support for the Canadian dollar.",
+      "source": {
+        "name": "Ivey PMI (Western University)",
+        "url": "https://iveypmi.uwo.ca/"
+      }
+    },
+    {
+      "country": "CAD",
+      "title": "Ivey PMI",
+      "date": "2026-11-06T10:00:00-05:00",
+      "impact": "Medium",
+      "actual": "58.3",
+      "vs_forecast": "better",
+      "why": "Purchasing activity edged up to 58.3, above the 57.7 forecast, a small support for the Canadian dollar.",
+      "source": {
+        "name": "Ivey PMI (Western University)",
+        "url": "https://iveypmi.uwo.ca/"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "Prelim UoM Consumer Sentiment",
+      "date": "2026-11-06T10:00:00-05:00",
+      "impact": "Medium",
+      "actual": "51.0",
+      "vs_forecast": "better",
+      "why": "Sentiment rose more than the 48.1 forecast, a mild support for the dollar.",
+      "source": {
+        "name": "University of Michigan",
+        "url": "https://www.sca.isr.umich.edu/"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "Prelim UoM Inflation Expectations",
+      "date": "2026-11-06T10:00:00-05:00",
+      "impact": "Medium",
+      "actual": "4.3%",
+      "vs_forecast": "no_forecast",
+      "why": "Year-ahead inflation expectations eased from 4.7%, slightly easing pressure on the Fed.",
+      "source": {
+        "name": "University of Michigan",
+        "url": "https://www.sca.isr.umich.edu/"
+      }
+    },
+    {
+      "country": "JPY",
+      "title": "BOJ Gov Ueda Speaks",
+      "date": "2026-11-06T11:00:00-05:00",
+      "impact": "High",
+      "actual": "Neutral",
+      "vs_forecast": "in_line",
+      "why": "Ueda said inflation is at 2% but it is unclear how long it will last, giving no new hint on the next hike.",
+      "source": {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-06/boj-s-ueda-says-unclear-how-long-2-inflation-rate-will-remain"
+      }
+    },
+    {
+      "country": "JPY",
+      "title": "BOJ Gov Ueda Speaks",
+      "date": "2026-11-06T11:00:00-05:00",
+      "impact": "High",
+      "actual": "Neutral",
+      "vs_forecast": "in_line",
+      "why": "Ueda said inflation is at 2% but it is unclear how long it will last, giving no new hint on the next hike.",
+      "source": {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-06/boj-s-ueda-says-unclear-how-long-2-inflation-rate-will-remain"
+      }
+    },
+    {
+      "country": "NZD",
+      "title": "Parliamentary Elections",
+      "date": "2026-11-06T16:45:00-05:00",
+      "impact": "High",
+      "actual": "Too close to call",
+      "vs_forecast": "no_forecast",
+      "why": "Early count shows National and Labour level; possible weeks of coalition talks may keep the NZ dollar unsettled.",
+      "source": {
+        "name": "RNZ",
+        "url": "https://www.rnz.co.nz/news/election-2026-results"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-07",
+      "events": [
+        {
+          "text": "New Zealand general election",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "events": [
+        {
+          "text": "Diwali Muhurat trading on NSE and BSE, 2:20-3:30 PM IST",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "events": [
+        {
+          "text": "RBI 4-day variable rate repo auction",
+          "section": "currency"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "events": [
+        {
+          "text": "Russia-Ukraine talks in Abu Dhabi (Nov 10-11)",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "events": [
+        {
+          "text": "BOJ board member Toichiro Asada speaks",
+          "section": "currency"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "events": [
+        {
+          "text": "RBI weekly forex reserves data",
+          "section": "currency"
+        }
+      ]
+    }
+  ]
+}
