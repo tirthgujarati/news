@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-06-evening",
-  "date": "2026-11-06",
-  "slot": "evening",
-  "title": "Friday Evening Edition",
-  "generated_at": "2026-11-06T20:53:03+05:30",
+  "edition_id": "2026-11-07-morning",
+  "date": "2026-11-07",
+  "slot": "morning",
+  "title": "Saturday Morning Edition",
+  "generated_at": "2026-11-07T07:42:46+05:30",
   "snapshot": [
     {
       "id": "usdinr",
@@ -12,7 +12,7 @@
       "value": "93.90",
       "change": "-0.60%",
       "dir": "down",
-      "as_of": "2026-11-06T14:48:23+00:00",
+      "as_of": "2026-11-06T21:36:46+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/INR%3DX"
@@ -21,10 +21,10 @@
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "104.79",
-      "change": "-1.15%",
+      "value": "104.66",
+      "change": "-1.26%",
       "dir": "down",
-      "as_of": "2026-11-06T15:14:29+00:00",
+      "as_of": "2026-11-06T22:04:28+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURINR%3DX"
@@ -33,10 +33,10 @@
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "102.15",
-      "change": "+0.59%",
+      "value": "102.28",
+      "change": "+0.72%",
       "dir": "up",
-      "as_of": "2026-11-06T15:10:53+00:00",
+      "as_of": "2026-11-06T21:59:59+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
@@ -81,10 +81,10 @@
     {
       "id": "spx",
       "label": "S&P 500",
-      "value": "7,427.13",
-      "change": "+1.00%",
+      "value": "7,376.86",
+      "change": "+0.31%",
       "dir": "up",
-      "as_of": "2026-11-06T15:20:54+00:00",
+      "as_of": "2026-11-06T21:37:09+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EGSPC"
@@ -93,10 +93,10 @@
     {
       "id": "nasdaq",
       "label": "Nasdaq",
-      "value": "24,731.79",
-      "change": "+1.71%",
+      "value": "24,579.42",
+      "change": "+1.09%",
       "dir": "up",
-      "as_of": "2026-11-06T15:20:43+00:00",
+      "as_of": "2026-11-06T22:15:59+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EIXIC"
@@ -105,10 +105,10 @@
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$4,062.40",
-      "change": "-1.24%",
+      "value": "$4,079.50",
+      "change": "-0.83%",
       "dir": "down",
-      "as_of": "2026-11-06T15:10:47+00:00",
+      "as_of": "2026-11-06T21:59:59+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/GC%3DF"
@@ -117,10 +117,10 @@
     {
       "id": "brent",
       "label": "Brent crude",
-      "value": "$97.91",
-      "change": "-0.39%",
+      "value": "$97.76",
+      "change": "-0.54%",
       "dir": "down",
-      "as_of": "2026-11-06T15:10:54+00:00",
+      "as_of": "2026-11-06T21:59:44+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BZ%3DF"
@@ -129,10 +129,10 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$75,580",
-      "change": "-0.53%",
+      "value": "$75,977",
+      "change": "-0.11%",
       "dir": "down",
-      "as_of": "2026-11-06T15:20:51+00:00",
+      "as_of": "2026-11-07T02:11:20+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BTC-USD"
@@ -141,10 +141,10 @@
     {
       "id": "us10y",
       "label": "US 10Y yield",
-      "value": "4.87%",
-      "change": "+0.64%",
+      "value": "4.86%",
+      "change": "+0.45%",
       "dir": "up",
-      "as_of": "2026-11-06T15:05:46+00:00",
+      "as_of": "2026-11-06T19:59:56+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5ETNX"
@@ -157,66 +157,105 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-rice-stock-declaration-2026-11-06",
-          "headline": "Centre orders rice traders to declare stocks every Friday to curb hoarding",
-          "summary": "The Food and Consumer Affairs Ministry says all traders, wholesalers, big chain retailers and processors holding rice or paddy must post their stocks on the Food Stock Portal every Friday. Stock limits have been approved for Andhra Pradesh, Karnataka, Kerala, Tamil Nadu and Telangana until 31 January, and the rice target for open-market e-auctions in 2026-27 has been doubled to 50 lakh tonnes.",
-          "why_it_matters": "The move aims to keep rice prices in check, especially in southern states, and signals worry about food inflation.",
+          "id": "india-semicon-2-ecms-approvals-2026-11-06",
+          "headline": "Semicon 2.0 portal opens; 12 more component plants worth ₹7,503 crore approved",
+          "summary": "IT Minister Ashwini Vaishnaw opened the Semicon 2.0 application portal, taking applications for chip equipment and materials, new fabs and packaging units under the ₹1.27 lakh crore programme. MeitY also cleared 12 more projects under the Electronics Components Manufacturing Scheme, worth ₹7,503 crore, expected to make ₹39,045 crore of output and create 7,127 direct jobs in seven states. Products include multilayer PCBs, relays, copper foil, cathode material and specialty ceramics.",
+          "why_it_matters": "It pushes India beyond phone assembly into the parts and materials that go inside electronics and batteries.",
           "importance": 4,
           "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-06T19:12:00+05:30",
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-06T00:00:00+05:30",
           "tags": [
-            "food",
-            "rice",
-            "inflation"
+            "semiconductors",
+            "electronics",
+            "manufacturing",
+            "MeitY"
           ],
           "sources": [
             {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/centre-directs-entities-to-declare-stock-positions-of-rice-and-paddy/"
-            }
-          ],
-          "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/rice.png",
-            "credit": "All India Radio",
-            "source_url": "https://newsonair.gov.in/centre-directs-entities-to-declare-stock-positions-of-rice-and-paddy/",
-            "alt": "Workers piling harvested paddy at a grain market"
-          },
-          "impact": [
-            {
-              "on": "india_economy",
-              "level": "medium",
-              "dir": "down",
-              "why": "Wider stock limits and more open-market sales should ease rice prices and food inflation."
+              "name": "PIB",
+              "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333813"
             },
             {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/union-minister-ashwini-vaishnaw-launches-semicon-india-2-0-web-application-portal/"
+            },
+            {
+              "name": "IANS via TenNews",
+              "url": "https://tennews.in/govt-launches-semicon-2-0-portal-clears-12-more-electronics-component-projects-worth-rs-7503-crore/"
+            },
+            {
+              "name": "Dataquest",
+              "url": "https://www.dqindia.com/semiconductors/ashwini-vaishnaw-launches-semicon-20-web-application-portal-12790123"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
               "on": "indian_stocks",
-              "detail": "FMCG",
-              "level": "low",
-              "dir": "mixed",
-              "why": "Rice exporters and millers face tighter stock rules in five southern states."
+              "detail": "Electronics",
+              "level": "medium",
+              "dir": "up",
+              "why": "New subsidy approvals and an open chip-project window support electronics component makers."
             }
           ]
         },
         {
-          "id": "india-sir-fresh-window-2026-11-06",
-          "headline": "Election Commission gives voters left off SIR draft rolls in 7 states another chance",
-          "summary": "The Election Commission has opened a new window for people who filled enumeration forms but were left off the draft electoral rolls after being marked absent, shifted, dead or duplicate. It covers Delhi, Maharashtra, Haryana, Andhra Pradesh, Jharkhand, Telangana and Nagaland. Booth Level Officers will contact them and help them apply again, including online through ECINET.",
+          "id": "india-delhi-grap-stage3-2026-11-06",
+          "headline": "Delhi-NCR moves to GRAP Stage 3 as air quality turns 'very poor'",
+          "summary": "The Commission for Air Quality Management invoked Stage 3 of its pollution plan across Delhi-NCR after the city's AQI hit 380. All construction and demolition work is banned except some essential infrastructure, and BS-III petrol and BS-IV diesel cars are restricted in Delhi. The curbs add to those already in force under Stages 1 and 2.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
           "verified": false,
           "note": "Single source: All India Radio.",
-          "published_at": "2026-11-06T17:16:00+05:30",
+          "published_at": "2026-11-06T21:06:00+05:30",
           "tags": [
-            "elections",
-            "voter rolls"
+            "pollution",
+            "Delhi",
+            "GRAP"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/ec-opens-fresh-window-for-electors-missing-from-sir-draft-rolls-in-7-states/"
+              "url": "https://newsonair.gov.in/caqm-in-ncr-and-adjoining-areas-invoked-stage-3-of-grap-with-immediate-effect/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Real estate",
+              "level": "low",
+              "dir": "down",
+              "why": "A construction ban in Delhi-NCR can delay builders' projects for weeks."
+            }
+          ]
+        },
+        {
+          "id": "india-shah-naxal-free-2026-11-06",
+          "headline": "Amit Shah says India is now free of Naxalism",
+          "summary": "Home Minister Amit Shah says the country has been freed from the Naxal insurgency, crediting state police and paramilitary forces for ending a threat of about 50 years. He spoke in Dehradun while presenting the President's Colour to Uttarakhand Police. He also says the government aims to make India drug-free by the end of 2029.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Claim by the Union government; no figures given and not independently confirmed.",
+          "published_at": "2026-11-06T22:04:00+05:30",
+          "tags": [
+            "security",
+            "Naxalism",
+            "Amit Shah"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/country-has-been-freed-from-naxalism-under-leadership-of-pm-narendra-modi-hm-amit-shah/"
+            },
+            {
+              "name": "PIB",
+              "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333756"
             }
           ],
           "image": null,
@@ -229,70 +268,93 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-trump-russia-ukraine-deal-2026-11-06",
-          "headline": "Trump says Russia-Ukraine deal is close after meeting Putin's envoy",
-          "summary": "Donald Trump met Kirill Dmitriev, Vladimir Putin's special envoy, at the White House and said afterwards that the two sides are \"very close\" to a settlement. He says the deal could be a big agreement covering all of Europe, but gave no details. The talks follow a gathering of Russian and Ukrainian officials hosted by Melania Trump, which built on a six-day local truce that let nearly 800 civilians leave Oleshky.",
-          "why_it_matters": "A real peace deal could lower energy and grain prices and ease risk across global markets.",
+          "id": "world-stephen-miller-chief-of-staff-2026-11-06",
+          "headline": "Trump names Stephen Miller White House chief of staff as Susie Wiles exits",
+          "summary": "Donald Trump says Stephen Miller, his long-time adviser and architect of his immigration crackdown, will become White House chief of staff from Monday. Susie Wiles, who resigned on Thursday, is moving to Trump's political operation; Friday was her last day. The shake-up follows heavy Republican losses in this week's midterm elections, and Democrats criticised the choice.",
+          "why_it_matters": "Miller is a hardliner, so the pick signals Trump will not soften course after losing Congress.",
           "importance": 4,
           "lead": false,
           "verified": true,
-          "note": "Trump's own view; no deal terms released. The meeting is confirmed by both sources.",
-          "published_at": "2026-11-06T06:31:00+05:30",
+          "note": null,
+          "published_at": "2026-11-06T00:00:00+00:00",
           "tags": [
-            "Russia",
-            "Ukraine",
             "US",
-            "diplomacy"
+            "White House",
+            "Trump"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/6/trump-met-russian-envoy-after-he-appeared-with-melania-trump-and-ukrainians"
+              "url": "https://www.aljazeera.com/news/2026/11/6/trump-says-making-adviser-stephen-miller-white-house-chief-of-staff"
             },
             {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/president-trump-says-peace-agreement-between-russia-and-ukraine-may-involve-whole-of-europe/"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/nov/06/stephen-miller-chief-of-staff-trump"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff"
             }
           ],
           "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aed076216140-1793918818.jpg?resize=1920%2C1440",
-            "credit": "AP Photo",
-            "source_url": "https://www.aljazeera.com/news/2026/11/6/trump-met-russian-envoy-after-he-appeared-with-melania-trump-and-ukrainians",
-            "alt": "Donald Trump speaking with raised hands in the Oval Office"
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6aee27282384-1793992488.jpg?resize=1920%2C1440",
+            "credit": "AFP",
+            "source_url": "https://www.aljazeera.com/news/2026/11/6/trump-says-making-adviser-stephen-miller-white-house-chief-of-staff",
+            "alt": "Stephen Miller in front of a US flag"
           },
-          "impact": [
-            {
-              "on": "oil",
-              "level": "low",
-              "dir": "down",
-              "why": "A Russia-Ukraine deal could ease worries about energy supply from Russia."
-            }
-          ]
+          "impact": []
         },
         {
-          "id": "world-hormuz-tankers-qatar-call-2026-11-06",
-          "headline": "Qatar's emir urges diplomacy in Trump call as US reviews Iran's proposal",
-          "summary": "Qatar's emir, Sheikh Tamim, spoke to Trump by phone and stressed the need for diplomatic solutions to avoid further escalation. A senior Iranian official told Reuters that Tehran's nuclear proposal, sent through Qatar, is being reviewed in Washington. At sea, Iran's IRGC says two tankers hit mines on \"unauthorised\" routes, and UK Maritime Trade Operations reported an explosion on a tanker off Oman.",
-          "why_it_matters": "Attacks on tankers keep oil near $100 and raise India's import bill.",
-          "importance": 4,
+          "id": "world-paraguay-pena-resigns-2026-11-05",
+          "headline": "Paraguay's Senate removes Peña; Alliana sworn in, Peña put under house arrest",
+          "summary": "Update: Congress rejected Santiago Peña's offer to resign and impeached him instead; the Senate voted 44 to 0, with one abstention, to remove him on Friday. Vice President Pedro Alliana was sworn in and will serve until August 2028. Prosecutors then ordered Peña held under house arrest on suspicion of breach of trust over the collapse of Ueno Bank, which froze savings for nearly 3 million customers.",
+          "why_it_matters": null,
+          "importance": 3,
           "lead": false,
-          "verified": false,
-          "note": "US review of the proposal is per an Iranian official; IRGC mine claim not independently confirmed.",
+          "verified": true,
+          "note": null,
           "published_at": "2026-11-06T00:00:00+00:00",
           "tags": [
-            "Iran",
-            "Hormuz",
-            "oil",
-            "Qatar"
+            "Paraguay",
+            "impeachment",
+            "banking"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
+              "url": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/06/us-iran-war-trump-hormuz-oil-midterms.html"
+              "name": "AP via WHEC",
+              "url": "https://www.whec.com/ap-top-news/paraguays-pedro-alliana-sworn-in-as-president-after-senate-removes-santiago-pena-from-office/"
+            },
+            {
+              "name": "Reuters via US News",
+              "url": "https://www.usnews.com/news/world/articles/2026-11-06/paraguays-alliana-sworn-in-as-president-after-pena-impeachment"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-qatar-us-iran-deal-qeshm-2026-11-07",
+          "headline": "Qatar's PM urges US and Iran to strike a deal now; Iran says missiles hit Qeshm",
+          "summary": "Qatar's Prime Minister Sheikh Mohammed bin Abdulrahman Al Thani said the US and Iran cannot afford to wait for a perfect moment to end the war. Separately, Iran's state agency IRNA says two missiles struck Qeshm Island in the Strait of Hormuz, with no casualties reported. It did not say who fired them; Washington is still reviewing Iran's proposal sent via Qatar.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera. Missile report is a claim by Iran's IRNA; not independently confirmed.",
+          "published_at": "2026-11-07T00:00:00+00:00",
+          "tags": [
+            "Iran",
+            "Qatar",
+            "Hormuz"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal"
             }
           ],
           "image": null,
@@ -300,30 +362,30 @@
             {
               "on": "oil",
               "level": "medium",
-              "dir": "up",
-              "why": "Continued tanker attacks threaten supply through the Strait of Hormuz."
+              "dir": "mixed",
+              "why": "Peace talk hopes and new strikes near Hormuz pull oil prices in opposite directions."
             }
           ]
         },
         {
-          "id": "world-iraq-zaidi-trump-call-2026-11-06",
-          "headline": "Iraq's PM tells Trump Iraq will not be used to attack its neighbours",
-          "summary": "Iraqi Prime Minister Ali al-Zaidi spoke to Trump on Thursday and said Iraq will not let its land be used for attacks on neighbouring countries, his office says. Foreign Minister Fuad Hussein warned armed groups not to join any Iranian retaliation, saying new US strikes on Iran are a real possibility. Iraq has lost more than $60bn in oil revenue since the war began.",
+          "id": "world-us-china-busan-commitments-2026-11-06",
+          "headline": "US presses China to deliver on Busan trade deal; Beijing wants tariff cuts first",
+          "summary": "US Treasury Secretary Scott Bessent and Trade Representative Jamieson Greer met Chinese Vice Premier He Lifeng and urged full and immediate implementation of the Busan deal, saying further progress depends on concrete results. China's commerce ministry says it is open to buying more US farm goods, but only if both sides carry out a '30 billion for 30 billion' reciprocal tariff cut.",
           "why_it_matters": null,
-          "importance": 3,
+          "importance": 2,
           "lead": false,
           "verified": false,
           "note": "Single source: Al Jazeera.",
           "published_at": "2026-11-06T00:00:00+00:00",
           "tags": [
-            "Iraq",
-            "Iran",
-            "US"
+            "US",
+            "China",
+            "trade"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/6/iraqs-al-zaidi-talks-to-trump-as-baghdad-seeks-to-stay-out-of-war-on-iran"
+              "url": "https://www.aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments"
             }
           ],
           "image": null,
@@ -337,28 +399,31 @@
       "stories": [
         {
           "id": "currency-us-jobs-dollar-2026-11-06",
-          "headline": "Strong US jobs report lifts the dollar: 165,000 jobs added in October",
-          "summary": "US employers added 165,000 jobs in October, far more than economists expected, and the jobless rate dipped to 4.1%. Hourly pay rose 0.4% in the month, and August and September were revised up by a combined 84,000 jobs. The dollar index rose about 0.6% to near 102.2 and the US 10-year yield rose to about 4.87%.",
-          "why_it_matters": "Solid hiring keeps a US rate hike in play, which supports the dollar and can pull money away from India.",
-          "importance": 5,
+          "headline": "Dollar ends with its best day since June as traders bet on a December Fed hike",
+          "summary": "Update: after Friday's strong jobs report, the dollar index closed about 0.7% higher near 102.3, its biggest one-day gain since mid-June, and the euro had its worst day since early October. Markets now price about a 78% chance of a quarter-point Fed hike at the December 8-9 meeting, up from about 67% on Thursday. St Louis Fed chief Alberto Musalem said inflation is still his top worry.",
+          "why_it_matters": "A firmer dollar and higher US rates can pull money out of emerging markets and test the rupee's recent rally.",
+          "importance": 4,
           "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-06T08:30:00-05:00",
+          "published_at": "2026-11-06T10:04:00-06:00",
           "tags": [
-            "US",
-            "jobs",
             "dollar",
-            "Fed"
+            "Fed",
+            "rates"
           ],
           "sources": [
             {
-              "name": "US Bureau of Labor Statistics",
-              "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+              "name": "Reuters via Yahoo Finance",
+              "url": "https://finance.yahoo.com/economy/policy/articles/traders-raise-bets-fed-rate-134402668.html"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+              "name": "Business Recorder",
+              "url": "https://www.brecorder.com/news/40447788/fed-seen-sticking-to-december-rate-hike-after-jobs-data"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
             }
           ],
           "image": null,
@@ -368,103 +433,19 @@
               "detail": "Dollar",
               "level": "high",
               "dir": "up",
-              "why": "Hiring well above forecasts keeps the Fed hawkish."
+              "why": "Higher odds of a December Fed hike make the dollar more attractive."
             },
             {
-              "on": "rates",
+              "on": "rupee",
               "level": "medium",
-              "dir": "up",
-              "why": "Strong jobs and faster wage growth push Treasury yields higher."
+              "dir": "down",
+              "why": "A stronger dollar may slow the rupee's gains when trading resumes on Monday."
             },
             {
               "on": "gold",
               "level": "medium",
               "dir": "down",
-              "why": "A firmer dollar and higher yields weigh on gold."
-            }
-          ]
-        },
-        {
-          "id": "currency-rupee-close-2026-11-06",
-          "headline": "Rupee closes near 93.90, its biggest one-day gain since October 12",
-          "summary": "The rupee closed at about 93.90 per dollar, up over 50 paise from Thursday's 94.47, after opening at 94.50 and touching 93.82. Dealers credit steady foreign buying of Indian shares and softer oil prices, while the RBI was seen buying dollars near 93.88 to slow the rise. The rupee is up about 1.2% this week.",
-          "why_it_matters": "A stronger rupee cuts the cost of oil imports, but RBI buying shows it does not want a sharp rise.",
-          "importance": 4,
-          "lead": false,
-          "verified": true,
-          "note": "PTI puts the close at 93.89 (up 52 paise); IANS at 93.91 (up 56 paise).",
-          "published_at": "2026-11-06T20:11:00+05:30",
-          "tags": [
-            "rupee",
-            "forex",
-            "FPI"
-          ],
-          "sources": [
-            {
-              "name": "Deccan Herald (PTI)",
-              "url": "https://www.deccanherald.com/business/markets/rupee-surges-52-points-to-close-at-9389-against-us-dollar-4210049"
-            },
-            {
-              "name": "Punjab Kesari (IANS)",
-              "url": "https://english.punjabkesari.com/business/rupee-logs-biggest-single-day-gain-since-oct-12-closes-56-paise-higher-at-9391-dollar"
-            },
-            {
-              "name": "Business Standard",
-              "url": "https://www.business-standard.com/markets/news/pressure-on-rupee-continues-in-samvat-2082-10-year-bond-yields-harden-126110601774_1.html"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/INR%3DX"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "rupee",
-              "level": "medium",
-              "dir": "up",
-              "why": "Foreign inflows into Indian stocks are lifting demand for the rupee."
-            },
-            {
-              "on": "indian_stocks",
-              "detail": "IT",
-              "level": "low",
-              "dir": "down",
-              "why": "A firmer rupee trims export earnings of IT companies."
-            }
-          ]
-        },
-        {
-          "id": "currency-fx-reserves-drop-2026-11-06",
-          "headline": "India's forex reserves fall $2.69 billion to $717.06 billion",
-          "summary": "India's foreign exchange reserves fell by $2.69 billion to $717.06 billion in the week to 30 October, RBI data show. Foreign currency assets dropped $2.09 billion and gold holdings fell $559 million. Reports link the fall to RBI dollar sales to support the rupee; reserves are now about $68.65 billion below their September record.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-06T00:00:00+05:30",
-          "tags": [
-            "RBI",
-            "forex reserves"
-          ],
-          "sources": [
-            {
-              "name": "RBI",
-              "url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63939"
-            },
-            {
-              "name": "Business Standard",
-              "url": "https://www.business-standard.com/finance/news/india-s-foreign-exchange-reserves-drop-by-2-69-billion-to-717-billion-126110601467_1.html"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "rupee",
-              "level": "low",
-              "dir": "mixed",
-              "why": "Lower reserves leave the RBI a little less room to defend the rupee."
+              "why": "Rising US rate expectations weigh on gold, which pays no interest."
             }
           ]
         }
@@ -475,91 +456,91 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "id": "markets-sensex-seventh-day-close-2026-11-06",
-          "headline": "Sensex jumps 1,718 points to 81,028 as rally runs to a seventh day",
-          "summary": "The Sensex closed up 1,718 points, or 2.2%, at 81,028 and the Nifty rose 494 points, or 2%, to 25,030, the seventh straight day of gains, even as Korea and Japan fell about 6%. Midcaps ended almost flat and smallcaps fell about 0.8%, so the rally was led by large stocks. The gains came on Dhanteras, with foreign investors buying heavily this week.",
-          "why_it_matters": "India is being treated as a safe place to park money while Asia's chip-heavy markets sell off.",
+          "id": "markets-wall-street-close-ai-rebound-2026-11-06",
+          "headline": "Nasdaq claws back 1.1% after AI rout, but Asia and Europe close lower",
+          "summary": "US tech stocks recovered part of Thursday's crash: the Nasdaq closed up 1.1% at 24,579 and the S&P 500 rose 0.3% to 7,377, while the Dow fell 0.5% to 51,286. Chipmakers led the bounce, with AMD up about 9% and Micron about 5% after a 17% drop. Markets elsewhere fared worse: Korea's Kospi fell 6% and the FTSE 100 lost 1%, on fears that the Democrats' midterm win will slow AI spending.",
+          "why_it_matters": "The AI sell-off is now a global story, and a weak Nasdaq tends to weigh on Indian IT stocks.",
           "importance": 5,
           "lead": true,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-06T16:37:00+05:30",
+          "published_at": "2026-11-06T21:06:25+00:00",
           "tags": [
-            "Sensex",
-            "Nifty",
-            "FPI"
+            "Wall Street",
+            "AI",
+            "chips",
+            "Nasdaq"
           ],
           "sources": [
             {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/bse-and-nifty-surge-over-2/"
+              "name": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o"
             },
             {
               "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/%5EBSESN"
+              "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
             }
           ],
           "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2025/12/BSE-sensex-1-1.jpg",
-            "credit": "ANI",
-            "source_url": "https://newsonair.gov.in/bse-and-nifty-surge-over-2/",
-            "alt": "The Bombay Stock Exchange building in Mumbai"
+            "url": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/fdde/live/9036f7e0-da01-11f1-93e1-3b657b665bcf.jpg",
+            "credit": "AFP via Getty Images",
+            "source_url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o",
+            "alt": "A trader watches his screen on the floor of the New York Stock Exchange"
           },
           "impact": [
             {
-              "on": "indian_stocks",
+              "on": "us_stocks",
+              "detail": "Tech",
               "level": "high",
-              "dir": "up",
-              "why": "Heavy foreign buying is lifting large-cap Indian stocks."
+              "dir": "mixed",
+              "why": "Chip stocks bounced but most of Thursday's $1 trillion loss is still not recovered."
             },
             {
-              "on": "rupee",
+              "on": "indian_stocks",
+              "detail": "IT",
               "level": "medium",
-              "dir": "up",
-              "why": "Foreign money flowing into shares supports the rupee."
+              "dir": "mixed",
+              "why": "Indian IT stocks often follow the Nasdaq when trading opens on Monday."
             }
           ]
         },
         {
-          "id": "markets-wall-street-open-jobs-2026-11-06",
-          "headline": "Nasdaq rebounds about 1.7% at the US open after Thursday's rout",
-          "summary": "US stocks opened higher after the strong jobs report, with the Nasdaq up about 1.7% and the S&P 500 up about 1% by 10:20 AM New York time, while the Dow was flat. Chip stocks bounced after Thursday's 5.5% Nasdaq plunge; in premarket trade Lam Research jumped about 11% on a $25 billion buyback and Moderna about 10% after beating forecasts.",
-          "why_it_matters": "A US tech rebound could calm Asian markets when they reopen on Monday.",
-          "importance": 4,
+          "id": "markets-tesla-cybertruck-end-2026-11-06",
+          "headline": "Tesla to stop making the Cybertruck in 2027 and raises its prices",
+          "summary": "Tesla says it will end Cybertruck production in 2027, after Elon Musk appeared to signal the end of the road for the steel pickup. Tesla has since raised Cybertruck prices by up to 10% for the remaining units.",
+          "why_it_matters": null,
+          "importance": 2,
           "lead": false,
           "verified": true,
-          "note": "Levels from Yahoo Finance at 15:20 UTC; CNBC's early update showed the Dow down 1%.",
-          "published_at": "2026-11-06T09:30:00-05:00",
+          "note": null,
+          "published_at": "2026-11-06T11:50:00+00:00",
           "tags": [
-            "Wall Street",
-            "Nasdaq",
-            "chips"
+            "Tesla",
+            "EV",
+            "Cybertruck"
           ],
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+              "name": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o"
             },
             {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/%5EIXIC"
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/"
+            },
+            {
+              "name": "Electrek",
+              "url": "https://electrek.co/2026/11/06/tesla-raises-cybertruck-prices-after-ending-production/"
             }
           ],
           "image": null,
           "impact": [
             {
-              "on": "us_stocks",
-              "detail": "Tech",
-              "level": "medium",
-              "dir": "up",
-              "why": "Chip and AI stocks are recovering part of Thursday's losses."
-            },
-            {
               "on": "company",
-              "detail": "Lam Research",
-              "level": "medium",
-              "dir": "up",
-              "why": "A $25 billion buyback lifted the shares."
+              "detail": "Tesla",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Ending a slow-selling model cuts costs but shrinks Tesla's line-up."
             }
           ]
         }
@@ -570,35 +551,37 @@
       "title": "Built This Week",
       "stories": [
         {
-          "id": "built-blue-origin-gs3-northstar-2026-11-05",
-          "headline": "Blue Origin unveils a third stage for New Glenn and a new, cheaper Northstar engine",
-          "summary": "Blue Origin unveiled GS3, a hydrogen-fuelled third stage that it says can send up to 20 tonnes toward the Moon or 14 tonnes straight to geostationary orbit on its biggest New Glenn version. It also revealed Northstar, a methane booster engine rated at 715,000 pounds of thrust, more than the BE-4 it would replace, with 30% less mass and half the parts. Northstar went from approval to test firings in 11 months; GS3 targets a first flight in 2028.",
+          "id": "built-iss-final-solar-array-2026-11-05",
+          "headline": "Spacewalkers fit the space station's last new roll-out solar array",
+          "summary": "NASA's Anil Menon and Canada's Joshua Kutryk installed and unrolled the final ISS Roll-Out Solar Array in a 6-hour, 59-minute spacewalk, ending a five-year upgrade begun in June 2021. Each 63-foot array makes about 8 kilowatts, and NASA says the eight new arrays raise the station's available power by up to 30%.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
           "verified": true,
-          "note": "Performance figures are Blue Origin's own claims.",
-          "published_at": "2026-11-05T00:00:00-05:00",
+          "note": null,
+          "published_at": "2026-11-05T15:52:33-05:00",
           "tags": [
             "space",
-            "rockets",
-            "Blue Origin"
+            "ISS",
+            "solar",
+            "NASA"
           ],
           "sources": [
             {
-              "name": "Blue Origin",
-              "url": "https://www.blueorigin.com/news/new-glenn-expands-reach-with-gs3"
+              "name": "NASA",
+              "url": "https://www.nasa.gov/blogs/spacestation/2026/11/05/spacewalkers-install-final-roll-out-solar-array/"
             },
             {
               "name": "Spaceflight Now",
-              "url": "https://spaceflightnow.com/2026/11/05/blue-origin-reveals-new-kick-stage-engines-for-its-new-glenn-rockets/"
-            },
-            {
-              "name": "Space.com",
-              "url": "https://www.space.com/space-exploration/launches-spacecraft/blue-origin-announces-3rd-stage-for-its-powerful-new-glenn-rocket-and-a-new-engine"
+              "url": "https://spaceflightnow.com/2026/11/05/spacewalkers-complete-five-year-effort-to-upgrade-space-station-power-supply/"
             }
           ],
-          "image": null,
+          "image": {
+            "url": "https://www.nasa.gov/wp-content/uploads/2026/11/blog-useva101-110526h.jpg",
+            "credit": "NASA",
+            "source_url": "https://www.nasa.gov/blogs/spacestation/2026/11/05/spacewalkers-install-final-roll-out-solar-array/",
+            "alt": "A new roll-out solar array unfurled on the space station with Earth behind it"
+          },
           "impact": []
         }
       ]
@@ -606,32 +589,6 @@
   ],
   "weekend_special": null,
   "forex_results": [
-    {
-      "country": "CAD",
-      "title": "BOC Gov Macklem Speaks",
-      "date": "2026-11-05T10:30:00-05:00",
-      "impact": "Medium",
-      "actual": "Hawkish",
-      "vs_forecast": "better",
-      "why": "Macklem said rates may need to rise further after the hike to 2.5%, while moving carefully; supportive for the Canadian dollar.",
-      "source": {
-        "name": "Bank of Canada",
-        "url": "https://www.bankofcanada.ca/2026/11/opening-statement-standing-senate-committee-banking-commerce-and-economy-2026-11-05/"
-      }
-    },
-    {
-      "country": "CAD",
-      "title": "Annual Budget Release",
-      "date": "2026-11-05T16:00:00-05:00",
-      "impact": "Medium",
-      "actual": "C$62.3B deficit",
-      "vs_forecast": "no_forecast",
-      "why": "The deficit came in a little below the spring estimate of C$65.3B, a mild positive for the Canadian dollar.",
-      "source": {
-        "name": "CTV News",
-        "url": "https://www.ctvnews.ca/politics/article/budget-2026-is-about-giving-canada-a-strong-footing-champagne/"
-      }
-    },
     {
       "country": "CAD",
       "title": "Employment Change",
@@ -698,6 +655,32 @@
       }
     },
     {
+      "country": "CAD",
+      "title": "Ivey PMI",
+      "date": "2026-11-06T10:00:00-05:00",
+      "impact": "Medium",
+      "actual": "58.3",
+      "vs_forecast": "better",
+      "why": "Purchasing activity edged up to 58.3, above the 57.7 forecast, a small support for the Canadian dollar.",
+      "source": {
+        "name": "Ivey PMI (Western University)",
+        "url": "https://iveypmi.uwo.ca/"
+      }
+    },
+    {
+      "country": "CAD",
+      "title": "Ivey PMI",
+      "date": "2026-11-06T10:00:00-05:00",
+      "impact": "Medium",
+      "actual": "58.3",
+      "vs_forecast": "better",
+      "why": "Purchasing activity edged up to 58.3, above the 57.7 forecast, a small support for the Canadian dollar.",
+      "source": {
+        "name": "Ivey PMI (Western University)",
+        "url": "https://iveypmi.uwo.ca/"
+      }
+    },
+    {
       "country": "USD",
       "title": "Prelim UoM Consumer Sentiment",
       "date": "2026-11-06T10:00:00-05:00",
@@ -721,6 +704,32 @@
       "source": {
         "name": "University of Michigan",
         "url": "https://www.sca.isr.umich.edu/"
+      }
+    },
+    {
+      "country": "JPY",
+      "title": "BOJ Gov Ueda Speaks",
+      "date": "2026-11-06T11:00:00-05:00",
+      "impact": "High",
+      "actual": "Neutral",
+      "vs_forecast": "in_line",
+      "why": "Ueda said inflation is at 2% but it is unclear how long it will last, giving no new hint on the next hike.",
+      "source": {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-06/boj-s-ueda-says-unclear-how-long-2-inflation-rate-will-remain"
+      }
+    },
+    {
+      "country": "JPY",
+      "title": "BOJ Gov Ueda Speaks",
+      "date": "2026-11-06T11:00:00-05:00",
+      "impact": "High",
+      "actual": "Neutral",
+      "vs_forecast": "in_line",
+      "why": "Ueda said inflation is at 2% but it is unclear how long it will last, giving no new hint on the next hike.",
+      "source": {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-06/boj-s-ueda-says-unclear-how-long-2-inflation-rate-will-remain"
       }
     }
   ],
@@ -749,6 +758,15 @@
         {
           "text": "Russia-Ukraine talks in Abu Dhabi (Nov 10-11)",
           "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "events": [
+        {
+          "text": "BOJ board member Toichiro Asada speaks",
+          "section": "currency"
         }
       ]
     }
