@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-07-evening",
-  "date": "2026-11-07",
-  "slot": "evening",
-  "title": "Saturday Evening Edition",
-  "generated_at": "2026-11-07T20:47:08+05:30",
+  "edition_id": "2026-11-08-weekend",
+  "date": "2026-11-08",
+  "slot": "weekend",
+  "title": "Sunday Weekend Edition",
+  "generated_at": "2026-11-08T07:35:53+05:30",
   "snapshot": [
     {
       "id": "usdinr",
@@ -129,10 +129,10 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$75,771",
-      "change": "+0.03%",
-      "dir": "up",
-      "as_of": "2026-11-07T15:12:57+00:00",
+      "value": "$75,624",
+      "change": "-0.16%",
+      "dir": "down",
+      "as_of": "2026-11-08T02:03:12+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BTC-USD"
@@ -157,72 +157,24 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-cancer-drug-prices-2026-11-07",
-          "headline": "Lower prices for 137 cancer drugs take effect on Monday, saving ₹3,500 crore a year",
-          "summary": "New, lower retail prices for 137 anti-cancer drugs apply from Monday, November 9, after the drug price regulator NPPA capped trade margins at 30% of MRP. So far 76 companies have reported new prices for 1,225 formulations; 1,031 are cheaper, 600 brands are down by more than half and the biggest cut is about 96%. The government puts patients' savings at about ₹3,502 crore a year, and sellers and hospitals must display the new price lists.",
-          "why_it_matters": "Cancer treatment is a major cause of medical debt in India, so steep cuts on hundreds of brands directly ease costs for patients.",
-          "importance": 4,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-07T20:41:00+05:30",
-          "tags": [
-            "health",
-            "drug prices",
-            "NPPA",
-            "cancer"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/national-cancer-awareness-day-health-minister-urges-cancer-screening-and-awareness/"
-            },
-            {
-              "name": "Morung Express (IANS)",
-              "url": "https://www.morungexpress.com/anti-cancer-drug-price-cuts-from-next-week-to-save-consumers-rs-3502-crore-annually"
-            },
-            {
-              "name": "Elets eHealth",
-              "url": "https://ehealth.eletsonline.com/2026/11/cancer-drug-price-cuts-nppa/"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "indian_stocks",
-              "detail": "Pharma",
-              "level": "low",
-              "dir": "down",
-              "why": "Lower MRPs on cancer brands may trim sales value for some drug makers."
-            },
-            {
-              "on": "india_economy",
-              "level": "low",
-              "dir": "down",
-              "why": "Cheaper cancer medicines slightly lower health costs in consumer prices."
-            }
-          ]
-        },
-        {
-          "id": "india-shah-security-review-2026-11-07",
-          "headline": "Amit Shah reviews security in Gujarat, sets 2029 goal for a drug-free India",
-          "summary": "Home Minister Amit Shah chaired a high-level meeting in Ahmedabad on border and coastal security, drugs, cybercrime and disaster readiness ahead of Diwali. He set a target of a drug-free India by 2029 and asked for wider use of the 1933 anti-drug helpline. Gujarat police briefed him on drives against infiltration, 'digital arrest' scams and cyber fraud.",
+          "id": "india-fssai-festive-seizures-2026-11-08",
+          "headline": "FSSAI seizes 3,280 tonnes of unsafe food worth ₹82 crore in festive drive",
+          "summary": "India's food regulator says it seized about 3,280 tonnes of banned or non-compliant food, mostly paneer, ghee, milk and sweets, since September 1. Inspectors checked over 56,400 outlets, cancelled 52 licences, suspended more than 1,100 and sealed over 300 premises.",
           "why_it_matters": null,
           "importance": 2,
           "lead": false,
           "verified": false,
           "note": "Single source: All India Radio.",
-          "published_at": "2026-11-07T20:43:00+05:30",
+          "published_at": "2026-11-08T07:05:00+05:30",
           "tags": [
-            "Amit Shah",
-            "security",
-            "Gujarat",
-            "drugs"
+            "food safety",
+            "FSSAI",
+            "Diwali"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/hm-amit-shah-reviews-multiple-facets-of-state-and-national-security-at-high-level-meeting-in-ahmedabad/"
+              "url": "https://newsonair.gov.in/fssai-seizes-3280-tonnes-of-unsafe-food-products-worth-%e2%82%b982-crore-during-festive-drive/"
             }
           ],
           "image": null,
@@ -235,128 +187,102 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-hormuz-tanker-mine-2026-11-07",
-          "headline": "Iran's navy says a tanker hit a mine and caught fire in the Strait of Hormuz",
-          "summary": "Iran's navy says a tanker sailing with its transponder switched off hit a sea mine in the eastern Strait of Hormuz on Saturday and caught fire; it did not name the ship or say what happened to the crew. On the same day the Revolutionary Guards said their self-imposed missile range limit of about 2,000 km has been lifted. UKMTO says at least 11 ships were attacked in and around the strait in the week to November 6, and three sank.",
-          "why_it_matters": "A new ship fire and a wider Iranian missile threat could undo part of this week's oil slide when markets reopen, hurting the rupee and India's import bill.",
+          "id": "world-us-iran-land-routes-2026-11-08",
+          "headline": "US sets up task force to cut Iran's land supply routes; blasts reported near Hormuz",
+          "summary": "US Central Command says its new 'Task Force Iron Gate' will try to stop Iran moving weapons, sanctioned goods and money across its land borders and the Caspian Sea, widening the naval blockade of Iranian ports. CENTCOM says the blockade has already kept over $25 billion of Iranian crude off the market. Iranian state media report explosions on Qeshm Island and in Bandar Abbas, Jask and Sirik on Sunday; the cause is not yet known.",
+          "why_it_matters": "A wider US squeeze on Iran raises the risk of new clashes around Hormuz just as oil prices had cooled, which matters for India's import bill.",
           "importance": 5,
           "lead": true,
-          "verified": false,
-          "note": "Claim by Iran's navy; ship, flag and damage not independently confirmed. The US says the strait's mines were cleared.",
-          "published_at": "2026-11-07T00:00:00+03:30",
+          "verified": true,
+          "note": "Task force confirmed by All India Radio and Al Jazeera; the $25bn figure is CENTCOM's own claim and the blasts are reported only by Iranian state media.",
+          "published_at": "2026-11-08T00:00:00+03:30",
           "tags": [
             "Iran",
+            "US",
             "Hormuz",
-            "tanker",
-            "oil",
-            "shipping"
+            "oil"
           ],
           "sources": [
             {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/us-establishes-new-task-force-to-curb-land-based-transportation-of-advanced-weapons-by-iran/"
+            },
+            {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
-            },
-            {
-              "name": "Al Arabiya",
-              "url": "https://english.alarabiya.net/News/middle-east/2026/11/07/iran-navy-says-tanker-hits-mine-catches-fire-in-hormuz"
-            },
-            {
-              "name": "Dawn (Reuters)",
-              "url": "https://www.dawn.com/news/2042828/iran-navy-says-tanker-catches-fire-after-hitting-mine-in-hormuz"
-            },
-            {
-              "name": "Tasnim",
-              "url": "https://www.tasnimnews.ir/en/news/2026/11/07/3742530/violating-tanker-hits-sea-mine-in-strait-of-hormuz-iran-s-navy"
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes"
             }
           ],
           "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/06/getty_6a34380e8d-1781807118.jpg?resize=1920%2C1440",
-            "credit": "Asghar Besharati/Getty Images",
-            "source_url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation",
-            "alt": "A container ship and a cargo ship in hazy water off Qeshm Island in the Strait of Hormuz"
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6aefb55c-1794094428.jpg",
+            "credit": "Reuters/Stringer",
+            "source_url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes",
+            "alt": "Boats at anchor in the Strait of Hormuz, seen from Musandam, Oman (file photo)"
           },
           "impact": [
             {
               "on": "oil",
-              "level": "high",
+              "level": "medium",
               "dir": "up",
-              "why": "A burning tanker and mine threats could lift crude when trading reopens after a 13% weekly fall."
+              "why": "Tighter pressure on Iran and blasts near Hormuz add risk to oil supply when trading reopens."
             },
             {
               "on": "rupee",
-              "level": "medium",
-              "dir": "down",
-              "why": "Higher oil would raise India's import bill and weigh on the rupee."
-            },
-            {
-              "on": "gold",
               "level": "low",
-              "dir": "up",
-              "why": "More risk in the Gulf adds safe-haven demand for gold."
+              "dir": "down",
+              "why": "Any oil rebound raises India's import bill and weighs on the rupee."
             }
           ]
         },
         {
-          "id": "world-nz-election-2026-11-07",
-          "headline": "New Zealand vote stays deadlocked; National-led bloc set for a one-seat edge",
-          "summary": "Update: with about 97% of the vote counted, National has 29.3% and Labour 29.2%. The Electoral Commission projects 67 seats for the current National, ACT and NZ First coalition against 63 for Labour, the Greens, Te Pāti Māori and the new Opportunity Party, which looks set for about seven seats. Luxon says it is too close to call and his government will act as caretaker until the final count on November 27.",
+          "id": "world-eisenkot-mandate-2026-11-07",
+          "headline": "Israel's president picks Eisenkot over Netanyahu to try to form a government",
+          "summary": "New since Friday: President Isaac Herzog chose Gadi Eisenkot, who won 67 of 120 lawmakers' recommendations to Netanyahu's 46, and hands him the mandate on Sunday evening. Eisenkot has 28 days, extendable by 14, to build a coalition; his own four-party alliance holds only 48 seats. If no government forms, Israel heads to another election with Netanyahu as caretaker.",
+          "why_it_matters": "Netanyahu's possible exit would change Israel's approach to Gaza, Iran and the US at a tense moment for the region.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-07T00:00:00+02:00",
+          "tags": [
+            "Israel",
+            "Eisenkot",
+            "Netanyahu"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+            },
+            {
+              "name": "The Times of Israel",
+              "url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-krakow-shooting-2026-11-07",
+          "headline": "Gunman kills six in Krakow's main square; Poland calls it terrorism",
+          "summary": "A man drove onto Krakow's Main Market Square on Saturday afternoon and fired at people from his car, killing at least six and wounding 15, including two police officers. Police shot and detained the suspect, a Polish citizen; Prime Minister Donald Tusk called it terrorism and declared two days of mourning. Three bodies, believed to be his family, were found at his home.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
           "verified": true,
-          "note": "Preliminary count before special votes; seat numbers can still change.",
-          "published_at": "2026-11-07T00:00:00+13:00",
+          "note": null,
+          "published_at": "2026-11-07T15:00:00+01:00",
           "tags": [
-            "New Zealand",
-            "election",
-            "Luxon",
-            "Hipkins"
+            "Poland",
+            "shooting"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/7/governing-party-leads-in-new-zealands-knife-edge-vote-early-results"
+              "url": "https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow"
             },
             {
-              "name": "Canberra Times (AAP)",
-              "url": "https://www.canberratimes.com.au/story/9387400/national-claims-pathway-to-power-in-tight-nz-election/"
-            },
-            {
-              "name": "NZ Herald",
-              "url": "https://www.nzherald.co.nz/nz/politics/election-2026-nervous-mps-await-their-fate-as-votes-counted-in-tight-contest/JT7QAFJ6KJH3RFG4X6PRRYWQPE/"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "currency",
-              "detail": "NZ dollar",
-              "level": "low",
-              "dir": "mixed",
-              "why": "Weeks of uncertainty until the final count may keep the kiwi unsettled."
-            }
-          ]
-        },
-        {
-          "id": "world-russian-diesel-us-stalls-2026-11-07",
-          "headline": "No Russian diesel has reached the US a month after the Trump-Putin deal",
-          "summary": "Nearly a month after Donald Trump announced a deal for Russia to supply diesel to US and world markets, no cargo has landed in the US. Of four tankers loaded since, two that were heading to the US East Coast have turned towards Brazil and the Mediterranean, as traders fear legal risk while Congress's ban on Russian energy imports stays in force. The Kremlin says all the diesel will find buyers.",
-          "why_it_matters": null,
-          "importance": 2,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera (with Kpler and MarineTraffic tracking data).",
-          "published_at": "2026-11-07T00:00:00+00:00",
-          "tags": [
-            "Russia",
-            "US",
-            "diesel",
-            "sanctions"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/7/why-are-oil-traders-refusing-to-buy-russian-diesel-after-trump-putin-deal"
+              "name": "Notes from Poland",
+              "url": "https://notesfrompoland.com/2026/11/07/fatalities-reported-in-shooting-on-historical-market-square-in-krakow/"
             }
           ],
           "image": null,
@@ -374,75 +300,38 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "id": "markets-oil-weekly-slide-2026-11-07",
-          "headline": "Brent crude ends the week 13% lower at about $98 on hopes of calm in West Asia",
-          "summary": "Brent futures fell 13.3% this week to settle at $98.32 a barrel, and US WTI dropped 12.3% to $89.59, as traders bet the US-Iran conflict will cool after the US midterm elections. Brent was above $117 a week ago. Saturday's report of a tanker fire in the Strait of Hormuz is the first test for prices when trading resumes.",
-          "why_it_matters": "Cheaper oil was a big driver of this week's rally in Indian shares and the rupee, so any rebound would hit both.",
-          "importance": 4,
+          "id": "markets-bitcoin-weekly-drop-2026-11-08",
+          "headline": "Bitcoin slips to about $75,600, down nearly 6% over the week",
+          "summary": "Bitcoin traded near $75,624 early on Sunday, about 6% below where it stood a week ago at around $80,400, as the US tech and AI sell-off hit risky assets. It was little changed over the past day.",
+          "why_it_matters": null,
+          "importance": 2,
           "lead": false,
           "verified": true,
-          "note": "All India Radio gives January-contract figures; Yahoo Finance front-month data show a larger weekly drop for Brent (about 16%).",
-          "published_at": "2026-11-07T18:51:00+05:30",
+          "note": null,
+          "published_at": "2026-11-08T02:03:12+00:00",
           "tags": [
-            "oil",
-            "Brent",
-            "WTI",
-            "weekly"
+            "bitcoin",
+            "crypto"
           ],
           "sources": [
             {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/global-crude-oil-prices-rebound-after-steep-losses-in-previous-session/"
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/BTC-USD"
             },
             {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/BZ%3DF"
+              "name": "Coinbase",
+              "url": "https://api.coinbase.com/v2/prices/BTC-USD/spot"
             }
           ],
           "image": null,
           "impact": [
             {
-              "on": "oil",
-              "level": "medium",
-              "dir": "mixed",
-              "why": "Peace hopes pushed prices down, but new Hormuz attacks could reverse part of the fall."
-            },
-            {
-              "on": "rupee",
-              "level": "medium",
-              "dir": "up",
-              "why": "Lower crude cuts India's import bill, supporting the rupee if prices hold."
+              "on": "crypto",
+              "level": "low",
+              "dir": "down",
+              "why": "Selling in tech stocks has spilled into crypto this week."
             }
           ]
-        },
-        {
-          "id": "markets-wall-street-weekly-loss-2026-11-07",
-          "headline": "Wall Street ends a bruising week: Nasdaq down 3.4%, S&P 500 down 2.7%",
-          "summary": "US stocks closed the week lower despite Friday's tech rebound. The Nasdaq lost 3.4% for the week to 24,579 and the S&P 500 fell 2.7% to 7,376.86, after Thursday's sell-off in AI stocks; the Dow slipped 0.9%. US markets are shut for the weekend and reopen on Monday.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-07T16:49:00+05:30",
-          "tags": [
-            "Wall Street",
-            "Nasdaq",
-            "S&P 500",
-            "weekly"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/wall-street-ends-higher-on-technology-stocks-gains-and-lower-oil-prices/"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/%5EGSPC"
-            }
-          ],
-          "image": null,
-          "impact": []
         }
       ]
     },
@@ -451,71 +340,253 @@
       "title": "Built This Week",
       "stories": [
         {
-          "id": "built-orbital-matter-space-printed-beam-2026-11-03",
-          "headline": "German startup Orbital Matter 3D-prints a stiff beam aboard a satellite in orbit",
-          "summary": "Orbital Matter's small satellite Replicator 2, launched on a SpaceX rideshare in July, printed a rigid plastic beam in open space using resin hardened by ultraviolet light, which the company calls a first for a free-flying spacecraft. The printed boom then helped unfold a flexible solar panel. The startup plans a bigger test in 2028 aimed at printing structures for much larger solar arrays.",
-          "why_it_matters": "Printing structures in orbit could let satellites carry far bigger solar panels and antennas than fit inside a rocket.",
+          "id": "built-huawei-harmonyos-desktop-2026-11-05",
+          "headline": "Huawei unveils its first HarmonyOS desktop, saying every part is made in China",
+          "summary": "Huawei launched the Qingyun HM650 desktop series for companies and government offices, running its own HarmonyOS on the 10-core Kirin X90 chip. Huawei says the machines use only China-made parts, from processor to memory, with no Intel or Qualcomm chips. Prices have not been announced.",
+          "why_it_matters": "A fully home-grown PC shows how far China has gone in replacing US chips and Windows in its offices.",
           "importance": 3,
           "lead": false,
-          "verified": true,
-          "note": "Reports differ on beam length: TechCrunch says about half a metre, Payload Space says 32.5 cm.",
-          "published_at": "2026-11-03T00:00:00-08:00",
+          "verified": false,
+          "note": "Launch reported by South China Morning Post and Huawei Central; the '100% domestic' claim is Huawei's own and not independently confirmed.",
+          "published_at": "2026-11-05T00:00:00+08:00",
           "tags": [
-            "space",
-            "3D printing",
-            "satellites",
-            "startup"
+            "Huawei",
+            "PC",
+            "chips",
+            "China"
           ],
           "sources": [
             {
-              "name": "TechCrunch",
-              "url": "https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space/"
+              "name": "South China Morning Post",
+              "url": "https://scmp.com/tech/tech-trends/article/3373435/no-intel-no-qualcomm-huawei-unveils-desktop-built-entirely-china-made-components"
             },
             {
-              "name": "Payload Space",
-              "url": "https://payloadspace.com/?p=33536"
+              "name": "Huawei Central",
+              "url": "https://www.huaweicentral.com/huaweis-first-harmonyos-desktop-pc-launched/"
             }
           ],
-          "image": {
-            "url": "https://techcrunch.com/wp-content/uploads/2026/11/2026-10-21_09-57-41-128.jpg?w=800",
-            "credit": "Orbital Matter",
-            "source_url": "https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space/",
-            "alt": "A 3D printer nozzle glowing under ultraviolet light inside the Replicator 2 satellite"
-          },
+          "image": null,
           "impact": []
         }
       ]
     }
   ],
-  "weekend_special": null,
-  "forex_results": [
-    {
-      "country": "JPY",
-      "title": "BOJ Gov Ueda Speaks",
-      "date": "2026-11-06T11:00:00-05:00",
-      "impact": "High",
-      "actual": "Neutral",
-      "vs_forecast": "in_line",
-      "why": "Ueda said inflation is at 2% but it is unclear how long it will last, giving no new hint on the next hike.",
-      "source": {
-        "name": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-11-06/boj-s-ueda-says-unclear-how-long-2-inflation-rate-will-remain"
+  "weekend_special": {
+    "title": "The week's biggest stories",
+    "stories": [
+      {
+        "id": "world-us-midterms-2026-11-03",
+        "headline": "Democrats sweep the US midterms, taking both houses of Congress",
+        "summary": "Democrats won control of the House and the Senate on November 3, flipping Senate seats in states including Texas, Ohio and North Carolina. Trump said he accepts the result and will work with them.",
+        "why_it_matters": "A Democratic Congress can block Trump's laws and budgets for his last two years. Markets swung hard on it: the Dow had its best day since April 2025, then AI stocks crashed on fears of curbs on data centres.",
+        "importance": 5,
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "published_at": "2026-11-04T13:33:07+05:30",
+        "tags": [
+          "US",
+          "midterms",
+          "Congress"
+        ],
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html"
+          },
+          {
+            "name": "All India Radio",
+            "url": "https://newsonair.gov.in/democrats-take-early-leads-over-president-donald-trumps-republican-party-in-us-midterm-elections/"
+          }
+        ],
+        "image": null,
+        "impact": [],
+        "rank": 1
+      },
+      {
+        "id": "markets-india-best-week-since-2021-2026-11-06",
+        "headline": "Sensex and Nifty post their best week since February 2021, up nearly 9%",
+        "summary": "The Sensex rose 8.8% to 81,028 and the Nifty 8.6% to 25,030 over seven straight days of gains, led by banks, Reliance, foreign buying and falling oil.",
+        "why_it_matters": "The rally lifted investor wealth sharply going into Diwali and the Muhurat session. Because it leaned on cheaper oil, a rebound in crude is the main risk to it.",
+        "importance": 5,
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "published_at": "2026-11-06T00:00:00+05:30",
+        "tags": [
+          "Sensex",
+          "Nifty",
+          "stocks"
+        ],
+        "sources": [
+          {
+            "name": "Zee Business",
+            "url": "https://www.zeebiz.com/market-news/news-weekly-market-wrap-sensex-nifty-surge-nearly-9-best-weekly-rally-since-feb-2021-rs-2870-lakh-crore-added-muhurat-trading-in-focus-405246"
+          },
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+          }
+        ],
+        "image": null,
+        "impact": [],
+        "rank": 2
+      },
+      {
+        "id": "markets-oil-weekly-slide-2026-11-07",
+        "headline": "Brent crude falls about 13% in a week to near $98 on hopes of US-Iran calm",
+        "summary": "Brent settled at $98.32 a barrel on Friday, down from above $117 a week earlier, as traders bet the US-Iran conflict would cool after the midterms, even as tanker incidents in Hormuz continued.",
+        "why_it_matters": "Oil is India's biggest import, so the slide eased pressure on inflation, the rupee and company costs. It also drove much of the week's rally in Indian shares.",
+        "importance": 5,
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "published_at": "2026-11-07T18:51:00+05:30",
+        "tags": [
+          "oil",
+          "Brent",
+          "Iran"
+        ],
+        "sources": [
+          {
+            "name": "All India Radio",
+            "url": "https://newsonair.gov.in/global-crude-oil-prices-rebound-after-steep-losses-in-previous-session/"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/quote/BZ%3DF"
+          }
+        ],
+        "image": null,
+        "impact": [],
+        "rank": 3
+      },
+      {
+        "id": "markets-wall-street-ai-rout-2026-11-05",
+        "headline": "AI stocks crash: Nasdaq's 5.5% fall is Wall Street's worst day since April 2025",
+        "summary": "On November 5 the Nasdaq sank 5.5% into a correction as chip stocks like Micron, AMD and Nvidia tumbled on fears a Democratic Congress will slow data centre building. Korea's Kospi and Japan's Nikkei crashed the next day.",
+        "why_it_matters": "The AI boom has carried global markets, so doubts about it spread fast to chipmakers in Asia. Indian shares largely escaped because they hold few AI stocks.",
+        "importance": 4,
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "published_at": "2026-11-05T16:18:00-05:00",
+        "tags": [
+          "Nasdaq",
+          "AI",
+          "chips"
+        ],
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets"
+          }
+        ],
+        "image": null,
+        "impact": [],
+        "rank": 4
+      },
+      {
+        "id": "currency-us-jobs-dollar-2026-11-06",
+        "headline": "Strong US jobs data and a Bank of England hike keep rate rises in play",
+        "summary": "US employers added 165,000 jobs in October, well above forecasts, lifting the dollar and Treasury yields. A day earlier the Bank of England raised rates to 4%, its first hike since 2023, citing energy-driven inflation.",
+        "why_it_matters": "Central banks are raising rates again to fight energy inflation, which keeps borrowing costs high worldwide. A possible US hike in December could pull foreign money away from India.",
+        "importance": 4,
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "published_at": "2026-11-06T08:30:00-05:00",
+        "tags": [
+          "US jobs",
+          "Fed",
+          "Bank of England"
+        ],
+        "sources": [
+          {
+            "name": "US Bureau of Labor Statistics",
+            "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+          },
+          {
+            "name": "Bank of England",
+            "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+          }
+        ],
+        "image": null,
+        "impact": [],
+        "rank": 5
+      },
+      {
+        "id": "india-cyclone-murasu-2026-11-01",
+        "headline": "Cyclone Murasu hits Andhra Pradesh, the second cyclone on the coast in a week",
+        "summary": "The severe cyclone crossed the coast near Ongole early on November 3 with winds up to 120 km/h, after more than 1.5 lakh people were moved in Odisha and Andhra. Andhra puts losses from Murasu and the earlier Cyclone Arnab at about ₹4,900 crore.",
+        "why_it_matters": "Back-to-back storms damaged crops, power lines and roads across coastal Andhra. The state is asking the Centre for aid.",
+        "importance": 4,
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "published_at": "2026-11-03T07:32:00+05:30",
+        "tags": [
+          "cyclone",
+          "Andhra Pradesh"
+        ],
+        "sources": [
+          {
+            "name": "ETV Bharat",
+            "url": "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486"
+          },
+          {
+            "name": "All India Radio",
+            "url": "https://newsonair.gov.in/deep-depression-over-bay-of-bengal-intensifies-into-cyclonic-storm-murasu-likely-to-make-landfall-along-ap-coast-tomorrow/"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/2/thousands-evacuated-as-india-braces-for-second-cyclone-in-a-week"
+          }
+        ],
+        "image": null,
+        "impact": [],
+        "rank": 6
+      },
+      {
+        "id": "currency-rupee-close-2026-11-06",
+        "headline": "Rupee climbs to near 93.90, a six-month high, on foreign inflows",
+        "summary": "The rupee rose about 1.2% over the week and closed near 93.90 per dollar on Friday, its biggest one-day gain since October 12, helped by foreign buying of shares and cheaper oil. The RBI was seen buying dollars to slow the rise.",
+        "why_it_matters": "A firmer rupee cuts the cost of oil and other imports. RBI buying shows it wants the move to stay gradual.",
+        "importance": 4,
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "published_at": "2026-11-06T20:11:00+05:30",
+        "tags": [
+          "rupee",
+          "RBI",
+          "forex"
+        ],
+        "sources": [
+          {
+            "name": "Deccan Herald (PTI)",
+            "url": "https://www.deccanherald.com/business/markets/rupee-surges-52-points-to-close-at-9389-against-us-dollar-4210049"
+          },
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/markets/news/pressure-on-rupee-continues-in-samvat-2082-10-year-bond-yields-harden-126110601774_1.html"
+          }
+        ],
+        "image": null,
+        "impact": [],
+        "rank": 7
       }
-    },
-    {
-      "country": "NZD",
-      "title": "Parliamentary Elections",
-      "date": "2026-11-06T16:45:00-05:00",
-      "impact": "High",
-      "actual": "Too close to call",
-      "vs_forecast": "no_forecast",
-      "why": "With 97% counted, National and Labour are level and the final result is due Nov 27, so the NZ dollar may stay unsettled.",
-      "source": {
-        "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/7/governing-party-leads-in-new-zealands-knife-edge-vote-early-results"
-      }
-    }
-  ],
+    ]
+  },
+  "forex_results": [],
   "week_ahead": [
     {
       "date": "2026-11-08",
@@ -523,6 +594,10 @@
         {
           "text": "Diwali Muhurat trading on NSE and BSE, 2:20-3:30 PM IST",
           "section": "markets"
+        },
+        {
+          "text": "Eisenkot formally receives Israel's mandate to form a government",
+          "section": "world"
         }
       ]
     },

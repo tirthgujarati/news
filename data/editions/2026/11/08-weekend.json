@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-08-weekend",
+  "date": "2026-11-08",
+  "slot": "weekend",
+  "title": "Sunday Weekend Edition",
+  "generated_at": "2026-11-08T07:35:53+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "93.90",
+      "change": "-0.60%",
+      "dir": "down",
+      "as_of": "2026-11-06T21:36:46+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/INR%3DX"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "104.66",
+      "change": "-1.26%",
+      "dir": "down",
+      "as_of": "2026-11-06T22:04:28+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR%3DX"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "102.28",
+      "change": "+0.72%",
+      "dir": "up",
+      "as_of": "2026-11-06T21:59:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India FX reserves",
+      "value": "$717.06bn",
+      "change": "-0.37%",
+      "dir": "down",
+      "as_of": "2026-10-30T00:00:00+05:30",
+      "source": {
+        "name": "RBI Weekly Statistical Supplement",
+        "url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63939"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,030.35",
+      "change": "+2.01%",
+      "dir": "up",
+      "as_of": "2026-11-06T10:01:22+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "81,028.02",
+      "change": "+2.17%",
+      "dir": "up",
+      "as_of": "2026-11-06T10:02:33+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,376.86",
+      "change": "+0.31%",
+      "dir": "up",
+      "as_of": "2026-11-06T21:37:09+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "24,579.42",
+      "change": "+1.09%",
+      "dir": "up",
+      "as_of": "2026-11-06T22:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$4,074.90",
+      "change": "-0.94%",
+      "dir": "down",
+      "as_of": "2026-11-06T21:59:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/GC%3DF"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$98.32",
+      "change": "+0.03%",
+      "dir": "up",
+      "as_of": "2026-11-06T21:59:44+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ%3DF"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$75,624",
+      "change": "-0.16%",
+      "dir": "down",
+      "as_of": "2026-11-08T02:03:12+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.86%",
+      "change": "+0.45%",
+      "dir": "up",
+      "as_of": "2026-11-06T19:59:56+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-fssai-festive-seizures-2026-11-08",
+          "headline": "FSSAI seizes 3,280 tonnes of unsafe food worth ₹82 crore in festive drive",
+          "summary": "India's food regulator says it seized about 3,280 tonnes of banned or non-compliant food, mostly paneer, ghee, milk and sweets, since September 1. Inspectors checked over 56,400 outlets, cancelled 52 licences, suspended more than 1,100 and sealed over 300 premises.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-08T07:05:00+05:30",
+          "tags": [
+            "food safety",
+            "FSSAI",
+            "Diwali"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/fssai-seizes-3280-tonnes-of-unsafe-food-products-worth-%e2%82%b982-crore-during-festive-drive/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-us-iran-land-routes-2026-11-08",
+          "headline": "US sets up task force to cut Iran's land supply routes; blasts reported near Hormuz",
+          "summary": "US Central Command says its new 'Task Force Iron Gate' will try to stop Iran moving weapons, sanctioned goods and money across its land borders and the Caspian Sea, widening the naval blockade of Iranian ports. CENTCOM says the blockade has already kept over $25 billion of Iranian crude off the market. Iranian state media report explosions on Qeshm Island and in Bandar Abbas, Jask and Sirik on Sunday; the cause is not yet known.",
+          "why_it_matters": "A wider US squeeze on Iran raises the risk of new clashes around Hormuz just as oil prices had cooled, which matters for India's import bill.",
+          "importance": 5,
+          "lead": true,
+          "verified": true,
+          "note": "Task force confirmed by All India Radio and Al Jazeera; the $25bn figure is CENTCOM's own claim and the blasts are reported only by Iranian state media.",
+          "published_at": "2026-11-08T00:00:00+03:30",
+          "tags": [
+            "Iran",
+            "US",
+            "Hormuz",
+            "oil"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/us-establishes-new-task-force-to-curb-land-based-transportation-of-advanced-weapons-by-iran/"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6aefb55c-1794094428.jpg",
+            "credit": "Reuters/Stringer",
+            "source_url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes",
+            "alt": "Boats at anchor in the Strait of Hormuz, seen from Musandam, Oman (file photo)"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "Tighter pressure on Iran and blasts near Hormuz add risk to oil supply when trading reopens."
+            },
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "down",
+              "why": "Any oil rebound raises India's import bill and weighs on the rupee."
+            }
+          ]
+        },
+        {
+          "id": "world-eisenkot-mandate-2026-11-07",
+          "headline": "Israel's president picks Eisenkot over Netanyahu to try to form a government",
+          "summary": "New since Friday: President Isaac Herzog chose Gadi Eisenkot, who won 67 of 120 lawmakers' recommendations to Netanyahu's 46, and hands him the mandate on Sunday evening. Eisenkot has 28 days, extendable by 14, to build a coalition; his own four-party alliance holds only 48 seats. If no government forms, Israel heads to another election with Netanyahu as caretaker.",
+          "why_it_matters": "Netanyahu's possible exit would change Israel's approach to Gaza, Iran and the US at a tense moment for the region.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-07T00:00:00+02:00",
+          "tags": [
+            "Israel",
+            "Eisenkot",
+            "Netanyahu"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+            },
+            {
+              "name": "The Times of Israel",
+              "url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-krakow-shooting-2026-11-07",
+          "headline": "Gunman kills six in Krakow's main square; Poland calls it terrorism",
+          "summary": "A man drove onto Krakow's Main Market Square on Saturday afternoon and fired at people from his car, killing at least six and wounding 15, including two police officers. Police shot and detained the suspect, a Polish citizen; Prime Minister Donald Tusk called it terrorism and declared two days of mourning. Three bodies, believed to be his family, were found at his home.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-07T15:00:00+01:00",
+          "tags": [
+            "Poland",
+            "shooting"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow"
+            },
+            {
+              "name": "Notes from Poland",
+              "url": "https://notesfrompoland.com/2026/11/07/fatalities-reported-in-shooting-on-historical-market-square-in-krakow/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": []
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "id": "markets-bitcoin-weekly-drop-2026-11-08",
+          "headline": "Bitcoin slips to about $75,600, down nearly 6% over the week",
+          "summary": "Bitcoin traded near $75,624 early on Sunday, about 6% below where it stood a week ago at around $80,400, as the US tech and AI sell-off hit risky assets. It was little changed over the past day.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-08T02:03:12+00:00",
+          "tags": [
+            "bitcoin",
+            "crypto"
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/BTC-USD"
+            },
+            {
+              "name": "Coinbase",
+              "url": "https://api.coinbase.com/v2/prices/BTC-USD/spot"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "crypto",
+              "level": "low",
+              "dir": "down",
+              "why": "Selling in tech stocks has spilled into crypto this week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "id": "built-huawei-harmonyos-desktop-2026-11-05",
+          "headline": "Huawei unveils its first HarmonyOS desktop, saying every part is made in China",
+          "summary": "Huawei launched the Qingyun HM650 desktop series for companies and government offices, running its own HarmonyOS on the 10-core Kirin X90 chip. Huawei says the machines use only China-made parts, from processor to memory, with no Intel or Qualcomm chips. Prices have not been announced.",
+          "why_it_matters": "A fully home-grown PC shows how far China has gone in replacing US chips and Windows in its offices.",
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Launch reported by South China Morning Post and Huawei Central; the '100% domestic' claim is Huawei's own and not independently confirmed.",
+          "published_at": "2026-11-05T00:00:00+08:00",
+          "tags": [
+            "Huawei",
+            "PC",
+            "chips",
+            "China"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "url": "https://scmp.com/tech/tech-trends/article/3373435/no-intel-no-qualcomm-huawei-unveils-desktop-built-entirely-china-made-components"
+            },
+            {
+              "name": "Huawei Central",
+              "url": "https://www.huaweicentral.com/huaweis-first-harmonyos-desktop-pc-launched/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    }
+  ],
+  "weekend_special": {
+    "title": "The week's biggest stories",
+    "stories": [
+      {
+        "id": "world-us-midterms-2026-11-03",
+        "headline": "Democrats sweep the US midterms, taking both houses of Congress",
+        "summary": "Democrats won control of the House and the Senate on November 3, flipping Senate seats in states including Texas, Ohio and North Carolina. Trump said he accepts the result and will work with them.",
+        "why_it_matters": "A Democratic Congress can block Trump's laws and budgets for his last two years. Markets swung hard on it: the Dow had its best day since April 2025, then AI stocks crashed on fears of curbs on data centres.",
+        "importance": 5,
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "published_at": "2026-11-04T13:33:07+05:30",
+        "tags": [
+          "US",
+          "midterms",
+          "Congress"
+        ],
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html"
+          },
+          {
+            "name": "All India Radio",
+            "url": "https://newsonair.gov.in/democrats-take-early-leads-over-president-donald-trumps-republican-party-in-us-midterm-elections/"
+          }
+        ],
+        "image": null,
+        "impact": [],
+        "rank": 1
+      },
+      {
+        "id": "markets-india-best-week-since-2021-2026-11-06",
+        "headline": "Sensex and Nifty post their best week since February 2021, up nearly 9%",
+        "summary": "The Sensex rose 8.8% to 81,028 and the Nifty 8.6% to 25,030 over seven straight days of gains, led by banks, Reliance, foreign buying and falling oil.",
+        "why_it_matters": "The rally lifted investor wealth sharply going into Diwali and the Muhurat session. Because it leaned on cheaper oil, a rebound in crude is the main risk to it.",
+        "importance": 5,
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "published_at": "2026-11-06T00:00:00+05:30",
+        "tags": [
+          "Sensex",
+          "Nifty",
+          "stocks"
+        ],
+        "sources": [
+          {
+            "name": "Zee Business",
+            "url": "https://www.zeebiz.com/market-news/news-weekly-market-wrap-sensex-nifty-surge-nearly-9-best-weekly-rally-since-feb-2021-rs-2870-lakh-crore-added-muhurat-trading-in-focus-405246"
+          },
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+          }
+        ],
+        "image": null,
+        "impact": [],
+        "rank": 2
+      },
+      {
+        "id": "markets-oil-weekly-slide-2026-11-07",
+        "headline": "Brent crude falls about 13% in a week to near $98 on hopes of US-Iran calm",
+        "summary": "Brent settled at $98.32 a barrel on Friday, down from above $117 a week earlier, as traders bet the US-Iran conflict would cool after the midterms, even as tanker incidents in Hormuz continued.",
+        "why_it_matters": "Oil is India's biggest import, so the slide eased pressure on inflation, the rupee and company costs. It also drove much of the week's rally in Indian shares.",
+        "importance": 5,
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "published_at": "2026-11-07T18:51:00+05:30",
+        "tags": [
+          "oil",
+          "Brent",
+          "Iran"
+        ],
+        "sources": [
+          {
+            "name": "All India Radio",
+            "url": "https://newsonair.gov.in/global-crude-oil-prices-rebound-after-steep-losses-in-previous-session/"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/quote/BZ%3DF"
+          }
+        ],
+        "image": null,
+        "impact": [],
+        "rank": 3
+      },
+      {
+        "id": "markets-wall-street-ai-rout-2026-11-05",
+        "headline": "AI stocks crash: Nasdaq's 5.5% fall is Wall Street's worst day since April 2025",
+        "summary": "On November 5 the Nasdaq sank 5.5% into a correction as chip stocks like Micron, AMD and Nvidia tumbled on fears a Democratic Congress will slow data centre building. Korea's Kospi and Japan's Nikkei crashed the next day.",
+        "why_it_matters": "The AI boom has carried global markets, so doubts about it spread fast to chipmakers in Asia. Indian shares largely escaped because they hold few AI stocks.",
+        "importance": 4,
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "published_at": "2026-11-05T16:18:00-05:00",
+        "tags": [
+          "Nasdaq",
+          "AI",
+          "chips"
+        ],
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets"
+          }
+        ],
+        "image": null,
+        "impact": [],
+        "rank": 4
+      },
+      {
+        "id": "currency-us-jobs-dollar-2026-11-06",
+        "headline": "Strong US jobs data and a Bank of England hike keep rate rises in play",
+        "summary": "US employers added 165,000 jobs in October, well above forecasts, lifting the dollar and Treasury yields. A day earlier the Bank of England raised rates to 4%, its first hike since 2023, citing energy-driven inflation.",
+        "why_it_matters": "Central banks are raising rates again to fight energy inflation, which keeps borrowing costs high worldwide. A possible US hike in December could pull foreign money away from India.",
+        "importance": 4,
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "published_at": "2026-11-06T08:30:00-05:00",
+        "tags": [
+          "US jobs",
+          "Fed",
+          "Bank of England"
+        ],
+        "sources": [
+          {
+            "name": "US Bureau of Labor Statistics",
+            "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+          },
+          {
+            "name": "Bank of England",
+            "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+          }
+        ],
+        "image": null,
+        "impact": [],
+        "rank": 5
+      },
+      {
+        "id": "india-cyclone-murasu-2026-11-01",
+        "headline": "Cyclone Murasu hits Andhra Pradesh, the second cyclone on the coast in a week",
+        "summary": "The severe cyclone crossed the coast near Ongole early on November 3 with winds up to 120 km/h, after more than 1.5 lakh people were moved in Odisha and Andhra. Andhra puts losses from Murasu and the earlier Cyclone Arnab at about ₹4,900 crore.",
+        "why_it_matters": "Back-to-back storms damaged crops, power lines and roads across coastal Andhra. The state is asking the Centre for aid.",
+        "importance": 4,
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "published_at": "2026-11-03T07:32:00+05:30",
+        "tags": [
+          "cyclone",
+          "Andhra Pradesh"
+        ],
+        "sources": [
+          {
+            "name": "ETV Bharat",
+            "url": "https://www.etvbharat.com/en/bharat/live-blog--cyclone-murasu-live-updates-landfall-andhra-pradesh-coast-odisha-tamil-nadu-weather-update-enn26110300486"
+          },
+          {
+            "name": "All India Radio",
+            "url": "https://newsonair.gov.in/deep-depression-over-bay-of-bengal-intensifies-into-cyclonic-storm-murasu-likely-to-make-landfall-along-ap-coast-tomorrow/"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/2/thousands-evacuated-as-india-braces-for-second-cyclone-in-a-week"
+          }
+        ],
+        "image": null,
+        "impact": [],
+        "rank": 6
+      },
+      {
+        "id": "currency-rupee-close-2026-11-06",
+        "headline": "Rupee climbs to near 93.90, a six-month high, on foreign inflows",
+        "summary": "The rupee rose about 1.2% over the week and closed near 93.90 per dollar on Friday, its biggest one-day gain since October 12, helped by foreign buying of shares and cheaper oil. The RBI was seen buying dollars to slow the rise.",
+        "why_it_matters": "A firmer rupee cuts the cost of oil and other imports. RBI buying shows it wants the move to stay gradual.",
+        "importance": 4,
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "published_at": "2026-11-06T20:11:00+05:30",
+        "tags": [
+          "rupee",
+          "RBI",
+          "forex"
+        ],
+        "sources": [
+          {
+            "name": "Deccan Herald (PTI)",
+            "url": "https://www.deccanherald.com/business/markets/rupee-surges-52-points-to-close-at-9389-against-us-dollar-4210049"
+          },
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/markets/news/pressure-on-rupee-continues-in-samvat-2082-10-year-bond-yields-harden-126110601774_1.html"
+          }
+        ],
+        "image": null,
+        "impact": [],
+        "rank": 7
+      }
+    ]
+  },
+  "forex_results": [],
+  "week_ahead": [
+    {
+      "date": "2026-11-08",
+      "events": [
+        {
+          "text": "Diwali Muhurat trading on NSE and BSE, 2:20-3:30 PM IST",
+          "section": "markets"
+        },
+        {
+          "text": "Eisenkot formally receives Israel's mandate to form a government",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "events": [
+        {
+          "text": "Lower prices for 137 anti-cancer drugs take effect",
+          "section": "india"
+        },
+        {
+          "text": "RBI 4-day variable rate repo auction",
+          "section": "currency"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "events": [
+        {
+          "text": "Russia-Ukraine talks in Abu Dhabi (Nov 10-11)",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "events": [
+        {
+          "text": "BOJ board member Toichiro Asada speaks",
+          "section": "currency"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "events": [
+        {
+          "text": "RBI weekly forex reserves data",
+          "section": "currency"
+        }
+      ]
+    }
+  ]
+}
