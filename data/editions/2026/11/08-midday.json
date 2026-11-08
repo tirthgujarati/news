@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-08-midday",
+  "date": "2026-11-08",
+  "slot": "midday",
+  "title": "Sunday Midday Edition",
+  "generated_at": "2026-11-08T13:40:01+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "93.90",
+      "change": "-0.60%",
+      "dir": "down",
+      "as_of": "2026-11-06T21:36:46+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/INR%3DX"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "104.66",
+      "change": "-1.26%",
+      "dir": "down",
+      "as_of": "2026-11-06T22:04:28+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR%3DX"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "102.28",
+      "change": "+0.72%",
+      "dir": "up",
+      "as_of": "2026-11-06T21:59:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India FX reserves",
+      "value": "$717.06bn",
+      "change": "-0.37%",
+      "dir": "down",
+      "as_of": "2026-10-30T00:00:00+05:30",
+      "source": {
+        "name": "RBI Weekly Statistical Supplement",
+        "url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63939"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,030.35",
+      "change": "+2.01%",
+      "dir": "up",
+      "as_of": "2026-11-06T10:01:22+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "81,028.02",
+      "change": "+2.17%",
+      "dir": "up",
+      "as_of": "2026-11-06T10:02:33+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,376.86",
+      "change": "+0.31%",
+      "dir": "up",
+      "as_of": "2026-11-06T21:37:09+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "24,579.42",
+      "change": "+1.09%",
+      "dir": "up",
+      "as_of": "2026-11-06T22:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$4,074.90",
+      "change": "-0.94%",
+      "dir": "down",
+      "as_of": "2026-11-06T21:59:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/GC%3DF"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$98.32",
+      "change": "+0.03%",
+      "dir": "up",
+      "as_of": "2026-11-06T21:59:44+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ%3DF"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$75,807",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-08T08:10:01+00:00",
+      "source": {
+        "name": "Coinbase",
+        "url": "https://api.coinbase.com/v2/prices/BTC-USD/spot"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.86%",
+      "change": "+0.45%",
+      "dir": "up",
+      "as_of": "2026-11-06T19:59:56+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-e20-karnataka-claims-2026-11-07",
+          "headline": "Petroleum Ministry says E20 petrol meets standards, rejects Karnataka's claims",
+          "summary": "The Petroleum Ministry and state-run IOC, BPCL and HPCL say all 893 E20 petrol samples tested in 27 states and UTs meet the BIS standard, including 56 from Karnataka with 19-20% ethanol. Karnataka had said some pumps sold petrol with 26-31% ethanol; the oil firms say its tests skipped legal sampling rules and have asked for joint testing.",
+          "why_it_matters": "The row between the Centre and a big state over fuel quality feeds doubts about India's ethanol-blending push.",
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Claim by the Petroleum Ministry and state oil companies; Karnataka's own test results have not been independently checked.",
+          "published_at": "2026-11-08T08:10:00+05:30",
+          "tags": [
+            "E20",
+            "ethanol",
+            "fuel",
+            "Karnataka"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/petroleum-ministry-says-e20-petrol-across-india-meets-prescribed-quality-standards/"
+            },
+            {
+              "name": "The Tribune",
+              "url": "https://www.tribuneindia.com/news/bis-standards/e20-petrol-meets-prescribed-quality-norms-893-samples-across-27-states-and-uts-found-compliant"
+            }
+          ],
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2025/03/petrol.jpeg",
+            "credit": "News On AIR",
+            "source_url": "https://newsonair.gov.in/petroleum-ministry-says-e20-petrol-across-india-meets-prescribed-quality-standards/",
+            "alt": "A fuel nozzle filling a red car at a petrol pump (file photo)"
+          },
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-saudi-houthi-missiles-2026-11-08",
+          "headline": "Saudi-led coalition says it shot down three Houthi missiles fired at Riyadh and east",
+          "summary": "The Saudi-led coalition says its air defences destroyed three ballistic missiles fired from Yemen on Sunday, two aimed at Riyadh and one at the oil-rich Eastern province. The Houthis say they targeted Aramco facilities and Riyadh airport, and that coalition strikes killed 33 people near Sanaa. No damage to oil sites has been reported.",
+          "why_it_matters": "Attacks aimed at Saudi oil areas add to supply risk while Hormuz shipping is already disrupted, which matters for India's fuel import bill.",
+          "importance": 4,
+          "lead": true,
+          "verified": false,
+          "note": "Claims by the coalition and the Houthis; Al Jazeera says it could not independently verify them.",
+          "published_at": "2026-11-08T07:40:07+00:00",
+          "tags": [
+            "Saudi Arabia",
+            "Houthis",
+            "Yemen",
+            "oil"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-07T162154Z_1745946462_RC20JOADOKZE_RTRMADP_3_IRAN-CRISIS-YEMEN-TAIZ-1794119762.jpg?resize=1200%2C900",
+            "credit": "Anees Mahyoub/Reuters",
+            "source_url": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province",
+            "alt": "Mourners carry a body to burial in Taiz, Yemen, on November 7"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "low",
+              "dir": "up",
+              "why": "Missiles aimed at Saudi oil areas add a small risk premium, though no damage is reported."
+            }
+          ]
+        },
+        {
+          "id": "world-japan-shizuoka-quake-2026-11-08",
+          "headline": "Magnitude 5.7 quake hits central Japan, injuring about 20 people",
+          "summary": "A 5.7 earthquake struck western Shizuoka at 1:04 AM local time on Sunday, about 40 km deep, the weather agency says. Around 20 people were hurt in Aichi and Shizuoka, mostly lightly, windows shattered and bullet trains slowed. There is no tsunami warning, but officials warn of strong aftershocks over the next few days.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-08T04:20:57+00:00",
+          "tags": [
+            "Japan",
+            "earthquake"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/8/earthquake-hits-central-japan-injuring-more-than-20-people"
+            },
+            {
+              "name": "The Japan Times",
+              "url": "https://www.japantimes.co.jp/news/2026/11/08/japan/earthquake-aichi-sunday/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-trump-dana-white-2026-11-08",
+          "headline": "Trump asks UFC chief Dana White to be White House press secretary",
+          "summary": "Donald Trump urged UFC boss Dana White on social media on Saturday to take the press secretary job, which has been empty since October. White says he will meet Trump at the White House on Monday to talk about it.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera (with Reuters).",
+          "published_at": "2026-11-08T00:00:00+00:00",
+          "tags": [
+            "US",
+            "Trump",
+            "White House"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/8/trump-asks-ufc-chief-dana-white-to-be-white-house-press-secretary"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": []
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": []
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": []
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [],
+  "week_ahead": [
+    {
+      "date": "2026-11-08",
+      "events": [
+        {
+          "text": "Diwali Muhurat trading on NSE and BSE, 2:20-3:30 PM IST",
+          "section": "markets"
+        },
+        {
+          "text": "Eisenkot formally receives Israel's mandate to form a government",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "events": [
+        {
+          "text": "Lower prices for 137 anti-cancer drugs take effect",
+          "section": "india"
+        },
+        {
+          "text": "RBI 4-day variable rate repo auction",
+          "section": "currency"
+        },
+        {
+          "text": "Dana White meets Trump at the White House on the press secretary offer",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "events": [
+        {
+          "text": "Russia-Ukraine talks in Abu Dhabi (Nov 10-11)",
+          "section": "world"
+        },
+        {
+          "text": "US October CPI inflation data",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "events": [
+        {
+          "text": "UK Q3 GDP first estimate",
+          "section": "currency"
+        },
+        {
+          "text": "BOJ board member Toichiro Asada speaks",
+          "section": "currency"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "events": [
+        {
+          "text": "RBI weekly forex reserves data",
+          "section": "currency"
+        },
+        {
+          "text": "US October producer prices (PPI)",
+          "section": "markets"
+        }
+      ]
+    }
+  ]
+}
