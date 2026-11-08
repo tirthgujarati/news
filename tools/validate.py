@@ -32,6 +32,9 @@ SECTION_TITLES = {
     "built": "Built This Week",
 }
 MAX_STORIES = {"india": 5, "world": 5, "currency": 4, "markets": 5, "built": 5}
+# From this date the Weekend Special comes early Monday (Fri midday to Sun
+# night), with a Monday effect and what to watch on every story.
+MONDAY_SPECIAL_FROM = dt.date(2026, 11, 9)
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp")
 
 
@@ -74,16 +77,15 @@ def rule_errors(ed: dict, label: str) -> list[str]:
         bad(f"date '{date}' is not a real date")
         day = None
 
-    # Weekend Special only on Sunday morning.
+    # Weekend Special only early Monday (Sunday morning before the switch).
+    monday_special = bool(day and day >= MONDAY_SPECIAL_FROM)
     if slot == "weekend":
-        if day and day.weekday() != 6:
-            bad("slot 'weekend' is only for Sunday")
+        if day and day.weekday() != (0 if monday_special else 6):
+            bad("slot 'weekend' is only for Monday")
         if ed.get("weekend_special") is None:
             bad("a weekend edition must fill weekend_special")
     elif ed.get("weekend_special") is not None:
         bad("weekend_special must be null except in the weekend slot")
-    if day and day.weekday() == 6 and slot == "morning":
-        bad("Sunday morning must use slot 'weekend'")
 
     sections = ed.get("sections", [])
     ids = [s.get("id") for s in sections]
@@ -142,6 +144,10 @@ def rule_errors(ed: dict, label: str) -> list[str]:
                 bad("weekend_special stories must have lead=false (the lead lives in sections)")
             if st.get("image") is not None:
                 bad("weekend_special stories carry no photo")
+            if monday_special:
+                for field in ("monday_effect", "watch_next"):
+                    if not st.get(field):
+                        bad(f"weekend_special story '{st.get('id')}' needs {field}")
 
     snap_ids = [s.get("id") for s in ed.get("snapshot", [])]
     if len(snap_ids) != len(set(snap_ids)):

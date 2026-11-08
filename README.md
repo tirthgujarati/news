@@ -9,7 +9,8 @@ phone keeps the full archive.
 
 | When (IST) | Slot |
 | --- | --- |
-| 7:30 AM | `morning` (Sunday: `weekend`, with the Weekend Special) |
+| 5:30 AM, Monday only | `weekend`, with the Weekend Special |
+| 7:30 AM | `morning` (every day, Sunday and Monday too) |
 | 1:30 PM | `midday` |
 | 8:30 PM | `evening` |
 
@@ -62,11 +63,28 @@ Every edition has these 5 sections, in this order, with these titles.
 
 Stories counts are maximums to aim for, not quotas. **Never pad.**
 
-**Weekend Special** (Sunday morning only, slot `weekend`): the 5 to 7 biggest
-stories of the past 7 days across all sections, ranked (`rank` 1 = biggest),
-each with a 2 to 3 sentence `why_it_matters`. The normal sections are still
-included in that edition. Weekend Special stories have `lead: false` and
-`image: null`.
+**Weekend Special** (Monday 5:30 AM only, slot `weekend`): Tirth reads it
+before Indian markets open, to prepare for Monday. It covers **Friday 1:30 PM
+IST to now** (Friday after midday, all of Saturday and Sunday, and Monday's
+early hours): the 5 to 7 biggest market-moving stories of that window across
+all sections, ranked (`rank` 1 = biggest). Rank by how much each is likely to
+move Indian stocks, the rupee, gold, silver, oil, the Forex currencies,
+crypto or US stocks on Monday. Research this window in depth: what exactly
+happened, the numbers, who said what, and how markets reacted (Friday's US
+close, crypto over the weekend, any Monday-morning Asia or US futures moves
+you can source). Each story has:
+- `why_it_matters`: 2 to 3 sentences.
+- `impact`: chips, same rules as Impact tags below (up to 4, highest first).
+- `monday_effect` (≤360 characters): how it is likely to play out when Indian
+  markets open on Monday: Nifty/Sensex direction, the sectors and named
+  companies most affected, the rupee. Say how sure you are ("likely",
+  "could"); never invent a number or a price target.
+- `watch_next` (≤200 characters): the next event or level that would confirm
+  or undo it (e.g. "Iran's reply to the Qatari draft; Brent back above $100").
+
+The normal sections are still included, covering news since the previous
+edition (Sunday evening). The Weekend Special `title` is like `Weekend: Fri
+to Sun`. Weekend Special stories have `lead: false` and `image: null`.
 
 Also trusted, because they can be opened by Claude: **All India Radio**
 (newsonair.gov.in), **RBI**, **CNBC**, **Al Jazeera**, and official sites
@@ -185,7 +203,8 @@ and which way. The app shows each as a coloured chip, e.g. "● GOLD ▼" in red
 - `why`: one plain sentence, under 120 characters, giving the reason.
 - At most 4 per story, highest level first. Only tag what the story genuinely
   moves; many stories (e.g. most World and Built stories) have `[]`. Never
-  invent an effect to fill the list. Weekend Special stories use `[]`.
+  invent an effect to fill the list. Weekend Special stories always get
+  chips: they are picked because they move markets.
 
 ## Forex results
 
@@ -257,7 +276,10 @@ short `text` and the `section` it belongs to. Only scheduled, confirmed events
 - `sections` always lists all 5 sections in order; an empty section has `"stories": []`.
 - `weekend_special` is `null` except in the `weekend` slot.
 - `title` like `Monday Morning Edition`, `Monday Midday Edition`,
-  `Monday Evening Edition`, `Sunday Weekend Edition`.
+  `Monday Evening Edition`, `Monday Weekend Edition`.
+- On Monday there are two morning files: `DD-weekend.json` (5:30 AM) and
+  `DD-morning.json` (7:30 AM). The 7:30 morning run covers only what is new
+  since the Weekend Special and does not repeat its stories.
 - If an edition with the same id already exists, replace it with the new one.
 
 ## Flash desk

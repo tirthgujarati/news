@@ -252,7 +252,19 @@
       "allOf": [{ "$ref": "#/$defs/story" }],
       "required": ["rank"],
       "properties": {
-        "rank": { "type": "integer", "minimum": 1, "maximum": 7 }
+        "rank": { "type": "integer", "minimum": 1, "maximum": 7 },
+        "monday_effect": {
+          "description": "How the story is likely to play out when Indian markets open on Monday: Nifty/Sensex, sectors, named companies, rupee.",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 360
+        },
+        "watch_next": {
+          "description": "What to watch next that would confirm or undo the effect.",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        }
       },
       "unevaluatedProperties": false
     },

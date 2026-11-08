@@ -21,7 +21,7 @@ EDITIONS = DATA / "editions"
 FLASH = DATA / "flash"
 KEEP_DAYS = 7
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
-SLOT_ORDER = {"morning": 0, "weekend": 0, "midday": 1, "evening": 2}
+SLOT_ORDER = {"weekend": 0, "morning": 1, "midday": 2, "evening": 3}
 
 
 def main() -> None:
