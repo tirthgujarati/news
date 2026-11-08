@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-08-evening",
+  "date": "2026-11-08",
+  "slot": "evening",
+  "title": "Sunday Evening Edition",
+  "generated_at": "2026-11-08T20:45:09+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "93.90",
+      "change": "-0.60%",
+      "dir": "down",
+      "as_of": "2026-11-06T21:36:46+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/INR%3DX"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "104.66",
+      "change": "-1.26%",
+      "dir": "down",
+      "as_of": "2026-11-06T22:04:28+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR%3DX"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "102.28",
+      "change": "+0.72%",
+      "dir": "up",
+      "as_of": "2026-11-06T21:59:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India FX reserves",
+      "value": "$717.06bn",
+      "change": "-0.37%",
+      "dir": "down",
+      "as_of": "2026-10-30T00:00:00+05:30",
+      "source": {
+        "name": "RBI Weekly Statistical Supplement",
+        "url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63939"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "24,986.40",
+      "change": "-0.18%",
+      "dir": "down",
+      "as_of": "2026-11-08T10:03:15+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "80,999.40",
+      "change": "-0.04%",
+      "dir": "down",
+      "as_of": "2026-11-08T10:02:16+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,376.86",
+      "change": "+0.31%",
+      "dir": "up",
+      "as_of": "2026-11-06T21:37:09+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "24,579.42",
+      "change": "+1.09%",
+      "dir": "up",
+      "as_of": "2026-11-06T22:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$4,074.90",
+      "change": "-0.94%",
+      "dir": "down",
+      "as_of": "2026-11-06T21:59:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/GC%3DF"
+      }
+    },
+    {
+      "id": "gold_mcx",
+      "label": "Gold MCX (10g)",
+      "value": "₹1,42,167",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-06T00:00:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/gold-and-silver-prices-recover-amid-fall-in-crude-oil-prices/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$98.32",
+      "change": "+0.03%",
+      "dir": "up",
+      "as_of": "2026-11-06T21:59:44+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ%3DF"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$75,920",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-08T15:12:19+00:00",
+      "source": {
+        "name": "Coinbase",
+        "url": "https://api.coinbase.com/v2/prices/BTC-USD/spot"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.86%",
+      "change": "+0.45%",
+      "dir": "up",
+      "as_of": "2026-11-06T19:59:56+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-modi-bastar-naxal-2026-11-08",
+          "headline": "Modi says no district in India is now hit by Naxalism, in Diwali visit to Bastar",
+          "summary": "Prime Minister Narendra Modi spent Diwali with CRPF, CoBRA and other security forces at a camp in Karanpur, Bastar, in Chhattisgarh. He said that for the first time no district in the country is affected by Naxalism, and that no CRPF personnel died on duty in the past year.",
+          "why_it_matters": "An end to the Maoist insurgency would open mineral-rich central India to more mining, roads and investment.",
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Claim by the Prime Minister; not independently confirmed. Single source: All India Radio.",
+          "published_at": "2026-11-08T14:05:00+05:30",
+          "tags": [
+            "Naxalism",
+            "Bastar",
+            "Modi",
+            "security"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/pm-modi-celebrates-diwali-with-security-personnel-in-chhattisgarhs-bastar/"
+            }
+          ],
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/4-1.png",
+            "credit": "News On AIR",
+            "source_url": "https://newsonair.gov.in/pm-modi-celebrates-diwali-with-security-personnel-in-chhattisgarhs-bastar/",
+            "alt": "PM Modi in camouflage and a CRPF hat speaking to security forces in Bastar"
+          },
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-hormuz-tankers-blockade-2026-11-08",
+          "headline": "Iran's IRGC says tankers hit in Hormuz; US says it disabled a ship running its blockade",
+          "summary": "Iran's Revolutionary Guards say three oil tankers using an 'unauthorised route' caught fire after explosions in the Strait of Hormuz, and the UAE says it rescued 22 sailors from a burning cargo ship. Separately, US Central Command says its aircraft struck the stern of a St Kitts-flagged ship in the Gulf of Oman late Saturday after the crew ignored warnings and tried to leave after visiting an Iranian port.",
+          "why_it_matters": "Attacks on shipping near Hormuz can push oil prices and freight costs up again, which hurts India's import bill.",
+          "importance": 4,
+          "lead": false,
+          "verified": false,
+          "note": "Claims by Iran's IRGC and US CENTCOM; the cause of the tanker fires is not independently confirmed.",
+          "published_at": "2026-11-08T00:00:56+00:00",
+          "tags": [
+            "Iran",
+            "Hormuz",
+            "US",
+            "blockade",
+            "shipping"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes"
+            },
+            {
+              "name": "The Times of Israel",
+              "url": "https://www.timesofisrael.com/us-military-says-strike-disabled-ship-trying-to-run-blockade-on-iran/"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20260907__C7JU7ZQ__v1__HighRes__IranUsIsraelWar-1-1794138533.jpg?resize=1920%2C1440",
+            "credit": "AFP",
+            "source_url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes",
+            "alt": "Cargo ships and a tanker at sea in hazy Gulf waters (file photo)"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "New attacks on ships near Hormuz raise supply worries after last week's sharp fall in crude."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": []
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "id": "markets-muhurat-trading-2026-11-08",
+          "headline": "Sensex, Nifty slip in Muhurat trading, ending a long Diwali winning run",
+          "summary": "In the one-hour Diwali session that opens Samvat 2083, the Sensex rose over 400 points early to about 81,406 but closed 29 points lower at 80,999.40; the Nifty fell 44 points, or 0.18%, to 24,986.40. Smaller stocks did better: the Nifty Smallcap 100 gained about 1%, and Sun Pharma and Tata Steel led the Sensex while M&M and IndiGo lagged.",
+          "why_it_matters": "After the best week since 2021, the flat finish suggests traders are booking some profit before Monday's full session.",
+          "importance": 4,
+          "lead": true,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-08T18:10:00+05:30",
+          "tags": [
+            "Muhurat",
+            "Sensex",
+            "Nifty",
+            "Diwali",
+            "Samvat 2083"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/benchmark-indices-surrender-initial-gains-close-lower-in-special-trading-session/"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5ENSEI"
+            },
+            {
+              "name": "Oneindia",
+              "url": "https://www.oneindia.com/business/9-year-diwali-winning-streak-ends-sensex-nifty-lose-early-gains-in-muhurat-trading-2026-8254515.html"
+            }
+          ],
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/share-market.jpg",
+            "credit": "News On AIR",
+            "source_url": "https://newsonair.gov.in/benchmark-indices-surrender-initial-gains-close-lower-in-special-trading-session/",
+            "alt": "The Bombay Stock Exchange building in Mumbai with a red ticker board (file photo)"
+          },
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Pharma",
+              "level": "low",
+              "dir": "up",
+              "why": "Healthcare was the best BSE sector in the session, led by Sun Pharma."
+            },
+            {
+              "on": "indian_stocks",
+              "level": "low",
+              "dir": "mixed",
+              "why": "A flat close after a 9% weekly rally hints at a pause, while small caps stay strong."
+            }
+          ]
+        },
+        {
+          "id": "markets-fpi-inflows-november-2026-11-08",
+          "headline": "Foreign investors put ₹38,971 crore into Indian shares in November's first week",
+          "summary": "Depository data show foreign portfolio investors turned net buyers, investing ₹38,971 crore in Indian equities, almost all through stock exchange purchases. AIR says money moved to India after the sell-off in global AI and tech stocks; FPIs also put ₹4,319 crore into Indian debt so far this month.",
+          "why_it_matters": "Big foreign inflows drove last week's rally and the rupee's rise, so whether they continue matters for both.",
+          "importance": 4,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-08T16:21:00+05:30",
+          "tags": [
+            "FPI",
+            "foreign investors",
+            "equities",
+            "rupee"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/fpis-invest-%e2%82%b938971-crore-in-indian-equities-in-first-week-of-november/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "level": "medium",
+              "dir": "up",
+              "why": "Steady foreign buying supports share prices."
+            },
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "up",
+              "why": "Dollar inflows from foreign investors help the rupee."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": []
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [],
+  "week_ahead": [
+    {
+      "date": "2026-11-09",
+      "events": [
+        {
+          "text": "Lower prices for 137 anti-cancer drugs take effect",
+          "section": "india"
+        },
+        {
+          "text": "RBI 4-day variable rate repo auction",
+          "section": "currency"
+        },
+        {
+          "text": "Dana White meets Trump at the White House on the press secretary offer",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "events": [
+        {
+          "text": "Russia-Ukraine talks in Abu Dhabi (Nov 10-11)",
+          "section": "world"
+        },
+        {
+          "text": "US October CPI inflation data",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "events": [
+        {
+          "text": "UK Q3 GDP first estimate",
+          "section": "currency"
+        },
+        {
+          "text": "BOJ board member Toichiro Asada speaks",
+          "section": "currency"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "events": [
+        {
+          "text": "RBI weekly forex reserves data",
+          "section": "currency"
+        },
+        {
+          "text": "US October producer prices (PPI)",
+          "section": "markets"
+        }
+      ]
+    }
+  ]
+}

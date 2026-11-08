@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-08-midday",
+  "edition_id": "2026-11-08-evening",
   "date": "2026-11-08",
-  "slot": "midday",
-  "title": "Sunday Midday Edition",
-  "generated_at": "2026-11-08T13:40:01+05:30",
+  "slot": "evening",
+  "title": "Sunday Evening Edition",
+  "generated_at": "2026-11-08T20:45:09+05:30",
   "snapshot": [
     {
       "id": "usdinr",
@@ -57,10 +57,10 @@
     {
       "id": "nifty",
       "label": "Nifty 50",
-      "value": "25,030.35",
-      "change": "+2.01%",
-      "dir": "up",
-      "as_of": "2026-11-06T10:01:22+00:00",
+      "value": "24,986.40",
+      "change": "-0.18%",
+      "dir": "down",
+      "as_of": "2026-11-08T10:03:15+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5ENSEI"
@@ -69,10 +69,10 @@
     {
       "id": "sensex",
       "label": "Sensex",
-      "value": "81,028.02",
-      "change": "+2.17%",
-      "dir": "up",
-      "as_of": "2026-11-06T10:02:33+00:00",
+      "value": "80,999.40",
+      "change": "-0.04%",
+      "dir": "down",
+      "as_of": "2026-11-08T10:02:16+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EBSESN"
@@ -115,6 +115,18 @@
       }
     },
     {
+      "id": "gold_mcx",
+      "label": "Gold MCX (10g)",
+      "value": "₹1,42,167",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-06T00:00:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/gold-and-silver-prices-recover-amid-fall-in-crude-oil-prices/"
+      }
+    },
+    {
       "id": "brent",
       "label": "Brent crude",
       "value": "$98.32",
@@ -129,10 +141,10 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$75,807",
+      "value": "$75,920",
       "change": null,
       "dir": "flat",
-      "as_of": "2026-11-08T08:10:01+00:00",
+      "as_of": "2026-11-08T15:12:19+00:00",
       "source": {
         "name": "Coinbase",
         "url": "https://api.coinbase.com/v2/prices/BTC-USD/spot"
@@ -157,36 +169,32 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-e20-karnataka-claims-2026-11-07",
-          "headline": "Petroleum Ministry says E20 petrol meets standards, rejects Karnataka's claims",
-          "summary": "The Petroleum Ministry and state-run IOC, BPCL and HPCL say all 893 E20 petrol samples tested in 27 states and UTs meet the BIS standard, including 56 from Karnataka with 19-20% ethanol. Karnataka had said some pumps sold petrol with 26-31% ethanol; the oil firms say its tests skipped legal sampling rules and have asked for joint testing.",
-          "why_it_matters": "The row between the Centre and a big state over fuel quality feeds doubts about India's ethanol-blending push.",
+          "id": "india-modi-bastar-naxal-2026-11-08",
+          "headline": "Modi says no district in India is now hit by Naxalism, in Diwali visit to Bastar",
+          "summary": "Prime Minister Narendra Modi spent Diwali with CRPF, CoBRA and other security forces at a camp in Karanpur, Bastar, in Chhattisgarh. He said that for the first time no district in the country is affected by Naxalism, and that no CRPF personnel died on duty in the past year.",
+          "why_it_matters": "An end to the Maoist insurgency would open mineral-rich central India to more mining, roads and investment.",
           "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Claim by the Petroleum Ministry and state oil companies; Karnataka's own test results have not been independently checked.",
-          "published_at": "2026-11-08T08:10:00+05:30",
+          "note": "Claim by the Prime Minister; not independently confirmed. Single source: All India Radio.",
+          "published_at": "2026-11-08T14:05:00+05:30",
           "tags": [
-            "E20",
-            "ethanol",
-            "fuel",
-            "Karnataka"
+            "Naxalism",
+            "Bastar",
+            "Modi",
+            "security"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/petroleum-ministry-says-e20-petrol-across-india-meets-prescribed-quality-standards/"
-            },
-            {
-              "name": "The Tribune",
-              "url": "https://www.tribuneindia.com/news/bis-standards/e20-petrol-meets-prescribed-quality-norms-893-samples-across-27-states-and-uts-found-compliant"
+              "url": "https://newsonair.gov.in/pm-modi-celebrates-diwali-with-security-personnel-in-chhattisgarhs-bastar/"
             }
           ],
           "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2025/03/petrol.jpeg",
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/4-1.png",
             "credit": "News On AIR",
-            "source_url": "https://newsonair.gov.in/petroleum-ministry-says-e20-petrol-across-india-meets-prescribed-quality-standards/",
-            "alt": "A fuel nozzle filling a red car at a petrol pump (file photo)"
+            "source_url": "https://newsonair.gov.in/pm-modi-celebrates-diwali-with-security-personnel-in-chhattisgarhs-bastar/",
+            "alt": "PM Modi in camouflage and a CRPF hat speaking to security forces in Bastar"
           },
           "impact": []
         }
@@ -197,92 +205,46 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-saudi-houthi-missiles-2026-11-08",
-          "headline": "Saudi-led coalition says it shot down three Houthi missiles fired at Riyadh and east",
-          "summary": "The Saudi-led coalition says its air defences destroyed three ballistic missiles fired from Yemen on Sunday, two aimed at Riyadh and one at the oil-rich Eastern province. The Houthis say they targeted Aramco facilities and Riyadh airport, and that coalition strikes killed 33 people near Sanaa. No damage to oil sites has been reported.",
-          "why_it_matters": "Attacks aimed at Saudi oil areas add to supply risk while Hormuz shipping is already disrupted, which matters for India's fuel import bill.",
+          "id": "world-hormuz-tankers-blockade-2026-11-08",
+          "headline": "Iran's IRGC says tankers hit in Hormuz; US says it disabled a ship running its blockade",
+          "summary": "Iran's Revolutionary Guards say three oil tankers using an 'unauthorised route' caught fire after explosions in the Strait of Hormuz, and the UAE says it rescued 22 sailors from a burning cargo ship. Separately, US Central Command says its aircraft struck the stern of a St Kitts-flagged ship in the Gulf of Oman late Saturday after the crew ignored warnings and tried to leave after visiting an Iranian port.",
+          "why_it_matters": "Attacks on shipping near Hormuz can push oil prices and freight costs up again, which hurts India's import bill.",
           "importance": 4,
-          "lead": true,
+          "lead": false,
           "verified": false,
-          "note": "Claims by the coalition and the Houthis; Al Jazeera says it could not independently verify them.",
-          "published_at": "2026-11-08T07:40:07+00:00",
+          "note": "Claims by Iran's IRGC and US CENTCOM; the cause of the tanker fires is not independently confirmed.",
+          "published_at": "2026-11-08T00:00:56+00:00",
           "tags": [
-            "Saudi Arabia",
-            "Houthis",
-            "Yemen",
-            "oil"
+            "Iran",
+            "Hormuz",
+            "US",
+            "blockade",
+            "shipping"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province"
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes"
+            },
+            {
+              "name": "The Times of Israel",
+              "url": "https://www.timesofisrael.com/us-military-says-strike-disabled-ship-trying-to-run-blockade-on-iran/"
             }
           ],
           "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-07T162154Z_1745946462_RC20JOADOKZE_RTRMADP_3_IRAN-CRISIS-YEMEN-TAIZ-1794119762.jpg?resize=1200%2C900",
-            "credit": "Anees Mahyoub/Reuters",
-            "source_url": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province",
-            "alt": "Mourners carry a body to burial in Taiz, Yemen, on November 7"
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20260907__C7JU7ZQ__v1__HighRes__IranUsIsraelWar-1-1794138533.jpg?resize=1920%2C1440",
+            "credit": "AFP",
+            "source_url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes",
+            "alt": "Cargo ships and a tanker at sea in hazy Gulf waters (file photo)"
           },
           "impact": [
             {
               "on": "oil",
-              "level": "low",
+              "level": "medium",
               "dir": "up",
-              "why": "Missiles aimed at Saudi oil areas add a small risk premium, though no damage is reported."
+              "why": "New attacks on ships near Hormuz raise supply worries after last week's sharp fall in crude."
             }
           ]
-        },
-        {
-          "id": "world-japan-shizuoka-quake-2026-11-08",
-          "headline": "Magnitude 5.7 quake hits central Japan, injuring about 20 people",
-          "summary": "A 5.7 earthquake struck western Shizuoka at 1:04 AM local time on Sunday, about 40 km deep, the weather agency says. Around 20 people were hurt in Aichi and Shizuoka, mostly lightly, windows shattered and bullet trains slowed. There is no tsunami warning, but officials warn of strong aftershocks over the next few days.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-08T04:20:57+00:00",
-          "tags": [
-            "Japan",
-            "earthquake"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/8/earthquake-hits-central-japan-injuring-more-than-20-people"
-            },
-            {
-              "name": "The Japan Times",
-              "url": "https://www.japantimes.co.jp/news/2026/11/08/japan/earthquake-aichi-sunday/"
-            }
-          ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "world-trump-dana-white-2026-11-08",
-          "headline": "Trump asks UFC chief Dana White to be White House press secretary",
-          "summary": "Donald Trump urged UFC boss Dana White on social media on Saturday to take the press secretary job, which has been empty since October. White says he will meet Trump at the White House on Monday to talk about it.",
-          "why_it_matters": null,
-          "importance": 2,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera (with Reuters).",
-          "published_at": "2026-11-08T00:00:00+00:00",
-          "tags": [
-            "US",
-            "Trump",
-            "White House"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/8/trump-asks-ufc-chief-dana-white-to-be-white-house-press-secretary"
-            }
-          ],
-          "image": null,
-          "impact": []
         }
       ]
     },
@@ -294,7 +256,99 @@
     {
       "id": "markets",
       "title": "Money & Markets",
-      "stories": []
+      "stories": [
+        {
+          "id": "markets-muhurat-trading-2026-11-08",
+          "headline": "Sensex, Nifty slip in Muhurat trading, ending a long Diwali winning run",
+          "summary": "In the one-hour Diwali session that opens Samvat 2083, the Sensex rose over 400 points early to about 81,406 but closed 29 points lower at 80,999.40; the Nifty fell 44 points, or 0.18%, to 24,986.40. Smaller stocks did better: the Nifty Smallcap 100 gained about 1%, and Sun Pharma and Tata Steel led the Sensex while M&M and IndiGo lagged.",
+          "why_it_matters": "After the best week since 2021, the flat finish suggests traders are booking some profit before Monday's full session.",
+          "importance": 4,
+          "lead": true,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-08T18:10:00+05:30",
+          "tags": [
+            "Muhurat",
+            "Sensex",
+            "Nifty",
+            "Diwali",
+            "Samvat 2083"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/benchmark-indices-surrender-initial-gains-close-lower-in-special-trading-session/"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5ENSEI"
+            },
+            {
+              "name": "Oneindia",
+              "url": "https://www.oneindia.com/business/9-year-diwali-winning-streak-ends-sensex-nifty-lose-early-gains-in-muhurat-trading-2026-8254515.html"
+            }
+          ],
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/share-market.jpg",
+            "credit": "News On AIR",
+            "source_url": "https://newsonair.gov.in/benchmark-indices-surrender-initial-gains-close-lower-in-special-trading-session/",
+            "alt": "The Bombay Stock Exchange building in Mumbai with a red ticker board (file photo)"
+          },
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Pharma",
+              "level": "low",
+              "dir": "up",
+              "why": "Healthcare was the best BSE sector in the session, led by Sun Pharma."
+            },
+            {
+              "on": "indian_stocks",
+              "level": "low",
+              "dir": "mixed",
+              "why": "A flat close after a 9% weekly rally hints at a pause, while small caps stay strong."
+            }
+          ]
+        },
+        {
+          "id": "markets-fpi-inflows-november-2026-11-08",
+          "headline": "Foreign investors put ₹38,971 crore into Indian shares in November's first week",
+          "summary": "Depository data show foreign portfolio investors turned net buyers, investing ₹38,971 crore in Indian equities, almost all through stock exchange purchases. AIR says money moved to India after the sell-off in global AI and tech stocks; FPIs also put ₹4,319 crore into Indian debt so far this month.",
+          "why_it_matters": "Big foreign inflows drove last week's rally and the rupee's rise, so whether they continue matters for both.",
+          "importance": 4,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-08T16:21:00+05:30",
+          "tags": [
+            "FPI",
+            "foreign investors",
+            "equities",
+            "rupee"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/fpis-invest-%e2%82%b938971-crore-in-indian-equities-in-first-week-of-november/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "level": "medium",
+              "dir": "up",
+              "why": "Steady foreign buying supports share prices."
+            },
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "up",
+              "why": "Dollar inflows from foreign investors help the rupee."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "built",
@@ -305,19 +359,6 @@
   "weekend_special": null,
   "forex_results": [],
   "week_ahead": [
-    {
-      "date": "2026-11-08",
-      "events": [
-        {
-          "text": "Diwali Muhurat trading on NSE and BSE, 2:20-3:30 PM IST",
-          "section": "markets"
-        },
-        {
-          "text": "Eisenkot formally receives Israel's mandate to form a government",
-          "section": "world"
-        }
-      ]
-    },
     {
       "date": "2026-11-09",
       "events": [
