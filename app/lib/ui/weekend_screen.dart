@@ -23,7 +23,11 @@ class WeekendScreen extends StatelessWidget {
           if (i == 0) {
             return Padding(
               padding: const EdgeInsets.fromLTRB(18, 4, 18, 8),
-              child: Text('The biggest stories of the past 7 days, with why each one matters.',
+              child: Text(
+                  ws.monday
+                      ? 'Friday afternoon to Sunday night, ranked by how much each could move markets '
+                          'on Monday. Tap a story for its Monday effect and what to watch.'
+                      : 'The biggest stories of the past 7 days, with why each one matters.',
                   style: look.body(13.5)),
             );
           }

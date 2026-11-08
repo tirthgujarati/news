@@ -112,6 +112,10 @@ class StorySheet extends StatelessWidget {
           const SizedBox(height: 12),
           ImpactBox(impact: story.impact),
         ],
+        if (story.mondayEffect != null)
+          _Callout(label: 'MONDAY EFFECT', text: story.mondayEffect!, color: look.section('markets')),
+        if (story.watchNext != null)
+          _Callout(label: 'WHAT TO WATCH', text: story.watchNext!, color: look.muted),
         if (story.note != null) ...[
           const SizedBox(height: 12),
           Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
@@ -134,6 +138,33 @@ class StorySheet extends StatelessWidget {
             ),
         ]),
       ],
+    );
+  }
+}
+
+/// A labelled note under the story (Monday effect, what to watch).
+class _Callout extends StatelessWidget {
+  const _Callout({required this.label, required this.text, required this.color});
+  final String label;
+  final String text;
+  final Color color;
+
+  @override
+  Widget build(BuildContext context) {
+    final look = Look.of(context);
+    return Container(
+      margin: const EdgeInsets.only(top: 12),
+      padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: color.withValues(alpha: look.dark ? 0.14 : 0.08),
+        borderRadius: BorderRadius.circular(12),
+        border: Border(left: BorderSide(color: color, width: 3)),
+      ),
+      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        Text(label, style: look.label(10.5, color: color)),
+        const SizedBox(height: 5),
+        Text(text, style: look.body(14.5, color: look.ink, height: 1.45)),
+      ]),
     );
   }
 }

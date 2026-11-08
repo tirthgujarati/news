@@ -38,6 +38,7 @@ Future<AppController> makeTestApp(
   AppStyle style = AppStyle.night,
   ThemeMode theme = ThemeMode.dark,
   Map<String, String> photos = const {},
+  List<String> extraEditions = const [],
 }) async {
   SharedPreferences.setMockInitialValues({'style': style.name, 'theme': theme.name});
   final settings = await Settings.load();
@@ -45,6 +46,9 @@ Future<AppController> makeTestApp(
   await store.init();
   final raw = File('test/fixtures/edition.json').readAsStringSync();
   await store.save(raw, parseEdition(raw));
+  for (final r in extraEditions) {
+    await store.save(r, parseEdition(r));
+  }
   await store.saveForexFeeds([File('test/fixtures/ff_week.json').readAsStringSync()]);
   // What the background Flash engine would have saved.
   File('test/fixtures/flash.json').copySync('${dir.path}/flash.json');

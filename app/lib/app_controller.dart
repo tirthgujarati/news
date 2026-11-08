@@ -53,6 +53,10 @@ class AppController extends ChangeNotifier {
   /// The edition on screen (newest, or one opened from Archive).
   Edition? edition;
 
+  /// The edition holding today's Weekend Special: [edition] itself, or on
+  /// Monday the 5:30 AM one after later editions arrive.
+  Edition? weekend;
+
   /// True while showing an older edition opened from Archive.
   bool viewingArchive = false;
 
@@ -205,7 +209,15 @@ class AppController extends ChangeNotifier {
 
   Future<void> _show(String editionId) async {
     final e = await loadEdition(editionId);
-    if (e != null) edition = e;
+    if (e == null) return;
+    edition = e;
+    // Monday's later editions keep the 5:30 AM Weekend Special in reach.
+    final weekendId = '${e.date}-weekend';
+    weekend = e.weekendSpecial != null
+        ? e
+        : store.has(weekendId)
+            ? await loadEdition(weekendId)
+            : null;
   }
 
   Future<void> _updatePhotoPermission() async {

@@ -145,6 +145,12 @@ class Story {
   /// Only set for Weekend Special stories (1 = biggest).
   final int? rank;
 
+  /// Monday Weekend Special only: how it may play out at Monday's open.
+  final String? mondayEffect;
+
+  /// Monday Weekend Special only: what would confirm or undo it.
+  final String? watchNext;
+
   /// The story exactly as it appeared in the edition file (kept for Saved).
   final Map<String, dynamic> raw;
 
@@ -165,6 +171,8 @@ class Story {
     required this.raw,
     this.impact = const [],
     this.rank,
+    this.mondayEffect,
+    this.watchNext,
   });
 
   /// Section id is the first part of the story id, e.g. "markets-...".
@@ -197,6 +205,8 @@ class Story {
           .toList()
         ..sort((a, b) => a.rank.compareTo(b.rank)),
       rank: j['rank'] as int?,
+      mondayEffect: j['monday_effect'] as String?,
+      watchNext: j['watch_next'] as String?,
       raw: j,
     );
   }
@@ -275,6 +285,10 @@ class WeekendSpecial {
   final String title;
   final List<Story> stories;
   const WeekendSpecial({required this.title, required this.stories});
+
+  /// True for the Monday edition (Friday midday to Sunday night); older
+  /// Sunday ones covered the past 7 days.
+  bool get monday => stories.any((s) => s.mondayEffect != null);
 }
 
 class Edition {

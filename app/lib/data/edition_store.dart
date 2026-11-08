@@ -323,7 +323,7 @@ class EditionStore {
   }
 
   void _sortEntries() {
-    const slotOrder = {'morning': 0, 'weekend': 0, 'midday': 1, 'evening': 2};
+    const slotOrder = {'weekend': 0, 'morning': 1, 'midday': 2, 'evening': 3};
     _entries.sort((a, b) {
       final byDate = b.date.compareTo(a.date);
       if (byDate != 0) return byDate;

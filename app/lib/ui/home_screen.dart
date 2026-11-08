@@ -65,8 +65,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 text: 'Offline, showing ${editionStamp(edition)}',
               ),
             ),
-          if (edition.weekendSpecial != null)
-            SliverToBoxAdapter(child: _WeekendBanner(edition: edition)),
+          if (app.weekend?.weekendSpecial != null)
+            SliverToBoxAdapter(child: _WeekendBanner(edition: app.weekend!)),
           if (lead != null)
             SliverToBoxAdapter(
               child: LeadStory(
@@ -240,7 +240,10 @@ class _WeekendBanner extends StatelessWidget {
                   Text('WEEKEND SPECIAL', style: look.label(10.5, color: accent)),
                   const SizedBox(height: 3),
                   Text(ws.title, style: look.headline(16)),
-                  Text('The ${ws.stories.length} biggest stories of the week, ranked',
+                  Text(
+                      ws.monday
+                          ? 'Fri to Sun: the ${ws.stories.length} stories most likely to move Monday, ranked'
+                          : 'The ${ws.stories.length} biggest stories of the week, ranked',
                       style: look.body(12.5)),
                 ]),
               ),
