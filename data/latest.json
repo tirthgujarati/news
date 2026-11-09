@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-09-midday",
+  "edition_id": "2026-11-09-evening",
   "date": "2026-11-09",
-  "slot": "midday",
-  "title": "Monday Midday Edition",
-  "generated_at": "2026-11-09T13:55:00+05:30",
+  "slot": "evening",
+  "title": "Monday Evening Edition",
+  "generated_at": "2026-11-09T20:58:00+05:30",
   "snapshot": [
     {
       "id": "usdinr",
       "label": "USD/INR",
-      "value": "94.08",
-      "change": "+0.11%",
-      "dir": "up",
-      "as_of": "2026-11-09T08:14:00+00:00",
+      "value": "93.93",
+      "change": "-0.05%",
+      "dir": "down",
+      "as_of": "2026-11-09T00:00:00+05:30",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/INR=X/"
+        "name": "Deccan Herald (PTI)",
+        "url": "https://www.deccanherald.com/business/markets/rupee-rises-5-paise-to-close-at-9393-against-us-dollar-4212697"
       }
     },
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "105.12",
-      "change": "-0.83%",
+      "value": "105.18",
+      "change": "-0.78%",
       "dir": "down",
-      "as_of": "2026-11-09T08:11:23+00:00",
+      "as_of": "2026-11-09T15:16:33+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURINR=X/"
@@ -33,10 +33,10 @@
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "101.99",
-      "change": "-0.30%",
+      "value": "101.91",
+      "change": "-0.39%",
       "dir": "down",
-      "as_of": "2026-11-09T08:01:23+00:00",
+      "as_of": "2026-11-09T15:10:42+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
@@ -51,40 +51,40 @@
       "as_of": "2026-10-30T00:00:00+05:30",
       "source": {
         "name": "RBI Weekly Statistical Supplement",
-        "url": "https://rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63939"
+        "url": "https://www.rbi.org.in/Scripts/WSSView.aspx"
       }
     },
     {
       "id": "nifty",
       "label": "Nifty 50",
-      "value": "24,906.35",
-      "change": "-0.32%",
-      "dir": "down",
-      "as_of": "2026-11-09T08:11:24+00:00",
+      "value": "25,044.65",
+      "change": "+0.23%",
+      "dir": "up",
+      "as_of": "2026-11-09T15:30:00+05:30",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/%5ENSEI/"
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/domestic-markets-end-in-positive-zone/"
       }
     },
     {
       "id": "sensex",
       "label": "Sensex",
-      "value": "80,651.99",
-      "change": "-0.43%",
-      "dir": "down",
-      "as_of": "2026-11-09T07:56:25+00:00",
+      "value": "81,106.65",
+      "change": "+0.13%",
+      "dir": "up",
+      "as_of": "2026-11-09T15:30:00+05:30",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/%5EBSESN/"
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/domestic-markets-end-in-positive-zone/"
       }
     },
     {
       "id": "spx",
       "label": "S&P 500",
-      "value": "7,376.86",
-      "change": "+0.31%",
+      "value": "7,517.99",
+      "change": "+1.91%",
       "dir": "up",
-      "as_of": "2026-11-06T21:37:09+00:00",
+      "as_of": "2026-11-09T15:20:44+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EGSPC/"
@@ -93,10 +93,10 @@
     {
       "id": "nasdaq",
       "label": "Nasdaq",
-      "value": "24,579.42",
-      "change": "+1.09%",
+      "value": "25,174.62",
+      "change": "+2.42%",
       "dir": "up",
-      "as_of": "2026-11-06T22:15:59+00:00",
+      "as_of": "2026-11-09T15:20:42+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EIXIC/"
@@ -104,47 +104,47 @@
     },
     {
       "id": "gold_usd",
-      "label": "Gold fut. (USD/oz)",
-      "value": "$4,097.30",
-      "change": "+0.55%",
+      "label": "Gold (USD/oz)",
+      "value": "$4,124.80",
+      "change": "+1.22%",
       "dir": "up",
-      "as_of": "2026-11-09T08:01:26+00:00",
+      "as_of": "2026-11-09T15:10:43+00:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/GC%3DF/"
+        "url": "https://finance.yahoo.com/quote/GC=F/"
       }
     },
     {
       "id": "gold_mcx",
       "label": "Gold MCX",
-      "value": "₹1,42,167",
-      "change": null,
-      "dir": "flat",
-      "as_of": "2026-11-06T00:00:00+05:30",
+      "value": "₹1,43,809",
+      "change": "+0.88%",
+      "dir": "up",
+      "as_of": "2026-11-09T20:08:00+05:30",
       "source": {
-        "name": "All India Radio",
-        "url": "https://newsonair.gov.in/gold-and-silver-prices-recover-amid-fall-in-crude-oil-prices/"
+        "name": "MCX Live",
+        "url": "https://mcxlive.org/gold/"
       }
     },
     {
       "id": "brent",
       "label": "Brent crude",
-      "value": "$96.95",
-      "change": "-1.40%",
+      "value": "$94.24",
+      "change": "-4.15%",
       "dir": "down",
-      "as_of": "2026-11-09T08:01:18+00:00",
+      "as_of": "2026-11-09T15:10:40+00:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/BZ%3DF/"
+        "url": "https://finance.yahoo.com/quote/BZ=F/"
       }
     },
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$73,776",
-      "change": "-1.08%",
-      "dir": "down",
-      "as_of": "2026-11-09T08:11:22+00:00",
+      "value": "$75,166",
+      "change": "+0.78%",
+      "dir": "up",
+      "as_of": "2026-11-09T15:20:40+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BTC-USD/"
@@ -154,9 +154,9 @@
       "id": "us10y",
       "label": "US 10Y yield",
       "value": "4.86%",
-      "change": "+0.45%",
-      "dir": "up",
-      "as_of": "2026-11-06T19:59:56+00:00",
+      "change": "-0.08%",
+      "dir": "down",
+      "as_of": "2026-11-09T15:05:43+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5ETNX/"
@@ -169,36 +169,66 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-delhi-smog-diwali-2026-11-09",
-          "headline": "Thick smog covers Delhi after Diwali fireworks; AQI above 350 in many areas",
-          "summary": "Delhi woke up to heavy smog on Monday after firecrackers were burst through Sunday evening despite Supreme Court limits that allowed only green crackers for set hours. The Air Quality Index crossed 350 in several parts of the city. Delhi minister Kapil Mishra says stubble burning in Punjab rose tenfold over two days and has asked Punjab's AAP government to file FIRs.",
-          "why_it_matters": "Bad air hits the health of over 30 million people and can bring tougher curbs on traffic and building work in the capital.",
+          "id": "india-eu-strategic-review-fta-2026-11-09",
+          "headline": "India and EU review ties in Delhi, push for timely signing of their trade deal",
+          "summary": "Senior Indian and EU officials held the 7th India-EU Strategic Partnership review in New Delhi on Monday. Sibi George of the External Affairs Ministry and the EU's Matti Maasikas discussed the timely signing and rollout of the India-EU free trade agreement, supply chains, the IMEC trade corridor and clean-energy projects.",
+          "why_it_matters": "The EU deal would cut tariffs for Indian exporters in one of India's biggest markets.",
           "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Air quality facts single source: Al Jazeera (AFP/AP). Punjab stubble-burning figure is a claim by Delhi minister Kapil Mishra; not independently confirmed.",
-          "published_at": "2026-11-09T05:20:08+00:00",
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-09T20:26:00+05:30",
           "tags": [
-            "Delhi",
-            "Pollution",
-            "Diwali"
+            "EU",
+            "trade",
+            "FTA"
           ],
           "sources": [
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/9/smog-blankets-new-delhi-as-diwali-firecrackers-worsen-air-quality"
-            },
-            {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/delhi-minister-seeks-firs-over-alleged-stubble-burning-in-punjab/"
+              "url": "https://newsonair.gov.in/india-and-eu-review-full-spectrum-of-joint-comprehensive-strategic-agenda/"
             }
           ],
           "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af14ccebde5-1794198734.jpg?resize=1920%2C1440",
-            "credit": "AFP",
-            "source_url": "https://www.aljazeera.com/news/2026/11/9/smog-blankets-new-delhi-as-diwali-firecrackers-worsen-air-quality",
-            "alt": "A man rides a cycle rickshaw through thick smog on a Delhi road, a car behind him"
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/sibi.jpg",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/india-and-eu-review-full-spectrum-of-joint-comprehensive-strategic-agenda/",
+            "alt": "India's Sibi George shakes hands with the EU's Matti Maasikas in front of Indian and EU flags"
           },
+          "impact": [
+            {
+              "on": "india_economy",
+              "level": "low",
+              "dir": "up",
+              "why": "Progress on the EU trade deal supports exporters' outlook."
+            }
+          ]
+        },
+        {
+          "id": "india-modi-zelensky-call-2026-11-09",
+          "headline": "Modi speaks to Zelensky, says India is ready to back a peaceful end to the war",
+          "summary": "Prime Minister Narendra Modi spoke by phone with Ukraine's President Volodymyr Zelensky on Monday. Modi repeated that the war should end through dialogue and diplomacy and said India is ready to support peace efforts. Zelensky says the two discussed India helping to set up Black Sea food corridors.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "Food-corridor detail is Zelensky's account; not in India's readout.",
+          "published_at": "2026-11-09T20:21:00+05:30",
+          "tags": [
+            "Ukraine",
+            "diplomacy"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/pm-modi-holds-tele-conversation-with-ukraine-president-reiterates-conflict-to-be-resolved-through-dialogue-and-diplomacy/"
+            },
+            {
+              "name": "ThePrint",
+              "url": "https://theprint.in/india/pm-modi-and-ukrainian-president-zelenskyy-talk-over-phone/3094448/"
+            }
+          ],
+          "image": null,
           "impact": []
         }
       ]
@@ -208,117 +238,80 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-trump-xi-putin-iran-apec-2026-11-09",
-          "headline": "Trump says he will raise Iran war with Xi and Putin at next week's APEC summit",
-          "summary": "US President Donald Trump says he expects to talk to China's Xi Jinping and Russia's Vladimir Putin at next week's APEC summit about the war on Iran and 'denuclearisation'. Secretary of State Marco Rubio said on Sunday the sides are not near a breakthrough and called some of Iran's demands 'outrageous and ridiculous'.",
-          "why_it_matters": "Talks between the US, China and Russia on Iran could shape oil prices and the Strait of Hormuz, which matter for India's fuel bill.",
-          "importance": 4,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera (with AP). Statements by US officials.",
-          "published_at": "2026-11-09T00:00:34+00:00",
+          "id": "world-qatar-pm-trump-iran-plan-2026-11-09",
+          "headline": "Qatar's PM takes Iran's two-day Hormuz plan to Trump; US sees no breakthrough yet",
+          "summary": "Qatar's prime minister, the main go-between in the Iran war, meets Donald Trump at the White House on Monday, with JD Vance also due to see him. Iran's plan has the US act on day one and the Strait of Hormuz reopen on day two, but Tehran wants sanctions lifted, frozen funds released and the war ended first. Marco Rubio called some demands 'outrageous'.",
+          "why_it_matters": "Any deal to reopen Hormuz would cut oil prices, which matters most for India's import bill and the rupee.",
+          "importance": 5,
+          "lead": true,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-09T06:09:00-05:00",
           "tags": [
             "Iran",
-            "US",
-            "China",
-            "Russia"
+            "Qatar",
+            "Hormuz",
+            "oil"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq"
+              "url": "https://www.aljazeera.com/news/2026/11/9/qatar-pm-to-meet-trump-whats-the-latest-on-us-iran-negotiations"
             },
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/09/us-iran-war-trump-hormuz.html"
             }
           ],
           "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20261107__D6QA2BU__v1__HighRes__UsPoliticsTrump-1794202023.jpg?resize=1920%2C1440",
-            "credit": "AFP",
-            "source_url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq",
-            "alt": "Donald Trump in a white USA cap speaks to reporters at night on an airport tarmac"
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/09/epa_6ab17e4ca419-1790017100.jpg?resize=1920%2C1440",
+            "credit": "Jim Lo Scalzo/Pool via EPA",
+            "source_url": "https://www.aljazeera.com/news/2026/11/9/qatar-pm-to-meet-trump-whats-the-latest-on-us-iran-negotiations",
+            "alt": "Donald Trump stands by a pillar near US flags at the White House (file photo)"
           },
           "impact": [
             {
               "on": "oil",
+              "level": "high",
+              "dir": "down",
+              "why": "Hopes of a Hormuz reopening pull crude lower."
+            },
+            {
+              "on": "rupee",
               "level": "medium",
-              "dir": "mixed",
-              "why": "Big-power talks on Iran could ease or prolong the Hormuz risk premium in crude."
+              "dir": "up",
+              "why": "Cheaper oil eases India's import bill."
+            },
+            {
+              "on": "indian_stocks",
+              "level": "medium",
+              "dir": "up",
+              "why": "Lower crude helps oil marketers, paints and airlines."
             }
           ]
         },
         {
-          "id": "world-hasina-passport-return-2026-11-09",
-          "headline": "Sheikh Hasina applies for passport, signalling plan to return to Bangladesh",
-          "summary": "Bangladesh's ousted prime minister Sheikh Hasina, who has lived in India for two years, has asked for a new passport and ID card so she can return home. She told Reuters she plans to surrender before a Bangladeshi court, which sentenced her to death in absentia last year over the 2024 protest crackdown. Her aides say a date will be set once formalities are done.",
-          "why_it_matters": "Her return would test India-Bangladesh ties, since Dhaka has been asking India to hand her over.",
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera (with Reuters). Bangladesh's government said last week it would not issue her a passport.",
-          "published_at": "2026-11-09T07:12:09+00:00",
-          "tags": [
-            "Bangladesh",
-            "India",
-            "Hasina"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/9/ousted-pm-sheikh-hasina-seeks-passport-in-sign-of-bangladesh-return-plan"
-            }
-          ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "world-cop31-opens-antalya-2026-11-09",
-          "headline": "COP31 climate summit opens in Turkey with a push to electrify energy use",
-          "summary": "The UN climate conference COP31 opens on Monday in Antalya, Turkey. Host Turkey is launching a voluntary '35 by 35' pledge to make electricity at least 35% of world energy demand by 2035, up from about a fifth now. The talks come as the Iran war has pushed energy security up the agenda.",
+          "id": "world-krakow-gunman-dies-2026-11-09",
+          "headline": "Update: Krakow gunman who killed six has died in hospital, police say",
+          "summary": "New since the weekend: Polish police say the man who shot dead six people in Krakow's Main Market Square on Saturday has died of his wounds in hospital. The bodies of his parents and sister were found at his home. Poland is holding two days of national mourning.",
           "why_it_matters": null,
           "importance": 2,
           "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-09T05:02:19+00:00",
+          "published_at": "2026-11-09T00:00:00+00:00",
           "tags": [
-            "Climate",
-            "COP31",
-            "Energy"
+            "Poland",
+            "shooting"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/9/turkiye-pushes-electrification-top-of-climate-agenda-as-cop31-set-to-open"
+              "url": "https://www.aljazeera.com/news/2026/11/9/poland-mass-shooting-assailant-dies-in-hospital-police-say"
             },
             {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/cop31-climate-summit-to-begin-in-antalya-turkey-today/"
-            }
-          ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "world-trump-immigration-democrats-2026-11-09",
-          "headline": "Trump says deportation drive may have been too tough, open to deal with Democrats",
-          "summary": "Donald Trump said in an interview that his strict immigration crackdown may have cost Republicans in the midterm elections, and that it hit some long-settled workers. He said he is willing to work with Democrats, who take control of both houses of Congress in January, on immigration reform.",
-          "why_it_matters": null,
-          "importance": 2,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-09T12:31:00+05:30",
-          "tags": [
-            "US",
-            "Immigration",
-            "Trump"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/us-president-signals-willingness-to-work-with-democrats-on-immigration-reforms/"
+              "name": "CNN",
+              "url": "https://www.cnn.com/2026/11/09/europe/krakow-shooting-poland-gunman-dead-intl-hnk"
             }
           ],
           "image": null,
@@ -331,32 +324,28 @@
       "title": "Currency Desk",
       "stories": [
         {
-          "id": "currency-rupee-gives-up-gains-2026-11-09",
-          "headline": "Rupee touches 93.74 early, then slips back to about 94.08 per dollar",
-          "summary": "The rupee opened near 93.85 and rose 24 paise to 93.74 per dollar in early trade, helped by lower crude, foreign buying (FIIs bought Rs 13,750 crore of shares on Friday) and hopes of Middle East peace. By early afternoon it had given up those gains and traded near 94.08, slightly weaker than Friday's 93.98 close. The dollar index was a little softer near 102.",
-          "why_it_matters": "The rupee is holding near six-month highs; dealers see 94.40-94.50 as resistance and 93.50 as the next support.",
+          "id": "currency-rupee-close-93-93-2026-11-09",
+          "headline": "Update: Rupee ends 5 paise firmer at 93.93 per dollar as oil eases",
+          "summary": "After slipping back from 93.74 in the morning, the rupee closed 5 paise higher at 93.93 per dollar (provisional), helped by lower crude, foreign inflows and hopes of calm in West Asia. All India Radio put it near 93.94 in late trade. Forex markets reopen on Wednesday after Tuesday's holiday.",
+          "why_it_matters": "A firmer rupee lowers the cost of India's oil and other imports.",
           "importance": 4,
           "lead": false,
-          "verified": false,
-          "note": "Early-trade figures from PTI (carried by Business Standard); afternoon level from Yahoo Finance at 1:44 PM IST.",
-          "published_at": "2026-11-09T10:51:15+05:30",
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-09T17:25:00+05:30",
           "tags": [
-            "Rupee",
-            "Dollar",
-            "FII"
+            "rupee",
+            "dollar",
+            "forex"
           ],
           "sources": [
             {
-              "name": "Business Standard (PTI)",
-              "url": "https://www.business-standard.com/finance/news/rupee-rises-24-paise-to-93-74-against-us-dollar-during-early-trade-126110900195_1.html"
+              "name": "Deccan Herald (PTI)",
+              "url": "https://www.deccanherald.com/business/markets/rupee-rises-5-paise-to-close-at-9393-against-us-dollar-4212697"
             },
             {
-              "name": "DT Next (PTI)",
-              "url": "https://www.dtnext.in/news/business/rupee-rises-24-paise-to-9374-against-us-dollar-in-early-trade"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/INR=X/"
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/rupee-depreciates-marginally-against-us-dollar/"
             }
           ],
           "image": null,
@@ -364,38 +353,44 @@
             {
               "on": "rupee",
               "level": "medium",
-              "dir": "mixed",
-              "why": "Early gains on cheaper oil faded by afternoon; 94 is the level to watch."
+              "dir": "up",
+              "why": "Falling crude and foreign buying support the rupee."
             }
           ]
         },
         {
-          "id": "currency-rbi-vrr-auction-2026-11-09",
-          "headline": "RBI adds Rs 50,000 crore cash to banks via 4-day repo auction at 5.51%",
-          "summary": "The RBI's 4-day variable rate repo auction on Monday drew bids of Rs 62,872 crore against Rs 50,000 crore on offer. It allotted Rs 50,003 crore at a cut-off rate of 5.51%, with a weighted average of 5.54%. The money is due back on November 13.",
+          "id": "currency-dollar-dips-before-cpi-2026-11-09",
+          "headline": "Dollar index slips to about 101.9 ahead of Tuesday's US inflation data",
+          "summary": "The dollar index, which tracks the dollar against six major currencies, eased to about 101.8 to 101.9 on Monday from 102.3 on Friday. Traders are waiting for Tuesday's US October inflation figures, which could shape the Fed's next move after strong jobs data lifted bets on a December rate hike.",
           "why_it_matters": null,
-          "importance": 2,
+          "importance": 3,
           "lead": false,
-          "verified": false,
-          "note": "Single source: RBI.",
-          "published_at": "2026-11-09T00:00:00+05:30",
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-09T17:25:00+05:30",
           "tags": [
-            "RBI",
-            "Liquidity"
+            "dollar",
+            "Fed",
+            "CPI"
           ],
           "sources": [
             {
-              "name": "RBI",
-              "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63945"
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/rupee-depreciates-marginally-against-us-dollar/"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/09/us-treasurys-bonds-yields.html"
             }
           ],
           "image": null,
           "impact": [
             {
-              "on": "rates",
+              "on": "currency",
+              "detail": "Dollar",
               "level": "low",
               "dir": "down",
-              "why": "Bids above the offer show banks need cash; RBI support keeps short-term rates in check."
+              "why": "A softer dollar as oil falls and traders await CPI."
             }
           ]
         }
@@ -406,68 +401,72 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "id": "markets-sensex-nifty-midday-2026-11-09",
-          "headline": "Sensex, Nifty down about 0.3% at midday; IT and telecom drag, PSU banks gain",
-          "summary": "Indian shares slipped in the first full session of Samvat 2083. At about 1:15 PM the Sensex was down 289 points at 80,710 and the Nifty down 81 points at 24,905. Telecom, IT and cement stocks fell most, while PSU banks, healthcare and pharma rose. Markets are shut on Tuesday for Diwali Balipratipada.",
-          "why_it_matters": "A mild dip despite strong foreign buying on Friday and calmer oil shows caution before Tuesday's US inflation data.",
+          "id": "markets-sensex-nifty-close-2026-11-09",
+          "headline": "Update: Sensex and Nifty recover to close higher; markets shut on Tuesday",
+          "summary": "After trading lower at midday, Indian shares ended slightly up. The Sensex closed at 81,107, up 107 points (0.13%), and the Nifty at 25,045, up 58 points (0.23%). The Nifty Midcap 100 gained 0.6%. NSE and BSE are closed on Tuesday for Diwali Balipratipada; commodity trading continues.",
+          "why_it_matters": null,
           "importance": 4,
-          "lead": true,
+          "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-09T13:18:00+05:30",
+          "published_at": "2026-11-09T15:58:00+05:30",
           "tags": [
             "Sensex",
             "Nifty",
-            "IT",
-            "PSU banks"
+            "stocks"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/sensex-nifty-begin-trading-in-the-red/"
+              "url": "https://newsonair.gov.in/domestic-markets-end-in-positive-zone/"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/bse-nse-to-remain-closed-tomorrow-on-account-of-diwali-balipratipada/"
             },
             {
               "name": "Yahoo Finance",
               "url": "https://finance.yahoo.com/quote/%5ENSEI/"
             }
           ],
-          "image": null,
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/NSE-and-BSE-announce-one-hour-special-trading-session-on-Diwali-1.jpg",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/domestic-markets-end-in-positive-zone/",
+            "alt": "The Bombay Stock Exchange tower in Mumbai seen through trees, with a share ticker below"
+          },
           "impact": [
             {
               "on": "indian_stocks",
-              "detail": "IT",
-              "level": "medium",
-              "dir": "down",
-              "why": "IT was among the biggest losers at midday."
-            },
-            {
-              "on": "indian_stocks",
-              "detail": "PSU Banks",
               "level": "low",
               "dir": "up",
-              "why": "PSU bank stocks led the gainers."
+              "why": "Small gains led by midcaps; no trading on Tuesday."
             }
           ]
         },
         {
-          "id": "markets-asia-tech-rebound-2026-11-09",
-          "headline": "Update: Taiwan closes up 4.9%, Nikkei 2.3%; Korea's Kospi turns lower",
-          "summary": "New since the morning: Asian markets closed with Taiwan's Taiex up 4.94% and Japan's Nikkei 225 up 2.33%, extending the rebound from last week's AI-led sell-off. South Korea's Kospi fell 0.8% after being up about 1.7% earlier, and Hong Kong's Hang Seng slipped 0.22%. US Nasdaq futures were lower.",
-          "why_it_matters": null,
-          "importance": 3,
+          "id": "markets-wall-street-rally-oil-2026-11-09",
+          "headline": "Wall Street jumps at the open as Brent crude falls about 4% to near $94",
+          "summary": "US shares rallied early on Monday: by 10:06 AM New York time the Dow was up 819 points (1.6%), the S&P 500 1.8% and the Nasdaq 2.1%. Falling oil drove the move, with Brent down about 4% to around $94 on hopes of a US-Iran deal. Broadcom, AMD and Amazon rose about 5% each, recovering from last week's AI sell-off.",
+          "why_it_matters": "Lower oil and a rebound in US tech set a firmer tone for Indian markets when they reopen on Wednesday.",
+          "importance": 4,
           "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera for closing levels.",
-          "published_at": "2026-11-09T04:03:02+00:00",
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-09T10:06:00-05:00",
           "tags": [
-            "Asia",
-            "Tech",
-            "AI"
+            "Wall Street",
+            "oil",
+            "Nasdaq"
           ],
           "sources": [
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/economy/2026/11/9/asian-stock-markets-climb-after-earlier-tech-rout"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/oil-prices-decline-3/"
             }
           ],
           "image": null,
@@ -475,9 +474,95 @@
             {
               "on": "us_stocks",
               "detail": "Tech",
-              "level": "low",
-              "dir": "mixed",
-              "why": "Asia's chip rebound is fading in Korea while Nasdaq futures dip."
+              "level": "high",
+              "dir": "up",
+              "why": "Cheaper oil and a tech rebound lift US indices."
+            },
+            {
+              "on": "oil",
+              "level": "high",
+              "dir": "down",
+              "why": "Deal hopes push Brent toward $94."
+            },
+            {
+              "on": "indian_stocks",
+              "level": "medium",
+              "dir": "up",
+              "why": "Global risk appetite and lower crude support Wednesday's open."
+            }
+          ]
+        },
+        {
+          "id": "markets-nvidia-huang-affair-shares-2026-11-09",
+          "headline": "Update: Nvidia shares fall as CEO Huang admits affair; China rejects spy claims",
+          "summary": "New since the weekend: Jensen Huang told staff in an email that he had an affair with a businesswoman whom US intelligence suspects of passing information to China, according to New York Times and Financial Times reports. Nvidia's board is running an independent review and says Huang stays CEO. China calls the spy story unsubstantiated. Nvidia shares fell about 5% early, CNBC reported.",
+          "why_it_matters": "Leadership risk at the world's top AI chipmaker hangs over chip stocks already hit by last week's sell-off.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": "Espionage suspicion comes from press reports citing US intelligence; not officially confirmed.",
+          "published_at": "2026-11-09T04:05:00-05:00",
+          "tags": [
+            "Nvidia",
+            "AI",
+            "chips"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/9/why-is-nvidias-jensen-huang-at-the-centre-of-a-us-china-spy-scandal"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Nvidia",
+              "level": "high",
+              "dir": "down",
+              "why": "CEO scandal and board review weigh on the shares."
+            }
+          ]
+        },
+        {
+          "id": "markets-gold-mcx-rise-2026-11-09",
+          "headline": "Gold gains about 1% to near $4,125 an ounce; MCX gold tops ₹1.43 lakh",
+          "summary": "Gold extended its rise as oil fell and the dollar eased. US gold futures were up about 1.2% near $4,125 an ounce in early New York trade. In India, MCX gold for December was near ₹1,43,800 per 10 grams in the evening, up about 0.9%, after touching ₹1,44,400.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-09T00:00:00+05:30",
+          "tags": [
+            "gold",
+            "MCX"
+          ],
+          "sources": [
+            {
+              "name": "India TV",
+              "url": "https://www.indiatvnews.com/business/news/gold-silver-continues-to-rise-on-mcx-post-diwali-amid-easing-crude-oil-prices-check-city-wise-rates-2026-11-09-1058997"
+            },
+            {
+              "name": "MCX Live",
+              "url": "https://mcxlive.org/gold/"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/GC=F/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "gold",
+              "level": "medium",
+              "dir": "up",
+              "why": "A softer dollar and lower oil support bullion."
             }
           ]
         }
@@ -486,25 +571,41 @@
     {
       "id": "built",
       "title": "Built This Week",
-      "stories": []
+      "stories": [
+        {
+          "id": "built-google-tpu-8tx-8i-max-2026-11-09",
+          "headline": "Google adds two new AI chip systems: TPU 8tx for secure work and 8i Max for long context",
+          "summary": "Google expanded its eighth-generation TPU line with two systems: the TPU 8tx, aimed at secure, confidential AI work for governments and regulated firms, and the TPU 8i Max, built for very long-context AI. Google says they are reconfigured versions of its TPU 8t and 8i chips, not new silicon, and they widen its challenge to Nvidia.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-09T19:46:25+05:30",
+          "tags": [
+            "Google",
+            "AI chips",
+            "TPU"
+          ],
+          "sources": [
+            {
+              "name": "ANI",
+              "url": "https://www.aninews.in/news/business/google-expands-eighth-generation-hardware-lineup-with-tpu-8tx-and-8i-max20261109194625/"
+            },
+            {
+              "name": "Quartz",
+              "url": "https://qz.com/google-specialized-ai-chips-tpu-nvidia-110926"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
     }
   ],
   "weekend_special": null,
   "forex_results": [],
   "week_ahead": [
-    {
-      "date": "2026-11-09",
-      "events": [
-        {
-          "text": "COP31 UN climate summit opens in Antalya, Turkey",
-          "section": "world"
-        },
-        {
-          "text": "BoE Governor Bailey speaks",
-          "section": "currency"
-        }
-      ]
-    },
     {
       "date": "2026-11-10",
       "events": [
