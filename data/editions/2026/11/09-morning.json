@@ -1,0 +1,652 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-09-morning",
+  "date": "2026-11-09",
+  "slot": "morning",
+  "title": "Monday Morning Edition",
+  "generated_at": "2026-11-09T07:38:13+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "93.90",
+      "change": "-0.60%",
+      "dir": "down",
+      "as_of": "2026-11-08T23:58:43+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/INR=X/"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "104.72",
+      "change": "-1.21%",
+      "dir": "down",
+      "as_of": "2026-11-09T00:26:31+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X/"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "102.16",
+      "change": "-0.12%",
+      "dir": "down",
+      "as_of": "2026-11-09T01:53:27+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$717.06bn",
+      "change": "-0.37%",
+      "dir": "down",
+      "as_of": "2026-10-30T00:00:00+05:30",
+      "source": {
+        "name": "RBI Weekly Statistical Supplement",
+        "url": "https://rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63939"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "24,986.40",
+      "change": "-0.18%",
+      "dir": "down",
+      "as_of": "2026-11-08T10:03:15+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI/"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "80,999.40",
+      "change": "-0.04%",
+      "dir": "down",
+      "as_of": "2026-11-08T10:02:16+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN/"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,376.86",
+      "change": "+0.31%",
+      "dir": "up",
+      "as_of": "2026-11-06T21:37:09+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "24,579.42",
+      "change": "+1.09%",
+      "dir": "up",
+      "as_of": "2026-11-06T22:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$4,125.00",
+      "change": "+1.35%",
+      "dir": "up",
+      "as_of": "2026-11-08T21:02:00-05:00",
+      "source": {
+        "name": "Kitco",
+        "url": "https://www.kitco.com/charts/gold"
+      }
+    },
+    {
+      "id": "gold_mcx",
+      "label": "Gold MCX",
+      "value": "₹1,42,167",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-06T00:00:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/gold-and-silver-prices-recover-amid-fall-in-crude-oil-prices/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$97.27",
+      "change": "-1.07%",
+      "dir": "down",
+      "as_of": "2026-11-09T01:52:30+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ%3DF/"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.86%",
+      "change": "+0.45%",
+      "dir": "up",
+      "as_of": "2026-11-06T19:59:56+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": "Single source: All India Radio, citing the Indian embassy in Yemen.",
+          "tags": [
+            "Yemen",
+            "Seafarers",
+            "MEA"
+          ],
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/India-evacuates-19-stranded-seafarers-from-Yemen.jpg",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/india-evacuates-19-stranded-seafarers-from-yemen/",
+            "alt": "A group of Indian seafarers with bags stand in front of a white bus with an Indian embassy official"
+          },
+          "impact": [],
+          "id": "india-yemen-seafarers-evacuated-2026-11-09",
+          "headline": "India brings out 19 seafarers stranded in Yemen for about two weeks",
+          "summary": "India's embassy in Yemen says 19 Indian seafarers who were stuck in Hodeidah and Sana'a for around two weeks have been evacuated and are heading home. It says all of them are safe and in good health.",
+          "importance": 2,
+          "verified": false,
+          "published_at": "2026-11-09T06:29:00+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/india-evacuates-19-stranded-seafarers-from-yemen/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": "Single source: All India Radio, citing ministry figures.",
+          "tags": [
+            "Startups",
+            "Jobs"
+          ],
+          "image": null,
+          "impact": [],
+          "id": "india-startup-count-entrepreneurship-day-2026-11-09",
+          "headline": "Government says India has over 2.62 lakh recognised startups",
+          "summary": "On National Entrepreneurship Day, the skills ministry said India has more than 2.62 lakh DPIIT-recognised startups, making it the third-largest startup ecosystem. A record 55,200 startups were recognised in 2025-26, and startups had created over 23 lakh jobs by March.",
+          "importance": 2,
+          "verified": false,
+          "published_at": "2026-11-09T06:57:00+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/india-emerges-as-worlds-third-largest-startup-ecosystem/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "why_it_matters": "It is a new attack on Gulf-region energy sites while US-Iran talks are fragile.",
+          "lead": false,
+          "note": "Who launched the drone is not known.",
+          "tags": [
+            "Iraq",
+            "Kurdistan",
+            "Gas",
+            "Drone"
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af0eefb-1794174715.jpg",
+            "credit": "Ako Rasheed/Reuters",
+            "source_url": "https://www.aljazeera.com/news/2026/11/9/drone-attack-suspends-production-at-iraqs-khor-mor-gasfield",
+            "alt": "File photo of the Khor Mor gas field plant among hills in Sulaymaniyah province, Iraq"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "low",
+              "dir": "up",
+              "why": "Another strike on regional energy sites adds a little to supply-risk worries."
+            }
+          ],
+          "id": "world-khor-mor-drone-strike-2026-11-09",
+          "headline": "Drone strike halts Iraq's Khor Mor gas field, cutting power to most of Kurdistan",
+          "summary": "A drone hit a gas storage site at the Khor Mor field in Iraq's Kurdish region on Sunday night, starting a fire and stopping production. The region's electricity ministry says gas to power plants in Erbil, Sulaimaniyah, Duhok and other cities was cut, removing about 2.5 to 2.8 GW and leaving over 70% of the region without power. No one has claimed it; Iraq's PM says no one was hurt.",
+          "importance": 4,
+          "verified": true,
+          "published_at": "2026-11-09T00:00:00+03:00",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/9/drone-attack-suspends-production-at-iraqs-khor-mor-gasfield"
+            },
+            {
+              "name": "Gulf News",
+              "url": "https://gulfnews.com/world/mena/drone-strike-on-iraqs-khor-mor-gas-field-cuts-power-production-by-28-gw-ministry-1.500740627"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": "Claim by Trump; how far the land blockade is being enforced is not independently confirmed.",
+          "tags": [
+            "Iran",
+            "US",
+            "Blockade"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Tighter pressure on Iran comes alongside talk of a deal, so the oil effect is unclear."
+            }
+          ],
+          "id": "world-iron-gate-trump-2026-11-08",
+          "headline": "Update: Trump says 'Task Force Iron Gate' blockade of Iran's land routes is in force",
+          "summary": "New since the last edition: Trump posted on Truth Social on Sunday that the task force meant to block weapons and sanctioned goods crossing Iran's land borders and the Caspian Sea is 'in full force and effect'. Combined with the naval blockade, he says very little gets in or out of Iran. Iran's Revolutionary Guards brushed it off as wordplay.",
+          "importance": 3,
+          "verified": false,
+          "published_at": "2026-11-08T00:00:00-05:00",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq"
+            },
+            {
+              "name": "CBS News",
+              "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": "Single source: All India Radio.",
+          "tags": [
+            "Ukraine",
+            "Russia",
+            "France",
+            "Peace talks"
+          ],
+          "image": null,
+          "impact": [],
+          "id": "world-ukraine-talks-abu-dhabi-europe-2026-11-09",
+          "headline": "France says it will join US-brokered Ukraine talks in Abu Dhabi this week",
+          "summary": "French Foreign Minister Jean-Noel Barrot says European officials, including France, will take part in the Ukraine talks in Abu Dhabi. US envoy Steve Witkoff says Ukrainian and Russian delegations will meet there on November 10-11 to discuss ending the war and post-war security.",
+          "importance": 3,
+          "verified": false,
+          "published_at": "2026-11-09T07:04:00+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/france-confirms-participation-in-ukraine-talks-in-abu-dhabi/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": "Single source: Al Jazeera.",
+          "tags": [
+            "US politics",
+            "Hegseth",
+            "Congress"
+          ],
+          "image": null,
+          "impact": [],
+          "id": "world-jeffries-hegseth-impeachment-2026-11-08",
+          "headline": "Jeffries backs impeaching Defence Secretary Hegseth as Democrats plan probes",
+          "summary": "House Democratic leader Hakeem Jeffries told ABC on Sunday he is a 'hard yes' on a resolution to impeach Pete Hegseth, led by Republican Thomas Massie, a critic of the Iran war. Democrats, who won both chambers on November 3, plan investigations of Trump allies; removal would still need two-thirds of the Senate.",
+          "importance": 2,
+          "verified": false,
+          "published_at": "2026-11-09T00:00:00+03:00",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "why_it_matters": "A firm dollar and Fed hike bets keep pressure on the rupee ahead of Tuesday's US inflation data.",
+          "lead": false,
+          "note": null,
+          "tags": [
+            "Dollar",
+            "Fed",
+            "Euro",
+            "Yen"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "Dollar",
+              "level": "medium",
+              "dir": "up",
+              "why": "Higher odds of a Fed hike support the dollar."
+            },
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "down",
+              "why": "A strong dollar and higher US rates weigh on the rupee."
+            }
+          ],
+          "id": "currency-dollar-steady-fed-hike-odds-2026-11-09",
+          "headline": "Dollar holds near 102.2 as odds of a December Fed hike climb to about 80%",
+          "summary": "The dollar index was steady around 102.2 in Asian trade on Monday after Friday's jump on strong US jobs data. The euro was little changed near $1.115 and the yen slightly firmer at about 158.2 per dollar. CME FedWatch puts the odds of a Fed rate rise on December 9 near 80%, up from about 71% a week ago.",
+          "importance": 4,
+          "verified": true,
+          "published_at": "2026-11-09T00:00:00+08:00",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.globalbankingandfinance.com/asian-stocks-steady-ai-mideast-jitters-recede-dollar-firm/"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "why_it_matters": "A calmer tech mood in Asia could help Indian shares, especially IT, as Dalal Street trades before Tuesday's holiday.",
+          "lead": true,
+          "note": null,
+          "tags": [
+            "Nikkei",
+            "Taiwan",
+            "AI stocks",
+            "Asia"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "medium",
+              "dir": "up",
+              "why": "A rebound in Asian tech shares may lift Indian IT stocks."
+            },
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "low",
+              "dir": "up",
+              "why": "Asia's bounce eases some of last week's AI selling pressure."
+            }
+          ],
+          "id": "markets-asia-tech-rebound-2026-11-09",
+          "headline": "Asian stocks bounce back: Nikkei up about 3%, Taiwan jumps after record sell-off",
+          "summary": "Japan's Nikkei 225 rose about 3% to near 59,285 on Monday, and Taiwan's main index opened 646 points higher at 40,347 after last week's heavy AI-led fall. Reuters says MSCI's Asia-Pacific index outside Japan rose about 0.8%, and US S&P 500 futures edged up after dipping on Sunday evening.",
+          "importance": 5,
+          "verified": true,
+          "published_at": "2026-11-09T09:11:00+08:00",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.globalbankingandfinance.com/asian-stocks-steady-ai-mideast-jitters-recede-dollar-firm/"
+            },
+            {
+              "name": "Focus Taiwan (CNA)",
+              "url": "https://focustaiwan.tw/business/202611090001"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5EN225/"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "Rising Chinese factory prices can make imports costlier and limit China's room to ease policy.",
+          "lead": false,
+          "note": null,
+          "tags": [
+            "China",
+            "Inflation",
+            "PPI"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "india_economy",
+              "level": "low",
+              "dir": "up",
+              "why": "Dearer Chinese factory goods may push up some import costs for India."
+            }
+          ],
+          "id": "markets-china-ppi-october-2026-11-09",
+          "headline": "China's factory-gate prices jump 5.7%, highest in over four years; CPI slows",
+          "summary": "China's producer prices rose 5.7% from a year earlier in October, above the 5.3% forecast and up from 5.0% in September, as energy costs rose. Consumer inflation slowed to 0.7% from 0.9%, just below the 0.8% expected, and core inflation eased to 0.8%.",
+          "importance": 4,
+          "verified": true,
+          "published_at": "2026-11-09T09:30:00+08:00",
+          "sources": [
+            {
+              "name": "investingLive",
+              "url": "https://investinglive.com/news/china-october-2026-cpi-0-7-y-y-expected-0-8-prior-0-9/"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "Investing.com",
+              "url": "https://ph.investing.com/news/economic-indicators/china-cpi-inflation-misses-forecasts-in-oct-factorygate-prices-accelerate-2684636"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": null,
+          "tags": [
+            "Gold",
+            "Silver"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "gold",
+              "level": "medium",
+              "dir": "up",
+              "why": "Gold has bounced over 1% at the start of the week."
+            },
+            {
+              "on": "silver",
+              "level": "low",
+              "dir": "up",
+              "why": "Silver futures are following gold higher."
+            }
+          ],
+          "id": "markets-gold-jumps-asia-2026-11-09",
+          "headline": "Gold climbs about 1.4% to near $4,125 in early Asian trade",
+          "summary": "Spot gold rose about $55, or 1.35%, to around $4,125 an ounce on Monday morning in Asia, reversing Sunday evening's dip. US gold futures traded near $4,133 and silver futures near $53.2. The move came as the dollar held steady; no single trigger was reported.",
+          "importance": 3,
+          "verified": true,
+          "published_at": "2026-11-08T21:02:00-05:00",
+          "sources": [
+            {
+              "name": "Kitco",
+              "url": "https://www.kitco.com/charts/gold"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/GC%3DF/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": "Announced by the companies involved (IBM and AMD); not yet confirmed by a major outlet.",
+          "tags": [
+            "Quantum",
+            "IBM",
+            "AMD",
+            "Supercomputer"
+          ],
+          "image": {
+            "url": "https://newsroom.ibm.com/image/IBM-ORNL-AMD+QEC+Ribbon+Cutting-social.jpg",
+            "credit": "IBM",
+            "source_url": "https://newsroom.ibm.com/2026-11-05-oak-ridge-national-lab,-ibm,-and-amd-launch-new-co-design-platform-for-quantum-error-correction",
+            "alt": "Seven officials cut a blue ribbon in front of IBM Quantum System Two and the Umbra supercomputer"
+          },
+          "impact": [],
+          "id": "built-ibm-ornl-amd-qec-platform-2026-11-05",
+          "headline": "IBM, AMD and Oak Ridge open a quantum error-correction test platform",
+          "summary": "IBM and the US Oak Ridge National Laboratory switched on a platform in Poughkeepsie, New York, that pairs IBM's 120-qubit Nighthawk quantum chip with ORNL's Umbra supercomputer, built on AMD Instinct MI355X GPUs and EPYC CPUs. It is meant to speed up work on correcting quantum errors, a key step toward IBM's planned fault-tolerant machine in 2029.",
+          "importance": 3,
+          "verified": false,
+          "published_at": "2026-11-05T00:00:00-05:00",
+          "sources": [
+            {
+              "name": "IBM Newsroom",
+              "url": "https://newsroom.ibm.com/2026-11-05-oak-ridge-national-lab,-ibm,-and-amd-launch-new-co-design-platform-for-quantum-error-correction"
+            },
+            {
+              "name": "AMD Newsroom",
+              "url": "https://newsroom.amd.com/news/amd-builds-classical-foundation-quantum-future"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [],
+  "week_ahead": [
+    {
+      "date": "2026-11-09",
+      "events": [
+        {
+          "text": "RBI 4-day variable rate repo auction",
+          "section": "currency"
+        },
+        {
+          "text": "Lower prices for 137 anti-cancer drugs take effect",
+          "section": "india"
+        },
+        {
+          "text": "BoE Governor Bailey speaks",
+          "section": "currency"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "events": [
+        {
+          "text": "NSE and BSE shut for Diwali Balipratipada",
+          "section": "markets"
+        },
+        {
+          "text": "US October CPI inflation data",
+          "section": "markets"
+        },
+        {
+          "text": "Fed's Christopher Waller speaks",
+          "section": "currency"
+        },
+        {
+          "text": "US-brokered Russia-Ukraine talks open in Abu Dhabi, with Europeans attending",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "events": [
+        {
+          "text": "Russia-Ukraine talks in Abu Dhabi, second day",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "events": [
+        {
+          "text": "UK Q3 GDP first estimate",
+          "section": "currency"
+        },
+        {
+          "text": "ECB President Lagarde speaks",
+          "section": "currency"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "events": [
+        {
+          "text": "US October producer prices (PPI)",
+          "section": "markets"
+        },
+        {
+          "text": "RBI weekly forex reserves data",
+          "section": "currency"
+        }
+      ]
+    }
+  ]
+}
