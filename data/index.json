@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-08T20:45:09+05:30",
+  "updated_at": "2026-11-09T05:39:40+05:30",
   "editions": [
+    {
+      "edition_id": "2026-11-09-weekend",
+      "title": "Monday Weekend Edition",
+      "path": "editions/2026/11/09-weekend.json",
+      "story_count": 5
+    },
     {
       "edition_id": "2026-11-08-evening",
       "title": "Sunday Evening Edition",

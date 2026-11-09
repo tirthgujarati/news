@@ -1,0 +1,800 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-09-weekend",
+  "date": "2026-11-09",
+  "slot": "weekend",
+  "title": "Monday Weekend Edition",
+  "generated_at": "2026-11-09T05:39:39+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "93.90",
+      "change": "-0.60%",
+      "dir": "down",
+      "as_of": "2026-11-06T21:36:46+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/INR%3DX"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "104.66",
+      "change": "-1.26%",
+      "dir": "down",
+      "as_of": "2026-11-06T22:04:28+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR%3DX"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "102.28",
+      "change": "+0.72%",
+      "dir": "up",
+      "as_of": "2026-11-06T21:59:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India FX reserves",
+      "value": "$717.06bn",
+      "change": "-0.37%",
+      "dir": "down",
+      "as_of": "2026-10-30T00:00:00+05:30",
+      "source": {
+        "name": "RBI Weekly Statistical Supplement",
+        "url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63939"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "24,986.40",
+      "change": "-0.18%",
+      "dir": "down",
+      "as_of": "2026-11-08T10:03:15+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "80,999.40",
+      "change": "-0.04%",
+      "dir": "down",
+      "as_of": "2026-11-08T10:02:16+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,376.86",
+      "change": "+0.31%",
+      "dir": "up",
+      "as_of": "2026-11-06T21:37:09+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "24,579.42",
+      "change": "+1.09%",
+      "dir": "up",
+      "as_of": "2026-11-06T22:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$4,064.00",
+      "change": "-0.27%",
+      "dir": "down",
+      "as_of": "2026-11-08T23:57:15+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/GC%3DF"
+      }
+    },
+    {
+      "id": "gold_mcx",
+      "label": "Gold MCX (10g)",
+      "value": "₹1,42,167",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-06T00:00:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/gold-and-silver-prices-recover-amid-fall-in-crude-oil-prices/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$97.60",
+      "change": "-0.73%",
+      "dir": "down",
+      "as_of": "2026-11-08T23:56:41+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ%3DF"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$74,507",
+      "change": "-1.6%",
+      "dir": "down",
+      "as_of": "2026-11-09T00:06:00+00:00",
+      "source": {
+        "name": "Coinbase",
+        "url": "https://api.coinbase.com/v2/prices/BTC-USD/spot"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.86%",
+      "change": "+0.45%",
+      "dir": "up",
+      "as_of": "2026-11-06T19:59:56+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": []
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-iran-hell-warning-trump-2026-11-08",
+          "headline": "Iran's Araghchi warns of 'hell' if US strikes again; Trump says strikes unlikely if deal",
+          "summary": "Iran's foreign minister said on Sunday that Tehran's two-day proposal stands, including an end to the war on all fronts, and warned of a heavy response to any new US attack. Trump told CNN renewed strikes are 'highly unlikely' if Iran signs a strong deal reopening the Strait of Hormuz, but said three US carriers are ready and 38 Iranian bridges could be hit within an hour.",
+          "why_it_matters": "A deal would ease oil prices for India; a breakdown would push them back up.",
+          "importance": 5,
+          "lead": true,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-08T20:13:39+00:00",
+          "tags": [
+            "Iran",
+            "US",
+            "Hormuz",
+            "Araghchi",
+            "Trump"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/8/iran-threatens-to-rain-down-hell-if-us-escalates-war"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6ae6036c4b0ab-1793459052.jpg?resize=1920%2C1440",
+            "credit": "Vahid Salemi/AP",
+            "source_url": "https://www.aljazeera.com/news/2026/11/8/iran-threatens-to-rain-down-hell-if-us-escalates-war",
+            "alt": "Iran's Foreign Minister Abbas Araghchi wearing headphones beside an Iranian flag (file photo)"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "high",
+              "dir": "mixed",
+              "why": "Deal hopes and fresh threats pull crude in opposite directions."
+            }
+          ]
+        },
+        {
+          "id": "world-houthi-aramco-riyadh-2026-11-08",
+          "headline": "Update: Aramco building in Riyadh damaged by shrapnel after Houthi missiles",
+          "summary": "New since Sunday midday: Saudi Arabia's energy ministry says falling shrapnel lightly damaged an Aramco administrative building in Riyadh, with no casualties. The coalition says it intercepted ballistic and cruise missiles and a drone fired from Yemen.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "Damage account from the Saudi energy ministry.",
+          "published_at": "2026-11-08T22:00:00+05:30",
+          "tags": [
+            "Saudi Arabia",
+            "Aramco",
+            "Houthis"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/saudi-arabia-aramco-administrative-building-in-riyadh-targeted-in-attempted-attack/"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "low",
+              "dir": "up",
+              "why": "Attacks on Saudi oil targets add to Gulf supply worries."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": []
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "id": "markets-nvidia-ceo-probe-2026-11-08",
+          "headline": "Nvidia's board opens inquiry into CEO Jensen Huang over relationship",
+          "summary": "Nvidia said a committee of independent directors with outside lawyers will look into Jensen Huang's relationship with a woman US officials accuse of spying for China, after Huang admitted the affair in an email to staff. The board says it has no reason to believe secrets were compromised and still backs Huang, who stays CEO. China's embassy denies the spying claims.",
+          "why_it_matters": "Nvidia is the centre of the AI trade, and fresh doubt could deepen last week's tech sell-off.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-08T22:16:10+00:00",
+          "tags": [
+            "Nvidia",
+            "Jensen Huang",
+            "AI",
+            "China"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6af0e4194b-1794171929.jpg?resize=1920%2C1440",
+            "credit": "Sean Gallup/Getty Images",
+            "source_url": "https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair",
+            "alt": "Nvidia CEO Jensen Huang in a black leather jacket speaking on stage"
+          },
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Nvidia",
+              "level": "high",
+              "dir": "down",
+              "why": "Leadership doubt adds pressure after last week's AI rout."
+            },
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "medium",
+              "dir": "down",
+              "why": "Nvidia is the largest weight in tech indices."
+            }
+          ]
+        },
+        {
+          "id": "markets-us-futures-asia-monday-2026-11-08",
+          "headline": "US stock futures turn lower; Nasdaq 100 futures down about 0.8%",
+          "summary": "After a small early gain, US futures fell on Sunday evening: Nasdaq 100 futures about 0.8%, S&P 500 futures 0.4% and Dow futures 93 points. Nikkei futures in Osaka pointed higher at 58,250 against Friday's close of 57,434.77. China's October inflation data is due on Monday, and US CPI on Tuesday.",
+          "why_it_matters": "Futures set the tone for Asian markets, including India, on Monday morning.",
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: CNBC live updates.",
+          "published_at": "2026-11-08T18:44:00-05:00",
+          "tags": [
+            "futures",
+            "Nasdaq",
+            "Nikkei",
+            "Asia"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "medium",
+              "dir": "down",
+              "why": "Tech-led futures selling points to a weak start."
+            }
+          ]
+        },
+        {
+          "id": "markets-brent-gold-sunday-open-2026-11-08",
+          "headline": "Brent opens the week lower near $97.60; gold slips to about $4,064",
+          "summary": "Brent crude futures traded near $97.60 a barrel on Sunday evening New York time, about 0.7% below Friday's settlement of $98.32. US gold futures were down about 0.3% at roughly $4,064 an ounce.",
+          "why_it_matters": "Crude below $100 is a relief for India's import bill and the rupee.",
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source for Sunday prices: Yahoo Finance (delayed quotes). Friday settlement confirmed by All India Radio.",
+          "published_at": "2026-11-08T18:56:41-05:00",
+          "tags": [
+            "Brent",
+            "oil",
+            "gold"
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/BZ%3DF"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/global-crude-oil-prices-rebound-after-steep-losses-in-previous-session/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "down",
+              "why": "Brent slipped further after a 13% weekly fall."
+            },
+            {
+              "on": "gold",
+              "level": "low",
+              "dir": "down",
+              "why": "A firm dollar weighed on gold."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": []
+    }
+  ],
+  "weekend_special": {
+    "title": "Weekend: Fri to Sun",
+    "stories": [
+      {
+        "rank": 1,
+        "id": "world-iran-us-threats-oil-2026-11-08",
+        "headline": "Iran warns of 'hell' as Trump says new strikes unlikely if talks work; Brent near $97.60",
+        "summary": "Iran's foreign minister Abbas Araghchi says Tehran will hit back hard if the US resumes attacks, and that its two-day proposal, which demands an end to the war on all fronts, still stands. Trump told CNN renewed US strikes are 'highly unlikely' if Iran signs a strong deal that fully reopens the Strait of Hormuz, but says three US carriers are ready. Over the weekend Iran's navy said a tanker hit a mine near Hormuz and the US set up a task force to cut Iran's land supply routes. Brent opened Sunday evening about 0.7% lower near $97.60, after a 13% fall last week.",
+        "why_it_matters": "Oil is India's biggest import and the main driver of the rupee and inflation. A deal that reopens Hormuz could push crude further below $100; a breakdown could send it sharply back up.",
+        "importance": 5,
+        "lead": false,
+        "verified": true,
+        "note": "Iran's tanker-mine account is Iran's own claim and not independently confirmed.",
+        "published_at": "2026-11-08T20:13:39+00:00",
+        "tags": [
+          "Iran",
+          "US",
+          "Hormuz",
+          "oil",
+          "Brent"
+        ],
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/8/iran-threatens-to-rain-down-hell-if-us-escalates-war"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/quote/BZ%3DF"
+          },
+          {
+            "name": "All India Radio",
+            "url": "https://newsonair.gov.in/global-crude-oil-prices-rebound-after-steep-losses-in-previous-session/"
+          }
+        ],
+        "image": null,
+        "impact": [
+          {
+            "on": "oil",
+            "level": "high",
+            "dir": "mixed",
+            "why": "Talks point to lower crude, but threats and Hormuz incidents keep a war-risk premium."
+          },
+          {
+            "on": "rupee",
+            "level": "medium",
+            "dir": "up",
+            "why": "Brent under $100 cuts India's import bill, which supports the rupee."
+          },
+          {
+            "on": "indian_stocks",
+            "detail": "OMCs",
+            "level": "medium",
+            "dir": "up",
+            "why": "Cheaper crude helps oil marketers, paints, airlines and tyre makers."
+          },
+          {
+            "on": "gold",
+            "level": "low",
+            "dir": "down",
+            "why": "Hopes of a deal reduce demand for safe havens."
+          }
+        ],
+        "monday_effect": "With Brent opening slightly lower below $100, oil-sensitive stocks such as BPCL, HPCL, IOC, Asian Paints and IndiGo could stay firm, and the rupee is likely to hold near Friday's 93.90 level. Upstream names like ONGC and Oil India may lag. Confidence moderate: one bad headline from Hormuz could flip this within hours.",
+        "watch_next": "Any US reply to Iran's two-day proposal; new tanker incidents in Hormuz; Brent back above $100 would undo the relief."
+      },
+      {
+        "rank": 2,
+        "id": "markets-nvidia-ceo-probe-ai-selloff-2026-11-08",
+        "headline": "Nvidia's board probes CEO Huang; Nasdaq futures slip after a 3.4% weekly fall",
+        "summary": "Nvidia's independent directors opened an inquiry on Sunday after Jensen Huang told staff he had an affair with a woman US officials accuse of spying for China; China denies spying. The board says it has no reason to think national security or company secrets were compromised and that Huang stays CEO. Nasdaq 100 futures fell about 0.8% and S&P 500 futures 0.4% on Sunday evening, after a week in which the Nasdaq lost 3.4% despite Friday's 1.1% rebound.",
+        "why_it_matters": "The AI trade drove last week's global sell-off, and Nvidia is its biggest stock. More doubt over its leadership could hit chip and tech shares again, while some investors see India as a hedge against the AI trade.",
+        "importance": 5,
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "published_at": "2026-11-08T22:16:10+00:00",
+        "tags": [
+          "Nvidia",
+          "AI",
+          "Nasdaq",
+          "futures",
+          "chips"
+        ],
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
+          },
+          {
+            "name": "All India Radio",
+            "url": "https://newsonair.gov.in/wall-street-ends-higher-on-technology-stocks-gains-and-lower-oil-prices/"
+          }
+        ],
+        "image": null,
+        "impact": [
+          {
+            "on": "company",
+            "detail": "Nvidia",
+            "level": "high",
+            "dir": "down",
+            "why": "Doubts over the CEO add to pressure on the AI chip leader."
+          },
+          {
+            "on": "us_stocks",
+            "detail": "Tech",
+            "level": "high",
+            "dir": "down",
+            "why": "Nasdaq futures fell about 0.8% on Sunday evening."
+          },
+          {
+            "on": "indian_stocks",
+            "detail": "IT",
+            "level": "medium",
+            "dir": "mixed",
+            "why": "AI selling can hit Indian IT, but India may also gain as a non-AI hedge."
+          }
+        ],
+        "monday_effect": "Weak US tech futures could pull on Indian IT names such as Infosys, TCS and HCLTech at the open. The wider Nifty may hold up better if foreign money keeps rotating into India as an 'anti-AI' trade, as Goldman and JPMorgan analysts suggest. Confidence moderate; watch whether Asian chip stocks fall again.",
+        "watch_next": "Nvidia's share move when US markets open Monday; its Q3 results on Nov 17; a House briefing requested for Nov 18."
+      },
+      {
+        "rank": 3,
+        "id": "currency-us-jobs-fed-hike-bets-2026-11-06",
+        "headline": "US adds 165,000 jobs; Fed's Daly says more rate rises likely, lifting the dollar",
+        "summary": "US employers added 165,000 jobs in October, nearly three times what economists expected, and unemployment dipped to 4.1% from 4.2%. San Francisco Fed President Mary Daly said the Fed will 'have to tighten policy further', with the policy rate now at 3.75% to 4%. The dollar index jumped about 0.7% to near 102.3 on Friday and the US 10-year yield rose to about 4.86%.",
+        "why_it_matters": "Higher US rates and a stronger dollar pull money out of emerging markets like India and put pressure on the rupee. They also weigh on gold.",
+        "importance": 4,
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "published_at": "2026-11-06T13:39:00-05:00",
+        "tags": [
+          "Fed",
+          "jobs",
+          "dollar",
+          "rates",
+          "Daly"
+        ],
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+          },
+          {
+            "name": "All India Radio",
+            "url": "https://newsonair.gov.in/wall-street-ends-higher-on-technology-stocks-gains-and-lower-oil-prices/"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+          }
+        ],
+        "image": null,
+        "impact": [
+          {
+            "on": "rates",
+            "level": "high",
+            "dir": "up",
+            "why": "Strong jobs and hawkish Fed talk raise odds of another US hike."
+          },
+          {
+            "on": "currency",
+            "detail": "Dollar",
+            "level": "medium",
+            "dir": "up",
+            "why": "Higher US rate expectations support the dollar."
+          },
+          {
+            "on": "rupee",
+            "level": "medium",
+            "dir": "down",
+            "why": "A firmer dollar and higher US yields can slow foreign inflows."
+          },
+          {
+            "on": "gold",
+            "level": "medium",
+            "dir": "down",
+            "why": "Higher yields make non-paying gold less attractive."
+          }
+        ],
+        "monday_effect": "The rupee may open a little weaker than Friday's 93.90 close as the dollar starts the week firm, though foreign buying could cushion it. Rate-sensitive stocks such as banks and NBFCs could see some caution. Gold MCX could open soft. Confidence moderate; Tuesday's US CPI matters more, and Indian markets are shut that day.",
+        "watch_next": "US October CPI on Tuesday (forecast 0.3% m/m), while NSE and BSE are closed for Balipratipada; Fed's Waller speaks the same day."
+      },
+      {
+        "rank": 4,
+        "id": "markets-fpi-inflows-india-hedge-2026-11-08",
+        "headline": "Foreign investors pour ₹38,971 crore into Indian shares; Muhurat session ends flat",
+        "summary": "Foreign portfolio investors bought a net ₹38,971 crore of Indian equities in the first week of November, AIR reports, after selling over $31 billion this year through October. JPMorgan estimates inflows could reach about $115 billion if underweight funds go neutral, and Goldman calls India an 'anti-AI' trade. In Sunday's one-hour Muhurat session the Nifty slipped 0.18% to 24,986.40 after its best week since February 2021.",
+        "why_it_matters": "Foreign money drove the near-9% rally and the rupee's jump last week. Whether it keeps coming decides if the rally can extend.",
+        "importance": 4,
+        "lead": false,
+        "verified": true,
+        "note": "The ₹38,971 crore weekly figure is single source: All India Radio; other figures from CNBC.",
+        "published_at": "2026-11-08T16:21:00+05:30",
+        "tags": [
+          "FPI",
+          "Nifty",
+          "Muhurat",
+          "rupee",
+          "India"
+        ],
+        "sources": [
+          {
+            "name": "All India Radio",
+            "url": "https://newsonair.gov.in/fpis-invest-%e2%82%b938971-crore-in-indian-equities-in-first-week-of-november/"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/06/india-ai-tech-hedge-nifty50.html"
+          },
+          {
+            "name": "All India Radio",
+            "url": "https://newsonair.gov.in/benchmark-indices-surrender-initial-gains-close-lower-in-special-trading-session/"
+          }
+        ],
+        "image": null,
+        "impact": [
+          {
+            "on": "indian_stocks",
+            "level": "high",
+            "dir": "up",
+            "why": "Large foreign buying supports index heavyweights, led by banks."
+          },
+          {
+            "on": "rupee",
+            "level": "medium",
+            "dir": "up",
+            "why": "Dollar inflows from foreign funds help the rupee."
+          },
+          {
+            "on": "indian_stocks",
+            "detail": "Banks",
+            "level": "medium",
+            "dir": "up",
+            "why": "Banks led last week's foreign-driven rally."
+          }
+        ],
+        "monday_effect": "If foreign buying continues, large banks such as HDFC Bank, ICICI Bank and SBI could keep leading, and the Nifty may try to hold the 25,000 area. But after a 9% weekly jump and a flat Muhurat close, some profit-taking is likely. Only one trading day before Tuesday's holiday may keep volumes light. Confidence moderate.",
+        "watch_next": "Daily FPI data from NSDL; Nifty holding near 25,000; rupee staying below 94 per dollar."
+      },
+      {
+        "rank": 5,
+        "id": "world-houthi-aramco-riyadh-2026-11-08",
+        "headline": "Saudi Aramco building in Riyadh damaged after Houthi missile attack",
+        "summary": "Saudi Arabia's energy ministry says an Aramco administrative building in Riyadh was lightly damaged by falling shrapnel on Sunday, with no casualties. The Saudi-led coalition says it shot down several Houthi missiles fired at Riyadh and the oil-rich Eastern Province, plus a drone. The Houthis say they targeted Saudi oil facilities.",
+        "why_it_matters": "Attacks on Saudi oil sites add a second supply risk to the Gulf on top of Hormuz, even though no output loss has been reported.",
+        "importance": 3,
+        "lead": false,
+        "verified": true,
+        "note": "Damage account is from the Saudi energy ministry; the Houthis' targeting claim is their own.",
+        "published_at": "2026-11-08T22:00:00+05:30",
+        "tags": [
+          "Saudi Arabia",
+          "Aramco",
+          "Houthis",
+          "oil"
+        ],
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province"
+          },
+          {
+            "name": "All India Radio",
+            "url": "https://newsonair.gov.in/saudi-arabia-aramco-administrative-building-in-riyadh-targeted-in-attempted-attack/"
+          }
+        ],
+        "image": null,
+        "impact": [
+          {
+            "on": "oil",
+            "level": "medium",
+            "dir": "up",
+            "why": "Strikes on Saudi oil targets raise supply-risk worries."
+          },
+          {
+            "on": "company",
+            "detail": "Aramco",
+            "level": "low",
+            "dir": "down",
+            "why": "Its building in Riyadh was damaged; no output loss reported."
+          }
+        ],
+        "monday_effect": "Unlikely to move Indian stocks much on its own since no oil output was hit, but it could limit how far crude falls, which matters for OMCs and the rupee. Confidence low to moderate.",
+        "watch_next": "Any Houthi hit on Ras Tanura, Abqaiq or other production sites; Saudi output statements."
+      },
+      {
+        "rank": 6,
+        "id": "markets-bitcoin-weekend-slip-2026-11-09",
+        "headline": "Bitcoin slips to about $74,500 over the weekend",
+        "summary": "Bitcoin traded near $74,507 early on Monday (UTC), about 1.6% below Friday's close of $75,731 on Coinbase, after dipping to $73,477 on Sunday. It traded above $80,000 as recently as November 5, before the sell-off in AI and tech stocks hit risky assets.",
+        "why_it_matters": "Crypto trades through the weekend, so its slide is an early sign that risk appetite stayed weak going into Monday.",
+        "importance": 2,
+        "lead": false,
+        "verified": false,
+        "note": "Single source: Coinbase price data.",
+        "published_at": "2026-11-09T00:06:00+00:00",
+        "tags": [
+          "Bitcoin",
+          "crypto"
+        ],
+        "sources": [
+          {
+            "name": "Coinbase",
+            "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400"
+          }
+        ],
+        "image": null,
+        "impact": [
+          {
+            "on": "crypto",
+            "level": "medium",
+            "dir": "down",
+            "why": "Weekend selling kept Bitcoin under $75,000."
+          }
+        ],
+        "monday_effect": "Little direct effect on Indian shares; it mainly signals weak global risk appetite, which matches the softer US tech futures. Confidence low.",
+        "watch_next": "A move back above $76,000 would ease the risk-off mood; a break below Sunday's $73,477 low would deepen it."
+      }
+    ]
+  },
+  "forex_results": [],
+  "week_ahead": [
+    {
+      "date": "2026-11-09",
+      "events": [
+        {
+          "text": "China October CPI inflation data",
+          "section": "markets"
+        },
+        {
+          "text": "RBI 4-day variable rate repo auction",
+          "section": "currency"
+        },
+        {
+          "text": "Lower prices for 137 anti-cancer drugs take effect",
+          "section": "india"
+        },
+        {
+          "text": "BoE Governor Bailey speaks",
+          "section": "currency"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "events": [
+        {
+          "text": "NSE and BSE shut for Diwali Balipratipada",
+          "section": "markets"
+        },
+        {
+          "text": "US October CPI inflation data",
+          "section": "markets"
+        },
+        {
+          "text": "Fed's Christopher Waller speaks",
+          "section": "currency"
+        },
+        {
+          "text": "US-brokered Russia-Ukraine talks in Abu Dhabi",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "events": [
+        {
+          "text": "UK Q3 GDP first estimate",
+          "section": "currency"
+        },
+        {
+          "text": "ECB President Lagarde speaks",
+          "section": "currency"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "events": [
+        {
+          "text": "US October producer prices (PPI)",
+          "section": "markets"
+        },
+        {
+          "text": "RBI weekly forex reserves data",
+          "section": "currency"
+        }
+      ]
+    }
+  ]
+}
