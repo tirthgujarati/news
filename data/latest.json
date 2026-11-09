@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-09-morning",
+  "edition_id": "2026-11-09-midday",
   "date": "2026-11-09",
-  "slot": "morning",
-  "title": "Monday Morning Edition",
-  "generated_at": "2026-11-09T07:38:13+05:30",
+  "slot": "midday",
+  "title": "Monday Midday Edition",
+  "generated_at": "2026-11-09T13:55:00+05:30",
   "snapshot": [
     {
       "id": "usdinr",
       "label": "USD/INR",
-      "value": "93.90",
-      "change": "-0.60%",
-      "dir": "down",
-      "as_of": "2026-11-08T23:58:43+00:00",
+      "value": "94.08",
+      "change": "+0.11%",
+      "dir": "up",
+      "as_of": "2026-11-09T08:14:00+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/INR=X/"
@@ -21,10 +21,10 @@
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "104.72",
-      "change": "-1.21%",
+      "value": "105.12",
+      "change": "-0.83%",
       "dir": "down",
-      "as_of": "2026-11-09T00:26:31+00:00",
+      "as_of": "2026-11-09T08:11:23+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURINR=X/"
@@ -33,10 +33,10 @@
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "102.16",
-      "change": "-0.12%",
+      "value": "101.99",
+      "change": "-0.30%",
       "dir": "down",
-      "as_of": "2026-11-09T01:53:27+00:00",
+      "as_of": "2026-11-09T08:01:23+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
@@ -57,10 +57,10 @@
     {
       "id": "nifty",
       "label": "Nifty 50",
-      "value": "24,986.40",
-      "change": "-0.18%",
+      "value": "24,906.35",
+      "change": "-0.32%",
       "dir": "down",
-      "as_of": "2026-11-08T10:03:15+00:00",
+      "as_of": "2026-11-09T08:11:24+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5ENSEI/"
@@ -69,10 +69,10 @@
     {
       "id": "sensex",
       "label": "Sensex",
-      "value": "80,999.40",
-      "change": "-0.04%",
+      "value": "80,651.99",
+      "change": "-0.43%",
       "dir": "down",
-      "as_of": "2026-11-08T10:02:16+00:00",
+      "as_of": "2026-11-09T07:56:25+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EBSESN/"
@@ -104,14 +104,14 @@
     },
     {
       "id": "gold_usd",
-      "label": "Gold (USD/oz)",
-      "value": "$4,125.00",
-      "change": "+1.35%",
+      "label": "Gold fut. (USD/oz)",
+      "value": "$4,097.30",
+      "change": "+0.55%",
       "dir": "up",
-      "as_of": "2026-11-08T21:02:00-05:00",
+      "as_of": "2026-11-09T08:01:26+00:00",
       "source": {
-        "name": "Kitco",
-        "url": "https://www.kitco.com/charts/gold"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/GC%3DF/"
       }
     },
     {
@@ -129,13 +129,25 @@
     {
       "id": "brent",
       "label": "Brent crude",
-      "value": "$97.27",
-      "change": "-1.07%",
+      "value": "$96.95",
+      "change": "-1.40%",
       "dir": "down",
-      "as_of": "2026-11-09T01:52:30+00:00",
+      "as_of": "2026-11-09T08:01:18+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BZ%3DF/"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$73,776",
+      "change": "-1.08%",
+      "dir": "down",
+      "as_of": "2026-11-09T08:11:22+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD/"
       }
     },
     {
@@ -157,56 +169,37 @@
       "title": "India",
       "stories": [
         {
-          "why_it_matters": null,
+          "id": "india-delhi-smog-diwali-2026-11-09",
+          "headline": "Thick smog covers Delhi after Diwali fireworks; AQI above 350 in many areas",
+          "summary": "Delhi woke up to heavy smog on Monday after firecrackers were burst through Sunday evening despite Supreme Court limits that allowed only green crackers for set hours. The Air Quality Index crossed 350 in several parts of the city. Delhi minister Kapil Mishra says stubble burning in Punjab rose tenfold over two days and has asked Punjab's AAP government to file FIRs.",
+          "why_it_matters": "Bad air hits the health of over 30 million people and can bring tougher curbs on traffic and building work in the capital.",
+          "importance": 3,
           "lead": false,
-          "note": "Single source: All India Radio, citing the Indian embassy in Yemen.",
+          "verified": false,
+          "note": "Air quality facts single source: Al Jazeera (AFP/AP). Punjab stubble-burning figure is a claim by Delhi minister Kapil Mishra; not independently confirmed.",
+          "published_at": "2026-11-09T05:20:08+00:00",
           "tags": [
-            "Yemen",
-            "Seafarers",
-            "MEA"
+            "Delhi",
+            "Pollution",
+            "Diwali"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/9/smog-blankets-new-delhi-as-diwali-firecrackers-worsen-air-quality"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/delhi-minister-seeks-firs-over-alleged-stubble-burning-in-punjab/"
+            }
           ],
           "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/India-evacuates-19-stranded-seafarers-from-Yemen.jpg",
-            "credit": "All India Radio",
-            "source_url": "https://newsonair.gov.in/india-evacuates-19-stranded-seafarers-from-yemen/",
-            "alt": "A group of Indian seafarers with bags stand in front of a white bus with an Indian embassy official"
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af14ccebde5-1794198734.jpg?resize=1920%2C1440",
+            "credit": "AFP",
+            "source_url": "https://www.aljazeera.com/news/2026/11/9/smog-blankets-new-delhi-as-diwali-firecrackers-worsen-air-quality",
+            "alt": "A man rides a cycle rickshaw through thick smog on a Delhi road, a car behind him"
           },
-          "impact": [],
-          "id": "india-yemen-seafarers-evacuated-2026-11-09",
-          "headline": "India brings out 19 seafarers stranded in Yemen for about two weeks",
-          "summary": "India's embassy in Yemen says 19 Indian seafarers who were stuck in Hodeidah and Sana'a for around two weeks have been evacuated and are heading home. It says all of them are safe and in good health.",
-          "importance": 2,
-          "verified": false,
-          "published_at": "2026-11-09T06:29:00+05:30",
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/india-evacuates-19-stranded-seafarers-from-yemen/"
-            }
-          ]
-        },
-        {
-          "why_it_matters": null,
-          "lead": false,
-          "note": "Single source: All India Radio, citing ministry figures.",
-          "tags": [
-            "Startups",
-            "Jobs"
-          ],
-          "image": null,
-          "impact": [],
-          "id": "india-startup-count-entrepreneurship-day-2026-11-09",
-          "headline": "Government says India has over 2.62 lakh recognised startups",
-          "summary": "On National Entrepreneurship Day, the skills ministry said India has more than 2.62 lakh DPIIT-recognised startups, making it the third-largest startup ecosystem. A record 55,200 startups were recognised in 2025-26, and startups had created over 23 lakh jobs by March.",
-          "importance": 2,
-          "verified": false,
-          "published_at": "2026-11-09T06:57:00+05:30",
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/india-emerges-as-worlds-third-largest-startup-ecosystem/"
-            }
-          ]
+          "impact": []
         }
       ]
     },
@@ -215,133 +208,121 @@
       "title": "World",
       "stories": [
         {
-          "why_it_matters": "It is a new attack on Gulf-region energy sites while US-Iran talks are fragile.",
-          "lead": false,
-          "note": "Who launched the drone is not known.",
-          "tags": [
-            "Iraq",
-            "Kurdistan",
-            "Gas",
-            "Drone"
-          ],
-          "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af0eefb-1794174715.jpg",
-            "credit": "Ako Rasheed/Reuters",
-            "source_url": "https://www.aljazeera.com/news/2026/11/9/drone-attack-suspends-production-at-iraqs-khor-mor-gasfield",
-            "alt": "File photo of the Khor Mor gas field plant among hills in Sulaymaniyah province, Iraq"
-          },
-          "impact": [
-            {
-              "on": "oil",
-              "level": "low",
-              "dir": "up",
-              "why": "Another strike on regional energy sites adds a little to supply-risk worries."
-            }
-          ],
-          "id": "world-khor-mor-drone-strike-2026-11-09",
-          "headline": "Drone strike halts Iraq's Khor Mor gas field, cutting power to most of Kurdistan",
-          "summary": "A drone hit a gas storage site at the Khor Mor field in Iraq's Kurdish region on Sunday night, starting a fire and stopping production. The region's electricity ministry says gas to power plants in Erbil, Sulaimaniyah, Duhok and other cities was cut, removing about 2.5 to 2.8 GW and leaving over 70% of the region without power. No one has claimed it; Iraq's PM says no one was hurt.",
+          "id": "world-trump-xi-putin-iran-apec-2026-11-09",
+          "headline": "Trump says he will raise Iran war with Xi and Putin at next week's APEC summit",
+          "summary": "US President Donald Trump says he expects to talk to China's Xi Jinping and Russia's Vladimir Putin at next week's APEC summit about the war on Iran and 'denuclearisation'. Secretary of State Marco Rubio said on Sunday the sides are not near a breakthrough and called some of Iran's demands 'outrageous and ridiculous'.",
+          "why_it_matters": "Talks between the US, China and Russia on Iran could shape oil prices and the Strait of Hormuz, which matter for India's fuel bill.",
           "importance": 4,
-          "verified": true,
-          "published_at": "2026-11-09T00:00:00+03:00",
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/9/drone-attack-suspends-production-at-iraqs-khor-mor-gasfield"
-            },
-            {
-              "name": "Gulf News",
-              "url": "https://gulfnews.com/world/mena/drone-strike-on-iraqs-khor-mor-gas-field-cuts-power-production-by-28-gw-ministry-1.500740627"
-            }
-          ]
-        },
-        {
-          "why_it_matters": null,
           "lead": false,
-          "note": "Claim by Trump; how far the land blockade is being enforced is not independently confirmed.",
+          "verified": false,
+          "note": "Single source: Al Jazeera (with AP). Statements by US officials.",
+          "published_at": "2026-11-09T00:00:34+00:00",
           "tags": [
             "Iran",
             "US",
-            "Blockade"
+            "China",
+            "Russia"
           ],
-          "image": null,
-          "impact": [
-            {
-              "on": "oil",
-              "level": "low",
-              "dir": "mixed",
-              "why": "Tighter pressure on Iran comes alongside talk of a deal, so the oil effect is unclear."
-            }
-          ],
-          "id": "world-iron-gate-trump-2026-11-08",
-          "headline": "Update: Trump says 'Task Force Iron Gate' blockade of Iran's land routes is in force",
-          "summary": "New since the last edition: Trump posted on Truth Social on Sunday that the task force meant to block weapons and sanctioned goods crossing Iran's land borders and the Caspian Sea is 'in full force and effect'. Combined with the naval blockade, he says very little gets in or out of Iran. Iran's Revolutionary Guards brushed it off as wordplay.",
-          "importance": 3,
-          "verified": false,
-          "published_at": "2026-11-08T00:00:00-05:00",
           "sources": [
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html"
-            },
             {
               "name": "Al Jazeera",
               "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq"
             },
             {
-              "name": "CBS News",
-              "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat"
             }
-          ]
-        },
-        {
-          "why_it_matters": null,
-          "lead": false,
-          "note": "Single source: All India Radio.",
-          "tags": [
-            "Ukraine",
-            "Russia",
-            "France",
-            "Peace talks"
           ],
-          "image": null,
-          "impact": [],
-          "id": "world-ukraine-talks-abu-dhabi-europe-2026-11-09",
-          "headline": "France says it will join US-brokered Ukraine talks in Abu Dhabi this week",
-          "summary": "French Foreign Minister Jean-Noel Barrot says European officials, including France, will take part in the Ukraine talks in Abu Dhabi. US envoy Steve Witkoff says Ukrainian and Russian delegations will meet there on November 10-11 to discuss ending the war and post-war security.",
-          "importance": 3,
-          "verified": false,
-          "published_at": "2026-11-09T07:04:00+05:30",
-          "sources": [
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20261107__D6QA2BU__v1__HighRes__UsPoliticsTrump-1794202023.jpg?resize=1920%2C1440",
+            "credit": "AFP",
+            "source_url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq",
+            "alt": "Donald Trump in a white USA cap speaks to reporters at night on an airport tarmac"
+          },
+          "impact": [
             {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/france-confirms-participation-in-ukraine-talks-in-abu-dhabi/"
+              "on": "oil",
+              "level": "medium",
+              "dir": "mixed",
+              "why": "Big-power talks on Iran could ease or prolong the Hormuz risk premium in crude."
             }
           ]
         },
         {
-          "why_it_matters": null,
+          "id": "world-hasina-passport-return-2026-11-09",
+          "headline": "Sheikh Hasina applies for passport, signalling plan to return to Bangladesh",
+          "summary": "Bangladesh's ousted prime minister Sheikh Hasina, who has lived in India for two years, has asked for a new passport and ID card so she can return home. She told Reuters she plans to surrender before a Bangladeshi court, which sentenced her to death in absentia last year over the 2024 protest crackdown. Her aides say a date will be set once formalities are done.",
+          "why_it_matters": "Her return would test India-Bangladesh ties, since Dhaka has been asking India to hand her over.",
+          "importance": 3,
           "lead": false,
-          "note": "Single source: Al Jazeera.",
-          "tags": [
-            "US politics",
-            "Hegseth",
-            "Congress"
-          ],
-          "image": null,
-          "impact": [],
-          "id": "world-jeffries-hegseth-impeachment-2026-11-08",
-          "headline": "Jeffries backs impeaching Defence Secretary Hegseth as Democrats plan probes",
-          "summary": "House Democratic leader Hakeem Jeffries told ABC on Sunday he is a 'hard yes' on a resolution to impeach Pete Hegseth, led by Republican Thomas Massie, a critic of the Iran war. Democrats, who won both chambers on November 3, plan investigations of Trump allies; removal would still need two-thirds of the Senate.",
-          "importance": 2,
           "verified": false,
-          "published_at": "2026-11-09T00:00:00+03:00",
+          "note": "Single source: Al Jazeera (with Reuters). Bangladesh's government said last week it would not issue her a passport.",
+          "published_at": "2026-11-09T07:12:09+00:00",
+          "tags": [
+            "Bangladesh",
+            "India",
+            "Hasina"
+          ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies"
+              "url": "https://www.aljazeera.com/news/2026/11/9/ousted-pm-sheikh-hasina-seeks-passport-in-sign-of-bangladesh-return-plan"
             }
-          ]
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-cop31-opens-antalya-2026-11-09",
+          "headline": "COP31 climate summit opens in Turkey with a push to electrify energy use",
+          "summary": "The UN climate conference COP31 opens on Monday in Antalya, Turkey. Host Turkey is launching a voluntary '35 by 35' pledge to make electricity at least 35% of world energy demand by 2035, up from about a fifth now. The talks come as the Iran war has pushed energy security up the agenda.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-09T05:02:19+00:00",
+          "tags": [
+            "Climate",
+            "COP31",
+            "Energy"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/9/turkiye-pushes-electrification-top-of-climate-agenda-as-cop31-set-to-open"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/cop31-climate-summit-to-begin-in-antalya-turkey-today/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-trump-immigration-democrats-2026-11-09",
+          "headline": "Trump says deportation drive may have been too tough, open to deal with Democrats",
+          "summary": "Donald Trump said in an interview that his strict immigration crackdown may have cost Republicans in the midterm elections, and that it hit some long-settled workers. He said he is willing to work with Democrats, who take control of both houses of Congress in January, on immigration reform.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-09T12:31:00+05:30",
+          "tags": [
+            "US",
+            "Immigration",
+            "Trump"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/us-president-signals-willingness-to-work-with-democrats-on-immigration-reforms/"
+            }
+          ],
+          "image": null,
+          "impact": []
         }
       ]
     },
@@ -350,45 +331,71 @@
       "title": "Currency Desk",
       "stories": [
         {
-          "why_it_matters": "A firm dollar and Fed hike bets keep pressure on the rupee ahead of Tuesday's US inflation data.",
+          "id": "currency-rupee-gives-up-gains-2026-11-09",
+          "headline": "Rupee touches 93.74 early, then slips back to about 94.08 per dollar",
+          "summary": "The rupee opened near 93.85 and rose 24 paise to 93.74 per dollar in early trade, helped by lower crude, foreign buying (FIIs bought Rs 13,750 crore of shares on Friday) and hopes of Middle East peace. By early afternoon it had given up those gains and traded near 94.08, slightly weaker than Friday's 93.98 close. The dollar index was a little softer near 102.",
+          "why_it_matters": "The rupee is holding near six-month highs; dealers see 94.40-94.50 as resistance and 93.50 as the next support.",
+          "importance": 4,
           "lead": false,
-          "note": null,
+          "verified": false,
+          "note": "Early-trade figures from PTI (carried by Business Standard); afternoon level from Yahoo Finance at 1:44 PM IST.",
+          "published_at": "2026-11-09T10:51:15+05:30",
           "tags": [
+            "Rupee",
             "Dollar",
-            "Fed",
-            "Euro",
-            "Yen"
+            "FII"
+          ],
+          "sources": [
+            {
+              "name": "Business Standard (PTI)",
+              "url": "https://www.business-standard.com/finance/news/rupee-rises-24-paise-to-93-74-against-us-dollar-during-early-trade-126110900195_1.html"
+            },
+            {
+              "name": "DT Next (PTI)",
+              "url": "https://www.dtnext.in/news/business/rupee-rises-24-paise-to-9374-against-us-dollar-in-early-trade"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/INR=X/"
+            }
           ],
           "image": null,
           "impact": [
             {
-              "on": "currency",
-              "detail": "Dollar",
-              "level": "medium",
-              "dir": "up",
-              "why": "Higher odds of a Fed hike support the dollar."
-            },
-            {
               "on": "rupee",
               "level": "medium",
-              "dir": "down",
-              "why": "A strong dollar and higher US rates weigh on the rupee."
+              "dir": "mixed",
+              "why": "Early gains on cheaper oil faded by afternoon; 94 is the level to watch."
             }
+          ]
+        },
+        {
+          "id": "currency-rbi-vrr-auction-2026-11-09",
+          "headline": "RBI adds Rs 50,000 crore cash to banks via 4-day repo auction at 5.51%",
+          "summary": "The RBI's 4-day variable rate repo auction on Monday drew bids of Rs 62,872 crore against Rs 50,000 crore on offer. It allotted Rs 50,003 crore at a cut-off rate of 5.51%, with a weighted average of 5.54%. The money is due back on November 13.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: RBI.",
+          "published_at": "2026-11-09T00:00:00+05:30",
+          "tags": [
+            "RBI",
+            "Liquidity"
           ],
-          "id": "currency-dollar-steady-fed-hike-odds-2026-11-09",
-          "headline": "Dollar holds near 102.2 as odds of a December Fed hike climb to about 80%",
-          "summary": "The dollar index was steady around 102.2 in Asian trade on Monday after Friday's jump on strong US jobs data. The euro was little changed near $1.115 and the yen slightly firmer at about 158.2 per dollar. CME FedWatch puts the odds of a Fed rate rise on December 9 near 80%, up from about 71% a week ago.",
-          "importance": 4,
-          "verified": true,
-          "published_at": "2026-11-09T00:00:00+08:00",
           "sources": [
             {
-              "name": "Reuters",
-              "url": "https://www.globalbankingandfinance.com/asian-stocks-steady-ai-mideast-jitters-recede-dollar-firm/"
-            },
+              "name": "RBI",
+              "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63945"
+            }
+          ],
+          "image": null,
+          "impact": [
             {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+              "on": "rates",
+              "level": "low",
+              "dir": "down",
+              "why": "Bids above the offer show banks need cash; RBI support keeps short-term rates in check."
             }
           ]
         }
@@ -399,14 +406,30 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "why_it_matters": "A calmer tech mood in Asia could help Indian shares, especially IT, as Dalal Street trades before Tuesday's holiday.",
+          "id": "markets-sensex-nifty-midday-2026-11-09",
+          "headline": "Sensex, Nifty down about 0.3% at midday; IT and telecom drag, PSU banks gain",
+          "summary": "Indian shares slipped in the first full session of Samvat 2083. At about 1:15 PM the Sensex was down 289 points at 80,710 and the Nifty down 81 points at 24,905. Telecom, IT and cement stocks fell most, while PSU banks, healthcare and pharma rose. Markets are shut on Tuesday for Diwali Balipratipada.",
+          "why_it_matters": "A mild dip despite strong foreign buying on Friday and calmer oil shows caution before Tuesday's US inflation data.",
+          "importance": 4,
           "lead": true,
+          "verified": true,
           "note": null,
+          "published_at": "2026-11-09T13:18:00+05:30",
           "tags": [
-            "Nikkei",
-            "Taiwan",
-            "AI stocks",
-            "Asia"
+            "Sensex",
+            "Nifty",
+            "IT",
+            "PSU banks"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/sensex-nifty-begin-trading-in-the-red/"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5ENSEI/"
+            }
           ],
           "image": null,
           "impact": [
@@ -414,118 +437,47 @@
               "on": "indian_stocks",
               "detail": "IT",
               "level": "medium",
-              "dir": "up",
-              "why": "A rebound in Asian tech shares may lift Indian IT stocks."
+              "dir": "down",
+              "why": "IT was among the biggest losers at midday."
             },
+            {
+              "on": "indian_stocks",
+              "detail": "PSU Banks",
+              "level": "low",
+              "dir": "up",
+              "why": "PSU bank stocks led the gainers."
+            }
+          ]
+        },
+        {
+          "id": "markets-asia-tech-rebound-2026-11-09",
+          "headline": "Update: Taiwan closes up 4.9%, Nikkei 2.3%; Korea's Kospi turns lower",
+          "summary": "New since the morning: Asian markets closed with Taiwan's Taiex up 4.94% and Japan's Nikkei 225 up 2.33%, extending the rebound from last week's AI-led sell-off. South Korea's Kospi fell 0.8% after being up about 1.7% earlier, and Hong Kong's Hang Seng slipped 0.22%. US Nasdaq futures were lower.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera for closing levels.",
+          "published_at": "2026-11-09T04:03:02+00:00",
+          "tags": [
+            "Asia",
+            "Tech",
+            "AI"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/11/9/asian-stock-markets-climb-after-earlier-tech-rout"
+            }
+          ],
+          "image": null,
+          "impact": [
             {
               "on": "us_stocks",
               "detail": "Tech",
               "level": "low",
-              "dir": "up",
-              "why": "Asia's bounce eases some of last week's AI selling pressure."
-            }
-          ],
-          "id": "markets-asia-tech-rebound-2026-11-09",
-          "headline": "Asian stocks bounce back: Nikkei up about 3%, Taiwan jumps after record sell-off",
-          "summary": "Japan's Nikkei 225 rose about 3% to near 59,285 on Monday, and Taiwan's main index opened 646 points higher at 40,347 after last week's heavy AI-led fall. Reuters says MSCI's Asia-Pacific index outside Japan rose about 0.8%, and US S&P 500 futures edged up after dipping on Sunday evening.",
-          "importance": 5,
-          "verified": true,
-          "published_at": "2026-11-09T09:11:00+08:00",
-          "sources": [
-            {
-              "name": "Reuters",
-              "url": "https://www.globalbankingandfinance.com/asian-stocks-steady-ai-mideast-jitters-recede-dollar-firm/"
-            },
-            {
-              "name": "Focus Taiwan (CNA)",
-              "url": "https://focustaiwan.tw/business/202611090001"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/%5EN225/"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
-            }
-          ]
-        },
-        {
-          "why_it_matters": "Rising Chinese factory prices can make imports costlier and limit China's room to ease policy.",
-          "lead": false,
-          "note": null,
-          "tags": [
-            "China",
-            "Inflation",
-            "PPI"
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "india_economy",
-              "level": "low",
-              "dir": "up",
-              "why": "Dearer Chinese factory goods may push up some import costs for India."
-            }
-          ],
-          "id": "markets-china-ppi-october-2026-11-09",
-          "headline": "China's factory-gate prices jump 5.7%, highest in over four years; CPI slows",
-          "summary": "China's producer prices rose 5.7% from a year earlier in October, above the 5.3% forecast and up from 5.0% in September, as energy costs rose. Consumer inflation slowed to 0.7% from 0.9%, just below the 0.8% expected, and core inflation eased to 0.8%.",
-          "importance": 4,
-          "verified": true,
-          "published_at": "2026-11-09T09:30:00+08:00",
-          "sources": [
-            {
-              "name": "investingLive",
-              "url": "https://investinglive.com/news/china-october-2026-cpi-0-7-y-y-expected-0-8-prior-0-9/"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html"
-            },
-            {
-              "name": "Investing.com",
-              "url": "https://ph.investing.com/news/economic-indicators/china-cpi-inflation-misses-forecasts-in-oct-factorygate-prices-accelerate-2684636"
-            }
-          ]
-        },
-        {
-          "why_it_matters": null,
-          "lead": false,
-          "note": null,
-          "tags": [
-            "Gold",
-            "Silver"
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "gold",
-              "level": "medium",
-              "dir": "up",
-              "why": "Gold has bounced over 1% at the start of the week."
-            },
-            {
-              "on": "silver",
-              "level": "low",
-              "dir": "up",
-              "why": "Silver futures are following gold higher."
-            }
-          ],
-          "id": "markets-gold-jumps-asia-2026-11-09",
-          "headline": "Gold climbs about 1.4% to near $4,125 in early Asian trade",
-          "summary": "Spot gold rose about $55, or 1.35%, to around $4,125 an ounce on Monday morning in Asia, reversing Sunday evening's dip. US gold futures traded near $4,133 and silver futures near $53.2. The move came as the dollar held steady; no single trigger was reported.",
-          "importance": 3,
-          "verified": true,
-          "published_at": "2026-11-08T21:02:00-05:00",
-          "sources": [
-            {
-              "name": "Kitco",
-              "url": "https://www.kitco.com/charts/gold"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/GC%3DF/"
+              "dir": "mixed",
+              "why": "Asia's chip rebound is fading in Korea while Nasdaq futures dip."
             }
           ]
         }
@@ -534,42 +486,7 @@
     {
       "id": "built",
       "title": "Built This Week",
-      "stories": [
-        {
-          "why_it_matters": null,
-          "lead": false,
-          "note": "Announced by the companies involved (IBM and AMD); not yet confirmed by a major outlet.",
-          "tags": [
-            "Quantum",
-            "IBM",
-            "AMD",
-            "Supercomputer"
-          ],
-          "image": {
-            "url": "https://newsroom.ibm.com/image/IBM-ORNL-AMD+QEC+Ribbon+Cutting-social.jpg",
-            "credit": "IBM",
-            "source_url": "https://newsroom.ibm.com/2026-11-05-oak-ridge-national-lab,-ibm,-and-amd-launch-new-co-design-platform-for-quantum-error-correction",
-            "alt": "Seven officials cut a blue ribbon in front of IBM Quantum System Two and the Umbra supercomputer"
-          },
-          "impact": [],
-          "id": "built-ibm-ornl-amd-qec-platform-2026-11-05",
-          "headline": "IBM, AMD and Oak Ridge open a quantum error-correction test platform",
-          "summary": "IBM and the US Oak Ridge National Laboratory switched on a platform in Poughkeepsie, New York, that pairs IBM's 120-qubit Nighthawk quantum chip with ORNL's Umbra supercomputer, built on AMD Instinct MI355X GPUs and EPYC CPUs. It is meant to speed up work on correcting quantum errors, a key step toward IBM's planned fault-tolerant machine in 2029.",
-          "importance": 3,
-          "verified": false,
-          "published_at": "2026-11-05T00:00:00-05:00",
-          "sources": [
-            {
-              "name": "IBM Newsroom",
-              "url": "https://newsroom.ibm.com/2026-11-05-oak-ridge-national-lab,-ibm,-and-amd-launch-new-co-design-platform-for-quantum-error-correction"
-            },
-            {
-              "name": "AMD Newsroom",
-              "url": "https://newsroom.amd.com/news/amd-builds-classical-foundation-quantum-future"
-            }
-          ]
-        }
-      ]
+      "stories": []
     }
   ],
   "weekend_special": null,
@@ -579,12 +496,8 @@
       "date": "2026-11-09",
       "events": [
         {
-          "text": "RBI 4-day variable rate repo auction",
-          "section": "currency"
-        },
-        {
-          "text": "Lower prices for 137 anti-cancer drugs take effect",
-          "section": "india"
+          "text": "COP31 UN climate summit opens in Antalya, Turkey",
+          "section": "world"
         },
         {
           "text": "BoE Governor Bailey speaks",
