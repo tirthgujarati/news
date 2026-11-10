@@ -1,0 +1,619 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-10-morning",
+  "date": "2026-11-10",
+  "slot": "morning",
+  "title": "Tuesday Morning Edition",
+  "generated_at": "2026-11-10T07:41:01+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "93.93",
+      "change": "-0.05%",
+      "dir": "down",
+      "as_of": "2026-11-09T00:00:00+05:30",
+      "source": {
+        "name": "Deccan Herald (PTI)",
+        "url": "https://www.deccanherald.com/business/markets/rupee-rises-5-paise-to-close-at-9393-against-us-dollar-4212697"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "105.39",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-09T20:51:30+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X/"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "101.69",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-10T01:54:53+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$717.06bn",
+      "change": "-0.37%",
+      "dir": "down",
+      "as_of": "2026-10-30T00:00:00+05:30",
+      "source": {
+        "name": "RBI Weekly Statistical Supplement",
+        "url": "https://www.rbi.org.in/Scripts/WSSView.aspx"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,044.65",
+      "change": "+0.23%",
+      "dir": "up",
+      "as_of": "2026-11-09T15:30:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/domestic-markets-end-in-positive-zone/"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "81,106.65",
+      "change": "+0.13%",
+      "dir": "up",
+      "as_of": "2026-11-09T15:30:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/domestic-markets-end-in-positive-zone/"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,549.94",
+      "change": "+2.35%",
+      "dir": "up",
+      "as_of": "2026-11-09T16:00:00-05:00",
+      "source": {
+        "name": "AP",
+        "url": "https://www.whec.com/ap-top-news/asian-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "25,253.14",
+      "change": "+2.74%",
+      "dir": "up",
+      "as_of": "2026-11-09T16:00:00-05:00",
+      "source": {
+        "name": "AP",
+        "url": "https://www.whec.com/ap-top-news/asian-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$4,135.50",
+      "change": "+0.51%",
+      "dir": "up",
+      "as_of": "2026-11-10T01:54:46+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/GC=F/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$91.87",
+      "change": "-0.76%",
+      "dir": "down",
+      "as_of": "2026-11-10T01:54:43+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ=F/"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$74,907",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-10T02:04:50+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD/"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.86%",
+      "change": "+0.10%",
+      "dir": "up",
+      "as_of": "2026-11-09T19:59:53+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/India-and-Lebanon-review-bilateral-relations-and-discuss-ways-to-strengthen-cooperation-across-key-sectors.jpg",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/india-and-lebanon-review-bilateral-relations-and-discuss-ways-to-strengthen-cooperation-across-key-sectors/",
+            "alt": "India's Sripriya Ranganathan shakes hands with Lebanon's Abdel Sattar Issa in front of both countries' flags"
+          },
+          "impact": [],
+          "tags": [
+            "Lebanon",
+            "diplomacy",
+            "trade"
+          ],
+          "id": "india-lebanon-foreign-office-talks-2026-11-09",
+          "headline": "India and Lebanon hold first foreign office talks, eye trade, pharma and digital ties",
+          "summary": "India and Lebanon held their first Foreign Office Consultations in New Delhi on Monday. The External Affairs Ministry's Sripriya Ranganathan and Lebanon's Abdel Sattar Issa named trade and investment, digital public infrastructure and pharmaceuticals as priorities, and also discussed regional issues.",
+          "importance": 2,
+          "published_at": "2026-11-10T07:25:00+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/india-and-lebanon-review-bilateral-relations-and-discuss-ways-to-strengthen-cooperation-across-key-sectors/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "image": null,
+          "impact": [],
+          "tags": [
+            "Delhi",
+            "governance"
+          ],
+          "id": "india-delhi-time-bound-services-act-2026-11-09",
+          "headline": "Delhi notifies new law fining officials for late public services",
+          "summary": "The Delhi government has notified the Delhi (Right of Citizens to Time-Bound and Easy Delivery of Services) Act, 2026, replacing a 2011 law. Each service gets a deadline and a named officer, who can be fined ₹250 a day for needless delay, up to ₹5,000. Applications can be made and tracked online, with appeals escalated automatically.",
+          "importance": 2,
+          "published_at": "2026-11-09T20:21:00+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/delhi-govt-notifies-act-to-ensure-time-bound-delivery-of-government-services/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "why_it_matters": "A pause in fighting with the blockade still on lowers the risk of new oil shocks but leaves Hormuz trade restricted.",
+          "lead": true,
+          "verified": true,
+          "note": null,
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af249716f78-1794263409.jpg?resize=1920%2C1440",
+            "credit": "Mandel Ngan/AFP",
+            "source_url": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm",
+            "alt": "Donald Trump gestures at the podium during a White House press briefing"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "high",
+              "dir": "down",
+              "why": "Signs the US won't resume strikes cut the war-risk premium in crude."
+            },
+            {
+              "on": "indian_stocks",
+              "level": "medium",
+              "dir": "up",
+              "why": "Lower oil eases India's import bill and helps oil-sensitive sectors."
+            },
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "up",
+              "why": "Cheaper crude reduces dollar demand from Indian oil importers."
+            },
+            {
+              "on": "gold",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Lower war risk trims safe-haven demand, but a weaker dollar supports gold."
+            }
+          ],
+          "tags": [
+            "Iran",
+            "US",
+            "Qatar",
+            "Hormuz",
+            "oil"
+          ],
+          "id": "world-trump-iran-war-effectively-over-2026-11-09",
+          "headline": "Trump says Iran war is 'effectively over' militarily, but the blockade stays",
+          "summary": "After meeting Qatar's prime minister and JD Vance on Monday, Donald Trump said the war with Iran is militarily \"effectively over\" and new strikes seem unnecessary. He said the US will keep the status quo, including its naval blockade of Iranian ports and the new land-route task force, which he says Gulf neighbours prefer. Iran's Mohsen Rezaei dismissed the talk of negotiations as fake news.",
+          "importance": 5,
+          "published_at": "2026-11-09T22:31:19+00:00",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm"
+            },
+            {
+              "name": "AP (via Anchorage Daily News)",
+              "url": "https://www.adn.com/nation-world/2026/11/09/after-meeting-with-qatari-prime-minister-trump-says-he-believes-war-with-iran-is-militarily-effectively-over/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "Attacks on Russian refineries and the talks' outcome both feed into global fuel prices.",
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "low",
+              "dir": "up",
+              "why": "Damage to a major Russian refinery tightens fuel supply."
+            }
+          ],
+          "tags": [
+            "Russia",
+            "Ukraine",
+            "Abu Dhabi talks",
+            "refinery"
+          ],
+          "id": "world-russia-ukraine-strikes-kirishi-2026-11-09",
+          "headline": "Russia and Ukraine trade strikes before US-brokered talks open in Abu Dhabi",
+          "summary": "Ukrainian drones set Russia's Kirishi refinery, its second-largest, on fire, the Leningrad governor says, and a Russian attack killed three people in Odesa, local officials say. Russia also hit Ukraine's power grid again. Russian, Ukrainian and US negotiators begin two days of talks in Abu Dhabi on Tuesday, their first meeting since February.",
+          "importance": 4,
+          "published_at": "2026-11-09T10:08:45+00:00",
+          "sources": [
+            {
+              "name": "Al Jazeera (Reuters)",
+              "url": "https://www.aljazeera.com/news/2026/11/9/at-least-one-person-killed-as-russia-and-ukraine-trade-strikes-overnight"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/hostilities-continue-between-russia-and-ukraine-before-scheduled-us-brokered-talks/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera.",
+          "image": null,
+          "impact": [],
+          "tags": [
+            "US",
+            "midterms",
+            "Trump"
+          ],
+          "id": "world-trump-questions-midterm-results-2026-11-09",
+          "headline": "Trump now questions whether the US midterm elections were honest",
+          "summary": "Days after congratulating Democrats on winning both houses of Congress, Donald Trump wrote on Truth Social that he doubted the election was honest and asked how polls could be so wrong. He gave no evidence of fraud. Pew Research found pre-election polls had actually understated Democrats' margin in most governor and Senate races.",
+          "importance": 3,
+          "published_at": "2026-11-09T19:07:42+00:00",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/9/trump-reverses-stance-alleges-fraud-in-recent-us-midterm-elections"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "why_it_matters": "Hot US inflation would firm up hike bets, lift the dollar and put pressure on the rupee when trading resumes.",
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "image": null,
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "Dollar",
+              "level": "medium",
+              "dir": "mixed",
+              "why": "The CPI print will decide whether December hike bets rise or fade."
+            },
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "mixed",
+              "why": "The rupee will react to the CPI-driven dollar move on Wednesday."
+            }
+          ],
+          "tags": [
+            "dollar",
+            "US CPI",
+            "Fed"
+          ],
+          "id": "currency-dollar-firm-before-us-cpi-2026-11-10",
+          "headline": "Dollar holds steady in Asia before US inflation data; Indian forex market shut",
+          "summary": "The dollar held firm in Asian trade on Tuesday as traders waited for US October inflation figures due at 7 PM IST. Forecasts point to a 0.3% monthly rise in prices and 0.2% in core prices. Markets put the chance of a Fed rate hike in December at about 82%. India's currency market is closed today for Balipratipada and reopens on Wednesday.",
+          "importance": 4,
+          "published_at": "2026-11-10T01:45:00+00:00",
+          "sources": [
+            {
+              "name": "Reuters (via Investing.com)",
+              "url": "https://www.investing.com/news/economy-news/dollar-sellers-hit-pause-for-us-inflation-data-5013809"
+            },
+            {
+              "name": "FXStreet",
+              "url": "https://www.fxstreet.com/news/british-pound-steadies-below-13450-ahead-of-us-cpi-data-202611100145"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "why_it_matters": "A strong US close, led by chip stocks, sets a firmer tone for Asia and for Indian IT when markets reopen Wednesday.",
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "image": null,
+          "impact": [
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "high",
+              "dir": "up",
+              "why": "Chip and AI stocks led a broad rebound."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "medium",
+              "dir": "up",
+              "why": "A firm Nasdaq usually lifts Indian IT shares."
+            },
+            {
+              "on": "company",
+              "detail": "AMD",
+              "level": "high",
+              "dir": "up",
+              "why": "Google's pick of AMD chips for its TPU 8tx sent the stock up 13%."
+            },
+            {
+              "on": "company",
+              "detail": "Nvidia",
+              "level": "medium",
+              "dir": "down",
+              "why": "The board's probe into CEO Jensen Huang weighed on shares."
+            }
+          ],
+          "tags": [
+            "Wall Street",
+            "S&P 500",
+            "AMD",
+            "Nvidia"
+          ],
+          "id": "markets-wall-street-close-rally-2026-11-09",
+          "headline": "Wall Street has its best day since April: S&P 500 up 2.3%, AMD jumps 13%",
+          "summary": "US stocks won back most of last week's losses on Monday as oil fell. The S&P 500 rose 2.3% to 7,549.94, the Dow 1,104 points (2.2%) to 52,389.75 and the Nasdaq 2.7% to 25,253.14. AMD rose 13.3% after Google picked its chips for a new AI system, and Constellation Energy gained 10.5% on results, while Nvidia fell 4.3% amid the probe into its CEO.",
+          "importance": 5,
+          "published_at": "2026-11-09T16:56:53+00:00",
+          "sources": [
+            {
+              "name": "AP",
+              "url": "https://www.whec.com/ap-top-news/asian-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/"
+            },
+            {
+              "name": "Al Jazeera (Reuters)",
+              "url": "https://www.aljazeera.com/economy/2026/11/9/nvidia-shares-slump-amid-investigation-into-ceo-jensen-huang"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "Cheaper oil is one of the biggest positives for India's inflation, trade deficit and the rupee.",
+          "lead": false,
+          "verified": true,
+          "note": "Tuesday's Asian price is from Yahoo Finance futures data.",
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "high",
+              "dir": "down",
+              "why": "Iran peace hopes keep pulling crude lower."
+            },
+            {
+              "on": "india_economy",
+              "level": "medium",
+              "dir": "up",
+              "why": "Lower crude eases fuel costs and inflation pressure."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "Oil marketing",
+              "level": "medium",
+              "dir": "up",
+              "why": "Cheaper crude widens fuel retailers' margins."
+            }
+          ],
+          "tags": [
+            "oil",
+            "Brent",
+            "Iran"
+          ],
+          "id": "markets-brent-settles-92-2026-11-09",
+          "headline": "Brent settles near $92.57, down about 6%, and slips further in Asia",
+          "summary": "Brent crude for January fell about 5.8% on Monday to settle at $92.57 a barrel, down from over $112 at the start of the month, on hopes of a US-Iran deal. US crude settled 4.4% lower at $86.85. In early Asian trade on Tuesday, Brent eased again to about $91.9.",
+          "importance": 4,
+          "published_at": "2026-11-09T19:30:00+00:00",
+          "sources": [
+            {
+              "name": "AP",
+              "url": "https://www.whec.com/ap-top-news/asian-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/"
+            },
+            {
+              "name": "Rigzone",
+              "url": "https://www.rigzone.com/news/wire/oil_prices_sink_on_iran_peace_hopes-09-nov-2026-185046-article/"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/oil-prices-decline-3/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "why_it_matters": "It lets banks, governments and other regulated users run sensitive AI work in the cloud without exposing their data.",
+          "lead": false,
+          "verified": true,
+          "note": "Updates Sunday's Google TPU 8tx story with AMD's role.",
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "AMD",
+              "level": "high",
+              "dir": "up",
+              "why": "A new role in Google's AI systems drove a 13% share jump."
+            }
+          ],
+          "tags": [
+            "AMD",
+            "Google",
+            "AI chips",
+            "security"
+          ],
+          "id": "built-amd-epyc-google-tpu-8tx-2026-11-09",
+          "headline": "AMD's EPYC chips power Google's TPU 8tx, the first confidential-computing cloud TPU",
+          "summary": "AMD says its 5th Gen EPYC processors run the host side of Google Cloud's new TPU 8tx, which Google calls the first cloud TPU system with hardware-enforced confidential computing. AMD's chips prepare data and manage the TPUs, using its encryption features to keep prompts, model weights and data protected even while in use.",
+          "importance": 4,
+          "published_at": "2026-11-09T00:00:00-08:00",
+          "sources": [
+            {
+              "name": "AMD (press release)",
+              "url": "https://ir.amd.com/news-events/press-releases/detail/1304/amd-epyc-expands-its-leadership-at-the-foundation-of-ai"
+            },
+            {
+              "name": "AP",
+              "url": "https://www.whec.com/ap-top-news/asian-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [],
+  "week_ahead": [
+    {
+      "date": "2026-11-10",
+      "events": [
+        {
+          "text": "NSE, BSE and forex market shut for Diwali Balipratipada",
+          "section": "markets"
+        },
+        {
+          "text": "Fed's Christopher Waller speaks",
+          "section": "currency"
+        },
+        {
+          "text": "US October CPI inflation data (7 PM IST)",
+          "section": "markets"
+        },
+        {
+          "text": "US-brokered Russia-Ukraine talks open in Abu Dhabi",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "events": [
+        {
+          "text": "Indian stock and forex markets reopen",
+          "section": "markets"
+        },
+        {
+          "text": "ECB President Lagarde speaks",
+          "section": "currency"
+        },
+        {
+          "text": "Russia-Ukraine talks in Abu Dhabi, second day",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "events": [
+        {
+          "text": "UK Q3 GDP first estimate",
+          "section": "currency"
+        },
+        {
+          "text": "US weekly jobless claims",
+          "section": "markets"
+        },
+        {
+          "text": "ECB President Lagarde speaks again",
+          "section": "currency"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "events": [
+        {
+          "text": "US October producer prices (PPI)",
+          "section": "markets"
+        },
+        {
+          "text": "RBI weekly forex reserves data",
+          "section": "currency"
+        }
+      ]
+    }
+  ]
+}
