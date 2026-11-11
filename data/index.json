@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-11T13:44:47+05:30",
+  "updated_at": "2026-11-11T20:54:01+05:30",
   "editions": [
+    {
+      "edition_id": "2026-11-11-evening",
+      "title": "Wednesday Evening Edition",
+      "path": "editions/2026/11/11-evening.json",
+      "story_count": 13
+    },
     {
       "edition_id": "2026-11-11-midday",
       "title": "Wednesday Midday Edition",
