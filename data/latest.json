@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-10-evening",
-  "date": "2026-11-10",
-  "slot": "evening",
-  "title": "Tuesday Evening Edition",
-  "generated_at": "2026-11-10T20:52:43+05:30",
+  "edition_id": "2026-11-11-morning",
+  "date": "2026-11-11",
+  "slot": "morning",
+  "title": "Wednesday Morning Edition",
+  "generated_at": "2026-11-11T07:44:49+05:30",
   "snapshot": [
     {
       "id": "usdinr",
@@ -21,25 +21,25 @@
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "105.41",
-      "change": null,
-      "dir": "flat",
-      "as_of": "2026-11-10T04:21:34+00:00",
+      "value": "104.93",
+      "change": "+0.04%",
+      "dir": "up",
+      "as_of": "2026-11-11T02:06:31+00:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/EURINR=X/"
+        "url": "https://finance.yahoo.com/quote/EURINR%3DX/"
       }
     },
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "102.09",
-      "change": "+0.43%",
-      "dir": "up",
-      "as_of": "2026-11-10T15:08:01+00:00",
+      "value": "102.22",
+      "change": "-0.01%",
+      "dir": "flat",
+      "as_of": "2026-11-11T01:59:47+00:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/"
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
       }
     },
     {
@@ -81,61 +81,61 @@
     {
       "id": "spx",
       "label": "S&P 500",
-      "value": "7,528.81",
-      "change": "-0.28%",
+      "value": "7,520.93",
+      "change": "-0.38%",
       "dir": "down",
-      "as_of": "2026-11-10T15:18:03+00:00",
+      "as_of": "2026-11-10T16:00:00-05:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/"
+        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
       }
     },
     {
       "id": "nasdaq",
       "label": "Nasdaq",
-      "value": "25,197.96",
-      "change": "-0.22%",
+      "value": "25,065.88",
+      "change": "-0.74%",
       "dir": "down",
-      "as_of": "2026-11-10T15:17:58+00:00",
+      "as_of": "2026-11-10T16:00:00-05:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/"
+        "url": "https://finance.yahoo.com/quote/%5EIXIC/"
       }
     },
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$4,056.00",
-      "change": "-1.42%",
-      "dir": "down",
-      "as_of": "2026-11-10T15:08:05+00:00",
+      "value": "$4,053.70",
+      "change": "+0.58%",
+      "dir": "up",
+      "as_of": "2026-11-11T01:59:35+00:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/"
+        "url": "https://finance.yahoo.com/quote/GC%3DF/"
       }
     },
     {
       "id": "brent",
       "label": "Brent crude",
-      "value": "$90.81",
-      "change": "-1.90%",
-      "dir": "down",
-      "as_of": "2026-11-10T15:08:02+00:00",
+      "value": "$91.85",
+      "change": "+0.39%",
+      "dir": "up",
+      "as_of": "2026-11-11T01:59:03+00:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/"
+        "url": "https://finance.yahoo.com/quote/BZ%3DF/"
       }
     },
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$74,233",
-      "change": "-1.36%",
+      "value": "$73,387",
+      "change": "-1.84%",
       "dir": "down",
-      "as_of": "2026-11-10T15:17:59+00:00",
+      "as_of": "2026-11-11T02:09:45+00:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/"
+        "url": "https://finance.yahoo.com/quote/BTC-USD/"
       }
     },
     {
@@ -144,10 +144,10 @@
       "value": "4.99%",
       "change": "+2.6%",
       "dir": "up",
-      "as_of": "2026-11-10T15:03:04+00:00",
+      "as_of": "2026-11-10T16:00:00-05:00",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/"
+        "name": "investingLive",
+        "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-10-nov-it-s-a-wrap-hot-us-cpi-puts-a-bigger-fed-hike-in-play/"
       }
     }
   ],
@@ -157,32 +157,28 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-plfs-unemployment-q2-2026-11-10",
-          "headline": "India's jobless rate eases to 5.1% in July-September, government survey shows",
-          "summary": "Unemployment for people aged 15 and over fell to 5.1% in July-September from 5.4% in April-June, the quarterly Periodic Labour Force Survey released on Tuesday shows. Rural joblessness fell to 4.3% from 4.8%, while the urban rate edged up to 6.8% from 6.7%. More people joined the workforce: the participation rate rose to 55.5% and the worker population ratio to 52.7%.",
-          "why_it_matters": "A firmer job market supports consumer demand, though the small rise in urban unemployment is worth watching.",
-          "importance": 4,
+          "id": "india-goyal-exports-trillion-track-2026-11-10",
+          "headline": "Goyal says India is on track for $1 trillion exports, with 48% done in six months",
+          "summary": "Commerce Minister Piyush Goyal said India exported about $480 billion of goods and services in April-September, 48% of the $1 trillion target for this year, and that exports usually pick up in the second half. He said engineering exports grew about 22%. October trade figures are due on November 15.",
+          "why_it_matters": "Strong exports help narrow the trade gap and support the rupee while oil stays costly.",
+          "importance": 3,
           "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-10T00:00:00+05:30",
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-10T22:19:06+05:30",
           "tags": [
-            "jobs",
-            "PLFS",
-            "economy"
+            "exports",
+            "trade",
+            "Piyush Goyal"
           ],
           "sources": [
             {
-              "name": "Business Standard",
-              "url": "https://business-standard.com/amp/economy/news/unemployment-dips-slightly-to-5-1-in-july-september-govt-survey-126111000641_1.html"
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/india-on-track-to-achieve-1-trillion-exports-this-year-union-minister-piyush-goyal/"
             },
             {
-              "name": "The Tribune (PTI)",
-              "url": "https://www.tribuneindia.com/news/business/unemployment-decreases-marginally-to-5-1-for-july-september-govt-survey"
-            },
-            {
-              "name": "UNI",
-              "url": "https://www.uniindia.com/business-economy/indias-unemployment-rate-drops-to-51-in-july-september-plfs-data/241210"
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/piyush-goyal-says-india-on-track-to-achieve-1-trillion-export-target/"
             }
           ],
           "image": null,
@@ -191,76 +187,72 @@
               "on": "india_economy",
               "level": "low",
               "dir": "up",
-              "why": "More jobs, especially in villages, support spending."
+              "why": "Exports running at target pace support growth and the trade balance."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "Engineering",
+              "level": "low",
+              "dir": "up",
+              "why": "Minister cites about 22% growth in engineering exports."
             }
           ]
         },
         {
-          "id": "india-mea-ukraine-hormuz-stand-2026-11-10",
-          "headline": "India says it has shared ideas with Russia and Ukraine on Black Sea shipping and grain",
-          "summary": "MEA spokesperson Randhir Jaiswal said on Tuesday evening that India has given both sides proposals on Black Sea shipping safety and on grain and energy exports, as US-brokered talks began in Abu Dhabi. He also said India wants free and safe passage through the Strait of Hormuz and is talking to all sides to stop attacks on ships and seafarers, including Indian-flagged vessels. He called the US midterm elections an internal US matter.",
-          "why_it_matters": null,
+          "id": "india-pli-medical-devices-2-2026-11-10",
+          "headline": "Government reopens medical devices PLI scheme, extends it to 2035-36",
+          "summary": "The government has invited fresh applications under the production-linked incentive scheme for medical devices, now extended to 2035-36, with about Rs 2,700 crore available. The minimum sales threshold to claim incentives has been dropped and the minimum investment cut; firms get three years to set up plants. The online portal opens within 10 days.",
+          "why_it_matters": "Easier rules could pull more investment into making implants, components and high-end devices in India.",
           "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-10T18:39:00+05:30",
+          "note": "Single source: All India Radio (Ministry of Chemicals and Fertilizers statement).",
+          "published_at": "2026-11-10T22:14:23+05:30",
           "tags": [
-            "MEA",
-            "Ukraine",
-            "Hormuz"
+            "PLI",
+            "medical devices",
+            "manufacturing"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/india-reiterates-stand-on-russia-ukraine-conflict/"
+              "url": "https://newsonair.gov.in/govt-invites-fresh-applications-under-pli-scheme-for-medical-devices/"
             }
           ],
           "image": null,
-          "impact": []
-        },
-        {
-          "id": "india-tata-hosur-plant-deaths-2026-11-10",
-          "headline": "Three workers die at Tata Electronics' iPhone parts plant in Hosur",
-          "summary": "Three contract workers died late on Monday at Tata Electronics' components plant in Hosur, Tamil Nadu, after inhaling gas while inspecting a tank at the effluent treatment plant, a district official said. They were declared dead on arrival at hospital. Tamil Nadu's industries minister said the deaths will be investigated. Tata's unit makes about 40% of the iPhones assembled in India.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera (with Reuters), citing a district official.",
-          "published_at": "2026-11-10T00:00:00+03:00",
-          "tags": [
-            "Tata",
-            "Apple",
-            "safety"
-          ],
-          "sources": [
+          "impact": [
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/10/three-workers-die-at-tatas-iphone-parts-plant-in-indias-tamil-nadu"
+              "on": "indian_stocks",
+              "detail": "Healthcare",
+              "level": "low",
+              "dir": "up",
+              "why": "New incentives for device makers under an extended, simpler PLI scheme."
             }
-          ],
-          "image": null,
-          "impact": []
+          ]
         },
         {
-          "id": "india-sc-digital-arrest-whatsapp-2026-11-10",
-          "headline": "Supreme Court asks WhatsApp and other platforms how they will curb 'digital arrest' scams",
-          "summary": "A bench led by Chief Justice Surya Kant asked WhatsApp and other intermediaries to send their planned steps against digital arrest scams to the Indian Cybercrime Coordination Centre. WhatsApp told the court it has acted against 9,400 accounts and will file an affidavit. The case returns on November 23; the court has already said banks may have to compensate victims if they failed in due diligence.",
+          "id": "india-france-critical-tech-dialogue-2026-11-10",
+          "headline": "India and France hold first dialogue on economic security and critical technologies",
+          "summary": "Foreign Secretary Vikram Misri and French Secretary General Martin Briens held the first India-France Economic Security and Critical Technologies Dialogue in Paris, covering supply chains, critical technologies, cyber security and industrial partnerships. The two sides also held their third Strategic Space Dialogue, and restated a goal of doubling bilateral trade in five years.",
           "why_it_matters": null,
           "importance": 2,
           "lead": false,
           "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-10T18:02:00+05:30",
+          "note": "Single source: All India Radio (MEA and Indian Embassy statements).",
+          "published_at": "2026-11-10T20:46:54+05:30",
           "tags": [
-            "Supreme Court",
-            "cybercrime"
+            "France",
+            "diplomacy",
+            "technology"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/sc-asks-whatsapp-other-intermediaries-to-outline-steps-to-curb-digital-arrest-scams/"
+              "url": "https://newsonair.gov.in/india-france-discuss-cooperation-in-critical-technologies-cyber-security/"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/india-france-hold-third-strategic-space-dialogue-in-paris/"
             }
           ],
           "image": null,
@@ -273,61 +265,116 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-abu-dhabi-ukraine-talks-open-2026-11-10",
-          "headline": "Update: First day of US-Russia-Ukraine talks in Abu Dhabi ends; talks resume Wednesday",
-          "summary": "New since midday: the first day of three-way talks lasted nearly four hours and will continue on Wednesday. Security guarantees for Ukraine and Europe dominated, and US envoy Jared Kushner said he saw \"some good ideas how to bridge\" the gaps. Kyiv says it expected no quick breakthrough and wants the fighting stopped first; Russia's Vladimir Medinsky said he hoped the meeting would move things towards peace.",
-          "why_it_matters": "Any sign of progress on ending the war would ease pressure on energy and grain prices.",
-          "importance": 4,
+          "id": "world-hegseth-impeachment-blocked-2026-11-10",
+          "headline": "US House Republicans block bid to impeach Defense Secretary Hegseth, 211-204",
+          "summary": "The House voted 211-204 to send Republican Thomas Massie's eight articles of impeachment against Pete Hegseth to committee, which effectively kills them. The articles accused him of waging war on Iran without Congress, among other charges; every Democrat voted against the move and Massie was the only Republican to do so. Hegseth called the effort a stunt.",
+          "why_it_matters": null,
+          "importance": 3,
           "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-10T04:50:00-05:00",
+          "published_at": "2026-11-10T00:00:00-05:00",
           "tags": [
-            "Ukraine",
-            "Russia",
-            "peace talks"
+            "US",
+            "Congress",
+            "Iran war"
           ],
           "sources": [
             {
-              "name": "NBC News",
-              "url": "https://www.nbcnews.com/world/ukraine/us-mediated-talks-ending-war-russia-ukraine-begin-abu-dhabi-rcna608499"
-            },
-            {
-              "name": "Kyiv Post",
-              "url": "https://www.kyivpost.com/post/89691"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html"
             },
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+              "url": "https://www.aljazeera.com/news/2026/11/10/us-house-begins-vote-on-motion-to-advance-impeachment-of-pete-hegseth"
             }
           ],
           "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af26ebf-1794272959.jpg?resize=1920%2C1440",
-            "credit": "Reuters",
-            "source_url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes",
-            "alt": "Jared Kushner, Steve Witkoff and Volodymyr Zelenskyy walking together"
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/epa_6af3ac1ba74e-1794354203.jpg?resize=1920%2C1440",
+            "credit": "EPA/Jim Lo Scalzo",
+            "source_url": "https://www.aljazeera.com/news/liveblog/2026/11/11/iran-war-live-hegseth-survives-impeachment-bid-iran-denies-us-talks",
+            "alt": "Pete Hegseth speaks to reporters at the Pentagon on November 10, 2026"
           },
           "impact": []
         },
         {
-          "id": "world-france-iran-supermarket-cyberattack-2026-11-10",
-          "headline": "France says Iran's Revolutionary Guards hacked 700 supermarkets' fridges; summons envoy",
-          "summary": "France's foreign minister Jean-Noel Barrot says an IRGC cyber unit forced fridges in more than 700 French supermarkets into long defrost cycles on October 11-12, spoiling millions of euros of food. France summoned Iran's ambassador and will push for EU sanctions, and Paris prosecutors want arrest warrants for two of the unit's officials. Iran calls the accusation baseless.",
-          "why_it_matters": null,
+          "id": "world-iran-denies-us-talks-2026-11-11",
+          "headline": "Iran's security chief Rezaei says there are no talks with Washington",
+          "summary": "Iranian security chief Mohsen Rezaei dismissed reports that Tehran and Washington are negotiating, in a social media post. Parliament speaker Mohammad Bagher Ghalibaf said Israel was trying to pull the US into an endless war with Iran. Separately, a fire on a South Pars gas platform was put out and its 17 workers were rescued, Iranian officials said.",
+          "why_it_matters": "It cools hopes of a quick deal that pushed oil below $90 on Tuesday.",
           "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Claim by France; Iran denies it. Not independently confirmed.",
-          "published_at": "2026-11-10T00:00:00+03:00",
+          "note": "Claims by Iranian officials, reported by Al Jazeera; not independently confirmed.",
+          "published_at": "2026-11-11T00:01:00+00:00",
           "tags": [
-            "France",
             "Iran",
-            "cyberattack"
+            "US",
+            "oil"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/10/france-summons-irans-ambassador-over-supermarket-fridge-sabotage"
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/11/iran-war-live-hegseth-survives-impeachment-bid-iran-denies-us-talks"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/10/fire-contained-on-platform-in-irans-south-pars-gas-field"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "low",
+              "dir": "up",
+              "why": "Fewer signs of US-Iran talks could slow the fall in crude prices."
+            }
+          ]
+        },
+        {
+          "id": "world-us-charges-fairford-plot-2026-11-11",
+          "headline": "US charges three men it calls Iran-backed over plot at UK's RAF Fairford bomber base",
+          "summary": "The US Justice Department filed terrorism charges against three men it says acted for Iran's Revolutionary Guards and Iraq's Kataib Hezbollah, accusing them of planning to drive fuel-laden vans with shrapnel into RAF Fairford, which the US used for bombers in the Iran war. Prosecutors link them to nearly 20 attacks and attempts in the US and Europe. Iran denies any role.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Charges by US prosecutors, reported by Al Jazeera; not yet proven in court.",
+          "published_at": "2026-11-11T01:44:00+00:00",
+          "tags": [
+            "Iran",
+            "UK",
+            "terrorism"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/11/us-charges-3-iranian-backed-men-over-alleged-plot-at-uk-fairford-air-base"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-houthis-say-saudi-strikes-sanaa-2026-11-10",
+          "headline": "Houthis say Saudi jets struck a gas station and oil company building in Sanaa",
+          "summary": "Yemen's Houthis say Saudi airstrikes hit the Al-Mafzar gas station in northern Sanaa and an oil company building, setting gas tankers on fire. There were no immediate reports of casualties and Saudi Arabia has not commented. It follows a Saudi-led coalition statement on Monday that it shot down Houthi missiles fired at Riyadh.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Claim by the Houthis (Al-Masirah TV); Saudi Arabia has not commented.",
+          "published_at": "2026-11-10T21:41:08+05:30",
+          "tags": [
+            "Yemen",
+            "Saudi Arabia",
+            "Houthis"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/houthis-blame-saudi-arabia-for-airstrikes-on-gas-facility-in-sanaa/"
             }
           ],
           "image": null,
@@ -340,51 +387,52 @@
       "title": "Currency Desk",
       "stories": [
         {
-          "id": "currency-dollar-jumps-hot-us-cpi-2026-11-10",
-          "headline": "Dollar jumps after hot US inflation data; euro slides to $1.118, yen weakens past 158.6",
-          "summary": "The dollar index rose about 0.4% to near 102.1 after US October prices rose faster than expected, with the euro down to about $1.118 and the dollar up to 158.6 yen. The US 2-year yield jumped over 15 basis points to about 4.70% as traders bet on a bigger Fed hike. India's forex market was shut today; the rupee last closed at 93.93 and reopens on Wednesday.",
-          "why_it_matters": "A stronger dollar and higher US yields put pressure on the rupee when trading resumes.",
+          "id": "currency-dollar-holds-rupee-reopens-2026-11-11",
+          "headline": "Dollar holds its CPI jump in Asia as India's forex market reopens after holiday",
+          "summary": "The dollar index held near 102.2 in early Asian trade after Tuesday's hot US inflation data, with the euro near $1.117 and the dollar near 158.9 yen. On Tuesday the dollar gained most against the Australian dollar (0.9%) and the pound (0.75%) as the US 2-year yield jumped about 19 basis points. India's forex market, shut on Tuesday, reopens today; the rupee last closed near 93.93 per dollar on Monday.",
+          "why_it_matters": "A firmer dollar and higher US yields put pressure on the rupee as Indian trading resumes.",
           "importance": 4,
           "lead": false,
-          "verified": false,
-          "note": "Dollar and euro levels from Yahoo Finance quotes only; yield moves from CNBC.",
-          "published_at": "2026-11-10T15:18:00+00:00",
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-11T07:40:00+05:30",
           "tags": [
             "dollar",
             "rupee",
-            "US CPI"
+            "yen",
+            "euro"
           ],
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html"
+              "name": "investingLive",
+              "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-10-nov-it-s-a-wrap-hot-us-cpi-puts-a-bigger-fed-hike-in-play/"
             },
             {
               "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+              "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
             }
           ],
           "image": null,
           "impact": [
             {
-              "on": "currency",
-              "detail": "Dollar",
-              "level": "high",
-              "dir": "up",
-              "why": "Hotter inflation raises Fed hike bets, lifting the dollar."
-            },
-            {
               "on": "rupee",
               "level": "medium",
               "dir": "down",
-              "why": "A firmer dollar and higher US yields weigh on the rupee on Wednesday."
+              "why": "A stronger dollar and higher US yields weigh on the rupee at the reopen."
             },
             {
               "on": "currency",
-              "detail": "Euro",
+              "detail": "Dollar",
               "level": "medium",
+              "dir": "up",
+              "why": "Bigger Fed hike bets support the dollar."
+            },
+            {
+              "on": "currency",
+              "detail": "Yen",
+              "level": "low",
               "dir": "down",
-              "why": "Wider US-euro rate gap weighs on the euro."
+              "why": "Wider US-Japan yield gap keeps the yen near 159."
             }
           ]
         }
@@ -395,36 +443,37 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "id": "markets-us-cpi-hot-wall-street-dips-2026-11-10",
-          "headline": "US prices rise 0.4% in October, more than expected; Wall Street opens lower",
-          "summary": "US consumer prices rose 0.4% in October, above the 0.3% forecast, and core prices rose 0.3% against 0.2% expected, the Labor Department said, with energy up 0.7% and food 0.5%. No yearly rate was published because October 2025 data was never collected during the shutdown. The S&P 500 slipped about 0.3% and the Dow 0.35% in early trade, while the 10-year Treasury yield jumped to about 4.95-4.99%.",
-          "why_it_matters": "Hot US inflation makes a Fed hike in December almost certain, which can pull foreign money out of Indian stocks.",
+          "id": "markets-wall-street-falls-fed-hawks-2026-11-10",
+          "headline": "Wall Street ends lower after hot inflation as Fed officials talk up more rate hikes",
+          "summary": "The S&P 500 fell 0.38% to 7,520.93 and the Nasdaq 0.74% to 25,065.88, with Nvidia down about 5.5% for a second day. Fed officials turned hawkish after the CPI data: Dallas Fed's Lorie Logan said at least two more quarter-point hikes may be needed, Chicago's Austan Goolsbee called the report \"borderline disturbing\", and Governor Michelle Bowman said inflation pressure may last longer. US stock futures were up in Asia on Wednesday.",
+          "why_it_matters": "Higher US rates for longer can pull foreign money out of Indian stocks and weaken the rupee.",
           "importance": 5,
           "lead": true,
           "verified": true,
-          "note": "The morning edition's expected 3.9% yearly figure was not published: BLS could not calculate a 12-month rate this month.",
-          "published_at": "2026-11-10T08:30:00-05:00",
+          "note": null,
+          "published_at": "2026-11-10T16:00:00-05:00",
           "tags": [
-            "US CPI",
+            "Wall Street",
             "Fed",
-            "Wall Street"
+            "inflation",
+            "Nvidia"
           ],
           "sources": [
             {
-              "name": "US Bureau of Labor Statistics",
-              "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/10/market-spooked-because-now-the-fed-may-need-a-supersized-hike-in-december.html"
-            },
-            {
               "name": "Yahoo Finance",
               "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/video/2026/11/10/feds-logan-possible-to-hike-rates-more-rapidly-this-winter-than-in-the-fall.html"
+            },
+            {
+              "name": "investingLive",
+              "url": "https://investinglive.com/central-banks/fed-s-goolsbee-calls-cpi-borderline-disturbing-flags-three-inflation-worries/"
+            },
+            {
+              "name": "TradingKey",
+              "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262299690-us-stocks-cpi-exceeds-expectations-nvda-drops-amd-broadcom-rises-tradingkey"
             }
           ],
           "image": null,
@@ -433,14 +482,95 @@
               "on": "rates",
               "level": "high",
               "dir": "up",
-              "why": "Higher-than-forecast inflation pushes up US bond yields and Fed hike bets."
+              "why": "Fed officials back more hikes after hot CPI; 10-year yield near 5%."
+            },
+            {
+              "on": "indian_stocks",
+              "level": "medium",
+              "dir": "down",
+              "why": "Higher US yields and a tech selloff weigh as Indian markets reopen."
             },
             {
               "on": "us_stocks",
-              "level": "high",
+              "detail": "Tech",
+              "level": "medium",
               "dir": "down",
-              "why": "Higher rates hurt share valuations, especially tech."
+              "why": "Rising hike odds pressure tech shares."
+            }
+          ]
+        },
+        {
+          "id": "markets-anthropic-ipo-terms-2026-11-10",
+          "headline": "Anthropic launches IPO roadshow, seeks up to $64.4 billion at $70-78 a share",
+          "summary": "Claude maker Anthropic began marketing 825 million shares at $70 to $78 each, to list on Nasdaq under the ticker ANT; at the top that would raise about $64.4 billion, the largest IPO on record, at a fully diluted value of up to $1.4 trillion. It also lined up a separate $26 billion private placement. A retail offer opened in Australia today and closes on November 17.",
+          "why_it_matters": "A listing this size will test appetite for AI stocks just as Nvidia and other AI shares slide.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-10T00:00:00-05:00",
+          "tags": [
+            "Anthropic",
+            "IPO",
+            "AI",
+            "Nasdaq"
+          ],
+          "sources": [
+            {
+              "name": "Anthropic",
+              "url": "https://www.anthropic.com/news/roadshow-launch"
             },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/11/10/anthropic-targets-1-4-trillion-valuation-in-massive-stock-market-debut"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "medium",
+              "dir": "mixed",
+              "why": "A record IPO may draw money from other AI and tech stocks."
+            }
+          ]
+        },
+        {
+          "id": "markets-gold-silver-slump-cpi-2026-11-10",
+          "headline": "Update: Gold ends 2.6% lower near $4,032, silver falls 3.5%; small bounce in Asia",
+          "summary": "New since Tuesday evening: gold's slide deepened after the hot inflation report and ended about 2.6% lower near $4,032 an ounce, while silver fell about 3.5% to $51.52. In early Asian trade gold futures recovered to about $4,054. Brent settled near $92, down under 1%.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-10T16:00:00-05:00",
+          "tags": [
+            "gold",
+            "silver",
+            "oil"
+          ],
+          "sources": [
+            {
+              "name": "investingLive",
+              "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-10-nov-it-s-a-wrap-hot-us-cpi-puts-a-bigger-fed-hike-in-play/"
+            },
+            {
+              "name": "TradingKey",
+              "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262299690-us-stocks-cpi-exceeds-expectations-nvda-drops-amd-broadcom-rises-tradingkey"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/GC%3DF/"
+            }
+          ],
+          "image": null,
+          "impact": [
             {
               "on": "gold",
               "level": "medium",
@@ -448,138 +578,46 @@
               "why": "Higher US yields and a firmer dollar weigh on gold."
             },
             {
-              "on": "indian_stocks",
+              "on": "silver",
               "level": "medium",
               "dir": "down",
-              "why": "Higher US yields can pull foreign money out of Indian stocks on Wednesday."
+              "why": "Silver fell harder than gold on rate-hike bets."
             }
           ]
         },
         {
-          "id": "markets-waller-december-hike-half-point-2026-11-10",
-          "headline": "Fed's Waller backs a December hike and says a half-point rise should be considered",
-          "summary": "Fed Governor Christopher Waller said a December rate hike is likely and a 50 basis point move should be considered, warning that a quarter-point hike alone could risk the Fed's credibility. After the CPI data, futures priced an 88% chance of a quarter-point hike and an 11% chance of a half-point hike at the December 8-9 meeting, CME FedWatch data show.",
-          "why_it_matters": "A bigger Fed hike would tighten global money conditions and strengthen the dollar.",
-          "importance": 4,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: CNBC.",
-          "published_at": "2026-11-10T04:00:00-05:00",
-          "tags": [
-            "Fed",
-            "Waller",
-            "rates"
-          ],
-          "sources": [
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/10/market-spooked-because-now-the-fed-may-need-a-supersized-hike-in-december.html"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "rates",
-              "level": "high",
-              "dir": "up",
-              "why": "An open door to a half-point hike lifts rate expectations."
-            },
-            {
-              "on": "currency",
-              "detail": "Dollar",
-              "level": "medium",
-              "dir": "up",
-              "why": "Hawkish Fed talk supports the dollar."
-            }
-          ]
-        },
-        {
-          "id": "markets-brent-below-90-gold-falls-2026-11-10",
-          "headline": "Update: Brent dips below $90 for first time since August; gold falls 1.4% after US data",
-          "summary": "New since midday: Brent briefly fell below $90 a barrel, its first time since August, as hopes grew that the Iran war is winding down, and All India Radio put it 2.2% lower at $90.51 in the evening. Gold dropped about 1.4% to near $4,056 an ounce after the hot US inflation data lifted yields and the dollar. Bitcoin slipped about 1.4% to around $74,200.",
-          "why_it_matters": null,
-          "importance": 4,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-10T18:16:00+05:30",
-          "tags": [
-            "oil",
-            "gold",
-            "bitcoin"
-          ],
-          "sources": [
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
-            },
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/global-crude-oil-prices-decline-brent-falls-2-2-to-90-51-a-barrel/"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "oil",
-              "level": "high",
-              "dir": "down",
-              "why": "Hopes of an end to the Iran war ease supply fears."
-            },
-            {
-              "on": "gold",
-              "level": "medium",
-              "dir": "down",
-              "why": "Rising US yields after CPI weigh on gold."
-            },
-            {
-              "on": "india_economy",
-              "level": "low",
-              "dir": "up",
-              "why": "Cheaper oil eases India's import bill and inflation."
-            }
-          ]
-        },
-        {
-          "id": "markets-nvidia-falls-again-probe-2026-11-10",
-          "headline": "Update: Nvidia falls about 3-4% again as board probe and lawsuit hang over CEO Huang",
-          "summary": "New since Monday: Nvidia shares fell again on Tuesday, a second straight drop, and a class-action suit has been filed in San Jose over statements about Jensen Huang's affair and Nvidia's ties to customer Megaspeed. Nvidia's board investigation is expected to take four to six weeks.",
+          "id": "markets-coreweave-q3-beat-2026-11-10",
+          "headline": "CoreWeave beats forecasts: revenue up 168% to $3.66 billion, full-year outlook raised",
+          "summary": "AI cloud firm CoreWeave said third-quarter revenue rose to $3.66 billion from $1.37 billion a year ago, and adjusted operating income reached $379 million, above its own guidance. Its net loss widened to $709 million. It raised 2026 revenue guidance to $13.0-13.3 billion and expects $37-39 billion of capital spending; the order backlog is about $132.5 billion.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-10T04:14:00-05:00",
+          "published_at": "2026-11-10T16:00:00-05:00",
           "tags": [
-            "Nvidia",
-            "AI chips"
+            "CoreWeave",
+            "AI",
+            "earnings"
           ],
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html"
+              "name": "CoreWeave",
+              "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
             },
             {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/10/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html"
             }
           ],
           "image": null,
           "impact": [
             {
               "on": "company",
-              "detail": "Nvidia",
+              "detail": "CoreWeave",
               "level": "medium",
-              "dir": "down",
-              "why": "Uncertainty over the CEO's future weighs on the shares."
+              "dir": "up",
+              "why": "Results and guidance beat forecasts."
             }
           ]
         }
@@ -590,37 +628,36 @@
       "title": "Built This Week",
       "stories": [
         {
-          "id": "built-ring-drone-rover-cam-2026-11-10",
-          "headline": "Amazon's Ring launches an indoor security drone and a $1,000 patrol robot",
-          "summary": "Ring unveiled Ring Robotics with two devices: the Drone Cam, a small indoor drone that flies room to room to check alarms, priced at $249.99 and due in the US on January 27 pending FCC approval, and the Rover Cam, a wheeled security robot for offices and warehouses built on Amazon's Astro, at $999.99 from December 16. Both use Ring's AI Pilot to map rooms and avoid obstacles.",
+          "id": "built-google-gemini-4-carbon-2026-11-10",
+          "headline": "Google opens Gemini 4 Carbon, its most powerful AI model, to developers and paying users",
+          "summary": "Google made Gemini 4 Carbon, until now limited to selected cyber-defence partners, available through its paid API, Google AI Studio and enterprise tools, and is rolling it out to AI Ultra subscribers in the Gemini app and Search. Google says it is built for hard multi-step coding and research. Introductory pricing is $2 per million input tokens until November 30, then $4.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-10T13:26:02+00:00",
+          "verified": false,
+          "note": "Single source: Google.",
+          "published_at": "2026-11-10T16:00:00+00:00",
           "tags": [
-            "Ring",
-            "Amazon",
-            "robots"
+            "Google",
+            "AI",
+            "Gemini"
           ],
           "sources": [
             {
-              "name": "Amazon",
-              "url": "https://www.aboutamazon.com/news/devices/ring-drone-cam-rover-cam-security-robot"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html"
+              "name": "Google",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
             }
           ],
-          "image": {
-            "url": "https://assets.aboutamazon.com/2c/ca/dd0c6bb84c3896a7165e4503c268/amazon-ring-drone-camera-amazonnews-cdlt-11092026.jpeg",
-            "credit": "Ring / Amazon",
-            "source_url": "https://www.aboutamazon.com/news/devices/ring-drone-cam-rover-cam-security-robot",
-            "alt": "Ring Drone Cam hovering above its charging dock in a hallway"
-          },
-          "impact": []
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Google",
+              "level": "low",
+              "dir": "up",
+              "why": "Wider release of its top model strengthens Google's AI offer."
+            }
+          ]
         }
       ]
     }
@@ -672,7 +709,7 @@
       "date": "2026-11-11",
       "events": [
         {
-          "text": "Indian stock and forex markets reopen",
+          "text": "Indian stock and forex markets reopen after holiday",
           "section": "markets"
         },
         {
@@ -682,6 +719,10 @@
         {
           "text": "ECB President Lagarde speaks",
           "section": "currency"
+        },
+        {
+          "text": "US bond market shut for Veterans Day",
+          "section": "markets"
         }
       ]
     },
@@ -699,6 +740,10 @@
         {
           "text": "US weekly jobless claims",
           "section": "markets"
+        },
+        {
+          "text": "US EIA weekly oil stocks (delayed)",
+          "section": "markets"
         }
       ]
     },
@@ -712,6 +757,24 @@
         {
           "text": "RBI weekly forex reserves data",
           "section": "currency"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "events": [
+        {
+          "text": "India October trade data, per Commerce Minister Goyal",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "events": [
+        {
+          "text": "Anthropic IPO retail offer in Australia closes",
+          "section": "markets"
         }
       ]
     }
