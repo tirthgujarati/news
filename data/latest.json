@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-11-morning",
+  "edition_id": "2026-11-11-midday",
   "date": "2026-11-11",
-  "slot": "morning",
-  "title": "Wednesday Morning Edition",
-  "generated_at": "2026-11-11T07:44:49+05:30",
+  "slot": "midday",
+  "title": "Wednesday Midday Edition",
+  "generated_at": "2026-11-11T13:44:47+05:30",
   "snapshot": [
     {
       "id": "usdinr",
       "label": "USD/INR",
-      "value": "93.93",
-      "change": "-0.05%",
+      "value": "93.69",
+      "change": "-0.25%",
       "dir": "down",
-      "as_of": "2026-11-09T00:00:00+05:30",
+      "as_of": "2026-11-11T08:11:10+00:00",
       "source": {
-        "name": "Deccan Herald (PTI)",
-        "url": "https://www.deccanherald.com/business/markets/rupee-rises-5-paise-to-close-at-9393-against-us-dollar-4212697"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/INR%3DX/"
       }
     },
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "104.93",
-      "change": "+0.04%",
-      "dir": "up",
-      "as_of": "2026-11-11T02:06:31+00:00",
+      "value": "104.50",
+      "change": "-0.79%",
+      "dir": "down",
+      "as_of": "2026-11-11T08:11:12+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURINR%3DX/"
@@ -33,10 +33,10 @@
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "102.22",
-      "change": "-0.01%",
-      "dir": "flat",
-      "as_of": "2026-11-11T01:59:47+00:00",
+      "value": "102.36",
+      "change": "+0.13%",
+      "dir": "up",
+      "as_of": "2026-11-11T08:01:12+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
@@ -57,25 +57,25 @@
     {
       "id": "nifty",
       "label": "Nifty 50",
-      "value": "25,044.65",
-      "change": "+0.23%",
+      "value": "25,216.35",
+      "change": "+0.69%",
       "dir": "up",
-      "as_of": "2026-11-09T15:30:00+05:30",
+      "as_of": "2026-11-11T08:11:14+00:00",
       "source": {
-        "name": "All India Radio",
-        "url": "https://newsonair.gov.in/domestic-markets-end-in-positive-zone/"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI/"
       }
     },
     {
       "id": "sensex",
       "label": "Sensex",
-      "value": "81,106.65",
-      "change": "+0.13%",
+      "value": "81,996.26",
+      "change": "+1.10%",
       "dir": "up",
-      "as_of": "2026-11-09T15:30:00+05:30",
+      "as_of": "2026-11-11T07:56:13+00:00",
       "source": {
-        "name": "All India Radio",
-        "url": "https://newsonair.gov.in/domestic-markets-end-in-positive-zone/"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN/"
       }
     },
     {
@@ -105,10 +105,10 @@
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$4,053.70",
-      "change": "+0.58%",
+      "value": "$4,064.80",
+      "change": "+0.86%",
       "dir": "up",
-      "as_of": "2026-11-11T01:59:35+00:00",
+      "as_of": "2026-11-11T08:01:15+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/GC%3DF/"
@@ -117,10 +117,10 @@
     {
       "id": "brent",
       "label": "Brent crude",
-      "value": "$91.85",
-      "change": "+0.39%",
+      "value": "$92.18",
+      "change": "+0.75%",
       "dir": "up",
-      "as_of": "2026-11-11T01:59:03+00:00",
+      "as_of": "2026-11-11T08:01:13+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BZ%3DF/"
@@ -129,10 +129,10 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$73,387",
-      "change": "-1.84%",
-      "dir": "down",
-      "as_of": "2026-11-11T02:09:45+00:00",
+      "value": "$73,977",
+      "change": "+0.35%",
+      "dir": "up",
+      "as_of": "2026-11-11T08:11:10+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BTC-USD/"
@@ -157,102 +157,59 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-goyal-exports-trillion-track-2026-11-10",
-          "headline": "Goyal says India is on track for $1 trillion exports, with 48% done in six months",
-          "summary": "Commerce Minister Piyush Goyal said India exported about $480 billion of goods and services in April-September, 48% of the $1 trillion target for this year, and that exports usually pick up in the second half. He said engineering exports grew about 22%. October trade figures are due on November 15.",
-          "why_it_matters": "Strong exports help narrow the trade gap and support the rupee while oil stays costly.",
-          "importance": 3,
+          "id": "india-black-mass-export-ban-2026-11-11",
+          "headline": "India bans exports of lithium-ion battery 'black mass' with immediate effect",
+          "summary": "The DGFT moved spent-battery waste and scrap under HS code 85491400, described as lithium-ion battery black mass, from 'free' to 'prohibited' for export, in a notification dated November 10. Black mass is the powder left after old batteries are crushed; it holds lithium, cobalt, nickel, manganese and graphite. It is not a ban on all battery materials.",
+          "why_it_matters": "Keeping black mass at home is meant to feed India's own battery recyclers and secure critical minerals.",
+          "importance": 4,
           "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-10T22:19:06+05:30",
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-11T11:12:00+05:30",
           "tags": [
-            "exports",
-            "trade",
-            "Piyush Goyal"
+            "Trade",
+            "Batteries",
+            "Critical minerals"
           ],
           "sources": [
             {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/india-on-track-to-achieve-1-trillion-exports-this-year-union-minister-piyush-goyal/"
+              "name": "The Tribune (ANI)",
+              "url": "https://www.tribuneindia.com/news/battery-scrap/govt-bans-export-of-specified-lithium-ion-battery-waste-and-scrap-with-immediate-effect"
             },
             {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/piyush-goyal-says-india-on-track-to-achieve-1-trillion-export-target/"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "india_economy",
-              "level": "low",
-              "dir": "up",
-              "why": "Exports running at target pace support growth and the trade balance."
-            },
-            {
-              "on": "indian_stocks",
-              "detail": "Engineering",
-              "level": "low",
-              "dir": "up",
-              "why": "Minister cites about 22% growth in engineering exports."
-            }
-          ]
-        },
-        {
-          "id": "india-pli-medical-devices-2-2026-11-10",
-          "headline": "Government reopens medical devices PLI scheme, extends it to 2035-36",
-          "summary": "The government has invited fresh applications under the production-linked incentive scheme for medical devices, now extended to 2035-36, with about Rs 2,700 crore available. The minimum sales threshold to claim incentives has been dropped and the minimum investment cut; firms get three years to set up plants. The online portal opens within 10 days.",
-          "why_it_matters": "Easier rules could pull more investment into making implants, components and high-end devices in India.",
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio (Ministry of Chemicals and Fertilizers statement).",
-          "published_at": "2026-11-10T22:14:23+05:30",
-          "tags": [
-            "PLI",
-            "medical devices",
-            "manufacturing"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/govt-invites-fresh-applications-under-pli-scheme-for-medical-devices/"
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/economy/news/centre-bans-export-of-battery-waste-including-lithium-ion-black-mass-126111100415_1.html"
             }
           ],
           "image": null,
           "impact": [
             {
               "on": "indian_stocks",
-              "detail": "Healthcare",
+              "detail": "Batteries",
               "level": "low",
               "dir": "up",
-              "why": "New incentives for device makers under an extended, simpler PLI scheme."
+              "why": "More scrap stays at home for domestic battery recyclers."
             }
           ]
         },
         {
-          "id": "india-france-critical-tech-dialogue-2026-11-10",
-          "headline": "India and France hold first dialogue on economic security and critical technologies",
-          "summary": "Foreign Secretary Vikram Misri and French Secretary General Martin Briens held the first India-France Economic Security and Critical Technologies Dialogue in Paris, covering supply chains, critical technologies, cyber security and industrial partnerships. The two sides also held their third Strategic Space Dialogue, and restated a goal of doubling bilateral trade in five years.",
+          "id": "india-cop31-climate-finance-2026-11-11",
+          "headline": "India tells rich nations at COP31 to pay the climate finance they owe",
+          "summary": "In India's opening statement at the UN climate talks in Antalya, Turkey, Environment Secretary Narendra Bhooshan said developed countries must meet their duty under Article 9.1 of the Paris Agreement to fund climate action in poorer nations. He said public money from rich countries remains crucial.",
           "why_it_matters": null,
           "importance": 2,
           "lead": false,
           "verified": false,
-          "note": "Single source: All India Radio (MEA and Indian Embassy statements).",
-          "published_at": "2026-11-10T20:46:54+05:30",
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-11T10:37:00+05:30",
           "tags": [
-            "France",
-            "diplomacy",
-            "technology"
+            "COP31",
+            "Climate"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/india-france-discuss-cooperation-in-critical-technologies-cyber-security/"
-            },
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/india-france-hold-third-strategic-space-dialogue-in-paris/"
+              "url": "https://newsonair.gov.in/india-urges-developed-nations-to-fulfil-climate-finance-obligations/"
             }
           ],
           "image": null,
@@ -265,61 +222,96 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-hegseth-impeachment-blocked-2026-11-10",
-          "headline": "US House Republicans block bid to impeach Defense Secretary Hegseth, 211-204",
-          "summary": "The House voted 211-204 to send Republican Thomas Massie's eight articles of impeachment against Pete Hegseth to committee, which effectively kills them. The articles accused him of waging war on Iran without Congress, among other charges; every Democrat voted against the move and Massie was the only Republican to do so. Hegseth called the effort a stunt.",
-          "why_it_matters": null,
-          "importance": 3,
+          "id": "world-ukraine-drones-ust-luga-2026-11-11",
+          "headline": "Ukrainian drones set Russia's Ust-Luga port area on fire; Baltic states sound alerts",
+          "summary": "Ukrainian drones hit Russia's northwest overnight, starting a fire in the Ust-Luga Baltic export port area and injuring three, Reuters reported; Russia says it downed 146 drones over the Leningrad region. Lithuania, Latvia and Estonia issued shelter alerts as NATO jets were scrambled. Russian strikes cut power in parts of Kryvyi Rih, and Moscow says it hit a ship carrying arms for Ukraine near Odesa.",
+          "why_it_matters": "Ust-Luga is one of Russia's main oil and fuel export hubs, so attacks there can tighten supply.",
+          "importance": 4,
           "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-10T00:00:00-05:00",
+          "verified": false,
+          "note": "Single source: Al Jazeera (citing Reuters). Russian drone count and ship strike are claims by Russia.",
+          "published_at": "2026-11-11T04:34:47+00:00",
           "tags": [
-            "US",
-            "Congress",
-            "Iran war"
+            "Russia",
+            "Ukraine",
+            "Oil",
+            "NATO"
           ],
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html"
-            },
-            {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/10/us-house-begins-vote-on-motion-to-advance-impeachment-of-pete-hegseth"
+              "url": "https://www.aljazeera.com/news/2026/11/11/russia-claims-interception-of-146-drones-in-leningrad-region"
             }
           ],
           "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/epa_6af3ac1ba74e-1794354203.jpg?resize=1920%2C1440",
-            "credit": "EPA/Jim Lo Scalzo",
-            "source_url": "https://www.aljazeera.com/news/liveblog/2026/11/11/iran-war-live-hegseth-survives-impeachment-bid-iran-denies-us-talks",
-            "alt": "Pete Hegseth speaks to reporters at the Pentagon on November 10, 2026"
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af3e071-1794367601.jpg",
+            "credit": "Reuters",
+            "source_url": "https://www.aljazeera.com/news/2026/11/11/russia-claims-interception-of-146-drones-in-leningrad-region",
+            "alt": "Damaged apartment block behind police tape after a drone attack in Vsevolozhsk, Leningrad region"
           },
-          "impact": []
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "Strikes on a big Russian export port add supply risk."
+            }
+          ]
         },
         {
-          "id": "world-iran-denies-us-talks-2026-11-11",
-          "headline": "Iran's security chief Rezaei says there are no talks with Washington",
-          "summary": "Iranian security chief Mohsen Rezaei dismissed reports that Tehran and Washington are negotiating, in a social media post. Parliament speaker Mohammad Bagher Ghalibaf said Israel was trying to pull the US into an endless war with Iran. Separately, a fire on a South Pars gas platform was put out and its 17 workers were rescued, Iranian officials said.",
-          "why_it_matters": "It cools hopes of a quick deal that pushed oil below $90 on Tuesday.",
-          "importance": 3,
+          "id": "world-tanker-hit-persian-gulf-2026-11-11",
+          "headline": "Tanker with six Indian crew hit by projectile in the Persian Gulf; all Indians safe",
+          "summary": "The Liberia-flagged supertanker Fujairah Energy was struck by a projectile on November 10 while sailing from Al Ruwais to Dubai. Shipping Minister Sarbananda Sonowal said four crew were hurt, one of them an Indian with minor injuries, and the other 18 crew are safe. No one has said who fired it.",
+          "why_it_matters": "Fresh attacks on Gulf shipping keep a risk premium in oil and freight, which India pays for.",
+          "importance": 4,
           "lead": false,
-          "verified": false,
-          "note": "Claims by Iranian officials, reported by Al Jazeera; not independently confirmed.",
-          "published_at": "2026-11-11T00:01:00+00:00",
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-11T13:39:00+05:30",
           "tags": [
-            "Iran",
-            "US",
-            "oil"
+            "Shipping",
+            "Gulf",
+            "Seafarers"
           ],
           "sources": [
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/11/iran-war-live-hegseth-survives-impeachment-bid-iran-denies-us-talks"
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/minister-sonowal-says-all-six-indian-seafarers-safe-after-projectile-attack-in-persian-gulf/"
             },
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/10/fire-contained-on-platform-in-irans-south-pars-gas-field"
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/world-news/liberia-flagged-vessel-hit-in-persian-gulf-6-indian-seafarers-aboard-126111100246_1.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "Attacks on Gulf tankers raise supply and insurance worries."
+            }
+          ]
+        },
+        {
+          "id": "world-rubio-iran-no-combat-2026-11-11",
+          "headline": "Rubio says US sees no immediate need for major combat against Iran",
+          "summary": "After a G7 meeting, US Secretary of State Marco Rubio said the naval blockade and sanctions are hurting Iran's oil income so badly that President Trump sees no immediate need for major combat. He said the US is still ready to strike if Tehran escalates, and denied the standoff was a stalemate.",
+          "why_it_matters": "Less talk of new US strikes has helped pull oil down from its highs, which supports the rupee.",
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio. Claim by the US government.",
+          "published_at": "2026-11-11T11:27:00+05:30",
+          "tags": [
+            "Iran",
+            "US",
+            "G7"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/rubio-says-us-sees-no-immediate-need-for-major-combat-operations-against-iran/"
             }
           ],
           "image": null,
@@ -327,54 +319,66 @@
             {
               "on": "oil",
               "level": "low",
-              "dir": "up",
-              "why": "Fewer signs of US-Iran talks could slow the fall in crude prices."
+              "dir": "down",
+              "why": "Lower odds of new strikes ease supply fears."
             }
           ]
         },
         {
-          "id": "world-us-charges-fairford-plot-2026-11-11",
-          "headline": "US charges three men it calls Iran-backed over plot at UK's RAF Fairford bomber base",
-          "summary": "The US Justice Department filed terrorism charges against three men it says acted for Iran's Revolutionary Guards and Iraq's Kataib Hezbollah, accusing them of planning to drive fuel-laden vans with shrapnel into RAF Fairford, which the US used for bombers in the Iran war. Prosecutors link them to nearly 20 attacks and attempts in the US and Europe. Iran denies any role.",
+          "id": "world-nvidia-h200-china-university-2026-11-11",
+          "headline": "Reuters says blacklisted Chinese military-linked university bought Nvidia H200 chips",
+          "summary": "Records show Northwestern Polytechnical University, on a US export blacklist, bought two H200 AI chips in October for 874,700 yuan through a local reseller, not from Nvidia, Reuters reported. It also rented H200 computing power under five contracts this year. US lawmakers from both parties are pressing for tighter AI chip export controls.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Charges by US prosecutors, reported by Al Jazeera; not yet proven in court.",
-          "published_at": "2026-11-11T01:44:00+00:00",
+          "note": "Single source: Al Jazeera (citing a Reuters investigation).",
+          "published_at": "2026-11-11T07:26:28+00:00",
           "tags": [
-            "Iran",
-            "UK",
-            "terrorism"
+            "Nvidia",
+            "China",
+            "Chips"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/11/us-charges-3-iranian-backed-men-over-alleged-plot-at-uk-fairford-air-base"
+              "url": "https://www.aljazeera.com/news/2026/11/11/chinese-university-buys-nvidia-ai-h200-chips-despite-us-ban-records-show"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/us-lawmakers-push-for-tighter-ai-chip-export-controls-on-china/"
             }
           ],
           "image": null,
-          "impact": []
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Nvidia",
+              "level": "low",
+              "dir": "down",
+              "why": "Adds to pressure in Washington for tighter chip export rules."
+            }
+          ]
         },
         {
-          "id": "world-houthis-say-saudi-strikes-sanaa-2026-11-10",
-          "headline": "Houthis say Saudi jets struck a gas station and oil company building in Sanaa",
-          "summary": "Yemen's Houthis say Saudi airstrikes hit the Al-Mafzar gas station in northern Sanaa and an oil company building, setting gas tankers on fire. There were no immediate reports of casualties and Saudi Arabia has not commented. It follows a Saudi-led coalition statement on Monday that it shot down Houthi missiles fired at Riyadh.",
+          "id": "world-ebola-drc-11000-cases-2026-11-11",
+          "headline": "DR Congo Ebola outbreak passes 11,000 confirmed cases, with 5,387 deaths",
+          "summary": "Government data show 11,042 confirmed cases and at least 5,387 deaths, making it the second-largest Ebola outbreak on record. It is caused by the Bundibugyo strain, for which there is no specific vaccine; WHO has approved trials of two vaccines with results expected in early 2027.",
           "why_it_matters": null,
           "importance": 2,
           "lead": false,
           "verified": false,
-          "note": "Claim by the Houthis (Al-Masirah TV); Saudi Arabia has not commented.",
-          "published_at": "2026-11-10T21:41:08+05:30",
+          "note": "Single source: Al Jazeera (DRC government data).",
+          "published_at": "2026-11-11T04:44:18+00:00",
           "tags": [
-            "Yemen",
-            "Saudi Arabia",
-            "Houthis"
+            "Ebola",
+            "Health",
+            "Africa"
           ],
           "sources": [
             {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/houthis-blame-saudi-arabia-for-airstrikes-on-gas-facility-in-sanaa/"
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/11/ebola-cases-in-dr-congo-pass-11000-with-5387-deaths"
             }
           ],
           "image": null,
@@ -387,29 +391,32 @@
       "title": "Currency Desk",
       "stories": [
         {
-          "id": "currency-dollar-holds-rupee-reopens-2026-11-11",
-          "headline": "Dollar holds its CPI jump in Asia as India's forex market reopens after holiday",
-          "summary": "The dollar index held near 102.2 in early Asian trade after Tuesday's hot US inflation data, with the euro near $1.117 and the dollar near 158.9 yen. On Tuesday the dollar gained most against the Australian dollar (0.9%) and the pound (0.75%) as the US 2-year yield jumped about 19 basis points. India's forex market, shut on Tuesday, reopens today; the rupee last closed near 93.93 per dollar on Monday.",
-          "why_it_matters": "A firmer dollar and higher US yields put pressure on the rupee as Indian trading resumes.",
+          "id": "currency-rupee-gains-reopen-2026-11-11",
+          "headline": "Rupee firms to about 93.7 per dollar as oil eases and foreign money flows in",
+          "summary": "Back from Tuesday's holiday, the rupee opened 19 paise stronger at 93.74 against Monday's close of 93.93 and was near 93.69 around 1:40 PM. Softer crude and dollar sales by foreign investors helped; dealers saw a 93.25-94.25 range. The dollar index stayed near 102.3, with high US yields after hot inflation limiting gains.",
+          "why_it_matters": "A firmer rupee cuts India's import bill for oil and lowers imported inflation.",
           "importance": 4,
           "lead": false,
           "verified": true,
-          "note": null,
-          "published_at": "2026-11-11T07:40:00+05:30",
+          "note": "Rate at 1:40 PM from Yahoo Finance; open and previous close from Moneycontrol.",
+          "published_at": "2026-11-11T00:00:00+05:30",
           "tags": [
-            "dollar",
-            "rupee",
-            "yen",
-            "euro"
+            "Rupee",
+            "Dollar",
+            "FPI"
           ],
           "sources": [
             {
-              "name": "investingLive",
-              "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-10-nov-it-s-a-wrap-hot-us-cpi-puts-a-bigger-fed-hike-in-play/"
+              "name": "Moneycontrol",
+              "url": "https://www.tradingview.com/news/moneycontrol:3e3e742cc094b:0-rupee-opens-19-paise-higher-at-93-74-as-softer-crude-fpi-dollar-sales-support-sentiment/"
+            },
+            {
+              "name": "DT Next (PTI)",
+              "url": "https://dtnext.in/news/business/rupee-rises-7-paise-to-9370-against-us-dollar-in-early-trade"
             },
             {
               "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+              "url": "https://finance.yahoo.com/quote/INR%3DX/"
             }
           ],
           "image": null,
@@ -417,22 +424,15 @@
             {
               "on": "rupee",
               "level": "medium",
-              "dir": "down",
-              "why": "A stronger dollar and higher US yields weigh on the rupee at the reopen."
+              "dir": "up",
+              "why": "Cheaper oil and foreign inflows support the rupee."
             },
             {
               "on": "currency",
               "detail": "Dollar",
-              "level": "medium",
-              "dir": "up",
-              "why": "Bigger Fed hike bets support the dollar."
-            },
-            {
-              "on": "currency",
-              "detail": "Yen",
               "level": "low",
-              "dir": "down",
-              "why": "Wider US-Japan yield gap keeps the yen near 159."
+              "dir": "up",
+              "why": "High US yields after hot CPI keep the dollar firm."
             }
           ]
         }
@@ -443,181 +443,91 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "id": "markets-wall-street-falls-fed-hawks-2026-11-10",
-          "headline": "Wall Street ends lower after hot inflation as Fed officials talk up more rate hikes",
-          "summary": "The S&P 500 fell 0.38% to 7,520.93 and the Nasdaq 0.74% to 25,065.88, with Nvidia down about 5.5% for a second day. Fed officials turned hawkish after the CPI data: Dallas Fed's Lorie Logan said at least two more quarter-point hikes may be needed, Chicago's Austan Goolsbee called the report \"borderline disturbing\", and Governor Michelle Bowman said inflation pressure may last longer. US stock futures were up in Asia on Wednesday.",
-          "why_it_matters": "Higher US rates for longer can pull foreign money out of Indian stocks and weaken the rupee.",
+          "id": "markets-sensex-nifty-banks-rally-2026-11-11",
+          "headline": "Sensex jumps over 1,000 points on reopening as banks lead; gains trimmed by afternoon",
+          "summary": "After the Diwali holiday, the Sensex rose as much as 1.58% to near 82,520 and the Nifty touched 25,424, with PSU banks up nearly 4% and private banks, autos and financials about 2%. Cheaper crude and strong foreign buying drove the move. IT and pharma later pared gains: around 1:40 PM the Sensex was up about 1.1% near 82,000 and the Nifty about 0.7% near 25,216.",
+          "why_it_matters": "Foreign investors are back as buyers in November, which supports stocks and the rupee.",
           "importance": 5,
           "lead": true,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-10T16:00:00-05:00",
+          "published_at": "2026-11-11T13:00:00+05:30",
           "tags": [
-            "Wall Street",
-            "Fed",
-            "inflation",
-            "Nvidia"
+            "Sensex",
+            "Nifty",
+            "Banks",
+            "FII"
           ],
           "sources": [
             {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
+            },
+            {
+              "name": "Outlook Money",
+              "url": "https://www.outlookmoney.com/invest/stock-market-today-sensex-nifty-rally-reason"
+            },
+            {
               "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/video/2026/11/10/feds-logan-possible-to-hike-rates-more-rapidly-this-winter-than-in-the-fall.html"
-            },
-            {
-              "name": "investingLive",
-              "url": "https://investinglive.com/central-banks/fed-s-goolsbee-calls-cpi-borderline-disturbing-flags-three-inflation-worries/"
-            },
-            {
-              "name": "TradingKey",
-              "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262299690-us-stocks-cpi-exceeds-expectations-nvda-drops-amd-broadcom-rises-tradingkey"
+              "url": "https://finance.yahoo.com/quote/%5EBSESN/"
             }
           ],
           "image": null,
           "impact": [
             {
-              "on": "rates",
+              "on": "indian_stocks",
+              "detail": "Banks",
               "level": "high",
               "dir": "up",
-              "why": "Fed officials back more hikes after hot CPI; 10-year yield near 5%."
+              "why": "Foreign buying and cheaper oil lift the market."
             },
             {
               "on": "indian_stocks",
+              "detail": "Auto",
               "level": "medium",
-              "dir": "down",
-              "why": "Higher US yields and a tech selloff weigh as Indian markets reopen."
+              "dir": "up",
+              "why": "Auto stocks gain about 2% as fuel costs ease."
             },
             {
-              "on": "us_stocks",
-              "detail": "Tech",
-              "level": "medium",
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "low",
               "dir": "down",
-              "why": "Rising hike odds pressure tech shares."
+              "why": "IT and pharma lag and drag on the indices."
             }
           ]
         },
         {
-          "id": "markets-anthropic-ipo-terms-2026-11-10",
-          "headline": "Anthropic launches IPO roadshow, seeks up to $64.4 billion at $70-78 a share",
-          "summary": "Claude maker Anthropic began marketing 825 million shares at $70 to $78 each, to list on Nasdaq under the ticker ANT; at the top that would raise about $64.4 billion, the largest IPO on record, at a fully diluted value of up to $1.4 trillion. It also lined up a separate $26 billion private placement. A retail offer opened in Australia today and closes on November 17.",
-          "why_it_matters": "A listing this size will test appetite for AI stocks just as Nvidia and other AI shares slide.",
-          "importance": 4,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-10T00:00:00-05:00",
-          "tags": [
-            "Anthropic",
-            "IPO",
-            "AI",
-            "Nasdaq"
-          ],
-          "sources": [
-            {
-              "name": "Anthropic",
-              "url": "https://www.anthropic.com/news/roadshow-launch"
-            },
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/economy/2026/11/10/anthropic-targets-1-4-trillion-valuation-in-massive-stock-market-debut"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "us_stocks",
-              "detail": "Tech",
-              "level": "medium",
-              "dir": "mixed",
-              "why": "A record IPO may draw money from other AI and tech stocks."
-            }
-          ]
-        },
-        {
-          "id": "markets-gold-silver-slump-cpi-2026-11-10",
-          "headline": "Update: Gold ends 2.6% lower near $4,032, silver falls 3.5%; small bounce in Asia",
-          "summary": "New since Tuesday evening: gold's slide deepened after the hot inflation report and ended about 2.6% lower near $4,032 an ounce, while silver fell about 3.5% to $51.52. In early Asian trade gold futures recovered to about $4,054. Brent settled near $92, down under 1%.",
+          "id": "markets-brent-steadies-92-2026-11-11",
+          "headline": "Brent steadies near $92 after Tuesday's 2% drop on easing Iran war fears",
+          "summary": "Brent crude fell about 2.2% to near $90.5 a barrel on Tuesday and WTI 1.8% to about $85.3, as the US signalled no new major strikes on Iran. In Asian trade on Wednesday Brent was back near $92.2. It is far below its peak above $115.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-10T16:00:00-05:00",
+          "published_at": "2026-11-10T18:16:00+05:30",
           "tags": [
-            "gold",
-            "silver",
-            "oil"
+            "Oil",
+            "Brent"
           ],
           "sources": [
             {
-              "name": "investingLive",
-              "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-10-nov-it-s-a-wrap-hot-us-cpi-puts-a-bigger-fed-hike-in-play/"
-            },
-            {
-              "name": "TradingKey",
-              "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262299690-us-stocks-cpi-exceeds-expectations-nvda-drops-amd-broadcom-rises-tradingkey"
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/global-crude-oil-prices-decline-brent-falls-2-2-to-90-51-a-barrel/"
             },
             {
               "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/GC%3DF/"
+              "url": "https://finance.yahoo.com/quote/BZ%3DF/"
             }
           ],
           "image": null,
           "impact": [
             {
-              "on": "gold",
-              "level": "medium",
-              "dir": "down",
-              "why": "Higher US yields and a firmer dollar weigh on gold."
-            },
-            {
-              "on": "silver",
-              "level": "medium",
-              "dir": "down",
-              "why": "Silver fell harder than gold on rate-hike bets."
-            }
-          ]
-        },
-        {
-          "id": "markets-coreweave-q3-beat-2026-11-10",
-          "headline": "CoreWeave beats forecasts: revenue up 168% to $3.66 billion, full-year outlook raised",
-          "summary": "AI cloud firm CoreWeave said third-quarter revenue rose to $3.66 billion from $1.37 billion a year ago, and adjusted operating income reached $379 million, above its own guidance. Its net loss widened to $709 million. It raised 2026 revenue guidance to $13.0-13.3 billion and expects $37-39 billion of capital spending; the order backlog is about $132.5 billion.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-10T16:00:00-05:00",
-          "tags": [
-            "CoreWeave",
-            "AI",
-            "earnings"
-          ],
-          "sources": [
-            {
-              "name": "CoreWeave",
-              "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/10/wednesdays-big-stock-stories-whats-likely-to-move-the-market.html"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "company",
-              "detail": "CoreWeave",
-              "level": "medium",
-              "dir": "up",
-              "why": "Results and guidance beat forecasts."
+              "on": "oil",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Iran pressure eases but Gulf tanker attacks keep risk alive."
             }
           ]
         }
@@ -628,36 +538,32 @@
       "title": "Built This Week",
       "stories": [
         {
-          "id": "built-google-gemini-4-carbon-2026-11-10",
-          "headline": "Google opens Gemini 4 Carbon, its most powerful AI model, to developers and paying users",
-          "summary": "Google made Gemini 4 Carbon, until now limited to selected cyber-defence partners, available through its paid API, Google AI Studio and enterprise tools, and is rolling it out to AI Ultra subscribers in the Gemini app and Search. Google says it is built for hard multi-step coding and research. Introductory pricing is $2 per million input tokens until November 30, then $4.",
+          "id": "built-nvidia-gr00t-2-2026-11-09",
+          "headline": "Nvidia unveils GR00T 2, an open robot model that learns tasks from one demonstration",
+          "summary": "At the Conference on Robot Learning in Austin, Nvidia introduced GR00T 2, an open 'world action model' built on its Cosmos models and trained on robot and human video, including 100,000 hours of first-person footage. Nvidia says it reached 71% average success on 50 tasks with one demonstration each, and 95% with five. Foxconn, Siemens and Nexuni are testing it.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
-          "verified": false,
-          "note": "Single source: Google.",
-          "published_at": "2026-11-10T16:00:00+00:00",
+          "verified": true,
+          "note": "Performance figures are Nvidia's own.",
+          "published_at": "2026-11-09T14:00:01+00:00",
           "tags": [
-            "Google",
+            "Robotics",
             "AI",
-            "Gemini"
+            "Nvidia"
           ],
           "sources": [
             {
-              "name": "Google",
-              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+              "name": "NVIDIA Blog",
+              "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/"
+            },
+            {
+              "name": "The Robot Report",
+              "url": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/"
             }
           ],
           "image": null,
-          "impact": [
-            {
-              "on": "company",
-              "detail": "Google",
-              "level": "low",
-              "dir": "up",
-              "why": "Wider release of its top model strengthens Google's AI offer."
-            }
-          ]
+          "impact": []
         }
       ]
     }
@@ -708,10 +614,6 @@
     {
       "date": "2026-11-11",
       "events": [
-        {
-          "text": "Indian stock and forex markets reopen after holiday",
-          "section": "markets"
-        },
         {
           "text": "Russia-Ukraine talks in Abu Dhabi, second day",
           "section": "world"
