@@ -1,0 +1,554 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-12-midday",
+  "date": "2026-11-12",
+  "slot": "midday",
+  "title": "Thursday Midday Edition",
+  "generated_at": "2026-11-12T13:46:02+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "93.77",
+      "change": "+0.06%",
+      "dir": "up",
+      "as_of": "2026-11-12T00:00:00+05:30",
+      "source": {
+        "name": "Business Standard (PTI)",
+        "url": "https://www.business-standard.com/finance/news/rupee-falls-6-paise-to-93-77-against-us-dollar-during-early-trade-126111200200_1.html"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "104.18",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-12T08:10:14+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X/"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "102.92",
+      "change": "+0.01%",
+      "dir": "flat",
+      "as_of": "2026-11-12T08:00:18+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$717.06bn",
+      "change": "-0.37%",
+      "dir": "down",
+      "as_of": "2026-10-30T00:00:00+05:30",
+      "source": {
+        "name": "RBI Weekly Statistical Supplement",
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewWSSExtractdata.aspx"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,259.85",
+      "change": "+0.02%",
+      "dir": "up",
+      "as_of": "2026-11-12T08:10:20+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI/"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "81,827.85",
+      "change": "-0.06%",
+      "dir": "down",
+      "as_of": "2026-11-12T07:55:20+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN/"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,619.38",
+      "change": "+1.31%",
+      "dir": "up",
+      "as_of": "2026-11-11T16:00:00-05:00",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "25,466.19",
+      "change": "+1.60%",
+      "dir": "up",
+      "as_of": "2026-11-11T16:00:00-05:00",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,969.60",
+      "change": "-0.77%",
+      "dir": "down",
+      "as_of": "2026-11-12T08:00:18+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/GC%3DF/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$93.25",
+      "change": "+0.53%",
+      "dir": "up",
+      "as_of": "2026-11-12T08:00:15+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ%3DF/"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$73,574",
+      "change": "-0.53%",
+      "dir": "down",
+      "as_of": "2026-11-12T08:10:21+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD/"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "5.00%",
+      "change": "+0.3%",
+      "dir": "up",
+      "as_of": "2026-11-11T14:59:54-05:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "why_it_matters": "Simpler visas could lift tourism and medical-travel earnings, which bring in foreign currency.",
+          "lead": false,
+          "image": null,
+          "impact": [
+            {
+              "on": "india_economy",
+              "level": "low",
+              "dir": "up",
+              "why": "Easier entry may raise tourist and student arrivals over time."
+            }
+          ],
+          "id": "india-visa-categories-cut-2026-11-12",
+          "headline": "India cuts main visa categories from 13 to 9 and trims forms by up to 70%",
+          "summary": "The Home Ministry is reducing main visa types from 13 to 9 and sub-categories from 49 to 23, and cutting the fields on application forms by 65 to 70%. All India Radio says IT systems are being updated and visas will be issued under the new rules by the end of the year. The aim is more tourists, medical travellers and foreign students.",
+          "importance": 3,
+          "verified": true,
+          "note": "Business Today first reported the plan on Nov 5; All India Radio adds the year-end start.",
+          "published_at": "2026-11-12T09:26:00+05:30",
+          "tags": [
+            "Visa",
+            "Tourism",
+            "Home Ministry"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/india-cuts-visa-categories-from-13-to-9-application-form-fields-reduced-by-up-to-70/"
+            },
+            {
+              "name": "Business Today",
+              "url": "https://www.businesstoday.in/india/story/visa-overhaul-home-ministry-slashs-categories-to-9-from-13-trims-application-forms-by-70-565791-2026-11-05"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "why_it_matters": "A new round of war would hit Gulf oil flows, pushing up crude prices, India's import bill and the rupee.",
+          "lead": true,
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/epa_6af4f84052b2-1794439232.jpg?resize=1920%2C1440",
+            "credit": "Iran's Directorate General for Foreign Media/EPA",
+            "source_url": "https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack",
+            "alt": "Iranian women volunteers handle machine guns at a military training camp in Tehran's Azadi Square"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "high",
+              "dir": "up",
+              "why": "Fresh war risk in the Gulf threatens oil supply through Hormuz."
+            },
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "down",
+              "why": "Costlier oil raises India's import bill and weighs on the rupee."
+            },
+            {
+              "on": "gold",
+              "level": "medium",
+              "dir": "up",
+              "why": "War fears add to safe-haven demand for gold."
+            }
+          ],
+          "id": "world-israel-prepares-iran-attack-2026-11-12",
+          "headline": "KAN says Israel's cabinet told the army to prepare a possible Iran strike; Iran warns",
+          "summary": "Israel's public broadcaster KAN reported on Wednesday evening that the security cabinet ordered the military to step up preparations for a possible attack on Iran. Iran's security chief Mohsen Rezaei warned that every base used in a new US war, from West Asia to Europe, would be a target. Opposition leader Gadi Eisenkot, now trying to form a government, urged caretaker PM Netanyahu not to act without an immediate threat.",
+          "importance": 5,
+          "verified": false,
+          "note": "Report by Israel's KAN, carried by Al Jazeera and Anadolu; no official Israeli confirmation.",
+          "published_at": "2026-11-12T00:00:00+03:00",
+          "tags": [
+            "Israel",
+            "Iran",
+            "Oil",
+            "War"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack"
+            },
+            {
+              "name": "Anadolu Agency",
+              "url": "https://www.aa.com.tr/en/middle-east/israeli-security-cabinet-orders-military-to-prepare-for-possible-attack-on-iran-report/4121434"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "image": null,
+          "impact": [],
+          "id": "world-indonesia-vp-gibran-resigns-2026-11-12",
+          "headline": "Indonesia's vice president Gibran resigns after courts question his education papers",
+          "summary": "Gibran Rakabuming Raka, 39, the eldest son of former president Joko Widodo, submitted his resignation to President Prabowo Subianto and parliament on Thursday. Indonesia's top courts ruled last month that his overseas schooling documents did not meet election rules, and 120 lawmakers began an impeachment process on Wednesday. The national assembly must pick a successor from two names put forward by the president within 60 days.",
+          "importance": 3,
+          "verified": false,
+          "note": "Single source: Al Jazeera (with AFP and AP reporting).",
+          "published_at": "2026-11-12T00:00:00+03:00",
+          "tags": [
+            "Indonesia",
+            "Politics"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "why_it_matters": "A firmer dollar and higher oil could end the rupee's recent run of gains.",
+          "lead": false,
+          "image": null,
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "down",
+              "why": "A firm dollar nudges the rupee lower."
+            },
+            {
+              "on": "currency",
+              "detail": "Dollar",
+              "level": "low",
+              "dir": "up",
+              "why": "Bets on a December Fed hike keep the dollar firm."
+            }
+          ],
+          "id": "currency-rupee-slips-dollar-2026-11-12",
+          "headline": "Rupee slips 6 paise to 93.77 per dollar in early trade as dollar firms",
+          "summary": "The rupee opened about 4 paise lower at 93.73 and eased to 93.77 per dollar in early trade, from Wednesday's close of 93.71, its strongest level since April. A firm dollar, near a one-month high around 102.9 on the dollar index, weighed on it, while foreign inflows and strong local stocks gave support.",
+          "importance": 4,
+          "verified": true,
+          "note": "Opening level per PTI via Business Standard; Yahoo Finance's quote was weaker, near 93.95, at 1:40 PM IST.",
+          "published_at": "2026-11-12T00:00:00+05:30",
+          "tags": [
+            "Rupee",
+            "Dollar",
+            "Forex"
+          ],
+          "sources": [
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/finance/news/rupee-falls-6-paise-to-93-77-against-us-dollar-during-early-trade-126111200200_1.html"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/INR%3DX/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "why_it_matters": "Bank strength is offsetting a tech sell-off; October CPI at 4 PM is the next test.",
+          "lead": false,
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "medium",
+              "dir": "down",
+              "why": "Nvidia turmoil weighs on tech shares worldwide."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "Banks",
+              "level": "medium",
+              "dir": "up",
+              "why": "Lenders extend Wednesday's rally and hold up the indices."
+            }
+          ],
+          "id": "markets-sensex-nifty-flat-it-drags-2026-11-12",
+          "headline": "Sensex, Nifty flat at midday as banks gain and IT falls with Nvidia",
+          "summary": "The Nifty was at 25,259.85 and the Sensex at 81,827.85 around 1:40 PM, almost unchanged after a flat open. Bank Nifty rose about 1.1% to 61,452.75, led by SBI (+2.2%), ICICI Bank and HDFC Bank. Nifty IT fell about 0.9%, with TCS down 1.7% and HCL Tech 1.5%, as Nvidia's slide hit tech shares across Asia.",
+          "importance": 4,
+          "verified": true,
+          "note": "Opening levels per Zee Business match Yahoo Finance; midday levels from Yahoo Finance index data.",
+          "published_at": "2026-11-12T13:40:00+05:30",
+          "tags": [
+            "Sensex",
+            "Nifty",
+            "Banks",
+            "IT"
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5ENSEI/"
+            },
+            {
+              "name": "Zee Business",
+              "url": "https://www.zeebiz.com/market-news/news-sensex-nifty-today-markets-open-flat-amid-mixed-global-cues-smallcaps-outperform-it-stocks-drag-405453"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "If the tech sell-off deepens on Wall Street tonight, Indian IT shares could stay under pressure.",
+          "lead": false,
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Nvidia",
+              "level": "high",
+              "dir": "down",
+              "why": "Doubt over the CEO's future keeps hitting the stock."
+            },
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "high",
+              "dir": "down",
+              "why": "Nasdaq futures point to a weak open for chip shares."
+            }
+          ],
+          "id": "markets-nvidia-afterhours-huang-2026-11-12",
+          "headline": "Nvidia sell-off spreads: Frankfurt shares down 7%, Nasdaq futures off about 1%",
+          "summary": "Update: Nvidia's slide continued on Thursday after reports its board is weighing CEO Jensen Huang's future. Its Frankfurt-listed shares were down 7.1% in early trade and Nasdaq-100 futures fell about 1%, with S&P 500 futures down 0.4%. Chip suppliers SK Hynix, TSMC and Advantest fell in Asia, and Hong Kong's Hang Seng lost about 1.4%.",
+          "importance": 4,
+          "verified": true,
+          "note": "Board talks come from media reports citing unnamed people; the share moves are confirmed by trading data.",
+          "published_at": "2026-11-12T03:05:00-05:00",
+          "tags": [
+            "Nvidia",
+            "Chips",
+            "US futures",
+            "Asia"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "Iran war risk keeps a floor under crude."
+            },
+            {
+              "on": "gold",
+              "level": "low",
+              "dir": "down",
+              "why": "A firm dollar and rate-hike bets weigh on gold."
+            }
+          ],
+          "id": "markets-brent-gold-iran-2026-11-12",
+          "headline": "Brent edges up to about $93 on Iran tension; gold slips below $4,000",
+          "summary": "Brent settled up 1.4% at $92.76 on Wednesday after Iran rejected a US plan to move its enriched uranium abroad, and traded near $93.25 on Thursday afternoon as Israel's war-preparation report added risk. Gold futures fell about 0.8% to near $3,970 an ounce as the dollar held firm on Fed rate-hike bets.",
+          "importance": 3,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-12T13:30:00+05:30",
+          "tags": [
+            "Brent",
+            "Oil",
+            "Gold"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/BZ%3DF/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": []
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "GBP",
+      "title": "GDP m/m",
+      "date": "2026-11-12T02:00:00-05:00",
+      "impact": "High",
+      "actual": "0.2%",
+      "vs_forecast": "better",
+      "why": "UK output grew in September when no growth was expected, a small support for the pound.",
+      "source": {
+        "name": "ONS",
+        "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/julytoseptember2026"
+      }
+    },
+    {
+      "country": "GBP",
+      "title": "Prelim GDP q/q",
+      "date": "2026-11-12T02:00:00-05:00",
+      "impact": "Medium",
+      "actual": "0.7%",
+      "vs_forecast": "in_line",
+      "why": "Q3 growth of 0.7% matched forecasts, the fastest in over two years; little surprise for the pound.",
+      "source": {
+        "name": "ONS",
+        "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/julytoseptember2026"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-12",
+      "events": [
+        {
+          "text": "India October CPI inflation (MoSPI), 4 PM; economists expect about 6%",
+          "section": "india"
+        },
+        {
+          "text": "US weekly jobless claims",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "events": [
+        {
+          "text": "US October producer prices (PPI)",
+          "section": "markets"
+        },
+        {
+          "text": "RBI weekly forex reserves data",
+          "section": "currency"
+        },
+        {
+          "text": "PM Modi visits Karnataka and Gujarat (Nov 13-14)",
+          "section": "india"
+        },
+        {
+          "text": "SpaceX Starship Flight 15, first booster-and-ship catch attempt",
+          "section": "built"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "events": [
+        {
+          "text": "India October trade data, per Commerce Minister Goyal",
+          "section": "india"
+        },
+        {
+          "text": "India October unemployment rate",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "events": [
+        {
+          "text": "Anthropic IPO retail offer in Australia closes",
+          "section": "markets"
+        }
+      ]
+    }
+  ]
+}
