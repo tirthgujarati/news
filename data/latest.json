@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-11-evening",
-  "date": "2026-11-11",
-  "slot": "evening",
-  "title": "Wednesday Evening Edition",
-  "generated_at": "2026-11-11T20:53:51+05:30",
+  "edition_id": "2026-11-12-morning",
+  "date": "2026-11-12",
+  "slot": "morning",
+  "title": "Thursday Morning Edition",
+  "generated_at": "2026-11-12T07:39:27+05:30",
   "snapshot": [
     {
       "id": "usdinr",
       "label": "USD/INR",
       "value": "93.68",
-      "change": "-0.29%",
-      "dir": "down",
-      "as_of": "2026-11-11T14:27:30+00:00",
+      "change": "0.00%",
+      "dir": "flat",
+      "as_of": "2026-11-12T01:42:18+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/INR%3DX/"
@@ -21,10 +21,10 @@
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "103.88",
-      "change": "-1.38%",
-      "dir": "down",
-      "as_of": "2026-11-11T14:56:31+00:00",
+      "value": "103.98",
+      "change": "+0.09%",
+      "dir": "up",
+      "as_of": "2026-11-12T02:01:34+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURINR%3DX/"
@@ -33,10 +33,10 @@
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "102.93",
-      "change": "+0.68%",
-      "dir": "up",
-      "as_of": "2026-11-11T15:05:22+00:00",
+      "value": "102.87",
+      "change": "-0.04%",
+      "dir": "down",
+      "as_of": "2026-11-12T01:52:07+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
@@ -81,34 +81,34 @@
     {
       "id": "spx",
       "label": "S&P 500",
-      "value": "7,577.86",
-      "change": "+0.76%",
+      "value": "7,619.38",
+      "change": "+1.31%",
       "dir": "up",
-      "as_of": "2026-11-11T15:15:29+00:00",
+      "as_of": "2026-11-11T16:00:00-05:00",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html"
       }
     },
     {
       "id": "nasdaq",
       "label": "Nasdaq",
-      "value": "25,362.06",
-      "change": "+1.18%",
+      "value": "25,466.19",
+      "change": "+1.60%",
       "dir": "up",
-      "as_of": "2026-11-11T15:15:25+00:00",
+      "as_of": "2026-11-11T16:00:00-05:00",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html"
       }
     },
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$4,022.20",
-      "change": "-0.20%",
+      "value": "$3,987.70",
+      "change": "-0.32%",
       "dir": "down",
-      "as_of": "2026-11-11T15:05:31+00:00",
+      "as_of": "2026-11-12T01:52:06+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/GC%3DF/"
@@ -117,10 +117,10 @@
     {
       "id": "brent",
       "label": "Brent crude",
-      "value": "$93.12",
-      "change": "+1.78%",
-      "dir": "up",
-      "as_of": "2026-11-11T15:05:19+00:00",
+      "value": "$91.61",
+      "change": "-1.24%",
+      "dir": "down",
+      "as_of": "2026-11-12T01:48:35+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BZ%3DF/"
@@ -129,10 +129,10 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$73,538",
-      "change": "-0.25%",
+      "value": "$73,536",
+      "change": "-0.53%",
       "dir": "down",
-      "as_of": "2026-11-11T15:15:27+00:00",
+      "as_of": "2026-11-12T02:02:06+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BTC-USD/"
@@ -157,116 +157,80 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-fertiliser-subsidy-rabi-2026-11-11",
-          "headline": "Cabinet approves Rs 62,370 crore fertiliser subsidy for the rabi season",
-          "summary": "The Union Cabinet set nutrient-based subsidy rates on phosphatic and potassic fertilisers, including DAP, for October 2026 to March 2027. The bill is about Rs 62,370 crore, roughly Rs 24,418 crore more than last rabi season's Rs 37,952 crore. Minister Ashwini Vaishnaw linked it to higher world prices of fertilisers and inputs such as sulphur.",
-          "why_it_matters": "Farmers keep fertiliser prices steady, but the much larger bill adds to the government's spending.",
-          "importance": 4,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-11T15:13:00+05:30",
-          "tags": [
-            "Cabinet",
-            "Fertiliser",
-            "Farmers",
-            "Subsidy"
-          ],
-          "sources": [
-            {
-              "name": "PIB",
-              "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2334974"
-            },
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/govt-approves-nutrient-based-subsidy-for-rabi-2026-27-to-ensure-affordable-fertilisers-for-farmers/"
-            },
-            {
-              "name": "Greater Kashmir",
-              "url": "https://greaterkashmir.com/national/cabinet-approves-rs-62370-cr-subsidy-for-pk-fertilisers-in-rabi-season-12801225"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "indian_stocks",
-              "detail": "Fertilisers",
-              "level": "medium",
-              "dir": "up",
-              "why": "Fertiliser makers get a clear, higher subsidy rate for the season."
-            },
-            {
-              "on": "india_economy",
-              "level": "low",
-              "dir": "mixed",
-              "why": "Keeps farm costs down but widens the subsidy bill."
-            }
-          ]
-        },
-        {
-          "id": "india-mudra-standup-guarantee-2026-11-11",
-          "headline": "Cabinet extends Mudra loan guarantee fund and Stand-Up India scheme to 2031",
-          "summary": "The Cabinet extended the Credit Guarantee Fund for Micro Units, which backs collateral-free Mudra loans, for five years with a Rs 5,000 crore corpus and cut its fee to 0.75% a year from 1%. It also extended Stand-Up India, which funds women, SC and ST entrepreneurs, with a Rs 4,111 crore guarantee corpus and a goal of 2.5 lakh more borrowers.",
-          "why_it_matters": null,
+          "id": "india-moodys-growth-7pct-2026-11-11",
+          "headline": "Moody's puts India's growth at 7% this fiscal year, flags inflation and rate risks",
+          "summary": "In its Global Macro Outlook 2027-28, Moody's Ratings projected 7% growth for India in 2026-27, citing strong consumption, rising investment and the economy's resilience to the energy price shock. It expects growth near 7% over the medium term but warned that rising inflation, weaker farm output and higher interest rates could slow it.",
+          "why_it_matters": "A strong growth view supports foreign inflows, but the inflation warning lands a day before October CPI data.",
           "importance": 3,
           "lead": false,
           "verified": true,
-          "note": null,
-          "published_at": "2026-11-11T15:15:00+05:30",
+          "note": "All India Radio says Moody's raised the forecast from 6.5%; Business Standard says it kept it at 7%. Both agree on 7%.",
+          "published_at": "2026-11-11T21:02:00+05:30",
           "tags": [
-            "Cabinet",
-            "Mudra",
-            "MSME",
-            "Banks"
+            "Moody's",
+            "GDP",
+            "Growth",
+            "Inflation"
           ],
           "sources": [
             {
-              "name": "PIB",
-              "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2334977"
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/moodys-ratings-raises-indias-gdp-growth-forecast-for-current-fiscal-year-to-7-from-6-5/"
             },
             {
-              "name": "PIB",
-              "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2334979"
-            },
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/amp/economy/news/moody-s-retains-india-s-fy27-growth-forecast-at-7-on-resilient-demand-126111101341_1.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "india_economy",
+              "level": "low",
+              "dir": "up",
+              "why": "A firm 7% growth outlook backs confidence in India's economy."
+            }
+          ]
+        },
+        {
+          "id": "india-mf-inflows-october-2026-11-11",
+          "headline": "Mutual funds draw Rs 1.74 lakh crore in October as debt money returns",
+          "summary": "AMFI data show the fund industry took in a net Rs 1.74 lakh crore in October, after a Rs 1.33 lakh crore outflow in September. Debt funds drew over Rs 1.13 lakh crore. Equity fund inflows fell about 14% to Rs 32,994 crore, and SIP contributions dipped 1% to Rs 32,162 crore from September's record.",
+          "why_it_matters": "Steady SIP money keeps a domestic cushion under Indian shares even as equity inflows cool.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "SIP figure from All India Radio; another report gives Rs 32,160 crore.",
+          "published_at": "2026-11-11T21:45:00+05:30",
+          "tags": [
+            "Mutual funds",
+            "AMFI",
+            "SIP",
+            "Equity"
+          ],
+          "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/union-cabinet-approves-continuation-of-credit-guarantee-fund-for-micro-units-under-pm-mudra-yojana-till-march-2031/"
+              "url": "https://newsonair.gov.in/mutual-fund-industry-records-net-inflows-of-nearly-%e2%82%b91-74-lakh-crore-in-october-reversing-septembers-outflows/"
+            },
+            {
+              "name": "Zee Business",
+              "url": "https://www.zeebiz.com/personal-finance/mutual-fund/news-amfi-data-october-2026-rs-174-lakh-crore-flows-in-after-september-rout-equity-debt-or-etfs-where-did-investors-put-money-405417"
+            },
+            {
+              "name": "Angel One",
+              "url": "https://www.angelone.in/news/mutual-funds/amfi-october-2026-data-net-equity-inflows-decline-13-87-to-32-993-64-crore"
             }
           ],
           "image": null,
           "impact": [
             {
               "on": "indian_stocks",
-              "detail": "Banks",
               "level": "low",
               "dir": "up",
-              "why": "Guarantees lower the risk on small-business loans for lenders."
+              "why": "Monthly SIP money of about Rs 32,000 crore keeps steady buying in shares."
             }
           ]
-        },
-        {
-          "id": "india-goyal-canada-cepa-2026-11-11",
-          "headline": "Goyal and Canada's trade minister discuss moving the India-Canada trade deal forward",
-          "summary": "Commerce Minister Piyush Goyal met Canada's International Trade Minister Maninder Sidhu in New Delhi. They discussed advancing talks on a Comprehensive Economic Partnership Agreement and better market access for trade and investment.",
-          "why_it_matters": null,
-          "importance": 2,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-11T16:30:00+05:30",
-          "tags": [
-            "Trade",
-            "Canada",
-            "CEPA"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/commerce-minister-piyush-goyal-holds-talks-with-canadian-trade-minister-maninder-sidhu-on-india-canada-cepa/"
-            }
-          ],
-          "image": null,
-          "impact": []
         }
       ]
     },
@@ -275,126 +239,98 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-iran-hormuz-shut-terms-2026-11-11",
-          "headline": "Iran says Hormuz stays shut until the US meets its seven conditions",
-          "summary": "Iran's security chief Mohsen Rezaei denied any talks with Washington or a meeting in Qatar, and said the strait will stay closed until the US accepts Tehran's terms, including lifting sanctions and the naval blockade. He also said Iran rejects a US idea to move its 60% enriched uranium abroad. This follows Rubio's remark that no major combat is needed; Trump says he sees positive momentum.",
-          "why_it_matters": "Hormuz staying shut keeps oil supply tight, which hurts India's import bill and the rupee.",
+          "id": "world-iran-ghalibaf-us-court-2026-11-11",
+          "headline": "Iran's Ghalibaf says 'the ball is in the US court' and Hormuz won't return to old rules",
+          "summary": "Iran's parliament speaker and chief negotiator Mohammad Bagher Ghalibaf told Al Jazeera that Tehran has sent its seven conditions to Washington through Qatar and is waiting for a reply. He said the Strait of Hormuz will never return to its pre-war status and that lack of trust in the US blocks a deal. Iran has rejected a US idea to move its enriched uranium abroad and warns it will widen the war if attacked.",
+          "why_it_matters": "No quick reopening of Hormuz keeps an oil supply risk hanging over India's import bill and the rupee.",
           "importance": 5,
-          "lead": true,
-          "verified": true,
-          "note": "Iran's IRGC says three tankers hit mines on Tuesday; UKMTO received reports on two tankers. Not independently confirmed.",
-          "published_at": "2026-11-11T00:00:00+00:00",
+          "lead": false,
+          "verified": false,
+          "note": "Statements by Iran's Ghalibaf to Al Jazeera; Iran's positions, not independently confirmed.",
+          "published_at": "2026-11-11T00:00:00+03:00",
           "tags": [
             "Iran",
             "Hormuz",
-            "Oil",
-            "US"
+            "US",
+            "Oil"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/11/iran-denies-talks-with-us-says-hormuz-will-stay-shut-until-demands-are-met"
+              "url": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf"
             },
             {
               "name": "Al Jazeera live",
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/11/iran-war-live-hegseth-survives-impeachment-bid-iran-denies-us-talks"
-            },
-            {
-              "name": "Middle East Monitor",
-              "url": "https://www.middleeastmonitor.com/20261111-rezaei-strait-of-hormuz-will-remain-closed-until-irans-seven-conditions-are-met/"
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/12/iran-war-live-tehran-warns-of-wider-retaliation-israel-kills-in-gaza"
             }
           ],
           "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af3eb2f86fc-1794370351.jpg?resize=1920%2C1440",
-            "credit": "AFP via Al Jazeera",
-            "source_url": "https://www.aljazeera.com/news/2026/11/11/iran-denies-talks-with-us-says-hormuz-will-stay-shut-until-demands-are-met",
-            "alt": "An Iranian flag waves over women at a volunteer training camp in Tehran's Azadi Square"
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af4c8b79ab85-1794427063.jpg?resize=770%2C513&quality=80",
+            "credit": "Hadi Mizban/AP Photo",
+            "source_url": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf",
+            "alt": "Iran's parliament speaker Mohammad Bagher Ghalibaf speaking into a cluster of TV microphones"
           },
           "impact": [
             {
               "on": "oil",
-              "level": "high",
+              "level": "medium",
               "dir": "up",
-              "why": "A closed strait keeps Gulf oil supply tight."
-            },
-            {
-              "on": "rupee",
-              "level": "medium",
-              "dir": "down",
-              "why": "Higher oil raises India's import bill and dollar demand."
-            },
-            {
-              "on": "indian_stocks",
-              "level": "medium",
-              "dir": "down",
-              "why": "Oil risk weighs on Indian shares, especially fuel users."
+              "why": "Iran signals Hormuz shipping limits will last, a lasting supply risk."
             }
           ]
         },
         {
-          "id": "world-russia-ukraine-pow-swap-2026-11-11",
-          "headline": "Russia-Ukraine talks in Abu Dhabi end with a prisoner swap deal but no peace breakthrough",
-          "summary": "Two days of US-mediated talks, the first between the sides since February, ended with agreement in principle on a large prisoner exchange. US envoy Jared Kushner called the meeting tough but productive and said territory is the hardest issue. He and Steve Witkoff are to meet Putin in Moscow on Thursday and then brief Zelenskyy in Dublin.",
+          "id": "world-envoys-putin-moscow-2026-11-12",
+          "headline": "Trump envoys Kushner and Witkoff meet Putin in Moscow today",
+          "summary": "Jared Kushner and Steve Witkoff are due to meet Vladimir Putin on Thursday, a day after US-mediated Russia-Ukraine talks in Abu Dhabi ended with a prisoner swap deal but no peace breakthrough. Kushner said they will work on humanitarian steps, prisoner exchanges and bringing European countries into the talks. They are then expected to brief Ukraine's Volodymyr Zelensky in Dublin.",
           "why_it_matters": null,
-          "importance": 4,
+          "importance": 3,
           "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-11T00:00:00+00:00",
+          "published_at": "2026-11-11T00:00:00-05:00",
           "tags": [
             "Russia",
             "Ukraine",
+            "US",
             "Peace talks"
           ],
           "sources": [
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement"
+              "name": "CNN",
+              "url": "https://www.cnn.com/2026/11/11/politics/trump-envoys-russia-trip-peace-talks-intl"
             },
             {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/russia-and-ukraine-agree-on-large-scale-prisoner-exchange-as-trilateral-talks-with-us-conclude-in-abu-dhabi/"
+              "name": "ABC News",
+              "url": "https://abcnews.com/International/witkoff-kushner-meet-putin-discuss-ukraine-war/story?id=136231643"
             }
           ],
           "image": null,
           "impact": []
         },
         {
-          "id": "world-us-chip-curbs-nvidia-2026-11-11",
-          "headline": "US lawmakers push tighter AI chip export curbs on China after Nvidia CEO allegations",
-          "summary": "Senate Democratic leader Chuck Schumer urged quick passage of three bipartisan bills to limit China's access to US chips, after senators Elizabeth Warren and Jim Banks demanded stronger controls. Nvidia's board is investigating CEO Jensen Huang over his relationship with a businesswoman alleged to have passed intelligence and chips to China. Nvidia shares bounced about 3% on Wednesday after two days of losses.",
+          "id": "world-mississippi-senate-colom-2026-11-11",
+          "headline": "Democrat Scott Colom wins Mississippi Senate seat, Democrats' eighth flip",
+          "summary": "Prosecutor Scott Colom narrowly beat Republican Senator Cindy Hyde-Smith after more than a week of counting mail-in and provisional ballots. It is at least the eighth Republican-held Senate seat Democrats have won in the November 3 midterms, with a race in Alaska still undecided.",
           "why_it_matters": null,
-          "importance": 3,
+          "importance": 2,
           "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-11T12:49:00+05:30",
+          "verified": false,
+          "note": "Single source: Al Jazeera.",
+          "published_at": "2026-11-11T00:00:00+03:00",
           "tags": [
-            "Nvidia",
-            "China",
-            "Chips",
-            "Export curbs"
+            "US",
+            "Midterms",
+            "Senate"
           ],
           "sources": [
             {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/us-lawmakers-push-for-tighter-ai-chip-export-controls-on-china/"
-            },
-            {
-              "name": "AP via BNN Bloomberg",
-              "url": "https://www.bnnbloomberg.ca/markets/2026/11/11/rebounding-ai-stocks-lift-wall-street/"
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/11/democrat-scott-colom-wins-closely-watched-us-senate-race-in-mississippi"
             }
           ],
           "image": null,
-          "impact": [
-            {
-              "on": "company",
-              "detail": "Nvidia",
-              "level": "medium",
-              "dir": "down",
-              "why": "Tighter export rules could cut Nvidia's China sales."
-            }
-          ]
+          "impact": []
         }
       ]
     },
@@ -403,62 +339,17 @@
       "title": "Currency Desk",
       "stories": [
         {
-          "id": "currency-rupee-gains-reopen-2026-11-11",
-          "headline": "Rupee ends at 93.71 per dollar, near its strongest since April",
-          "summary": "The rupee closed 6 paise firmer at 93.71 against the dollar, after moving between 93.63 and 93.88, PTI reported. Foreign money flowing into Indian shares and softer crude helped, while a firmer dollar and high US yields after hot inflation capped the gain. Dealers expect a 93.40 to 93.95 range next.",
-          "why_it_matters": "A steadier rupee helps keep India's import costs and inflation in check.",
-          "importance": 4,
-          "lead": false,
-          "verified": true,
-          "note": "PTI puts the close at 93.71 (previous 93.77); Business Standard reported 93.69 against 93.94. Previous-close bases differ.",
-          "published_at": "2026-11-11T00:00:00+05:30",
-          "tags": [
-            "Rupee",
-            "Dollar",
-            "FPI"
-          ],
-          "sources": [
-            {
-              "name": "The Hans India (PTI)",
-              "url": "https://www.thehansindia.com/business/rupee-rises-6-paise-to-close-at-9371-against-us-dollar-1141127"
-            },
-            {
-              "name": "Business Standard",
-              "url": "https://www.business-standard.com/economy/news/rupee-outperforms-most-asian-peers-as-foreign-inflows-boost-sentiment-126111101383_1.html"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/INR%3DX/"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "rupee",
-              "level": "medium",
-              "dir": "up",
-              "why": "Foreign inflows into stocks support the rupee."
-            },
-            {
-              "on": "currency",
-              "detail": "Dollar",
-              "level": "low",
-              "dir": "up",
-              "why": "High US yields keep the dollar firm and cap rupee gains."
-            }
-          ]
-        },
-        {
-          "id": "currency-dollar-firms-fed-hike-2026-11-11",
-          "headline": "Dollar index climbs toward 103 as Fed hike bets build; euro slips against rupee",
-          "summary": "The dollar index rose about 0.7% to near 102.9 by evening in India, as traders kept betting on a Fed rate hike next month after Tuesday's hot US inflation. Fed governor Michelle Bowman said there is still work to do to bring inflation to 2%. The euro fell to about 103.9 rupees from 105.3.",
+          "id": "currency-dollar-steady-ppi-2026-11-12",
+          "headline": "Rupee holds near 93.68 per dollar as dollar index steadies before US data",
+          "summary": "The dollar was flat against the rupee at about 93.68 in early Asian trade, and the dollar index held near 102.9 after Wednesday's climb. Traders see about a 90% chance of a Fed rate hike in December after hot US inflation, CNBC reported, keeping the dollar firm ahead of US jobless claims today and producer prices on Friday. The euro was little changed near Rs 103.98.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
           "verified": true,
-          "note": "Dollar index was 102.50 in Indian trading hours (PTI) and 102.93 at 3:05 PM GMT (Yahoo Finance).",
-          "published_at": "2026-11-11T15:05:22+00:00",
+          "note": "Rates from Yahoo Finance; rate-hike odds from CNBC.",
+          "published_at": "2026-11-12T01:52:07+00:00",
           "tags": [
+            "Rupee",
             "Dollar",
             "Fed",
             "Euro"
@@ -466,32 +357,27 @@
           "sources": [
             {
               "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
+              "url": "https://finance.yahoo.com/quote/INR%3DX/"
             },
             {
-              "name": "The Hans India (PTI)",
-              "url": "https://www.thehansindia.com/business/rupee-rises-6-paise-to-close-at-9371-against-us-dollar-1141127"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html"
             }
           ],
           "image": null,
           "impact": [
             {
-              "on": "currency",
-              "detail": "Dollar",
-              "level": "medium",
-              "dir": "up",
-              "why": "Fed hike bets lift the dollar."
+              "on": "rupee",
+              "level": "low",
+              "dir": "mixed",
+              "why": "A firm dollar on Fed hike bets offsets softer oil."
             },
             {
               "on": "currency",
-              "detail": "Euro",
+              "detail": "Dollar",
               "level": "low",
-              "dir": "down",
-              "why": "The euro weakens as the dollar gains."
+              "dir": "up",
+              "why": "High odds of a December Fed hike keep the dollar supported."
             }
           ]
         }
@@ -502,132 +388,114 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "id": "markets-sensex-nifty-banks-rally-2026-11-11",
-          "headline": "Sensex closes 773 points higher, Nifty at 25,255 as banks and autos lead",
-          "summary": "The Sensex ended up 0.95% at 81,879.40 and the Nifty up 0.84% at 25,255.05, an eight-month high, after giving back part of a bigger morning rally when the Nifty touched 25,424. PSU banks rose about 3%, with private banks and autos also strong; IT and healthcare lagged. Cheaper oil and foreign buying drove the day.",
-          "why_it_matters": "Foreign investors are buying again, which supports both stocks and the rupee.",
+          "id": "markets-nvidia-afterhours-huang-2026-11-12",
+          "headline": "Nvidia sinks about 8.6% after hours on reports its board is weighing Huang's future",
+          "summary": "Nvidia closed up about 2.9% at $173.73 on Wednesday, then fell about 8.6% in after-hours trade to near $159 after The New York Times, The Wall Street Journal and the Financial Times reported the board would discuss CEO Jensen Huang's position. The board began an investigation into his conduct on Sunday. Nvidia did not immediately comment, and Huang remains CEO.",
+          "why_it_matters": "Nvidia is the biggest weight in global AI and chip stocks, so a slide can drag Asian tech and the Nasdaq today.",
           "importance": 5,
-          "lead": false,
+          "lead": true,
           "verified": true,
-          "note": null,
-          "published_at": "2026-11-11T00:00:00+05:30",
+          "note": "Board discussions come from media reports citing unnamed people; the share moves are confirmed by trading data.",
+          "published_at": "2026-11-12T00:00:00+03:00",
           "tags": [
-            "Sensex",
-            "Nifty",
-            "Banks",
-            "FII"
+            "Nvidia",
+            "Chips",
+            "AI",
+            "US stocks"
           ],
           "sources": [
             {
-              "name": "Business Standard",
-              "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-11-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126111100079_1.html"
-            },
-            {
-              "name": "Zee Business",
-              "url": "https://www.zeebiz.com/market-news/news-closing-bell-sensex-jumps-773-points-nifty-ends-above-25250-psu-bank-auto-stocks-lead-gains-what-drove-dalal-street-rally-405431"
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future"
             },
             {
               "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/%5ENSEI/"
+              "url": "https://finance.yahoo.com/quote/NVDA/"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html"
             }
           ],
-          "image": null,
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20261110__D6YZ8T3__v1__MidRes__FilesTaiwanChinaUsSemiconductorsAiNvidia-1794443885.jpg",
+            "credit": "I-Hwa Cheng/AFP",
+            "source_url": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future",
+            "alt": "Nvidia CEO Jensen Huang in a black leather jacket speaking on stage at Computex in Taipei"
+          },
           "impact": [
             {
-              "on": "indian_stocks",
-              "detail": "Banks",
+              "on": "company",
+              "detail": "Nvidia",
               "level": "high",
-              "dir": "up",
-              "why": "Foreign buying and cheaper oil lift banks."
-            },
-            {
-              "on": "indian_stocks",
-              "detail": "Auto",
-              "level": "medium",
-              "dir": "up",
-              "why": "Autos gain on lower fuel-cost worries."
-            },
-            {
-              "on": "indian_stocks",
-              "detail": "IT",
-              "level": "low",
               "dir": "down",
-              "why": "IT and healthcare lag the rally."
+              "why": "Doubt over the founder-CEO's future hit the stock after hours."
+            },
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "high",
+              "dir": "down",
+              "why": "Nvidia's size means its fall weighs on the Nasdaq and chip shares."
             }
           ]
         },
         {
-          "id": "markets-wall-street-ai-rebound-2026-11-11",
-          "headline": "Wall Street opens higher as chip stocks rebound; Nasdaq up over 1%",
-          "summary": "US stocks opened with the S&P 500 up 0.9% and the Nasdaq up 1.4%, while the Dow slipped 0.1%, AP reported. Chipmakers led, with Micron and Broadcom up over 5% and Nvidia up about 3% after two days of losses. By 10:15 AM New York time the S&P 500 was near 7,578 (+0.8%) and the Nasdaq near 25,362 (+1.2%). The bond market is shut for Veterans Day.",
-          "why_it_matters": "A US tech rebound usually helps Indian IT shares the next morning.",
+          "id": "markets-wall-street-coreweave-close-2026-11-11",
+          "headline": "S&P 500 gains 1.3%, Nasdaq 1.6% as CoreWeave's 25% jump revives AI trade",
+          "summary": "The S&P 500 closed up 1.31% at 7,619.38 and the Nasdaq up 1.60% at 25,466.19, while the Dow added 0.49% to 52,486.49. CoreWeave rose nearly 25% after its strong results, and Apple was headed for a second straight record close. The gains came before Nvidia's late slide.",
+          "why_it_matters": null,
           "importance": 4,
           "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-11T09:56:00-05:00",
+          "published_at": "2026-11-11T16:00:00-05:00",
           "tags": [
             "Wall Street",
+            "S&P 500",
             "Nasdaq",
-            "Chips",
-            "Nvidia"
+            "CoreWeave"
           ],
           "sources": [
             {
-              "name": "AP via BNN Bloomberg",
-              "url": "https://www.bnnbloomberg.ca/markets/2026/11/11/rebounding-ai-stocks-lift-wall-street/"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html"
             },
             {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+              "name": "TheStreet",
+              "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"
             }
           ],
           "image": null,
           "impact": [
             {
               "on": "us_stocks",
-              "detail": "Tech",
-              "level": "high",
+              "level": "medium",
               "dir": "up",
-              "why": "Chipmakers rebound on easing AI-spending worries."
-            },
-            {
-              "on": "indian_stocks",
-              "detail": "IT",
-              "level": "low",
-              "dir": "up",
-              "why": "Stronger US tech can lift Indian IT stocks."
+              "why": "A strong close, though Nvidia's after-hours fall may undo part of it."
             }
           ]
         },
         {
-          "id": "markets-brent-steadies-92-2026-11-11",
-          "headline": "Brent rebounds above $93 on Hormuz ship attacks; gold slips as dollar firms",
-          "summary": "Brent crude rose about 1.8% to near $93.1 a barrel by evening in India, up from Tuesday's $91.49 settlement, as reports of tankers hit in the Strait of Hormuz offset hopes of an end to the Iran war. Earlier today it had steadied near $92. Gold eased 0.2% to about $4,022 an ounce as the dollar strengthened.",
-          "why_it_matters": null,
+          "id": "markets-brent-opec-output-2026-11-11",
+          "headline": "Brent slips to $91.6 as OPEC says output is nearly back to pre-war levels",
+          "summary": "Brent crude fell about 1.2% to near $91.6 a barrel in early Asian trade. OPEC's monthly report showed OPEC+ pumped 41.23 million barrels a day in October, about 97% of February's pre-war level, with Saudi output up over 2 million barrels a day to 10.56 million. OPEC kept its demand growth forecasts unchanged.",
+          "why_it_matters": "More Gulf supply eases India's oil import bill even with Hormuz still restricted.",
           "importance": 4,
           "lead": false,
           "verified": true,
-          "note": null,
-          "published_at": "2026-11-11T09:56:00-05:00",
+          "note": "Production figures single source: Al Jazeera, citing OPEC and Reuters; price from Yahoo Finance.",
+          "published_at": "2026-11-11T00:00:00+03:00",
           "tags": [
             "Oil",
             "Brent",
-            "Gold",
-            "Hormuz"
+            "OPEC",
+            "Saudi Arabia"
           ],
           "sources": [
             {
-              "name": "AP via BNN Bloomberg",
-              "url": "https://www.bnnbloomberg.ca/markets/2026/11/11/rebounding-ai-stocks-lift-wall-street/"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says"
             },
             {
               "name": "Yahoo Finance",
@@ -638,61 +506,15 @@
           "impact": [
             {
               "on": "oil",
-              "level": "high",
-              "dir": "up",
-              "why": "Attacks near Hormuz revive supply fears."
+              "level": "medium",
+              "dir": "down",
+              "why": "OPEC+ supply is close to pre-war levels, easing shortage fears."
             },
             {
               "on": "rupee",
-              "level": "medium",
-              "dir": "down",
-              "why": "Costlier oil adds to India's dollar needs."
-            },
-            {
-              "on": "gold",
               "level": "low",
-              "dir": "down",
-              "why": "A firmer dollar weighs on gold."
-            }
-          ]
-        },
-        {
-          "id": "markets-coreweave-q3-beat-2026-11-10",
-          "headline": "CoreWeave beats forecasts with $3.66 billion revenue and raises 2026 outlook",
-          "summary": "AI cloud firm CoreWeave said third-quarter revenue rose to $3.66 billion from $1.37 billion a year ago, with a $132.5 billion order backlog. It raised its 2026 revenue forecast to $13.0-13.3 billion, though its net loss widened to $709 million. Its shares jumped over 10% on Wednesday, easing fears about how AI data centres are funded.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-10T00:00:00-05:00",
-          "tags": [
-            "CoreWeave",
-            "AI",
-            "Earnings"
-          ],
-          "sources": [
-            {
-              "name": "CoreWeave",
-              "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
-            },
-            {
-              "name": "Benzinga",
-              "url": "https://www.benzinga.com/markets/earnings/26/11/63123969/coreweave-reports-q3-double-beat-raises-guidance-this-was-a-breakout-quarter"
-            },
-            {
-              "name": "AP via BNN Bloomberg",
-              "url": "https://www.bnnbloomberg.ca/markets/2026/11/11/rebounding-ai-stocks-lift-wall-street/"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "company",
-              "detail": "CoreWeave",
-              "level": "high",
               "dir": "up",
-              "why": "Results beat forecasts and the outlook was raised."
+              "why": "Cheaper crude trims India's import bill."
             }
           ]
         }
@@ -703,33 +525,45 @@
       "title": "Built This Week",
       "stories": [
         {
-          "id": "built-anthropic-claude-office-tools-2026-11-10",
-          "headline": "Anthropic launches Claude tools for meetings, spreadsheets and whiteboards",
-          "summary": "Anthropic unveiled office tools for non-coders: Claude Meetings joins video calls as a visible participant, Claude Sheets builds spreadsheets with a team, and Claude Whiteboards turns a spoken plan into a board with owners and dates. Most are in beta for business plans; Claude Data, which links to company databases, is live on paid plans. The launch comes ahead of its planned IPO.",
+          "id": "built-pimjetmi-fda-2026-11-10",
+          "headline": "FDA approves Merck KGaA's once-daily pill Pimjetmi for a rare joint tumour",
+          "summary": "The US FDA approved Pimjetmi (pimicotinib), developed by China's Abbisko Therapeutics and licensed to Merck KGaA, for adults with symptomatic tenosynovial giant cell tumour when surgery could worsen function. In the phase 3 MANEUVER trial, 56% of patients responded by week 25 versus 3% on placebo. It is the drug's fourth approval after China, Canada and Switzerland.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
-          "verified": false,
-          "note": "Single source: Fortune.",
-          "published_at": "2026-11-10T00:00:00-05:00",
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-11T14:51:22+00:00",
           "tags": [
-            "Anthropic",
-            "AI",
-            "Software"
+            "Pharma",
+            "FDA",
+            "Merck KGaA",
+            "Cancer"
           ],
           "sources": [
             {
-              "name": "Fortune",
-              "url": "https://fortune.com/2026/11/10/anthropic-launches-office-knowledge-worker-product-launch-ahead-of-ipo"
+              "name": "PharmExec",
+              "url": "https://www.pharmexec.com/view/fda-approves-pimjetmi-patients-tenosynovial-giant-cell-tumor"
+            },
+            {
+              "name": "Contract Pharma",
+              "url": "https://www.contractpharma.com/breaking-news/fda-approves-merck-darmstadt-germanys-pimjetmi-for-symptomatic-tgct/"
+            },
+            {
+              "name": "PR Newswire via Morningstar",
+              "url": "https://www.morningstar.com/news/pr-newswire/20261110cn94839/pimjetmi-pimicotinib-developed-by-abbisko-therapeutics-and-licensed-by-merck-kgaa-darmstadt-germany-receive-us-fda-approval-for-tgct"
             }
           ],
-          "image": {
-            "url": "https://fortune.com/img-assets/wp-content/uploads/2026/11/IMG_0491-e1794334884723.jpg?resize=1200,600",
-            "credit": "Fortune/Alexei Oreskovic",
-            "source_url": "https://fortune.com/2026/11/10/anthropic-launches-office-knowledge-worker-product-launch-ahead-of-ipo",
-            "alt": "Anthropic product chief Ami Vora speaks on stage at the launch event"
-          },
-          "impact": []
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Merck KGaA",
+              "level": "low",
+              "dir": "up",
+              "why": "A US approval opens the largest market for the drug."
+            }
+          ]
         }
       ]
     }
@@ -741,11 +575,11 @@
       "date": "2026-11-12",
       "events": [
         {
-          "text": "India October CPI inflation (MoSPI)",
+          "text": "India October CPI inflation (MoSPI); economists expect about 6%",
           "section": "india"
         },
         {
-          "text": "Kushner and Witkoff to meet Putin in Moscow",
+          "text": "Kushner and Witkoff meet Putin in Moscow",
           "section": "world"
         },
         {
