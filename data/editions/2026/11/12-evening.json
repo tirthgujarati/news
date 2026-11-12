@@ -1,0 +1,779 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-12-evening",
+  "date": "2026-11-12",
+  "slot": "evening",
+  "title": "Thursday Evening Edition",
+  "generated_at": "2026-11-12T20:58:00+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "94.04",
+      "change": "+0.35%",
+      "dir": "up",
+      "as_of": "2026-11-12T00:00:00+05:30",
+      "source": {
+        "name": "Business Standard",
+        "url": "https://www.business-standard.com/economy/news/rupee-slips-past-94-us-yields-rise-bond-yields-harden-ahead-of-auction-126111201463_1.html"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "104.06",
+      "change": "+0.16%",
+      "dir": "up",
+      "as_of": "2026-11-12T15:16:30+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X/"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.07",
+      "change": "+0.15%",
+      "dir": "up",
+      "as_of": "2026-11-12T15:08:17+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$717.06bn",
+      "change": "-0.37%",
+      "dir": "down",
+      "as_of": "2026-10-30T00:00:00+05:30",
+      "source": {
+        "name": "RBI Weekly Statistical Supplement",
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewWSSExtractdata.aspx"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,299.35",
+      "change": "+0.18%",
+      "dir": "up",
+      "as_of": "2026-11-12T15:30:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/indian-markets-end-in-positive-zone/"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "81,911.01",
+      "change": "+0.04%",
+      "dir": "up",
+      "as_of": "2026-11-12T15:30:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/indian-markets-end-in-positive-zone/"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,589.02",
+      "change": "-0.40%",
+      "dir": "down",
+      "as_of": "2026-11-12T15:18:19+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "25,308.85",
+      "change": "-0.62%",
+      "dir": "down",
+      "as_of": "2026-11-12T15:18:18+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,865.70",
+      "change": "-3.37%",
+      "dir": "down",
+      "as_of": "2026-11-12T15:08:18+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/GC%3DF/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$93.93",
+      "change": "+1.26%",
+      "dir": "up",
+      "as_of": "2026-11-12T15:08:13+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ%3DF/"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$71,408",
+      "change": "-3.40%",
+      "dir": "down",
+      "as_of": "2026-11-12T15:18:15+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD/"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "5.07%",
+      "change": "+1.4%",
+      "dir": "up",
+      "as_of": "2026-11-12T15:03:14+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-cpi-october-6pct-2026-11-12",
+          "lead": true,
+          "importance": 5,
+          "verified": true,
+          "headline": "Retail inflation hits 6.09% in October, above the RBI's 6% upper limit",
+          "summary": "Consumer prices rose 6.09% from a year earlier in October, up from 5.54% in September, MoSPI data showed on Thursday. It is the first breach of the RBI's 2-6% tolerance band in two years and the highest reading in the new 2024-base series. Food inflation jumped to 8.94% from 7.74%, led by onions (up 116%), garlic and ginger; rural inflation was 6.63% and urban 5.41%.",
+          "why_it_matters": "ICRA's chief economist says a 25 bp repo rate hike at the Dec 2-4 RBI meeting now looks almost certain, which would raise loan costs.",
+          "published_at": "2026-11-12T16:12:38+05:30",
+          "tags": [
+            "Inflation",
+            "CPI",
+            "RBI",
+            "Food prices"
+          ],
+          "sources": [
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/economy/news/retail-inflation-at-6-09-in-october-breaches-rbi-s-upper-band-after-2-yrs-126111201088_1.html"
+            },
+            {
+              "name": "ThePrint",
+              "url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"
+            },
+            {
+              "name": "Xinhua",
+              "url": "https://english.news.cn/20261112/0c9c5dfa4a864e72b9a80cf2e2fb0f2b/c.html"
+            }
+          ],
+          "note": "Data released after Indian stock markets closed. ThePrint gives 8.51% for the wider food and beverages group; 8.94% is the food price index (CFPI).",
+          "impact": [
+            {
+              "on": "rates",
+              "level": "high",
+              "dir": "up",
+              "why": "Inflation above 6% makes an RBI rate hike in December very likely."
+            },
+            {
+              "on": "india_economy",
+              "level": "medium",
+              "dir": "down",
+              "why": "Faster food price rises squeeze household budgets, most of all in villages."
+            },
+            {
+              "on": "indian_stocks",
+              "level": "medium",
+              "dir": "down",
+              "why": "Rate-hike odds can weigh on rate-sensitive shares on Friday."
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "india-modi-asean-manila-2026-11-12",
+          "importance": 3,
+          "verified": false,
+          "headline": "PM Modi to visit Manila on Nov 16-17 for ASEAN-India and East Asia summits",
+          "summary": "Prime Minister Narendra Modi will make a two-day visit to Manila from November 16, the External Affairs Ministry said on Thursday. He will attend a dinner hosted by the Philippine President, then the 23rd ASEAN-India Summit and the East Asia Summit. India's trade with ASEAN is about $122 billion.",
+          "why_it_matters": null,
+          "published_at": "2026-11-12T19:17:00+05:30",
+          "tags": [
+            "Modi",
+            "ASEAN",
+            "Philippines",
+            "Diplomacy"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/pm-modi-to-attend-asean-summit-in-the-philippines-next-week/"
+            }
+          ],
+          "note": "Single source: All India Radio.",
+          "image": null,
+          "lead": false,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-trump-no-iran-deal-2026-11-12",
+          "importance": 5,
+          "verified": true,
+          "headline": "Trump says the US no longer needs a deal with Iran; oil prices jump",
+          "summary": "President Trump wrote on Truth Social on Thursday that the time for a deal with Tehran had passed, saying the US holds Iran's money and the Strait of Hormuz. Brent crude rose about 1.6% to $94.25 a barrel after the post, reversing an earlier fall on hopes for talks. Iran's foreign minister Abbas Araghchi says Iran's offer to reopen Hormuz within two days still stands if the war ends on all fronts.",
+          "why_it_matters": "Fading hopes of a deal keep Gulf oil flows at risk, which raises India's import bill and weighs on the rupee.",
+          "published_at": "2026-11-12T00:00:00-05:00",
+          "tags": [
+            "Iran",
+            "US",
+            "Hormuz",
+            "Oil"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
+            },
+            {
+              "name": "CNBC Africa",
+              "url": "https://www.cnbcafrica.com/2026/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait"
+            },
+            {
+              "name": "Quartz",
+              "url": "https://qz.com/oil-prices-reverse-trump-iran-deal-brent-111226"
+            }
+          ],
+          "note": "Araghchi's position is Iran's own statement.",
+          "impact": [
+            {
+              "on": "oil",
+              "level": "high",
+              "dir": "up",
+              "why": "No deal means the Hormuz disruption could last longer."
+            },
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "down",
+              "why": "Costlier oil raises India's import bill."
+            },
+            {
+              "on": "indian_stocks",
+              "level": "low",
+              "dir": "down",
+              "why": "Higher crude hurts oil-importing India's market mood."
+            }
+          ],
+          "image": null,
+          "lead": false
+        },
+        {
+          "id": "world-tanker-uae-indian-crew-2026-11-12",
+          "importance": 4,
+          "verified": true,
+          "headline": "Tanker with 19 Indian crew hit by projectile off UAE; all crew rescued safely",
+          "summary": "The Liberia-flagged crude tanker MT Dominica Prosperity was struck by a projectile on Wednesday while drifting off Mina Saqr port in Ras Al Khaimah, UAE. The UAE Coast Guard evacuated all 22 crew, including 19 Indians, with no injuries, Shipping Minister Sarbananda Sonowal said. A Saudi-flagged tanker, NCC Fajr, with three Indians aboard, was also in a possible attack in the Strait of Hormuz the same day. Nobody has said who fired.",
+          "why_it_matters": "Repeated attacks on tankers near Hormuz raise shipping and insurance costs for India's oil imports.",
+          "published_at": "2026-11-12T18:52:14+05:30",
+          "tags": [
+            "Tanker",
+            "UAE",
+            "Indian crew",
+            "Shipping"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/all-indian-seafarers-aboard-the-liberia-flagged-crude-oil-tanker-safe-sarbananda-sonowal/"
+            },
+            {
+              "name": "The Tribune (ANI)",
+              "url": "https://www.tribuneindia.com/news/crude-oil-tanker/all-19-indian-seafarers-safe-after-tanker-attack-off-uae-shipping-minister-sonowal"
+            }
+          ],
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "Fresh tanker attacks add to Gulf supply risk."
+            }
+          ],
+          "image": null,
+          "lead": false,
+          "note": null
+        },
+        {
+          "id": "world-envoys-putin-moscow-2026-11-12",
+          "importance": 4,
+          "verified": true,
+          "headline": "Update: Putin hosts Kushner and Witkoff in the Kremlin; envoys head to Dublin next",
+          "summary": "Update: Trump envoys Steve Witkoff and Jared Kushner met President Putin in Moscow on Thursday, after US-led Russia-Ukraine talks in Abu Dhabi ended with a prisoner swap plan but no peace breakthrough. Kushner said he saw \"some openings and some opportunities\". The envoys will then brief Ukraine's President Zelensky in Dublin, who says a deal is possible by early 2027.",
+          "why_it_matters": null,
+          "published_at": "2026-11-12T14:22:12+00:00",
+          "tags": [
+            "Russia",
+            "Ukraine",
+            "US",
+            "Peace talks"
+          ],
+          "sources": [
+            {
+              "name": "TIME",
+              "url": "https://time.com/article/2026/11/12/ukraine-russia-peace-deal-talks-putin-zelensky-witkoff-kushner/"
+            },
+            {
+              "name": "ABC News",
+              "url": "https://abcnews.com/International/witkoff-kushner-arrive-moscow-meet-putin-discuss-ukraine/story?id=138070892"
+            }
+          ],
+          "note": "What changed: the Kremlin meeting took place; no outcome announced yet.",
+          "impact": [],
+          "image": null,
+          "lead": false
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "id": "currency-rupee-slips-dollar-2026-11-12",
+          "importance": 4,
+          "verified": true,
+          "headline": "Rupee falls 33 paise to close at 94.04 per dollar as Fed hike bets lift dollar",
+          "summary": "Update: the rupee settled at 94.04 (provisional), down 33 paise from 93.71, after opening at 93.73 and touching 93.62. Dealers said dollar buying by state-run banks before the inflation data and a firm dollar on US rate-hike bets pushed it past 94; a day earlier it hit its strongest level since April. India's 10-year bond yield rose 3 basis points to 7.25%.",
+          "why_it_matters": "With inflation above 6% and the dollar strong, the rupee may stay under pressure near 94.",
+          "published_at": "2026-11-12T18:35:43+05:30",
+          "tags": [
+            "Rupee",
+            "Dollar",
+            "Bonds"
+          ],
+          "sources": [
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/economy/news/rupee-slips-past-94-us-yields-rise-bond-yields-harden-ahead-of-auction-126111201463_1.html"
+            },
+            {
+              "name": "Deccan Herald (PTI)",
+              "url": "https://www.deccanherald.com/business/markets/rupee-falls-33-paise-to-close-at-9404-against-us-dollar-4215907"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/rupee-depreciates-marginally-against-us-dollar/"
+            }
+          ],
+          "note": "All India Radio put the fall at 35 paise; PTI says 33 paise. Close is provisional.",
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "down",
+              "why": "A firm dollar and state-bank dollar buying pushed it past 94."
+            },
+            {
+              "on": "rates",
+              "level": "low",
+              "dir": "up",
+              "why": "Bond yields rose ahead of the weekly debt auction."
+            }
+          ],
+          "image": null,
+          "lead": false
+        },
+        {
+          "id": "currency-dollar-index-103-2026-11-12",
+          "importance": 3,
+          "verified": true,
+          "headline": "Dollar index tops 103 and US 10-year yield climbs above 5% on Fed hike bets",
+          "summary": "The dollar index rose about 0.15% to near 103.1, its high of the day, as traders bet the Federal Reserve will raise rates again in December. The US 10-year Treasury yield climbed to about 5.07%. Weekly US jobless claims rose to 200,000, a little above forecasts but still low.",
+          "why_it_matters": null,
+          "published_at": "2026-11-12T15:08:17+00:00",
+          "tags": [
+            "Dollar",
+            "Treasury yields",
+            "Fed"
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html"
+            },
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/economy/news/rupee-slips-past-94-us-yields-rise-bond-yields-harden-ahead-of-auction-126111201463_1.html"
+            }
+          ],
+          "impact": [
+            {
+              "on": "currency",
+              "level": "medium",
+              "dir": "up",
+              "why": "Expected Fed hikes make the dollar more attractive.",
+              "detail": "Dollar"
+            },
+            {
+              "on": "gold",
+              "level": "medium",
+              "dir": "down",
+              "why": "Higher yields hurt gold, which pays no interest."
+            }
+          ],
+          "image": null,
+          "lead": false,
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "id": "markets-nvidia-afterhours-huang-2026-11-12",
+          "importance": 5,
+          "verified": true,
+          "headline": "Nvidia CEO Jensen Huang resigns; CFO Colette Kress named interim chief",
+          "summary": "Update: Nvidia said on Thursday that co-founder Jensen Huang has stepped down as CEO and left its board with immediate effect, days after it opened an investigation into him over alleged affairs. CFO Colette Kress will run the company while the board searches for a permanent CEO. The shares fell about 13% at the open, then cut the loss to about 6% at $163 by 10:20 AM New York time; rivals AMD and Broadcom rose about 9%.",
+          "why_it_matters": "Losing the face of the AI boom adds risk for chip and tech shares worldwide, including Indian IT.",
+          "published_at": "2026-11-12T00:00:00-05:00",
+          "tags": [
+            "Nvidia",
+            "AI",
+            "Chips",
+            "CEO"
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20261110__D6YZ8T3__v1__MidRes__FilesTaiwanChinaUsSemiconductorsAiNvidia-1794443885_3ba669-1794443970.jpg?resize=1200%2C630&quality=80",
+            "credit": "I-Hwa Cheng/AFP",
+            "source_url": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future",
+            "alt": "Jensen Huang, in a black leather jacket, speaks on stage at Computex in Taipei"
+          },
+          "sources": [
+            {
+              "name": "ABC News",
+              "url": "https://abcnews.com/Business/nvidia-ceo-jensen-huang-resigns-amid-alleged-affair/story?id=138076256"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html"
+            },
+            {
+              "name": "Business Standard (Reuters)",
+              "url": "https://www.business-standard.com/world-news/wall-street-opens-lower-as-nvidia-ceo-huang-steps-down-tech-stocks-slide-126111201681_1.html"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future"
+            }
+          ],
+          "note": "What changed: the board talks ended in Huang's resignation. Share moves from Yahoo Finance quotes; Wednesday close $173.73.",
+          "impact": [
+            {
+              "on": "company",
+              "level": "high",
+              "dir": "down",
+              "why": "Its founder-CEO's sudden exit hits investor confidence.",
+              "detail": "Nvidia"
+            },
+            {
+              "on": "us_stocks",
+              "level": "high",
+              "dir": "down",
+              "why": "Nvidia's slide drags the Nasdaq and AI shares.",
+              "detail": "Tech"
+            },
+            {
+              "on": "company",
+              "level": "medium",
+              "dir": "up",
+              "why": "Investors bet rivals gain from Nvidia's leadership gap.",
+              "detail": "AMD"
+            },
+            {
+              "on": "indian_stocks",
+              "level": "low",
+              "dir": "down",
+              "why": "Weak global tech mood can weigh on IT shares.",
+              "detail": "IT"
+            }
+          ],
+          "lead": false
+        },
+        {
+          "id": "markets-wall-street-opens-lower-2026-11-12",
+          "importance": 4,
+          "verified": true,
+          "headline": "Wall Street opens lower as Nvidia drags tech; Nasdaq off 1.5% at the bell",
+          "summary": "At the open the S&P 500 fell 0.9% to 7,550.84 and the Nasdaq 1.47% to 25,092.11, while the Dow slipped 0.1% to 52,427.94. By about 10:20 AM New York time losses had narrowed, with the S&P 500 down 0.4% at 7,589 and the Nasdaq down 0.6% at 25,309.",
+          "why_it_matters": null,
+          "published_at": "2026-11-12T09:30:00-05:00",
+          "tags": [
+            "Wall Street",
+            "S&P 500",
+            "Nasdaq"
+          ],
+          "sources": [
+            {
+              "name": "Business Standard (Reuters)",
+              "url": "https://www.business-standard.com/world-news/wall-street-opens-lower-as-nvidia-ceo-huang-steps-down-tech-stocks-slide-126111201681_1.html"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+            }
+          ],
+          "impact": [
+            {
+              "on": "us_stocks",
+              "level": "medium",
+              "dir": "down",
+              "why": "Tech losses pull the main indices lower.",
+              "detail": "Tech"
+            }
+          ],
+          "image": null,
+          "lead": false,
+          "note": null
+        },
+        {
+          "id": "markets-sensex-nifty-close-2026-11-12",
+          "importance": 4,
+          "verified": true,
+          "headline": "Sensex, Nifty end slightly higher; midcaps, smallcaps and realty shine",
+          "summary": "The Nifty rose 44.30 points (0.18%) to 25,299.35 and the Sensex 31.61 points to 81,911.01. Broader shares did better: the Nifty Midcap 100 gained 0.9%, the Smallcap 100 1.1% and BSE Realty 4.8%. Bajaj Finance (+3.3%) and SBI (+2.3%) led, while HUL fell 2.9% and TCS 1.6%. Foreign investors bought Rs 12,563 crore of shares on Wednesday.",
+          "why_it_matters": "Markets closed before the 6.09% inflation print, so Friday's open will show how traders take the rate-hike risk.",
+          "published_at": "2026-11-12T17:20:00+05:30",
+          "tags": [
+            "Sensex",
+            "Nifty",
+            "Realty",
+            "Midcaps"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/indian-markets-end-in-positive-zone/"
+            },
+            {
+              "name": "Deccan Herald (PTI)",
+              "url": "https://www.deccanherald.com/business/markets/rupee-falls-33-paise-to-close-at-9404-against-us-dollar-4215907"
+            }
+          ],
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "level": "medium",
+              "dir": "up",
+              "why": "Realty shares jumped 4.8%, leading the sectors.",
+              "detail": "Realty"
+            },
+            {
+              "on": "indian_stocks",
+              "level": "low",
+              "dir": "down",
+              "why": "TCS fell as global tech shares slid.",
+              "detail": "IT"
+            }
+          ],
+          "image": null,
+          "lead": false,
+          "note": null
+        },
+        {
+          "id": "markets-brent-gold-iran-2026-11-12",
+          "importance": 4,
+          "verified": true,
+          "headline": "Gold slides over 3% to about $3,866 and silver 4% as dollar and yields rise",
+          "summary": "Update: gold futures fell about 3.4% to $3,865.70 an ounce and silver about 4% to $49.81 by 8:40 PM IST, as a firm dollar, US yields above 5% and bets on a December Fed hike hit metals. Brent crude rose about 1.3% to $93.93 after Trump's Iran comments. Bitcoin fell 3.4% to about $71,400.",
+          "why_it_matters": "A sharp fall in global gold could pull down MCX gold and silver prices in India on Friday.",
+          "published_at": "2026-11-12T20:38:00+05:30",
+          "tags": [
+            "Gold",
+            "Silver",
+            "Brent",
+            "Bitcoin"
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/GC%3DF/"
+            },
+            {
+              "name": "FXStreet",
+              "url": "https://www.fxstreet.com/news/gold-falls-below-4-000-as-traders-weigh-a-half-point-fed-rate-hike-202611121051"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
+            }
+          ],
+          "note": "What changed since midday: gold's fall deepened from 0.8% to over 3%. Prices from Yahoo Finance futures quotes.",
+          "impact": [
+            {
+              "on": "gold",
+              "level": "high",
+              "dir": "down",
+              "why": "Rate-hike bets and a strong dollar push gold lower."
+            },
+            {
+              "on": "silver",
+              "level": "high",
+              "dir": "down",
+              "why": "Silver fell even harder than gold."
+            },
+            {
+              "on": "crypto",
+              "level": "medium",
+              "dir": "down",
+              "why": "Risk assets slid with tech stocks."
+            },
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "Trump's no-deal stance lifts crude."
+            }
+          ],
+          "image": null,
+          "lead": false
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": []
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "GBP",
+      "title": "GDP m/m",
+      "date": "2026-11-12T02:00:00-05:00",
+      "impact": "High",
+      "actual": "0.2%",
+      "vs_forecast": "better",
+      "why": "UK output grew in September when no growth was expected, a small support for the pound.",
+      "source": {
+        "name": "ONS",
+        "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/julytoseptember2026"
+      }
+    },
+    {
+      "country": "GBP",
+      "title": "Prelim GDP q/q",
+      "date": "2026-11-12T02:00:00-05:00",
+      "impact": "Medium",
+      "actual": "0.7%",
+      "vs_forecast": "in_line",
+      "why": "Q3 growth of 0.7% matched forecasts, the fastest in over two years; little surprise for the pound.",
+      "source": {
+        "name": "ONS",
+        "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/julytoseptember2026"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "Unemployment Claims",
+      "date": "2026-11-12T08:30:00-05:00",
+      "impact": "Medium",
+      "actual": "200K",
+      "vs_forecast": "worse",
+      "why": "Claims rose more than expected but stay very low; little change to Fed hike bets or the dollar.",
+      "source": {
+        "name": "FXStreet",
+        "url": "https://www.fxstreet.com/news/us-initial-jobless-claims-rose-to-200k-last-week-202611121337"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-13",
+      "events": [
+        {
+          "text": "US October producer prices (PPI)",
+          "section": "markets"
+        },
+        {
+          "text": "RBI weekly forex reserves data",
+          "section": "currency"
+        },
+        {
+          "text": "PM Modi visits Karnataka and Gujarat (Nov 13-14)",
+          "section": "india"
+        },
+        {
+          "text": "SpaceX Starship Flight 15, first booster-and-ship catch attempt (pending approval)",
+          "section": "built"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "events": [
+        {
+          "text": "India October trade data, per Commerce Minister Goyal",
+          "section": "india"
+        },
+        {
+          "text": "India October unemployment rate",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "events": [
+        {
+          "text": "PM Modi arrives in Manila for a two-day visit",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "events": [
+        {
+          "text": "23rd ASEAN-India Summit and East Asia Summit in Manila",
+          "section": "india"
+        },
+        {
+          "text": "Anthropic IPO retail offer in Australia closes",
+          "section": "markets"
+        }
+      ]
+    }
+  ]
+}
