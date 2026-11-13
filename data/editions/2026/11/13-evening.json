@@ -1,0 +1,744 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-13-evening",
+  "date": "2026-11-13",
+  "slot": "evening",
+  "title": "Friday Evening Edition",
+  "generated_at": "2026-11-13T21:22:29+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "94.20",
+      "change": "+0.09%",
+      "dir": "up",
+      "as_of": "2026-11-13T00:00:00+05:30",
+      "source": {
+        "name": "PTI via TradingView",
+        "url": "https://www.tradingview.com/news/moodys:13636e5ce594f:0-rupee-falls-8-paise-to-close-at-94-20-against-us-dollar/"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "104.20",
+      "change": "+0.30%",
+      "dir": "up",
+      "as_of": "2026-11-13T15:06:34+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR%3DX/"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.28",
+      "change": "+0.10%",
+      "dir": "up",
+      "as_of": "2026-11-13T15:36:24+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$719.55bn",
+      "change": "+0.35%",
+      "dir": "up",
+      "as_of": "2026-11-06T00:00:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/indias-forex-reserves-increase-by-2-49bn-to-reach-719-54bn-last-week/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,144.30",
+      "change": "-0.61%",
+      "dir": "down",
+      "as_of": "2026-11-13T10:01:20+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI/"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "81,592.45",
+      "change": "-0.39%",
+      "dir": "down",
+      "as_of": "2026-11-13T10:02:31+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN/"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,521.87",
+      "change": "-0.93%",
+      "dir": "down",
+      "as_of": "2026-11-13T15:46:24+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "24,961.14",
+      "change": "-1.60%",
+      "dir": "down",
+      "as_of": "2026-11-13T15:46:21+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,881.60",
+      "change": "-0.10%",
+      "dir": "down",
+      "as_of": "2026-11-13T15:36:24+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/GC%3DF/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$96.37",
+      "change": "+0.57%",
+      "dir": "up",
+      "as_of": "2026-11-13T15:36:18+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ%3DF/"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$68,254",
+      "change": "-4.33%",
+      "dir": "down",
+      "as_of": "2026-11-13T15:46:24+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD/"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "5.12%",
+      "change": "+0.43%",
+      "dir": "up",
+      "as_of": "2026-11-13T15:37:14+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-exports-record-october-2026-11-13",
+          "headline": "India's goods exports hit a record $49.5 billion in October, up 45%",
+          "summary": "Commerce ministry data show merchandise exports rose about 45% from a year ago to $49.47 billion, the highest for any month, led by petroleum products, electronics, gems and jewellery, chemicals and engineering goods. Goods imports were about $89.4 billion, so the goods deficit was about $39.9 billion, but counting services the overall trade deficit narrowed to $20.09 billion from $25.15 billion a year ago. Total exports of goods and services from April to October topped $568 billion, up more than 16%.",
+          "why_it_matters": "A smaller overall trade gap means less dollar demand, which helps a rupee stuck near 94 per dollar.",
+          "importance": 5,
+          "lead": true,
+          "verified": true,
+          "note": "October services figures are estimates; RBI services data runs to September.",
+          "published_at": "2026-11-13T20:08:00+05:30",
+          "tags": [
+            "Trade",
+            "Exports",
+            "Economy"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/countrys-total-exports-grow-by-over-16-from-april-to-oct-this-fiscal-as-compared-to-last-fiscal-same-period/"
+            },
+            {
+              "name": "Angel One (citing Commerce Ministry data)",
+              "url": "https://www.angelone.in/news/economy/india-s-merchandise-exports-hit-record-49-47-billion-up-45-in-october-2026"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "india_economy",
+              "level": "medium",
+              "dir": "up",
+              "why": "Record exports support growth and the current account."
+            },
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "up",
+              "why": "A narrower overall trade gap means less dollar demand."
+            }
+          ]
+        },
+        {
+          "id": "india-nseix-europe-markets-2026-11-13",
+          "headline": "NSE's GIFT City exchange opens seven European markets to Indian investors",
+          "summary": "NSE International Exchange's global access arm now lets investors buy more than 11,500 securities, including over 8,200 UCITS ETFs, in the UK, France, Germany, Ireland, Italy, the Netherlands and Switzerland. They sit in the same single account as its existing US market offering.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-13T17:09:00+05:30",
+          "tags": [
+            "GIFT City",
+            "NSE",
+            "Investing"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/nseix-opens-european-markets-to-indian-investors-via-gift-city-platform/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-iran-bahrain-radar-claim-2026-11-13",
+          "headline": "Iran's IRGC says it destroyed a US radar in Bahrain; US says it shot down 2 drones",
+          "summary": "Iran's Revolutionary Guards say they struck a US early-warning radar in Bahrain in revenge for an attack on a telecom tower in the port town of Sirik. US Central Command says it shot down both attack drones launched toward Bahrain, with no injuries or damage. It is the first claimed Iranian strike on US assets in a Gulf country in about two months.",
+          "why_it_matters": "A new Iran-US clash in the Gulf adds risk to oil supplies and prices, which India imports heavily.",
+          "importance": 5,
+          "lead": false,
+          "verified": false,
+          "note": "Both sides' accounts are claims; Al Jazeera says neither could be independently confirmed.",
+          "published_at": "2026-11-13T20:19:00+05:30",
+          "tags": [
+            "Iran",
+            "US",
+            "Bahrain",
+            "Gulf"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera (Reuters)",
+              "url": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/washington-refutes-tehrans-claim-of-destroying-us-early-warning-radar-system-in-bahrain/"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/05/getty_69f846d446-1777878740.jpg",
+            "credit": "Handout via Getty Images (file)",
+            "source_url": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain",
+            "alt": "File photo of the US amphibious ship USS New Orleans arriving at a pier in Bahrain"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "Fresh Iran-US clashes in the Gulf raise supply risk."
+            }
+          ]
+        },
+        {
+          "id": "world-microsoft-outage-2026-11-13",
+          "headline": "Microsoft says email is recovering after an Outlook and 365 outage of 20+ hours",
+          "summary": "Outlook, Teams, SharePoint and Copilot went down for millions of users from about 11:30 PM IST Thursday, hitting governments and firms across Asia and Europe; Air India rerouted emails and the UK's NHS reported disruption. Microsoft blamed failed server health checks under heavy load, says it found no malicious activity, and said on Friday email queues were nearing normal levels.",
+          "why_it_matters": null,
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-12T15:54:00-05:00",
+          "tags": [
+            "Microsoft",
+            "Outage",
+            "Tech"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/live-microsoft-struggles-to-restore-services-as-outage-hits-global-users"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Microsoft",
+              "level": "low",
+              "dir": "down",
+              "why": "A long outage hurts trust in its cloud business; shares opened slightly lower."
+            }
+          ]
+        },
+        {
+          "id": "world-russia-ukraine-drones-kremlin-2026-11-13",
+          "headline": "Russia says it downed 1,198 Ukrainian drones; Kremlin cool on European mediators",
+          "summary": "Russia's defence ministry says it intercepted 1,198 Ukrainian drones overnight across more than 15 regions; four people were killed in Volgograd, its governor says. Ukraine says Russian strikes killed at least two in Odesa and hit a Kyiv hospital. New since midday: the Kremlin says it has not yet agreed to European mediators joining talks, after US envoy Witkoff said Putin had accepted them.",
+          "why_it_matters": null,
+          "importance": 4,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera (AP, Reuters). Casualty and drone figures are each side's own claims.",
+          "published_at": "2026-11-13T00:00:00+00:00",
+          "tags": [
+            "Russia",
+            "Ukraine",
+            "Peace talks"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/13/russia-and-ukraine-report-overnight-attacks-amid-us-diplomatic-push"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/13/finland-detects-strike-on-russian-warship-as-zelenskyy-meets-us-envoys"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-iaea-iran-inspections-2026-11-13",
+          "headline": "UN nuclear watchdog urges Iran to let inspectors back in 'with utmost urgency'",
+          "summary": "An IAEA report sent to member states on Friday says it has no information on Iran's sites and nuclear material, which is a proliferation concern, and is ready to resume checks at short notice. It still does not know the location or status of Iran's declared Isfahan enrichment plant. Iran says inspections cannot resume while it faces US threats.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera.",
+          "published_at": "2026-11-13T00:00:00+00:00",
+          "tags": [
+            "Iran",
+            "IAEA",
+            "Nuclear"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/13/un-watchdog-calls-on-iran-to-reopen-nuclear-facilities-to-inspection"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "id": "currency-rupee-close-94-20-2026-11-13",
+          "headline": "Rupee ends about 94.20 per dollar as the dollar index hits a 19-month high",
+          "summary": "The rupee closed near 94.20 per dollar on Friday, about 8 paise weaker, after trading as low as about 94.28. The dollar index rose above 103.2, its highest since April 2025, as markets fully price a December Fed rate hike and US 10-year yields stay above 5.1%. Weak Indian shares added to the pressure.",
+          "why_it_matters": "A weaker rupee raises the cost of oil and other imports and adds to inflation that is already above the RBI's limit.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": "Close per PTI (94.19-94.20, provisional); All India Radio reported 94.25 in late trade.",
+          "published_at": "2026-11-13T18:55:00+05:30",
+          "tags": [
+            "Rupee",
+            "Dollar",
+            "Forex"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/rupee-depreciates-by-21-paise-against-us-dollar/"
+            },
+            {
+              "name": "PTI via TradingView",
+              "url": "https://www.tradingview.com/news/moodys:13636e5ce594f:0-rupee-falls-8-paise-to-close-at-94-20-against-us-dollar/"
+            },
+            {
+              "name": "ThePrint (PTI)",
+              "url": "https://theprint.in/economy/rupee-falls-7-paise-to-close-at-94-19-against-us-dollar/3098258/"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "down",
+              "why": "A strong dollar and Fed hike bets keep pressure on the rupee."
+            },
+            {
+              "on": "currency",
+              "detail": "Dollar",
+              "level": "medium",
+              "dir": "up",
+              "why": "Hot US inflation and hike bets keep the dollar near 19-month highs."
+            }
+          ]
+        },
+        {
+          "id": "currency-forex-reserves-719bn-2026-11-13",
+          "headline": "India's forex reserves rise $2.49 billion to $719.55 billion",
+          "summary": "RBI data show reserves rose to $719.55 billion in the week to November 6, after falling $2.69 billion the week before. Most of the gain came from gold holdings, up $2.21 billion to $104.80 billion; foreign currency assets rose $232 million to $591.35 billion.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio, citing RBI data.",
+          "published_at": "2026-11-13T20:06:00+05:30",
+          "tags": [
+            "Forex reserves",
+            "RBI"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/indias-forex-reserves-increase-by-2-49bn-to-reach-719-54bn-last-week/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "up",
+              "why": "Bigger reserves give the RBI more room to steady the rupee."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "id": "markets-wall-street-ppi-open-2026-11-13",
+          "headline": "US stocks turn lower after producer prices jump 6.5% in a year; Nasdaq down 1.6%",
+          "summary": "US producer prices rose 0.3% in October, a bit below forecasts, but 6.5% from a year ago, the fastest since 2022, and core prices rose 0.5%. Stocks opened slightly higher, then fell: by about 9:15 PM IST the S&P 500 was near 7,522, down 0.9%, and the Nasdaq near 24,961, down 1.6%, as Nvidia slid again. Traders fully price a Fed rate hike on December 9.",
+          "why_it_matters": "Hot US inflation keeps a December Fed hike locked in, which supports the dollar and weighs on the rupee and Indian stocks.",
+          "importance": 5,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-13T10:40:00-05:00",
+          "tags": [
+            "Wall Street",
+            "PPI",
+            "Fed",
+            "Nvidia"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "US Bureau of Labor Statistics",
+              "url": "https://www.bls.gov/news.release/ppi.nr0.htm"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "high",
+              "dir": "down",
+              "why": "Hot producer prices and Nvidia losses drag the Nasdaq."
+            },
+            {
+              "on": "rates",
+              "level": "medium",
+              "dir": "up",
+              "why": "Inflation data lock in bets on a December Fed hike."
+            },
+            {
+              "on": "gold",
+              "level": "low",
+              "dir": "down",
+              "why": "Higher US yields make gold less attractive."
+            }
+          ]
+        },
+        {
+          "id": "markets-sensex-nifty-close-2026-11-13",
+          "headline": "Sensex falls 319 points, Nifty ends at 25,144 as a 3-day winning run ends",
+          "summary": "The Sensex closed down 319 points (0.4%) at 81,592 and the Nifty 50 fell 155 points (0.6%) to 25,144. Mahindra & Mahindra, UltraTech Cement and Bharat Electronics fell most, while Hindustan Unilever, Asian Paints and Bharti Airtel gained. Realty and auto shares led the fall; 24 of 28 BSE sectors ended lower.",
+          "why_it_matters": null,
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-13T17:39:00+05:30",
+          "tags": [
+            "Sensex",
+            "Nifty",
+            "Stocks"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/indian-markets-end-in-positive-zone/"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5ENSEI/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Auto",
+              "level": "medium",
+              "dir": "down",
+              "why": "Selling in autos and realty ended a three-day rally."
+            }
+          ]
+        },
+        {
+          "id": "markets-iea-oil-supply-surplus-2026-11-13",
+          "headline": "IEA says oil supply topped demand in October for the first time since the Iran war",
+          "summary": "The IEA's monthly report says world oil supply jumped 2.3 million barrels a day to 105.4 million in October and stocks rose 52 million barrels, the first build since June. It sees tentative signs of the market rebalancing, with Russian crude output up to 8.73 million barrels a day.",
+          "why_it_matters": "A supply surplus could cap oil prices, easing India's import bill if Gulf tensions stay contained.",
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: CNBC, reporting the IEA's monthly oil market report.",
+          "published_at": "2026-11-13T07:05:00-05:00",
+          "tags": [
+            "Oil",
+            "IEA",
+            "Russia"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/13/russia-oil-exports-iea-diesel-deal.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "down",
+              "why": "Supply now exceeds demand and stocks are rebuilding."
+            }
+          ]
+        },
+        {
+          "id": "markets-gold-silver-india-fall-2026-11-13",
+          "headline": "Gold falls 1.4% in India to Rs 1,35,809 per 10 grams; silver down 1.7%",
+          "summary": "Indian gold prices fell 1.4% to Rs 1,35,809 per 10 grams for 24-carat and silver dropped 1.7% to Rs 1,78,000 per kg, based on IBJA closing rates. This reverses the small rebound seen in global prices earlier on Friday, as a strong dollar and high US yields weigh on metals.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio, citing IBJA rates.",
+          "published_at": "2026-11-13T18:56:00+05:30",
+          "tags": [
+            "Gold",
+            "Silver"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/gold-and-silver-prices-decline/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "gold",
+              "level": "low",
+              "dir": "down",
+              "why": "A strong dollar and rate-hike bets pressure gold."
+            },
+            {
+              "on": "silver",
+              "level": "low",
+              "dir": "down",
+              "why": "Silver tracks gold lower."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "id": "built-gemini-4-hydrogen-2026-11-12",
+          "headline": "Google launches Gemini 4 Hydrogen, a fast, cheap AI model for agent tasks",
+          "summary": "Google released Gemini 4 Hydrogen, a faster model for coding and agent workflows, priced at $1.50 per million input tokens and $7.50 per million output tokens across a 1-million-token context. Google says it finishes tasks about 2.5 times faster than Gemini 3.8 Flash and scores 57% on Terminal-Bench 4.1, up from 18.2%. It is rolling out in the Gemini app, Search, the API and Workspace.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Google blog; benchmark figures are Google's own.",
+          "published_at": "2026-11-12T00:00:00-08:00",
+          "tags": [
+            "Google",
+            "AI",
+            "Gemini"
+          ],
+          "sources": [
+            {
+              "name": "Google",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "built-alphagenome-2-2026-11-11",
+          "headline": "DeepMind's AlphaGenome 2 predicts how DNA changes affect genes in specific cells",
+          "summary": "Google DeepMind unveiled AlphaGenome 2, trained on more than 100 million single-cell profiles from 68 tissues. DeepMind says it finds causal gene variants 30% of the time on a key immune-cell test, versus 16% for earlier tools. It is open to non-commercial researchers through an API and is not cleared for clinical use.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Google DeepMind blog; results are DeepMind's own.",
+          "published_at": "2026-11-11T00:00:00+00:00",
+          "tags": [
+            "DeepMind",
+            "Genomics",
+            "AI"
+          ],
+          "sources": [
+            {
+              "name": "Google DeepMind",
+              "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "USD",
+      "title": "Core PPI m/m",
+      "date": "2026-11-13T08:30:00-05:00",
+      "impact": "High",
+      "actual": "0.5%",
+      "vs_forecast": "better",
+      "why": "Core producer prices rose faster than the 0.3% forecast, backing a December Fed hike and a stronger dollar.",
+      "source": {
+        "name": "US Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/ppi.nr0.htm"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "PPI m/m",
+      "date": "2026-11-13T08:30:00-05:00",
+      "impact": "High",
+      "actual": "0.3%",
+      "vs_forecast": "worse",
+      "why": "Headline producer prices rose a bit less than the 0.4% forecast, though they are up 6.5% on the year.",
+      "source": {
+        "name": "US Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/ppi.nr0.htm"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-14",
+      "events": [
+        {
+          "text": "SpaceX Starship Flight 15 window opens 4:15 AM IST, first double catch try (pending FAA)",
+          "section": "built"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "events": [
+        {
+          "text": "India October unemployment rate",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "events": [
+        {
+          "text": "PM Modi arrives in Manila for a two-day visit",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "events": [
+        {
+          "text": "23rd ASEAN-India Summit and East Asia Summit in Manila",
+          "section": "india"
+        },
+        {
+          "text": "Anthropic IPO retail offer in Australia closes",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "events": [
+        {
+          "text": "India hosts first SCO Civilisational Dialogue Forum in New Delhi",
+          "section": "india"
+        }
+      ]
+    }
+  ]
+}
