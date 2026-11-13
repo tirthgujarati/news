@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-13-morning",
+  "edition_id": "2026-11-13-midday",
   "date": "2026-11-13",
-  "slot": "morning",
-  "title": "Friday Morning Edition",
-  "generated_at": "2026-11-13T07:37:04+05:30",
+  "slot": "midday",
+  "title": "Friday Midday Edition",
+  "generated_at": "2026-11-13T13:47:39+05:30",
   "snapshot": [
     {
       "id": "usdinr",
       "label": "USD/INR",
-      "value": "94.04",
-      "change": "+0.35%",
+      "value": "94.24",
+      "change": "+0.13%",
       "dir": "up",
-      "as_of": "2026-11-12T00:00:00+05:30",
+      "as_of": "2026-11-13T08:10:38+00:00",
       "source": {
-        "name": "Business Standard",
-        "url": "https://www.business-standard.com/economy/news/rupee-slips-past-94-us-yields-rise-bond-yields-harden-ahead-of-auction-126111201463_1.html"
+        "name": "FXStreet",
+        "url": "https://www.fxstreet.com/news/indian-rupee-corrects-further-on-continued-us-dollar-outperformance-202611130526"
       }
     },
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "103.99",
-      "change": "+0.02%",
+      "value": "104.26",
+      "change": "+0.37%",
       "dir": "up",
-      "as_of": "2026-11-13T01:11:32+00:00",
+      "as_of": "2026-11-13T08:10:39+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURINR=X/"
@@ -33,10 +33,10 @@
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "103.13",
-      "change": "-0.04%",
-      "dir": "down",
-      "as_of": "2026-11-13T01:50:21+00:00",
+      "value": "103.17",
+      "change": "0.00%",
+      "dir": "flat",
+      "as_of": "2026-11-13T08:00:39+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
@@ -57,25 +57,25 @@
     {
       "id": "nifty",
       "label": "Nifty 50",
-      "value": "25,299.35",
-      "change": "+0.18%",
-      "dir": "up",
-      "as_of": "2026-11-12T15:30:00+05:30",
+      "value": "25,119.10",
+      "change": "-0.71%",
+      "dir": "down",
+      "as_of": "2026-11-13T13:40:38+05:30",
       "source": {
-        "name": "All India Radio",
-        "url": "https://newsonair.gov.in/indian-markets-end-in-positive-zone/"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI/"
       }
     },
     {
       "id": "sensex",
       "label": "Sensex",
-      "value": "81,911.01",
-      "change": "+0.04%",
-      "dir": "up",
-      "as_of": "2026-11-12T15:30:00+05:30",
+      "value": "81,491.66",
+      "change": "-0.51%",
+      "dir": "down",
+      "as_of": "2026-11-13T13:25:38+05:30",
       "source": {
-        "name": "All India Radio",
-        "url": "https://newsonair.gov.in/indian-markets-end-in-positive-zone/"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN/"
       }
     },
     {
@@ -105,10 +105,10 @@
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$3,912.70",
-      "change": "+0.71%",
+      "value": "$3,901.10",
+      "change": "+0.41%",
       "dir": "up",
-      "as_of": "2026-11-13T01:50:19+00:00",
+      "as_of": "2026-11-13T08:00:39+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/GC=F/"
@@ -117,10 +117,10 @@
     {
       "id": "brent",
       "label": "Brent crude",
-      "value": "$95.14",
-      "change": "-0.71%",
-      "dir": "down",
-      "as_of": "2026-11-13T01:52:46+00:00",
+      "value": "$96.06",
+      "change": "+0.25%",
+      "dir": "up",
+      "as_of": "2026-11-13T08:00:34+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BZ=F/"
@@ -129,10 +129,10 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$70,792",
-      "change": "-0.81%",
+      "value": "$68,705",
+      "change": "-3.70%",
       "dir": "down",
-      "as_of": "2026-11-13T02:02:59+00:00",
+      "as_of": "2026-11-13T08:10:26+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BTC-USD/"
@@ -157,34 +157,39 @@
       "title": "India",
       "stories": [
         {
-          "why_it_matters": "Tighter checks on cash remittances aim to cut fraud and money laundering through bank and payment networks.",
+          "why_it_matters": "Lower entry barriers could bring more small operators and self-drive rentals into the formal market.",
           "lead": false,
           "verified": false,
           "note": "Single source: All India Radio.",
           "tags": [
-            "RBI",
-            "Payments",
-            "Banking"
+            "Transport",
+            "Regulation",
+            "Cabs"
           ],
-          "image": null,
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/cab.jpg",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/govt-proposes-reforms-to-simplify-rules-for-governing-cab-rental-businesses-improve-passenger-safety/",
+            "alt": "A row of white taxi cars parked outside a building"
+          },
           "impact": [
             {
               "on": "indian_stocks",
-              "detail": "Banks",
+              "detail": "Auto",
               "level": "low",
-              "dir": "mixed",
-              "why": "Banks and payment firms face extra compliance checks on cash transfers."
+              "dir": "up",
+              "why": "Easier rules for small fleets could add some demand for cars."
             }
           ],
-          "id": "india-rbi-domestic-transfer-rules-2026-11-12",
-          "headline": "RBI issues new rules for domestic money transfers, tightens cash-remittance checks",
-          "summary": "The RBI issued consolidated directions on domestic money transfers on Thursday, keeping existing limits but adding safeguards on cash-based remittances. People without a bank account can still send up to Rs 50,000 via NEFT at a branch, and up to Rs 5,000 a transaction (Rs 25,000 a month) through business correspondents or ATMs. Banks must flag unusual credit patterns, send customer alerts and report suspicious transfers.",
+          "id": "india-cab-rental-rules-reform-2026-11-13",
+          "headline": "Centre proposes easier cab rental rules: fleet minimum cut from 50 cars to 5",
+          "summary": "The road transport ministry has proposed reforms to cab rental licensing. Operators could offer cars with or without drivers, the minimum fleet would fall from 50 to five vehicles, and one electronic licence would cover a whole state with a 60-day decision deadline. Cabs would need location trackers and first-aid kits, and operator-provided drivers would need police verification.",
           "importance": 3,
-          "published_at": "2026-11-12T21:33:00+05:30",
+          "published_at": "2026-11-13T08:54:29+05:30",
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/rbi-issues-new-domestic-transfer-guidelines/"
+              "url": "https://newsonair.gov.in/govt-proposes-reforms-to-simplify-rules-for-governing-cab-rental-businesses-improve-passenger-safety/"
             }
           ]
         },
@@ -194,21 +199,21 @@
           "verified": false,
           "note": "Single source: All India Radio.",
           "tags": [
-            "Infrastructure",
-            "Karnataka",
-            "Railways"
+            "Home Ministry",
+            "UAPA",
+            "Security"
           ],
           "image": null,
           "impact": [],
-          "id": "india-modi-bengaluru-projects-2026-11-13",
-          "headline": "PM Modi to launch Rs 15,600 crore of projects in Karnataka today",
-          "summary": "Prime Minister Modi starts a two-day Karnataka and Gujarat visit on Friday, launching projects worth over Rs 15,600 crore in urban transport, power, renewables, petroleum and railways. He will open a Bengaluru Metro Pink Line stretch, flag off a Bengaluru-Mangaluru-Madgaon Vande Bharat train and dedicate India's largest underground LPG storage cavern at Mangaluru.",
+          "id": "india-irf-ban-extended-2026-11-13",
+          "headline": "Centre extends ban on Zakir Naik's Islamic Research Foundation by five years",
+          "summary": "The Home Ministry has extended the ban on the Islamic Research Foundation under the anti-terror law UAPA for another five years. The government says the group's activities threaten security and communal harmony, citing speeches by its founder Zakir Naik. The group was first banned in 2016 and the ban was renewed in 2021.",
           "importance": 2,
-          "published_at": "2026-11-13T07:10:00+05:30",
+          "published_at": "2026-11-13T12:00:45+05:30",
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/pm-modi-to-launch-various-development-projects-worth-over-rs-15600-cr-in-bengaluru-karnataka-today/"
+              "url": "https://newsonair.gov.in/centre-extends-ban-on-the-islamic-research-foundation-irf-for-another-5-yrs/"
             }
           ]
         }
@@ -219,49 +224,69 @@
       "title": "World",
       "stories": [
         {
-          "why_it_matters": "Saudi Arabia says it sends about 4 million barrels a day through this pipeline to avoid Hormuz, so any hit threatens a key oil route.",
-          "lead": true,
-          "verified": false,
-          "note": "Strike claims by the Houthis; Saudi side reports only interceptions. Not independently confirmed.",
+          "why_it_matters": "A new US-Mexico tariff fight would hit North American supply chains while the two sides negotiate cuts to existing duties.",
+          "lead": false,
+          "verified": true,
+          "note": null,
           "tags": [
-            "Houthis",
-            "Saudi Arabia",
-            "Oil",
-            "Yemen"
+            "US",
+            "Mexico",
+            "Tariffs",
+            "Migration"
           ],
           "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af63caea5bc3-1794522286.jpg?resize=1920%2C1440",
-            "credit": "AP via Al Jazeera",
-            "source_url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions",
-            "alt": "Members of the UN Security Council seated around the horseshoe table in New York (file photo)"
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/DT-1.jpg",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/us-president-trump-threatens-to-double-tariffs-on-mexico-unless-it-stops-migrant-caravans-travelling-towards-united-states/",
+            "alt": "Donald Trump seated at a conference table"
           },
           "impact": [
             {
-              "on": "oil",
-              "level": "high",
-              "dir": "up",
-              "why": "Attacks on Saudi's Hormuz bypass route raise the risk to supply."
-            },
-            {
-              "on": "rupee",
-              "level": "medium",
-              "dir": "down",
-              "why": "Higher oil means a bigger import bill for India."
+              "on": "currency",
+              "detail": "Dollar",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Tariff threats add trade uncertainty for the dollar and Mexican peso."
             }
           ],
-          "id": "world-houthis-saudi-pipeline-2026-11-12",
-          "headline": "Houthis say they hit Saudi oil pipeline and Yanbu; Riyadh says drones intercepted",
-          "summary": "Yemen's Houthis say a drone hit a pumping station on Saudi Arabia's East-West oil pipeline and that they targeted oil facilities at the Red Sea port of Yanbu, an airbase and Aramco's Riyadh headquarters. The Saudi-led coalition says it shot down drones over the Riyadh region and the Eastern Province, and has not confirmed any damage. The UN Security Council on Thursday unanimously extended Yemen sanctions for a year and condemned Houthi attacks on Saudi Arabia.",
-          "importance": 5,
-          "published_at": "2026-11-12T00:00:00+03:00",
+          "id": "world-trump-mexico-tariffs-caravans-2026-11-12",
+          "headline": "Trump threatens to double tariffs on Mexico unless it stops migrant caravans",
+          "summary": "President Trump said on social media that tariffs on Mexico would be doubled unless it halts migrant caravans heading north. He did not say which tariffs or goods were meant. Mexican President Claudia Sheinbaum replied that no caravan has reached the US border since January 2025 and that the groups now in Mexico are small.",
+          "importance": 4,
+          "published_at": "2026-11-12T00:00:00-07:00",
           "sources": [
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions"
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/us-president-trump-threatens-to-double-tariffs-on-mexico-unless-it-stops-migrant-caravans-travelling-towards-united-states/"
             },
             {
-              "name": "The New Arab",
-              "url": "https://www.newarab.com/news/yemens-houthis-claim-attacks-saudi-oil-military-sites"
+              "name": "KJZZ",
+              "url": "https://www.kjzz.org/fronteras-desk/2026-11-12/sheinbaum-says-migrant-caravans-will-not-reach-u-s-mexico-border-as-trump-threatens-higher-tariffs"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio (citing Witkoff); not confirmed by the Kremlin in sources read.",
+          "tags": [
+            "Russia",
+            "Ukraine",
+            "Europe",
+            "Peace talks"
+          ],
+          "image": null,
+          "impact": [],
+          "id": "world-putin-europe-ukraine-talks-2026-11-13",
+          "headline": "Update: US envoy Witkoff says Putin agreed to let Europe join next Ukraine talks",
+          "summary": "New since Thursday's Kremlin meeting: US envoy Steve Witkoff told Russian state TV that Putin agreed European representatives can take part in the next round of Ukraine peace talks, calling it a breakthrough. Putin said Washington must work out with its allies whether Europe wants peace or war. Earlier talks in Abu Dhabi produced a prisoner swap deal but no deal on territory.",
+          "importance": 3,
+          "published_at": "2026-11-13T07:59:37+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/russian-president-vladimir-putin-agrees-to-let-european-representatives-join-next-round-of-ukraine-peace-talks/"
             }
           ]
         }
@@ -272,51 +297,54 @@
       "title": "Currency Desk",
       "stories": [
         {
-          "why_it_matters": "Higher US rates and a firm dollar keep pressure on the rupee and on foreign flows into Indian assets.",
+          "why_it_matters": "A weaker rupee raises import costs just as retail inflation has crossed the RBI's 6% upper limit.",
           "lead": false,
           "verified": true,
-          "note": null,
+          "note": "Thursday's close differs by source: 94.12 (PTI) vs 94.04 (Business Standard).",
           "tags": [
-            "Fed",
-            "Treasury yields",
+            "Rupee",
             "Dollar",
-            "Rupee"
+            "Fed",
+            "RBI"
           ],
-          "image": null,
+          "image": {
+            "url": "https://i.brecorder.com/large/2026/11/130823424b9334f.webp",
+            "credit": "Reuters",
+            "source_url": "https://brecorder.com/news/40448725/indian-rupee-faltering-rally-faces-returning-oil-pressure-surging-us-yields",
+            "alt": "A man's hands holding a bundle of Indian rupee notes"
+          },
           "impact": [
             {
               "on": "rupee",
               "level": "medium",
               "dir": "down",
-              "why": "Wider US rate gap and a firm dollar weigh on the rupee."
+              "why": "Higher US yields and firm oil keep pressure on the rupee."
             },
             {
-              "on": "rates",
-              "level": "high",
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "low",
               "dir": "up",
-              "why": "Markets now fully expect a December Fed hike."
-            },
-            {
-              "on": "currency",
-              "detail": "Dollar",
-              "level": "medium",
-              "dir": "up",
-              "why": "Higher US yields support the dollar."
+              "why": "A weaker rupee lifts IT exporters' earnings."
             }
           ],
-          "id": "currency-us-yields-fed-hike-2026-11-12",
-          "headline": "US 10-year yield closes above 5.1%; markets fully price a December Fed hike",
-          "summary": "Update: the US 10-year Treasury yield rose more than 13 basis points to about 5.1% on Thursday, and the 2-year to near 4.88%, as oil jumped after Trump's Iran remark. Traders now see a 100% chance of a Fed rate rise in December, with about 13% odds of a half-point move, and Goldman Sachs added another hike for March. The dollar index held near 103.1 in Asia, and the rupee was quoted near 94 per dollar offshore.",
+          "id": "currency-rupee-slips-94-24-2026-11-13",
+          "headline": "Rupee slips to about 94.24 per dollar by midday as Fed hike bets lift the dollar",
+          "summary": "The rupee opened near 94.07 per dollar and briefly firmed to 94.05, but weakened to about 94.24 by early afternoon. Bets on a December Fed rate hike, US 10-year yields above 5% and Brent near $96 are weighing on it, while bankers suspect the RBI and oil companies are buying dollars near the 94 level. The dollar index was steady near 103.2.",
           "importance": 4,
-          "published_at": "2026-11-12T02:38:00-05:00",
+          "published_at": "2026-11-13T00:00:00+05:30",
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html"
+              "name": "PTI via Deccan Chronicle",
+              "url": "https://www.deccanchronicle.com/business/economics/rupee-gains-7-paise-to-9405-against-us-dollar-in-early-trade-2003988"
             },
             {
-              "name": "Reuters via Kitco",
-              "url": "https://kitco.com/news/off-the-wire/2026-11-12/sp-500-nasdaq-fall-nvidia-ceos-exit-rattles-ai-stocks"
+              "name": "FXStreet",
+              "url": "https://www.fxstreet.com/news/indian-rupee-corrects-further-on-continued-us-dollar-outperformance-202611130526"
+            },
+            {
+              "name": "Reuters via Business Recorder",
+              "url": "https://brecorder.com/news/40448725/indian-rupee-faltering-rally-faces-returning-oil-pressure-surging-us-yields"
             }
           ]
         }
@@ -327,103 +355,121 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "why_it_matters": "Nvidia is the biggest AI stock, so its leadership shock sets the tone for tech shares worldwide.",
-          "lead": false,
+          "why_it_matters": "Inflation above the RBI's limit raises the risk of higher rates, which weighs most on banks and rate-sensitive stocks.",
+          "lead": true,
           "verified": true,
-          "note": null,
+          "note": "Midday levels from Yahoo Finance; early moves from PTI and HDFC Sky.",
           "tags": [
-            "Nvidia",
-            "Wall Street",
-            "AI",
-            "Chips"
-          ],
-          "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af6100196e00-1794510849.jpg?resize=1920%2C1440",
-            "credit": "AP via Al Jazeera",
-            "source_url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress",
-            "alt": "Jensen Huang speaking to reporters holding cameras and phones in a hall"
-          },
-          "impact": [
-            {
-              "on": "company",
-              "detail": "Nvidia",
-              "level": "high",
-              "dir": "down",
-              "why": "Sudden CEO exit adds uncertainty for the AI chip leader."
-            },
-            {
-              "on": "us_stocks",
-              "detail": "Tech",
-              "level": "medium",
-              "dir": "mixed",
-              "why": "Money moved from Nvidia into rival chipmakers like AMD and Broadcom."
-            }
-          ],
-          "id": "markets-wall-street-close-nvidia-2026-11-12",
-          "headline": "Wall Street ends lower as Nvidia sinks 4.3% after Huang's exit; AMD, Broadcom jump",
-          "summary": "Update: the S&P 500 fell 0.35% to 7,592.40, the Nasdaq 0.39% to 25,366.09 and the Dow 0.36% to 52,297.09 on Thursday. Nvidia closed down 4.34% at $166.19 after falling as much as 14% at the open on CEO Jensen Huang's resignation, while rivals AMD rose 5.86% and Broadcom 5.54%. US stock futures rose 0.3-0.6% in the evening.",
-          "importance": 5,
-          "published_at": "2026-11-12T16:00:00-05:00",
-          "sources": [
-            {
-              "name": "Xinhua",
-              "url": "https://english.news.cn/20261113/8eba9301afe4438eb81df63ec6b04577/c.html"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
-            }
-          ]
-        },
-        {
-          "why_it_matters": "Every rise in crude raises India's import bill, inflation risk and pressure on the rupee.",
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "tags": [
-            "Oil",
-            "Brent",
-            "Iran"
+            "Sensex",
+            "Nifty",
+            "Banks",
+            "Inflation"
           ],
           "image": null,
           "impact": [
             {
-              "on": "oil",
+              "on": "indian_stocks",
+              "detail": "Banks",
               "level": "high",
-              "dir": "up",
-              "why": "Fading hopes of a US-Iran deal keep supply risk high."
+              "dir": "down",
+              "why": "Rate-hike fears hit banks and lenders hardest."
             },
             {
               "on": "indian_stocks",
-              "detail": "Oil marketing",
-              "level": "medium",
-              "dir": "down",
-              "why": "Costlier crude squeezes fuel retailers' margins."
-            },
-            {
-              "on": "india_economy",
-              "level": "medium",
-              "dir": "down",
-              "why": "Higher oil adds to inflation already above the RBI's 6% limit."
+              "detail": "Pharma",
+              "level": "low",
+              "dir": "up",
+              "why": "Defensive pharma stocks drew buyers."
             }
           ],
-          "id": "markets-brent-settles-iran-2026-11-12",
-          "headline": "Brent settles up 3.3% at $95.82 after Trump says no Iran deal needed",
-          "summary": "Brent crude settled 3.3% higher at $95.82 a barrel and US WTI 2.55% higher at $88.74 on Thursday, after President Trump said the US doesn't need a deal with Iran. Houthi claims of strikes on Saudi oil sites added to supply worries. Brent eased to about $95.1 in early Asian trade on Friday.",
-          "importance": 4,
-          "published_at": "2026-11-12T16:00:00-05:00",
+          "id": "markets-sensex-nifty-midday-fall-2026-11-13",
+          "headline": "Sensex, Nifty fall about 0.5-0.7% by midday as banks and autos drag",
+          "summary": "Indian shares opened lower and stayed down. By about 1:40 PM the Nifty 50 was near 25,119, down about 0.7%, and the Sensex near 81,492, down about 0.5%. Banks and financials led the fall, with Shriram Finance, HDFC Bank, SBI and Axis Bank among the early losers, while pharma stocks rose. October retail inflation of 6.09% has raised fears of more RBI rate hikes.",
+          "importance": 5,
+          "published_at": "2026-11-13T13:40:00+05:30",
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html"
+              "name": "PTI via Deccan Chronicle",
+              "url": "https://www.deccanchronicle.com/business/economics/rupee-gains-7-paise-to-9405-against-us-dollar-in-early-trade-2003988"
             },
             {
-              "name": "Xinhua",
-              "url": "https://english.news.cn/20261113/8eba9301afe4438eb81df63ec6b04577/c.html"
+              "name": "HDFC Sky",
+              "url": "https://hdfcsky.com/news/bse-nse-sensex-november-13-2026-open-report-sensex-nifty-decline-as-inflation-weighs-financials-drag"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5ENSEI/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "A deeper crypto slide shows money leaving risky assets as US rates head higher.",
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "tags": [
+            "Bitcoin",
+            "Crypto",
+            "Fed"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "crypto",
+              "level": "high",
+              "dir": "down",
+              "why": "Liquidations and ETF outflows push prices lower."
+            }
+          ],
+          "id": "markets-bitcoin-below-70000-2026-11-13",
+          "headline": "Bitcoin falls below $70,000 for the first time since August",
+          "summary": "Bitcoin dropped under $70,000 on Friday for the first time since August and was near $68,700 by midday in India, down about 3.7% in a day. Hundreds of millions of dollars of leveraged bets were wiped out, and spot bitcoin ETFs have seen steady outflows. Bets on a December Fed rate hike are hurting risky assets.",
+          "importance": 4,
+          "published_at": "2026-11-13T02:53:00+00:00",
+          "sources": [
+            {
+              "name": "FXStreet",
+              "url": "https://www.fxstreet.com/cryptocurrencies/news/breaking-bitcoin-slips-below-70-000-for-the-first-time-since-august-202611130253"
+            },
+            {
+              "name": "Cointelegraph",
+              "url": "https://cointelegraph.com/markets/bitcoin-falls-below-70k-crypto-extreme-fear"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/BTC-USD/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "tags": [
+            "Nvidia",
+            "Apple",
+            "Trump"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Nvidia",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Political pressure adds to uncertainty over who will lead Nvidia."
+            }
+          ],
+          "id": "markets-trump-cook-nvidia-2026-11-13",
+          "headline": "Trump says Apple's Tim Cook should succeed Jensen Huang at Nvidia",
+          "summary": "President Trump wrote on social media that Apple executive chairman Tim Cook is the one man to replace Jensen Huang as Nvidia's chief. His post did not say whether Cook wants the job. Nvidia's board has named CFO Colette Kress interim CEO and says it will look at inside and outside candidates.",
+          "importance": 3,
+          "published_at": "2026-11-13T10:32:44+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/president-donald-trump-backs-apple-executive-chairman-tim-cook-to-succeed-jensen-huang-at-nvidia/"
             }
           ]
         },
@@ -431,34 +477,63 @@
           "why_it_matters": null,
           "lead": false,
           "verified": true,
-          "note": "Index moves at the open, per CNBC; later moves may differ.",
+          "note": null,
           "tags": [
-            "Asia",
-            "Kospi",
-            "Nikkei"
+            "Gold",
+            "Fed",
+            "Commodities"
           ],
           "image": null,
           "impact": [
             {
-              "on": "indian_stocks",
-              "level": "low",
-              "dir": "up",
-              "why": "A firmer Asian start may support Indian shares at the open."
+              "on": "gold",
+              "level": "medium",
+              "dir": "mixed",
+              "why": "Bargain buying meets pressure from Fed hike bets."
             }
           ],
-          "id": "markets-asia-rebound-friday-2026-11-13",
-          "headline": "Asian shares rise on Friday; Kospi up nearly 3% as chip stocks rebound",
-          "summary": "Asian markets opened higher on Friday despite Nvidia's turmoil. At the open South Korea's Kospi rose 2.79% and Japan's Nikkei 225 1.06%, while Australia's S&P/ASX 200 slipped 0.73%. Rival chipmakers gained as investors moved money away from Nvidia.",
+          "id": "markets-gold-rebounds-3900-2026-11-13",
+          "headline": "Gold edges back above $3,900 after hitting its lowest since October 2025",
+          "summary": "Gold recovered on Friday, with spot prices up about 1% near $3,918 an ounce after touching their lowest level since October 2025 on Thursday. It is still heading for a weekly loss as markets price in a December Fed rate hike. US producer price data at 7 PM IST is the next test.",
           "importance": 3,
-          "published_at": "2026-11-13T00:00:00+09:00",
+          "published_at": "2026-11-13T00:00:00+00:00",
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+              "name": "Reuters via FXEmpire",
+              "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-gold-bounces-from-one-year-low-can-it-clear-3903-1644413"
             },
             {
-              "name": "investingLive",
-              "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-asia-shrugs-off-nvidia-scandal-oil-steadies/"
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/GC=F/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": true,
+          "note": "Kospi close from MLQ citing Naver Finance; other figures from AP via Yahoo Finance.",
+          "tags": [
+            "Asia",
+            "Kospi",
+            "Nikkei",
+            "Chips"
+          ],
+          "image": null,
+          "impact": [],
+          "id": "markets-asia-rebound-friday-2026-11-13",
+          "headline": "Update: Kospi gives up early 2% gain and ends about 1% lower; Taiwan rallies",
+          "summary": "Update: South Korea's Kospi, which opened about 2% higher, closed down about 1% at 5,290.53 as Samsung and SK hynix gave back gains. Japan's Nikkei ended up about 0.5%, and Taiwan's market rose strongly as chip stocks rebounded. Hong Kong's Hang Seng fell over 1% in Chinese tech selling.",
+          "importance": 2,
+          "published_at": "2026-11-13T15:30:00+09:00",
+          "sources": [
+            {
+              "name": "MLQ",
+              "url": "https://mlq.ai/news/kospi-tops-5500-then-closes-down-1-as-asias-chip-rebound-fades-taiex-gains-and-nikkei-pares-its-rally/"
+            },
+            {
+              "name": "AP via Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-mixed-investors-assess-053708191.html"
             }
           ]
         }
@@ -472,32 +547,6 @@
   ],
   "weekend_special": null,
   "forex_results": [
-    {
-      "country": "GBP",
-      "title": "GDP m/m",
-      "date": "2026-11-12T02:00:00-05:00",
-      "impact": "High",
-      "actual": "0.2%",
-      "vs_forecast": "better",
-      "why": "UK output grew in September when no growth was expected, a small support for the pound.",
-      "source": {
-        "name": "ONS",
-        "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/julytoseptember2026"
-      }
-    },
-    {
-      "country": "GBP",
-      "title": "Prelim GDP q/q",
-      "date": "2026-11-12T02:00:00-05:00",
-      "impact": "Medium",
-      "actual": "0.7%",
-      "vs_forecast": "in_line",
-      "why": "Q3 growth of 0.7% matched forecasts, the fastest in over two years; little surprise for the pound.",
-      "source": {
-        "name": "ONS",
-        "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/julytoseptember2026"
-      }
-    },
     {
       "country": "USD",
       "title": "Unemployment Claims",
@@ -525,11 +574,16 @@
           "section": "currency"
         },
         {
-          "text": "PM Modi visits Karnataka and Gujarat (Nov 13-14)",
+          "text": "PM Modi in Karnataka and Gujarat (Nov 13-14)",
           "section": "india"
-        },
+        }
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "events": [
         {
-          "text": "SpaceX Starship Flight 15, first booster-and-ship catch attempt (pending approval)",
+          "text": "SpaceX Starship Flight 15 window opens 4:15 AM IST, first double catch try (pending FAA)",
           "section": "built"
         }
       ]
@@ -566,6 +620,15 @@
         {
           "text": "Anthropic IPO retail offer in Australia closes",
           "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "events": [
+        {
+          "text": "India hosts first SCO Civilisational Dialogue Forum in New Delhi",
+          "section": "india"
         }
       ]
     }
