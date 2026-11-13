@@ -1,0 +1,573 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-13-morning",
+  "date": "2026-11-13",
+  "slot": "morning",
+  "title": "Friday Morning Edition",
+  "generated_at": "2026-11-13T07:37:04+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "94.04",
+      "change": "+0.35%",
+      "dir": "up",
+      "as_of": "2026-11-12T00:00:00+05:30",
+      "source": {
+        "name": "Business Standard",
+        "url": "https://www.business-standard.com/economy/news/rupee-slips-past-94-us-yields-rise-bond-yields-harden-ahead-of-auction-126111201463_1.html"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "103.99",
+      "change": "+0.02%",
+      "dir": "up",
+      "as_of": "2026-11-13T01:11:32+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X/"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.13",
+      "change": "-0.04%",
+      "dir": "down",
+      "as_of": "2026-11-13T01:50:21+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$717.06bn",
+      "change": "-0.37%",
+      "dir": "down",
+      "as_of": "2026-10-30T00:00:00+05:30",
+      "source": {
+        "name": "RBI Weekly Statistical Supplement",
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewWSSExtractdata.aspx"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,299.35",
+      "change": "+0.18%",
+      "dir": "up",
+      "as_of": "2026-11-12T15:30:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/indian-markets-end-in-positive-zone/"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "81,911.01",
+      "change": "+0.04%",
+      "dir": "up",
+      "as_of": "2026-11-12T15:30:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/indian-markets-end-in-positive-zone/"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,592.40",
+      "change": "-0.35%",
+      "dir": "down",
+      "as_of": "2026-11-12T16:00:00-05:00",
+      "source": {
+        "name": "Xinhua",
+        "url": "https://english.news.cn/20261113/8eba9301afe4438eb81df63ec6b04577/c.html"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "25,366.09",
+      "change": "-0.39%",
+      "dir": "down",
+      "as_of": "2026-11-12T16:00:00-05:00",
+      "source": {
+        "name": "Xinhua",
+        "url": "https://english.news.cn/20261113/8eba9301afe4438eb81df63ec6b04577/c.html"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,912.70",
+      "change": "+0.71%",
+      "dir": "up",
+      "as_of": "2026-11-13T01:50:19+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/GC=F/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$95.14",
+      "change": "-0.71%",
+      "dir": "down",
+      "as_of": "2026-11-13T01:52:46+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ=F/"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$70,792",
+      "change": "-0.81%",
+      "dir": "down",
+      "as_of": "2026-11-13T02:02:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD/"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "5.10%",
+      "change": "+2.1%",
+      "dir": "up",
+      "as_of": "2026-11-12T19:59:54+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "why_it_matters": "Tighter checks on cash remittances aim to cut fraud and money laundering through bank and payment networks.",
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "tags": [
+            "RBI",
+            "Payments",
+            "Banking"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Banks",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Banks and payment firms face extra compliance checks on cash transfers."
+            }
+          ],
+          "id": "india-rbi-domestic-transfer-rules-2026-11-12",
+          "headline": "RBI issues new rules for domestic money transfers, tightens cash-remittance checks",
+          "summary": "The RBI issued consolidated directions on domestic money transfers on Thursday, keeping existing limits but adding safeguards on cash-based remittances. People without a bank account can still send up to Rs 50,000 via NEFT at a branch, and up to Rs 5,000 a transaction (Rs 25,000 a month) through business correspondents or ATMs. Banks must flag unusual credit patterns, send customer alerts and report suspicious transfers.",
+          "importance": 3,
+          "published_at": "2026-11-12T21:33:00+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/rbi-issues-new-domestic-transfer-guidelines/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "tags": [
+            "Infrastructure",
+            "Karnataka",
+            "Railways"
+          ],
+          "image": null,
+          "impact": [],
+          "id": "india-modi-bengaluru-projects-2026-11-13",
+          "headline": "PM Modi to launch Rs 15,600 crore of projects in Karnataka today",
+          "summary": "Prime Minister Modi starts a two-day Karnataka and Gujarat visit on Friday, launching projects worth over Rs 15,600 crore in urban transport, power, renewables, petroleum and railways. He will open a Bengaluru Metro Pink Line stretch, flag off a Bengaluru-Mangaluru-Madgaon Vande Bharat train and dedicate India's largest underground LPG storage cavern at Mangaluru.",
+          "importance": 2,
+          "published_at": "2026-11-13T07:10:00+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/pm-modi-to-launch-various-development-projects-worth-over-rs-15600-cr-in-bengaluru-karnataka-today/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "why_it_matters": "Saudi Arabia says it sends about 4 million barrels a day through this pipeline to avoid Hormuz, so any hit threatens a key oil route.",
+          "lead": true,
+          "verified": false,
+          "note": "Strike claims by the Houthis; Saudi side reports only interceptions. Not independently confirmed.",
+          "tags": [
+            "Houthis",
+            "Saudi Arabia",
+            "Oil",
+            "Yemen"
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af63caea5bc3-1794522286.jpg?resize=1920%2C1440",
+            "credit": "AP via Al Jazeera",
+            "source_url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions",
+            "alt": "Members of the UN Security Council seated around the horseshoe table in New York (file photo)"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "high",
+              "dir": "up",
+              "why": "Attacks on Saudi's Hormuz bypass route raise the risk to supply."
+            },
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "down",
+              "why": "Higher oil means a bigger import bill for India."
+            }
+          ],
+          "id": "world-houthis-saudi-pipeline-2026-11-12",
+          "headline": "Houthis say they hit Saudi oil pipeline and Yanbu; Riyadh says drones intercepted",
+          "summary": "Yemen's Houthis say a drone hit a pumping station on Saudi Arabia's East-West oil pipeline and that they targeted oil facilities at the Red Sea port of Yanbu, an airbase and Aramco's Riyadh headquarters. The Saudi-led coalition says it shot down drones over the Riyadh region and the Eastern Province, and has not confirmed any damage. The UN Security Council on Thursday unanimously extended Yemen sanctions for a year and condemned Houthi attacks on Saudi Arabia.",
+          "importance": 5,
+          "published_at": "2026-11-12T00:00:00+03:00",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions"
+            },
+            {
+              "name": "The New Arab",
+              "url": "https://www.newarab.com/news/yemens-houthis-claim-attacks-saudi-oil-military-sites"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "why_it_matters": "Higher US rates and a firm dollar keep pressure on the rupee and on foreign flows into Indian assets.",
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "tags": [
+            "Fed",
+            "Treasury yields",
+            "Dollar",
+            "Rupee"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "down",
+              "why": "Wider US rate gap and a firm dollar weigh on the rupee."
+            },
+            {
+              "on": "rates",
+              "level": "high",
+              "dir": "up",
+              "why": "Markets now fully expect a December Fed hike."
+            },
+            {
+              "on": "currency",
+              "detail": "Dollar",
+              "level": "medium",
+              "dir": "up",
+              "why": "Higher US yields support the dollar."
+            }
+          ],
+          "id": "currency-us-yields-fed-hike-2026-11-12",
+          "headline": "US 10-year yield closes above 5.1%; markets fully price a December Fed hike",
+          "summary": "Update: the US 10-year Treasury yield rose more than 13 basis points to about 5.1% on Thursday, and the 2-year to near 4.88%, as oil jumped after Trump's Iran remark. Traders now see a 100% chance of a Fed rate rise in December, with about 13% odds of a half-point move, and Goldman Sachs added another hike for March. The dollar index held near 103.1 in Asia, and the rupee was quoted near 94 per dollar offshore.",
+          "importance": 4,
+          "published_at": "2026-11-12T02:38:00-05:00",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html"
+            },
+            {
+              "name": "Reuters via Kitco",
+              "url": "https://kitco.com/news/off-the-wire/2026-11-12/sp-500-nasdaq-fall-nvidia-ceos-exit-rattles-ai-stocks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "why_it_matters": "Nvidia is the biggest AI stock, so its leadership shock sets the tone for tech shares worldwide.",
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "tags": [
+            "Nvidia",
+            "Wall Street",
+            "AI",
+            "Chips"
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af6100196e00-1794510849.jpg?resize=1920%2C1440",
+            "credit": "AP via Al Jazeera",
+            "source_url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress",
+            "alt": "Jensen Huang speaking to reporters holding cameras and phones in a hall"
+          },
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Nvidia",
+              "level": "high",
+              "dir": "down",
+              "why": "Sudden CEO exit adds uncertainty for the AI chip leader."
+            },
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "medium",
+              "dir": "mixed",
+              "why": "Money moved from Nvidia into rival chipmakers like AMD and Broadcom."
+            }
+          ],
+          "id": "markets-wall-street-close-nvidia-2026-11-12",
+          "headline": "Wall Street ends lower as Nvidia sinks 4.3% after Huang's exit; AMD, Broadcom jump",
+          "summary": "Update: the S&P 500 fell 0.35% to 7,592.40, the Nasdaq 0.39% to 25,366.09 and the Dow 0.36% to 52,297.09 on Thursday. Nvidia closed down 4.34% at $166.19 after falling as much as 14% at the open on CEO Jensen Huang's resignation, while rivals AMD rose 5.86% and Broadcom 5.54%. US stock futures rose 0.3-0.6% in the evening.",
+          "importance": 5,
+          "published_at": "2026-11-12T16:00:00-05:00",
+          "sources": [
+            {
+              "name": "Xinhua",
+              "url": "https://english.news.cn/20261113/8eba9301afe4438eb81df63ec6b04577/c.html"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "Every rise in crude raises India's import bill, inflation risk and pressure on the rupee.",
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "tags": [
+            "Oil",
+            "Brent",
+            "Iran"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "high",
+              "dir": "up",
+              "why": "Fading hopes of a US-Iran deal keep supply risk high."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "Oil marketing",
+              "level": "medium",
+              "dir": "down",
+              "why": "Costlier crude squeezes fuel retailers' margins."
+            },
+            {
+              "on": "india_economy",
+              "level": "medium",
+              "dir": "down",
+              "why": "Higher oil adds to inflation already above the RBI's 6% limit."
+            }
+          ],
+          "id": "markets-brent-settles-iran-2026-11-12",
+          "headline": "Brent settles up 3.3% at $95.82 after Trump says no Iran deal needed",
+          "summary": "Brent crude settled 3.3% higher at $95.82 a barrel and US WTI 2.55% higher at $88.74 on Thursday, after President Trump said the US doesn't need a deal with Iran. Houthi claims of strikes on Saudi oil sites added to supply worries. Brent eased to about $95.1 in early Asian trade on Friday.",
+          "importance": 4,
+          "published_at": "2026-11-12T16:00:00-05:00",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html"
+            },
+            {
+              "name": "Xinhua",
+              "url": "https://english.news.cn/20261113/8eba9301afe4438eb81df63ec6b04577/c.html"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": true,
+          "note": "Index moves at the open, per CNBC; later moves may differ.",
+          "tags": [
+            "Asia",
+            "Kospi",
+            "Nikkei"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "level": "low",
+              "dir": "up",
+              "why": "A firmer Asian start may support Indian shares at the open."
+            }
+          ],
+          "id": "markets-asia-rebound-friday-2026-11-13",
+          "headline": "Asian shares rise on Friday; Kospi up nearly 3% as chip stocks rebound",
+          "summary": "Asian markets opened higher on Friday despite Nvidia's turmoil. At the open South Korea's Kospi rose 2.79% and Japan's Nikkei 225 1.06%, while Australia's S&P/ASX 200 slipped 0.73%. Rival chipmakers gained as investors moved money away from Nvidia.",
+          "importance": 3,
+          "published_at": "2026-11-13T00:00:00+09:00",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "investingLive",
+              "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-asia-shrugs-off-nvidia-scandal-oil-steadies/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": []
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "GBP",
+      "title": "GDP m/m",
+      "date": "2026-11-12T02:00:00-05:00",
+      "impact": "High",
+      "actual": "0.2%",
+      "vs_forecast": "better",
+      "why": "UK output grew in September when no growth was expected, a small support for the pound.",
+      "source": {
+        "name": "ONS",
+        "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/julytoseptember2026"
+      }
+    },
+    {
+      "country": "GBP",
+      "title": "Prelim GDP q/q",
+      "date": "2026-11-12T02:00:00-05:00",
+      "impact": "Medium",
+      "actual": "0.7%",
+      "vs_forecast": "in_line",
+      "why": "Q3 growth of 0.7% matched forecasts, the fastest in over two years; little surprise for the pound.",
+      "source": {
+        "name": "ONS",
+        "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/julytoseptember2026"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "Unemployment Claims",
+      "date": "2026-11-12T08:30:00-05:00",
+      "impact": "Medium",
+      "actual": "200K",
+      "vs_forecast": "worse",
+      "why": "Claims rose more than expected but stay very low; little change to Fed hike bets or the dollar.",
+      "source": {
+        "name": "FXStreet",
+        "url": "https://www.fxstreet.com/news/us-initial-jobless-claims-rose-to-200k-last-week-202611121337"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-13",
+      "events": [
+        {
+          "text": "US October producer prices (PPI), 7 PM IST",
+          "section": "markets"
+        },
+        {
+          "text": "RBI weekly forex reserves data",
+          "section": "currency"
+        },
+        {
+          "text": "PM Modi visits Karnataka and Gujarat (Nov 13-14)",
+          "section": "india"
+        },
+        {
+          "text": "SpaceX Starship Flight 15, first booster-and-ship catch attempt (pending approval)",
+          "section": "built"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "events": [
+        {
+          "text": "India October trade data, per Commerce Minister Goyal",
+          "section": "india"
+        },
+        {
+          "text": "India October unemployment rate",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "events": [
+        {
+          "text": "PM Modi arrives in Manila for a two-day visit",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "events": [
+        {
+          "text": "23rd ASEAN-India Summit and East Asia Summit in Manila",
+          "section": "india"
+        },
+        {
+          "text": "Anthropic IPO retail offer in Australia closes",
+          "section": "markets"
+        }
+      ]
+    }
+  ]
+}
