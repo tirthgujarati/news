@@ -1,0 +1,453 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-14-midday",
+  "date": "2026-11-14",
+  "slot": "midday",
+  "title": "Saturday Midday Edition",
+  "generated_at": "2026-11-14T13:40:06+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "94.20",
+      "change": "+0.09%",
+      "dir": "up",
+      "as_of": "2026-11-13T00:00:00+05:30",
+      "source": {
+        "name": "PTI via TradingView",
+        "url": "https://www.tradingview.com/news/moodys:13636e5ce594f:0-rupee-falls-8-paise-to-close-at-94-20-against-us-dollar/"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "103.89",
+      "change": "+0.01%",
+      "dir": "up",
+      "as_of": "2026-11-13T22:26:33+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR%3DX/"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.41",
+      "change": "+0.23%",
+      "dir": "up",
+      "as_of": "2026-11-13T21:59:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$719.55bn",
+      "change": "+0.35%",
+      "dir": "up",
+      "as_of": "2026-11-06T00:00:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/indias-forex-reserves-increase-by-2-49bn-to-reach-719-54bn-last-week/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,144.30",
+      "change": "-0.61%",
+      "dir": "down",
+      "as_of": "2026-11-13T10:01:20+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI/"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "81,592.45",
+      "change": "-0.39%",
+      "dir": "down",
+      "as_of": "2026-11-13T10:02:31+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN/"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,561.67",
+      "change": "-0.40%",
+      "dir": "down",
+      "as_of": "2026-11-13T21:43:19+00:00",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "25,136.27",
+      "change": "-0.91%",
+      "dir": "down",
+      "as_of": "2026-11-13T22:15:59+00:00",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,887.60",
+      "change": "+0.06%",
+      "dir": "up",
+      "as_of": "2026-11-13T21:59:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/GC%3DF/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$95.84",
+      "change": "+0.02%",
+      "dir": "up",
+      "as_of": "2026-11-13T00:00:00-05:00",
+      "source": {
+        "name": "Nation Thailand",
+        "url": "https://www.nationthailand.com/news/world/40073488"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$67,228",
+      "change": "-2.04%",
+      "dir": "down",
+      "as_of": "2026-11-14T08:00:00+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD/"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "5.15%",
+      "change": "+1.06%",
+      "dir": "up",
+      "as_of": "2026-11-13T19:59:54+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-modi-bengaluru-projects-2026-11-13",
+          "headline": "Modi opens Rs 15,600 crore of projects in Bengaluru, pitches India as tech leader",
+          "summary": "PM Modi launched metro, rail and energy projects in Bengaluru, including an LPG storage project in Mangaluru and a Vande Bharat train linking Karnataka with Goa. He said India is moving towards global leadership in chips, AI, data centres and quantum computing, and that renewable capacity has passed 300 GW.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-14T08:09:00+05:30",
+          "tags": [
+            "Modi",
+            "Bengaluru",
+            "infrastructure",
+            "energy"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/pm-modi-says-india-moving-towards-global-leadership-in-emerging-technologies/"
+            },
+            {
+              "name": "The Pioneer",
+              "url": "https://dailypioneer.com/india/pm-modi-to-unveil-projects-rs-15600-crore-in-bengaluru"
+            }
+          ],
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/MODI-1.png",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/pm-modi-says-india-moving-towards-global-leadership-in-emerging-technologies/",
+            "alt": "PM Narendra Modi speaking at a podium in Bengaluru"
+          },
+          "impact": []
+        },
+        {
+          "id": "india-rajasthan-drought-package-2026-11-13",
+          "headline": "Rajasthan announces Rs 9,321 crore drought relief package",
+          "summary": "Chief Minister Bhajan Lal Sharma approved the package for 87 drought-hit tehsils in 15 districts, 73 of them in the severe category. Officials were told to secure drinking water, fodder and rural jobs, and to survey Kharif crop damage for farmer relief.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-14T06:04:00+05:30",
+          "tags": [
+            "Rajasthan",
+            "drought",
+            "farmers"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/rajasthan-govt-announces-%e2%82%b99321-crore-drought-relief-package-for-affected-areas/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "india-irf-ban-extended-2026-11-13",
+          "headline": "Centre extends ban on Zakir Naik's Islamic Research Foundation by five years",
+          "summary": "The Home Ministry again declared the foundation an unlawful association under the UAPA, citing threats to national security and communal harmony. The group was first banned in 2016 and the ban was renewed in 2021.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-14T08:10:00+05:30",
+          "tags": [
+            "UAPA",
+            "Home Ministry",
+            "Zakir Naik"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/centre-extends-ban-on-zakir-naik-led-islamic-research-foundation-for-five-years/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-trump-xi-putin-summit-2026-11-13",
+          "headline": "White House says Trump, Xi and Putin will hold first three-way talks in China",
+          "summary": "The White House says the three leaders will meet next week on the sidelines of the APEC summit in Shenzhen, the first time all three sit together. Trump wants to discuss cutting nuclear arsenals and the Iran war, not Ukraine. US officials say they do not expect any agreement at this first meeting.",
+          "why_it_matters": "Talks between the three biggest nuclear powers on Iran could shift oil prices and the war risk that weighs on India's import bill.",
+          "importance": 5,
+          "lead": true,
+          "verified": true,
+          "note": "Kremlin calls the meeting significant but says deals reached there cannot be imposed on others.",
+          "published_at": "2026-11-13T00:00:00-05:00",
+          "tags": [
+            "US",
+            "China",
+            "Russia",
+            "APEC",
+            "nuclear arms"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china"
+            },
+            {
+              "name": "ABC News",
+              "url": "https://abcnews.com/Politics/trump-meet-putin-xi-china-week-us-officials/story?id=138128914"
+            },
+            {
+              "name": "Anadolu Agency",
+              "url": "https://aa.com.tr/en/asia-pacific/trump-to-hold-trilateral-talks-with-xi-putin-in-china-next-week-white-house/4124821"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af7e44a439aa-1794630730.jpg",
+            "credit": "AP Photo",
+            "source_url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china",
+            "alt": "Side-by-side file photos of Donald Trump, Xi Jinping and Vladimir Putin"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "mixed",
+              "why": "Iran is on the agenda; any sign of a path to ending the war could ease oil prices."
+            }
+          ]
+        },
+        {
+          "id": "world-us-faa-ground-stop-2026-11-13",
+          "headline": "US grounds all departing flights for over four hours after air traffic network fails",
+          "summary": "The FAA halted departures nationwide at 3:54 pm ET on Friday after a telecom failure hit air route traffic control centres; airspace reopened at 8:15 pm ET. More than 4,700 flights were cancelled and about 10,000 delayed, with about 700 more cancelled for Saturday. Officials say there is no sign of an attack and blame overloaded network equipment.",
+          "why_it_matters": null,
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-13T15:54:00-05:00",
+          "tags": [
+            "US",
+            "aviation",
+            "FAA",
+            "outage"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/us-halts-flight-departures-nationwide-after-telecommunications-failure-disrupts-air-traffic-control/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "us_stocks",
+              "detail": "Airlines",
+              "level": "low",
+              "dir": "down",
+              "why": "Thousands of cancelled flights add costs for US airlines over a busy weekend."
+            }
+          ]
+        },
+        {
+          "id": "world-un-hormuz-seafarers-2026-11-14",
+          "headline": "UN says 25 seafarers killed around Hormuz since the Iran war began",
+          "summary": "A UN official told the Security Council that at least 25 seafarers have died in and around the Strait of Hormuz since February, with 136 ship security incidents logged by the IMO. October was the worst month so far. UK maritime authorities say traffic through the strait is still about 65% below pre-war levels.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera.",
+          "published_at": "2026-11-14T00:00:00+00:00",
+          "tags": [
+            "Hormuz",
+            "Iran",
+            "shipping",
+            "UN"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/14/un-says-25-seafarers-killed-in-around-hormuz-since-february"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": []
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": []
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": []
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "USD",
+      "title": "Core PPI m/m",
+      "date": "2026-11-13T08:30:00-05:00",
+      "impact": "High",
+      "actual": "0.5%",
+      "vs_forecast": "better",
+      "why": "Core producer prices rose faster than the 0.3% forecast, backing a December Fed hike and a stronger dollar.",
+      "source": {
+        "name": "US Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/ppi.nr0.htm"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "PPI m/m",
+      "date": "2026-11-13T08:30:00-05:00",
+      "impact": "High",
+      "actual": "0.3%",
+      "vs_forecast": "worse",
+      "why": "Headline producer prices rose a bit less than the 0.4% forecast, though they are up 6.5% on the year.",
+      "source": {
+        "name": "US Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/ppi.nr0.htm"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-15",
+      "events": [
+        {
+          "text": "India October unemployment rate",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "events": [
+        {
+          "text": "PM Modi arrives in Manila for a two-day visit",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "events": [
+        {
+          "text": "23rd ASEAN-India Summit and East Asia Summit in Manila",
+          "section": "india"
+        },
+        {
+          "text": "Anthropic IPO retail offer in Australia closes",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "events": [
+        {
+          "text": "APEC leaders' summit opens in Shenzhen; Trump, Xi and Putin due to meet",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "events": [
+        {
+          "text": "India hosts first SCO Civilisational Dialogue Forum in New Delhi",
+          "section": "india"
+        }
+      ]
+    }
+  ]
+}

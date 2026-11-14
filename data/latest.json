@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-14-morning",
+  "edition_id": "2026-11-14-midday",
   "date": "2026-11-14",
-  "slot": "morning",
-  "title": "Saturday Morning Edition",
-  "generated_at": "2026-11-14T07:36:28+05:30",
+  "slot": "midday",
+  "title": "Saturday Midday Edition",
+  "generated_at": "2026-11-14T13:40:06+05:30",
   "snapshot": [
     {
       "id": "usdinr",
@@ -129,10 +129,10 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$68,216",
-      "change": "-0.05%",
+      "value": "$67,228",
+      "change": "-2.04%",
       "dir": "down",
-      "as_of": "2026-11-14T02:02:51+00:00",
+      "as_of": "2026-11-14T08:00:00+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BTC-USD/"
@@ -157,69 +157,86 @@
       "title": "India",
       "stories": [
         {
-          "why_it_matters": "Strong services and goods exports help India's trade balance and give the rupee some support.",
+          "id": "india-modi-bengaluru-projects-2026-11-13",
+          "headline": "Modi opens Rs 15,600 crore of projects in Bengaluru, pitches India as tech leader",
+          "summary": "PM Modi launched metro, rail and energy projects in Bengaluru, including an LPG storage project in Mangaluru and a Vande Bharat train linking Karnataka with Goa. He said India is moving towards global leadership in chips, AI, data centres and quantum computing, and that renewable capacity has passed 300 GW.",
+          "why_it_matters": null,
+          "importance": 3,
           "lead": false,
-          "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/Piyush.jpg",
-            "credit": "All India Radio",
-            "source_url": "https://newsonair.gov.in/india-international-trade-fair-inaugurated-with-theme-vikas-aur-virasat/",
-            "alt": "Commerce Minister Piyush Goyal speaking at a podium"
-          },
-          "impact": [
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-14T08:09:00+05:30",
+          "tags": [
+            "Modi",
+            "Bengaluru",
+            "infrastructure",
+            "energy"
+          ],
+          "sources": [
             {
-              "on": "india_economy",
-              "level": "medium",
-              "dir": "up",
-              "why": "Record exports support growth and narrow the trade gap."
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/pm-modi-says-india-moving-towards-global-leadership-in-emerging-technologies/"
             },
             {
-              "on": "rupee",
-              "level": "low",
-              "dir": "up",
-              "why": "More export dollars coming in give the rupee mild support."
+              "name": "The Pioneer",
+              "url": "https://dailypioneer.com/india/pm-modi-to-unveil-projects-rs-15600-crore-in-bengaluru"
             }
           ],
-          "tags": [
-            "exports",
-            "trade",
-            "Goyal"
-          ],
-          "id": "india-exports-90bn-goyal-2026-11-14",
-          "headline": "Update: Goyal says total exports hit about $90 billion in October, a record",
-          "summary": "New since yesterday's goods data: Commerce Minister Piyush Goyal says services added about $40 billion to roughly $50 billion of goods exports in October. He put April-October exports at $570 billion and said India is on course for its $1 trillion target, as the 45th India International Trade Fair opened in New Delhi.",
-          "importance": 4,
-          "verified": false,
-          "note": "Single source: All India Radio. Services figure is the minister's estimate; official services data comes later.",
-          "published_at": "2026-11-14T06:09:00+05:30",
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/india-international-trade-fair-inaugurated-with-theme-vikas-aur-virasat/"
-            }
-          ]
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/MODI-1.png",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/pm-modi-says-india-moving-towards-global-leadership-in-emerging-technologies/",
+            "alt": "PM Narendra Modi speaking at a podium in Bengaluru"
+          },
+          "impact": []
         },
         {
+          "id": "india-rajasthan-drought-package-2026-11-13",
+          "headline": "Rajasthan announces Rs 9,321 crore drought relief package",
+          "summary": "Chief Minister Bhajan Lal Sharma approved the package for 87 drought-hit tehsils in 15 districts, 73 of them in the severe category. Officials were told to secure drinking water, fodder and rural jobs, and to survey Kharif crop damage for farmer relief.",
           "why_it_matters": null,
+          "importance": 2,
           "lead": false,
-          "image": null,
-          "impact": [],
-          "tags": [
-            "Assam",
-            "accident"
-          ],
-          "id": "india-assam-kaziranga-accident-2026-11-13",
-          "headline": "23 killed as passenger van hits trailer near Kaziranga in Assam",
-          "summary": "A passenger vehicle carrying more than 35 people collided with a trailer at Rangajan near Kaziranga on Friday, killing 23. PM Modi announced Rs 2 lakh for each victim's family and Rs 50,000 for the injured.",
-          "importance": 3,
           "verified": false,
           "note": "Single source: All India Radio.",
-          "published_at": "2026-11-13T20:56:00+05:30",
+          "published_at": "2026-11-14T06:04:00+05:30",
+          "tags": [
+            "Rajasthan",
+            "drought",
+            "farmers"
+          ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/23-people-killed-in-road-accident-near-kaziranga-in-assam-pm-announces-ex-gratia/"
+              "url": "https://newsonair.gov.in/rajasthan-govt-announces-%e2%82%b99321-crore-drought-relief-package-for-affected-areas/"
             }
-          ]
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "india-irf-ban-extended-2026-11-13",
+          "headline": "Centre extends ban on Zakir Naik's Islamic Research Foundation by five years",
+          "summary": "The Home Ministry again declared the foundation an unlawful association under the UAPA, citing threats to national security and communal harmony. The group was first banned in 2016 and the ban was renewed in 2021.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-14T08:10:00+05:30",
+          "tags": [
+            "UAPA",
+            "Home Ministry",
+            "Zakir Naik"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/centre-extends-ban-on-zakir-naik-led-islamic-research-foundation-for-five-years/"
+            }
+          ],
+          "image": null,
+          "impact": []
         }
       ]
     },
@@ -228,288 +245,129 @@
       "title": "World",
       "stories": [
         {
-          "why_it_matters": "A new security tie in the Gulf, where the Iran war still threatens oil and gas supply.",
-          "lead": false,
-          "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af72f8f-1794584463.jpg?resize=1920%2C1440",
-            "credit": "Murat Cetinmuhurdar/Turkish Presidential Press Office via Reuters",
-            "source_url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement",
-            "alt": "Qatar's Emir and Turkish President Erdogan shake hands in Istanbul"
-          },
-          "impact": [],
+          "id": "world-trump-xi-putin-summit-2026-11-13",
+          "headline": "White House says Trump, Xi and Putin will hold first three-way talks in China",
+          "summary": "The White House says the three leaders will meet next week on the sidelines of the APEC summit in Shenzhen, the first time all three sit together. Trump wants to discuss cutting nuclear arsenals and the Iran war, not Ukraine. US officials say they do not expect any agreement at this first meeting.",
+          "why_it_matters": "Talks between the three biggest nuclear powers on Iran could shift oil prices and the war risk that weighs on India's import bill.",
+          "importance": 5,
+          "lead": true,
+          "verified": true,
+          "note": "Kremlin calls the meeting significant but says deals reached there cannot be imposed on others.",
+          "published_at": "2026-11-13T00:00:00-05:00",
           "tags": [
-            "Turkiye",
-            "Qatar",
-            "Gulf",
-            "defence"
+            "US",
+            "China",
+            "Russia",
+            "APEC",
+            "nuclear arms"
           ],
-          "id": "world-turkiye-qatar-defence-pact-2026-11-13",
-          "headline": "Turkiye and Qatar sign a mutual defence pact in Istanbul",
-          "summary": "President Erdogan and Qatar's Emir Sheikh Tamim signed a mutual defence agreement on Friday, along with other deals. Erdogan's office says the two will work to stop war returning to the Gulf; an analyst told Al Jazeera Turkish air defences could be sent to Qatar.",
-          "importance": 4,
-          "verified": false,
-          "note": "Single source: Al Jazeera.",
-          "published_at": "2026-11-13T00:00:00+00:00",
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement"
+              "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china"
+            },
+            {
+              "name": "ABC News",
+              "url": "https://abcnews.com/Politics/trump-meet-putin-xi-china-week-us-officials/story?id=138128914"
+            },
+            {
+              "name": "Anadolu Agency",
+              "url": "https://aa.com.tr/en/asia-pacific/trump-to-hold-trilateral-talks-with-xi-putin-in-china-next-week-white-house/4124821"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af7e44a439aa-1794630730.jpg",
+            "credit": "AP Photo",
+            "source_url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china",
+            "alt": "Side-by-side file photos of Donald Trump, Xi Jinping and Vladimir Putin"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "mixed",
+              "why": "Iran is on the agenda; any sign of a path to ending the war could ease oil prices."
             }
           ]
         },
         {
+          "id": "world-us-faa-ground-stop-2026-11-13",
+          "headline": "US grounds all departing flights for over four hours after air traffic network fails",
+          "summary": "The FAA halted departures nationwide at 3:54 pm ET on Friday after a telecom failure hit air route traffic control centres; airspace reopened at 8:15 pm ET. More than 4,700 flights were cancelled and about 10,000 delayed, with about 700 more cancelled for Saturday. Officials say there is no sign of an attack and blame overloaded network equipment.",
           "why_it_matters": null,
+          "importance": 4,
           "lead": false,
-          "image": null,
-          "impact": [],
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-13T15:54:00-05:00",
           "tags": [
-            "Ukraine",
-            "Russia",
-            "EU",
-            "peace talks"
+            "US",
+            "aviation",
+            "FAA",
+            "outage"
           ],
-          "id": "world-eu-five-nations-ukraine-talks-2026-11-13",
-          "headline": "Update: EU names UK, France, Germany, Italy, Poland for Ukraine peace talks",
-          "summary": "New since Friday midday: European Council President Antonio Costa says these five will join EU diplomats to represent Europe at the next US-led Ukraine talks. Leaders still disagree on a single envoy, and the Kremlin mocked the effort.",
-          "importance": 3,
-          "verified": false,
-          "note": "Single source: Al Jazeera.",
-          "published_at": "2026-11-13T00:00:00+00:00",
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice"
+              "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/us-halts-flight-departures-nationwide-after-telecommunications-failure-disrupts-air-traffic-control/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "us_stocks",
+              "detail": "Airlines",
+              "level": "low",
+              "dir": "down",
+              "why": "Thousands of cancelled flights add costs for US airlines over a busy weekend."
             }
           ]
+        },
+        {
+          "id": "world-un-hormuz-seafarers-2026-11-14",
+          "headline": "UN says 25 seafarers killed around Hormuz since the Iran war began",
+          "summary": "A UN official told the Security Council that at least 25 seafarers have died in and around the Strait of Hormuz since February, with 136 ship security incidents logged by the IMO. October was the worst month so far. UK maritime authorities say traffic through the strait is still about 65% below pre-war levels.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera.",
+          "published_at": "2026-11-14T00:00:00+00:00",
+          "tags": [
+            "Hormuz",
+            "Iran",
+            "shipping",
+            "UN"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/14/un-says-25-seafarers-killed-in-around-hormuz-since-february"
+            }
+          ],
+          "image": null,
+          "impact": []
         }
       ]
     },
     {
       "id": "currency",
       "title": "Currency Desk",
-      "stories": [
-        {
-          "why_it_matters": "A strong dollar and high US yields keep pressure on the rupee going into next week.",
-          "lead": false,
-          "image": null,
-          "impact": [
-            {
-              "on": "rupee",
-              "level": "medium",
-              "dir": "down",
-              "why": "A stronger dollar and Fed hike bets weigh on the rupee."
-            },
-            {
-              "on": "currency",
-              "detail": "Dollar",
-              "level": "medium",
-              "dir": "up",
-              "why": "Expected Fed hike keeps the dollar in demand."
-            }
-          ],
-          "tags": [
-            "dollar",
-            "rupee",
-            "Fed"
-          ],
-          "id": "currency-dollar-index-week-high-2026-11-13",
-          "headline": "Dollar index ends the week at 103.4, highest since April 2025",
-          "summary": "The dollar index closed Friday near 103.41 as traders priced in a near-certain Fed rate hike on December 9 (about 87% odds of a quarter point, 13% of half a point). The rupee ended Friday at about 94.20 per dollar.",
-          "importance": 4,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-13T16:34:00-05:00",
-          "sources": [
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
-            }
-          ]
-        }
-      ]
+      "stories": []
     },
     {
       "id": "markets",
       "title": "Money & Markets",
-      "stories": [
-        {
-          "why_it_matters": "Tech weakness and 5%+ US yields could weigh on Indian IT stocks and foreign flows on Monday.",
-          "lead": true,
-          "image": {
-            "url": "https://www.lanacion.com.ar/resizer/v2/how-major-us-stock-indexes-fared-friday-4U6B5KTJ6ZFKVOF5LZB4ZDR4MM.JPG?auth=f198738274c731d24412d498e373a57f5dddc2c4050772a1830d692588cdad6b&width=1200&height=800&quality=70&smart=true",
-            "credit": "AP",
-            "source_url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-11132026-nid13112026/",
-            "alt": "A trader on the New York Stock Exchange floor watches screens"
-          },
-          "impact": [
-            {
-              "on": "us_stocks",
-              "detail": "Tech",
-              "level": "medium",
-              "dir": "down",
-              "why": "Nvidia's leadership turmoil keeps chip stocks under pressure."
-            },
-            {
-              "on": "rates",
-              "level": "medium",
-              "dir": "up",
-              "why": "US 10-year yield near 5.15% as a December Fed hike looks certain."
-            },
-            {
-              "on": "company",
-              "detail": "Nvidia",
-              "level": "medium",
-              "dir": "down",
-              "why": "HSBC downgraded it after the CEO's exit."
-            },
-            {
-              "on": "indian_stocks",
-              "detail": "IT",
-              "level": "low",
-              "dir": "down",
-              "why": "Weak US tech mood often spills into Indian IT shares."
-            }
-          ],
-          "tags": [
-            "Wall Street",
-            "Nvidia",
-            "Fed",
-            "yields"
-          ],
-          "id": "markets-wall-street-close-week-2026-11-13",
-          "headline": "Nasdaq falls 0.9% as Nvidia slides again, but US stocks log best week since August",
-          "summary": "The S&P 500 fell 0.4% to 7,561.67 and the Nasdaq 0.9% to 25,136.27 on Friday; the Dow rose 0.1%. Nvidia lost about 2% after HSBC cut it to hold. All three indexes still gained over 2% for the week, while the US 10-year yield rose to about 5.15%.",
-          "importance": 5,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-13T16:34:00-05:00",
-          "sources": [
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
-            },
-            {
-              "name": "AP via La Nacion",
-              "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-11132026-nid13112026/"
-            }
-          ]
-        },
-        {
-          "why_it_matters": null,
-          "lead": false,
-          "image": null,
-          "impact": [
-            {
-              "on": "oil",
-              "level": "medium",
-              "dir": "down",
-              "why": "A supply surplus is pulling prices lower week on week."
-            }
-          ],
-          "tags": [
-            "oil",
-            "Brent",
-            "IEA"
-          ],
-          "id": "markets-oil-second-weekly-loss-2026-11-13",
-          "headline": "Oil posts a second weekly loss; Brent settles at $95.84",
-          "summary": "Brent ended Friday almost flat at $95.84 a barrel and US crude slipped 0.2% to $88.56. Both fell about 2.5% for the week after the IEA said supply is now running ahead of demand.",
-          "importance": 4,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-13T00:00:00-05:00",
-          "sources": [
-            {
-              "name": "Nation Thailand",
-              "url": "https://www.nationthailand.com/news/world/40073488"
-            },
-            {
-              "name": "Rigzone",
-              "url": "https://www.rigzone.com/news/crude_fluctuates_as_iran_tensions_persist-13-nov-2026-185085-article"
-            }
-          ]
-        }
-      ]
+      "stories": []
     },
     {
       "id": "built",
       "title": "Built This Week",
-      "stories": [
-        {
-          "why_it_matters": "Catching both stages is key to fully reusable rockets, which could slash launch costs.",
-          "lead": false,
-          "image": {
-            "url": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-13T235506Z_1072320291_RC2BNOA7YIFH_RTRMADP_3_SPACE-SPACEX-STARSHIP-1024x667.jpg",
-            "credit": "Reuters",
-            "source_url": "https://www.pbs.org/newshour/science/spacexs-starship-soars-into-orbit-after-booster-malfunction-thwarts-double-catch-attempt",
-            "alt": "Starship and its Super Heavy booster lift off from the launch tower in Texas"
-          },
-          "impact": [],
-          "tags": [
-            "SpaceX",
-            "Starship",
-            "rockets"
-          ],
-          "id": "built-starship-flight-15-2026-11-13",
-          "headline": "Starship reaches orbit on Flight 15, but booster catch is aborted",
-          "summary": "SpaceX launched its 15th Starship test from Texas on Friday. The Super Heavy booster aborted its tower catch and came down in the Gulf of Mexico, while the ship flew on to orbit carrying 26 Starlink satellites. SpaceX plans to try catching the ship itself on Saturday, a first.",
-          "importance": 5,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-13T19:20:00-05:00",
-          "sources": [
-            {
-              "name": "AP via PBS",
-              "url": "https://www.pbs.org/newshour/science/spacexs-starship-soars-into-orbit-after-booster-malfunction-thwarts-double-catch-attempt"
-            },
-            {
-              "name": "Space.com",
-              "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship"
-            }
-          ]
-        },
-        {
-          "why_it_matters": null,
-          "lead": false,
-          "image": null,
-          "impact": [
-            {
-              "on": "company",
-              "detail": "Bayer",
-              "level": "low",
-              "dir": "up",
-              "why": "A first-in-class approval opens a large stroke-prevention market."
-            }
-          ],
-          "tags": [
-            "Bayer",
-            "drug",
-            "stroke",
-            "FDA"
-          ],
-          "id": "built-bayer-sunharbo-fda-2026-11-10",
-          "headline": "FDA approves Bayer's Sunharbo, the first factor XIa blood thinner in the US",
-          "summary": "The US FDA approved Bayer's once-daily asundexian pill to lower the risk of another stroke after a non-cardioembolic stroke or high-risk TIA, taken with antiplatelet drugs. In a 12,327-patient trial it cut ischemic strokes by 26%, with somewhat more stomach bleeding.",
-          "importance": 3,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-10T00:00:00-05:00",
-          "sources": [
-            {
-              "name": "Healio",
-              "url": "https://www.healio.com/news/neurology/20261110/fda-approves-sunharbo-first-factor-xia-inhibitor-for-reducing-risk-for-secondary-stroke"
-            },
-            {
-              "name": "Fierce Pharma",
-              "url": "https://www.fiercepharma.com/pharma/bayer-brings-factor-xia-us-stroke-prevention-fda-nod-1st-class-asundexian"
-            }
-          ]
-        }
-      ]
+      "stories": []
     }
   ],
   "weekend_special": null,
@@ -543,15 +401,6 @@
   ],
   "week_ahead": [
     {
-      "date": "2026-11-14",
-      "events": [
-        {
-          "text": "SpaceX tries the first catch of a Starship upper stage at its Texas tower",
-          "section": "built"
-        }
-      ]
-    },
-    {
       "date": "2026-11-15",
       "events": [
         {
@@ -579,6 +428,15 @@
         {
           "text": "Anthropic IPO retail offer in Australia closes",
           "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "events": [
+        {
+          "text": "APEC leaders' summit opens in Shenzhen; Trump, Xi and Putin due to meet",
+          "section": "world"
         }
       ]
     },
