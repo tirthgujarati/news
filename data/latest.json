@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-14-evening",
-  "date": "2026-11-14",
-  "slot": "evening",
-  "title": "Saturday Evening Edition",
-  "generated_at": "2026-11-14T20:45:20+05:30",
+  "edition_id": "2026-11-15-morning",
+  "date": "2026-11-15",
+  "slot": "morning",
+  "title": "Sunday Morning Edition",
+  "generated_at": "2026-11-15T07:45:00+05:30",
   "snapshot": [
     {
       "id": "usdinr",
@@ -129,10 +129,10 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$65,690",
-      "change": "-3.75%",
+      "value": "$63,643",
+      "change": "-5.88%",
       "dir": "down",
-      "as_of": "2026-11-14T15:12:55+00:00",
+      "as_of": "2026-11-15T02:09:10+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BTC-USD/"
@@ -157,103 +157,74 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-odisha-pmay-houses-2026-11-14",
-          "headline": "Centre to build 5 lakh pucca houses for poor families in Odisha under PMAY-Gramin",
-          "summary": "Rural Development Minister Shivraj Singh Chouhan announced the houses at a state event in Balangir, saying they will be given in phases after a fresh survey. He also said banks will lend women Rs 10 lakh crore over five years, including individual entrepreneurs without a guarantee, and Odisha will get about Rs 4,000 crore this year for rural works.",
-          "why_it_matters": "Large rural housing and women's credit pushes add to government spending in the countryside.",
+          "id": "india-bay-of-bengal-cyclone-2026-11-14",
+          "headline": "IMD says a Bay of Bengal low may become a cyclonic storm by Monday evening",
+          "summary": "A well-marked low over the southeast Bay of Bengal is likely to become a depression within 24 hours and could strengthen into a cyclonic storm over the central Bay around Monday evening, the weather office said. Heavy rain is forecast for the Andaman and Nicobar Islands until Monday, and fishermen are told to stay away from the Andaman Sea. Delhi's air quality stayed 'very poor', with an AQI of 367 on Saturday evening.",
+          "why_it_matters": "A cyclone could disrupt shipping, fishing and crops along India's east coast later in the week.",
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio (citing IMD).",
+          "published_at": "2026-11-14T21:06:00+05:30",
+          "tags": [
+            "IMD",
+            "cyclone",
+            "Bay of Bengal",
+            "weather"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/low-pressure-area-over-southeast-bay-of-bengal-likely-to-intensify-into-depression-imd/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "india-jaishankar-trade-deal-2026-11-14",
+          "headline": "Jaishankar says India-US trade deal should close soon once a few issues are settled",
+          "summary": "External Affairs Minister S Jaishankar told a summit in New Delhi that the India-US trade deal should be concluded soon and must be fair to both sides. He said India's own interest will guide its response to the wars in Ukraine and the Gulf, and that states are now far more willing to take risks.",
+          "why_it_matters": "A US trade deal would cut tariff uncertainty for Indian exporters.",
           "importance": 3,
           "lead": false,
           "verified": false,
           "note": "Single source: All India Radio.",
-          "published_at": "2026-11-14T20:32:00+05:30",
+          "published_at": "2026-11-14T15:27:00+05:30",
           "tags": [
-            "Odisha",
-            "PMAY-G",
-            "housing",
-            "rural"
+            "Jaishankar",
+            "India-US",
+            "trade deal",
+            "foreign policy"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/govt-announces-5-lakh-pucca-houses-for-poor-families-in-odisha-under-pmay-gramin/"
-            }
-          ],
-          "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/Bhub.jpg",
-            "credit": "All India Radio",
-            "source_url": "https://newsonair.gov.in/govt-announces-5-lakh-pucca-houses-for-poor-families-in-odisha-under-pmay-gramin/",
-            "alt": "Shivraj Singh Chouhan hands a document to Odisha CM Mohan Charan Majhi on stage in Balangir"
-          },
-          "impact": []
-        },
-        {
-          "id": "india-vaishnaw-chip-machines-2026-11-14",
-          "headline": "Vaishnaw urges Indian firms to build machines used in chipmaking",
-          "summary": "IT Minister Ashwini Vaishnaw visited Bengaluru startup Ethereal Machines, which makes CNC machines and precision parts for semiconductor equipment. He said such parts, now mostly made in Germany and Japan, would cut India's imports for chips, defence and space.",
-          "why_it_matters": null,
-          "importance": 2,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-14T19:45:00+05:30",
-          "tags": [
-            "semiconductors",
-            "manufacturing",
-            "Vaishnaw"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/govt-encourages-manufacturing-sector-to-create-machines-needed-for-semiconductor-sector-says-union-minister-ashwini-vaishnaw/"
+              "url": "https://newsonair.gov.in/eam-dr-s-jaishankar-says-indias-national-interest-will-guide-its-response-to-situations-in-ukraine-and-gulf-region/"
             }
           ],
           "image": null,
           "impact": []
         },
         {
-          "id": "india-delhi-ncr-pollution-review-2026-11-14",
-          "headline": "Centre orders 191 polluting factories in Delhi-NCR sealed",
-          "summary": "Environment Minister Bhupender Yadav told the pollution board to seal 191 industries that still have not installed air pollution control devices. Haryana, Uttar Pradesh and Rajasthan must name senior officers for 15 NCR cities who will report weekly, and officers who fail to act will get notices.",
+          "id": "india-aiims-fetal-surgery-2026-11-14",
+          "headline": "AIIMS Delhi does India's first open surgery on an unborn baby's spine",
+          "summary": "A team of more than 30 AIIMS doctors and nurses repaired a severe spina bifida defect in a 25-week fetus in a six-hour operation on November 12. The family paid nothing under a government maternity scheme. Mother and baby will be watched through birth.",
           "why_it_matters": null,
           "importance": 2,
           "lead": false,
           "verified": false,
           "note": "Single source: All India Radio.",
-          "published_at": "2026-11-14T20:30:00+05:30",
+          "published_at": "2026-11-14T21:12:00+05:30",
           "tags": [
-            "Delhi",
-            "air pollution",
-            "CAQM"
+            "AIIMS",
+            "health",
+            "surgery"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/environment-minister-assesses-measures-to-mitigate-air-pollution-in-delhi-ncr/"
-            }
-          ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "india-fci-rice-scam-verdict-2026-11-14",
-          "headline": "CBI court convicts 14 FCI officials and 16 millers in Punjab rice scam",
-          "summary": "A CBI court in Mohali sentenced the 30 accused to one to three years in jail plus fines. They let substandard rice be accepted as Grade-A at three Sangrur centres in 2004-05, causing a loss to the Food Corporation of India.",
-          "why_it_matters": null,
-          "importance": 1,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-14T19:49:00+05:30",
-          "tags": [
-            "CBI",
-            "FCI",
-            "Punjab",
-            "corruption"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/cbi-court-holds-14-fci-officials-and-16-private-rice-millers-guilty-in-punjab-rice-procurement-scam/"
+              "url": "https://newsonair.gov.in/aiims-delhi-performs-indias-first-open-fetal-surgery-to-repair-severe-spinal-defect/"
             }
           ],
           "image": null,
@@ -266,57 +237,20 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-zelenskyy-nato-donbas-2026-11-14",
-          "headline": "Zelenskyy says US asked about giving up Donbas in return for NATO membership",
-          "summary": "Zelenskyy says US negotiators at this week's Abu Dhabi talks asked, for the first time, whether Ukraine would leave Donbas in exchange for joining NATO, but made no firm offer. He says Ukraine will not pull out, though a referendum is possible with firm security guarantees and rebuilding money. Russia rejects both a pullback short of all of Donbas and Ukraine in NATO.",
-          "why_it_matters": "A NATO-for-land idea would be a big shift in US-led peace efforts ahead of next week's Trump-Xi-Putin meeting.",
-          "importance": 4,
-          "lead": true,
-          "verified": false,
-          "note": "Claim by Zelenskyy; not confirmed by the US.",
-          "published_at": "2026-11-14T11:43:06+00:00",
-          "tags": [
-            "Ukraine",
-            "Russia",
-            "NATO",
-            "peace talks"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/14/three-killed-in-russia-as-ukraine-claims-us-floated-nato-membership-option"
-            }
-          ],
-          "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/10/getty_6acfd9a7b9-1792006567.jpg",
-            "credit": "Getty Images",
-            "source_url": "https://www.aljazeera.com/news/2026/11/14/three-killed-in-russia-as-ukraine-claims-us-floated-nato-membership-option",
-            "alt": "Volodymyr Zelenskyy in front of a Ukrainian flag"
-          },
-          "impact": [
-            {
-              "on": "oil",
-              "level": "low",
-              "dir": "mixed",
-              "why": "Any real progress towards a Ukraine deal could ease supply worries around Russian oil."
-            }
-          ]
-        },
-        {
           "id": "world-iran-hormuz-mine-tanker-2026-11-14",
-          "headline": "Iran's navy says a tanker hit a mine in Hormuz, the fifth ship hit in 24 hours",
-          "summary": "Iran's navy says a tanker caught fire after hitting a naval mine in the eastern Strait of Hormuz and accuses it of sailing in a banned area. Iran's IRGC also says it shot down a US MQ-1 drone over Qeshm Island. The Saudi-led coalition in Yemen says it destroyed two Houthi drones heading for Saudi Arabia.",
-          "why_it_matters": "More hits on ships in Hormuz could push oil back up when markets reopen, raising India's import bill.",
+          "headline": "Update: Iran's navy says two more tankers hit mines in Hormuz, seven in 24 hours",
+          "summary": "Iran's navy now says two more tankers struck naval mines and caught fire in the eastern Strait of Hormuz, which it counts as the seventh such incident in 24 hours, up from five in its earlier claim. Saudi-led coalition forces also say they shot down two Houthi drones. No ship names or independent proof have been given.",
+          "why_it_matters": "More ship hits in Hormuz could lift oil prices when markets reopen, raising India's import bill.",
           "importance": 4,
           "lead": false,
           "verified": false,
-          "note": "Claims by Iran's navy, the IRGC and the Saudi-led coalition; not independently confirmed.",
-          "published_at": "2026-11-14T00:00:25+00:00",
+          "note": "Claims by Iran's navy and the Saudi-led coalition; not independently confirmed.",
+          "published_at": "2026-11-15T00:31:59+00:00",
           "tags": [
             "Iran",
             "Hormuz",
             "shipping",
-            "Yemen"
+            "oil"
           ],
           "sources": [
             {
@@ -330,53 +264,111 @@
               "on": "oil",
               "level": "medium",
               "dir": "up",
-              "why": "Fresh attacks on tankers in Hormuz add to supply risk for crude."
+              "why": "Repeated reports of tankers hit in Hormuz add to supply risk for crude."
             }
           ]
         },
         {
-          "id": "world-icc-drops-us-afghanistan-probe-2026-11-14",
-          "headline": "ICC judges halt probe into alleged crimes by US troops in Afghanistan",
-          "summary": "Judges said the prosecution faced major limits in gathering evidence and narrowed the Afghanistan case to Taliban actions since 2021. The prosecutor's office says it has already appealed. US Secretary of State Marco Rubio says the court will never be allowed to prosecute Americans.",
+          "id": "world-hamas-commander-killed-2026-11-14",
+          "headline": "Hamas says Israeli drone strike killed its Rafah brigade commander in Gaza",
+          "summary": "Israel's military and Shin Bet say they hit a senior Hamas commander in a drone strike in Khan Younis on Saturday, and Hamas confirmed Samir Abu Younis was killed. The strike hit a tent for displaced people in al-Mawasi and wounded two others. Gaza's health ministry says 16 people were killed in the past 48 hours despite the ceasefire.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: Al Jazeera (citing AP and Reuters).",
-          "published_at": "2026-11-14T00:00:00+00:00",
+          "note": "Single source: Al Jazeera. Israel and Hamas both confirm the strike.",
+          "published_at": "2026-11-15T01:00:42+00:00",
           "tags": [
-            "ICC",
-            "US",
-            "Afghanistan"
+            "Israel",
+            "Hamas",
+            "Gaza"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/14/icc-stops-probe-into-alleged-crimes-by-us-troops-in-afghanistan"
+              "url": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza"
             }
           ],
           "image": null,
           "impact": []
         },
         {
-          "id": "world-hungary-hidden-cash-probe-2026-11-14",
-          "headline": "Hungary finds about $19.5 million hidden in forests and buildings in graft probe",
-          "summary": "Investigators found cash buried in forests and stashed in farm buildings, a home and a safe during searches on November 12 and 13. The case involves former Orban-era minister Miklos Sesztak, suspected of taking over $37 million in bribes; he denies wrongdoing.",
+          "id": "world-kushner-europe-russia-talks-2026-11-14",
+          "headline": "US envoy Kushner says he wants Europe and Russia to talk directly on Ukraine",
+          "summary": "Jared Kushner said on Saturday he is working with Russia, Ukraine and Europe to move peace talks to the next stage, including direct Europe-Moscow contact, and that both sides know compromises are needed. France's Macron said Europe must state clearly what it wants after the war. The Kremlin has said it is open to talks with Europe.",
           "why_it_matters": null,
-          "importance": 2,
+          "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: Al Jazeera (with AP and Reuters).",
-          "published_at": "2026-11-14T00:00:00+00:00",
+          "note": "Single source: Al Jazeera (with Reuters).",
+          "published_at": "2026-11-14T21:10:26+00:00",
           "tags": [
-            "Hungary",
-            "corruption",
-            "Orban"
+            "Ukraine",
+            "Russia",
+            "Europe",
+            "Kushner"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/14/hungarian-investigators-uncover-19-5m-hidden-in-forests-and-buildings"
+              "url": "https://www.aljazeera.com/news/2026/11/14/us-envoy-kushner-says-he-aims-to-broker-europe-russia-talks-on-ukraine"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-italy-meta-fine-2026-11-14",
+          "headline": "Italy fines Meta 805 million euros over Facebook app's access to users' photos",
+          "summary": "Italy's privacy regulator, the Garante, said the Facebook Android app reached users' photos and videos without specific consent, with a photo-suggestion feature switched on by default. It is the regulator's largest fine, about 0.47% of Meta's global turnover, and Meta must fix the consent notice. Meta can appeal.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera.",
+          "published_at": "2026-11-14T16:16:15+00:00",
+          "tags": [
+            "Meta",
+            "Italy",
+            "privacy",
+            "EU"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/14/italy-fines-meta-880m-over-photo-privacy"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Meta",
+              "level": "low",
+              "dir": "down",
+              "why": "A record Italian privacy fine adds to Meta's regulatory costs in Europe."
+            }
+          ]
+        },
+        {
+          "id": "world-france-yellow-vest-protests-2026-11-14",
+          "headline": "More than 100,000 march across France against living costs; strike set for Tuesday",
+          "summary": "France's interior ministry counted 106,000 protesters nationwide on Saturday, down from 146,000 a week earlier; student unions said 200,000. Police used tear gas in Marseille, Lyon, Nantes, Bordeaux and Paris. Unions rejected a 0.6% minimum wage rise and called a new strike day for Tuesday.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera.",
+          "published_at": "2026-11-14T19:46:24+00:00",
+          "tags": [
+            "France",
+            "protests",
+            "Macron"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests"
             }
           ],
           "image": null,
@@ -392,57 +384,47 @@
     {
       "id": "markets",
       "title": "Money & Markets",
-      "stories": [
-        {
-          "id": "markets-india-third-weekly-gain-2026-11-14",
-          "headline": "Sensex and Nifty log a third straight weekly gain; PSU banks jump 7.5%",
-          "summary": "Over the week, the Sensex rose 564 points (0.7%) to 81,592 and the Nifty gained 114 points (0.5%) to 25,144, despite Friday's fall. Smaller stocks did better: the Midcap 100 rose 2.1% and Smallcap 100 3.6%. Nifty PSU Bank led with a 7.5% gain while Nifty IT fell 3.2%.",
-          "why_it_matters": "Foreign buying and earnings are holding up Indian stocks even as US yields rise and the rupee weakens.",
-          "importance": 3,
-          "lead": false,
-          "verified": true,
-          "note": "Weekly point changes checked against Yahoo Finance closing data.",
-          "published_at": "2026-11-14T16:00:00+05:30",
-          "tags": [
-            "Sensex",
-            "Nifty",
-            "weekly",
-            "PSU banks"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/indian-markets-end-in-positive-zone/"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/%5ENSEI/history/"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "indian_stocks",
-              "detail": "Banks",
-              "level": "low",
-              "dir": "up",
-              "why": "PSU banks lead the market's weekly gains."
-            },
-            {
-              "on": "indian_stocks",
-              "detail": "IT",
-              "level": "low",
-              "dir": "down",
-              "why": "IT stocks lagged with a 3.2% weekly fall."
-            }
-          ]
-        }
-      ]
+      "stories": []
     },
     {
       "id": "built",
       "title": "Built This Week",
-      "stories": []
+      "stories": [
+        {
+          "id": "built-starship-flight-15-2026-11-13",
+          "headline": "Update: SpaceX catches a Starship upper stage with its tower for the first time",
+          "summary": "New since Friday's launch: the Starship upper stage came back from orbit on Saturday after about 22 hours and 14 laps of Earth and was caught by the tower's arms at Starbase, Texas. It had released 26 Starlink satellites. The planned double catch failed because the booster exploded on its way down on Friday, and engineers are investigating.",
+          "why_it_matters": "Catching the ship proves a fully reusable rocket can work, which could sharply cut the cost of reaching space.",
+          "importance": 4,
+          "lead": true,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-15T00:14:22+00:00",
+          "tags": [
+            "SpaceX",
+            "Starship",
+            "space",
+            "reusable rockets"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af8f2594aa1-1794699865.jpg?resize=1920%2C1440",
+            "credit": "AFP",
+            "source_url": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first",
+            "alt": "Starship rises beside its launch tower at Starbase, Texas, as spectators watch from a boat"
+          },
+          "impact": []
+        }
+      ]
     }
   ],
   "weekend_special": null,
@@ -458,6 +440,10 @@
         {
           "text": "PM Modi joins Janjatiya Gaurav Diwas in Gadchiroli; 246 projects worth Rs 3,000 crore",
           "section": "india"
+        },
+        {
+          "text": "49th ASEAN Summit opens in Manila",
+          "section": "world"
         }
       ]
     },
@@ -480,6 +466,10 @@
         {
           "text": "Anthropic IPO retail offer in Australia closes",
           "section": "markets"
+        },
+        {
+          "text": "French unions hold a nationwide strike day",
+          "section": "world"
         }
       ]
     },
