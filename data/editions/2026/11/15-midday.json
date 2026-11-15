@@ -1,0 +1,445 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-15-midday",
+  "date": "2026-11-15",
+  "slot": "midday",
+  "title": "Sunday Midday Edition",
+  "generated_at": "2026-11-15T13:50:00+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "94.20",
+      "change": "+0.09%",
+      "dir": "up",
+      "as_of": "2026-11-13T00:00:00+05:30",
+      "source": {
+        "name": "PTI via TradingView",
+        "url": "https://www.tradingview.com/news/moodys:13636e5ce594f:0-rupee-falls-8-paise-to-close-at-94-20-against-us-dollar/"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "103.89",
+      "change": "+0.01%",
+      "dir": "up",
+      "as_of": "2026-11-13T22:26:33+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR%3DX/"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.41",
+      "change": "+0.23%",
+      "dir": "up",
+      "as_of": "2026-11-13T21:59:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$719.55bn",
+      "change": "+0.35%",
+      "dir": "up",
+      "as_of": "2026-11-06T00:00:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/indias-forex-reserves-increase-by-2-49bn-to-reach-719-54bn-last-week/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,144.30",
+      "change": "-0.61%",
+      "dir": "down",
+      "as_of": "2026-11-13T10:01:20+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI/"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "81,592.45",
+      "change": "-0.39%",
+      "dir": "down",
+      "as_of": "2026-11-13T10:02:31+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN/"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,561.67",
+      "change": "-0.40%",
+      "dir": "down",
+      "as_of": "2026-11-13T21:43:19+00:00",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "25,136.27",
+      "change": "-0.91%",
+      "dir": "down",
+      "as_of": "2026-11-13T22:15:59+00:00",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,887.60",
+      "change": "+0.06%",
+      "dir": "up",
+      "as_of": "2026-11-13T21:59:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/GC%3DF/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$95.84",
+      "change": "+0.02%",
+      "dir": "up",
+      "as_of": "2026-11-13T00:00:00-05:00",
+      "source": {
+        "name": "Nation Thailand",
+        "url": "https://www.nationthailand.com/news/world/40073488"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$63,961",
+      "change": "-4.84%",
+      "dir": "down",
+      "as_of": "2026-11-15T08:08:50+00:00",
+      "source": {
+        "name": "CoinGecko",
+        "url": "https://www.coingecko.com/en/coins/bitcoin"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "5.15%",
+      "change": "+1.06%",
+      "dir": "up",
+      "as_of": "2026-11-13T19:59:54+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-modi-tribal-projects-2026-11-15",
+          "headline": "Modi launches 246 projects worth about Rs 3,000 crore for tribal areas",
+          "summary": "Speaking by video to the national event in Gadchiroli, Maharashtra, the PM opened 173 projects and laid foundation stones for 73 more. They include 57 Eklavya Model Residential Schools and 100 multi-purpose centres under the PM-JANMAN scheme for tribal groups.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-15T12:37:00+05:30",
+          "tags": [
+            "Modi",
+            "tribal",
+            "Gadchiroli",
+            "PM-JANMAN"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/janjatiya-gaurav-diwas-has-become-a-national-celebration-pm-modi/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "india-goyal-egypt-trade-2026-11-15",
+          "headline": "Goyal in Cairo with 130 business leaders; India-Egypt trade at about $6.5 billion",
+          "summary": "Commerce Minister Piyush Goyal says two-way trade with Egypt is about $6.5 billion and nearly 70 Indian firms there have invested over $5 billion. The two sides hold their seventh Joint Trade Committee meeting and a business forum in Cairo today.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-15T13:16:00+05:30",
+          "tags": [
+            "Goyal",
+            "Egypt",
+            "trade"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/india-egypt-bilateral-trade-worth-6-5-billion-piyush-goyal/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-iran-bahrain-drone-attack-2026-11-15",
+          "headline": "Iran says its drones hit a US radar in Bahrain; Bahrain says it stopped the attacks",
+          "summary": "Iran's Revolutionary Guards say six drones struck a US air-defence radar at the Riffa helicopter base in Bahrain and that the Strait of Hormuz is closed. Blasts and sirens were heard in Bahrain around 4 am and 6:30 am local time; Bahrain issued its first shelter alerts since September and says its air defences intercepted several Iranian attacks. This is the second Iranian claim on a US target in Bahrain in three days; the US has not confirmed it.",
+          "why_it_matters": "Fresh Iranian attacks on Gulf bases could lift oil and hurt the rupee when markets reopen on Monday.",
+          "importance": 5,
+          "lead": true,
+          "verified": false,
+          "note": "Claim by Iran's IRGC; Bahrain says it intercepted the attacks. No US confirmation of damage.",
+          "published_at": "2026-11-15T04:57:29+00:00",
+          "tags": [
+            "Iran",
+            "Bahrain",
+            "US",
+            "IRGC",
+            "Hormuz"
+          ],
+          "sources": [
+            {
+              "name": "The National",
+              "url": "https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/"
+            },
+            {
+              "name": "Reuters (via SRN News)",
+              "url": "https://srnnews.com/bahrains-interior-ministry-issues-alerts-of-potential-threats/"
+            },
+            {
+              "name": "AFP (via The Manila Times)",
+              "url": "https://www.manilatimes.net/2026/11/15/world/blasts-sirens-in-bahrain-as-iran-announces-attack-on-us-base/2470216"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status"
+            }
+          ],
+          "image": {
+            "url": "https://www.thenationalnews.com/resizer/v2/5IS3HYLXF5AWRAIY7T35R4BQVM.JPG?auth=1942d2bfcde7cc63279149ff2cd2d36befa120cc7b34b3555dbef6dd1483e0f4&smart=true&width=1200&height=630",
+            "credit": "Reuters",
+            "source_url": "https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/",
+            "alt": "Manama, Bahrain's capital, at night (file photo)"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "New Iranian attacks and a claim that Hormuz is closed add supply risk for Gulf oil."
+            },
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "down",
+              "why": "Higher oil risk raises India import costs and weighs on the rupee."
+            },
+            {
+              "on": "gold",
+              "level": "low",
+              "dir": "up",
+              "why": "More Gulf conflict can add safe-haven demand for gold."
+            }
+          ]
+        },
+        {
+          "id": "world-houthi-missiles-riyadh-2026-11-15",
+          "headline": "Saudi-led coalition says it shot down two Houthi missiles aimed at Riyadh",
+          "summary": "The coalition says its air defences intercepted two ballistic missiles fired at Riyadh and drones over the Eastern Province on Sunday. The Houthis say they downed a Saudi reconnaissance aircraft over al-Jawf, as fighting grows in Yemen's Marib and al-Jawf. Saudi authorities say at least 26 people have been killed in Houthi attacks on the kingdom since September 23.",
+          "why_it_matters": null,
+          "importance": 4,
+          "lead": false,
+          "verified": false,
+          "note": "Claims by the Saudi-led coalition and the Houthis; not independently confirmed.",
+          "published_at": "2026-11-15T02:59:06+00:00",
+          "tags": [
+            "Saudi Arabia",
+            "Houthis",
+            "Yemen",
+            "Riyadh"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh"
+            },
+            {
+              "name": "The National",
+              "url": "https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "low",
+              "dir": "up",
+              "why": "Missile fire at the top oil exporter keeps a risk premium in crude."
+            }
+          ]
+        },
+        {
+          "id": "world-iraq-oil-smuggling-sackings-2026-11-15",
+          "headline": "Iraq's PM sacks nine officials over oil smuggling in a militia-held area",
+          "summary": "Prime Minister Ali al-Zaidi dismissed nine security and oil officials over a smuggling network in Jurf al-Nasr, a stronghold of the Iran-backed Kataib Hezbollah, and sent the accused to the courts. An investigating committee confirmed pipelines south of Baghdad had been tapped; Al Jazeera's reporter put the racket at up to $30 million a month.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera (with AFP).",
+          "published_at": "2026-11-15T01:54:55+00:00",
+          "tags": [
+            "Iraq",
+            "oil",
+            "Kataib Hezbollah"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/15/iraq-pm-sacks-nine-officials-over-oil-smuggling-in-pro-iran-stronghold"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": []
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": []
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "id": "built-electron-100th-launch-2026-11-14",
+          "headline": "Rocket Lab flies its Electron rocket for the 100th time, nine years after its debut",
+          "summary": "Electron lifted off from New Zealand and placed iQPS's YAMATSUMI-II radar imaging satellite in a 575 km orbit. Rocket Lab says no other commercially built rocket has reached 100 launches as fast, and that its next 100 Electron flights are already booked.",
+          "why_it_matters": "Shows small rockets can fly often enough to be a steady business, not one-off launches.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-14T18:30:00+13:00",
+          "tags": [
+            "Rocket Lab",
+            "Electron",
+            "space",
+            "iQPS"
+          ],
+          "sources": [
+            {
+              "name": "Rocket Lab (press release)",
+              "url": "https://www.globenewswire.com/news-release/2026/11/14/3403041/0/en/rocket-lab-hits-100-electron-launches-fastest-commercial-rocket-to-reach-the-milestone.html"
+            },
+            {
+              "name": "SpaceNews",
+              "url": "https://spacenews.com/electron-launches-for-100th-time/"
+            }
+          ],
+          "image": {
+            "url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/electron-100.jpeg?fit=1200%2C750&ssl=1",
+            "credit": "Rocket Lab webcast",
+            "source_url": "https://spacenews.com/electron-launches-for-100th-time/",
+            "alt": "Electron rocket lifting off from Rocket Lab's coastal launch site in New Zealand"
+          },
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Rocket Lab",
+              "level": "low",
+              "dir": "up",
+              "why": "A clean 100th launch and a full order book support confidence in the company."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [],
+  "week_ahead": [
+    {
+      "date": "2026-11-16",
+      "events": [
+        {
+          "text": "PM Modi arrives in Manila for a two-day visit",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "events": [
+        {
+          "text": "23rd ASEAN-India Summit and East Asia Summit in Manila",
+          "section": "india"
+        },
+        {
+          "text": "Anthropic IPO retail offer in Australia closes",
+          "section": "markets"
+        },
+        {
+          "text": "French unions hold a nationwide strike day",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "events": [
+        {
+          "text": "APEC leaders' summit opens in Shenzhen; Trump, Xi and Putin due to meet",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "events": [
+        {
+          "text": "India hosts first SCO Civilisational Dialogue Forum in New Delhi",
+          "section": "india"
+        }
+      ]
+    }
+  ]
+}

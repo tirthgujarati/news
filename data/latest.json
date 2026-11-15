@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-15-morning",
+  "edition_id": "2026-11-15-midday",
   "date": "2026-11-15",
-  "slot": "morning",
-  "title": "Sunday Morning Edition",
-  "generated_at": "2026-11-15T07:45:00+05:30",
+  "slot": "midday",
+  "title": "Sunday Midday Edition",
+  "generated_at": "2026-11-15T13:50:00+05:30",
   "snapshot": [
     {
       "id": "usdinr",
@@ -129,13 +129,13 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$63,643",
-      "change": "-5.88%",
+      "value": "$63,961",
+      "change": "-4.84%",
       "dir": "down",
-      "as_of": "2026-11-15T02:09:10+00:00",
+      "as_of": "2026-11-15T08:08:50+00:00",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/BTC-USD/"
+        "name": "CoinGecko",
+        "url": "https://www.coingecko.com/en/coins/bitcoin"
       }
     },
     {
@@ -157,74 +157,49 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-bay-of-bengal-cyclone-2026-11-14",
-          "headline": "IMD says a Bay of Bengal low may become a cyclonic storm by Monday evening",
-          "summary": "A well-marked low over the southeast Bay of Bengal is likely to become a depression within 24 hours and could strengthen into a cyclonic storm over the central Bay around Monday evening, the weather office said. Heavy rain is forecast for the Andaman and Nicobar Islands until Monday, and fishermen are told to stay away from the Andaman Sea. Delhi's air quality stayed 'very poor', with an AQI of 367 on Saturday evening.",
-          "why_it_matters": "A cyclone could disrupt shipping, fishing and crops along India's east coast later in the week.",
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio (citing IMD).",
-          "published_at": "2026-11-14T21:06:00+05:30",
-          "tags": [
-            "IMD",
-            "cyclone",
-            "Bay of Bengal",
-            "weather"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/low-pressure-area-over-southeast-bay-of-bengal-likely-to-intensify-into-depression-imd/"
-            }
-          ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "india-jaishankar-trade-deal-2026-11-14",
-          "headline": "Jaishankar says India-US trade deal should close soon once a few issues are settled",
-          "summary": "External Affairs Minister S Jaishankar told a summit in New Delhi that the India-US trade deal should be concluded soon and must be fair to both sides. He said India's own interest will guide its response to the wars in Ukraine and the Gulf, and that states are now far more willing to take risks.",
-          "why_it_matters": "A US trade deal would cut tariff uncertainty for Indian exporters.",
+          "id": "india-modi-tribal-projects-2026-11-15",
+          "headline": "Modi launches 246 projects worth about Rs 3,000 crore for tribal areas",
+          "summary": "Speaking by video to the national event in Gadchiroli, Maharashtra, the PM opened 173 projects and laid foundation stones for 73 more. They include 57 Eklavya Model Residential Schools and 100 multi-purpose centres under the PM-JANMAN scheme for tribal groups.",
+          "why_it_matters": null,
           "importance": 3,
           "lead": false,
           "verified": false,
           "note": "Single source: All India Radio.",
-          "published_at": "2026-11-14T15:27:00+05:30",
+          "published_at": "2026-11-15T12:37:00+05:30",
           "tags": [
-            "Jaishankar",
-            "India-US",
-            "trade deal",
-            "foreign policy"
+            "Modi",
+            "tribal",
+            "Gadchiroli",
+            "PM-JANMAN"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/eam-dr-s-jaishankar-says-indias-national-interest-will-guide-its-response-to-situations-in-ukraine-and-gulf-region/"
+              "url": "https://newsonair.gov.in/janjatiya-gaurav-diwas-has-become-a-national-celebration-pm-modi/"
             }
           ],
           "image": null,
           "impact": []
         },
         {
-          "id": "india-aiims-fetal-surgery-2026-11-14",
-          "headline": "AIIMS Delhi does India's first open surgery on an unborn baby's spine",
-          "summary": "A team of more than 30 AIIMS doctors and nurses repaired a severe spina bifida defect in a 25-week fetus in a six-hour operation on November 12. The family paid nothing under a government maternity scheme. Mother and baby will be watched through birth.",
+          "id": "india-goyal-egypt-trade-2026-11-15",
+          "headline": "Goyal in Cairo with 130 business leaders; India-Egypt trade at about $6.5 billion",
+          "summary": "Commerce Minister Piyush Goyal says two-way trade with Egypt is about $6.5 billion and nearly 70 Indian firms there have invested over $5 billion. The two sides hold their seventh Joint Trade Committee meeting and a business forum in Cairo today.",
           "why_it_matters": null,
           "importance": 2,
           "lead": false,
           "verified": false,
           "note": "Single source: All India Radio.",
-          "published_at": "2026-11-14T21:12:00+05:30",
+          "published_at": "2026-11-15T13:16:00+05:30",
           "tags": [
-            "AIIMS",
-            "health",
-            "surgery"
+            "Goyal",
+            "Egypt",
+            "trade"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/aiims-delhi-performs-indias-first-open-fetal-surgery-to-repair-severe-spinal-defect/"
+              "url": "https://newsonair.gov.in/india-egypt-bilateral-trade-worth-6-5-billion-piyush-goyal/"
             }
           ],
           "image": null,
@@ -237,138 +212,122 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-iran-hormuz-mine-tanker-2026-11-14",
-          "headline": "Update: Iran's navy says two more tankers hit mines in Hormuz, seven in 24 hours",
-          "summary": "Iran's navy now says two more tankers struck naval mines and caught fire in the eastern Strait of Hormuz, which it counts as the seventh such incident in 24 hours, up from five in its earlier claim. Saudi-led coalition forces also say they shot down two Houthi drones. No ship names or independent proof have been given.",
-          "why_it_matters": "More ship hits in Hormuz could lift oil prices when markets reopen, raising India's import bill.",
+          "id": "world-iran-bahrain-drone-attack-2026-11-15",
+          "headline": "Iran says its drones hit a US radar in Bahrain; Bahrain says it stopped the attacks",
+          "summary": "Iran's Revolutionary Guards say six drones struck a US air-defence radar at the Riffa helicopter base in Bahrain and that the Strait of Hormuz is closed. Blasts and sirens were heard in Bahrain around 4 am and 6:30 am local time; Bahrain issued its first shelter alerts since September and says its air defences intercepted several Iranian attacks. This is the second Iranian claim on a US target in Bahrain in three days; the US has not confirmed it.",
+          "why_it_matters": "Fresh Iranian attacks on Gulf bases could lift oil and hurt the rupee when markets reopen on Monday.",
+          "importance": 5,
+          "lead": true,
+          "verified": false,
+          "note": "Claim by Iran's IRGC; Bahrain says it intercepted the attacks. No US confirmation of damage.",
+          "published_at": "2026-11-15T04:57:29+00:00",
+          "tags": [
+            "Iran",
+            "Bahrain",
+            "US",
+            "IRGC",
+            "Hormuz"
+          ],
+          "sources": [
+            {
+              "name": "The National",
+              "url": "https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/"
+            },
+            {
+              "name": "Reuters (via SRN News)",
+              "url": "https://srnnews.com/bahrains-interior-ministry-issues-alerts-of-potential-threats/"
+            },
+            {
+              "name": "AFP (via The Manila Times)",
+              "url": "https://www.manilatimes.net/2026/11/15/world/blasts-sirens-in-bahrain-as-iran-announces-attack-on-us-base/2470216"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status"
+            }
+          ],
+          "image": {
+            "url": "https://www.thenationalnews.com/resizer/v2/5IS3HYLXF5AWRAIY7T35R4BQVM.JPG?auth=1942d2bfcde7cc63279149ff2cd2d36befa120cc7b34b3555dbef6dd1483e0f4&smart=true&width=1200&height=630",
+            "credit": "Reuters",
+            "source_url": "https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/",
+            "alt": "Manama, Bahrain's capital, at night (file photo)"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "New Iranian attacks and a claim that Hormuz is closed add supply risk for Gulf oil."
+            },
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "down",
+              "why": "Higher oil risk raises India import costs and weighs on the rupee."
+            },
+            {
+              "on": "gold",
+              "level": "low",
+              "dir": "up",
+              "why": "More Gulf conflict can add safe-haven demand for gold."
+            }
+          ]
+        },
+        {
+          "id": "world-houthi-missiles-riyadh-2026-11-15",
+          "headline": "Saudi-led coalition says it shot down two Houthi missiles aimed at Riyadh",
+          "summary": "The coalition says its air defences intercepted two ballistic missiles fired at Riyadh and drones over the Eastern Province on Sunday. The Houthis say they downed a Saudi reconnaissance aircraft over al-Jawf, as fighting grows in Yemen's Marib and al-Jawf. Saudi authorities say at least 26 people have been killed in Houthi attacks on the kingdom since September 23.",
+          "why_it_matters": null,
           "importance": 4,
           "lead": false,
           "verified": false,
-          "note": "Claims by Iran's navy and the Saudi-led coalition; not independently confirmed.",
-          "published_at": "2026-11-15T00:31:59+00:00",
+          "note": "Claims by the Saudi-led coalition and the Houthis; not independently confirmed.",
+          "published_at": "2026-11-15T02:59:06+00:00",
           "tags": [
-            "Iran",
-            "Hormuz",
-            "shipping",
-            "oil"
+            "Saudi Arabia",
+            "Houthis",
+            "Yemen",
+            "Riyadh"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal"
+              "url": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh"
+            },
+            {
+              "name": "The National",
+              "url": "https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/"
             }
           ],
           "image": null,
           "impact": [
             {
               "on": "oil",
-              "level": "medium",
-              "dir": "up",
-              "why": "Repeated reports of tankers hit in Hormuz add to supply risk for crude."
-            }
-          ]
-        },
-        {
-          "id": "world-hamas-commander-killed-2026-11-14",
-          "headline": "Hamas says Israeli drone strike killed its Rafah brigade commander in Gaza",
-          "summary": "Israel's military and Shin Bet say they hit a senior Hamas commander in a drone strike in Khan Younis on Saturday, and Hamas confirmed Samir Abu Younis was killed. The strike hit a tent for displaced people in al-Mawasi and wounded two others. Gaza's health ministry says 16 people were killed in the past 48 hours despite the ceasefire.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera. Israel and Hamas both confirm the strike.",
-          "published_at": "2026-11-15T01:00:42+00:00",
-          "tags": [
-            "Israel",
-            "Hamas",
-            "Gaza"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza"
-            }
-          ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "world-kushner-europe-russia-talks-2026-11-14",
-          "headline": "US envoy Kushner says he wants Europe and Russia to talk directly on Ukraine",
-          "summary": "Jared Kushner said on Saturday he is working with Russia, Ukraine and Europe to move peace talks to the next stage, including direct Europe-Moscow contact, and that both sides know compromises are needed. France's Macron said Europe must state clearly what it wants after the war. The Kremlin has said it is open to talks with Europe.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera (with Reuters).",
-          "published_at": "2026-11-14T21:10:26+00:00",
-          "tags": [
-            "Ukraine",
-            "Russia",
-            "Europe",
-            "Kushner"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/14/us-envoy-kushner-says-he-aims-to-broker-europe-russia-talks-on-ukraine"
-            }
-          ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "world-italy-meta-fine-2026-11-14",
-          "headline": "Italy fines Meta 805 million euros over Facebook app's access to users' photos",
-          "summary": "Italy's privacy regulator, the Garante, said the Facebook Android app reached users' photos and videos without specific consent, with a photo-suggestion feature switched on by default. It is the regulator's largest fine, about 0.47% of Meta's global turnover, and Meta must fix the consent notice. Meta can appeal.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera.",
-          "published_at": "2026-11-14T16:16:15+00:00",
-          "tags": [
-            "Meta",
-            "Italy",
-            "privacy",
-            "EU"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/14/italy-fines-meta-880m-over-photo-privacy"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "company",
-              "detail": "Meta",
               "level": "low",
-              "dir": "down",
-              "why": "A record Italian privacy fine adds to Meta's regulatory costs in Europe."
+              "dir": "up",
+              "why": "Missile fire at the top oil exporter keeps a risk premium in crude."
             }
           ]
         },
         {
-          "id": "world-france-yellow-vest-protests-2026-11-14",
-          "headline": "More than 100,000 march across France against living costs; strike set for Tuesday",
-          "summary": "France's interior ministry counted 106,000 protesters nationwide on Saturday, down from 146,000 a week earlier; student unions said 200,000. Police used tear gas in Marseille, Lyon, Nantes, Bordeaux and Paris. Unions rejected a 0.6% minimum wage rise and called a new strike day for Tuesday.",
+          "id": "world-iraq-oil-smuggling-sackings-2026-11-15",
+          "headline": "Iraq's PM sacks nine officials over oil smuggling in a militia-held area",
+          "summary": "Prime Minister Ali al-Zaidi dismissed nine security and oil officials over a smuggling network in Jurf al-Nasr, a stronghold of the Iran-backed Kataib Hezbollah, and sent the accused to the courts. An investigating committee confirmed pipelines south of Baghdad had been tapped; Al Jazeera's reporter put the racket at up to $30 million a month.",
           "why_it_matters": null,
-          "importance": 2,
+          "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: Al Jazeera.",
-          "published_at": "2026-11-14T19:46:24+00:00",
+          "note": "Single source: Al Jazeera (with AFP).",
+          "published_at": "2026-11-15T01:54:55+00:00",
           "tags": [
-            "France",
-            "protests",
-            "Macron"
+            "Iraq",
+            "oil",
+            "Kataib Hezbollah"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests"
+              "url": "https://www.aljazeera.com/news/2026/11/15/iraq-pm-sacks-nine-officials-over-oil-smuggling-in-pro-iran-stronghold"
             }
           ],
           "image": null,
@@ -391,38 +350,46 @@
       "title": "Built This Week",
       "stories": [
         {
-          "id": "built-starship-flight-15-2026-11-13",
-          "headline": "Update: SpaceX catches a Starship upper stage with its tower for the first time",
-          "summary": "New since Friday's launch: the Starship upper stage came back from orbit on Saturday after about 22 hours and 14 laps of Earth and was caught by the tower's arms at Starbase, Texas. It had released 26 Starlink satellites. The planned double catch failed because the booster exploded on its way down on Friday, and engineers are investigating.",
-          "why_it_matters": "Catching the ship proves a fully reusable rocket can work, which could sharply cut the cost of reaching space.",
-          "importance": 4,
-          "lead": true,
+          "id": "built-electron-100th-launch-2026-11-14",
+          "headline": "Rocket Lab flies its Electron rocket for the 100th time, nine years after its debut",
+          "summary": "Electron lifted off from New Zealand and placed iQPS's YAMATSUMI-II radar imaging satellite in a 575 km orbit. Rocket Lab says no other commercially built rocket has reached 100 launches as fast, and that its next 100 Electron flights are already booked.",
+          "why_it_matters": "Shows small rockets can fly often enough to be a steady business, not one-off launches.",
+          "importance": 3,
+          "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-15T00:14:22+00:00",
+          "published_at": "2026-11-14T18:30:00+13:00",
           "tags": [
-            "SpaceX",
-            "Starship",
+            "Rocket Lab",
+            "Electron",
             "space",
-            "reusable rockets"
+            "iQPS"
           ],
           "sources": [
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first"
+              "name": "Rocket Lab (press release)",
+              "url": "https://www.globenewswire.com/news-release/2026/11/14/3403041/0/en/rocket-lab-hits-100-electron-launches-fastest-commercial-rocket-to-reach-the-milestone.html"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html"
+              "name": "SpaceNews",
+              "url": "https://spacenews.com/electron-launches-for-100th-time/"
             }
           ],
           "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af8f2594aa1-1794699865.jpg?resize=1920%2C1440",
-            "credit": "AFP",
-            "source_url": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first",
-            "alt": "Starship rises beside its launch tower at Starbase, Texas, as spectators watch from a boat"
+            "url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/electron-100.jpeg?fit=1200%2C750&ssl=1",
+            "credit": "Rocket Lab webcast",
+            "source_url": "https://spacenews.com/electron-launches-for-100th-time/",
+            "alt": "Electron rocket lifting off from Rocket Lab's coastal launch site in New Zealand"
           },
-          "impact": []
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Rocket Lab",
+              "level": "low",
+              "dir": "up",
+              "why": "A clean 100th launch and a full order book support confidence in the company."
+            }
+          ]
         }
       ]
     }
@@ -430,23 +397,6 @@
   "weekend_special": null,
   "forex_results": [],
   "week_ahead": [
-    {
-      "date": "2026-11-15",
-      "events": [
-        {
-          "text": "India October unemployment rate",
-          "section": "india"
-        },
-        {
-          "text": "PM Modi joins Janjatiya Gaurav Diwas in Gadchiroli; 246 projects worth Rs 3,000 crore",
-          "section": "india"
-        },
-        {
-          "text": "49th ASEAN Summit opens in Manila",
-          "section": "world"
-        }
-      ]
-    },
     {
       "date": "2026-11-16",
       "events": [
