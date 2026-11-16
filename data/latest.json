@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-16-morning",
+  "edition_id": "2026-11-16-midday",
   "date": "2026-11-16",
-  "slot": "morning",
-  "title": "Monday Morning Edition",
-  "generated_at": "2026-11-16T07:40:00+05:30",
+  "slot": "midday",
+  "title": "Monday Midday Edition",
+  "generated_at": "2026-11-16T13:55:00+05:30",
   "snapshot": [
     {
       "id": "usdinr",
       "label": "USD/INR",
-      "value": "94.20",
-      "change": "+0.09%",
-      "dir": "up",
-      "as_of": "2026-11-13T00:00:00+05:30",
+      "value": "94.13",
+      "change": "-0.06%",
+      "dir": "down",
+      "as_of": "2026-11-16T00:00:00+05:30",
       "source": {
-        "name": "PTI via TradingView",
-        "url": "https://www.tradingview.com/news/moodys:13636e5ce594f:0-rupee-falls-8-paise-to-close-at-94-20-against-us-dollar/"
+        "name": "PTI via DT Next",
+        "url": "https://www.dtnext.in/news/business/rupee-rises-6-paise-to-9413-against-us-dollar-in-early-trade"
       }
     },
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "103.94",
-      "change": "+0.09%",
-      "dir": "up",
-      "as_of": "2026-11-16T00:11:45+00:00",
+      "value": "103.55",
+      "change": "-0.29%",
+      "dir": "down",
+      "as_of": "2026-11-16T08:13:12+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURINR%3DX/"
@@ -33,13 +33,13 @@
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "103.42",
-      "change": null,
-      "dir": "flat",
-      "as_of": "2026-11-16T01:35:00+00:00",
+      "value": "103.46",
+      "change": "+0.05%",
+      "dir": "up",
+      "as_of": "2026-11-16T08:03:16+00:00",
       "source": {
-        "name": "Reuters via Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
       }
     },
     {
@@ -57,10 +57,10 @@
     {
       "id": "nifty",
       "label": "Nifty 50",
-      "value": "25,144.30",
-      "change": "-0.61%",
-      "dir": "down",
-      "as_of": "2026-11-13T10:01:20+00:00",
+      "value": "25,251.60",
+      "change": "+0.43%",
+      "dir": "up",
+      "as_of": "2026-11-16T08:13:16+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5ENSEI/"
@@ -69,10 +69,10 @@
     {
       "id": "sensex",
       "label": "Sensex",
-      "value": "81,592.45",
-      "change": "-0.39%",
-      "dir": "down",
-      "as_of": "2026-11-13T10:02:31+00:00",
+      "value": "81,999.63",
+      "change": "+0.50%",
+      "dir": "up",
+      "as_of": "2026-11-16T07:58:14+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EBSESN/"
@@ -105,49 +105,49 @@
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$3,891",
-      "change": "+0.30%",
-      "dir": "up",
-      "as_of": "2026-11-16T01:35:00+00:00",
+      "value": "$3,858",
+      "change": "-0.73%",
+      "dir": "down",
+      "as_of": "2026-11-16T08:03:08+00:00",
       "source": {
-        "name": "Reuters via Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+        "name": "Yahoo Finance (COMEX futures)",
+        "url": "https://finance.yahoo.com/quote/GC%3DF/"
       }
     },
     {
       "id": "brent",
       "label": "Brent crude",
-      "value": "$95.69",
-      "change": "-0.20%",
-      "dir": "down",
-      "as_of": "2026-11-16T01:35:00+00:00",
+      "value": "$96.04",
+      "change": "+0.21%",
+      "dir": "up",
+      "as_of": "2026-11-16T08:03:06+00:00",
       "source": {
-        "name": "Reuters via Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ%3DF/"
       }
     },
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$65,192",
-      "change": "+1.64%",
-      "dir": "up",
-      "as_of": "2026-11-16T00:11:35+00:00",
+      "value": "$64,717",
+      "change": "-0.90%",
+      "dir": "down",
+      "as_of": "2026-11-16T08:13:13+00:00",
       "source": {
-        "name": "CoinGecko",
-        "url": "https://www.coingecko.com/en/coins/bitcoin"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD/"
       }
     },
     {
       "id": "us10y",
       "label": "US 10Y yield",
-      "value": "5.14%",
-      "change": null,
-      "dir": "flat",
-      "as_of": "2026-11-16T01:35:00+00:00",
+      "value": "5.15%",
+      "change": "+0.98%",
+      "dir": "up",
+      "as_of": "2026-11-13T19:59:54+00:00",
       "source": {
-        "name": "Reuters via Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
       }
     }
   ],
@@ -157,36 +157,82 @@
       "title": "India",
       "stories": [
         {
-          "why_it_matters": "Lower out-of-pocket costs ease a big burden on household budgets, and the rising insurance share helps health insurers.",
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio (Health Ministry data).",
+          "id": "india-wpi-october-2026-11-16",
+          "headline": "Wholesale inflation climbs to 12.29% in October as fuel and power costs jump",
+          "summary": "Wholesale (WPI) inflation rose to 12.29% in October from 11.39% in September, provisional Commerce Ministry data show. Fuel and power prices were up 32.84% from a year ago, against 25.85% in September. Food inflation eased slightly to 8.58%, and manufactured goods to 9.54% from 9.76%.",
+          "why_it_matters": "With retail inflation already above the RBI's 6% ceiling, rising factory-gate prices make another rate hike more likely.",
+          "importance": 5,
+          "lead": true,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-16T12:22:09+05:30",
           "tags": [
-            "health",
-            "budget",
-            "insurance"
+            "inflation",
+            "WPI",
+            "RBI",
+            "fuel"
           ],
-          "image": null,
-          "impact": [
+          "sources": [
             {
-              "on": "indian_stocks",
-              "detail": "Insurance",
-              "level": "low",
-              "dir": "up",
-              "why": "Private health insurance's share of spending has tripled in a decade."
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/economy/news/wpi-inflation-rises-to-12-29-in-october-as-fuel-power-prices-surge-126111600916_1.html"
+            },
+            {
+              "name": "India TV News",
+              "url": "https://www.indiatvnews.com/business/news/indias-wholesale-inflation-rises-to-12-29-pc-in-october-on-costlier-food-fuel-2026-11-16-1059577"
             }
           ],
-          "id": "india-health-spending-nha-2026-11-16",
-          "headline": "Government health spending tripled in 10 years; families' share falls to 42.7%",
-          "summary": "The Health Ministry's National Health Accounts for 2023-24 put government health spending at Rs 4.14 lakh crore, up from Rs 1.30 lakh crore in 2013-14. Per-person public health spending rose from Rs 1,042 to Rs 2,959, and the share of health costs paid by families out of pocket fell from 64.2% to 42.7%. Private health insurance's share rose from 3.4% to 10.2%.",
-          "importance": 3,
-          "published_at": "2026-11-16T07:35:00+05:30",
+          "image": {
+            "url": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-09/23/thumb/fitandfill/1200X628/1790133382-0449.jpg",
+            "credit": "Bloomberg",
+            "source_url": "https://www.business-standard.com/amp/economy/news/wpi-inflation-rises-to-12-29-in-october-as-fuel-power-prices-surge-126111600916_1.html",
+            "alt": "A woman arranges fruit at a roadside stall in an Indian market (file photo)"
+          },
+          "impact": [
+            {
+              "on": "rates",
+              "level": "high",
+              "dir": "up",
+              "why": "Inflation running this hot adds pressure on the RBI to raise rates again."
+            },
+            {
+              "on": "india_economy",
+              "level": "medium",
+              "dir": "down",
+              "why": "Costlier fuel and power squeeze company margins and household budgets."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "Banks",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Higher rates lift lending margins but can slow loan demand."
+            }
+          ]
+        },
+        {
+          "id": "india-modi-philippines-asean-2026-11-16",
+          "headline": "Modi leaves for the Philippines for ASEAN-India and East Asia summits",
+          "summary": "Prime Minister Narendra Modi left on Monday on a two-day visit to the Philippines, the 2026 ASEAN chair. He will attend the 23rd ASEAN-India Summit and the 21st East Asia Summit, where leaders will review the ASEAN-India action plan for 2026-2030.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-16T10:49:00+05:30",
+          "tags": [
+            "Modi",
+            "ASEAN",
+            "diplomacy"
+          ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/centres-health-expenditure-more-than-tripled-to-rs-4-14-lakh-cr-in-2023-24-from-rs-1-30-lakh-cr-in-2013-14/"
+              "url": "https://newsonair.gov.in/pm-modi-to-embark-on-two-day-visit-to-philippines-tomorrow-to-attend-asean-india-summit-and-east-asia-summit/"
             }
-          ]
+          ],
+          "image": null,
+          "impact": []
         }
       ]
     },
@@ -195,75 +241,69 @@
       "title": "World",
       "stories": [
         {
-          "why_it_matters": "Three carriers in the region raise the risk of a new round of US-Iran strikes, which would push oil and gold higher.",
+          "id": "world-trump-xi-putin-summit-2026-11-14",
+          "headline": "China confirms Xi will host Trump and Putin in Shenzhen on Thursday, Nov 19",
+          "summary": "China's foreign ministry confirmed on Monday that Xi Jinping will hold the first three-way meeting with Donald Trump and Vladimir Putin in Shenzhen on November 19, alongside the APEC summit. New since the weekend: Beijing has now confirmed the date; the White House and Kremlin had already agreed. No agenda was given; US officials say Trump wants to discuss nuclear arms cuts and Iran.",
+          "why_it_matters": "A deal on arms or Iran between the three powers could cool oil prices and lift risk appetite worldwide.",
+          "importance": 4,
           "lead": false,
-          "verified": false,
-          "note": "Claim by a US official; not independently confirmed.",
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-16T02:33:07+00:00",
           "tags": [
-            "Iran",
+            "China",
             "US",
-            "Gulf",
-            "oil"
+            "Russia",
+            "APEC"
+          ],
+          "sources": [
+            {
+              "name": "Korea Times (AP)",
+              "url": "https://www.koreatimes.co.kr/world/20261116/china-confirms-first-xi-trump-putin-summit-on-thursday"
+            },
+            {
+              "name": "Japan Times",
+              "url": "https://www.japantimes.co.jp/news/2026/11/16/asia-pacific/politics/china-confirms-xi-trump-putin-summit/"
+            }
           ],
           "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6afa600bf2-1794793484.jpg",
-            "credit": "Getty Images",
-            "source_url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack",
-            "alt": "People watch the aircraft carrier USS Theodore Roosevelt at anchor off England in 2015 (file photo)"
+            "url": "https://newsimg.koreatimes.co.kr/2026/11/16/d4a72ef0-b83c-4a52-a667-09339f7fc2aa.jpg",
+            "credit": "AP-Yonhap",
+            "source_url": "https://www.koreatimes.co.kr/world/20261116/china-confirms-first-xi-trump-putin-summit-on-thursday",
+            "alt": "Side-by-side photos of Donald Trump, Xi Jinping and Vladimir Putin"
           },
           "impact": [
             {
               "on": "oil",
-              "level": "medium",
-              "dir": "up",
-              "why": "A bigger US force near Iran raises the risk of new strikes and supply disruption."
-            },
-            {
-              "on": "gold",
               "level": "low",
-              "dir": "up",
-              "why": "War risk supports safe-haven buying."
-            }
-          ],
-          "id": "world-third-carrier-iran-2026-11-16",
-          "headline": "US official says third aircraft carrier, USS Theodore Roosevelt, reaches Middle East",
-          "summary": "A US official told Al Jazeera the USS Theodore Roosevelt has arrived in the Middle East, joining two other carriers in the US Central Command area. It comes as Iran's deputy foreign minister Kazem Gharibabadi says Tehran will not wait for a US attack before acting. The Roosevelt left the US in late September to reinforce the blockade of Iran.",
-          "importance": 4,
-          "published_at": "2026-11-16T00:00:00+00:00",
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack"
-            },
-            {
-              "name": "Maritime Executive",
-              "url": "https://maritime-executive.com/article/us-sends-third-carrier-strike-group-to-the-gulf"
+              "dir": "mixed",
+              "why": "Talks touching on Iran could ease or harden the Gulf standoff."
             }
           ]
         },
         {
+          "id": "world-asean-china-sea-code-2026-11-16",
+          "headline": "ASEAN and China miss goal of a South China Sea code of conduct",
+          "summary": "ASEAN and China ended their Manila meetings without agreeing a code of conduct for the South China Sea, though about 80% of a draft is tentatively agreed. Philippine foreign minister Theresa Lazaro said key issues, including whether the code would be legally binding, remain open. ASEAN also kept its ban on Myanmar's military leader attending summits.",
           "why_it_matters": null,
+          "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Claim by Estonia's government; single source: Al Jazeera.",
+          "note": "Single source: Al Jazeera (with AP and Reuters reporting).",
+          "published_at": "2026-11-16T00:00:00+00:00",
           "tags": [
-            "Estonia",
-            "Russia",
-            "NATO"
+            "ASEAN",
+            "China",
+            "South China Sea"
           ],
-          "image": null,
-          "impact": [],
-          "id": "world-estonia-russia-border-2026-11-15",
-          "headline": "Estonia to shut Russia border crossings, says GRU ordered arson on drone maker",
-          "summary": "Estonian authorities say Russia's GRU military intelligence ordered an attempted arson attack on drone maker Threod Systems; eight people were detained. Foreign Minister Margus Tsahkna says the three crossings with Russia, Narva, Luhamaa and Koidula, will close, without saying for how long. Russia's foreign ministry called the move Russophobia.",
-          "importance": 2,
-          "published_at": "2026-11-15T18:07:02+00:00",
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker"
+              "url": "https://www.aljazeera.com/news/2026/11/16/asean-china-fall-short-of-agreeing-on-south-china-sea-code"
             }
-          ]
+          ],
+          "image": null,
+          "impact": []
         }
       ]
     },
@@ -272,40 +312,33 @@
       "title": "Currency Desk",
       "stories": [
         {
-          "why_it_matters": "A strong dollar and high US yields keep pressure on the rupee ahead of today's open.",
+          "id": "currency-rupee-firms-94-13-2026-11-16",
+          "headline": "Rupee edges up 6 paise to 94.13 as crude eases and stocks rise",
+          "summary": "The rupee opened at 94.22 per dollar on Monday and rose to 94.13 in early trade, 6 paise above Friday's close of 94.19, PTI reported. Softer crude oil prices and gains in Indian shares helped, while a strong dollar near a 19-month high and US 10-year yields above 5% capped the move.",
+          "why_it_matters": null,
+          "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: Reuters. Updates Friday's 13% half-point odds.",
+          "note": "Single source: PTI (carried by several outlets).",
+          "published_at": "2026-11-16T00:00:00+05:30",
           "tags": [
+            "rupee",
             "dollar",
-            "Fed",
-            "rupee"
+            "forex"
+          ],
+          "sources": [
+            {
+              "name": "PTI via DT Next",
+              "url": "https://www.dtnext.in/news/business/rupee-rises-6-paise-to-9413-against-us-dollar-in-early-trade"
+            }
           ],
           "image": null,
           "impact": [
             {
-              "on": "currency",
-              "detail": "Dollar",
-              "level": "medium",
-              "dir": "up",
-              "why": "Near-certain Fed hike keeps the dollar firm."
-            },
-            {
               "on": "rupee",
-              "level": "medium",
-              "dir": "down",
-              "why": "A firm dollar and 5% US yields pull money away from emerging markets."
-            }
-          ],
-          "id": "currency-dollar-fed-odds-2026-11-16",
-          "headline": "Dollar holds near 19-month high as half-point Fed hike odds drop to 6%",
-          "summary": "The dollar index was steady at 103.42 in Asia on Monday after gaining 1.1% last week to its highest since April 2025. Fed funds futures still treat a quarter-point hike in December as all but certain, but the odds of a half-point move fell to 6% from 12%. The US 10-year yield held at about 5.14%; Fed Chair Warsh speaks later on Monday.",
-          "importance": 3,
-          "published_at": "2026-11-16T01:35:00+00:00",
-          "sources": [
-            {
-              "name": "Reuters via Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+              "level": "low",
+              "dir": "up",
+              "why": "Lower oil and steady foreign buying of shares give the rupee mild support."
             }
           ]
         }
@@ -316,101 +349,90 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "why_it_matters": "Nvidia's results and the Anthropic IPO this week will set the mood for tech and AI stocks worldwide, including Indian IT.",
-          "lead": true,
+          "id": "markets-sensex-nifty-midday-2026-11-16",
+          "headline": "Sensex up about 400 points at midday as banks and IT lead; FIIs keep buying",
+          "summary": "The Sensex was at 81,999.63 (+0.5%) and the Nifty at 25,251.60 (+0.4%) around 1:30 PM, after the Sensex touched 82,227 in the morning. SBI, Kotak Mahindra Bank, Bharti Airtel and Asian Paints led gains; metal and realty stocks lagged. Foreign investors bought Rs 5,736 crore of shares on Friday while domestic funds sold for an 11th day.",
+          "why_it_matters": "Heavy foreign buying is offsetting worries about high US yields and rate hikes at home.",
+          "importance": 4,
+          "lead": false,
           "verified": true,
           "note": null,
+          "published_at": "2026-11-16T13:43:16+05:30",
           "tags": [
-            "Nvidia",
-            "Asia",
-            "AI",
-            "Anthropic"
+            "Sensex",
+            "Nifty",
+            "FII"
           ],
-          "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6afa0245-1794769477.jpg",
-            "credit": "Eduardo Munoz/Reuters",
-            "source_url": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia",
-            "alt": "US Treasury Secretary Scott Bessent speaks at a gala dinner in New York"
-          },
-          "impact": [
-            {
-              "on": "company",
-              "detail": "Nvidia",
-              "level": "high",
-              "dir": "mixed",
-              "why": "CEO search and Tuesday's results could swing the stock about 7% either way."
-            },
-            {
-              "on": "us_stocks",
-              "detail": "Tech",
-              "level": "medium",
-              "dir": "mixed",
-              "why": "AI stocks hinge on Nvidia's numbers and Anthropic's debut."
-            },
-            {
-              "on": "indian_stocks",
-              "detail": "IT",
-              "level": "low",
-              "dir": "mixed",
-              "why": "Global tech mood feeds into Indian IT shares."
-            }
-          ],
-          "id": "markets-asia-nvidia-bessent-2026-11-16",
-          "headline": "Asian shares slip before Nvidia results; Bessent says Nvidia should pick an outsider CEO",
-          "summary": "Japan's Nikkei fell 0.6% and South Korea's index 0.2% on Monday, while US stock futures edged up. Treasury Secretary Scott Bessent told Fox News Nvidia's board should look outside the company for Jensen Huang's successor and wants answers within 10 days. Nvidia, now worth about $3.9 trillion against $5.8 trillion in early October, reports on Tuesday; Anthropic's shares are due to start trading on Thursday.",
-          "importance": 4,
-          "published_at": "2026-11-16T01:35:00+00:00",
           "sources": [
             {
-              "name": "Reuters via Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5EBSESN/"
             },
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia"
+              "name": "ETV Bharat",
+              "url": "https://www.etvbharat.com/en/business/why-did-the-stock-market-rise-today-sensex-nifty-rally-fii-buying-it-stocks-jump-enn26111601336"
             },
             {
-              "name": "Investing.com (Reuters)",
-              "url": "https://www.investing.com/news/economy-news/asian-shares-fall-before-nvidia-earnings-anthropic-ipo-test-tech-rally-5028293"
+              "name": "Trade Brains",
+              "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-16-november-gift-nifty-signals-positive-start-amid-weak-global-cues-12812633"
             }
-          ]
-        },
-        {
-          "why_it_matters": "Weaker Chinese demand weighs on metal prices and Asian markets, and adds pressure on Beijing to stimulate.",
-          "lead": false,
-          "verified": false,
-          "note": "Single source: China's National Bureau of Statistics (official data); forecasts from Forex Factory.",
-          "tags": [
-            "China",
-            "economy",
-            "metals"
           ],
           "image": null,
           "impact": [
             {
               "on": "indian_stocks",
-              "detail": "Metals",
+              "detail": "Banks",
               "level": "medium",
-              "dir": "down",
-              "why": "Weak Chinese factory and property activity cuts demand for steel and metals."
-            },
-            {
-              "on": "currency",
-              "detail": "Yuan",
-              "level": "low",
-              "dir": "down",
-              "why": "Softer growth raises the chance of more easing."
+              "dir": "up",
+              "why": "PSU and private banks are leading the day's gains."
             }
+          ]
+        },
+        {
+          "id": "markets-tata-motors-jlr-guidance-2026-11-16",
+          "headline": "Tata Motors PV falls about 9% as JLR cuts its profit and cash outlook",
+          "summary": "Tata Motors Passenger Vehicles shares fell as much as 8.6% to Rs 262.40 after Jaguar Land Rover cut its FY27 EBIT margin guidance to 2-3% from 4%. JLR now expects about £1.25 billion of cash outflow this year instead of breakeven, citing weak China sales and restructuring costs. The company posted a September-quarter loss of about Rs 5,500 crore after one-off charges of Rs 6,738 crore.",
+          "why_it_matters": "JLR brings in about 80% of the company's revenue, so its weaker outlook hits Tata Motors' earnings directly.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": "Reports differ on the quarterly loss: Rs 5,451 crore vs Rs 5,531 crore.",
+          "published_at": "2026-11-16T12:00:00+05:30",
+          "tags": [
+            "Tata Motors",
+            "JLR",
+            "auto",
+            "earnings"
           ],
-          "id": "markets-china-october-data-2026-11-16",
-          "headline": "China's October data miss: retail sales up just 0.4%, factory output 4.8%",
-          "summary": "China's statistics bureau says retail sales grew 0.4% from a year earlier in October and industrial output 4.8%, both below forecasts of 0.8% and 5.3%. Fixed-asset investment fell 8.1% in January-October, worse than the 7% drop expected, and property investment fell 21.6%. Urban unemployment was 5.1%.",
-          "importance": 3,
-          "published_at": "2026-11-16T10:00:00+08:00",
           "sources": [
             {
-              "name": "National Bureau of Statistics of China",
-              "url": "https://www.stats.gov.cn/english/PressRelease/202611/t20261116_1965843.html"
+              "name": "Trade Brains",
+              "url": "https://tradebrains.in/indian-markets/why-did-tata-motors-pv-shares-crash-9-today-q2-loss-and-jlr-guidance-cut-explained-12812847"
+            },
+            {
+              "name": "Kotak Neo",
+              "url": "https://www.kotakneo.com/news/stocks/tata-motors-pv-shares-slide-as-jlr-cuts-fy27-outlook/"
+            },
+            {
+              "name": "Upstox",
+              "url": "https://upstox.com/news/market-news/stocks/tata-motors-pv-shares-tumble-9-after-q2-results-analysts-flag-severe-headwinds-for-demand/article-203489/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Tata Motors",
+              "level": "high",
+              "dir": "down",
+              "why": "JLR's lower margin and cash-flow guidance cuts earnings estimates."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "Auto",
+              "level": "low",
+              "dir": "down",
+              "why": "The biggest auto stock's drop weighs on the Nifty Auto index."
             }
           ]
         }
@@ -419,50 +441,7 @@
     {
       "id": "built",
       "title": "Built This Week",
-      "stories": [
-        {
-          "why_it_matters": "The loss can delay Amazon's satellite internet rollout and deepens a shortage of heavy rockets outside SpaceX.",
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "tags": [
-            "space",
-            "Amazon",
-            "ULA",
-            "satellites"
-          ],
-          "image": {
-            "url": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/11/15/thumbs_b_c_a5b2f2ccdc6bc13706938159628307ec.jpg",
-            "credit": "Anadolu Agency",
-            "source_url": "https://www.aa.com.tr/en/americas/us-rocket-firm-ula-fails-to-deploy-40-amazon-leo-satellites-after-flight-anomaly/4126036",
-            "alt": "ULA's Vulcan rocket lifts off from its launch pad at Cape Canaveral"
-          },
-          "impact": [
-            {
-              "on": "company",
-              "detail": "Amazon",
-              "level": "low",
-              "dir": "down",
-              "why": "Losing 40 satellites sets back its Leo internet schedule."
-            }
-          ],
-          "id": "built-vulcan-amazon-leo-failure-2026-11-15",
-          "headline": "ULA's Vulcan rocket fails in flight, losing 40 Amazon Leo internet satellites",
-          "summary": "United Launch Alliance's Vulcan lifted off from Cape Canaveral at 17:40 GMT on Sunday but suffered an anomaly about 10 minutes into flight and did not put Amazon's 40 Leo broadband satellites into orbit. ULA says it does not yet know the cause and will work with Amazon and regulators on a fix. It was the first of 38 Vulcan launches Amazon has bought for Leo.",
-          "importance": 3,
-          "published_at": "2026-11-15T17:40:00+00:00",
-          "sources": [
-            {
-              "name": "Anadolu Agency",
-              "url": "https://www.aa.com.tr/en/americas/us-rocket-firm-ula-fails-to-deploy-40-amazon-leo-satellites-after-flight-anomaly/4126036"
-            },
-            {
-              "name": "Bloomberg",
-              "url": "https://bloomberg.com/news/articles/2026-11-15/ula-vulcan-rocket-launches-with-its-first-amazon-leo-payload"
-            }
-          ]
-        }
-      ]
+      "stories": []
     }
   ],
   "weekend_special": null,
@@ -471,10 +450,6 @@
     {
       "date": "2026-11-16",
       "events": [
-        {
-          "text": "India October wholesale (WPI) inflation",
-          "section": "india"
-        },
         {
           "text": "PM Modi in the Philippines for ASEAN meetings",
           "section": "india"
@@ -518,7 +493,7 @@
       "date": "2026-11-18",
       "events": [
         {
-          "text": "APEC leaders' summit opens in Shenzhen; Trump, Xi and Putin due to meet",
+          "text": "APEC leaders' summit opens in Shenzhen",
           "section": "world"
         },
         {
@@ -534,6 +509,10 @@
     {
       "date": "2026-11-19",
       "events": [
+        {
+          "text": "Xi, Trump and Putin hold three-way meeting in Shenzhen",
+          "section": "world"
+        },
         {
           "text": "Australia October jobs data",
           "section": "currency"

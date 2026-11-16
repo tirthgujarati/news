@@ -1,0 +1,540 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-16-midday",
+  "date": "2026-11-16",
+  "slot": "midday",
+  "title": "Monday Midday Edition",
+  "generated_at": "2026-11-16T13:55:00+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "94.13",
+      "change": "-0.06%",
+      "dir": "down",
+      "as_of": "2026-11-16T00:00:00+05:30",
+      "source": {
+        "name": "PTI via DT Next",
+        "url": "https://www.dtnext.in/news/business/rupee-rises-6-paise-to-9413-against-us-dollar-in-early-trade"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "103.55",
+      "change": "-0.29%",
+      "dir": "down",
+      "as_of": "2026-11-16T08:13:12+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR%3DX/"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.46",
+      "change": "+0.05%",
+      "dir": "up",
+      "as_of": "2026-11-16T08:03:16+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$719.55bn",
+      "change": "+0.35%",
+      "dir": "up",
+      "as_of": "2026-11-06T00:00:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/indias-forex-reserves-increase-by-2-49bn-to-reach-719-54bn-last-week/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,251.60",
+      "change": "+0.43%",
+      "dir": "up",
+      "as_of": "2026-11-16T08:13:16+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI/"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "81,999.63",
+      "change": "+0.50%",
+      "dir": "up",
+      "as_of": "2026-11-16T07:58:14+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN/"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,561.67",
+      "change": "-0.40%",
+      "dir": "down",
+      "as_of": "2026-11-13T21:43:19+00:00",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "25,136.27",
+      "change": "-0.91%",
+      "dir": "down",
+      "as_of": "2026-11-13T22:15:59+00:00",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,858",
+      "change": "-0.73%",
+      "dir": "down",
+      "as_of": "2026-11-16T08:03:08+00:00",
+      "source": {
+        "name": "Yahoo Finance (COMEX futures)",
+        "url": "https://finance.yahoo.com/quote/GC%3DF/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$96.04",
+      "change": "+0.21%",
+      "dir": "up",
+      "as_of": "2026-11-16T08:03:06+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ%3DF/"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$64,717",
+      "change": "-0.90%",
+      "dir": "down",
+      "as_of": "2026-11-16T08:13:13+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD/"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "5.15%",
+      "change": "+0.98%",
+      "dir": "up",
+      "as_of": "2026-11-13T19:59:54+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-wpi-october-2026-11-16",
+          "headline": "Wholesale inflation climbs to 12.29% in October as fuel and power costs jump",
+          "summary": "Wholesale (WPI) inflation rose to 12.29% in October from 11.39% in September, provisional Commerce Ministry data show. Fuel and power prices were up 32.84% from a year ago, against 25.85% in September. Food inflation eased slightly to 8.58%, and manufactured goods to 9.54% from 9.76%.",
+          "why_it_matters": "With retail inflation already above the RBI's 6% ceiling, rising factory-gate prices make another rate hike more likely.",
+          "importance": 5,
+          "lead": true,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-16T12:22:09+05:30",
+          "tags": [
+            "inflation",
+            "WPI",
+            "RBI",
+            "fuel"
+          ],
+          "sources": [
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/economy/news/wpi-inflation-rises-to-12-29-in-october-as-fuel-power-prices-surge-126111600916_1.html"
+            },
+            {
+              "name": "India TV News",
+              "url": "https://www.indiatvnews.com/business/news/indias-wholesale-inflation-rises-to-12-29-pc-in-october-on-costlier-food-fuel-2026-11-16-1059577"
+            }
+          ],
+          "image": {
+            "url": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-09/23/thumb/fitandfill/1200X628/1790133382-0449.jpg",
+            "credit": "Bloomberg",
+            "source_url": "https://www.business-standard.com/amp/economy/news/wpi-inflation-rises-to-12-29-in-october-as-fuel-power-prices-surge-126111600916_1.html",
+            "alt": "A woman arranges fruit at a roadside stall in an Indian market (file photo)"
+          },
+          "impact": [
+            {
+              "on": "rates",
+              "level": "high",
+              "dir": "up",
+              "why": "Inflation running this hot adds pressure on the RBI to raise rates again."
+            },
+            {
+              "on": "india_economy",
+              "level": "medium",
+              "dir": "down",
+              "why": "Costlier fuel and power squeeze company margins and household budgets."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "Banks",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Higher rates lift lending margins but can slow loan demand."
+            }
+          ]
+        },
+        {
+          "id": "india-modi-philippines-asean-2026-11-16",
+          "headline": "Modi leaves for the Philippines for ASEAN-India and East Asia summits",
+          "summary": "Prime Minister Narendra Modi left on Monday on a two-day visit to the Philippines, the 2026 ASEAN chair. He will attend the 23rd ASEAN-India Summit and the 21st East Asia Summit, where leaders will review the ASEAN-India action plan for 2026-2030.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-16T10:49:00+05:30",
+          "tags": [
+            "Modi",
+            "ASEAN",
+            "diplomacy"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/pm-modi-to-embark-on-two-day-visit-to-philippines-tomorrow-to-attend-asean-india-summit-and-east-asia-summit/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-trump-xi-putin-summit-2026-11-14",
+          "headline": "China confirms Xi will host Trump and Putin in Shenzhen on Thursday, Nov 19",
+          "summary": "China's foreign ministry confirmed on Monday that Xi Jinping will hold the first three-way meeting with Donald Trump and Vladimir Putin in Shenzhen on November 19, alongside the APEC summit. New since the weekend: Beijing has now confirmed the date; the White House and Kremlin had already agreed. No agenda was given; US officials say Trump wants to discuss nuclear arms cuts and Iran.",
+          "why_it_matters": "A deal on arms or Iran between the three powers could cool oil prices and lift risk appetite worldwide.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-16T02:33:07+00:00",
+          "tags": [
+            "China",
+            "US",
+            "Russia",
+            "APEC"
+          ],
+          "sources": [
+            {
+              "name": "Korea Times (AP)",
+              "url": "https://www.koreatimes.co.kr/world/20261116/china-confirms-first-xi-trump-putin-summit-on-thursday"
+            },
+            {
+              "name": "Japan Times",
+              "url": "https://www.japantimes.co.jp/news/2026/11/16/asia-pacific/politics/china-confirms-xi-trump-putin-summit/"
+            }
+          ],
+          "image": {
+            "url": "https://newsimg.koreatimes.co.kr/2026/11/16/d4a72ef0-b83c-4a52-a667-09339f7fc2aa.jpg",
+            "credit": "AP-Yonhap",
+            "source_url": "https://www.koreatimes.co.kr/world/20261116/china-confirms-first-xi-trump-putin-summit-on-thursday",
+            "alt": "Side-by-side photos of Donald Trump, Xi Jinping and Vladimir Putin"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Talks touching on Iran could ease or harden the Gulf standoff."
+            }
+          ]
+        },
+        {
+          "id": "world-asean-china-sea-code-2026-11-16",
+          "headline": "ASEAN and China miss goal of a South China Sea code of conduct",
+          "summary": "ASEAN and China ended their Manila meetings without agreeing a code of conduct for the South China Sea, though about 80% of a draft is tentatively agreed. Philippine foreign minister Theresa Lazaro said key issues, including whether the code would be legally binding, remain open. ASEAN also kept its ban on Myanmar's military leader attending summits.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera (with AP and Reuters reporting).",
+          "published_at": "2026-11-16T00:00:00+00:00",
+          "tags": [
+            "ASEAN",
+            "China",
+            "South China Sea"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/16/asean-china-fall-short-of-agreeing-on-south-china-sea-code"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "id": "currency-rupee-firms-94-13-2026-11-16",
+          "headline": "Rupee edges up 6 paise to 94.13 as crude eases and stocks rise",
+          "summary": "The rupee opened at 94.22 per dollar on Monday and rose to 94.13 in early trade, 6 paise above Friday's close of 94.19, PTI reported. Softer crude oil prices and gains in Indian shares helped, while a strong dollar near a 19-month high and US 10-year yields above 5% capped the move.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: PTI (carried by several outlets).",
+          "published_at": "2026-11-16T00:00:00+05:30",
+          "tags": [
+            "rupee",
+            "dollar",
+            "forex"
+          ],
+          "sources": [
+            {
+              "name": "PTI via DT Next",
+              "url": "https://www.dtnext.in/news/business/rupee-rises-6-paise-to-9413-against-us-dollar-in-early-trade"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "up",
+              "why": "Lower oil and steady foreign buying of shares give the rupee mild support."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "id": "markets-sensex-nifty-midday-2026-11-16",
+          "headline": "Sensex up about 400 points at midday as banks and IT lead; FIIs keep buying",
+          "summary": "The Sensex was at 81,999.63 (+0.5%) and the Nifty at 25,251.60 (+0.4%) around 1:30 PM, after the Sensex touched 82,227 in the morning. SBI, Kotak Mahindra Bank, Bharti Airtel and Asian Paints led gains; metal and realty stocks lagged. Foreign investors bought Rs 5,736 crore of shares on Friday while domestic funds sold for an 11th day.",
+          "why_it_matters": "Heavy foreign buying is offsetting worries about high US yields and rate hikes at home.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-16T13:43:16+05:30",
+          "tags": [
+            "Sensex",
+            "Nifty",
+            "FII"
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5EBSESN/"
+            },
+            {
+              "name": "ETV Bharat",
+              "url": "https://www.etvbharat.com/en/business/why-did-the-stock-market-rise-today-sensex-nifty-rally-fii-buying-it-stocks-jump-enn26111601336"
+            },
+            {
+              "name": "Trade Brains",
+              "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-16-november-gift-nifty-signals-positive-start-amid-weak-global-cues-12812633"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Banks",
+              "level": "medium",
+              "dir": "up",
+              "why": "PSU and private banks are leading the day's gains."
+            }
+          ]
+        },
+        {
+          "id": "markets-tata-motors-jlr-guidance-2026-11-16",
+          "headline": "Tata Motors PV falls about 9% as JLR cuts its profit and cash outlook",
+          "summary": "Tata Motors Passenger Vehicles shares fell as much as 8.6% to Rs 262.40 after Jaguar Land Rover cut its FY27 EBIT margin guidance to 2-3% from 4%. JLR now expects about £1.25 billion of cash outflow this year instead of breakeven, citing weak China sales and restructuring costs. The company posted a September-quarter loss of about Rs 5,500 crore after one-off charges of Rs 6,738 crore.",
+          "why_it_matters": "JLR brings in about 80% of the company's revenue, so its weaker outlook hits Tata Motors' earnings directly.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": "Reports differ on the quarterly loss: Rs 5,451 crore vs Rs 5,531 crore.",
+          "published_at": "2026-11-16T12:00:00+05:30",
+          "tags": [
+            "Tata Motors",
+            "JLR",
+            "auto",
+            "earnings"
+          ],
+          "sources": [
+            {
+              "name": "Trade Brains",
+              "url": "https://tradebrains.in/indian-markets/why-did-tata-motors-pv-shares-crash-9-today-q2-loss-and-jlr-guidance-cut-explained-12812847"
+            },
+            {
+              "name": "Kotak Neo",
+              "url": "https://www.kotakneo.com/news/stocks/tata-motors-pv-shares-slide-as-jlr-cuts-fy27-outlook/"
+            },
+            {
+              "name": "Upstox",
+              "url": "https://upstox.com/news/market-news/stocks/tata-motors-pv-shares-tumble-9-after-q2-results-analysts-flag-severe-headwinds-for-demand/article-203489/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Tata Motors",
+              "level": "high",
+              "dir": "down",
+              "why": "JLR's lower margin and cash-flow guidance cuts earnings estimates."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "Auto",
+              "level": "low",
+              "dir": "down",
+              "why": "The biggest auto stock's drop weighs on the Nifty Auto index."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": []
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [],
+  "week_ahead": [
+    {
+      "date": "2026-11-16",
+      "events": [
+        {
+          "text": "PM Modi in the Philippines for ASEAN meetings",
+          "section": "india"
+        },
+        {
+          "text": "Canada October CPI",
+          "section": "currency"
+        },
+        {
+          "text": "Fed Chair Warsh speaks (late night IST)",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "events": [
+        {
+          "text": "23rd ASEAN-India Summit and East Asia Summit in Manila",
+          "section": "india"
+        },
+        {
+          "text": "US October retail sales",
+          "section": "markets"
+        },
+        {
+          "text": "Nvidia Q3 results after the US close",
+          "section": "markets"
+        },
+        {
+          "text": "Iran's Araghchi visits Oman for talks",
+          "section": "world"
+        },
+        {
+          "text": "Anthropic IPO retail offer in Australia closes",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "events": [
+        {
+          "text": "APEC leaders' summit opens in Shenzhen",
+          "section": "world"
+        },
+        {
+          "text": "UK October CPI",
+          "section": "currency"
+        },
+        {
+          "text": "Fed releases FOMC meeting minutes",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "events": [
+        {
+          "text": "Xi, Trump and Putin hold three-way meeting in Shenzhen",
+          "section": "world"
+        },
+        {
+          "text": "Australia October jobs data",
+          "section": "currency"
+        },
+        {
+          "text": "US weekly jobless claims and Philly Fed index",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "events": [
+        {
+          "text": "India hosts first SCO Civilisational Dialogue Forum in New Delhi",
+          "section": "india"
+        },
+        {
+          "text": "UK October retail sales",
+          "section": "currency"
+        }
+      ]
+    }
+  ]
+}
