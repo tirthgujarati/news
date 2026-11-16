@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-16-weekend",
+  "edition_id": "2026-11-16-morning",
   "date": "2026-11-16",
-  "slot": "weekend",
-  "title": "Monday Weekend Edition",
-  "generated_at": "2026-11-16T05:49:00+05:30",
+  "slot": "morning",
+  "title": "Monday Morning Edition",
+  "generated_at": "2026-11-16T07:40:00+05:30",
   "snapshot": [
     {
       "id": "usdinr",
@@ -33,13 +33,13 @@
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "103.40",
-      "change": "-0.01%",
+      "value": "103.42",
+      "change": null,
       "dir": "flat",
-      "as_of": "2026-11-16T00:03:34+00:00",
+      "as_of": "2026-11-16T01:35:00+00:00",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+        "name": "Reuters via Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
       }
     },
     {
@@ -105,25 +105,25 @@
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$3,900.10",
-      "change": "+0.36%",
+      "value": "$3,891",
+      "change": "+0.30%",
       "dir": "up",
-      "as_of": "2026-11-16T00:03:38+00:00",
+      "as_of": "2026-11-16T01:35:00+00:00",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/GC%3DF/"
+        "name": "Reuters via Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
       }
     },
     {
       "id": "brent",
       "label": "Brent crude",
-      "value": "$95.50",
-      "change": "-0.35%",
+      "value": "$95.69",
+      "change": "-0.20%",
       "dir": "down",
-      "as_of": "2026-11-16T00:01:13+00:00",
+      "as_of": "2026-11-16T01:35:00+00:00",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/BZ%3DF/"
+        "name": "Reuters via Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
       }
     },
     {
@@ -141,13 +141,13 @@
     {
       "id": "us10y",
       "label": "US 10Y yield",
-      "value": "5.15%",
-      "change": "+1.06%",
-      "dir": "up",
-      "as_of": "2026-11-13T19:59:54+00:00",
+      "value": "5.14%",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-16T01:35:00+00:00",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+        "name": "Reuters via Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
       }
     }
   ],
@@ -155,64 +155,113 @@
     {
       "id": "india",
       "title": "India",
-      "stories": []
+      "stories": [
+        {
+          "why_it_matters": "Lower out-of-pocket costs ease a big burden on household budgets, and the rising insurance share helps health insurers.",
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio (Health Ministry data).",
+          "tags": [
+            "health",
+            "budget",
+            "insurance"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Insurance",
+              "level": "low",
+              "dir": "up",
+              "why": "Private health insurance's share of spending has tripled in a decade."
+            }
+          ],
+          "id": "india-health-spending-nha-2026-11-16",
+          "headline": "Government health spending tripled in 10 years; families' share falls to 42.7%",
+          "summary": "The Health Ministry's National Health Accounts for 2023-24 put government health spending at Rs 4.14 lakh crore, up from Rs 1.30 lakh crore in 2013-14. Per-person public health spending rose from Rs 1,042 to Rs 2,959, and the share of health costs paid by families out of pocket fell from 64.2% to 42.7%. Private health insurance's share rose from 3.4% to 10.2%.",
+          "importance": 3,
+          "published_at": "2026-11-16T07:35:00+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/centres-health-expenditure-more-than-tripled-to-rs-4-14-lakh-cr-in-2023-24-from-rs-1-30-lakh-cr-in-2013-14/"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "world",
       "title": "World",
       "stories": [
         {
-          "why_it_matters": "Saudi Arabia sends about 4 million barrels a day through this pipeline to avoid Hormuz, so a real hit would tighten oil supply.",
-          "lead": true,
-          "verified": true,
-          "note": "Pipeline strike is a Houthi claim; Saudi Arabia has not confirmed any damage.",
+          "why_it_matters": "Three carriers in the region raise the risk of a new round of US-Iran strikes, which would push oil and gold higher.",
+          "lead": false,
+          "verified": false,
+          "note": "Claim by a US official; not independently confirmed.",
+          "tags": [
+            "Iran",
+            "US",
+            "Gulf",
+            "oil"
+          ],
           "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6afa3cfe-1794784510.jpg?resize=1920%2C1440",
-            "credit": "Reuters",
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6afa600bf2-1794793484.jpg",
+            "credit": "Getty Images",
             "source_url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack",
-            "alt": "Houthi security forces in camouflage stand guard over a crowd in Sanaa, Yemen"
+            "alt": "People watch the aircraft carrier USS Theodore Roosevelt at anchor off England in 2015 (file photo)"
           },
           "impact": [
             {
               "on": "oil",
               "level": "medium",
               "dir": "up",
-              "why": "Attacks on Saudi Arabia's Hormuz bypass pipeline add supply risk."
+              "why": "A bigger US force near Iran raises the risk of new strikes and supply disruption."
             },
             {
               "on": "gold",
               "level": "low",
               "dir": "up",
-              "why": "Threats of pre-emptive strikes add safe-haven demand."
+              "why": "War risk supports safe-haven buying."
             }
           ],
-          "id": "world-iran-strike-first-houthi-pipeline-2026-11-15",
-          "headline": "Iran says it won't wait for a US attack; Houthis claim hits on Saudi oil pipeline",
-          "summary": "Iran's deputy foreign minister Kazem Gharibabadi said Tehran will not wait for the US to strike first and accused Washington of using diplomacy to buy time. Yemen's Houthis said their drones hit two pumping stations on Saudi Arabia's East-West oil pipeline on Sunday and fired missiles at Riyadh; the Saudi-led coalition says it shot down two missiles and several drones. The US Embassy in Bahrain issued a security alert over possible attacks by Iran and the Houthis.",
-          "importance": 5,
-          "published_at": "2026-11-15T00:00:00+00:00",
-          "tags": [
-            "Iran",
-            "Houthis",
-            "Saudi Arabia",
-            "Oil"
-          ],
+          "id": "world-third-carrier-iran-2026-11-16",
+          "headline": "US official says third aircraft carrier, USS Theodore Roosevelt, reaches Middle East",
+          "summary": "A US official told Al Jazeera the USS Theodore Roosevelt has arrived in the Middle East, joining two other carriers in the US Central Command area. It comes as Iran's deputy foreign minister Kazem Gharibabadi says Tehran will not wait for a US attack before acting. The Roosevelt left the US in late September to reinforce the blockade of Iran.",
+          "importance": 4,
+          "published_at": "2026-11-16T00:00:00+00:00",
           "sources": [
             {
               "name": "Al Jazeera",
               "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack"
             },
             {
-              "name": "Investing.com",
-              "url": "https://www.investing.com/news/economy-news/iran-claims-fresh-strike-on-us-base-as-hormuz-shipping-crisis-deepens-5027672"
-            },
+              "name": "Maritime Executive",
+              "url": "https://maritime-executive.com/article/us-sends-third-carrier-strike-group-to-the-gulf"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Claim by Estonia's government; single source: Al Jazeera.",
+          "tags": [
+            "Estonia",
+            "Russia",
+            "NATO"
+          ],
+          "image": null,
+          "impact": [],
+          "id": "world-estonia-russia-border-2026-11-15",
+          "headline": "Estonia to shut Russia border crossings, says GRU ordered arson on drone maker",
+          "summary": "Estonian authorities say Russia's GRU military intelligence ordered an attempted arson attack on drone maker Threod Systems; eight people were detained. Foreign Minister Margus Tsahkna says the three crossings with Russia, Narva, Luhamaa and Koidula, will close, without saying for how long. Russia's foreign ministry called the move Russophobia.",
+          "importance": 2,
+          "published_at": "2026-11-15T18:07:02+00:00",
+          "sources": [
             {
-              "name": "Xinhua",
-              "url": "https://english.news.cn/20261116/609c2bf6e43a43efbdb69f6ea0301453/c.html"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/15/bahrain-iran-drone-attacks-tehran-us-base.html"
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker"
             }
           ]
         }
@@ -223,55 +272,40 @@
       "title": "Currency Desk",
       "stories": [
         {
-          "why_it_matters": "A weak economy makes it harder for Japan to support the yen with rate hikes, raising the chance of intervention in currency markets.",
+          "why_it_matters": "A strong dollar and high US yields keep pressure on the rupee ahead of today's open.",
           "lead": false,
-          "verified": true,
-          "note": null,
-          "image": {
-            "url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F8%2F7%2F4%2F13434785-1-eng-GB%2Fda7c20d9bac0-photo_SXM2026093000001321-tt.jpg?fit=cover&gravity=faces&dpr=1&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-            "credit": "Nikkei Asia",
-            "source_url": "https://asia.nikkei.com/economy/japan-s-q3-gdp-dropped-an-annualized-0.1",
-            "alt": "Commuters with umbrellas wait at a pedestrian crossing in Tokyo"
-          },
+          "verified": false,
+          "note": "Single source: Reuters. Updates Friday's 13% half-point odds.",
+          "tags": [
+            "dollar",
+            "Fed",
+            "rupee"
+          ],
+          "image": null,
           "impact": [
             {
               "on": "currency",
-              "detail": "Yen",
+              "detail": "Dollar",
+              "level": "medium",
+              "dir": "up",
+              "why": "Near-certain Fed hike keeps the dollar firm."
+            },
+            {
+              "on": "rupee",
               "level": "medium",
               "dir": "down",
-              "why": "A shrinking economy gives the yen little support near 160."
-            },
-            {
-              "on": "currency",
-              "detail": "Dollar",
-              "level": "low",
-              "dir": "up",
-              "why": "The dollar gains as the yen stays weak."
+              "why": "A firm dollar and 5% US yields pull money away from emerging markets."
             }
           ],
-          "id": "currency-yen-japan-gdp-2026-11-16",
-          "headline": "Japan's economy shrinks in July-September; yen stays weak near 160 per dollar",
-          "summary": "Japan's GDP fell at an annualised 0.1% in July-September, against forecasts of 0.3% growth, as consumer spending dropped 0.3% and exports slipped; business investment rose 1.6%. The yen was near 159.7 per dollar early Monday after breaking past 160 on Friday, when Finance Minister Satsuki Katayama warned of sharp one-sided moves. Markets still expect the Bank of Japan to raise rates in December.",
-          "importance": 4,
-          "published_at": "2026-11-16T00:00:00+09:00",
-          "tags": [
-            "Japan",
-            "Yen",
-            "GDP",
-            "BoJ"
-          ],
+          "id": "currency-dollar-fed-odds-2026-11-16",
+          "headline": "Dollar holds near 19-month high as half-point Fed hike odds drop to 6%",
+          "summary": "The dollar index was steady at 103.42 in Asia on Monday after gaining 1.1% last week to its highest since April 2025. Fed funds futures still treat a quarter-point hike in December as all but certain, but the odds of a half-point move fell to 6% from 12%. The US 10-year yield held at about 5.14%; Fed Chair Warsh speaks later on Monday.",
+          "importance": 3,
+          "published_at": "2026-11-16T01:35:00+00:00",
           "sources": [
             {
-              "name": "investingLive",
-              "url": "https://investinglive.com/news/japan-q3-gdp-shrinks-0-1-annualised-vs-0-3-expected-as-exports-and-consumers-weigh/"
-            },
-            {
-              "name": "Nikkei Asia",
-              "url": "https://asia.nikkei.com/economy/japan-s-q3-gdp-dropped-an-annualized-0.1"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/JPY%3DX/"
+              "name": "Reuters via Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
             }
           ]
         }
@@ -282,47 +316,101 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "why_it_matters": null,
-          "lead": false,
+          "why_it_matters": "Nvidia's results and the Anthropic IPO this week will set the mood for tech and AI stocks worldwide, including Indian IT.",
+          "lead": true,
           "verified": true,
-          "note": "Monday-morning futures levels from Yahoo Finance; Sunday futures moves from CNBC.",
+          "note": null,
+          "tags": [
+            "Nvidia",
+            "Asia",
+            "AI",
+            "Anthropic"
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6afa0245-1794769477.jpg",
+            "credit": "Eduardo Munoz/Reuters",
+            "source_url": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia",
+            "alt": "US Treasury Secretary Scott Bessent speaks at a gala dinner in New York"
+          },
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Nvidia",
+              "level": "high",
+              "dir": "mixed",
+              "why": "CEO search and Tuesday's results could swing the stock about 7% either way."
+            },
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "medium",
+              "dir": "mixed",
+              "why": "AI stocks hinge on Nvidia's numbers and Anthropic's debut."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Global tech mood feeds into Indian IT shares."
+            }
+          ],
+          "id": "markets-asia-nvidia-bessent-2026-11-16",
+          "headline": "Asian shares slip before Nvidia results; Bessent says Nvidia should pick an outsider CEO",
+          "summary": "Japan's Nikkei fell 0.6% and South Korea's index 0.2% on Monday, while US stock futures edged up. Treasury Secretary Scott Bessent told Fox News Nvidia's board should look outside the company for Jensen Huang's successor and wants answers within 10 days. Nvidia, now worth about $3.9 trillion against $5.8 trillion in early October, reports on Tuesday; Anthropic's shares are due to start trading on Thursday.",
+          "importance": 4,
+          "published_at": "2026-11-16T01:35:00+00:00",
+          "sources": [
+            {
+              "name": "Reuters via Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia"
+            },
+            {
+              "name": "Investing.com (Reuters)",
+              "url": "https://www.investing.com/news/economy-news/asian-shares-fall-before-nvidia-earnings-anthropic-ipo-test-tech-rally-5028293"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "Weaker Chinese demand weighs on metal prices and Asian markets, and adds pressure on Beijing to stimulate.",
+          "lead": false,
+          "verified": false,
+          "note": "Single source: China's National Bureau of Statistics (official data); forecasts from Forex Factory.",
+          "tags": [
+            "China",
+            "economy",
+            "metals"
+          ],
           "image": null,
           "impact": [
             {
-              "on": "us_stocks",
-              "level": "low",
-              "dir": "up",
-              "why": "Futures point to a firmer start on Wall Street."
+              "on": "indian_stocks",
+              "detail": "Metals",
+              "level": "medium",
+              "dir": "down",
+              "why": "Weak Chinese factory and property activity cuts demand for steel and metals."
             },
             {
-              "on": "oil",
+              "on": "currency",
+              "detail": "Yuan",
               "level": "low",
               "dir": "down",
-              "why": "Brent opens slightly lower despite weekend Gulf attacks."
+              "why": "Softer growth raises the chance of more easing."
             }
           ],
-          "id": "markets-us-futures-sunday-2026-11-15",
-          "headline": "US stock futures edge up as markets reopen; Brent slips to $95.50, gold near $3,900",
-          "summary": "Nasdaq-100 futures were up about 0.75% and S&P 500 futures about 0.36% early Monday IST, after a volatile week that still gave Wall Street its best gains since August. Brent crude traded near $95.50, down about 0.4% from Friday, and gold futures rose about 0.4% to around $3,900 an ounce. Traders are waiting for Nvidia's results on Tuesday and Fed Chair Warsh's speech on Monday.",
+          "id": "markets-china-october-data-2026-11-16",
+          "headline": "China's October data miss: retail sales up just 0.4%, factory output 4.8%",
+          "summary": "China's statistics bureau says retail sales grew 0.4% from a year earlier in October and industrial output 4.8%, both below forecasts of 0.8% and 5.3%. Fixed-asset investment fell 8.1% in January-October, worse than the 7% drop expected, and property investment fell 21.6%. Urban unemployment was 5.1%.",
           "importance": 3,
-          "published_at": "2026-11-15T18:31:00-05:00",
-          "tags": [
-            "Futures",
-            "Oil",
-            "Gold"
-          ],
+          "published_at": "2026-11-16T10:00:00+08:00",
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/ES%3DF/"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/BZ%3DF/"
+              "name": "National Bureau of Statistics of China",
+              "url": "https://www.stats.gov.cn/english/PressRelease/202611/t20261116_1965843.html"
             }
           ]
         }
@@ -331,401 +419,53 @@
     {
       "id": "built",
       "title": "Built This Week",
-      "stories": []
+      "stories": [
+        {
+          "why_it_matters": "The loss can delay Amazon's satellite internet rollout and deepens a shortage of heavy rockets outside SpaceX.",
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "tags": [
+            "space",
+            "Amazon",
+            "ULA",
+            "satellites"
+          ],
+          "image": {
+            "url": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/11/15/thumbs_b_c_a5b2f2ccdc6bc13706938159628307ec.jpg",
+            "credit": "Anadolu Agency",
+            "source_url": "https://www.aa.com.tr/en/americas/us-rocket-firm-ula-fails-to-deploy-40-amazon-leo-satellites-after-flight-anomaly/4126036",
+            "alt": "ULA's Vulcan rocket lifts off from its launch pad at Cape Canaveral"
+          },
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Amazon",
+              "level": "low",
+              "dir": "down",
+              "why": "Losing 40 satellites sets back its Leo internet schedule."
+            }
+          ],
+          "id": "built-vulcan-amazon-leo-failure-2026-11-15",
+          "headline": "ULA's Vulcan rocket fails in flight, losing 40 Amazon Leo internet satellites",
+          "summary": "United Launch Alliance's Vulcan lifted off from Cape Canaveral at 17:40 GMT on Sunday but suffered an anomaly about 10 minutes into flight and did not put Amazon's 40 Leo broadband satellites into orbit. ULA says it does not yet know the cause and will work with Amazon and regulators on a fix. It was the first of 38 Vulcan launches Amazon has bought for Leo.",
+          "importance": 3,
+          "published_at": "2026-11-15T17:40:00+00:00",
+          "sources": [
+            {
+              "name": "Anadolu Agency",
+              "url": "https://www.aa.com.tr/en/americas/us-rocket-firm-ula-fails-to-deploy-40-amazon-leo-satellites-after-flight-anomaly/4126036"
+            },
+            {
+              "name": "Bloomberg",
+              "url": "https://bloomberg.com/news/articles/2026-11-15/ula-vulcan-rocket-launches-with-its-first-amazon-leo-payload"
+            }
+          ]
+        }
+      ]
     }
   ],
-  "weekend_special": {
-    "title": "Weekend: Fri to Sun",
-    "stories": [
-      {
-        "why_it_matters": "Oil is India's biggest import and the main driver of the rupee and inflation. Talks through Qatar are stuck, so each Gulf incident keeps a risk premium on crude even though supply now tops demand.",
-        "lead": false,
-        "verified": true,
-        "note": "Mine strikes are claims by Iran's IRGC; the US disputes them and they are not independently confirmed.",
-        "image": null,
-        "impact": [
-          {
-            "on": "oil",
-            "level": "high",
-            "dir": "mixed",
-            "why": "A supply glut pulls crude down, but Gulf attacks and mine claims keep a war-risk premium."
-          },
-          {
-            "on": "rupee",
-            "level": "medium",
-            "dir": "mixed",
-            "why": "Brent holding in the mid-$90s keeps India's import bill high and the rupee under pressure."
-          },
-          {
-            "on": "indian_stocks",
-            "detail": "OMCs",
-            "level": "medium",
-            "dir": "mixed",
-            "why": "Oil marketers, paints and airlines swing with every Hormuz headline."
-          },
-          {
-            "on": "gold",
-            "level": "low",
-            "dir": "up",
-            "why": "Gulf escalation risk adds some safe-haven demand."
-          }
-        ],
-        "rank": 1,
-        "id": "world-iran-hormuz-gulf-weekend-2026-11-15",
-        "headline": "Iran says tankers hit Hormuz mines and fires drones at Bahrain; US disputes damage",
-        "summary": "Iran's IRGC navy said more tankers hit sea mines near Hormuz on Saturday and Sunday; the US says the main routes are clear and Reuters could not verify the claims. Iran fired drones at a US radar in Bahrain on Friday and Sunday; Bahrain says it stopped them and the US says Friday's caused no damage. Deputy FM Kazem Gharibabadi says Iran will not wait for the US to attack first, while Trump says he may hold off strikes if there are no new provocations but will keep the blockade. Brent traded near $95.50 early Monday, just below Friday's $95.84.",
-        "importance": 5,
-        "published_at": "2026-11-15T00:00:00+00:00",
-        "tags": [
-          "Iran",
-          "Hormuz",
-          "Bahrain",
-          "Oil"
-        ],
-        "sources": [
-          {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know"
-          },
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/11/15/bahrain-iran-drone-attacks-tehran-us-base.html"
-          },
-          {
-            "name": "Investing.com",
-            "url": "https://www.investing.com/news/economy-news/iran-claims-fresh-strike-on-us-base-as-hormuz-shipping-crisis-deepens-5027672"
-          },
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/quote/BZ%3DF/"
-          }
-        ],
-        "monday_effect": "With Brent opening nearly flat near $95.50, oil-linked stocks such as BPCL, HPCL, IOC and IndiGo may start calm rather than move sharply. The risk leans to higher crude: a confirmed tanker hit or new Gulf strike could lift Brent and weigh on the rupee near 94.2. Moderate confidence; one headline can flip this.",
-        "watch_next": "A US reply to Iran's conditions sent via Qatar; Araghchi's Oman visit Tuesday; any confirmed tanker damage; Brent above $100 or below $90."
-      },
-      {
-        "why_it_matters": "High US yields and a strong dollar pull money out of emerging markets like India and push the rupee lower. Fed Chair Kevin Warsh speaks on Monday, which could firm up or soften the hike bets.",
-        "lead": false,
-        "verified": true,
-        "note": "Rupee close from PTI (94.20); All India Radio puts it at 94.25.",
-        "image": null,
-        "impact": [
-          {
-            "on": "rates",
-            "level": "high",
-            "dir": "up",
-            "why": "Markets price a near-certain Fed hike, keeping US yields above 5%."
-          },
-          {
-            "on": "currency",
-            "detail": "Dollar",
-            "level": "high",
-            "dir": "up",
-            "why": "Rate-hike bets keep the dollar near a 19-month high."
-          },
-          {
-            "on": "rupee",
-            "level": "high",
-            "dir": "down",
-            "why": "A strong dollar and high US yields weigh on the rupee near 94.2."
-          },
-          {
-            "on": "gold",
-            "level": "medium",
-            "dir": "down",
-            "why": "Higher yields and a firm dollar cut gold's appeal."
-          }
-        ],
-        "rank": 2,
-        "id": "markets-fed-hike-bets-yields-dollar-2026-11-13",
-        "headline": "Bets on a December Fed hike lift the US 10-year yield to 5.15% and the dollar",
-        "summary": "US producer prices rose 6.5% in the year to October, the most since November 2022, though the monthly rise of 0.3% was a bit below forecasts. CME FedWatch shows a Fed rate hike on December 9 as almost certain, with about 87% odds of 0.25 point and 13% of 0.5 point. The US 10-year yield ended Friday near 5.15% and the dollar index near 103.4, its highest since April 2025. Gold futures settled at $3,886.30 on Friday after a weekly drop of about 4.5%, and the rupee ended at about 94.20 per dollar.",
-        "importance": 5,
-        "published_at": "2026-11-13T16:19:00-05:00",
-        "tags": [
-          "Fed",
-          "Yields",
-          "Dollar",
-          "Gold"
-        ],
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
-          },
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/quote/%5ETNX/"
-          },
-          {
-            "name": "PTI via TradingView",
-            "url": "https://www.tradingview.com/news/moodys:13636e5ce594f:0-rupee-falls-8-paise-to-close-at-94-20-against-us-dollar/"
-          },
-          {
-            "name": "All India Radio",
-            "url": "https://newsonair.gov.in/indian-markets-end-in-positive-zone/"
-          }
-        ],
-        "monday_effect": "The rupee is likely to open weak near Friday's 94.2 per dollar, with the RBI expected to smooth sharp moves. Rate-sensitive stocks such as banks, NBFCs and realty could feel pressure if US yields stay above 5%, while a weaker rupee helps IT exporters like Infosys and TCS. Fairly confident on the rupee; less sure on stocks.",
-        "watch_next": "Warsh's speech Monday (late night IST); US retail sales Tuesday; FOMC minutes Wednesday; the US 10-year back below 5% would ease the pressure."
-      },
-      {
-        "why_it_matters": "Steady foreign buying is the main support for Indian stocks right now. It is also helping to slow the rupee's fall, even as US yields rise.",
-        "lead": false,
-        "verified": true,
-        "note": null,
-        "image": null,
-        "impact": [
-          {
-            "on": "indian_stocks",
-            "detail": "Banks",
-            "level": "medium",
-            "dir": "up",
-            "why": "Heavy foreign buying supports the broad market."
-          },
-          {
-            "on": "rupee",
-            "level": "low",
-            "dir": "up",
-            "why": "Foreign equity inflows bring dollars that cushion the rupee."
-          },
-          {
-            "on": "india_economy",
-            "level": "low",
-            "dir": "mixed",
-            "why": "Inflation above 6% raises the chance of an RBI rate hike in December."
-          }
-        ],
-        "rank": 3,
-        "id": "markets-fii-inflows-third-weekly-gain-2026-11-13",
-        "headline": "Foreign investors buy Rs 33,343 crore of Indian shares as Nifty logs third weekly gain",
-        "summary": "Foreign institutional investors bought a net Rs 33,342.70 crore of Indian shares in the week to November 13, their third straight week of buying, while domestic institutions sold Rs 24,191.81 crore. The Sensex rose 564 points (0.69%) to 81,592.45 and the Nifty 114 points (0.45%) to 25,144.30. PSU banks jumped 7.5%, led by Punjab National Bank (12.8%) and Bank of India (11.2%), and smallcaps rose 3.6%, while Nifty IT fell 3.2%. Retail inflation at 6.09% in October and October wholesale price data due Monday limit the room for more gains.",
-        "importance": 4,
-        "published_at": "2026-11-14T16:00:00+05:30",
-        "tags": [
-          "FII",
-          "Nifty",
-          "PSU banks",
-          "Sensex"
-        ],
-        "sources": [
-          {
-            "name": "Moneycontrol via TradingView",
-            "url": "https://www.tradingview.com/news/moneycontrol:19b50d815094b:0-smallcaps-jump-3-6-psu-banks-surge-7-5-as-sensex-nifty-extend-weekly-gains-what-lies-ahead/"
-          },
-          {
-            "name": "All India Radio",
-            "url": "https://newsonair.gov.in/indian-markets-end-in-positive-zone/"
-          },
-          {
-            "name": "Business Standard",
-            "url": "https://www.business-standard.com/economy/news/retail-inflation-at-6-09-in-october-breaches-rbi-s-upper-band-after-2-yrs-126111201088_1.html"
-          }
-        ],
-        "monday_effect": "Strong foreign buying could cushion the Nifty around the 25,000-25,150 zone at the open, with PSU banks such as PNB, Bank of Baroda and SBI in focus after last week's rally; some profit-taking there is possible. IT may stay weak. Moderate confidence: flows can turn quickly if US yields climb further.",
-        "watch_next": "Daily FII data; October WPI inflation Monday; analysts watch Nifty support at 24,800-25,000 and resistance near 25,400."
-      },
-      {
-        "why_it_matters": "Nvidia's results and Anthropic's debut are the week's big tests of the AI trade. They will steer tech stocks worldwide, including Indian IT and AI-linked names.",
-        "lead": false,
-        "verified": true,
-        "note": null,
-        "image": null,
-        "impact": [
-          {
-            "on": "us_stocks",
-            "detail": "Tech",
-            "level": "high",
-            "dir": "mixed",
-            "why": "Nvidia's results and Anthropic's IPO will decide the next move for tech."
-          },
-          {
-            "on": "company",
-            "detail": "Nvidia",
-            "level": "high",
-            "dir": "mixed",
-            "why": "Results after a CEO exit and a 13% weekly fall could swing the shares sharply."
-          },
-          {
-            "on": "indian_stocks",
-            "detail": "IT",
-            "level": "low",
-            "dir": "mixed",
-            "why": "Global tech mood spills over to Indian IT stocks."
-          }
-        ],
-        "rank": 4,
-        "id": "markets-us-futures-nvidia-anthropic-2026-11-15",
-        "headline": "US stock futures rise as Wall Street readies for Nvidia results and Anthropic's IPO",
-        "summary": "Nasdaq-100 futures rose as much as 0.6% and S&P 500 futures 0.3% on Sunday evening, and early Monday IST they were up about 0.75% and 0.36%. On Friday the Nasdaq fell 0.91% to 25,136.27 and the S&P 500 0.4% to 7,561.67 as Nvidia slid another 2% after CEO Jensen Huang's resignation, while the Dow edged up to 52,347.55. All three still had their best week since August. Nvidia, down 13% last week, reports results on Tuesday after the US close, and Anthropic is expected to price its IPO at $70 to $78 a share, a valuation of about $1.4 trillion.",
-        "importance": 4,
-        "published_at": "2026-11-15T18:31:00-05:00",
-        "tags": [
-          "Wall Street",
-          "Nvidia",
-          "Anthropic",
-          "AI"
-        ],
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html"
-          },
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
-          },
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/quote/NQ%3DF/"
-          }
-        ],
-        "monday_effect": "Firmer US futures could give Indian markets a steady start, but IT stocks such as Infosys, TCS and HCLTech may stay cautious until Nvidia reports early Wednesday IST. The effect on the Nifty is likely small on Monday. Moderate confidence.",
-        "watch_next": "Nvidia results Tuesday after the US close (early Wednesday IST); Anthropic IPO pricing; whether Nasdaq futures hold their gains."
-      },
-      {
-        "why_it_matters": "Lower US duties than rivals would help Indian exporters win orders in their biggest market. Without rates or a date, the gain is still a promise.",
-        "lead": false,
-        "verified": true,
-        "note": "Tariff rates and product lists not given; the lower-duty promise is Goyal's account of the talks.",
-        "image": null,
-        "impact": [
-          {
-            "on": "indian_stocks",
-            "detail": "Exporters",
-            "level": "medium",
-            "dir": "up",
-            "why": "Lower US duties than rivals would help export-heavy firms."
-          },
-          {
-            "on": "rupee",
-            "level": "low",
-            "dir": "up",
-            "why": "A firmer trade deal could support export earnings and inflows."
-          }
-        ],
-        "rank": 5,
-        "id": "india-goyal-us-preferential-access-2026-11-15",
-        "headline": "Goyal says Indian goods will pay lower US tariffs than rivals under trade deal",
-        "summary": "Commerce Minister Piyush Goyal, speaking in Cairo on Sunday, says the US has agreed to give Indian goods preferential access, with lower duties than competing countries. The rates are not settled yet, as the US rebuilds its tariff system after its Supreme Court struck down the earlier reciprocal tariffs. Both sides aim to close the first part of the deal by March 2027.",
-        "importance": 4,
-        "published_at": "2026-11-15T19:50:00+05:30",
-        "tags": [
-          "Trade",
-          "US",
-          "Tariffs"
-        ],
-        "sources": [
-          {
-            "name": "All India Radio",
-            "url": "https://newsonair.gov.in/indian-goods-to-receive-preferential-market-access-in-us-with-lower-tariffs-says-piyush-goyal/"
-          },
-          {
-            "name": "PTI (via Daily Excelsior)",
-            "url": "https://www.dailyexcelsior.com/india-us-agree-on-preferential-market-access-for-indian-goods-in-america-goyal/"
-          },
-          {
-            "name": "The Hans India",
-            "url": "https://www.thehansindia.com/business/india-to-get-preferential-access-in-us-market-under-trade-pact-piyush-goyal-1142387"
-          }
-        ],
-        "monday_effect": "Could give a mild lift to export-focused sectors such as textiles, engineering goods and seafood at the open. With no rates or signing date, the effect is likely modest and may fade. Low to moderate confidence.",
-        "watch_next": "Official US tariff rates for India; a date to sign the first part of the deal; any US statement confirming Goyal's account."
-      },
-      {
-        "why_it_matters": "Any shared line on Iran or Hormuz from the three powers could move oil sharply. It is also the first such meeting, watched for signals on US-China trade.",
-        "lead": false,
-        "verified": true,
-        "note": null,
-        "image": null,
-        "impact": [
-          {
-            "on": "oil",
-            "level": "medium",
-            "dir": "mixed",
-            "why": "Talks on the Iran war could ease or harden the Hormuz standoff."
-          },
-          {
-            "on": "currency",
-            "detail": "Yuan",
-            "level": "low",
-            "dir": "mixed",
-            "why": "US-China tone at APEC can move the yuan."
-          }
-        ],
-        "rank": 6,
-        "id": "world-trump-xi-putin-summit-2026-11-14",
-        "headline": "Trump, Xi and Putin to hold first three-way talks at APEC in Shenzhen this week",
-        "summary": "The White House says Donald Trump, Xi Jinping and Vladimir Putin will meet on the sidelines of the APEC summit in Shenzhen, which runs November 18-19. A US official says Trump wants to discuss the Iran war and cutting nuclear weapons, but not Russia's war in Ukraine, and does not expect an agreement. The Kremlin calls the meeting very significant.",
-        "importance": 3,
-        "published_at": "2026-11-14T00:00:00+00:00",
-        "tags": [
-          "APEC",
-          "US",
-          "China",
-          "Russia"
-        ],
-        "sources": [
-          {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china"
-          },
-          {
-            "name": "ABC News",
-            "url": "https://abcnews.com/Politics/trump-meet-putin-xi-china-week-us-officials/story?id=138128914"
-          },
-          {
-            "name": "Anadolu Agency",
-            "url": "https://aa.com.tr/en/asia-pacific/trump-to-hold-trilateral-talks-with-xi-putin-in-china-next-week-white-house/4124821"
-          }
-        ],
-        "monday_effect": "Unlikely to move Indian markets much on Monday; it matters more midweek. Any sign of joint pressure on Iran could cool oil and help OMCs and the rupee, while a Russia-China front against US terms could do the opposite. Low confidence.",
-        "watch_next": "Agenda details before APEC opens Wednesday; any joint line on Iran, Hormuz or nuclear arms."
-      },
-      {
-        "why_it_matters": "Crypto is the first place risk appetite is fading as investors brace for higher US rates. A stronger dollar and rising yields keep pressure on it.",
-        "lead": false,
-        "verified": true,
-        "note": "Low and liquidation figures from Investing.com citing Coinglass; current price from CoinGecko.",
-        "image": null,
-        "impact": [
-          {
-            "on": "crypto",
-            "level": "high",
-            "dir": "mixed",
-            "why": "Forced selling has eased, but ETF outflows and high US yields keep the trend weak."
-          }
-        ],
-        "rank": 7,
-        "id": "markets-bitcoin-four-month-low-2026-11-15",
-        "headline": "Bitcoin hits four-month low near $62,100 over weekend, then recovers to about $65,000",
-        "summary": "Bitcoin fell to about $62,100 on Sunday, its lowest since mid-July, as about $2 billion of mostly leveraged bets were wiped out, then recovered to about $65,200 early Monday IST. It is down nearly 15% in a week and about half its October 2025 record. US spot bitcoin ETFs lost about $185 million on Friday alone, extending weeks of outflows.",
-        "importance": 3,
-        "published_at": "2026-11-15T11:05:00+04:00",
-        "tags": [
-          "Bitcoin",
-          "Crypto",
-          "ETFs"
-        ],
-        "sources": [
-          {
-            "name": "Investing.com",
-            "url": "https://in.investing.com/news/cryptocurrency-news/bitcoin-slides-toward-60000-as-etf-outflows-and-liquidations-intensify-5705030"
-          },
-          {
-            "name": "CoinGecko",
-            "url": "https://www.coingecko.com/en/coins/bitcoin"
-          },
-          {
-            "name": "Coinglass",
-            "url": "https://www.coinglass.com/currencies/BTC"
-          }
-        ],
-        "monday_effect": "Little direct effect on the Nifty. Indian crypto holders may see some relief if bitcoin holds near $65,000, but the trend stays weak while US yields rise and ETFs see outflows. Low confidence in a lasting bounce.",
-        "watch_next": "US spot bitcoin ETF flows; whether bitcoin holds $62,000; Nvidia results as a test of risk appetite."
-      }
-    ]
-  },
+  "weekend_special": null,
   "forex_results": [],
   "week_ahead": [
     {
@@ -734,10 +474,6 @@
         {
           "text": "India October wholesale (WPI) inflation",
           "section": "india"
-        },
-        {
-          "text": "China October retail sales and industrial output",
-          "section": "markets"
         },
         {
           "text": "PM Modi in the Philippines for ASEAN meetings",

@@ -1,0 +1,561 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-16-morning",
+  "date": "2026-11-16",
+  "slot": "morning",
+  "title": "Monday Morning Edition",
+  "generated_at": "2026-11-16T07:40:00+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "94.20",
+      "change": "+0.09%",
+      "dir": "up",
+      "as_of": "2026-11-13T00:00:00+05:30",
+      "source": {
+        "name": "PTI via TradingView",
+        "url": "https://www.tradingview.com/news/moodys:13636e5ce594f:0-rupee-falls-8-paise-to-close-at-94-20-against-us-dollar/"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "103.94",
+      "change": "+0.09%",
+      "dir": "up",
+      "as_of": "2026-11-16T00:11:45+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR%3DX/"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.42",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-16T01:35:00+00:00",
+      "source": {
+        "name": "Reuters via Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$719.55bn",
+      "change": "+0.35%",
+      "dir": "up",
+      "as_of": "2026-11-06T00:00:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/indias-forex-reserves-increase-by-2-49bn-to-reach-719-54bn-last-week/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,144.30",
+      "change": "-0.61%",
+      "dir": "down",
+      "as_of": "2026-11-13T10:01:20+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI/"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "81,592.45",
+      "change": "-0.39%",
+      "dir": "down",
+      "as_of": "2026-11-13T10:02:31+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN/"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,561.67",
+      "change": "-0.40%",
+      "dir": "down",
+      "as_of": "2026-11-13T21:43:19+00:00",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "25,136.27",
+      "change": "-0.91%",
+      "dir": "down",
+      "as_of": "2026-11-13T22:15:59+00:00",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,891",
+      "change": "+0.30%",
+      "dir": "up",
+      "as_of": "2026-11-16T01:35:00+00:00",
+      "source": {
+        "name": "Reuters via Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$95.69",
+      "change": "-0.20%",
+      "dir": "down",
+      "as_of": "2026-11-16T01:35:00+00:00",
+      "source": {
+        "name": "Reuters via Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$65,192",
+      "change": "+1.64%",
+      "dir": "up",
+      "as_of": "2026-11-16T00:11:35+00:00",
+      "source": {
+        "name": "CoinGecko",
+        "url": "https://www.coingecko.com/en/coins/bitcoin"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "5.14%",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-16T01:35:00+00:00",
+      "source": {
+        "name": "Reuters via Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "why_it_matters": "Lower out-of-pocket costs ease a big burden on household budgets, and the rising insurance share helps health insurers.",
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio (Health Ministry data).",
+          "tags": [
+            "health",
+            "budget",
+            "insurance"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Insurance",
+              "level": "low",
+              "dir": "up",
+              "why": "Private health insurance's share of spending has tripled in a decade."
+            }
+          ],
+          "id": "india-health-spending-nha-2026-11-16",
+          "headline": "Government health spending tripled in 10 years; families' share falls to 42.7%",
+          "summary": "The Health Ministry's National Health Accounts for 2023-24 put government health spending at Rs 4.14 lakh crore, up from Rs 1.30 lakh crore in 2013-14. Per-person public health spending rose from Rs 1,042 to Rs 2,959, and the share of health costs paid by families out of pocket fell from 64.2% to 42.7%. Private health insurance's share rose from 3.4% to 10.2%.",
+          "importance": 3,
+          "published_at": "2026-11-16T07:35:00+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/centres-health-expenditure-more-than-tripled-to-rs-4-14-lakh-cr-in-2023-24-from-rs-1-30-lakh-cr-in-2013-14/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "why_it_matters": "Three carriers in the region raise the risk of a new round of US-Iran strikes, which would push oil and gold higher.",
+          "lead": false,
+          "verified": false,
+          "note": "Claim by a US official; not independently confirmed.",
+          "tags": [
+            "Iran",
+            "US",
+            "Gulf",
+            "oil"
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6afa600bf2-1794793484.jpg",
+            "credit": "Getty Images",
+            "source_url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack",
+            "alt": "People watch the aircraft carrier USS Theodore Roosevelt at anchor off England in 2015 (file photo)"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "A bigger US force near Iran raises the risk of new strikes and supply disruption."
+            },
+            {
+              "on": "gold",
+              "level": "low",
+              "dir": "up",
+              "why": "War risk supports safe-haven buying."
+            }
+          ],
+          "id": "world-third-carrier-iran-2026-11-16",
+          "headline": "US official says third aircraft carrier, USS Theodore Roosevelt, reaches Middle East",
+          "summary": "A US official told Al Jazeera the USS Theodore Roosevelt has arrived in the Middle East, joining two other carriers in the US Central Command area. It comes as Iran's deputy foreign minister Kazem Gharibabadi says Tehran will not wait for a US attack before acting. The Roosevelt left the US in late September to reinforce the blockade of Iran.",
+          "importance": 4,
+          "published_at": "2026-11-16T00:00:00+00:00",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack"
+            },
+            {
+              "name": "Maritime Executive",
+              "url": "https://maritime-executive.com/article/us-sends-third-carrier-strike-group-to-the-gulf"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Claim by Estonia's government; single source: Al Jazeera.",
+          "tags": [
+            "Estonia",
+            "Russia",
+            "NATO"
+          ],
+          "image": null,
+          "impact": [],
+          "id": "world-estonia-russia-border-2026-11-15",
+          "headline": "Estonia to shut Russia border crossings, says GRU ordered arson on drone maker",
+          "summary": "Estonian authorities say Russia's GRU military intelligence ordered an attempted arson attack on drone maker Threod Systems; eight people were detained. Foreign Minister Margus Tsahkna says the three crossings with Russia, Narva, Luhamaa and Koidula, will close, without saying for how long. Russia's foreign ministry called the move Russophobia.",
+          "importance": 2,
+          "published_at": "2026-11-15T18:07:02+00:00",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "why_it_matters": "A strong dollar and high US yields keep pressure on the rupee ahead of today's open.",
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Reuters. Updates Friday's 13% half-point odds.",
+          "tags": [
+            "dollar",
+            "Fed",
+            "rupee"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "Dollar",
+              "level": "medium",
+              "dir": "up",
+              "why": "Near-certain Fed hike keeps the dollar firm."
+            },
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "down",
+              "why": "A firm dollar and 5% US yields pull money away from emerging markets."
+            }
+          ],
+          "id": "currency-dollar-fed-odds-2026-11-16",
+          "headline": "Dollar holds near 19-month high as half-point Fed hike odds drop to 6%",
+          "summary": "The dollar index was steady at 103.42 in Asia on Monday after gaining 1.1% last week to its highest since April 2025. Fed funds futures still treat a quarter-point hike in December as all but certain, but the odds of a half-point move fell to 6% from 12%. The US 10-year yield held at about 5.14%; Fed Chair Warsh speaks later on Monday.",
+          "importance": 3,
+          "published_at": "2026-11-16T01:35:00+00:00",
+          "sources": [
+            {
+              "name": "Reuters via Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "why_it_matters": "Nvidia's results and the Anthropic IPO this week will set the mood for tech and AI stocks worldwide, including Indian IT.",
+          "lead": true,
+          "verified": true,
+          "note": null,
+          "tags": [
+            "Nvidia",
+            "Asia",
+            "AI",
+            "Anthropic"
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6afa0245-1794769477.jpg",
+            "credit": "Eduardo Munoz/Reuters",
+            "source_url": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia",
+            "alt": "US Treasury Secretary Scott Bessent speaks at a gala dinner in New York"
+          },
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Nvidia",
+              "level": "high",
+              "dir": "mixed",
+              "why": "CEO search and Tuesday's results could swing the stock about 7% either way."
+            },
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "medium",
+              "dir": "mixed",
+              "why": "AI stocks hinge on Nvidia's numbers and Anthropic's debut."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Global tech mood feeds into Indian IT shares."
+            }
+          ],
+          "id": "markets-asia-nvidia-bessent-2026-11-16",
+          "headline": "Asian shares slip before Nvidia results; Bessent says Nvidia should pick an outsider CEO",
+          "summary": "Japan's Nikkei fell 0.6% and South Korea's index 0.2% on Monday, while US stock futures edged up. Treasury Secretary Scott Bessent told Fox News Nvidia's board should look outside the company for Jensen Huang's successor and wants answers within 10 days. Nvidia, now worth about $3.9 trillion against $5.8 trillion in early October, reports on Tuesday; Anthropic's shares are due to start trading on Thursday.",
+          "importance": 4,
+          "published_at": "2026-11-16T01:35:00+00:00",
+          "sources": [
+            {
+              "name": "Reuters via Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia"
+            },
+            {
+              "name": "Investing.com (Reuters)",
+              "url": "https://www.investing.com/news/economy-news/asian-shares-fall-before-nvidia-earnings-anthropic-ipo-test-tech-rally-5028293"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "Weaker Chinese demand weighs on metal prices and Asian markets, and adds pressure on Beijing to stimulate.",
+          "lead": false,
+          "verified": false,
+          "note": "Single source: China's National Bureau of Statistics (official data); forecasts from Forex Factory.",
+          "tags": [
+            "China",
+            "economy",
+            "metals"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Metals",
+              "level": "medium",
+              "dir": "down",
+              "why": "Weak Chinese factory and property activity cuts demand for steel and metals."
+            },
+            {
+              "on": "currency",
+              "detail": "Yuan",
+              "level": "low",
+              "dir": "down",
+              "why": "Softer growth raises the chance of more easing."
+            }
+          ],
+          "id": "markets-china-october-data-2026-11-16",
+          "headline": "China's October data miss: retail sales up just 0.4%, factory output 4.8%",
+          "summary": "China's statistics bureau says retail sales grew 0.4% from a year earlier in October and industrial output 4.8%, both below forecasts of 0.8% and 5.3%. Fixed-asset investment fell 8.1% in January-October, worse than the 7% drop expected, and property investment fell 21.6%. Urban unemployment was 5.1%.",
+          "importance": 3,
+          "published_at": "2026-11-16T10:00:00+08:00",
+          "sources": [
+            {
+              "name": "National Bureau of Statistics of China",
+              "url": "https://www.stats.gov.cn/english/PressRelease/202611/t20261116_1965843.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "why_it_matters": "The loss can delay Amazon's satellite internet rollout and deepens a shortage of heavy rockets outside SpaceX.",
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "tags": [
+            "space",
+            "Amazon",
+            "ULA",
+            "satellites"
+          ],
+          "image": {
+            "url": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/11/15/thumbs_b_c_a5b2f2ccdc6bc13706938159628307ec.jpg",
+            "credit": "Anadolu Agency",
+            "source_url": "https://www.aa.com.tr/en/americas/us-rocket-firm-ula-fails-to-deploy-40-amazon-leo-satellites-after-flight-anomaly/4126036",
+            "alt": "ULA's Vulcan rocket lifts off from its launch pad at Cape Canaveral"
+          },
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Amazon",
+              "level": "low",
+              "dir": "down",
+              "why": "Losing 40 satellites sets back its Leo internet schedule."
+            }
+          ],
+          "id": "built-vulcan-amazon-leo-failure-2026-11-15",
+          "headline": "ULA's Vulcan rocket fails in flight, losing 40 Amazon Leo internet satellites",
+          "summary": "United Launch Alliance's Vulcan lifted off from Cape Canaveral at 17:40 GMT on Sunday but suffered an anomaly about 10 minutes into flight and did not put Amazon's 40 Leo broadband satellites into orbit. ULA says it does not yet know the cause and will work with Amazon and regulators on a fix. It was the first of 38 Vulcan launches Amazon has bought for Leo.",
+          "importance": 3,
+          "published_at": "2026-11-15T17:40:00+00:00",
+          "sources": [
+            {
+              "name": "Anadolu Agency",
+              "url": "https://www.aa.com.tr/en/americas/us-rocket-firm-ula-fails-to-deploy-40-amazon-leo-satellites-after-flight-anomaly/4126036"
+            },
+            {
+              "name": "Bloomberg",
+              "url": "https://bloomberg.com/news/articles/2026-11-15/ula-vulcan-rocket-launches-with-its-first-amazon-leo-payload"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [],
+  "week_ahead": [
+    {
+      "date": "2026-11-16",
+      "events": [
+        {
+          "text": "India October wholesale (WPI) inflation",
+          "section": "india"
+        },
+        {
+          "text": "PM Modi in the Philippines for ASEAN meetings",
+          "section": "india"
+        },
+        {
+          "text": "Canada October CPI",
+          "section": "currency"
+        },
+        {
+          "text": "Fed Chair Warsh speaks (late night IST)",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "events": [
+        {
+          "text": "23rd ASEAN-India Summit and East Asia Summit in Manila",
+          "section": "india"
+        },
+        {
+          "text": "US October retail sales",
+          "section": "markets"
+        },
+        {
+          "text": "Nvidia Q3 results after the US close",
+          "section": "markets"
+        },
+        {
+          "text": "Iran's Araghchi visits Oman for talks",
+          "section": "world"
+        },
+        {
+          "text": "Anthropic IPO retail offer in Australia closes",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "events": [
+        {
+          "text": "APEC leaders' summit opens in Shenzhen; Trump, Xi and Putin due to meet",
+          "section": "world"
+        },
+        {
+          "text": "UK October CPI",
+          "section": "currency"
+        },
+        {
+          "text": "Fed releases FOMC meeting minutes",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "events": [
+        {
+          "text": "Australia October jobs data",
+          "section": "currency"
+        },
+        {
+          "text": "US weekly jobless claims and Philly Fed index",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "events": [
+        {
+          "text": "India hosts first SCO Civilisational Dialogue Forum in New Delhi",
+          "section": "india"
+        },
+        {
+          "text": "UK October retail sales",
+          "section": "currency"
+        }
+      ]
+    }
+  ]
+}
