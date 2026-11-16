@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-15-evening",
-  "date": "2026-11-15",
-  "slot": "evening",
-  "title": "Sunday Evening Edition",
-  "generated_at": "2026-11-15T20:51:00+05:30",
+  "edition_id": "2026-11-16-weekend",
+  "date": "2026-11-16",
+  "slot": "weekend",
+  "title": "Monday Weekend Edition",
+  "generated_at": "2026-11-16T05:49:00+05:30",
   "snapshot": [
     {
       "id": "usdinr",
@@ -21,10 +21,10 @@
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "103.89",
-      "change": "+0.01%",
+      "value": "103.94",
+      "change": "+0.09%",
       "dir": "up",
-      "as_of": "2026-11-13T22:26:33+00:00",
+      "as_of": "2026-11-16T00:11:45+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURINR%3DX/"
@@ -33,10 +33,10 @@
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "103.41",
-      "change": "+0.23%",
-      "dir": "up",
-      "as_of": "2026-11-13T21:59:59+00:00",
+      "value": "103.40",
+      "change": "-0.01%",
+      "dir": "flat",
+      "as_of": "2026-11-16T00:03:34+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
@@ -105,10 +105,10 @@
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$3,887.60",
-      "change": "+0.06%",
+      "value": "$3,900.10",
+      "change": "+0.36%",
       "dir": "up",
-      "as_of": "2026-11-13T21:59:59+00:00",
+      "as_of": "2026-11-16T00:03:38+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/GC%3DF/"
@@ -117,22 +117,22 @@
     {
       "id": "brent",
       "label": "Brent crude",
-      "value": "$95.84",
-      "change": "+0.02%",
-      "dir": "up",
-      "as_of": "2026-11-13T00:00:00-05:00",
+      "value": "$95.50",
+      "change": "-0.35%",
+      "dir": "down",
+      "as_of": "2026-11-16T00:01:13+00:00",
       "source": {
-        "name": "Nation Thailand",
-        "url": "https://www.nationthailand.com/news/world/40073488"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ%3DF/"
       }
     },
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$64,643",
-      "change": "-1.57%",
-      "dir": "down",
-      "as_of": "2026-11-15T15:16:34+00:00",
+      "value": "$65,192",
+      "change": "+1.64%",
+      "dir": "up",
+      "as_of": "2026-11-16T00:11:35+00:00",
       "source": {
         "name": "CoinGecko",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
@@ -155,233 +155,66 @@
     {
       "id": "india",
       "title": "India",
-      "stories": [
-        {
-          "id": "india-goyal-us-preferential-access-2026-11-15",
-          "headline": "Goyal says Indian goods will pay lower US tariffs than rivals under trade deal",
-          "summary": "Commerce Minister Piyush Goyal, speaking in Cairo, says the US has agreed to give Indian goods preferential access, with lower duties than competing countries. He says this was settled when PM Modi and President Trump agreed the framework for a bilateral trade agreement. Both sides aim to close the first part of the deal by the end of this financial year, in March 2027.",
-          "why_it_matters": "Lower US duties than rivals would help Indian exporters such as textiles, engineering and pharma win orders in their biggest market.",
-          "importance": 5,
-          "lead": true,
-          "verified": true,
-          "note": "Tariff rates and product lists not given; the lower-duty promise is Goyal's account of the talks.",
-          "published_at": "2026-11-15T19:50:00+05:30",
-          "tags": [
-            "Trade",
-            "US",
-            "Tariffs"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/indian-goods-to-receive-preferential-market-access-in-us-with-lower-tariffs-says-piyush-goyal/"
-            },
-            {
-              "name": "PTI (via Daily Excelsior)",
-              "url": "https://www.dailyexcelsior.com/india-us-agree-on-preferential-market-access-for-indian-goods-in-america-goyal/"
-            },
-            {
-              "name": "The Hans India",
-              "url": "https://www.thehansindia.com/business/india-to-get-preferential-access-in-us-market-under-trade-pact-piyush-goyal-1142387"
-            }
-          ],
-          "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2026/10/Piyush-Goyal.png",
-            "credit": "All India Radio",
-            "source_url": "https://newsonair.gov.in/indian-goods-to-receive-preferential-market-access-in-us-with-lower-tariffs-says-piyush-goyal/",
-            "alt": "Commerce Minister Piyush Goyal speaking at a podium (file photo)"
-          },
-          "impact": [
-            {
-              "on": "indian_stocks",
-              "detail": "Exporters",
-              "level": "medium",
-              "dir": "up",
-              "why": "Lower US duties than rivals would help export-heavy firms win orders."
-            },
-            {
-              "on": "rupee",
-              "level": "low",
-              "dir": "up",
-              "why": "A firmer trade deal could support export earnings and foreign inflows."
-            }
-          ]
-        },
-        {
-          "id": "india-bay-of-bengal-cyclone-2026-11-14",
-          "headline": "Update: IMD says Bay depression may become a severe cyclone heading for Andhra coast",
-          "summary": "The low-pressure area has strengthened into a depression over the southeast Bay of Bengal. IMD says it is likely to become a cyclonic storm on Monday and a severe cyclonic storm over the west-central Bay on Tuesday, then move northwest towards the Andhra Pradesh coast. A pre-cyclone watch is out for Andhra Pradesh and south Odisha, and fishermen are told to stay off the sea.",
-          "why_it_matters": "It would be the third cyclone to cross the Andhra coast in about 20 days, threatening crops, ports and power lines.",
-          "importance": 4,
-          "lead": false,
-          "verified": true,
-          "note": "Changed since morning: now a depression, forecast to become a severe cyclonic storm by Tuesday with an Andhra track.",
-          "published_at": "2026-11-15T20:31:00+05:30",
-          "tags": [
-            "Weather",
-            "Cyclone",
-            "Andhra Pradesh"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/low-pressure-area-over-bay-of-bengal-likely-to-intensify-into-cyclonic-storm/"
-            },
-            {
-              "name": "Swarajya",
-              "url": "https://swarajyamag.com/news-brief/bay-of-bengal-depression-set-to-intensify-into-severe-cyclonic-storm-by-17th-november-imd-warns"
-            },
-            {
-              "name": "Telangana Today",
-              "url": "https://telanganatoday.com/andhra-pradesh-coast-braces-for-another-severe-cyclone-on-november-17-warns-imd"
-            }
-          ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "india-nhec-pune-bharat-taxi-2026-11-15",
-          "headline": "Amit Shah says revived Pune heavy engineering co-op will restart by December 2027",
-          "summary": "Cooperation Minister Amit Shah laid the foundation for reviving the National Heavy Engineering Cooperative in Pune, shut for about 11 years. Backed by NDDB, Amul, IFFCO, NCDC and NAFED, it will make machinery for sugar mills, dairies, ethanol and bio-gas plants, plus railway and defence equipment. Shah also launched the driver-owned Bharat Taxi service in Pune.",
-          "why_it_matters": null,
-          "importance": 2,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-15T19:41:00+05:30",
-          "tags": [
-            "Cooperatives",
-            "Manufacturing"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/hm-amit-shah-sets-december-2027-deadline-to-restart-nhec-plant-in-pune/"
-            }
-          ],
-          "image": null,
-          "impact": []
-        }
-      ]
+      "stories": []
     },
     {
       "id": "world",
       "title": "World",
       "stories": [
         {
-          "id": "world-zelenskyy-starshield-energy-2026-11-15",
-          "headline": "Zelenskyy says Starshield speed limits are helping Russia hit Ukraine's power grid",
-          "summary": "Zelenskyy says speed limits on SpaceX's military Starshield terminals have lasted five days and are weakening Ukraine's drone defences; Starlink denies restricting speeds. Overnight, a strike on an Odesa energy site cut power to 41,000 homes, energy firm DTEK says, and Ukraine's army says it downed 106 of 132 Russian drones.",
-          "why_it_matters": "Ukraine relies on Starshield links for interceptor drones, so the dispute hits its defence as US-brokered ceasefire talks stall.",
-          "importance": 4,
-          "lead": false,
-          "verified": false,
-          "note": "Claim by Zelenskyy; Starlink denies restricting speeds. Speed limits also reported by Euronews on Nov 12.",
-          "published_at": "2026-11-15T00:00:00+00:00",
-          "tags": [
-            "Ukraine",
-            "Russia",
-            "SpaceX"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/15/starshield-restrictions-help-russias-energy-attacks-on-ukraine-zelenskyy"
-            },
-            {
-              "name": "Euronews",
-              "url": "https://www.euronews.com/2026/11/12/zelenskyy-starlink-again-facing-restrictions-in-ukraine-hampering-russian-drone-intercepti"
-            }
-          ],
-          "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af715a9cd6a9-1794577833.jpg",
-            "credit": "Ukraine's 65th Mechanised Brigade via AP",
-            "source_url": "https://www.aljazeera.com/news/2026/11/15/starshield-restrictions-help-russias-energy-attacks-on-ukraine-zelenskyy",
-            "alt": "A Ukrainian soldier prepares a fixed-wing drone for launch in Zaporizhia region"
-          },
-          "impact": []
-        },
-        {
-          "id": "world-iran-bahrain-drone-attack-2026-11-15",
-          "headline": "Update: Iran calls Bahrain strikes defensive; Bahrain, Jordan and Egypt condemn them",
-          "summary": "Iran's foreign ministry spokesman Esmaeil Baghaei said Sunday's attacks on Riffa Air Base were purely defensive and aimed only at US forces, accusing Gulf states of helping US strikes on Iran. Bahrain's foreign ministry holds Iran fully responsible, and Jordan and Egypt condemned the attacks. Bahrain says its defences intercepted them; the US military has not commented on Sunday's attack.",
-          "why_it_matters": "Repeated Iranian fire at a Gulf host of US forces raises the risk of a wider war around Hormuz oil routes.",
-          "importance": 3,
-          "lead": false,
+          "why_it_matters": "Saudi Arabia sends about 4 million barrels a day through this pipeline to avoid Hormuz, so a real hit would tighten oil supply.",
+          "lead": true,
           "verified": true,
-          "note": "New since midday: Iran's official defence of the strikes and regional condemnation. Damage claims are not independently confirmed.",
-          "published_at": "2026-11-15T00:00:00+00:00",
-          "tags": [
-            "Iran",
-            "Bahrain",
-            "Gulf"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/15/bahrain-accuses-iran-of-attacking-its-territory-to-settle-score-with-us"
-            },
-            {
-              "name": "CBS News",
-              "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/"
-            }
-          ],
-          "image": null,
+          "note": "Pipeline strike is a Houthi claim; Saudi Arabia has not confirmed any damage.",
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6afa3cfe-1794784510.jpg?resize=1920%2C1440",
+            "credit": "Reuters",
+            "source_url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack",
+            "alt": "Houthi security forces in camouflage stand guard over a crowd in Sanaa, Yemen"
+          },
           "impact": [
             {
               "on": "oil",
               "level": "medium",
               "dir": "up",
-              "why": "More Iranian fire on Gulf bases keeps a risk premium on crude."
-            }
-          ]
-        },
-        {
-          "id": "world-asean-summit-manila-2026-11-15",
-          "headline": "49th ASEAN summit opens in Manila; Modi to join ASEAN-India talks on Tuesday",
-          "summary": "Philippine President Ferdinand Marcos Jr. opened the three-day summit calling for regional unity on security and economic risks. PM Modi visits the Philippines on November 16-17 and attends the ASEAN-India and East Asia summits on the 17th, when Singapore takes over the ASEAN chair.",
-          "why_it_matters": null,
-          "importance": 2,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-15T20:26:00+05:30",
-          "tags": [
-            "ASEAN",
-            "Philippines",
-            "Diplomacy"
-          ],
-          "sources": [
+              "why": "Attacks on Saudi Arabia's Hormuz bypass pipeline add supply risk."
+            },
             {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/49th-asean-summit-begins-in-manila-under-philippine-chairmanship/"
+              "on": "gold",
+              "level": "low",
+              "dir": "up",
+              "why": "Threats of pre-emptive strikes add safe-haven demand."
             }
           ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "world-cape-verde-election-2026-11-15",
-          "headline": "Cape Verde votes for president; first woman candidate challenges incumbent Neves",
-          "summary": "About 300,000 voters choose among six candidates, including President José Maria Neves seeking a second term and former justice minister Joana Rosa, the first woman to run since 1975. A run-off on November 29 follows if no one tops 50%; results are due in two to three days.",
-          "why_it_matters": null,
-          "importance": 1,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera (with AP and Reuters).",
+          "id": "world-iran-strike-first-houthi-pipeline-2026-11-15",
+          "headline": "Iran says it won't wait for a US attack; Houthis claim hits on Saudi oil pipeline",
+          "summary": "Iran's deputy foreign minister Kazem Gharibabadi said Tehran will not wait for the US to strike first and accused Washington of using diplomacy to buy time. Yemen's Houthis said their drones hit two pumping stations on Saudi Arabia's East-West oil pipeline on Sunday and fired missiles at Riyadh; the Saudi-led coalition says it shot down two missiles and several drones. The US Embassy in Bahrain issued a security alert over possible attacks by Iran and the Houthis.",
+          "importance": 5,
           "published_at": "2026-11-15T00:00:00+00:00",
           "tags": [
-            "Election",
-            "Africa"
+            "Iran",
+            "Houthis",
+            "Saudi Arabia",
+            "Oil"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/15/polls-open-in-cape-verde-in-race-with-first-female-presidential-candidate"
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack"
+            },
+            {
+              "name": "Investing.com",
+              "url": "https://www.investing.com/news/economy-news/iran-claims-fresh-strike-on-us-base-as-hormuz-shipping-crisis-deepens-5027672"
+            },
+            {
+              "name": "Xinhua",
+              "url": "https://english.news.cn/20261116/609c2bf6e43a43efbdb69f6ea0301453/c.html"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/15/bahrain-iran-drone-attacks-tehran-us-base.html"
             }
-          ],
-          "image": null,
-          "impact": []
+          ]
         }
       ]
     },
@@ -390,38 +223,55 @@
       "title": "Currency Desk",
       "stories": [
         {
-          "id": "currency-india-egypt-local-currency-2026-11-15",
-          "headline": "India and Egypt central banks working on trade in rupees and Egyptian pounds",
-          "summary": "Piyush Goyal says the RBI and Egypt's central bank are working to let the two countries settle trade in their own currencies. At the seventh Joint Trade Committee in Cairo, the sides agreed to draft terms for a trade agreement, and Goyal proposed linking UPI with Egypt's payment systems.",
-          "why_it_matters": "Settling more trade in rupees cuts dollar demand and is part of India's push to internationalise its currency.",
-          "importance": 3,
+          "why_it_matters": "A weak economy makes it harder for Japan to support the yen with rate hikes, raising the chance of intervention in currency markets.",
           "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-15T18:18:00+05:30",
-          "tags": [
-            "Rupee",
-            "Egypt",
-            "UPI"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/central-banks-of-india-and-egypt-working-to-promote-bilateral-trade-in-local-currencies-says-piyush-goyal/"
-            }
-          ],
+          "verified": true,
+          "note": null,
           "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/Piyush-1.jpg",
-            "credit": "All India Radio",
-            "source_url": "https://newsonair.gov.in/central-banks-of-india-and-egypt-working-to-promote-bilateral-trade-in-local-currencies-says-piyush-goyal/",
-            "alt": "Piyush Goyal meets an Egyptian minister in Cairo, Indian and Egyptian flags between them"
+            "url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F8%2F7%2F4%2F13434785-1-eng-GB%2Fda7c20d9bac0-photo_SXM2026093000001321-tt.jpg?fit=cover&gravity=faces&dpr=1&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+            "credit": "Nikkei Asia",
+            "source_url": "https://asia.nikkei.com/economy/japan-s-q3-gdp-dropped-an-annualized-0.1",
+            "alt": "Commuters with umbrellas wait at a pedestrian crossing in Tokyo"
           },
           "impact": [
             {
-              "on": "rupee",
+              "on": "currency",
+              "detail": "Yen",
+              "level": "medium",
+              "dir": "down",
+              "why": "A shrinking economy gives the yen little support near 160."
+            },
+            {
+              "on": "currency",
+              "detail": "Dollar",
               "level": "low",
               "dir": "up",
-              "why": "Rupee trade settlement slightly trims dollar demand over time."
+              "why": "The dollar gains as the yen stays weak."
+            }
+          ],
+          "id": "currency-yen-japan-gdp-2026-11-16",
+          "headline": "Japan's economy shrinks in July-September; yen stays weak near 160 per dollar",
+          "summary": "Japan's GDP fell at an annualised 0.1% in July-September, against forecasts of 0.3% growth, as consumer spending dropped 0.3% and exports slipped; business investment rose 1.6%. The yen was near 159.7 per dollar early Monday after breaking past 160 on Friday, when Finance Minister Satsuki Katayama warned of sharp one-sided moves. Markets still expect the Bank of Japan to raise rates in December.",
+          "importance": 4,
+          "published_at": "2026-11-16T00:00:00+09:00",
+          "tags": [
+            "Japan",
+            "Yen",
+            "GDP",
+            "BoJ"
+          ],
+          "sources": [
+            {
+              "name": "investingLive",
+              "url": "https://investinglive.com/news/japan-q3-gdp-shrinks-0-1-annualised-vs-0-3-expected-as-exports-and-consumers-weigh/"
+            },
+            {
+              "name": "Nikkei Asia",
+              "url": "https://asia.nikkei.com/economy/japan-s-q3-gdp-dropped-an-annualized-0.1"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/JPY%3DX/"
             }
           ]
         }
@@ -432,41 +282,47 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "id": "markets-bitcoin-four-month-low-2026-11-15",
-          "headline": "Bitcoin hits four-month low near $62,100 as $2 billion in bets are wiped out",
-          "summary": "Bitcoin fell to about $62,100 in Asian trade on Sunday, its lowest since mid-July, before recovering to around $64,600. About $2 billion of mostly leveraged long crypto positions were liquidated in 24 hours, and US spot bitcoin ETFs lost nearly $3 billion from October 30 to November 13. Ether dropped to about $1,711.",
-          "why_it_matters": "The slide, about 25% since October 21, shows risk appetite fading as investors brace for higher US rates.",
-          "importance": 4,
+          "why_it_matters": null,
           "lead": false,
           "verified": true,
-          "note": "Low and liquidation figures from Investing.com citing Coinglass; current price from CoinGecko.",
-          "published_at": "2026-11-15T11:05:00+04:00",
-          "tags": [
-            "Bitcoin",
-            "Crypto",
-            "ETFs"
-          ],
-          "sources": [
-            {
-              "name": "Investing.com",
-              "url": "https://in.investing.com/news/cryptocurrency-news/bitcoin-slides-toward-60000-as-etf-outflows-and-liquidations-intensify-5705030"
-            },
-            {
-              "name": "WAM (via Emirates 24|7)",
-              "url": "https://www.emirates247.com/business/bitcoin-falls-below-65000-for-first-time-since-august/7794"
-            },
-            {
-              "name": "CoinGecko",
-              "url": "https://www.coingecko.com/en/coins/bitcoin"
-            }
-          ],
+          "note": "Monday-morning futures levels from Yahoo Finance; Sunday futures moves from CNBC.",
           "image": null,
           "impact": [
             {
-              "on": "crypto",
-              "level": "high",
+              "on": "us_stocks",
+              "level": "low",
+              "dir": "up",
+              "why": "Futures point to a firmer start on Wall Street."
+            },
+            {
+              "on": "oil",
+              "level": "low",
               "dir": "down",
-              "why": "Forced selling and ETF outflows keep pressure on bitcoin and ether."
+              "why": "Brent opens slightly lower despite weekend Gulf attacks."
+            }
+          ],
+          "id": "markets-us-futures-sunday-2026-11-15",
+          "headline": "US stock futures edge up as markets reopen; Brent slips to $95.50, gold near $3,900",
+          "summary": "Nasdaq-100 futures were up about 0.75% and S&P 500 futures about 0.36% early Monday IST, after a volatile week that still gave Wall Street its best gains since August. Brent crude traded near $95.50, down about 0.4% from Friday, and gold futures rose about 0.4% to around $3,900 an ounce. Traders are waiting for Nvidia's results on Tuesday and Fed Chair Warsh's speech on Monday.",
+          "importance": 3,
+          "published_at": "2026-11-15T18:31:00-05:00",
+          "tags": [
+            "Futures",
+            "Oil",
+            "Gold"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/ES%3DF/"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/BZ%3DF/"
             }
           ]
         }
@@ -478,23 +334,422 @@
       "stories": []
     }
   ],
-  "weekend_special": null,
+  "weekend_special": {
+    "title": "Weekend: Fri to Sun",
+    "stories": [
+      {
+        "why_it_matters": "Oil is India's biggest import and the main driver of the rupee and inflation. Talks through Qatar are stuck, so each Gulf incident keeps a risk premium on crude even though supply now tops demand.",
+        "lead": false,
+        "verified": true,
+        "note": "Mine strikes are claims by Iran's IRGC; the US disputes them and they are not independently confirmed.",
+        "image": null,
+        "impact": [
+          {
+            "on": "oil",
+            "level": "high",
+            "dir": "mixed",
+            "why": "A supply glut pulls crude down, but Gulf attacks and mine claims keep a war-risk premium."
+          },
+          {
+            "on": "rupee",
+            "level": "medium",
+            "dir": "mixed",
+            "why": "Brent holding in the mid-$90s keeps India's import bill high and the rupee under pressure."
+          },
+          {
+            "on": "indian_stocks",
+            "detail": "OMCs",
+            "level": "medium",
+            "dir": "mixed",
+            "why": "Oil marketers, paints and airlines swing with every Hormuz headline."
+          },
+          {
+            "on": "gold",
+            "level": "low",
+            "dir": "up",
+            "why": "Gulf escalation risk adds some safe-haven demand."
+          }
+        ],
+        "rank": 1,
+        "id": "world-iran-hormuz-gulf-weekend-2026-11-15",
+        "headline": "Iran says tankers hit Hormuz mines and fires drones at Bahrain; US disputes damage",
+        "summary": "Iran's IRGC navy said more tankers hit sea mines near Hormuz on Saturday and Sunday; the US says the main routes are clear and Reuters could not verify the claims. Iran fired drones at a US radar in Bahrain on Friday and Sunday; Bahrain says it stopped them and the US says Friday's caused no damage. Deputy FM Kazem Gharibabadi says Iran will not wait for the US to attack first, while Trump says he may hold off strikes if there are no new provocations but will keep the blockade. Brent traded near $95.50 early Monday, just below Friday's $95.84.",
+        "importance": 5,
+        "published_at": "2026-11-15T00:00:00+00:00",
+        "tags": [
+          "Iran",
+          "Hormuz",
+          "Bahrain",
+          "Oil"
+        ],
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/15/bahrain-iran-drone-attacks-tehran-us-base.html"
+          },
+          {
+            "name": "Investing.com",
+            "url": "https://www.investing.com/news/economy-news/iran-claims-fresh-strike-on-us-base-as-hormuz-shipping-crisis-deepens-5027672"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/quote/BZ%3DF/"
+          }
+        ],
+        "monday_effect": "With Brent opening nearly flat near $95.50, oil-linked stocks such as BPCL, HPCL, IOC and IndiGo may start calm rather than move sharply. The risk leans to higher crude: a confirmed tanker hit or new Gulf strike could lift Brent and weigh on the rupee near 94.2. Moderate confidence; one headline can flip this.",
+        "watch_next": "A US reply to Iran's conditions sent via Qatar; Araghchi's Oman visit Tuesday; any confirmed tanker damage; Brent above $100 or below $90."
+      },
+      {
+        "why_it_matters": "High US yields and a strong dollar pull money out of emerging markets like India and push the rupee lower. Fed Chair Kevin Warsh speaks on Monday, which could firm up or soften the hike bets.",
+        "lead": false,
+        "verified": true,
+        "note": "Rupee close from PTI (94.20); All India Radio puts it at 94.25.",
+        "image": null,
+        "impact": [
+          {
+            "on": "rates",
+            "level": "high",
+            "dir": "up",
+            "why": "Markets price a near-certain Fed hike, keeping US yields above 5%."
+          },
+          {
+            "on": "currency",
+            "detail": "Dollar",
+            "level": "high",
+            "dir": "up",
+            "why": "Rate-hike bets keep the dollar near a 19-month high."
+          },
+          {
+            "on": "rupee",
+            "level": "high",
+            "dir": "down",
+            "why": "A strong dollar and high US yields weigh on the rupee near 94.2."
+          },
+          {
+            "on": "gold",
+            "level": "medium",
+            "dir": "down",
+            "why": "Higher yields and a firm dollar cut gold's appeal."
+          }
+        ],
+        "rank": 2,
+        "id": "markets-fed-hike-bets-yields-dollar-2026-11-13",
+        "headline": "Bets on a December Fed hike lift the US 10-year yield to 5.15% and the dollar",
+        "summary": "US producer prices rose 6.5% in the year to October, the most since November 2022, though the monthly rise of 0.3% was a bit below forecasts. CME FedWatch shows a Fed rate hike on December 9 as almost certain, with about 87% odds of 0.25 point and 13% of 0.5 point. The US 10-year yield ended Friday near 5.15% and the dollar index near 103.4, its highest since April 2025. Gold futures settled at $3,886.30 on Friday after a weekly drop of about 4.5%, and the rupee ended at about 94.20 per dollar.",
+        "importance": 5,
+        "published_at": "2026-11-13T16:19:00-05:00",
+        "tags": [
+          "Fed",
+          "Yields",
+          "Dollar",
+          "Gold"
+        ],
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/quote/%5ETNX/"
+          },
+          {
+            "name": "PTI via TradingView",
+            "url": "https://www.tradingview.com/news/moodys:13636e5ce594f:0-rupee-falls-8-paise-to-close-at-94-20-against-us-dollar/"
+          },
+          {
+            "name": "All India Radio",
+            "url": "https://newsonair.gov.in/indian-markets-end-in-positive-zone/"
+          }
+        ],
+        "monday_effect": "The rupee is likely to open weak near Friday's 94.2 per dollar, with the RBI expected to smooth sharp moves. Rate-sensitive stocks such as banks, NBFCs and realty could feel pressure if US yields stay above 5%, while a weaker rupee helps IT exporters like Infosys and TCS. Fairly confident on the rupee; less sure on stocks.",
+        "watch_next": "Warsh's speech Monday (late night IST); US retail sales Tuesday; FOMC minutes Wednesday; the US 10-year back below 5% would ease the pressure."
+      },
+      {
+        "why_it_matters": "Steady foreign buying is the main support for Indian stocks right now. It is also helping to slow the rupee's fall, even as US yields rise.",
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "image": null,
+        "impact": [
+          {
+            "on": "indian_stocks",
+            "detail": "Banks",
+            "level": "medium",
+            "dir": "up",
+            "why": "Heavy foreign buying supports the broad market."
+          },
+          {
+            "on": "rupee",
+            "level": "low",
+            "dir": "up",
+            "why": "Foreign equity inflows bring dollars that cushion the rupee."
+          },
+          {
+            "on": "india_economy",
+            "level": "low",
+            "dir": "mixed",
+            "why": "Inflation above 6% raises the chance of an RBI rate hike in December."
+          }
+        ],
+        "rank": 3,
+        "id": "markets-fii-inflows-third-weekly-gain-2026-11-13",
+        "headline": "Foreign investors buy Rs 33,343 crore of Indian shares as Nifty logs third weekly gain",
+        "summary": "Foreign institutional investors bought a net Rs 33,342.70 crore of Indian shares in the week to November 13, their third straight week of buying, while domestic institutions sold Rs 24,191.81 crore. The Sensex rose 564 points (0.69%) to 81,592.45 and the Nifty 114 points (0.45%) to 25,144.30. PSU banks jumped 7.5%, led by Punjab National Bank (12.8%) and Bank of India (11.2%), and smallcaps rose 3.6%, while Nifty IT fell 3.2%. Retail inflation at 6.09% in October and October wholesale price data due Monday limit the room for more gains.",
+        "importance": 4,
+        "published_at": "2026-11-14T16:00:00+05:30",
+        "tags": [
+          "FII",
+          "Nifty",
+          "PSU banks",
+          "Sensex"
+        ],
+        "sources": [
+          {
+            "name": "Moneycontrol via TradingView",
+            "url": "https://www.tradingview.com/news/moneycontrol:19b50d815094b:0-smallcaps-jump-3-6-psu-banks-surge-7-5-as-sensex-nifty-extend-weekly-gains-what-lies-ahead/"
+          },
+          {
+            "name": "All India Radio",
+            "url": "https://newsonair.gov.in/indian-markets-end-in-positive-zone/"
+          },
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/economy/news/retail-inflation-at-6-09-in-october-breaches-rbi-s-upper-band-after-2-yrs-126111201088_1.html"
+          }
+        ],
+        "monday_effect": "Strong foreign buying could cushion the Nifty around the 25,000-25,150 zone at the open, with PSU banks such as PNB, Bank of Baroda and SBI in focus after last week's rally; some profit-taking there is possible. IT may stay weak. Moderate confidence: flows can turn quickly if US yields climb further.",
+        "watch_next": "Daily FII data; October WPI inflation Monday; analysts watch Nifty support at 24,800-25,000 and resistance near 25,400."
+      },
+      {
+        "why_it_matters": "Nvidia's results and Anthropic's debut are the week's big tests of the AI trade. They will steer tech stocks worldwide, including Indian IT and AI-linked names.",
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "image": null,
+        "impact": [
+          {
+            "on": "us_stocks",
+            "detail": "Tech",
+            "level": "high",
+            "dir": "mixed",
+            "why": "Nvidia's results and Anthropic's IPO will decide the next move for tech."
+          },
+          {
+            "on": "company",
+            "detail": "Nvidia",
+            "level": "high",
+            "dir": "mixed",
+            "why": "Results after a CEO exit and a 13% weekly fall could swing the shares sharply."
+          },
+          {
+            "on": "indian_stocks",
+            "detail": "IT",
+            "level": "low",
+            "dir": "mixed",
+            "why": "Global tech mood spills over to Indian IT stocks."
+          }
+        ],
+        "rank": 4,
+        "id": "markets-us-futures-nvidia-anthropic-2026-11-15",
+        "headline": "US stock futures rise as Wall Street readies for Nvidia results and Anthropic's IPO",
+        "summary": "Nasdaq-100 futures rose as much as 0.6% and S&P 500 futures 0.3% on Sunday evening, and early Monday IST they were up about 0.75% and 0.36%. On Friday the Nasdaq fell 0.91% to 25,136.27 and the S&P 500 0.4% to 7,561.67 as Nvidia slid another 2% after CEO Jensen Huang's resignation, while the Dow edged up to 52,347.55. All three still had their best week since August. Nvidia, down 13% last week, reports results on Tuesday after the US close, and Anthropic is expected to price its IPO at $70 to $78 a share, a valuation of about $1.4 trillion.",
+        "importance": 4,
+        "published_at": "2026-11-15T18:31:00-05:00",
+        "tags": [
+          "Wall Street",
+          "Nvidia",
+          "Anthropic",
+          "AI"
+        ],
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+          },
+          {
+            "name": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/quote/NQ%3DF/"
+          }
+        ],
+        "monday_effect": "Firmer US futures could give Indian markets a steady start, but IT stocks such as Infosys, TCS and HCLTech may stay cautious until Nvidia reports early Wednesday IST. The effect on the Nifty is likely small on Monday. Moderate confidence.",
+        "watch_next": "Nvidia results Tuesday after the US close (early Wednesday IST); Anthropic IPO pricing; whether Nasdaq futures hold their gains."
+      },
+      {
+        "why_it_matters": "Lower US duties than rivals would help Indian exporters win orders in their biggest market. Without rates or a date, the gain is still a promise.",
+        "lead": false,
+        "verified": true,
+        "note": "Tariff rates and product lists not given; the lower-duty promise is Goyal's account of the talks.",
+        "image": null,
+        "impact": [
+          {
+            "on": "indian_stocks",
+            "detail": "Exporters",
+            "level": "medium",
+            "dir": "up",
+            "why": "Lower US duties than rivals would help export-heavy firms."
+          },
+          {
+            "on": "rupee",
+            "level": "low",
+            "dir": "up",
+            "why": "A firmer trade deal could support export earnings and inflows."
+          }
+        ],
+        "rank": 5,
+        "id": "india-goyal-us-preferential-access-2026-11-15",
+        "headline": "Goyal says Indian goods will pay lower US tariffs than rivals under trade deal",
+        "summary": "Commerce Minister Piyush Goyal, speaking in Cairo on Sunday, says the US has agreed to give Indian goods preferential access, with lower duties than competing countries. The rates are not settled yet, as the US rebuilds its tariff system after its Supreme Court struck down the earlier reciprocal tariffs. Both sides aim to close the first part of the deal by March 2027.",
+        "importance": 4,
+        "published_at": "2026-11-15T19:50:00+05:30",
+        "tags": [
+          "Trade",
+          "US",
+          "Tariffs"
+        ],
+        "sources": [
+          {
+            "name": "All India Radio",
+            "url": "https://newsonair.gov.in/indian-goods-to-receive-preferential-market-access-in-us-with-lower-tariffs-says-piyush-goyal/"
+          },
+          {
+            "name": "PTI (via Daily Excelsior)",
+            "url": "https://www.dailyexcelsior.com/india-us-agree-on-preferential-market-access-for-indian-goods-in-america-goyal/"
+          },
+          {
+            "name": "The Hans India",
+            "url": "https://www.thehansindia.com/business/india-to-get-preferential-access-in-us-market-under-trade-pact-piyush-goyal-1142387"
+          }
+        ],
+        "monday_effect": "Could give a mild lift to export-focused sectors such as textiles, engineering goods and seafood at the open. With no rates or signing date, the effect is likely modest and may fade. Low to moderate confidence.",
+        "watch_next": "Official US tariff rates for India; a date to sign the first part of the deal; any US statement confirming Goyal's account."
+      },
+      {
+        "why_it_matters": "Any shared line on Iran or Hormuz from the three powers could move oil sharply. It is also the first such meeting, watched for signals on US-China trade.",
+        "lead": false,
+        "verified": true,
+        "note": null,
+        "image": null,
+        "impact": [
+          {
+            "on": "oil",
+            "level": "medium",
+            "dir": "mixed",
+            "why": "Talks on the Iran war could ease or harden the Hormuz standoff."
+          },
+          {
+            "on": "currency",
+            "detail": "Yuan",
+            "level": "low",
+            "dir": "mixed",
+            "why": "US-China tone at APEC can move the yuan."
+          }
+        ],
+        "rank": 6,
+        "id": "world-trump-xi-putin-summit-2026-11-14",
+        "headline": "Trump, Xi and Putin to hold first three-way talks at APEC in Shenzhen this week",
+        "summary": "The White House says Donald Trump, Xi Jinping and Vladimir Putin will meet on the sidelines of the APEC summit in Shenzhen, which runs November 18-19. A US official says Trump wants to discuss the Iran war and cutting nuclear weapons, but not Russia's war in Ukraine, and does not expect an agreement. The Kremlin calls the meeting very significant.",
+        "importance": 3,
+        "published_at": "2026-11-14T00:00:00+00:00",
+        "tags": [
+          "APEC",
+          "US",
+          "China",
+          "Russia"
+        ],
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china"
+          },
+          {
+            "name": "ABC News",
+            "url": "https://abcnews.com/Politics/trump-meet-putin-xi-china-week-us-officials/story?id=138128914"
+          },
+          {
+            "name": "Anadolu Agency",
+            "url": "https://aa.com.tr/en/asia-pacific/trump-to-hold-trilateral-talks-with-xi-putin-in-china-next-week-white-house/4124821"
+          }
+        ],
+        "monday_effect": "Unlikely to move Indian markets much on Monday; it matters more midweek. Any sign of joint pressure on Iran could cool oil and help OMCs and the rupee, while a Russia-China front against US terms could do the opposite. Low confidence.",
+        "watch_next": "Agenda details before APEC opens Wednesday; any joint line on Iran, Hormuz or nuclear arms."
+      },
+      {
+        "why_it_matters": "Crypto is the first place risk appetite is fading as investors brace for higher US rates. A stronger dollar and rising yields keep pressure on it.",
+        "lead": false,
+        "verified": true,
+        "note": "Low and liquidation figures from Investing.com citing Coinglass; current price from CoinGecko.",
+        "image": null,
+        "impact": [
+          {
+            "on": "crypto",
+            "level": "high",
+            "dir": "mixed",
+            "why": "Forced selling has eased, but ETF outflows and high US yields keep the trend weak."
+          }
+        ],
+        "rank": 7,
+        "id": "markets-bitcoin-four-month-low-2026-11-15",
+        "headline": "Bitcoin hits four-month low near $62,100 over weekend, then recovers to about $65,000",
+        "summary": "Bitcoin fell to about $62,100 on Sunday, its lowest since mid-July, as about $2 billion of mostly leveraged bets were wiped out, then recovered to about $65,200 early Monday IST. It is down nearly 15% in a week and about half its October 2025 record. US spot bitcoin ETFs lost about $185 million on Friday alone, extending weeks of outflows.",
+        "importance": 3,
+        "published_at": "2026-11-15T11:05:00+04:00",
+        "tags": [
+          "Bitcoin",
+          "Crypto",
+          "ETFs"
+        ],
+        "sources": [
+          {
+            "name": "Investing.com",
+            "url": "https://in.investing.com/news/cryptocurrency-news/bitcoin-slides-toward-60000-as-etf-outflows-and-liquidations-intensify-5705030"
+          },
+          {
+            "name": "CoinGecko",
+            "url": "https://www.coingecko.com/en/coins/bitcoin"
+          },
+          {
+            "name": "Coinglass",
+            "url": "https://www.coinglass.com/currencies/BTC"
+          }
+        ],
+        "monday_effect": "Little direct effect on the Nifty. Indian crypto holders may see some relief if bitcoin holds near $65,000, but the trend stays weak while US yields rise and ETFs see outflows. Low confidence in a lasting bounce.",
+        "watch_next": "US spot bitcoin ETF flows; whether bitcoin holds $62,000; Nvidia results as a test of risk appetite."
+      }
+    ]
+  },
   "forex_results": [],
   "week_ahead": [
     {
       "date": "2026-11-16",
       "events": [
         {
-          "text": "PM Modi arrives in Manila for a two-day visit",
+          "text": "India October wholesale (WPI) inflation",
           "section": "india"
         },
         {
-          "text": "Fed Chair Warsh speaks",
+          "text": "China October retail sales and industrial output",
           "section": "markets"
+        },
+        {
+          "text": "PM Modi in the Philippines for ASEAN meetings",
+          "section": "india"
         },
         {
           "text": "Canada October CPI",
           "section": "currency"
+        },
+        {
+          "text": "Fed Chair Warsh speaks (late night IST)",
+          "section": "markets"
         }
       ]
     },
@@ -510,12 +765,16 @@
           "section": "markets"
         },
         {
-          "text": "Anthropic IPO retail offer in Australia closes",
+          "text": "Nvidia Q3 results after the US close",
           "section": "markets"
         },
         {
-          "text": "French unions hold a nationwide strike day",
+          "text": "Iran's Araghchi visits Oman for talks",
           "section": "world"
+        },
+        {
+          "text": "Anthropic IPO retail offer in Australia closes",
+          "section": "markets"
         }
       ]
     },
@@ -542,6 +801,10 @@
         {
           "text": "Australia October jobs data",
           "section": "currency"
+        },
+        {
+          "text": "US weekly jobless claims and Philly Fed index",
+          "section": "markets"
         }
       ]
     },
