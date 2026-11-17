@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-17-midday",
+  "edition_id": "2026-11-17-evening",
   "date": "2026-11-17",
-  "slot": "midday",
-  "title": "Tuesday Midday Edition",
-  "generated_at": "2026-11-17T13:45:00+05:30",
+  "slot": "evening",
+  "title": "Tuesday Evening Edition",
+  "generated_at": "2026-11-17T20:55:00+05:30",
   "snapshot": [
     {
       "id": "usdinr",
       "label": "USD/INR",
-      "value": "93.53",
-      "change": "-0.44%",
+      "value": "93.48",
+      "change": "-0.48%",
       "dir": "down",
-      "as_of": "2026-11-17T08:12:26+00:00",
+      "as_of": "2026-11-17T16:17:20+05:30",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/INR%3DX/"
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/rupee-appreciates-by-32-paise-against-us-dollar/"
       }
     },
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "102.88",
-      "change": "-0.89%",
+      "value": "102.72",
+      "change": "-0.57%",
       "dir": "down",
-      "as_of": "2026-11-17T08:12:29+00:00",
+      "as_of": "2026-11-17T14:16:43+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURINR%3DX/"
@@ -33,10 +33,10 @@
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "103.58",
-      "change": "+0.03%",
+      "value": "103.61",
+      "change": "+0.06%",
       "dir": "flat",
-      "as_of": "2026-11-17T08:02:29+00:00",
+      "as_of": "2026-11-17T15:09:49+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
@@ -57,10 +57,10 @@
     {
       "id": "nifty",
       "label": "Nifty 50",
-      "value": "25,415.10",
-      "change": "+0.49%",
+      "value": "25,387.40",
+      "change": "+0.38%",
       "dir": "up",
-      "as_of": "2026-11-17T08:12:29+00:00",
+      "as_of": "2026-11-17T10:01:07+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5ENSEI/"
@@ -69,10 +69,10 @@
     {
       "id": "sensex",
       "label": "Sensex",
-      "value": "82,499.58",
-      "change": "+0.48%",
+      "value": "82,532.19",
+      "change": "+0.52%",
       "dir": "up",
-      "as_of": "2026-11-17T07:57:31+00:00",
+      "as_of": "2026-11-17T10:02:28+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EBSESN/"
@@ -81,10 +81,10 @@
     {
       "id": "spx",
       "label": "S&P 500",
-      "value": "7,416.59",
-      "change": "-1.92%",
+      "value": "7,384.10",
+      "change": "-0.44%",
       "dir": "down",
-      "as_of": "2026-11-16T16:00:00-05:00",
+      "as_of": "2026-11-17T15:19:50+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EGSPC/"
@@ -93,10 +93,10 @@
     {
       "id": "nasdaq",
       "label": "Nasdaq",
-      "value": "24,509.76",
-      "change": "-2.49%",
+      "value": "24,421.45",
+      "change": "-0.36%",
       "dir": "down",
-      "as_of": "2026-11-16T16:00:00-05:00",
+      "as_of": "2026-11-17T15:19:47+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EIXIC/"
@@ -105,10 +105,10 @@
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$3,873",
-      "change": "+0.51%",
+      "value": "$3,863",
+      "change": "+0.25%",
       "dir": "up",
-      "as_of": "2026-11-17T08:02:28+00:00",
+      "as_of": "2026-11-17T15:09:51+00:00",
       "source": {
         "name": "Yahoo Finance (COMEX futures)",
         "url": "https://finance.yahoo.com/quote/GC%3DF/"
@@ -117,10 +117,10 @@
     {
       "id": "brent",
       "label": "Brent crude",
-      "value": "$91.72",
-      "change": "-0.78%",
-      "dir": "down",
-      "as_of": "2026-11-17T08:02:18+00:00",
+      "value": "$93.71",
+      "change": "+1.37%",
+      "dir": "up",
+      "as_of": "2026-11-17T15:09:46+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BZ%3DF/"
@@ -129,10 +129,10 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$64,532",
-      "change": "-0.50%",
+      "value": "$64,635",
+      "change": "-0.30%",
       "dir": "down",
-      "as_of": "2026-11-17T08:12:27+00:00",
+      "as_of": "2026-11-17T15:19:51+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BTC-USD/"
@@ -141,10 +141,10 @@
     {
       "id": "us10y",
       "label": "US 10Y yield",
-      "value": "5.12%",
-      "change": "-0.64%",
-      "dir": "down",
-      "as_of": "2026-11-16T19:59:53+00:00",
+      "value": "5.15%",
+      "change": "+0.51%",
+      "dir": "up",
+      "as_of": "2026-11-17T15:04:43+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5ETNX/"
@@ -157,134 +157,79 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-asean-summit-manila-2026-11-17",
-          "headline": "Modi at ASEAN-India summit: India and ASEAN should choose cooperation over rivalry",
-          "summary": "Update: at the 23rd ASEAN-India Summit in Manila today, Prime Minister Modi said India's growth and ASEAN's prosperity are closely linked and the world needs peace, stability and predictability. He said ties are widening into digital technology, defence and space, and tied ASEAN's Vision 2045 to India's Viksit Bharat 2047 goal. He also attended the East Asia Summit.",
-          "why_it_matters": "It sets India's tone with Southeast Asia, a key trade and supply-chain partner, amid US-China tension.",
-          "importance": 4,
-          "lead": false,
+          "id": "india-quad-summit-manila-2026-11-17",
+          "headline": "Quad leaders meet in Manila, plan joint patrol drill and AI push",
+          "summary": "Update: Modi, Trump, Albanese and Japan's Takaichi met for the first Quad leaders' summit since 2024. Their joint statement opposes changing the status quo by force or coercion, and criticises economic coercion such as arbitrary export curbs. They announced a first joint P-8/P-3C patrol-aircraft exercise in 2027, a maritime surveillance plan, an AI Accelerator and a Quad Business Leaders' Forum in early 2027.",
+          "why_it_matters": "It keeps the US engaged with India in the Indo-Pacific and pushes back on China's export curbs, which matter for India's supply chains.",
+          "importance": 5,
+          "lead": true,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-17T13:35:00+05:30",
+          "published_at": "2026-11-17T20:37:12+05:30",
           "tags": [
-            "ASEAN",
+            "Quad",
             "Diplomacy",
-            "Modi"
+            "Modi",
+            "Trump"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/pm-modi-to-attend-23rd-asean-india-summit-and-21st-east-asia-summit-in-manila-today/"
+              "url": "https://newsonair.gov.in/quad-leaders-announce-new-maritime-surveillance-and-cybersecurity-initiatives/"
             },
             {
               "name": "ANI",
-              "url": "https://aninews.in/news/world/asia/world-today-needs-peace-stability-and-predictability-pm-modi-at-23rd-india-asean-summit-in-manila20261117125055/"
-            }
-          ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "india-bay-of-bengal-cyclone-2026-11-14",
-          "headline": "Cyclone Akvan set to become very severe storm; Odisha starts evacuations",
-          "summary": "The IMD expects Cyclone Akvan to strengthen into a very severe cyclonic storm and cross the Andhra Pradesh coast around noon on November 20, with winds up to about 145 km/h, Business Standard reported. New since earlier editions: Odisha has deployed 74 rescue teams and begun moving vulnerable people in its southern districts. Heavy rain alerts are out for coastal Andhra, Rayalaseema and Odisha.",
-          "why_it_matters": "A strong landfall could disrupt ports, crops and power in Andhra Pradesh and Odisha.",
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Business Standard (citing IMD).",
-          "published_at": "2026-11-17T00:00:00+05:30",
-          "tags": [
-            "Cyclone",
-            "IMD",
-            "Andhra Pradesh",
-            "Odisha"
-          ],
-          "sources": [
-            {
-              "name": "Business Standard",
-              "url": "https://www.business-standard.com/india-news/after-arnab-and-murasu-third-cyclone-akvan-to-hit-andhra-what-we-know-126111700193_1.html"
-            }
-          ],
-          "image": null,
-          "impact": []
-        }
-      ]
-    },
-    {
-      "id": "world",
-      "title": "World",
-      "stories": [
-        {
-          "id": "world-us-ai-chip-remote-access-rule-2026-11-16",
-          "headline": "US tightens AI chip curbs to stop China using data centres abroad",
-          "summary": "The US Commerce Department issued a rule on Monday to block Chinese firms from using remote access to advanced AI chips in data centres outside China. Shipping such chips to Singapore, Malaysia, Thailand, Indonesia and Brazil now needs a licence. The move follows the scandal around Singapore-based Megaspeed, now under a US criminal probe, that led Jensen Huang to quit as Nvidia CEO. Singapore says it is studying the rule.",
-          "why_it_matters": "It hits chip sales and AI data-centre plans across Southeast Asia, just before Nvidia reports results.",
-          "importance": 5,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-16T20:40:00-08:00",
-          "tags": [
-            "US",
-            "China",
-            "AI chips",
-            "Nvidia",
-            "Export controls"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/economy/2026/11/17/us-moves-to-block-chinas-remote-access-to-ai-chips-amid-nvidia-scandal"
+              "url": "https://aninews.in/news/world/asia/quad-leaders-reaffirm-commitment-to-free-open-indo-pacific-announce-new-maritime-surveillance-cybersecurity-initiatives20261117183503/"
             },
             {
-              "name": "NPR via OPB",
-              "url": "https://www.opb.org/article/2026/11/16/u-s-closes-loophole-allowing-remote-access-to-ai-chips/"
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/trump-addresses-quad-leaders-at-first-summit-since-2024"
             }
           ],
           "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-03-17T231408Z_1912828925_RC2M6KA5I6G3_RTRMADP_3_NVIDIA-CHINA-1794876521_9866d0-1794880024.jpg?resize=1200%2C630&quality=80",
-            "credit": "Max A Cherney/Reuters",
-            "source_url": "https://www.aljazeera.com/economy/2026/11/17/us-moves-to-block-chinas-remote-access-to-ai-chips-amid-nvidia-scandal",
-            "alt": "Rows of Nvidia chips on circuit boards at the company's GTC conference in San Jose"
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/quad2.jpg",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/quad-leaders-announce-new-maritime-surveillance-and-cybersecurity-initiatives/",
+            "alt": "Quad leaders and delegations seated around a meeting table with the four countries' flags in Manila"
           },
           "impact": [
             {
-              "on": "us_stocks",
-              "detail": "Tech",
-              "level": "high",
-              "dir": "down",
-              "why": "Tighter curbs on chip sales abroad weigh on chipmakers already under pressure."
-            },
-            {
-              "on": "company",
-              "detail": "Nvidia",
-              "level": "medium",
-              "dir": "down",
-              "why": "Licences for five countries could slow some Nvidia shipments."
+              "on": "indian_stocks",
+              "detail": "Defence",
+              "level": "low",
+              "dir": "up",
+              "why": "Closer Quad tech and defence ties support Indian defence makers."
             }
           ]
         },
         {
-          "id": "world-hormuz-tankers-ukmto-2026-11-17",
-          "headline": "UKMTO reports two tankers hit near Hormuz; Iran says ships struck its mines",
-          "summary": "The UK's maritime monitor UKMTO reported two attacks on tankers near the Strait of Hormuz on Monday, one 7 nautical miles north of Khasab, Oman, each causing an engine-room fire with no casualties. Iran's IRGC and navy say three tankers hit mines; that claim is not independently confirmed and it is unclear if the incidents are the same. A drone also set off alarms over Iraq's Khor Mor gas field.",
-          "why_it_matters": "More hits on shipping keep a risk premium in oil even as prices fall on a supply glut.",
+          "id": "india-hormuz-lpg-tanker-indian-crew-2026-11-17",
+          "headline": "India condemns attack on LPG tanker in Hormuz; one Indian sailor missing",
+          "summary": "The Panama-flagged LPG tanker Tara Gas, with 24 Indians among its crew, was attacked on Monday near Khasab, Oman, and the crew abandoned ship after a second hit. India's foreign ministry says 21 Indians are safely ashore, two are in hospital and one is missing. It called attacks on shipping deeply worrisome and urged free navigation to resume. No one has said who fired on the ship.",
+          "why_it_matters": "India supplies many of the seafarers in the Gulf and imports much of its LPG through Hormuz.",
           "importance": 4,
           "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera (with Reuters). Iran's mine claims not independently confirmed.",
-          "published_at": "2026-11-17T00:00:00+03:00",
+          "verified": true,
+          "note": "New since the midday edition: the ship and its Indian crew are named, and one sailor is missing.",
+          "published_at": "2026-11-17T20:01:06+05:30",
           "tags": [
-            "Iran",
             "Hormuz",
-            "Shipping",
-            "Oil"
+            "Seafarers",
+            "MEA",
+            "LPG"
           ],
           "sources": [
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field"
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/india-condemns-attack-on-lpg-tanker-in-strait-of-hormuz-21-nationals-rescued-1-missin/"
+            },
+            {
+              "name": "Seatrade Maritime",
+              "url": "https://www.seatrade-maritime.com/security/lpg-tanker-suffers-engine-room-fire-following-hormuz-attack"
+            },
+            {
+              "name": "The Tribune",
+              "url": "https://www.tribuneindia.com/news/indian-seafarers/india-strongly-condemns-strait-of-hormuz-tanker-attack-as-one-national-remains-missing"
             }
           ],
           "image": null,
@@ -293,9 +238,131 @@
               "on": "oil",
               "level": "medium",
               "dir": "up",
-              "why": "Attacks on tankers in Hormuz add supply risk to oil prices."
+              "why": "Repeated hits on Hormuz shipping add risk to oil and LPG supply."
             }
           ]
+        },
+        {
+          "id": "india-electronics-exports-h1-2026-11-17",
+          "headline": "India's electronics exports jump 44% to about $32 billion in April-September",
+          "summary": "Electronics exports rose 44% from over $22 billion a year ago to about $32 billion in the first half of this fiscal year. Smartphones grew over 35% to more than $18 billion, but other electronics, such as circuit boards, telecom gear and memory, grew faster, by over 56% to more than $13 billion.",
+          "why_it_matters": "It shows India's electronics manufacturing push spreading beyond phones into components.",
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-17T20:09:38+05:30",
+          "tags": [
+            "Exports",
+            "Electronics",
+            "Manufacturing"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/indias-electronics-exports-grow-44-to-32-bn-in-six-months-this-fiscal/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "india_economy",
+              "level": "low",
+              "dir": "up",
+              "why": "Faster electronics exports help narrow the trade gap."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-kerch-bridge-strike-2026-11-17",
+          "headline": "Ukraine hits Crimea's Kerch Bridge for a second day; traffic halted",
+          "summary": "Ukraine struck the Kerch Bridge, which links Russia to occupied Crimea, again overnight after a first hit on Monday. Zelenskyy called it an unprecedented operation weeks in the making, and Russia's installed Crimea governor confirmed the attack. Road and rail traffic was stopped; Russia has reopened one rail track. Russian strikes damaged two bridges over the Dnipro in Kyiv, cutting some water and heating.",
+          "why_it_matters": "The strikes come two days before Putin, Xi and Trump are due to meet in Shenzhen.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-17T06:05:00-05:00",
+          "tags": [
+            "Ukraine",
+            "Russia",
+            "Crimea",
+            "War"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/17/kerch-bridge-ukraine-russia-putin-kyiv.html"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/unprecedented-ukraine-attack-on-crimean-bridge"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-iran-hormuz-route-warning-2026-11-17",
+          "headline": "Iran's Guards warn ships off US-backed Hormuz route as third US carrier arrives",
+          "summary": "Iran's Revolutionary Guards navy says the US-backed southern route through the Strait of Hormuz is fully closed and called it a minefield. The USS Theodore Roosevelt has joined two other US carriers in the region. UKMTO reported another tanker hit by an unknown projectile and set on fire on Tuesday; Iran's navy says four tankers hit mines in 24 hours, a claim not independently confirmed.",
+          "why_it_matters": "More threats to Hormuz shipping keep oil prices and India's import bill under pressure.",
+          "importance": 4,
+          "lead": false,
+          "verified": false,
+          "note": "Claims by Iran's IRGC and navy; the mine hits are not independently confirmed. Single source: CNBC.",
+          "published_at": "2026-11-16T23:34:00-05:00",
+          "tags": [
+            "Iran",
+            "Hormuz",
+            "US Navy",
+            "Oil"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/17/iran-war-trump-hormuz-oil-.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "Threats to close a Hormuz route add a risk premium to crude."
+            }
+          ]
+        },
+        {
+          "id": "world-uk-sanctions-israeli-builders-2026-11-17",
+          "headline": "UK sanctions eight Israeli building firms over West Bank settlements",
+          "summary": "Britain froze the assets of eight Israeli construction companies that build homes in West Bank settlements, and of a settler group it says blocked aid to Gaza. The move came just before final tenders close for E1, a settlement project that would cut through the West Bank.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera (with Reuters).",
+          "published_at": "2026-11-17T00:00:00+00:00",
+          "tags": [
+            "UK",
+            "Israel",
+            "Sanctions"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/17/uk-sanctions-8-israeli-firms-over-occupied-west-bank-settlements-gaza-aid"
+            }
+          ],
+          "image": null,
+          "impact": []
         }
       ]
     },
@@ -304,15 +371,15 @@
       "title": "Currency Desk",
       "stories": [
         {
-          "id": "currency-rupee-93-63-2026-11-17",
-          "headline": "Rupee gains 31 paise to 93.63 per dollar on lower oil and foreign inflows",
-          "summary": "The rupee opened at 93.72 and rose to 93.63 against the dollar in early trade, from Monday's close of 93.94, PTI reported. Lower Brent crude, heavy foreign buying of Indian shares (Rs 4,864.68 crore on Monday) and a firm stock market helped. Yahoo Finance quotes showed it near 93.53 at about 1:40 pm.",
-          "why_it_matters": "A firmer rupee eases import costs and inflation pressure after October's 6.09% CPI.",
-          "importance": 4,
+          "id": "currency-rupee-close-93-48-2026-11-17",
+          "headline": "Rupee closes at a seven-month high of 93.48 per dollar on record foreign inflows",
+          "summary": "Update: the rupee closed 45 paise stronger at 93.48 per dollar, after touching 93.40 in the afternoon. Reuters, which put the close at 93.47, said foreign investors have put a record $10 billion into Indian stocks so far in November, and traders cut bets against the rupee. The dollar index stayed near a 19-month high at about 103.6.",
+          "why_it_matters": "A stronger rupee makes oil and other imports cheaper, but trims exporters' rupee earnings.",
+          "importance": 5,
           "lead": false,
           "verified": true,
-          "note": null,
-          "published_at": "2026-11-17T10:03:00+05:30",
+          "note": "Close is 93.48 per All India Radio and 93.47 per Reuters; we use the official broadcaster's figure.",
+          "published_at": "2026-11-17T16:17:20+05:30",
           "tags": [
             "Rupee",
             "Forex",
@@ -320,69 +387,80 @@
           ],
           "sources": [
             {
-              "name": "PTI via HDFC Sky",
-              "url": "https://hdfcsky.com/news/rupee-rises-31-paise-to-93-63-against-us-dollar-in-early-trade-november-17-2026"
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/rupee-appreciates-by-32-paise-against-us-dollar/"
             },
             {
-              "name": "PTI via Deccan Herald",
-              "url": "https://www.deccanherald.com/business/markets/rupee-rises-31-paise-to-9363-against-us-dollar-in-early-trade-4220901"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/INR%3DX/"
+              "name": "Reuters via Business Recorder",
+              "url": "https://www.brecorder.com/news/40449354/robust-inflows-pullback-in-shorts-lift-indian-rupee-to-seven-month-peak"
             }
           ],
           "image": null,
           "impact": [
             {
               "on": "rupee",
-              "level": "medium",
+              "level": "high",
               "dir": "up",
-              "why": "Cheaper oil and foreign equity inflows support the rupee."
+              "why": "Record foreign buying of Indian stocks is pulling dollars in."
             },
             {
               "on": "indian_stocks",
               "detail": "IT",
               "level": "low",
               "dir": "down",
-              "why": "A stronger rupee trims IT exporters' rupee earnings."
+              "why": "A stronger rupee trims IT exporters' earnings in rupee terms."
             }
           ]
         },
         {
-          "id": "currency-uk-wages-jobs-2026-11-17",
-          "headline": "UK pay growth slows to 3.5% and unemployment dips to 4.6%",
-          "summary": "UK regular pay growth slowed to 3.5% in the three months to September from 3.7%, just below the 3.6% forecast, while total pay including bonuses rose 3.6%, slightly above forecasts. Unemployment fell unexpectedly to 4.6% from 4.7%, but job vacancies dropped by 22,000 to 690,000.",
-          "why_it_matters": null,
-          "importance": 2,
+          "id": "currency-us-retail-sales-musalem-2026-11-17",
+          "headline": "US retail sales up 0.2% in October; Fed's Musalem says several hikes may be needed",
+          "summary": "US retail sales rose 0.2% in October, in line with economists' 0.2% forecast, and 0.6% excluding cars, above the 0.4% expected. Import prices rose 1.1%. St. Louis Fed President Musalem said the economy will likely need several rate rises before spring 2027, possibly at each meeting from December to April. The 10-year Treasury yield rose to about 5.15%.",
+          "why_it_matters": "Firm US spending and talk of more Fed hikes keep the dollar strong, a headwind for the rupee and gold.",
+          "importance": 4,
           "lead": false,
           "verified": true,
-          "note": null,
-          "published_at": "2026-11-17T07:00:00+00:00",
+          "note": "CNBC puts sales excluding autos and gas at +0.6%; ActionForex says +0.5% (+0.6% excluding autos only).",
+          "published_at": "2026-11-17T08:34:00-05:00",
           "tags": [
-            "Pound",
-            "UK",
-            "Jobs",
-            "Wages"
+            "Fed",
+            "Dollar",
+            "US data"
           ],
           "sources": [
             {
-              "name": "ONS",
-              "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/november2026"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/17/treasury-yields-bonds-inflation.html"
             },
             {
-              "name": "Reuters via Investing.com",
-              "url": "https://www.investing.com/news/economy-news/uk-wage-growth-slows-to-35-in-three-months-to-september-5031823"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html"
+            },
+            {
+              "name": "ActionForex",
+              "url": "https://www.actionforex.com/live-comments/661220-us-retail-sales-slow-to-0-2-but-ex-auto-spending-shows-resilience/"
             }
           ],
           "image": null,
           "impact": [
             {
               "on": "currency",
-              "detail": "Pound",
+              "detail": "Dollar",
+              "level": "medium",
+              "dir": "up",
+              "why": "More Fed hikes keep demand for the dollar high."
+            },
+            {
+              "on": "rates",
+              "level": "medium",
+              "dir": "up",
+              "why": "Hike talk pushes US Treasury yields higher."
+            },
+            {
+              "on": "gold",
               "level": "low",
-              "dir": "mixed",
-              "why": "Slower regular pay but lower unemployment send mixed signals on Bank of England policy."
+              "dir": "down",
+              "why": "Higher US yields weigh on gold."
             }
           ]
         }
@@ -393,89 +471,80 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "id": "markets-sensex-nifty-midday-2026-11-17",
-          "headline": "Bank Nifty hits record as Sensex, Nifty rise; Tata stocks jump on RBI letter",
-          "summary": "The Sensex was up about 0.5% at 82,500 and the Nifty at 25,415 around 1:40 pm, off the day's highs as IT and FMCG shares fell. Bank Nifty hit a record above 62,400, led by state-run lenders such as SBI. Tata Chemicals jumped about 9% and Tata Investment also rose after an RBI letter dated November 16 told Tata Sons to meet listing rules for large NBFCs.",
-          "why_it_matters": "Banks are carrying Indian stocks while global tech sells off before Nvidia's results tonight.",
-          "importance": 5,
-          "lead": true,
+          "id": "markets-sensex-nifty-close-2026-11-17",
+          "headline": "Sensex rises 427 points to 82,532 as PSU banks and Reliance lead",
+          "summary": "The Sensex closed up 0.52% at 82,532 and the Nifty up 0.38% at 25,387, a second day of gains. PSU banks rose 2.1% and realty 1.9%; Axis Bank gained 2.1%, Reliance 2% and SBI and TCS 1.7% each. HCL Tech fell almost 2% and telecom and capital goods lagged. More BSE shares fell than rose, and Asian markets were mostly lower.",
+          "why_it_matters": "Foreign buying is lifting large banks even as smaller stocks and the rest of Asia weaken.",
+          "importance": 4,
+          "lead": false,
           "verified": true,
-          "note": "Index levels from Yahoo Finance at about 1:42 pm IST; Bank Nifty peak per Business Standard and Upstox.",
-          "published_at": "2026-11-17T13:42:00+05:30",
+          "note": null,
+          "published_at": "2026-11-17T15:30:10+05:30",
           "tags": [
             "Sensex",
             "Nifty",
-            "Bank Nifty",
-            "Tata Sons",
-            "RBI"
+            "Banks"
           ],
           "sources": [
             {
-              "name": "Business Standard",
-              "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html"
-            },
-            {
-              "name": "Upstox",
-              "url": "https://upstox.com/news/market-news/stocks/nifty-bank-hits-record-high-of-61-875-05-icici-bank-sbi-pnb-top-gainers/article-203548/"
-            },
-            {
-              "name": "Business Today",
-              "url": "https://www.businesstoday.in/markets/stocks/story/tata-investment-tata-chemicals-tata-motors-share-surged-up-to-9-today-heres-why-567759-2026-11-17"
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/indian-markets-end-over-half-a-percent-higher/"
             },
             {
               "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/%5ENSEI/"
+              "url": "https://finance.yahoo.com/quote/%5EBSESN/"
             }
           ],
-          "image": null,
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/share-market.jpg",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/indian-markets-end-over-half-a-percent-higher/",
+            "alt": "The Bombay Stock Exchange building in Mumbai with a share-price ticker below it"
+          },
           "impact": [
             {
               "on": "indian_stocks",
               "detail": "Banks",
-              "level": "high",
+              "level": "medium",
               "dir": "up",
-              "why": "Strong buying in bank stocks pushed Bank Nifty to a record."
+              "why": "Foreign inflows are lifting state-run lenders."
             },
             {
               "on": "company",
-              "detail": "Tata Chemicals",
-              "level": "high",
+              "detail": "Reliance",
+              "level": "low",
               "dir": "up",
-              "why": "An RBI push to list Tata Sons could unlock value in its listed shareholders."
-            },
-            {
-              "on": "indian_stocks",
-              "detail": "IT",
-              "level": "medium",
-              "dir": "down",
-              "why": "IT shares fell with global tech ahead of Nvidia's results."
+              "why": "Reliance gained 2%, one of the top Sensex movers."
             }
           ]
         },
         {
-          "id": "markets-anthropic-ipo-pricing-2026-11-17",
-          "headline": "Anthropic IPO set to price Wednesday at $70-78, Nasdaq debut Thursday",
-          "summary": "Anthropic is expected to price its 825 million-share IPO on Wednesday evening and start trading on Nasdaq on Thursday under the ticker ANT, CNBC reported. At the $70 to $78 range it would raise more than $64 billion and value the company at about $1.4 trillion. Up to 20% is set aside for retail investors.",
-          "why_it_matters": "One of the largest listings ever could pull money from other tech stocks this week.",
-          "importance": 3,
+          "id": "markets-wall-street-open-nvidia-2026-11-17",
+          "headline": "Wall Street opens lower as Home Depot drags the Dow; Nvidia reports tonight",
+          "summary": "The S&P 500 and Nasdaq were each down less than half a percent in early trade, after Monday's sharp tech sell-off. The Dow fell about 0.6% as Home Depot slid on a cautious holiday-quarter outlook and a new CEO. Nvidia, down almost 24% this month since Jensen Huang's resignation, reports results after the US close, early Wednesday India time.",
+          "why_it_matters": "Nvidia's results will set the tone for tech stocks worldwide, including Indian IT, on Wednesday.",
+          "importance": 4,
           "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-16T13:27:00-05:00",
+          "published_at": "2026-11-17T10:08:00-05:00",
           "tags": [
-            "IPO",
-            "Anthropic",
-            "AI",
-            "Nasdaq"
+            "Wall Street",
+            "Nvidia",
+            "Earnings"
           ],
           "sources": [
             {
               "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html"
+              "url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
             },
             {
               "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-sets-ipo-price-range-140602411.html"
+              "url": "https://finance.yahoo.com/quote/%5EGSPC/"
             }
           ],
           "image": null,
@@ -485,7 +554,59 @@
               "detail": "Tech",
               "level": "medium",
               "dir": "mixed",
-              "why": "A huge AI listing tests demand for tech shares."
+              "why": "Nvidia's results tonight could swing tech shares either way."
+            },
+            {
+              "on": "company",
+              "detail": "Nvidia",
+              "level": "medium",
+              "dir": "mixed",
+              "why": "Results and outlook are the first since its CEO quit."
+            }
+          ]
+        },
+        {
+          "id": "markets-brent-gold-2026-11-17",
+          "headline": "Brent climbs back to about $93.7 on Hormuz threats; gold steady near $3,860",
+          "summary": "Brent crude rose about 1.4% to around $93.7 a barrel by the US morning, reversing Monday's fall, as Iran warned ships off a Hormuz route. Gold futures were little changed near $3,863 an ounce. In India, 24-carat gold fell 0.6% to Rs 1,34,201 per 10 grams and silver 0.6% to Rs 1,69,171 per kg, by IBJA closing rates.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-17T17:53:15+05:30",
+          "tags": [
+            "Oil",
+            "Gold",
+            "Silver"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/global-crude-oil-prices-up/"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/goldsilver-prices-decline/"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/BZ%3DF/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "Hormuz threats are pulling crude back up."
+            },
+            {
+              "on": "gold",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Safe-haven demand is offset by high US yields."
             }
           ]
         }
@@ -494,101 +615,11 @@
     {
       "id": "built",
       "title": "Built This Week",
-      "stories": [
-        {
-          "id": "built-roche-giredestrant-fda-2026-11-16",
-          "headline": "FDA approves Roche's Wilserdly, an oral pill for ESR1-mutated breast cancer",
-          "summary": "The FDA approved giredestrant (Wilserdly) from Roche's Genentech with everolimus for advanced ER-positive, HER2-negative breast cancer with an ESR1 mutation. In the evERA trial, patients with the mutation went a median 10 months without their cancer growing, against 5.5 months on standard treatment. A blood test, FoundationOne Liquid CDx, was approved to find eligible patients.",
-          "why_it_matters": "It gives patients a new oral option, and Roche says it could become its top-selling drug.",
-          "importance": 4,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-16T00:00:00-05:00",
-          "tags": [
-            "Pharma",
-            "Cancer",
-            "FDA",
-            "Roche"
-          ],
-          "sources": [
-            {
-              "name": "US FDA",
-              "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-giredestrant-combination-everolimus-er-positive-her2-negative-esr1-mutated-locally"
-            },
-            {
-              "name": "STAT",
-              "url": "https://www.statnews.com/2026/11/16/fda-approves-new-roche-breast-cancer-drug/"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "company",
-              "detail": "Roche",
-              "level": "medium",
-              "dir": "up",
-              "why": "US approval opens a large market for Roche's new breast cancer pill."
-            }
-          ]
-        }
-      ]
+      "stories": []
     }
   ],
   "weekend_special": null,
   "forex_results": [
-    {
-      "country": "CAD",
-      "title": "CPI m/m",
-      "date": "2026-11-16T08:30:00-05:00",
-      "impact": "High",
-      "actual": "0.2%",
-      "vs_forecast": "worse",
-      "why": "Prices rose less than expected in the month, easing pressure on the Bank of Canada to hike.",
-      "source": {
-        "name": "Reuters via Investing.com",
-        "url": "https://www.investing.com/news/economy-news/canadas-annual-inflation-rate-held-steady-at-31-in-october-5029900"
-      }
-    },
-    {
-      "country": "CAD",
-      "title": "Median CPI y/y",
-      "date": "2026-11-16T08:30:00-05:00",
-      "impact": "High",
-      "actual": "2.0%",
-      "vs_forecast": "in_line",
-      "why": "Core median inflation matched forecasts at the Bank of Canada's 2% target.",
-      "source": {
-        "name": "ActionForex",
-        "url": "https://www.actionforex.com/live-comments/661065-canada-cpi-holds-at-3-1-but-softer-core-inflation-challenges-further-boc-tightening/"
-      }
-    },
-    {
-      "country": "CAD",
-      "title": "Trimmed CPI y/y",
-      "date": "2026-11-16T08:30:00-05:00",
-      "impact": "High",
-      "actual": "1.8%",
-      "vs_forecast": "worse",
-      "why": "Trimmed core inflation came in below forecast, a mild negative for the Canadian dollar.",
-      "source": {
-        "name": "ActionForex",
-        "url": "https://www.actionforex.com/live-comments/661065-canada-cpi-holds-at-3-1-but-softer-core-inflation-challenges-further-boc-tightening/"
-      }
-    },
-    {
-      "country": "CAD",
-      "title": "Common CPI y/y",
-      "date": "2026-11-16T08:30:00-05:00",
-      "impact": "Medium",
-      "actual": "2.5%",
-      "vs_forecast": "in_line",
-      "why": "Common core inflation edged up to 2.5% as expected.",
-      "source": {
-        "name": "ActionForex",
-        "url": "https://www.actionforex.com/live-comments/661065-canada-cpi-holds-at-3-1-but-softer-core-inflation-challenges-further-boc-tightening/"
-      }
-    },
     {
       "country": "USD",
       "title": "Fed Chairman Warsh Speaks",
@@ -640,25 +671,42 @@
         "name": "Reuters via Investing.com",
         "url": "https://www.investing.com/news/economy-news/uk-wage-growth-slows-to-35-in-three-months-to-september-5031823"
       }
+    },
+    {
+      "country": "USD",
+      "title": "Retail Sales m/m",
+      "date": "2026-11-17T08:30:00-05:00",
+      "impact": "High",
+      "actual": "0.2%",
+      "vs_forecast": "better",
+      "why": "Sales edged up a little more than the feed's 0.1% forecast, supporting the dollar and Fed hike bets.",
+      "source": {
+        "name": "ActionForex",
+        "url": "https://www.actionforex.com/live-comments/661220-us-retail-sales-slow-to-0-2-but-ex-auto-spending-shows-resilience/"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "Core Retail Sales m/m",
+      "date": "2026-11-17T08:30:00-05:00",
+      "impact": "High",
+      "actual": "0.6%",
+      "vs_forecast": "better",
+      "why": "Spending outside autos beat the 0.4% forecast, a sign of firm demand that supports the dollar.",
+      "source": {
+        "name": "ActionForex",
+        "url": "https://www.actionforex.com/live-comments/661220-us-retail-sales-slow-to-0-2-but-ex-auto-spending-shows-resilience/"
+      }
     }
   ],
   "week_ahead": [
     {
-      "date": "2026-11-17",
-      "events": [
-        {
-          "text": "US October retail sales",
-          "section": "markets"
-        },
-        {
-          "text": "Nvidia Q3 results after the US close",
-          "section": "markets"
-        }
-      ]
-    },
-    {
       "date": "2026-11-18",
       "events": [
+        {
+          "text": "Nvidia Q3 results (released after US close Tuesday, early Wednesday IST)",
+          "section": "markets"
+        },
         {
           "text": "APEC leaders' summit opens in Shenzhen",
           "section": "world"
