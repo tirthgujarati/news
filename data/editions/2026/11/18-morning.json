@@ -1,0 +1,671 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-18-morning",
+  "date": "2026-11-18",
+  "slot": "morning",
+  "title": "Wednesday Morning Edition",
+  "generated_at": "2026-11-18T07:38:43+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "93.48",
+      "change": "-0.48%",
+      "dir": "down",
+      "as_of": "2026-11-17T16:17:20+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/rupee-appreciates-by-32-paise-against-us-dollar/"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "102.77",
+      "change": "-0.45%",
+      "dir": "down",
+      "as_of": "2026-11-18T01:41:47+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR%3DX/"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.62",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-18T01:52:44+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$719.55bn",
+      "change": "+0.35%",
+      "dir": "up",
+      "as_of": "2026-11-06T00:00:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/indias-forex-reserves-increase-by-2-49bn-to-reach-719-54bn-last-week/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,387.40",
+      "change": "+0.38%",
+      "dir": "up",
+      "as_of": "2026-11-17T10:01:07+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI/"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "82,532.19",
+      "change": "+0.52%",
+      "dir": "up",
+      "as_of": "2026-11-17T10:02:28+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN/"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,340.53",
+      "change": "-1.03%",
+      "dir": "down",
+      "as_of": "2026-11-17T21:42:12+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "24,328.38",
+      "change": "-0.74%",
+      "dir": "down",
+      "as_of": "2026-11-17T22:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,808",
+      "change": "-1.44%",
+      "dir": "down",
+      "as_of": "2026-11-18T01:52:44+00:00",
+      "source": {
+        "name": "Yahoo Finance (COMEX futures)",
+        "url": "https://finance.yahoo.com/quote/GC%3DF/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$92.85",
+      "change": "-0.31%",
+      "dir": "down",
+      "as_of": "2026-11-18T01:42:54+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ%3DF/"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$64,149",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-18T02:02:44+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD/"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "5.10%",
+      "change": "-0.35%",
+      "dir": "down",
+      "as_of": "2026-11-17T19:59:53+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-asean-summit-manila-2026-11-17",
+          "headline": "Modi ends Manila trip; free e-visas for ASEAN tourists among outcomes",
+          "summary": "Update: Prime Minister Modi has left Manila after the ASEAN-India and East Asia summits. India offered free e-visas for ASEAN tourists, a long-term maritime cooperation plan, joint cyber forensics training, nuclear energy exchanges and critical minerals cooperation. Leaders adopted a joint statement on disaster management and East Asia Summit texts on online scams and regional stability.",
+          "why_it_matters": "Free e-visas and the maritime and minerals plans deepen India's links with Southeast Asia, a key trade and supply-chain region.",
+          "importance": 4,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-17T21:34:00+05:30",
+          "tags": [
+            "ASEAN",
+            "Modi",
+            "Diplomacy",
+            "Visas"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/pms-visit-to-asean-summit-results-in-several-important-outcomes/"
+            }
+          ],
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/ASEAN-concludes.jpg",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/pms-visit-to-asean-summit-results-in-several-important-outcomes/",
+            "alt": "Prime Minister Modi stands with ASEAN leaders on stage at the 23rd ASEAN-India Summit in Manila"
+          },
+          "impact": []
+        },
+        {
+          "id": "india-bay-of-bengal-cyclone-2026-11-14",
+          "headline": "Cyclone Akvan crawls north; IMD still sees Andhra landfall around noon Friday",
+          "summary": "Update: Akvan moved north at only about 3 km/h on Tuesday and edged closer to Tamil Nadu, Andhra Pradesh and Odisha, the IMD said. It is expected to become a very severe cyclonic storm on Thursday morning, then cross the Andhra and Yanam coast between Nellore and Visakhapatnam around noon on November 20, with gusts up to 145 km/h. Fishermen are told to stay off the Bay of Bengal until November 20, and the weekly Chennai-Yangon flight was cancelled.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio, citing the IMD.",
+          "published_at": "2026-11-17T20:40:00+05:30",
+          "tags": [
+            "Cyclone",
+            "IMD",
+            "Andhra Pradesh",
+            "Weather"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/cyclonic-storm-akvan-moves-closer-to-coastal-states-of-andhra-tamil-nadu-and-odisha/"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/imd-warns-fishermen-against-venturing-into-bay-of-bengal-till-november-20-as-cyclone-akvan-intensifies/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "india-un-oic-resolution-turkiye-2026-11-17",
+          "headline": "India votes against UN resolution on OIC ties, faults Turkiye for shutting it out",
+          "summary": "India voted against a UN General Assembly resolution on cooperation with the Organisation of Islamic Cooperation, which passed with 112 votes for, 6 against and 39 abstentions. India's deputy envoy Yojna Patel objected that Turkiye, which ran the talks, left India and several other countries out of the consultations.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-17T14:28:00+05:30",
+          "tags": [
+            "UN",
+            "Turkiye",
+            "OIC",
+            "Diplomacy"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/india-calls-out-turkiye-over-exclusion-of-new-delhi-and-several-other-countries-from-un-consultations-on-oic-cooperation-resolution/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-iran-us-qeshm-bahrain-2026-11-17",
+          "headline": "US hits Iran's Qeshm island after Iranian drones target US radar in Bahrain",
+          "summary": "Iran's Revolutionary Guards say they sent drones at a US radar at Bahrain's Sheikh Isa air base; US Central Command says they were shot down with no damage. A US official told Al Jazeera that US forces then struck a missile launch site on Qeshm island in the Strait of Hormuz; an Iranian official says there was no damage to homes or infrastructure. Late on Tuesday, Kuwait's army said its air defences were intercepting hostile drone attacks.",
+          "why_it_matters": "Direct US-Iran strikes around Hormuz raise the risk to oil shipments that India depends on.",
+          "importance": 5,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera (with AFP). Each side's claims are attributed; damage claims not independently confirmed.",
+          "published_at": "2026-11-17T23:38:38+00:00",
+          "tags": [
+            "Iran",
+            "US",
+            "Hormuz",
+            "Bahrain",
+            "Kuwait"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6afcc965-1794951525.jpg?resize=1200%2C630",
+            "credit": "Social media via Reuters",
+            "source_url": "https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain",
+            "alt": "A tanker on fire with thick black smoke in the Strait of Hormuz off Oman, from a video still"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "New US-Iran strikes near Hormuz add risk to Gulf oil supply."
+            }
+          ]
+        },
+        {
+          "id": "world-gaza-board-of-peace-warning-2026-11-18",
+          "headline": "Board of Peace warns UN the Gaza ceasefire could collapse without action",
+          "summary": "The US-backed Board of Peace told the UN Security Council that the year-old Gaza truce may be close to collapse unless the 2025 deal is put into effect. Its report, obtained by AP, says Israel and Hamas have fallen well short of their commitments and that Israeli limits on supplies are slowing aid before winter. It says Israel has also blocked the interim civilian body meant to run Gaza.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera, citing the board's report obtained by AP.",
+          "published_at": "2026-11-18T01:07:01+00:00",
+          "tags": [
+            "Gaza",
+            "Israel",
+            "Hamas",
+            "UN"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-cop31-draft-deal-2026-11-17",
+          "headline": "COP31 draft calling for fossil fuel phase-out splits climate talks",
+          "summary": "A draft deal from co-host Australia at the COP31 talks in Turkiye calls for phasing out fossil fuels and for rich nations to reach net zero by 2030. The EU's climate envoy said the draft needs major changes, and a European official named a bloc including Saudi Arabia and India as pushing tough demands on rich countries. Talks are due to end on Friday, and another draft is expected.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera (AFP report).",
+          "published_at": "2026-11-17T20:40:29+00:00",
+          "tags": [
+            "COP31",
+            "Climate",
+            "India",
+            "Fossil fuels"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "id": "currency-australia-wages-q3-2026-11-18",
+          "headline": "Australian wages rise 1.1% in September quarter, fastest since late 2023",
+          "summary": "Australia's Wage Price Index rose 1.1% in the September quarter, above the 1.0% forecast and the biggest quarterly rise since December 2023, official data showed. Annual wage growth picked up to 3.5%. Public sector pay rose 3.9% over the year, ahead of private pay at 3.4%.",
+          "why_it_matters": "Faster pay growth supports the case for more RBA rate hikes, which tends to lift the Australian dollar.",
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Australian Bureau of Statistics (official data); forecast from the Forex Factory calendar.",
+          "published_at": "2026-11-18T11:30:00+11:00",
+          "tags": [
+            "Australia",
+            "Wages",
+            "RBA",
+            "AUD"
+          ],
+          "sources": [
+            {
+              "name": "Australian Bureau of Statistics",
+              "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/wage-price-index-australia/latest-release"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "Australian dollar",
+              "level": "low",
+              "dir": "up",
+              "why": "Stronger wage growth backs further RBA rate hikes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "id": "markets-nvidia-q3-results-2026-11-17",
+          "headline": "Nvidia beats forecasts with $115.8 billion revenue; shares rise about 5% late",
+          "summary": "Nvidia's revenue more than doubled to $115.8 billion in the quarter to October, above the roughly $109 billion analysts expected, with data centre sales at $107.6 billion. It forecast about $130 billion for the next quarter, which has an extra week, versus about $125 billion expected, though gross margin is set to dip to 71-72% from about 75%. Shares rose about 5% after hours in its first report under interim CEO Colette Kress.",
+          "why_it_matters": "Nvidia's outlook is the main test of AI spending, which drives global tech stocks and chip suppliers.",
+          "importance": 5,
+          "lead": true,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-17T16:20:00-05:00",
+          "tags": [
+            "Nvidia",
+            "Earnings",
+            "AI",
+            "Chips"
+          ],
+          "sources": [
+            {
+              "name": "Nvidia",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/investingclub/2026/11/17/nvidia-takes-positive-step-forward-with-stronger-sales-outlook-heres-our-thoughts-on-the-stock.html"
+            }
+          ],
+          "image": {
+            "url": "https://iprsoftwaremedia.com/219/files/20224/628c2a47b3aed32797213f6c_voyager-exterior-sign-2/voyager-exterior-sign-2_1829ac3c-85ac-4929-8c67-5994c15c70c9-prv.jpg?v=1829ac3c-85ac-4929-8c67-5994c15c70c9",
+            "credit": "Nvidia",
+            "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+            "alt": "Nvidia sign in front of the company's Voyager headquarters building in Santa Clara"
+          },
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Nvidia",
+              "level": "high",
+              "dir": "up",
+              "why": "Revenue and guidance beat forecasts; shares rose about 5% after hours."
+            },
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "medium",
+              "dir": "up",
+              "why": "A strong AI outlook can steady chip and tech stocks after recent falls."
+            }
+          ]
+        },
+        {
+          "id": "markets-wall-street-open-nvidia-2026-11-17",
+          "headline": "Dow sinks 849 points as S&P 500 falls for a fourth day; Asia mixed",
+          "summary": "Update: the Dow closed down 1.6% at 50,759, the S&P 500 lost 1.0% to 7,340.5 and the Nasdaq fell 0.7% to 24,328. Stocks hit their lows after a CNN report of an outage on an NSA classified network; the NSA said it was routine maintenance. Home Depot fell about 2.5% on weak guidance and a CEO change. Early on Wednesday, US futures were slightly higher after Nvidia's results, Korea's Kospi was up about 0.7% and Japan's Nikkei was down about 0.5%.",
+          "why_it_matters": null,
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": "Index levels from Yahoo Finance; NSA details from Al Jazeera; Home Depot move from Sharecast via search.",
+          "published_at": "2026-11-17T16:00:00-05:00",
+          "tags": [
+            "Wall Street",
+            "Dow",
+            "S&P 500",
+            "Asia"
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5EDJI/"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/17/nsas-classified-internal-communications-network-reportedly-faces-outage"
+            },
+            {
+              "name": "Sharecast",
+              "url": "https://www.sharecast.com/news/market-report-us-close/us-close-stocks-tumble-following-nsa-outage-mixed-macro-data--24209814.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "level": "low",
+              "dir": "down",
+              "why": "A weak Wall Street close can weigh on the Indian open, partly offset by Nvidia."
+            }
+          ]
+        },
+        {
+          "id": "markets-gold-one-year-low-2026-11-18",
+          "headline": "Gold slides toward $3,800, a one-year low, as dollar and Fed hike bets weigh",
+          "summary": "Gold futures fell about 1.4% to near $3,808 an ounce early on Wednesday, extending a slide to the lowest in over a year. Traders expect a Fed rate hike in December, the dollar is near a 19-month high and the US 10-year yield is above 5%, all of which hurt gold. Silver futures dropped about 1.6% to $46.6. In India, 24-carat gold fell 0.6% to Rs 1,34,201 per 10 grams on Tuesday.",
+          "why_it_matters": "Lower global prices cut gold import costs for India and weigh on gold loan and jewellery stocks.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-18T07:22:44+05:30",
+          "tags": [
+            "Gold",
+            "Silver",
+            "Fed",
+            "Dollar"
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/GC%3DF/"
+            },
+            {
+              "name": "FXStreet",
+              "url": "https://www.fxstreet.com/news/gold-recovers-its-retail-sales-drop-and-holds-above-mondays-low-202611171901"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/goldsilver-prices-decline/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "gold",
+              "level": "medium",
+              "dir": "down",
+              "why": "Fed hike bets, a strong dollar and 5% yields keep pressure on gold."
+            },
+            {
+              "on": "silver",
+              "level": "medium",
+              "dir": "down",
+              "why": "Silver is falling with gold on the strong dollar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "id": "built-nvidia-ibm-fermilab-quantum-2026-11-16",
+          "headline": "Nvidia, IBM and Fermilab team up on quantum computing; Nvidia claims faster decoding",
+          "summary": "Nvidia, IBM and the US Fermilab are building a platform that puts Nvidia DGX B200 systems next to IBM quantum computers, so researchers can test error-correction codes and mixed quantum-classical apps. Nvidia also released a decoding algorithm in its CUDA-Q library and says it speeds up error-correction research by up to 13,000 times, cutting 12 weeks of work to 45 minutes.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Nvidia press release; the speed-up is Nvidia's own claim.",
+          "published_at": "2026-11-16T00:00:00-08:00",
+          "tags": [
+            "Quantum",
+            "Nvidia",
+            "IBM",
+            "Fermilab"
+          ],
+          "sources": [
+            {
+              "name": "Nvidia",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-announces-collaboration-with-ibm-and-fermi-national-accelerator-laboratory-to-launch-quantum-classical-codesign-platform-plus-error-correction-breakthrough-to-advance-practical-quantum-computing"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "GBP",
+      "title": "Average Earnings Index 3m/y",
+      "date": "2026-11-17T02:00:00-05:00",
+      "impact": "Medium",
+      "actual": "3.6%",
+      "vs_forecast": "better",
+      "why": "Total pay growth slowed less than expected, a mild support for the pound, though regular pay missed forecasts.",
+      "source": {
+        "name": "Reuters via Investing.com",
+        "url": "https://www.investing.com/news/economy-news/uk-wage-growth-slows-to-35-in-three-months-to-september-5031823"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "Retail Sales m/m",
+      "date": "2026-11-17T08:30:00-05:00",
+      "impact": "High",
+      "actual": "0.2%",
+      "vs_forecast": "better",
+      "why": "Sales edged up a little more than the feed's 0.1% forecast, supporting the dollar and Fed hike bets.",
+      "source": {
+        "name": "ActionForex",
+        "url": "https://www.actionforex.com/live-comments/661220-us-retail-sales-slow-to-0-2-but-ex-auto-spending-shows-resilience/"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "Core Retail Sales m/m",
+      "date": "2026-11-17T08:30:00-05:00",
+      "impact": "High",
+      "actual": "0.6%",
+      "vs_forecast": "better",
+      "why": "Spending outside autos beat the 0.4% forecast, a sign of firm demand that supports the dollar.",
+      "source": {
+        "name": "ActionForex",
+        "url": "https://www.actionforex.com/live-comments/661220-us-retail-sales-slow-to-0-2-but-ex-auto-spending-shows-resilience/"
+      }
+    },
+    {
+      "country": "AUD",
+      "title": "Wage Price Index q/q",
+      "date": "2026-11-17T19:30:00-05:00",
+      "impact": "Medium",
+      "actual": "1.1%",
+      "vs_forecast": "better",
+      "why": "Wages rose faster than the 1.0% forecast, the biggest gain since 2023, backing RBA hike bets and the Aussie dollar.",
+      "source": {
+        "name": "Australian Bureau of Statistics",
+        "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/wage-price-index-australia/latest-release"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-18",
+      "events": [
+        {
+          "text": "UK October CPI",
+          "section": "currency"
+        },
+        {
+          "text": "APEC leaders' summit opens in Shenzhen",
+          "section": "world"
+        },
+        {
+          "text": "Fed releases FOMC meeting minutes",
+          "section": "markets"
+        },
+        {
+          "text": "Anthropic IPO expected to price after the US close",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "events": [
+        {
+          "text": "Xi, Trump and Putin hold three-way meeting in Shenzhen",
+          "section": "world"
+        },
+        {
+          "text": "Anthropic shares expected to start trading on Nasdaq (ANT)",
+          "section": "markets"
+        },
+        {
+          "text": "Australia October jobs data",
+          "section": "currency"
+        },
+        {
+          "text": "US weekly jobless claims and Philly Fed index",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "events": [
+        {
+          "text": "Cyclone Akvan expected to cross Andhra coast around noon (IMD forecast)",
+          "section": "india"
+        },
+        {
+          "text": "India hosts first SCO Civilisational Dialogue Forum in New Delhi",
+          "section": "india"
+        },
+        {
+          "text": "UK October retail sales",
+          "section": "currency"
+        },
+        {
+          "text": "COP31 climate talks due to end in Turkiye",
+          "section": "world"
+        }
+      ]
+    }
+  ]
+}
