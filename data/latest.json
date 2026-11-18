@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-18-morning",
+  "edition_id": "2026-11-18-midday",
   "date": "2026-11-18",
-  "slot": "morning",
-  "title": "Wednesday Morning Edition",
-  "generated_at": "2026-11-18T07:38:43+05:30",
+  "slot": "midday",
+  "title": "Wednesday Midday Edition",
+  "generated_at": "2026-11-18T13:44:01+05:30",
   "snapshot": [
     {
       "id": "usdinr",
       "label": "USD/INR",
-      "value": "93.48",
-      "change": "-0.48%",
-      "dir": "down",
-      "as_of": "2026-11-17T16:17:20+05:30",
+      "value": "93.53",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-18T08:08:33+00:00",
       "source": {
-        "name": "All India Radio",
-        "url": "https://newsonair.gov.in/rupee-appreciates-by-32-paise-against-us-dollar/"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/INR%3DX/"
       }
     },
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "102.77",
-      "change": "-0.45%",
-      "dir": "down",
-      "as_of": "2026-11-18T01:41:47+00:00",
+      "value": "102.63",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-18T08:08:37+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURINR%3DX/"
@@ -33,10 +33,10 @@
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "103.62",
-      "change": null,
-      "dir": "flat",
-      "as_of": "2026-11-18T01:52:44+00:00",
+      "value": "103.75",
+      "change": "+0.25%",
+      "dir": "up",
+      "as_of": "2026-11-18T07:58:35+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
@@ -57,10 +57,10 @@
     {
       "id": "nifty",
       "label": "Nifty 50",
-      "value": "25,387.40",
-      "change": "+0.38%",
-      "dir": "up",
-      "as_of": "2026-11-17T10:01:07+00:00",
+      "value": "25,154.75",
+      "change": "-0.92%",
+      "dir": "down",
+      "as_of": "2026-11-18T08:08:36+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5ENSEI/"
@@ -69,10 +69,10 @@
     {
       "id": "sensex",
       "label": "Sensex",
-      "value": "82,532.19",
-      "change": "+0.52%",
-      "dir": "up",
-      "as_of": "2026-11-17T10:02:28+00:00",
+      "value": "81,889.84",
+      "change": "-0.78%",
+      "dir": "down",
+      "as_of": "2026-11-18T07:53:37+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EBSESN/"
@@ -105,22 +105,34 @@
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$3,808",
-      "change": "-1.44%",
+      "value": "$3,774",
+      "change": "-2.33%",
       "dir": "down",
-      "as_of": "2026-11-18T01:52:44+00:00",
+      "as_of": "2026-11-18T07:58:34+00:00",
       "source": {
         "name": "Yahoo Finance (COMEX futures)",
         "url": "https://finance.yahoo.com/quote/GC%3DF/"
       }
     },
     {
+      "id": "gold_mcx",
+      "label": "Gold MCX",
+      "value": "₹1,31,800/10g",
+      "change": "-2%",
+      "dir": "down",
+      "as_of": "2026-11-18T13:37:00+05:30",
+      "source": {
+        "name": "Trade Brains",
+        "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-18-november-gift-nifty-signals-gap-down-opening-as-nasdaq-rallies-on-nvidia-earnings-12818842"
+      }
+    },
+    {
       "id": "brent",
       "label": "Brent crude",
-      "value": "$92.85",
-      "change": "-0.31%",
-      "dir": "down",
-      "as_of": "2026-11-18T01:42:54+00:00",
+      "value": "$91.74",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-18T07:58:36+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BZ%3DF/"
@@ -129,10 +141,10 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$64,149",
-      "change": null,
-      "dir": "flat",
-      "as_of": "2026-11-18T02:02:44+00:00",
+      "value": "$64,648",
+      "change": "-0.38%",
+      "dir": "down",
+      "as_of": "2026-11-18T08:08:37+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BTC-USD/"
@@ -157,84 +169,49 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-asean-summit-manila-2026-11-17",
-          "headline": "Modi ends Manila trip; free e-visas for ASEAN tourists among outcomes",
-          "summary": "Update: Prime Minister Modi has left Manila after the ASEAN-India and East Asia summits. India offered free e-visas for ASEAN tourists, a long-term maritime cooperation plan, joint cyber forensics training, nuclear energy exchanges and critical minerals cooperation. Leaders adopted a joint statement on disaster management and East Asia Summit texts on online scams and regional stability.",
-          "why_it_matters": "Free e-visas and the maritime and minerals plans deepen India's links with Southeast Asia, a key trade and supply-chain region.",
+          "id": "india-bay-of-bengal-cyclone-2026-11-14",
+          "headline": "Cyclone Akvan set to become very severe; Odisha readies evacuation of 2 lakh people",
+          "summary": "New since the morning: IMD now expects Akvan to strengthen into a very severe cyclonic storm before crossing the Andhra Pradesh coast on Friday. Odisha has sent 74 rescue teams, including NDRF, and listed more than 200,000 people for possible evacuation. Six southern districts, from Ganjam to Koraput, are mapping landslide-prone villages.",
+          "why_it_matters": "A stronger storm raises the risk to lives, crops and ports on India's east coast this week.",
           "importance": 4,
           "lead": false,
           "verified": false,
           "note": "Single source: All India Radio.",
-          "published_at": "2026-11-17T21:34:00+05:30",
-          "tags": [
-            "ASEAN",
-            "Modi",
-            "Diplomacy",
-            "Visas"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/pms-visit-to-asean-summit-results-in-several-important-outcomes/"
-            }
-          ],
-          "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/ASEAN-concludes.jpg",
-            "credit": "All India Radio",
-            "source_url": "https://newsonair.gov.in/pms-visit-to-asean-summit-results-in-several-important-outcomes/",
-            "alt": "Prime Minister Modi stands with ASEAN leaders on stage at the 23rd ASEAN-India Summit in Manila"
-          },
-          "impact": []
-        },
-        {
-          "id": "india-bay-of-bengal-cyclone-2026-11-14",
-          "headline": "Cyclone Akvan crawls north; IMD still sees Andhra landfall around noon Friday",
-          "summary": "Update: Akvan moved north at only about 3 km/h on Tuesday and edged closer to Tamil Nadu, Andhra Pradesh and Odisha, the IMD said. It is expected to become a very severe cyclonic storm on Thursday morning, then cross the Andhra and Yanam coast between Nellore and Visakhapatnam around noon on November 20, with gusts up to 145 km/h. Fishermen are told to stay off the Bay of Bengal until November 20, and the weekly Chennai-Yangon flight was cancelled.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio, citing the IMD.",
-          "published_at": "2026-11-17T20:40:00+05:30",
+          "published_at": "2026-11-18T07:53:00+05:30",
           "tags": [
             "Cyclone",
-            "IMD",
+            "Odisha",
             "Andhra Pradesh",
-            "Weather"
+            "IMD"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/cyclonic-storm-akvan-moves-closer-to-coastal-states-of-andhra-tamil-nadu-and-odisha/"
-            },
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/imd-warns-fishermen-against-venturing-into-bay-of-bengal-till-november-20-as-cyclone-akvan-intensifies/"
+              "url": "https://newsonair.gov.in/odisha-steps-up-cyclone-preparedness-as-cyclone-akvan-approaches-bay-of-bengal/"
             }
           ],
           "image": null,
           "impact": []
         },
         {
-          "id": "india-un-oic-resolution-turkiye-2026-11-17",
-          "headline": "India votes against UN resolution on OIC ties, faults Turkiye for shutting it out",
-          "summary": "India voted against a UN General Assembly resolution on cooperation with the Organisation of Islamic Cooperation, which passed with 112 votes for, 6 against and 39 abstentions. India's deputy envoy Yojna Patel objected that Turkiye, which ran the talks, left India and several other countries out of the consultations.",
+          "id": "india-kulgam-let-militant-2026-11-18",
+          "headline": "Amit Shah says forces killed LeT's last known active local militant in Kashmir",
+          "summary": "Home Minister Amit Shah says security forces killed Lateef Bhat, the last known active local Lashkar-e-Taiba militant in the Kashmir valley, in Kulgam early on Wednesday. His associate Umar Nisar was killed in Kulgam a day earlier, Shah said, crediting the police, Army, CRPF and intelligence agencies.",
           "why_it_matters": null,
-          "importance": 2,
+          "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-17T14:28:00+05:30",
+          "note": "Claim by Home Minister Amit Shah; single source: All India Radio.",
+          "published_at": "2026-11-18T13:16:00+05:30",
           "tags": [
-            "UN",
-            "Turkiye",
-            "OIC",
-            "Diplomacy"
+            "Kashmir",
+            "Security",
+            "Amit Shah"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/india-calls-out-turkiye-over-exclusion-of-new-delhi-and-several-other-countries-from-un-consultations-on-oic-cooperation-resolution/"
+              "url": "https://newsonair.gov.in/security-forces-have-neutralises-lashkar-e-taibas-last-known-active-local-terrorist-in-kashmir-hm-amit-shah/"
             }
           ],
           "image": null,
@@ -247,88 +224,63 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-iran-us-qeshm-bahrain-2026-11-17",
-          "headline": "US hits Iran's Qeshm island after Iranian drones target US radar in Bahrain",
-          "summary": "Iran's Revolutionary Guards say they sent drones at a US radar at Bahrain's Sheikh Isa air base; US Central Command says they were shot down with no damage. A US official told Al Jazeera that US forces then struck a missile launch site on Qeshm island in the Strait of Hormuz; an Iranian official says there was no damage to homes or infrastructure. Late on Tuesday, Kuwait's army said its air defences were intercepting hostile drone attacks.",
-          "why_it_matters": "Direct US-Iran strikes around Hormuz raise the risk to oil shipments that India depends on.",
-          "importance": 5,
+          "id": "world-apec-shenzhen-trilateral-2026-11-18",
+          "headline": "Putin reaches Shenzhen for APEC; first Xi-Trump-Putin meeting set for Thursday",
+          "summary": "Russian President Vladimir Putin arrived in Shenzhen early on Wednesday for the APEC leaders' summit, with talks with Xi Jinping planned. Trump heads there from Manila, and China has confirmed a three-way China-Russia-US meeting on Thursday, the first of its kind. Analysts expect little breakthrough; trade, AI chip curbs and the Iran war are on the table.",
+          "why_it_matters": "Any US-China trade or chip deal, or Ukraine and Iran talk, could move oil, chips and Asian markets.",
+          "importance": 4,
           "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera (with AFP). Each side's claims are attributed; damage claims not independently confirmed.",
-          "published_at": "2026-11-17T23:38:38+00:00",
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-17T20:09:00-05:00",
           "tags": [
-            "Iran",
+            "APEC",
+            "China",
             "US",
-            "Hormuz",
-            "Bahrain",
-            "Kuwait"
+            "Russia",
+            "Trade"
           ],
           "sources": [
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html"
+            },
+            {
+              "name": "South China Morning Post",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3374523/china-us-russia-trilateral-set-thursday-beijing"
             }
           ],
-          "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6afcc965-1794951525.jpg?resize=1200%2C630",
-            "credit": "Social media via Reuters",
-            "source_url": "https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain",
-            "alt": "A tanker on fire with thick black smoke in the Strait of Hormuz off Oman, from a video still"
-          },
+          "image": null,
           "impact": [
             {
-              "on": "oil",
-              "level": "medium",
-              "dir": "up",
-              "why": "New US-Iran strikes near Hormuz add risk to Gulf oil supply."
+              "on": "currency",
+              "detail": "Yuan",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Progress on the trade truce or chip curbs could swing the yuan either way."
             }
           ]
         },
         {
-          "id": "world-gaza-board-of-peace-warning-2026-11-18",
-          "headline": "Board of Peace warns UN the Gaza ceasefire could collapse without action",
-          "summary": "The US-backed Board of Peace told the UN Security Council that the year-old Gaza truce may be close to collapse unless the 2025 deal is put into effect. Its report, obtained by AP, says Israel and Hamas have fallen well short of their commitments and that Israeli limits on supplies are slowing aid before winter. It says Israel has also blocked the interim civilian body meant to run Gaza.",
+          "id": "world-iraq-qaani-kataib-hezbollah-2026-11-18",
+          "headline": "IRGC's Qaani in Baghdad as Iraq presses Kataib Hezbollah over oil smuggling",
+          "summary": "Quds Force chief Esmail Qaani flew to Iraq and met Prime Minister Ali al-Zaidi as tension builds around Jurf al-Nasr, a Kataib Hezbollah stronghold. Baghdad is probing suspected oil smuggling there and has sent more troops and ordered tankers stopped from leaving. Kataib Hezbollah denies the claims and says it will not withdraw.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: Al Jazeera, citing the board's report obtained by AP.",
-          "published_at": "2026-11-18T01:07:01+00:00",
+          "note": "Single source: Al Jazeera.",
+          "published_at": "2026-11-18T00:00:00+00:00",
           "tags": [
-            "Gaza",
-            "Israel",
-            "Hamas",
-            "UN"
+            "Iraq",
+            "Iran",
+            "Kataib Hezbollah",
+            "Oil"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action"
-            }
-          ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "world-cop31-draft-deal-2026-11-17",
-          "headline": "COP31 draft calling for fossil fuel phase-out splits climate talks",
-          "summary": "A draft deal from co-host Australia at the COP31 talks in Turkiye calls for phasing out fossil fuels and for rich nations to reach net zero by 2030. The EU's climate envoy said the draft needs major changes, and a European official named a bloc including Saudi Arabia and India as pushing tough demands on rich countries. Talks are due to end on Friday, and another draft is expected.",
-          "why_it_matters": null,
-          "importance": 2,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera (AFP report).",
-          "published_at": "2026-11-17T20:40:29+00:00",
-          "tags": [
-            "COP31",
-            "Climate",
-            "India",
-            "Fossil fuels"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31"
+              "url": "https://www.aljazeera.com/news/2026/11/18/top-irgc-commander-in-iraq-for-talks-amid-kataib-hezbollah-tensions"
             }
           ],
           "image": null,
@@ -341,37 +293,106 @@
       "title": "Currency Desk",
       "stories": [
         {
-          "id": "currency-australia-wages-q3-2026-11-18",
-          "headline": "Australian wages rise 1.1% in September quarter, fastest since late 2023",
-          "summary": "Australia's Wage Price Index rose 1.1% in the September quarter, above the 1.0% forecast and the biggest quarterly rise since December 2023, official data showed. Annual wage growth picked up to 3.5%. Public sector pay rose 3.9% over the year, ahead of private pay at 3.4%.",
-          "why_it_matters": "Faster pay growth supports the case for more RBA rate hikes, which tends to lift the Australian dollar.",
-          "importance": 2,
+          "id": "currency-rupee-93-27-2026-11-18",
+          "headline": "Rupee touches 93.27 per dollar early, extending gains on FPI inflows and cheaper oil",
+          "summary": "The rupee opened at 93.47 and rose as far as 93.27 per dollar, 24 paise above Tuesday's seven-month-high close of 93.51. Dealers credit lower crude and steady foreign buying of Indian shares; FIIs bought ₹4,195 crore on Tuesday, a sixth straight day. It had eased back to about 93.4-93.5 by midday.",
+          "why_it_matters": "A firmer rupee cuts India's import bill for oil and gold.",
+          "importance": 4,
           "lead": false,
-          "verified": false,
-          "note": "Single source: Australian Bureau of Statistics (official data); forecast from the Forex Factory calendar.",
-          "published_at": "2026-11-18T11:30:00+11:00",
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-18T09:30:00+05:30",
           "tags": [
-            "Australia",
-            "Wages",
-            "RBA",
-            "AUD"
+            "Rupee",
+            "Dollar",
+            "FPI",
+            "Crude"
           ],
           "sources": [
             {
-              "name": "Australian Bureau of Statistics",
-              "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/wage-price-index-australia/latest-release"
+              "name": "Deccan Herald (PTI)",
+              "url": "https://www.deccanherald.com/business/markets/rupee-rises-24-paise-to-9327-against-us-dollar-in-early-trade-4222298"
+            },
+            {
+              "name": "Trade Brains",
+              "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-18-november-gift-nifty-signals-gap-down-opening-as-nasdaq-rallies-on-nvidia-earnings-12818842"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/INR%3DX/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "up",
+              "why": "Foreign inflows and softer oil keep demand for rupees firm."
+            }
+          ]
+        },
+        {
+          "id": "currency-uk-cpi-october-2026-11-18",
+          "headline": "UK inflation edges up to 3.6% in October, highest in a year, on fuel prices",
+          "summary": "UK consumer prices rose 3.6% from a year earlier in October, up from 3.5% and in line with forecasts, the ONS said. Motor fuel was up 33.2% on the year, while core inflation held at about 2.8%. Traders see a higher chance of a Bank of England rate rise in December.",
+          "why_it_matters": "Rising rate-hike bets support the pound against the dollar and rupee.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-18T07:00:00+00:00",
+          "tags": [
+            "UK",
+            "Inflation",
+            "Pound",
+            "Bank of England"
+          ],
+          "sources": [
+            {
+              "name": "ONS",
+              "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html"
             }
           ],
           "image": null,
           "impact": [
             {
               "on": "currency",
-              "detail": "Australian dollar",
-              "level": "low",
+              "detail": "Pound",
+              "level": "medium",
               "dir": "up",
-              "why": "Stronger wage growth backs further RBA rate hikes."
+              "why": "Higher inflation raises odds of a December Bank of England hike."
             }
           ]
+        },
+        {
+          "id": "currency-bank-indonesia-hike-2026-11-18",
+          "headline": "Bank Indonesia surprises with a rate rise to 6%",
+          "summary": "Indonesia's central bank raised its policy rate by a quarter point to 6%, when economists had expected a hold at 5.75%. It has now raised rates several times this year to defend the rupiah.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: CNBC. Not yet on Bank Indonesia's website at time of writing.",
+          "published_at": "2026-11-18T03:03:00-05:00",
+          "tags": [
+            "Indonesia",
+            "Rupiah",
+            "Rates",
+            "Emerging markets"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html"
+            }
+          ],
+          "image": null,
+          "impact": []
         }
       ]
     },
@@ -380,137 +401,139 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "id": "markets-nvidia-q3-results-2026-11-17",
-          "headline": "Nvidia beats forecasts with $115.8 billion revenue; shares rise about 5% late",
-          "summary": "Nvidia's revenue more than doubled to $115.8 billion in the quarter to October, above the roughly $109 billion analysts expected, with data centre sales at $107.6 billion. It forecast about $130 billion for the next quarter, which has an extra week, versus about $125 billion expected, though gross margin is set to dip to 71-72% from about 75%. Shares rose about 5% after hours in its first report under interim CEO Colette Kress.",
-          "why_it_matters": "Nvidia's outlook is the main test of AI spending, which drives global tech stocks and chip suppliers.",
+          "id": "markets-sensex-nifty-midday-2026-11-18",
+          "headline": "Sensex, Nifty slide about 0.8-0.9% by midday as metals, autos and IT drag",
+          "summary": "The Nifty was at about 25,155 at 1:38 pm, down 0.9%, and the Sensex near 81,890, down 0.8%, even though Nvidia's results lifted Asian chip stocks. Metal, auto and IT shares led the fall, while banks held up. Gold lenders Manappuram and Muthoot fell up to 5% as gold hit a 14-month low.",
+          "why_it_matters": "Indian stocks are lagging Asia despite six straight days of foreign buying, a sign of local profit-taking.",
           "importance": 5,
           "lead": true,
           "verified": true,
-          "note": null,
-          "published_at": "2026-11-17T16:20:00-05:00",
+          "note": "Earlier midday reports put the fall near 0.5%; it deepened after 1 pm (Yahoo Finance).",
+          "published_at": "2026-11-18T13:38:00+05:30",
           "tags": [
-            "Nvidia",
-            "Earnings",
-            "AI",
-            "Chips"
-          ],
-          "sources": [
-            {
-              "name": "Nvidia",
-              "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/investingclub/2026/11/17/nvidia-takes-positive-step-forward-with-stronger-sales-outlook-heres-our-thoughts-on-the-stock.html"
-            }
-          ],
-          "image": {
-            "url": "https://iprsoftwaremedia.com/219/files/20224/628c2a47b3aed32797213f6c_voyager-exterior-sign-2/voyager-exterior-sign-2_1829ac3c-85ac-4929-8c67-5994c15c70c9-prv.jpg?v=1829ac3c-85ac-4929-8c67-5994c15c70c9",
-            "credit": "Nvidia",
-            "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
-            "alt": "Nvidia sign in front of the company's Voyager headquarters building in Santa Clara"
-          },
-          "impact": [
-            {
-              "on": "company",
-              "detail": "Nvidia",
-              "level": "high",
-              "dir": "up",
-              "why": "Revenue and guidance beat forecasts; shares rose about 5% after hours."
-            },
-            {
-              "on": "us_stocks",
-              "detail": "Tech",
-              "level": "medium",
-              "dir": "up",
-              "why": "A strong AI outlook can steady chip and tech stocks after recent falls."
-            }
-          ]
-        },
-        {
-          "id": "markets-wall-street-open-nvidia-2026-11-17",
-          "headline": "Dow sinks 849 points as S&P 500 falls for a fourth day; Asia mixed",
-          "summary": "Update: the Dow closed down 1.6% at 50,759, the S&P 500 lost 1.0% to 7,340.5 and the Nasdaq fell 0.7% to 24,328. Stocks hit their lows after a CNN report of an outage on an NSA classified network; the NSA said it was routine maintenance. Home Depot fell about 2.5% on weak guidance and a CEO change. Early on Wednesday, US futures were slightly higher after Nvidia's results, Korea's Kospi was up about 0.7% and Japan's Nikkei was down about 0.5%.",
-          "why_it_matters": null,
-          "importance": 4,
-          "lead": false,
-          "verified": true,
-          "note": "Index levels from Yahoo Finance; NSA details from Al Jazeera; Home Depot move from Sharecast via search.",
-          "published_at": "2026-11-17T16:00:00-05:00",
-          "tags": [
-            "Wall Street",
-            "Dow",
-            "S&P 500",
-            "Asia"
+            "Sensex",
+            "Nifty",
+            "Metals",
+            "IT"
           ],
           "sources": [
             {
               "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/%5EDJI/"
+              "url": "https://finance.yahoo.com/quote/%5ENSEI/"
             },
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/17/nsas-classified-internal-communications-network-reportedly-faces-outage"
+              "name": "Trade Brains",
+              "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-18-november-gift-nifty-signals-gap-down-opening-as-nasdaq-rallies-on-nvidia-earnings-12818842"
             },
             {
-              "name": "Sharecast",
-              "url": "https://www.sharecast.com/news/market-report-us-close/us-close-stocks-tumble-following-nsa-outage-mixed-macro-data--24209814.html"
+              "name": "ScanX",
+              "url": "https://scanx.trade/stock-market-news/markets/market-today-mid-bell-update-nifty50-share-price-sensex-share-price-crude-fii-gift-nifty-rupee-latest-18-11-2026/56529059"
             }
           ],
           "image": null,
           "impact": [
             {
               "on": "indian_stocks",
-              "level": "low",
+              "detail": "Metals",
+              "level": "medium",
               "dir": "down",
-              "why": "A weak Wall Street close can weigh on the Indian open, partly offset by Nvidia."
+              "why": "Metal stocks fell over 1% with global basic resources shares."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "Auto",
+              "level": "medium",
+              "dir": "down",
+              "why": "Auto index fell about 1% by midday."
+            },
+            {
+              "on": "company",
+              "detail": "Manappuram",
+              "level": "medium",
+              "dir": "down",
+              "why": "A sharp gold fall hurts gold-loan lenders."
             }
           ]
         },
         {
-          "id": "markets-gold-one-year-low-2026-11-18",
-          "headline": "Gold slides toward $3,800, a one-year low, as dollar and Fed hike bets weigh",
-          "summary": "Gold futures fell about 1.4% to near $3,808 an ounce early on Wednesday, extending a slide to the lowest in over a year. Traders expect a Fed rate hike in December, the dollar is near a 19-month high and the US 10-year yield is above 5%, all of which hurt gold. Silver futures dropped about 1.6% to $46.6. In India, 24-carat gold fell 0.6% to Rs 1,34,201 per 10 grams on Tuesday.",
-          "why_it_matters": "Lower global prices cut gold import costs for India and weigh on gold loan and jewellery stocks.",
-          "importance": 3,
+          "id": "markets-gold-mcx-slide-2026-11-18",
+          "headline": "Gold drops about 2% to near ₹1.32 lakh on MCX; silver falls over 3%",
+          "summary": "New since the morning: the slide deepened. COMEX gold futures fell about 2.3% to around $3,774 an ounce, and MCX gold dropped nearly 2% to about ₹1,31,600-1,31,800 per 10 grams. Silver lost more than 3% to roughly ₹1,64,900 a kilo. A firmer dollar and bets on Fed rate rises are weighing.",
+          "why_it_matters": "Cheaper gold eases India's import bill but hurts gold-loan lenders and jewellery inventories.",
+          "importance": 4,
           "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-18T07:22:44+05:30",
+          "published_at": "2026-11-18T13:37:00+05:30",
           "tags": [
             "Gold",
             "Silver",
-            "Fed",
-            "Dollar"
+            "MCX"
           ],
           "sources": [
             {
+              "name": "Goodreturns",
+              "url": "https://www.goodreturns.in/news/gold-rates-silver-rates-today-18-11-2026-live-spot-gold-mcx-gold-silver-price-24k-22k-18k-gold-price-1547797.html"
+            },
+            {
+              "name": "Trade Brains",
+              "url": "https://tradebrains.in/indian-markets/sensex-nifty-50-stock-market-live-updates-today-18-november-gift-nifty-signals-gap-down-opening-as-nasdaq-rallies-on-nvidia-earnings-12818842"
+            },
+            {
               "name": "Yahoo Finance",
               "url": "https://finance.yahoo.com/quote/GC%3DF/"
-            },
-            {
-              "name": "FXStreet",
-              "url": "https://www.fxstreet.com/news/gold-recovers-its-retail-sales-drop-and-holds-above-mondays-low-202611171901"
-            },
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/goldsilver-prices-decline/"
             }
           ],
           "image": null,
           "impact": [
             {
               "on": "gold",
-              "level": "medium",
+              "level": "high",
               "dir": "down",
-              "why": "Fed hike bets, a strong dollar and 5% yields keep pressure on gold."
+              "why": "A strong dollar and Fed hike bets pushed gold to a 14-month low."
             },
             {
               "on": "silver",
-              "level": "medium",
+              "level": "high",
               "dir": "down",
-              "why": "Silver is falling with gold on the strong dollar."
+              "why": "Silver fell over 3% alongside gold."
+            }
+          ]
+        },
+        {
+          "id": "markets-asia-chips-futures-2026-11-18",
+          "headline": "Kospi jumps 2% on chip rally after Nvidia; US futures point higher",
+          "summary": "South Korea's Kospi rose about 2% to 5,067 as SK Hynix gained 5% after Nvidia's strong forecast, while the Nikkei edged up 0.3% and Hong Kong slipped. Nasdaq-100 futures were up about 0.6% and S&P 500 futures 0.25% early in Europe. Nvidia's board said it will not bring back Jensen Huang as CEO.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: CNBC for market moves.",
+          "published_at": "2026-11-18T02:36:00-05:00",
+          "tags": [
+            "Asia",
+            "Kospi",
+            "Chips",
+            "Nvidia"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/11/18/nvidia-shoots-down-calls-for-jensen-huangs-return-amid-strong-earnings"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "medium",
+              "dir": "up",
+              "why": "Futures point to a tech rebound after four days of losses."
             }
           ]
         }
@@ -521,25 +544,29 @@
       "title": "Built This Week",
       "stories": [
         {
-          "id": "built-nvidia-ibm-fermilab-quantum-2026-11-16",
-          "headline": "Nvidia, IBM and Fermilab team up on quantum computing; Nvidia claims faster decoding",
-          "summary": "Nvidia, IBM and the US Fermilab are building a platform that puts Nvidia DGX B200 systems next to IBM quantum computers, so researchers can test error-correction codes and mixed quantum-classical apps. Nvidia also released a decoding algorithm in its CUDA-Q library and says it speeds up error-correction research by up to 13,000 times, cutting 12 weeks of work to 45 minutes.",
+          "id": "built-iceye-gen5-sar-2026-11-16",
+          "headline": "Iceye unveils Gen5 radar satellite with images sharp to 11 cm",
+          "summary": "Finnish firm Iceye unveiled its fifth-generation radar imaging satellite, which can see objects down to 11 cm for government buyers and 16 cm for commercial ones. It doubles imaging time per orbit, raises downlink to 1 Gbps and carries hardware for on-board AI. First units are due to enter service in 2027.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
-          "verified": false,
-          "note": "Single source: Nvidia press release; the speed-up is Nvidia's own claim.",
-          "published_at": "2026-11-16T00:00:00-08:00",
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-16T00:00:00+02:00",
           "tags": [
-            "Quantum",
-            "Nvidia",
-            "IBM",
-            "Fermilab"
+            "Space",
+            "Satellites",
+            "Radar",
+            "Iceye"
           ],
           "sources": [
             {
-              "name": "Nvidia",
-              "url": "https://nvidianews.nvidia.com/news/nvidia-announces-collaboration-with-ibm-and-fermi-national-accelerator-laboratory-to-launch-quantum-classical-codesign-platform-plus-error-correction-breakthrough-to-advance-practical-quantum-computing"
+              "name": "Iceye",
+              "url": "https://www.iceye.com/newsroom/press-releases/iceye-unveils-gen5-the-sharpest-commercially-built-sar-satellite"
+            },
+            {
+              "name": "Via Satellite",
+              "url": "https://www.satellitetoday.com/imagery-and-sensing/2026/11/16/iceyes-fifth-generation-sar-satellite-built-for-11cm-resolution/"
             }
           ],
           "image": null,
@@ -550,19 +577,6 @@
   ],
   "weekend_special": null,
   "forex_results": [
-    {
-      "country": "GBP",
-      "title": "Average Earnings Index 3m/y",
-      "date": "2026-11-17T02:00:00-05:00",
-      "impact": "Medium",
-      "actual": "3.6%",
-      "vs_forecast": "better",
-      "why": "Total pay growth slowed less than expected, a mild support for the pound, though regular pay missed forecasts.",
-      "source": {
-        "name": "Reuters via Investing.com",
-        "url": "https://www.investing.com/news/economy-news/uk-wage-growth-slows-to-35-in-three-months-to-september-5031823"
-      }
-    },
     {
       "country": "USD",
       "title": "Retail Sales m/m",
@@ -601,6 +615,19 @@
         "name": "Australian Bureau of Statistics",
         "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/wage-price-index-australia/latest-release"
       }
+    },
+    {
+      "country": "GBP",
+      "title": "CPI y/y",
+      "date": "2026-11-18T02:00:00-05:00",
+      "impact": "High",
+      "actual": "3.6%",
+      "vs_forecast": "in_line",
+      "why": "Inflation matched forecasts at a one-year high, keeping a December Bank of England hike in play.",
+      "source": {
+        "name": "ONS",
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026"
+      }
     }
   ],
   "week_ahead": [
@@ -608,20 +635,16 @@
       "date": "2026-11-18",
       "events": [
         {
-          "text": "UK October CPI",
-          "section": "currency"
-        },
-        {
-          "text": "APEC leaders' summit opens in Shenzhen",
-          "section": "world"
-        },
-        {
           "text": "Fed releases FOMC meeting minutes",
           "section": "markets"
         },
         {
           "text": "Anthropic IPO expected to price after the US close",
           "section": "markets"
+        },
+        {
+          "text": "BoE Governor Bailey and ECB's Lagarde speak",
+          "section": "currency"
         }
       ]
     },
