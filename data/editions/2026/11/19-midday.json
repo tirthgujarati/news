@@ -1,0 +1,799 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-19-midday",
+  "date": "2026-11-19",
+  "slot": "midday",
+  "title": "Thursday Midday Edition",
+  "generated_at": "2026-11-19T13:47:28+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "93.24",
+      "change": "-0.25%",
+      "dir": "down",
+      "as_of": "2026-11-19T08:09:44+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/INR=X"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "102.40",
+      "change": "-0.27%",
+      "dir": "down",
+      "as_of": "2026-11-19T08:09:47+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.77",
+      "change": "-0.08%",
+      "dir": "down",
+      "as_of": "2026-11-19T07:59:46+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$719.55bn",
+      "change": "+0.35%",
+      "dir": "up",
+      "as_of": "2026-11-06T00:00:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,383.35",
+      "change": "+0.62%",
+      "dir": "up",
+      "as_of": "2026-11-19T08:09:46+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "82,455.65",
+      "change": "+0.52%",
+      "dir": "up",
+      "as_of": "2026-11-19T07:54:46+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,323.63",
+      "change": "-0.23%",
+      "dir": "down",
+      "as_of": "2026-11-18T21:57:25+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "24,429.89",
+      "change": "+0.42%",
+      "dir": "up",
+      "as_of": "2026-11-18T22:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,738.00",
+      "change": "-0.10%",
+      "dir": "down",
+      "as_of": "2026-11-19T07:59:44+00:00",
+      "source": {
+        "name": "Yahoo Finance (COMEX futures)",
+        "url": "https://finance.yahoo.com/quote/GC=F"
+      }
+    },
+    {
+      "id": "gold_mcx",
+      "label": "Gold MCX",
+      "value": "₹1,28,858/10g",
+      "change": "-0.74%",
+      "dir": "down",
+      "as_of": "2026-11-19T10:58:19+05:30",
+      "source": {
+        "name": "Business Standard",
+        "url": "https://www.business-standard.com/markets/commodities/gold-silver-fall-as-strong-dollar-fed-rate-outlook-weigh-on-bullion-126111900318_1.html"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$92.06",
+      "change": "+0.12%",
+      "dir": "up",
+      "as_of": "2026-11-19T08:01:49+00:00",
+      "source": {
+        "name": "Yahoo Finance (Jan ICE Brent)",
+        "url": "https://finance.yahoo.com/quote/BZF27.NYM"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$63,650",
+      "change": "+1.05%",
+      "dir": "up",
+      "as_of": "2026-11-19T08:09:44+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "5.07%",
+      "change": "-0.73%",
+      "dir": "down",
+      "as_of": "2026-11-18T19:59:55+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-defence-capex-hike-2026-11-19",
+          "headline": "Defence Ministry seeks 20% bigger capital budget; HAL, BEL, BDL shares rise",
+          "summary": "Defence Secretary Rajesh Kumar Singh says the ministry wants about a 20% rise in capital spending for FY28, on top of the 22% increase it got last year. Big buys such as 114 Rafale jets and six Project 75I submarines could be on the list. Defence shares including HAL, BEL and BDL rose up to 3% on Thursday.",
+          "why_it_matters": "A bigger arms budget would feed the order books of Indian defence makers for years.",
+          "importance": 4,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Mint.",
+          "published_at": "2026-11-19T13:23:37+05:30",
+          "tags": [
+            "Defence",
+            "Budget"
+          ],
+          "sources": [
+            {
+              "name": "Mint",
+              "url": "https://www.livemint.com/market/stock-market-news/114-rafales-6-submarines-defence-stocks-hal-bel-bdl-shares-jump-up-to-3-is-a-mega-defence-order-boom-coming-11795072244167.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Defence",
+              "level": "medium",
+              "dir": "up",
+              "why": "A larger capital budget points to more orders for defence makers."
+            }
+          ]
+        },
+        {
+          "id": "india-modi-ficci-india-first-2026-11-19",
+          "headline": "Modi asks industry to make 'India First' the basis of long-term investment",
+          "summary": "Speaking at FICCI's centenary convention in New Delhi, PM Narendra Modi urged companies to put India first in their investment plans for the next 20 years. He said India is growing at about 7% and that goods exports last month were nearly $50 billion, a monthly record. He also invited suggestions from industry on further reforms.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-19T12:27:00+05:30",
+          "tags": [
+            "Modi",
+            "Industry",
+            "Investment"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/pm-modi-to-inaugurate-ficcis-annual-general-meeting-and-convention-in-new-delhi/"
+            },
+            {
+              "name": "The Hindu",
+              "url": "https://www.thehindu.com/business/pm-modi-ficci-india-inc-ficci-annual-general-meeting-and-annual-convention-november-19-2026/article71719140.ece"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "india-psb-h1-profit-2026-11-19",
+          "headline": "Public sector banks' half-year profit tops ₹1 lakh crore, up 16.9%",
+          "summary": "The Finance Ministry says state-run banks earned over ₹1 lakh crore in net profit in April-September, 16.9% more than a year earlier. Loans grew 18.8% and deposits 13.1%. Gross bad loans fell to 1.69% and net bad loans to 0.33%.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio (Finance Ministry data).",
+          "published_at": "2026-11-19T08:21:00+05:30",
+          "tags": [
+            "Banks",
+            "PSU"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/psbs-record-16-9-growth-in-aggregate-net-profit-to-over-one-lakh-crore-rupees-in-first-half-of-fy-2026-27/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Banks",
+              "level": "low",
+              "dir": "up",
+              "why": "Strong profits and cleaner books support state-run bank shares."
+            }
+          ]
+        },
+        {
+          "id": "india-bay-of-bengal-cyclone-2026-11-14",
+          "headline": "Cyclone Akvan to cross Andhra-Odisha coast by Friday afternoon; Bengal on alert",
+          "summary": "New today: IMD says severe cyclonic storm Akvan should cross the coast between Narsapur in Andhra Pradesh and Puri in Odisha by Friday afternoon, and West Bengal has issued heavy rain warnings for five districts. Andhra Pradesh has put NDRF and SDRF teams on standby, and farmers in Srikakulam were told to protect harvested paddy.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio (citing IMD).",
+          "published_at": "2026-11-19T08:13:00+05:30",
+          "tags": [
+            "Cyclone",
+            "Weather",
+            "IMD"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/cyclone-akvan-intensifies-into-severe-cyclonic-storm-set-to-hit-andhra-pradesh-odisha-coasts-tomorrow/"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/heavy-rainfall-warning-issued-for-five-districts-of-west-bengal-as-cyclone-akvan-approaches/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-apec-shenzhen-trilateral-2026-11-18",
+          "headline": "Trump meets Putin and Xi separately in Shenzhen; three-way talks still to come",
+          "summary": "New today: Trump held a 40-minute meeting with Putin and then about an hour with Xi before their first three-way summit, due later on Thursday. Trump said the US and China both want energy to keep flowing through the Strait of Hormuz and that Iran cannot have a nuclear weapon. A Kremlin aide said Ukraine was the main topic with Putin and called it a good meeting. No deals were announced.",
+          "why_it_matters": "Any deal on Ukraine, Iran or trade between the three biggest military powers could move oil, the dollar and global stocks.",
+          "importance": 5,
+          "lead": true,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-19T01:45:00-05:00",
+          "tags": [
+            "APEC",
+            "US",
+            "China",
+            "Russia"
+          ],
+          "sources": [
+            {
+              "name": "NBC News",
+              "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-xi-putin-china-apec-congress-2026-live-updates-rcna609888"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26322592600688-1-1795073444.jpg",
+            "credit": "Xinhua via AP",
+            "source_url": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit",
+            "alt": "Donald Trump, Xi Jinping and Vladimir Putin meet at the APEC summit in Shenzhen"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Talk of keeping Hormuz open eases supply worries, but no deal yet."
+            }
+          ]
+        },
+        {
+          "id": "world-crimean-bridge-third-attack-2026-11-19",
+          "headline": "Russia says Ukraine hit the Crimean Bridge again, the third strike this week",
+          "summary": "Crimea's Moscow-installed head Sergei Aksyonov says a night-time drone attack hit the bridge again, and rail traffic was briefly halted. Russia's transport ministry says nobody was hurt. Part of the bridge had already collapsed after two earlier strikes this week.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Claim by Russian officials; single source: BBC.",
+          "published_at": "2026-11-19T00:00:00+00:00",
+          "tags": [
+            "Ukraine",
+            "Russia",
+            "Crimea"
+          ],
+          "sources": [
+            {
+              "name": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-bangladesh-unrest-2026-11-19",
+          "headline": "Bangladesh violence spreads: arson, crude bombs and two BNP leaders killed",
+          "summary": "Arson, crude bomb blasts and clashes were reported across several districts overnight, as police stepped up arrests of Awami League figures, including former minister Nurul Islam Nahid. Muhammad Yunus's ancestral home in Chattogram caught fire in a suspected petrol bomb attack, and two BNP leaders died after an attack on a procession in Narail.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-19T12:53:00+05:30",
+          "tags": [
+            "Bangladesh",
+            "Neighbours"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/political-tensions-escalate-in-bangladesh-fresh-arson-attacks-bomb-blasts-and-two-deaths-reported/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-iran-blockade-economy-2026-11-19",
+          "headline": "US Treasury chief says Iran's economy is collapsing under blockade; Tehran disagrees",
+          "summary": "Scott Bessent says Iran faces one of the fastest economic collapses in history and sees its economy shrinking 25% by March. Iran's central bank governor rejected that, and the economy minister says most land trade routes remain open. Official Iranian data show inflation near 77% on a 12-month average.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera. Bessent's forecast is a claim by the US side.",
+          "published_at": "2026-11-19T07:08:57+00:00",
+          "tags": [
+            "Iran",
+            "US",
+            "Sanctions"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/11/19/too-early-to-determine-impact-of-us-siege-on-iran-with-tehran-defiant"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "id": "currency-rupee-early-93-49-2026-11-19",
+          "headline": "Rupee slips to 93.49 early on strong dollar, then firms as stocks recover",
+          "summary": "The rupee opened at 93.40 and slipped to 93.49 per dollar in early trade, weighed by a firm dollar and weak stocks, while cheaper oil and foreign inflows limited the fall. By about 1:40 PM a Yahoo Finance quote showed it near 93.24 as Indian shares turned higher. It settled near 93.44 on Wednesday.",
+          "why_it_matters": "The rupee is holding near a seven-month high despite a dollar at a 19-month peak, thanks to record foreign buying of Indian shares.",
+          "importance": 4,
+          "lead": false,
+          "verified": false,
+          "note": "Single source for rupee levels: The Hindu (PTI); midday quote from Yahoo Finance only.",
+          "published_at": "2026-11-19T10:22:55+05:30",
+          "tags": [
+            "Rupee",
+            "Dollar"
+          ],
+          "sources": [
+            {
+              "name": "The Hindu",
+              "url": "https://www.thehindu.com/business/markets/rupee-slides-8-paise-to-9349-against-us-dollar-in-early-trade/article71718683.ece"
+            }
+          ],
+          "image": {
+            "url": "https://th-i.thgim.com/public/incoming/4kwz9h/article71718704.ece/alternates/LANDSCAPE_1200/2026-07-14T094031Z_1366071718_RC2UCLA7PW45_RTRMADP_3_INDIA-CENBANK-RATES.JPG",
+            "credit": "Reuters",
+            "source_url": "https://www.thehindu.com/business/markets/rupee-slides-8-paise-to-9349-against-us-dollar-in-early-trade/article71718683.ece",
+            "alt": "A man counts Indian rupee notes"
+          },
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Foreign inflows and cheaper oil offset a strong dollar."
+            }
+          ]
+        },
+        {
+          "id": "currency-waller-aggressive-fed-2026-11-18",
+          "headline": "Fed's Waller calls for 'aggressive' action; dollar hits a fresh 19-month high",
+          "summary": "Fed Governor Christopher Waller told CNBC the Fed should either raise rates by half a point in December or use its statement to signal more hikes. The dollar touched a new 19-month high on Wednesday and held near it in Asia on Thursday. Markets fully price a quarter-point hike next month.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-18T00:00:00-05:00",
+          "tags": [
+            "Fed",
+            "Dollar",
+            "Rates"
+          ],
+          "sources": [
+            {
+              "name": "Mint (Reuters)",
+              "url": "https://www.livemint.com/market/dollar-firmer-as-hawkish-waller-backs-aggressive-fed-action-11795032241133.html"
+            },
+            {
+              "name": "Economic Times",
+              "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/us-dollar-hovers-near-19-month-high-aussie-falls-after-soft-jobs-data/articleshow/135975502.cms"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "Dollar",
+              "level": "medium",
+              "dir": "up",
+              "why": "Talk of a bigger Fed hike supports the dollar."
+            },
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "down",
+              "why": "A stronger dollar adds pressure on the rupee."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "id": "markets-sensex-nifty-midday-2026-11-19",
+          "headline": "Sensex, Nifty recover to gain about 0.5% by midday as auto stocks jump",
+          "summary": "After opening lower on Fed hike worries, the Sensex was up about 420 points at 82,456 and the Nifty about 0.6% higher at 25,383 around 1:40 PM. The Nifty Auto index rose up to 4% as falling copper and aluminium prices eased cost worries, with Maruti Suzuki up 5-7%. Paytm fell nearly 7% on worries that UPI merchant charges will be delayed again.",
+          "why_it_matters": "Cheaper metals ease cost pressure for carmakers, whose profits were squeezed by the West Asia war.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-19T13:09:25+05:30",
+          "tags": [
+            "Sensex",
+            "Nifty",
+            "Auto"
+          ],
+          "sources": [
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/markets/news/maruti-m-m-hero-moto-eicher-rally-up-to-5-what-s-driving-auto-stocks-126111900282_1.html"
+            },
+            {
+              "name": "Mint",
+              "url": "https://www.livemint.com/market/stock-market-news/auto-stocks-hit-the-accelerator-nifty-auto-jumps-4-maruti-m-m-tata-motors-pv-lead-rally-whats-behind-the-surg-11795070748708.html"
+            },
+            {
+              "name": "The Hindu",
+              "url": "https://www.thehindu.com/business/markets/stock-markets-fall-in-early-trade-dragged-by-it-firms-us-fed-sens/article71718760.ece"
+            }
+          ],
+          "image": {
+            "url": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-08/02/thumb/fitandfill/1200X628/1785687176-5807.jpg",
+            "credit": "Business Standard",
+            "source_url": "https://www.business-standard.com/markets/news/maruti-m-m-hero-moto-eicher-rally-up-to-5-what-s-driving-auto-stocks-126111900282_1.html",
+            "alt": "A Maruti Suzuki showroom building with its logo"
+          },
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Auto",
+              "level": "medium",
+              "dir": "up",
+              "why": "Lower metal prices should help carmakers' margins."
+            },
+            {
+              "on": "company",
+              "detail": "Paytm",
+              "level": "medium",
+              "dir": "down",
+              "why": "Delay to UPI merchant fees hurts its revenue outlook."
+            }
+          ]
+        },
+        {
+          "id": "markets-gold-mcx-extends-fall-2026-11-19",
+          "headline": "Gold slips again to about ₹1.29 lakh on MCX after 3% drop to 14-month low",
+          "summary": "MCX December gold fell about ₹950 to near ₹1,28,860 per 10 grams on Thursday morning, and silver lost about ₹1,000 to near ₹1,59,740 per kg. On Wednesday spot gold had dropped 3.2% to its lowest since September 2025 after hawkish Fed signals lifted the dollar and US yields.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-19T10:58:19+05:30",
+          "tags": [
+            "Gold",
+            "Silver",
+            "MCX"
+          ],
+          "sources": [
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/markets/commodities/gold-silver-fall-as-strong-dollar-fed-rate-outlook-weigh-on-bullion-126111900318_1.html"
+            },
+            {
+              "name": "Mint (Reuters)",
+              "url": "https://www.livemint.com/market/gold-drops-to-14-month-low-as-dollar-yields-rise-on-hawkish-fed-rhetoric-11795032242167.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "gold",
+              "level": "medium",
+              "dir": "down",
+              "why": "A strong dollar and Fed hike bets keep pressure on gold."
+            },
+            {
+              "on": "silver",
+              "level": "medium",
+              "dir": "down",
+              "why": "Silver is following gold lower."
+            }
+          ]
+        },
+        {
+          "id": "markets-mahanadi-coalfields-ipo-2026-11-19",
+          "headline": "Coal India arm Mahanadi Coalfields opens ₹8,981 crore IPO",
+          "summary": "Mahanadi Coalfields' IPO opened on Thursday at ₹129-136 a share and closes on November 23, with listing due on November 27. It is entirely a sale of shares by parent Coal India, valuing MCL at about ₹90,000 crore at the top of the range. MCL produced 21% of India's coal in FY26.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-19T09:36:00+05:30",
+          "tags": [
+            "IPO",
+            "Coal India"
+          ],
+          "sources": [
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/markets/ipo/mahanadi-coalfields-8-981-cr-ipo-opens-today-price-lot-size-dates-126111900200_1.html"
+            },
+            {
+              "name": "Mint",
+              "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-gmp-today-at-rs-3-vs-rs-136-price-band-should-you-apply-for-coal-india-arms-shares-or-not-11795054572842.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Coal India",
+              "level": "low",
+              "dir": "up",
+              "why": "Coal India receives all the money from the share sale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "id": "built-gta-vi-launch-2026-11-19",
+          "headline": "Grand Theft Auto VI launches with near-perfect reviews after 13-year wait",
+          "summary": "Rockstar Games released GTA VI on consoles worldwide on Thursday. It holds a Metacritic score of 99 out of 100 from more than 150 reviews, with IGN calling it the most impressive game its critic had played. It is one of the most awaited entertainment releases ever.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera.",
+          "published_at": "2026-11-19T06:08:47+00:00",
+          "tags": [
+            "Gaming",
+            "Take-Two"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/19/grand-theft-auto-vi-launches-to-rave-reviews-after-13-year-wait"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Take-Two",
+              "level": "medium",
+              "dir": "up",
+              "why": "Strong reviews for its biggest game can lift sales and the stock."
+            }
+          ]
+        },
+        {
+          "id": "built-acme-paradip-green-ammonia-2026-11-18",
+          "headline": "ACME closes deal for $3.6 billion green ammonia plant in Odisha",
+          "summary": "ACME Group has completed the formalities for a green ammonia plant at Paradip that will make 760,000 tonnes a year, with Brookfield investing $600 million. Thyssenkrupp Uhde will supply the 2,200-tonne-a-day ammonia technology, and the plant is due to start in 2029.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: The Hindu.",
+          "published_at": "2026-11-18T22:07:59+05:30",
+          "tags": [
+            "Green hydrogen",
+            "Energy"
+          ],
+          "sources": [
+            {
+              "name": "The Hindu",
+              "url": "https://www.thehindu.com/business/acme-seals-36-billion-deal-for-odisha-green-ammonia-project/article71717139.ece"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "USD",
+      "title": "FOMC Meeting Minutes",
+      "date": "2026-11-18T14:00:00-05:00",
+      "impact": "High",
+      "actual": "Hawkish",
+      "vs_forecast": "better",
+      "why": "Almost all officials see more hikes ahead, backing the dollar; tighter US policy can weigh on the rupee.",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+      }
+    },
+    {
+      "country": "AUD",
+      "title": "Employment Change",
+      "date": "2026-11-18T19:30:00-05:00",
+      "impact": "High",
+      "actual": "-43.5K",
+      "vs_forecast": "worse",
+      "why": "Australia lost jobs when a 25,500 gain was expected, which hurts the Aussie dollar.",
+      "source": {
+        "name": "Australian Bureau of Statistics",
+        "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release"
+      }
+    },
+    {
+      "country": "AUD",
+      "title": "Unemployment Rate",
+      "date": "2026-11-18T19:30:00-05:00",
+      "impact": "High",
+      "actual": "4.9%",
+      "vs_forecast": "worse",
+      "why": "Joblessness rose above the 4.7% forecast to a five-year high, cutting RBA hike bets.",
+      "source": {
+        "name": "Australian Bureau of Statistics",
+        "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-19",
+      "events": [
+        {
+          "text": "Mahanadi Coalfields IPO opens (closes Nov 23)",
+          "section": "markets"
+        },
+        {
+          "text": "Trump-Xi talks and first Xi-Trump-Putin summit in Shenzhen",
+          "section": "world"
+        },
+        {
+          "text": "US envoys meet Ukrainian and European officials in Berlin",
+          "section": "world"
+        },
+        {
+          "text": "India-Japan 2+2 defence and foreign ministers' dialogue in Tokyo",
+          "section": "india"
+        },
+        {
+          "text": "Anthropic shares start trading on Nasdaq (ANT)",
+          "section": "markets"
+        },
+        {
+          "text": "US weekly jobless claims and Philly Fed index",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "events": [
+        {
+          "text": "Cyclone Akvan expected to cross north Andhra-south Odisha coast (IMD)",
+          "section": "india"
+        },
+        {
+          "text": "India hosts first SCO Civilisational Dialogue Forum in New Delhi",
+          "section": "india"
+        },
+        {
+          "text": "UK October retail sales",
+          "section": "currency"
+        },
+        {
+          "text": "COP31 climate talks due to end in Turkiye",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "events": [
+        {
+          "text": "Mahanadi Coalfields IPO closes",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "events": [
+        {
+          "text": "Mahanadi Coalfields shares due to list on BSE and NSE",
+          "section": "markets"
+        }
+      ]
+    }
+  ]
+}

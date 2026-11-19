@@ -1,45 +1,45 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-19-morning",
+  "edition_id": "2026-11-19-midday",
   "date": "2026-11-19",
-  "slot": "morning",
-  "title": "Thursday Morning Edition",
-  "generated_at": "2026-11-19T07:38:04+05:30",
+  "slot": "midday",
+  "title": "Thursday Midday Edition",
+  "generated_at": "2026-11-19T13:47:28+05:30",
   "snapshot": [
     {
       "id": "usdinr",
       "label": "USD/INR",
-      "value": "93.44",
-      "change": "-0.04%",
+      "value": "93.24",
+      "change": "-0.25%",
       "dir": "down",
-      "as_of": "2026-11-19T01:59:40+00:00",
+      "as_of": "2026-11-19T08:09:44+00:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/USDINR=X/"
+        "url": "https://finance.yahoo.com/quote/INR=X"
       }
     },
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "102.53",
-      "change": "-0.14%",
+      "value": "102.40",
+      "change": "-0.27%",
       "dir": "down",
-      "as_of": "2026-11-19T02:01:43+00:00",
+      "as_of": "2026-11-19T08:09:47+00:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/EURINR=X/"
+        "url": "https://finance.yahoo.com/quote/EURINR=X"
       }
     },
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "103.82",
-      "change": null,
-      "dir": "flat",
-      "as_of": "2026-11-19T01:51:54+00:00",
+      "value": "103.77",
+      "change": "-0.08%",
+      "dir": "down",
+      "as_of": "2026-11-19T07:59:46+00:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/DX-Y.NYB/"
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
       }
     },
     {
@@ -57,25 +57,25 @@
     {
       "id": "nifty",
       "label": "Nifty 50",
-      "value": "25,227.95",
-      "change": "-0.63%",
-      "dir": "down",
-      "as_of": "2026-11-18T10:01:09+00:00",
+      "value": "25,383.35",
+      "change": "+0.62%",
+      "dir": "up",
+      "as_of": "2026-11-19T08:09:46+00:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/%5ENSEI/"
+        "url": "https://finance.yahoo.com/quote/%5ENSEI"
       }
     },
     {
       "id": "sensex",
       "label": "Sensex",
-      "value": "82,031.81",
-      "change": "-0.61%",
-      "dir": "down",
-      "as_of": "2026-11-18T10:02:36+00:00",
+      "value": "82,455.65",
+      "change": "+0.52%",
+      "dir": "up",
+      "as_of": "2026-11-19T07:54:46+00:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/%5EBSESN/"
+        "url": "https://finance.yahoo.com/quote/%5EBSESN"
       }
     },
     {
@@ -105,49 +105,49 @@
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$3,752.50",
-      "change": "+0.28%",
-      "dir": "up",
-      "as_of": "2026-11-19T01:51:55+00:00",
+      "value": "$3,738.00",
+      "change": "-0.10%",
+      "dir": "down",
+      "as_of": "2026-11-19T07:59:44+00:00",
       "source": {
         "name": "Yahoo Finance (COMEX futures)",
-        "url": "https://finance.yahoo.com/quote/GC=F/"
+        "url": "https://finance.yahoo.com/quote/GC=F"
       }
     },
     {
       "id": "gold_mcx",
-      "label": "Gold 24K (IBJA)",
-      "value": "₹1,31,164/10g",
-      "change": "-2.3%",
+      "label": "Gold MCX",
+      "value": "₹1,28,858/10g",
+      "change": "-0.74%",
       "dir": "down",
-      "as_of": "2026-11-18T17:37:00+05:30",
+      "as_of": "2026-11-19T10:58:19+05:30",
       "source": {
-        "name": "All India Radio",
-        "url": "https://newsonair.gov.in/downward-trend-in-gold-silver-prices/"
+        "name": "Business Standard",
+        "url": "https://www.business-standard.com/markets/commodities/gold-silver-fall-as-strong-dollar-fed-rate-outlook-weigh-on-bullion-126111900318_1.html"
       }
     },
     {
       "id": "brent",
       "label": "Brent crude",
-      "value": "$91.95",
-      "change": "-1.28%",
-      "dir": "down",
-      "as_of": "2026-11-18T00:00:00+00:00",
+      "value": "$92.06",
+      "change": "+0.12%",
+      "dir": "up",
+      "as_of": "2026-11-19T08:01:49+00:00",
       "source": {
-        "name": "Reuters (via Euronext)",
-        "url": "https://live.euronext.com/en/financial-news/oil-prices-fall-higher-us-crude-stocks-temper-supply-risks"
+        "name": "Yahoo Finance (Jan ICE Brent)",
+        "url": "https://finance.yahoo.com/quote/BZF27.NYM"
       }
     },
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$62,714",
-      "change": null,
-      "dir": "flat",
-      "as_of": "2026-11-19T02:01:52+00:00",
+      "value": "$63,650",
+      "change": "+1.05%",
+      "dir": "up",
+      "as_of": "2026-11-19T08:09:44+00:00",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/BTC-USD/"
+        "url": "https://finance.yahoo.com/quote/BTC-USD"
       }
     },
     {
@@ -169,84 +169,118 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-indigo-saudi-flights-2026-11-19",
-          "headline": "IndiGo cancels all flights to four Saudi cities until November 30",
-          "summary": "IndiGo has cancelled flights to and from Jeddah, Madinah, Riyadh and Dammam until November 30, citing the security situation in the region. The airline says it is contacting affected passengers. Indian carriers have extended Saudi suspensions several times since October.",
-          "why_it_matters": "Saudi Arabia is a key route for Indian workers and Umrah pilgrims, and the Gulf conflict keeps disrupting travel.",
-          "importance": 3,
+          "id": "india-defence-capex-hike-2026-11-19",
+          "headline": "Defence Ministry seeks 20% bigger capital budget; HAL, BEL, BDL shares rise",
+          "summary": "Defence Secretary Rajesh Kumar Singh says the ministry wants about a 20% rise in capital spending for FY28, on top of the 22% increase it got last year. Big buys such as 114 Rafale jets and six Project 75I submarines could be on the list. Defence shares including HAL, BEL and BDL rose up to 3% on Thursday.",
+          "why_it_matters": "A bigger arms budget would feed the order books of Indian defence makers for years.",
+          "importance": 4,
           "lead": false,
           "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-19T06:31:00+05:30",
+          "note": "Single source: Mint.",
+          "published_at": "2026-11-19T13:23:37+05:30",
           "tags": [
-            "Aviation",
-            "Saudi Arabia",
-            "IndiGo"
+            "Defence",
+            "Budget"
           ],
           "sources": [
             {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/indigo-cancels-flights-to-jeddah-madinah-riyadh-and-dammam-until-november-30-amid-security-concerns/"
+              "name": "Mint",
+              "url": "https://www.livemint.com/market/stock-market-news/114-rafales-6-submarines-defence-stocks-hal-bel-bdl-shares-jump-up-to-3-is-a-mega-defence-order-boom-coming-11795072244167.html"
             }
           ],
-          "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2025/12/Navi-Mumbai-IndiGo-3-1-1.jpeg",
-            "credit": "All India Radio",
-            "source_url": "https://newsonair.gov.in/indigo-cancels-flights-to-jeddah-madinah-riyadh-and-dammam-until-november-30-amid-security-concerns/",
-            "alt": "An IndiGo Airbus A320neo on an airport runway"
-          },
+          "image": null,
           "impact": [
             {
-              "on": "company",
-              "detail": "IndiGo",
-              "level": "low",
-              "dir": "down",
-              "why": "Weeks more of cancelled Gulf routes cut into revenue."
+              "on": "indian_stocks",
+              "detail": "Defence",
+              "level": "medium",
+              "dir": "up",
+              "why": "A larger capital budget points to more orders for defence makers."
             }
           ]
         },
         {
-          "id": "india-jaishankar-raisina-tokyo-2026-11-18",
-          "headline": "Jaishankar pitches India to Japanese investors ahead of Thursday's 2+2 talks",
-          "summary": "Speaking at Raisina Tokyo, External Affairs Minister S Jaishankar said better infrastructure and a better business climate make India attractive for Japanese money. He named semiconductors, critical minerals, clean energy, AI, pharma and defence as areas for closer work. The India-Japan 2+2 ministers' meeting is on Thursday.",
+          "id": "india-modi-ficci-india-first-2026-11-19",
+          "headline": "Modi asks industry to make 'India First' the basis of long-term investment",
+          "summary": "Speaking at FICCI's centenary convention in New Delhi, PM Narendra Modi urged companies to put India first in their investment plans for the next 20 years. He said India is growing at about 7% and that goods exports last month were nearly $50 billion, a monthly record. He also invited suggestions from industry on further reforms.",
           "why_it_matters": null,
-          "importance": 2,
+          "importance": 3,
           "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-18T20:44:00+05:30",
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-19T12:27:00+05:30",
           "tags": [
-            "Japan",
-            "Diplomacy",
+            "Modi",
+            "Industry",
             "Investment"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/improved-infrastructure-and-business-environment-make-india-attractive-destination-for-japanese-investment-says-eam-jaishankar/"
+              "url": "https://newsonair.gov.in/pm-modi-to-inaugurate-ficcis-annual-general-meeting-and-convention-in-new-delhi/"
+            },
+            {
+              "name": "The Hindu",
+              "url": "https://www.thehindu.com/business/pm-modi-ficci-india-inc-ficci-annual-general-meeting-and-annual-convention-november-19-2026/article71719140.ece"
             }
           ],
           "image": null,
           "impact": []
         },
         {
-          "id": "india-modi-prince-wales-2026-11-18",
-          "headline": "PM Modi meets the Prince and Princess of Wales in New Delhi",
-          "summary": "Prime Minister Narendra Modi met Prince William and Catherine in New Delhi on Wednesday. They discussed defence, health, education and fintech ties under the India-UK Vision 2035 plan. The India-UK trade agreement took effect in July.",
+          "id": "india-psb-h1-profit-2026-11-19",
+          "headline": "Public sector banks' half-year profit tops ₹1 lakh crore, up 16.9%",
+          "summary": "The Finance Ministry says state-run banks earned over ₹1 lakh crore in net profit in April-September, 16.9% more than a year earlier. Loans grew 18.8% and deposits 13.1%. Gross bad loans fell to 1.69% and net bad loans to 0.33%.",
           "why_it_matters": null,
-          "importance": 2,
+          "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-19T06:29:00+05:30",
+          "note": "Single source: All India Radio (Finance Ministry data).",
+          "published_at": "2026-11-19T08:21:00+05:30",
           "tags": [
-            "UK",
-            "Diplomacy"
+            "Banks",
+            "PSU"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/pm-modi-discusses-ways-to-strengthen-india-uk-strategic-partnership-with-prince-and-princess-of-wales-in-new-delhi/"
+              "url": "https://newsonair.gov.in/psbs-record-16-9-growth-in-aggregate-net-profit-to-over-one-lakh-crore-rupees-in-first-half-of-fy-2026-27/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Banks",
+              "level": "low",
+              "dir": "up",
+              "why": "Strong profits and cleaner books support state-run bank shares."
+            }
+          ]
+        },
+        {
+          "id": "india-bay-of-bengal-cyclone-2026-11-14",
+          "headline": "Cyclone Akvan to cross Andhra-Odisha coast by Friday afternoon; Bengal on alert",
+          "summary": "New today: IMD says severe cyclonic storm Akvan should cross the coast between Narsapur in Andhra Pradesh and Puri in Odisha by Friday afternoon, and West Bengal has issued heavy rain warnings for five districts. Andhra Pradesh has put NDRF and SDRF teams on standby, and farmers in Srikakulam were told to protect harvested paddy.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio (citing IMD).",
+          "published_at": "2026-11-19T08:13:00+05:30",
+          "tags": [
+            "Cyclone",
+            "Weather",
+            "IMD"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/cyclone-akvan-intensifies-into-severe-cyclonic-storm-set-to-hit-andhra-pradesh-odisha-coasts-tomorrow/"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/heavy-rainfall-warning-issued-for-five-districts-of-west-bengal-as-cyclone-akvan-approaches/"
             }
           ],
           "image": null,
@@ -260,137 +294,111 @@
       "stories": [
         {
           "id": "world-apec-shenzhen-trilateral-2026-11-18",
-          "headline": "Trump, Xi and Putin meet in Shenzhen today; Trump adds one-on-one with Putin",
-          "summary": "New since last night: Trump joined Xi and Putin at the APEC welcome banquet, where Xi said leaders would discuss further opening up. A US official told Al Jazeera that Trump will also meet Putin alone on Thursday, alongside a Trump-Xi meeting and the first three-way summit. US envoys Witkoff and Kushner meet Ukrainian and European officials in Berlin the same day.",
-          "why_it_matters": "Any sign of a US-Russia deal on Ukraine or US-China trade relief could move oil, gold and global stocks.",
+          "headline": "Trump meets Putin and Xi separately in Shenzhen; three-way talks still to come",
+          "summary": "New today: Trump held a 40-minute meeting with Putin and then about an hour with Xi before their first three-way summit, due later on Thursday. Trump said the US and China both want energy to keep flowing through the Strait of Hormuz and that Iran cannot have a nuclear weapon. A Kremlin aide said Ukraine was the main topic with Putin and called it a good meeting. No deals were announced.",
+          "why_it_matters": "Any deal on Ukraine, Iran or trade between the three biggest military powers could move oil, the dollar and global stocks.",
           "importance": 5,
-          "lead": false,
+          "lead": true,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-18T14:47:00-05:00",
+          "published_at": "2026-11-19T01:45:00-05:00",
           "tags": [
             "APEC",
             "US",
             "China",
-            "Russia",
-            "Ukraine"
+            "Russia"
           ],
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html"
+              "name": "NBC News",
+              "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-xi-putin-china-apec-congress-2026-live-updates-rcna609888"
             },
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/18/trump-and-putin-to-meet-one-on-one-in-china-thursday"
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit"
             }
           ],
           "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-18T114442Z_790680677_RC2BQOAGHXCC_RTRMADP_3_APEC-SUMMIT-1795002390.jpg?resize=1920%2C1440",
-            "credit": "Reuters",
-            "source_url": "https://www.aljazeera.com/news/2026/11/18/trump-and-putin-to-meet-one-on-one-in-china-thursday",
-            "alt": "Trump shakes hands with Putin as Xi Jinping looks on in Shenzhen"
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26322592600688-1-1795073444.jpg",
+            "credit": "Xinhua via AP",
+            "source_url": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit",
+            "alt": "Donald Trump, Xi Jinping and Vladimir Putin meet at the APEC summit in Shenzhen"
           },
           "impact": [
             {
               "on": "oil",
-              "level": "medium",
-              "dir": "mixed",
-              "why": "Progress on Ukraine could ease supply worries; no deal keeps risk premium."
-            },
-            {
-              "on": "us_stocks",
               "level": "low",
               "dir": "mixed",
-              "why": "Trade signals from the Trump-Xi talks could sway sentiment."
+              "why": "Talk of keeping Hormuz open eases supply worries, but no deal yet."
             }
           ]
         },
         {
-          "id": "world-iran-kuwait-bahrain-attacks-2026-11-18",
-          "headline": "Iran says it hit US sites in Kuwait; Bahrain says it repelled new attack",
-          "summary": "Iran says it struck US drone and missile sites in Kuwait after the US hit a missile site on Qeshm island. Kuwait says it fired air defences at drones for the first time since September, and Bahrain says it repelled an attack early on Wednesday, its fourth in six days. Saudi Arabia, Qatar and the Gulf Cooperation Council condemned the attacks.",
-          "why_it_matters": "Attacks spreading to more Gulf states raise the risk of a return to full war near the Strait of Hormuz.",
-          "importance": 4,
-          "lead": false,
-          "verified": true,
-          "note": "Iran's account of its targets is not independently confirmed.",
-          "published_at": "2026-11-18T00:00:00+00:00",
-          "tags": [
-            "Iran",
-            "Gulf",
-            "Kuwait",
-            "Bahrain"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/18/kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qeshm-island"
-            },
-            {
-              "name": "Reuters (via Euronext)",
-              "url": "https://live.euronext.com/en/financial-news/oil-prices-fall-higher-us-crude-stocks-temper-supply-risks"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "oil",
-              "level": "medium",
-              "dir": "up",
-              "why": "Wider Gulf attacks keep a risk premium on crude."
-            },
-            {
-              "on": "gold",
-              "level": "low",
-              "dir": "up",
-              "why": "War escalation adds safe-haven demand."
-            }
-          ]
-        },
-        {
-          "id": "world-us-hezbollah-sanctions-2026-11-18",
-          "headline": "US Treasury sanctions Hezbollah-linked charity and two gold firms",
-          "summary": "The US Treasury sanctioned the Wa Ta'awanu Association, which it calls a Hezbollah front, and its founder. It also targeted two Lebanon-based brothers it accuses of moving money from Iran to Hezbollah, and two gold companies linked to them.",
+          "id": "world-crimean-bridge-third-attack-2026-11-19",
+          "headline": "Russia says Ukraine hit the Crimean Bridge again, the third strike this week",
+          "summary": "Crimea's Moscow-installed head Sergei Aksyonov says a night-time drone attack hit the bridge again, and rail traffic was briefly halted. Russia's transport ministry says nobody was hurt. Part of the bridge had already collapsed after two earlier strikes this week.",
           "why_it_matters": null,
-          "importance": 2,
+          "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: Al Jazeera.",
-          "published_at": "2026-11-18T00:00:00+00:00",
+          "note": "Claim by Russian officials; single source: BBC.",
+          "published_at": "2026-11-19T00:00:00+00:00",
           "tags": [
-            "Sanctions",
-            "Lebanon",
-            "Iran"
+            "Ukraine",
+            "Russia",
+            "Crimea"
           ],
           "sources": [
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/18/us-steps-up-pressure-on-iran-backed-hezbollah-with-new-sanctions"
+              "name": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo"
             }
           ],
           "image": null,
           "impact": []
         },
         {
-          "id": "world-hegseth-venezuela-deal-2026-11-18",
-          "headline": "Hegseth signs military cooperation deal with Venezuela on surprise Caracas trip",
-          "summary": "US Defence Secretary Pete Hegseth announced an agreement with Venezuela's interim government covering intelligence sharing and joint training. Interim President Delcy Rodriguez called it a resumption of military ties. Hegseth then headed to Colombia.",
+          "id": "world-bangladesh-unrest-2026-11-19",
+          "headline": "Bangladesh violence spreads: arson, crude bombs and two BNP leaders killed",
+          "summary": "Arson, crude bomb blasts and clashes were reported across several districts overnight, as police stepped up arrests of Awami League figures, including former minister Nurul Islam Nahid. Muhammad Yunus's ancestral home in Chattogram caught fire in a suspected petrol bomb attack, and two BNP leaders died after an attack on a procession in Narail.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-19T12:53:00+05:30",
+          "tags": [
+            "Bangladesh",
+            "Neighbours"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/political-tensions-escalate-in-bangladesh-fresh-arson-attacks-bomb-blasts-and-two-deaths-reported/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-iran-blockade-economy-2026-11-19",
+          "headline": "US Treasury chief says Iran's economy is collapsing under blockade; Tehran disagrees",
+          "summary": "Scott Bessent says Iran faces one of the fastest economic collapses in history and sees its economy shrinking 25% by March. Iran's central bank governor rejected that, and the economy minister says most land trade routes remain open. Official Iranian data show inflation near 77% on a 12-month average.",
           "why_it_matters": null,
           "importance": 2,
           "lead": false,
           "verified": false,
-          "note": "Single source: Al Jazeera.",
-          "published_at": "2026-11-18T00:00:00+00:00",
+          "note": "Single source: Al Jazeera. Bessent's forecast is a claim by the US side.",
+          "published_at": "2026-11-19T07:08:57+00:00",
           "tags": [
-            "Venezuela",
+            "Iran",
             "US",
-            "Defence"
+            "Sanctions"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/18/us-defence-secretary-announces-military-partnership-on-trip-to-venezuela"
+              "url": "https://www.aljazeera.com/economy/2026/11/19/too-early-to-determine-impact-of-us-siege-on-iran-with-tehran-defiant"
             }
           ],
           "image": null,
@@ -403,15 +411,50 @@
       "title": "Currency Desk",
       "stories": [
         {
-          "id": "currency-fed-minutes-hawkish-2026-11-18",
-          "headline": "Fed minutes show almost all officials expect more rate hikes; dollar stays firm",
-          "summary": "Minutes of the Fed's October meeting show nearly all officials think further rate rises are likely needed, and a couple said December could need more than a quarter point. Many saw AI spending as a real inflation risk. Markets fully price a December hike, and the dollar index held near 103.8.",
-          "why_it_matters": "A Fed that keeps hiking supports the dollar and pulls money from emerging markets, which weighs on the rupee and gold.",
-          "importance": 5,
+          "id": "currency-rupee-early-93-49-2026-11-19",
+          "headline": "Rupee slips to 93.49 early on strong dollar, then firms as stocks recover",
+          "summary": "The rupee opened at 93.40 and slipped to 93.49 per dollar in early trade, weighed by a firm dollar and weak stocks, while cheaper oil and foreign inflows limited the fall. By about 1:40 PM a Yahoo Finance quote showed it near 93.24 as Indian shares turned higher. It settled near 93.44 on Wednesday.",
+          "why_it_matters": "The rupee is holding near a seven-month high despite a dollar at a 19-month peak, thanks to record foreign buying of Indian shares.",
+          "importance": 4,
+          "lead": false,
+          "verified": false,
+          "note": "Single source for rupee levels: The Hindu (PTI); midday quote from Yahoo Finance only.",
+          "published_at": "2026-11-19T10:22:55+05:30",
+          "tags": [
+            "Rupee",
+            "Dollar"
+          ],
+          "sources": [
+            {
+              "name": "The Hindu",
+              "url": "https://www.thehindu.com/business/markets/rupee-slides-8-paise-to-9349-against-us-dollar-in-early-trade/article71718683.ece"
+            }
+          ],
+          "image": {
+            "url": "https://th-i.thgim.com/public/incoming/4kwz9h/article71718704.ece/alternates/LANDSCAPE_1200/2026-07-14T094031Z_1366071718_RC2UCLA7PW45_RTRMADP_3_INDIA-CENBANK-RATES.JPG",
+            "credit": "Reuters",
+            "source_url": "https://www.thehindu.com/business/markets/rupee-slides-8-paise-to-9349-against-us-dollar-in-early-trade/article71718683.ece",
+            "alt": "A man counts Indian rupee notes"
+          },
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Foreign inflows and cheaper oil offset a strong dollar."
+            }
+          ]
+        },
+        {
+          "id": "currency-waller-aggressive-fed-2026-11-18",
+          "headline": "Fed's Waller calls for 'aggressive' action; dollar hits a fresh 19-month high",
+          "summary": "Fed Governor Christopher Waller told CNBC the Fed should either raise rates by half a point in December or use its statement to signal more hikes. The dollar touched a new 19-month high on Wednesday and held near it in Asia on Thursday. Markets fully price a quarter-point hike next month.",
+          "why_it_matters": null,
+          "importance": 3,
           "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-18T14:00:00-05:00",
+          "published_at": "2026-11-18T00:00:00-05:00",
           "tags": [
             "Fed",
             "Dollar",
@@ -419,12 +462,12 @@
           ],
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+              "name": "Mint (Reuters)",
+              "url": "https://www.livemint.com/market/dollar-firmer-as-hawkish-waller-backs-aggressive-fed-action-11795032241133.html"
             },
             {
-              "name": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes"
+              "name": "Economic Times",
+              "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/us-dollar-hovers-near-19-month-high-aussie-falls-after-soft-jobs-data/articleshow/135975502.cms"
             }
           ],
           "image": null,
@@ -432,63 +475,15 @@
             {
               "on": "currency",
               "detail": "Dollar",
-              "level": "high",
+              "level": "medium",
               "dir": "up",
-              "why": "Hawkish minutes back a December Fed hike."
-            },
-            {
-              "on": "rates",
-              "level": "high",
-              "dir": "up",
-              "why": "Officials see more hikes into 2027."
+              "why": "Talk of a bigger Fed hike supports the dollar."
             },
             {
               "on": "rupee",
-              "level": "medium",
+              "level": "low",
               "dir": "down",
-              "why": "Higher US rates can pull foreign money out of India."
-            },
-            {
-              "on": "gold",
-              "level": "medium",
-              "dir": "down",
-              "why": "Higher rates raise the cost of holding gold."
-            }
-          ]
-        },
-        {
-          "id": "currency-australia-jobs-aud-2026-11-19",
-          "headline": "Australian dollar slides as jobless rate jumps to 4.9%, highest since 2021",
-          "summary": "Australia lost 43,500 jobs in October against a forecast gain of about 25,000, and unemployment rose to 4.9% from 4.7%. The Aussie dollar fell about 0.9% to near 0.668 US cents. The data makes further Reserve Bank hikes less likely.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-19T11:30:00+11:00",
-          "tags": [
-            "Australia",
-            "AUD",
-            "Jobs"
-          ],
-          "sources": [
-            {
-              "name": "Australian Bureau of Statistics",
-              "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release"
-            },
-            {
-              "name": "ABC News",
-              "url": "https://www.abc.net.au/news/2026-11-19/unemployment-rate-jumps-in-october-in-australia/107399076"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "currency",
-              "detail": "Australian dollar",
-              "level": "medium",
-              "dir": "down",
-              "why": "Weak jobs cut the case for more RBA hikes."
+              "why": "A stronger dollar adds pressure on the rupee."
             }
           ]
         }
@@ -499,125 +494,130 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "id": "markets-anthropic-ipo-priced-2026-11-18",
-          "headline": "Anthropic prices record $81.3bn IPO at $83 a share; trading starts today",
-          "summary": "Anthropic sold about 980 million shares at $83 each, above its $70-78 range and in a bigger deal than planned. The $81.3 billion raised beats SpaceX's June listing as the biggest IPO ever and puts its value near $1.5 trillion. Shares start trading on Nasdaq under ANT on Thursday.",
-          "why_it_matters": "The debut is a test of investor appetite for AI just as AI stocks like Nvidia are falling sharply this month.",
-          "importance": 5,
-          "lead": true,
+          "id": "markets-sensex-nifty-midday-2026-11-19",
+          "headline": "Sensex, Nifty recover to gain about 0.5% by midday as auto stocks jump",
+          "summary": "After opening lower on Fed hike worries, the Sensex was up about 420 points at 82,456 and the Nifty about 0.6% higher at 25,383 around 1:40 PM. The Nifty Auto index rose up to 4% as falling copper and aluminium prices eased cost worries, with Maruti Suzuki up 5-7%. Paytm fell nearly 7% on worries that UPI merchant charges will be delayed again.",
+          "why_it_matters": "Cheaper metals ease cost pressure for carmakers, whose profits were squeezed by the West Asia war.",
+          "importance": 4,
+          "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-18T20:34:00-05:00",
+          "published_at": "2026-11-19T13:09:25+05:30",
           "tags": [
-            "IPO",
-            "AI",
-            "Anthropic",
-            "Nasdaq"
+            "Sensex",
+            "Nifty",
+            "Auto"
           ],
           "sources": [
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-raises-81-3bn-in-biggest-ipo-of-all-time"
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/markets/news/maruti-m-m-hero-moto-eicher-rally-up-to-5-what-s-driving-auto-stocks-126111900282_1.html"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+              "name": "Mint",
+              "url": "https://www.livemint.com/market/stock-market-news/auto-stocks-hit-the-accelerator-nifty-auto-jumps-4-maruti-m-m-tata-motors-pv-lead-rally-whats-behind-the-surg-11795070748708.html"
+            },
+            {
+              "name": "The Hindu",
+              "url": "https://www.thehindu.com/business/markets/stock-markets-fall-in-early-trade-dragged-by-it-firms-us-fed-sens/article71718760.ece"
             }
           ],
-          "image": null,
+          "image": {
+            "url": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-08/02/thumb/fitandfill/1200X628/1785687176-5807.jpg",
+            "credit": "Business Standard",
+            "source_url": "https://www.business-standard.com/markets/news/maruti-m-m-hero-moto-eicher-rally-up-to-5-what-s-driving-auto-stocks-126111900282_1.html",
+            "alt": "A Maruti Suzuki showroom building with its logo"
+          },
           "impact": [
             {
-              "on": "us_stocks",
-              "detail": "Tech",
+              "on": "indian_stocks",
+              "detail": "Auto",
               "level": "medium",
-              "dir": "mixed",
-              "why": "A strong or weak debut will set the tone for AI stocks."
+              "dir": "up",
+              "why": "Lower metal prices should help carmakers' margins."
             },
             {
               "on": "company",
-              "detail": "Anthropic",
+              "detail": "Paytm",
               "level": "medium",
-              "dir": "mixed",
-              "why": "First day of trading after a record raise."
+              "dir": "down",
+              "why": "Delay to UPI merchant fees hurts its revenue outlook."
             }
           ]
         },
         {
-          "id": "markets-wall-street-close-2026-11-18",
-          "headline": "Dow drops 1.1% and S&P 500 falls a fifth day; Nasdaq edges up 0.4%",
-          "summary": "The Dow lost more than 560 points and the S&P 500 slipped about 0.2% to 7,323.63, its longest losing run since June. The Nasdaq rose about 0.4% to 24,429.89. Investors are questioning whether heavy AI spending will pay off, and Nvidia is down 26% this month.",
-          "why_it_matters": "Weak US stocks and a hawkish Fed point to a cautious start for Indian markets.",
-          "importance": 4,
+          "id": "markets-gold-mcx-extends-fall-2026-11-19",
+          "headline": "Gold slips again to about ₹1.29 lakh on MCX after 3% drop to 14-month low",
+          "summary": "MCX December gold fell about ₹950 to near ₹1,28,860 per 10 grams on Thursday morning, and silver lost about ₹1,000 to near ₹1,59,740 per kg. On Wednesday spot gold had dropped 3.2% to its lowest since September 2025 after hawkish Fed signals lifted the dollar and US yields.",
+          "why_it_matters": null,
+          "importance": 3,
           "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-18T20:34:00-05:00",
+          "published_at": "2026-11-19T10:58:19+05:30",
           "tags": [
-            "Wall Street",
-            "Dow",
-            "Nvidia"
+            "Gold",
+            "Silver",
+            "MCX"
           ],
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/markets/commodities/gold-silver-fall-as-strong-dollar-fed-rate-outlook-weigh-on-bullion-126111900318_1.html"
             },
             {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+              "name": "Mint (Reuters)",
+              "url": "https://www.livemint.com/market/gold-drops-to-14-month-low-as-dollar-yields-rise-on-hawkish-fed-rhetoric-11795032242167.html"
             }
           ],
           "image": null,
           "impact": [
             {
-              "on": "us_stocks",
+              "on": "gold",
               "level": "medium",
               "dir": "down",
-              "why": "AI doubts and Fed hike bets weigh on shares."
+              "why": "A strong dollar and Fed hike bets keep pressure on gold."
             },
             {
-              "on": "indian_stocks",
-              "detail": "IT",
-              "level": "low",
+              "on": "silver",
+              "level": "medium",
               "dir": "down",
-              "why": "Weak global cues may weigh on the opening."
+              "why": "Silver is following gold lower."
             }
           ]
         },
         {
-          "id": "markets-oil-us-stocks-build-2026-11-18",
-          "headline": "Brent settles 1.3% lower at $91.95 as US crude stocks rise more than expected",
-          "summary": "Brent fell $1.19 to $91.95 a barrel and US crude fell 3.2% to $83.26, its lowest since late August. US crude inventories rose 3.4 million barrels against forecasts for almost no change. New Iran attacks in the Gulf limited the fall.",
-          "why_it_matters": "Cheaper oil helps India's import bill and the rupee.",
-          "importance": 4,
+          "id": "markets-mahanadi-coalfields-ipo-2026-11-19",
+          "headline": "Coal India arm Mahanadi Coalfields opens ₹8,981 crore IPO",
+          "summary": "Mahanadi Coalfields' IPO opened on Thursday at ₹129-136 a share and closes on November 23, with listing due on November 27. It is entirely a sale of shares by parent Coal India, valuing MCL at about ₹90,000 crore at the top of the range. MCL produced 21% of India's coal in FY26.",
+          "why_it_matters": null,
+          "importance": 3,
           "lead": false,
-          "verified": false,
-          "note": "Single source: Reuters (via Euronext).",
-          "published_at": "2026-11-18T00:00:00+00:00",
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-19T09:36:00+05:30",
           "tags": [
-            "Oil",
-            "Brent",
-            "Inventories"
+            "IPO",
+            "Coal India"
           ],
           "sources": [
             {
-              "name": "Reuters (via Euronext)",
-              "url": "https://live.euronext.com/en/financial-news/oil-prices-fall-higher-us-crude-stocks-temper-supply-risks"
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/markets/ipo/mahanadi-coalfields-8-981-cr-ipo-opens-today-price-lot-size-dates-126111900200_1.html"
+            },
+            {
+              "name": "Mint",
+              "url": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-gmp-today-at-rs-3-vs-rs-136-price-band-should-you-apply-for-coal-india-arms-shares-or-not-11795054572842.html"
             }
           ],
           "image": null,
           "impact": [
             {
-              "on": "oil",
-              "level": "medium",
-              "dir": "down",
-              "why": "US stockpiles grew much more than expected."
-            },
-            {
-              "on": "rupee",
+              "on": "company",
+              "detail": "Coal India",
               "level": "low",
               "dir": "up",
-              "why": "A lower oil import bill supports the rupee."
+              "why": "Coal India receives all the money from the share sale."
             }
           ]
         }
@@ -628,28 +628,54 @@
       "title": "Built This Week",
       "stories": [
         {
-          "id": "built-voyager-1-light-day-2026-11-18",
-          "headline": "NASA's Voyager 1 becomes the first spacecraft one light-day from Earth",
-          "summary": "Launched in 1977, Voyager 1 is now about 26 billion km away, so a radio signal takes a full day to reach it and another day to come back. NASA says it is the first spacecraft to get that far. Its twin, Voyager 2, should reach the same mark in 2035.",
+          "id": "built-gta-vi-launch-2026-11-19",
+          "headline": "Grand Theft Auto VI launches with near-perfect reviews after 13-year wait",
+          "summary": "Rockstar Games released GTA VI on consoles worldwide on Thursday. It holds a Metacritic score of 99 out of 100 from more than 150 reviews, with IGN calling it the most impressive game its critic had played. It is one of the most awaited entertainment releases ever.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-18T00:00:00+00:00",
+          "verified": false,
+          "note": "Single source: Al Jazeera.",
+          "published_at": "2026-11-19T06:08:47+00:00",
           "tags": [
-            "Space",
-            "NASA",
-            "Voyager"
+            "Gaming",
+            "Take-Two"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/18/nasas-voyager-1-hits-record-one-light-day-distance-50-years-after-launch"
-            },
+              "url": "https://www.aljazeera.com/news/2026/11/19/grand-theft-auto-vi-launches-to-rave-reviews-after-13-year-wait"
+            }
+          ],
+          "image": null,
+          "impact": [
             {
-              "name": "NASA",
-              "url": "https://science.nasa.gov/?p=1511054"
+              "on": "company",
+              "detail": "Take-Two",
+              "level": "medium",
+              "dir": "up",
+              "why": "Strong reviews for its biggest game can lift sales and the stock."
+            }
+          ]
+        },
+        {
+          "id": "built-acme-paradip-green-ammonia-2026-11-18",
+          "headline": "ACME closes deal for $3.6 billion green ammonia plant in Odisha",
+          "summary": "ACME Group has completed the formalities for a green ammonia plant at Paradip that will make 760,000 tonnes a year, with Brookfield investing $600 million. Thyssenkrupp Uhde will supply the 2,200-tonne-a-day ammonia technology, and the plant is due to start in 2029.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: The Hindu.",
+          "published_at": "2026-11-18T22:07:59+05:30",
+          "tags": [
+            "Green hydrogen",
+            "Energy"
+          ],
+          "sources": [
+            {
+              "name": "The Hindu",
+              "url": "https://www.thehindu.com/business/acme-seals-36-billion-deal-for-odisha-green-ammonia-project/article71717139.ece"
             }
           ],
           "image": null,
@@ -660,19 +686,6 @@
   ],
   "weekend_special": null,
   "forex_results": [
-    {
-      "country": "GBP",
-      "title": "CPI y/y",
-      "date": "2026-11-18T02:00:00-05:00",
-      "impact": "High",
-      "actual": "3.6%",
-      "vs_forecast": "in_line",
-      "why": "Inflation matched forecasts at a one-year high, keeping a December Bank of England hike in play.",
-      "source": {
-        "name": "ONS",
-        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026"
-      }
-    },
     {
       "country": "USD",
       "title": "FOMC Meeting Minutes",
@@ -718,11 +731,11 @@
       "date": "2026-11-19",
       "events": [
         {
-          "text": "Trump-Xi talks and first Xi-Trump-Putin summit in Shenzhen",
-          "section": "world"
+          "text": "Mahanadi Coalfields IPO opens (closes Nov 23)",
+          "section": "markets"
         },
         {
-          "text": "Trump and Putin one-on-one meeting at APEC",
+          "text": "Trump-Xi talks and first Xi-Trump-Putin summit in Shenzhen",
           "section": "world"
         },
         {
@@ -761,6 +774,24 @@
         {
           "text": "COP31 climate talks due to end in Turkiye",
           "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "events": [
+        {
+          "text": "Mahanadi Coalfields IPO closes",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "events": [
+        {
+          "text": "Mahanadi Coalfields shares due to list on BSE and NSE",
+          "section": "markets"
         }
       ]
     }
