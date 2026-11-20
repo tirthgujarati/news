@@ -1,0 +1,578 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-20-midday",
+  "date": "2026-11-20",
+  "slot": "midday",
+  "title": "Friday Midday Edition",
+  "generated_at": "2026-11-20T13:50:00+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "92.82",
+      "change": "-0.54%",
+      "dir": "down",
+      "as_of": "2026-11-20T08:12:00+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/INR=X"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "101.88",
+      "change": "-0.57%",
+      "dir": "down",
+      "as_of": "2026-11-20T08:09:41+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.76",
+      "change": "-0.13%",
+      "dir": "down",
+      "as_of": "2026-11-20T07:59:57+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$719.55bn",
+      "change": "+0.35%",
+      "dir": "up",
+      "as_of": "2026-11-06T00:00:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,726.75",
+      "change": "+0.83%",
+      "dir": "up",
+      "as_of": "2026-11-20T08:09:58+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "83,646.08",
+      "change": "+0.75%",
+      "dir": "up",
+      "as_of": "2026-11-20T07:54:57+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,175.83",
+      "change": "-2.02%",
+      "dir": "down",
+      "as_of": "2026-11-19T21:59:18+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "23,879.20",
+      "change": "-2.25%",
+      "dir": "down",
+      "as_of": "2026-11-19T22:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,569.40",
+      "change": "-3.15%",
+      "dir": "down",
+      "as_of": "2026-11-20T07:59:55+00:00",
+      "source": {
+        "name": "Yahoo Finance (COMEX futures)",
+        "url": "https://finance.yahoo.com/quote/GC=F"
+      }
+    },
+    {
+      "id": "gold_mcx",
+      "label": "Gold India (IBJA 24K)",
+      "value": "₹1,29,531/10g",
+      "change": "-1.2%",
+      "dir": "down",
+      "as_of": "2026-11-19T00:00:00+05:30",
+      "source": {
+        "name": "All India Radio (IBJA rates)",
+        "url": "https://newsonair.gov.in/downward-trend-in-gold-silver-prices/"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$61,905",
+      "change": "0.00%",
+      "dir": "flat",
+      "as_of": "2026-11-20T08:09:57+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "5.05%",
+      "change": "-0.36%",
+      "dir": "down",
+      "as_of": "2026-11-19T19:59:55+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "why_it_matters": "Heavy rain and possible local flooding along the east coast could hit crops, ports and rail traffic for a few days.",
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio (citing the latest IMD bulletin). New since morning: landfall happened near Gopalpur and the storm weakened.",
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/20261119162F-scaled.jpg",
+            "credit": "IANS",
+            "source_url": "https://newsonair.gov.in/severe-cyclonic-storm-akvan-begins-landfall-along-north-andhra-pradesh-and-south-odisha-coasts-close-to-gopalpur/",
+            "alt": "High waves breaking on the beach at Puri, Odisha, a day before the cyclone"
+          },
+          "impact": [],
+          "tags": [
+            "Cyclone",
+            "Odisha",
+            "Andhra Pradesh",
+            "Weather"
+          ],
+          "id": "india-cyclone-akvan-landfall-2026-11-20",
+          "headline": "Update: Cyclone Akvan crosses south Odisha coast near Gopalpur, weakens",
+          "summary": "Akvan crossed the south Odisha coast close to Gopalpur around 8:30 am, further north than the Andhra landfall first forecast, and weakened from a severe cyclonic storm to a cyclonic storm with winds of 70-80 km/h gusting to 90 km/h. It is moving north-northwest at about 26 km/h. Odisha has stepped up evacuations, with NDRF, ODRAF and fire teams in vulnerable areas; no damage figures yet.",
+          "importance": 4,
+          "published_at": "2026-11-20T11:54:00+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/severe-cyclonic-storm-akvan-begins-landfall-along-north-andhra-pradesh-and-south-odisha-coasts-close-to-gopalpur/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "image": null,
+          "impact": [],
+          "tags": [
+            "Nepal",
+            "Diplomacy",
+            "Modi"
+          ],
+          "id": "india-nepal-pm-shah-visit-2026-11-20",
+          "headline": "Nepal PM Balendra Shah to visit India on Nov 22-23 for talks with Modi",
+          "summary": "Nepal's Prime Minister Balendra Shah will visit India on November 22 and 23 at Prime Minister Modi's invitation. The two leaders are due to hold talks on November 23.",
+          "importance": 2,
+          "published_at": "2026-11-20T00:00:00+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/nepal-pm-balendra-shah-visits-india-on-nov-22-23-at-invitation-of-pm-narendra-modi/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "why_it_matters": "It is the biggest step back towards closer UK-EU trade since Brexit, with knock-on effects for the pound and euro.",
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera. Deals were expected, not yet confirmed as signed, at the time of writing.",
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/05/ap_6a0f3df741591-1779383799.jpg?resize=1920%2C1440",
+            "credit": "AP",
+            "source_url": "https://www.aljazeera.com/news/2026/11/20/eu-and-britain-to-agree-steps-towards-relations-reset",
+            "alt": "EU and UK flags waved in front of Big Ben in London (file photo)"
+          },
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "Pound",
+              "level": "low",
+              "dir": "up",
+              "why": "Easier trade with the EU is a mild positive for the UK economy and the pound."
+            }
+          ],
+          "tags": [
+            "UK",
+            "EU",
+            "Trade",
+            "Brexit"
+          ],
+          "id": "world-eu-uk-summit-brussels-2026-11-20",
+          "headline": "UK and EU meet in Brussels to seal food, carbon and youth mobility deals",
+          "summary": "UK Prime Minister Andy Burnham meets Ursula von der Leyen and Antonio Costa in Brussels on Friday. Deals expected include removing checks on trade in animal and plant products, which Britain values at £5.1 billion a year, mutual exemption from carbon border levies on goods like steel, and a youth scheme letting 100,000 people live and work in each other's territory for up to three years.",
+          "importance": 3,
+          "published_at": "2026-11-20T00:00:00+00:00",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/20/eu-and-britain-to-agree-steps-towards-relations-reset"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "Higher shipping and insurance costs feed into the price India pays for Gulf crude.",
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera (documents obtained under a freedom-of-information request). MARAD did not comment.",
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "low",
+              "dir": "up",
+              "why": "Costlier insurance and fewer willing tankers add to the price of Gulf crude."
+            }
+          ],
+          "tags": [
+            "Iran",
+            "Hormuz",
+            "Shipping",
+            "Oil"
+          ],
+          "id": "world-marad-hormuz-insurance-memo-2026-11-20",
+          "headline": "US shipping agency memo warned Iran blockade was pushing up Gulf insurance costs",
+          "summary": "Documents obtained by Al Jazeera show the US Maritime Administration circulated an October alert saying the Hormuz threat had spread to Gulf anchorages and the Gulf of Oman, and warning of more war-risk premium spikes, crew refusals and less tanker capacity. OPEC data cited in the report show tanker insurance from the Middle East to East Asia reached $12.29 a barrel by end-October.",
+          "importance": 3,
+          "published_at": "2026-11-20T00:00:00+00:00",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "why_it_matters": "A stronger rupee cuts the cost of oil imports but trims earnings for IT and other exporters.",
+          "lead": false,
+          "verified": true,
+          "note": "Midday level from Yahoo Finance; PTI and Reuters reports gave an earlier intraday high of 92.995.",
+          "image": null,
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "high",
+              "dir": "up",
+              "why": "Record foreign equity inflows are lifting the rupee despite a firm dollar."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "low",
+              "dir": "down",
+              "why": "A stronger rupee slightly lowers IT exporters' rupee earnings."
+            }
+          ],
+          "tags": [
+            "Rupee",
+            "FPI flows",
+            "Forex"
+          ],
+          "id": "currency-rupee-breaks-93-2026-11-20",
+          "headline": "Rupee breaks past 93 to a seven-month high, near 92.82 by midday",
+          "summary": "The rupee opened at 93.25 against Thursday's 93.32 close and pushed past 93 for the first time since April, trading near 92.82 by about 1:40 pm. Foreign investors bought ₹7,411 crore of Indian shares on Thursday and have put over $12 billion into Indian equities this month as money leaves AI-heavy Asian markets. The rupee is up about 2% in November, the best in Asia.",
+          "importance": 5,
+          "published_at": "2026-11-20T13:15:00+05:30",
+          "sources": [
+            {
+              "name": "HDFC Sky (PTI)",
+              "url": "https://hdfcsky.com/news/rupee-strengthens-17-paise-to-93-15-against-us-dollar-in-early-trade-november-20-2026"
+            },
+            {
+              "name": "Business Recorder (Reuters)",
+              "url": "https://www.brecorder.com/news/40449954/global-risk-jitters-bolster-rupee-as-investors-turn-to-indian-assets"
+            },
+            {
+              "name": "Upstox",
+              "url": "https://upstox.com/news/market-news/latest-updates/rupee-rises-past-93-against-us-dollar-key-factors-driving-domestic-currency-to-a-7-month-high/article-203761/"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/INR=X"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Office for National Statistics (official data).",
+          "image": null,
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "Pound",
+              "level": "low",
+              "dir": "up",
+              "why": "Stronger UK shopping than expected supports the pound."
+            }
+          ],
+          "tags": [
+            "UK",
+            "Pound",
+            "Retail"
+          ],
+          "id": "currency-uk-retail-sales-october-2026-11-20",
+          "headline": "UK retail sales rise 0.7% in October, beating forecasts of no growth",
+          "summary": "Retail sales volumes in Great Britain grew 0.7% in October after a 0.6% fall in September, the Office for National Statistics said. Economists had expected a flat month.",
+          "importance": 2,
+          "published_at": "2026-11-20T07:00:00+00:00",
+          "sources": [
+            {
+              "name": "Office for National Statistics",
+              "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/latest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "why_it_matters": "Foreign money leaving AI-heavy markets is flowing into India, lifting stocks and the rupee together.",
+          "lead": true,
+          "verified": true,
+          "note": "New since morning: Indian indices turned higher and Asian markets closed with steep losses. India VIX rose as much as 8.9%.",
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26230077681365-1795137729_4d634f-1795140801.jpg?resize=1200%2C630&quality=80",
+            "credit": "Eugene Hoshiko/AP Photo",
+            "source_url": "https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears",
+            "alt": "A person walks past the Tokyo Stock Exchange building"
+          },
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Banks",
+              "level": "high",
+              "dir": "up",
+              "why": "Strong foreign buying is lifting large banks and the wider market."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "medium",
+              "dir": "up",
+              "why": "Indian IT services gained even as Asian chip stocks slumped."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "Metals",
+              "level": "low",
+              "dir": "down",
+              "why": "Tata Steel and JSW Steel were among the biggest Nifty losers."
+            }
+          ],
+          "tags": [
+            "Sensex",
+            "Nifty",
+            "Asia",
+            "AI stocks",
+            "FII"
+          ],
+          "id": "markets-sensex-nifty-defy-asia-rout-2026-11-20",
+          "headline": "Sensex up 775 points by midday as India shrugs off Asia’s worst AI sell-off",
+          "summary": "After opening about 0.3% lower, the Sensex rose 775 points (0.93%) to 83,797 and the Nifty 0.88% to 25,739 by 1:06 pm, led by banks and IT; TCS, HDFC Bank, Apollo Hospitals and Axis Bank gained, while Titan, Tata Steel, JSW Steel and Reliance fell. Elsewhere Taiwan's Taiex closed down 6.2%, the Kospi 5.2% and the Nikkei about 5%, as Thursday's AI sell-off on Wall Street spread.",
+          "importance": 5,
+          "published_at": "2026-11-20T13:20:00+05:30",
+          "sources": [
+            {
+              "name": "Upstox",
+              "url": "https://upstox.com/news/market-news/stocks/nifty-50-trades-above-25-700-sensex-gains-over-750-pts-dilip-buildcon-paytm-nhpc-among-buzzing-stocks/article-203765/"
+            },
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears"
+            },
+            {
+              "name": "Investing.com",
+              "url": "https://za.investing.com/news/stock-market-news/asia-stocks-slide-to-7mth-low-with-skorea-taiwan-worst-hit-by-ai-rout-4587733"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Google. Benchmark and cost figures are Google’s own claims.",
+          "image": null,
+          "impact": [],
+          "tags": [
+            "AI",
+            "Google",
+            "Gemini"
+          ],
+          "id": "built-google-gemini-4-neon-2026-11-18",
+          "headline": "Google launches Gemini 4 Neon, a cheaper mid-tier model for coding and agents",
+          "summary": "Google released Gemini 4 Neon, which sits between its top Carbon model and the fast Hydrogen model and costs about 32% less per task than Carbon. It has a 1 million-token context window, is priced at $3 per million input and $15 per million output tokens, and is rolling out in the Gemini app, API and Antigravity for paid users.",
+          "importance": 3,
+          "published_at": "2026-11-18T00:00:00-08:00",
+          "sources": [
+            {
+              "name": "Google",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "USD",
+      "title": "Unemployment Claims",
+      "date": "2026-11-19T08:30:00-05:00",
+      "impact": "Medium",
+      "actual": "203K",
+      "vs_forecast": "worse",
+      "why": "More Americans filed for jobless benefits than the 198K expected, a small negative for the dollar.",
+      "source": {
+        "name": "US Department of Labor",
+        "url": "https://www.dol.gov/ui/data.pdf"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "Philly Fed Manufacturing Index",
+      "date": "2026-11-19T08:30:00-05:00",
+      "impact": "Medium",
+      "actual": "6.3",
+      "vs_forecast": "worse",
+      "why": "Factory activity slowed far more than the 20.6 forecast, weighing on the dollar.",
+      "source": {
+        "name": "Philadelphia Fed",
+        "url": "https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/mbos-2026-11"
+      }
+    },
+    {
+      "country": "GBP",
+      "title": "Retail Sales m/m",
+      "date": "2026-11-20T02:00:00-05:00",
+      "impact": "Medium",
+      "actual": "0.7%",
+      "vs_forecast": "better",
+      "why": "British shoppers spent more than the flat month expected, a mild support for the pound.",
+      "source": {
+        "name": "Office for National Statistics",
+        "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/latest"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-20",
+      "events": [
+        {
+          "text": "RBI weekly forex reserves data",
+          "section": "currency"
+        },
+        {
+          "text": "US revised UoM consumer sentiment",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "events": [
+        {
+          "text": "SCO Civilisational Dialogue Forum sessions in New Delhi (to Nov 22)",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "events": [
+        {
+          "text": "Nepal PM Balendra Shah begins two-day India visit",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "events": [
+        {
+          "text": "Modi holds talks with Nepal PM Balendra Shah",
+          "section": "india"
+        },
+        {
+          "text": "Mahanadi Coalfields IPO closes",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "events": [
+        {
+          "text": "Mahanadi Coalfields shares due to list on BSE and NSE",
+          "section": "markets"
+        }
+      ]
+    }
+  ]
+}

@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-20-morning",
+  "edition_id": "2026-11-20-midday",
   "date": "2026-11-20",
-  "slot": "morning",
-  "title": "Friday Morning Edition",
-  "generated_at": "2026-11-20T07:36:26+05:30",
+  "slot": "midday",
+  "title": "Friday Midday Edition",
+  "generated_at": "2026-11-20T13:50:00+05:30",
   "snapshot": [
     {
       "id": "usdinr",
       "label": "USD/INR",
-      "value": "93.28",
-      "change": "0.00%",
-      "dir": "flat",
-      "as_of": "2026-11-20T00:20:52+00:00",
+      "value": "92.82",
+      "change": "-0.54%",
+      "dir": "down",
+      "as_of": "2026-11-20T08:12:00+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/INR=X"
@@ -21,10 +21,10 @@
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "102.40",
-      "change": "-0.17%",
+      "value": "101.88",
+      "change": "-0.57%",
       "dir": "down",
-      "as_of": "2026-11-20T00:46:47+00:00",
+      "as_of": "2026-11-20T08:09:41+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURINR=X"
@@ -33,10 +33,10 @@
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "103.92",
-      "change": "+0.15%",
-      "dir": "up",
-      "as_of": "2026-11-20T01:52:55+00:00",
+      "value": "103.76",
+      "change": "-0.13%",
+      "dir": "down",
+      "as_of": "2026-11-20T07:59:57+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
@@ -57,10 +57,10 @@
     {
       "id": "nifty",
       "label": "Nifty 50",
-      "value": "25,514.30",
-      "change": "+1.14%",
+      "value": "25,726.75",
+      "change": "+0.83%",
       "dir": "up",
-      "as_of": "2026-11-19T10:01:07+00:00",
+      "as_of": "2026-11-20T08:09:58+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5ENSEI"
@@ -69,10 +69,10 @@
     {
       "id": "sensex",
       "label": "Sensex",
-      "value": "83,021.75",
-      "change": "+1.21%",
+      "value": "83,646.08",
+      "change": "+0.75%",
       "dir": "up",
-      "as_of": "2026-11-19T10:02:27+00:00",
+      "as_of": "2026-11-20T07:54:57+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EBSESN"
@@ -105,10 +105,10 @@
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$3,563.40",
-      "change": "-3.31%",
+      "value": "$3,569.40",
+      "change": "-3.15%",
       "dir": "down",
-      "as_of": "2026-11-20T01:52:55+00:00",
+      "as_of": "2026-11-20T07:59:55+00:00",
       "source": {
         "name": "Yahoo Finance (COMEX futures)",
         "url": "https://finance.yahoo.com/quote/GC=F"
@@ -127,24 +127,12 @@
       }
     },
     {
-      "id": "brent",
-      "label": "Brent crude",
-      "value": "$90.01",
-      "change": "-2.14%",
-      "dir": "down",
-      "as_of": "2026-11-20T01:52:50+00:00",
-      "source": {
-        "name": "Yahoo Finance (Jan ICE Brent)",
-        "url": "https://finance.yahoo.com/quote/BZ=F"
-      }
-    },
-    {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$61,502",
-      "change": "-2.36%",
-      "dir": "down",
-      "as_of": "2026-11-20T02:02:54+00:00",
+      "value": "$61,905",
+      "change": "0.00%",
+      "dir": "flat",
+      "as_of": "2026-11-20T08:09:57+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BTC-USD"
@@ -169,84 +157,58 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-cyclone-akvan-landfall-2026-11-20",
-          "headline": "Cyclone Akvan set to cross north Andhra-south Odisha coast around noon today",
-          "summary": "The severe cyclonic storm was over the west-central Bay of Bengal on Thursday night and is expected to cross between Narsapur in Andhra Pradesh and Puri in Odisha around noon, with winds of 90-100 km/h gusting to 110 km/h. Odisha says over one lakh people have been moved to safety, more than 9,000 shelters are open and over 300 rescue teams, including NDRF, are deployed. Some trains have been cancelled or rescheduled.",
-          "why_it_matters": "It is the third cyclone to hit the Andhra coast in under a month, threatening crops, ports and rail links along the east coast.",
-          "importance": 4,
+          "why_it_matters": "Heavy rain and possible local flooding along the east coast could hit crops, ports and rail traffic for a few days.",
           "lead": false,
           "verified": false,
-          "note": "Single source: All India Radio. Landfall forecast as of Thursday night; check IMD for updates.",
-          "published_at": "2026-11-19T20:41:00+05:30",
+          "note": "Single source: All India Radio (citing the latest IMD bulletin). New since morning: landfall happened near Gopalpur and the storm weakened.",
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/20261119162F-scaled.jpg",
+            "credit": "IANS",
+            "source_url": "https://newsonair.gov.in/severe-cyclonic-storm-akvan-begins-landfall-along-north-andhra-pradesh-and-south-odisha-coasts-close-to-gopalpur/",
+            "alt": "High waves breaking on the beach at Puri, Odisha, a day before the cyclone"
+          },
+          "impact": [],
           "tags": [
             "Cyclone",
             "Odisha",
             "Andhra Pradesh",
             "Weather"
           ],
+          "id": "india-cyclone-akvan-landfall-2026-11-20",
+          "headline": "Update: Cyclone Akvan crosses south Odisha coast near Gopalpur, weakens",
+          "summary": "Akvan crossed the south Odisha coast close to Gopalpur around 8:30 am, further north than the Andhra landfall first forecast, and weakened from a severe cyclonic storm to a cyclonic storm with winds of 70-80 km/h gusting to 90 km/h. It is moving north-northwest at about 26 km/h. Odisha has stepped up evacuations, with NDRF, ODRAF and fire teams in vulnerable areas; no damage figures yet.",
+          "importance": 4,
+          "published_at": "2026-11-20T11:54:00+05:30",
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/cyclone-akvan-intensifies-into-severe-cyclonic-storm-set-to-hit-andhra-pradesh-odisha-coasts-tomorrow/"
-            }
-          ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "india-modi-ficci-exports-2026-11-19",
-          "headline": "Modi tells FICCI October goods exports hit a record of nearly $50 billion",
-          "summary": "At FICCI's centenary convention in New Delhi, the Prime Minister said goods exports last month were close to $50 billion, the highest for any month, and that India is expected to grow about 7%. He asked companies to plan long-term investment around India's interests, compete globally rather than rely on the home market, and use recent trade deals.",
-          "why_it_matters": "Record exports help the trade balance and the rupee at a time of high oil prices.",
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio (PM's speech).",
-          "published_at": "2026-11-19T20:49:00+05:30",
-          "tags": [
-            "Exports",
-            "Economy",
-            "Modi"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/pm-modi-to-inaugurate-ficcis-annual-general-meeting-and-convention-in-new-delhi/"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "rupee",
-              "level": "low",
-              "dir": "up",
-              "why": "Strong exports bring in more dollars, a small support for the rupee."
+              "url": "https://newsonair.gov.in/severe-cyclonic-storm-akvan-begins-landfall-along-north-andhra-pradesh-and-south-odisha-coasts-close-to-gopalpur/"
             }
           ]
         },
         {
-          "id": "india-amit-shah-anti-terror-2026-11-19",
-          "headline": "Amit Shah says police stations will follow one national anti-terror strategy",
-          "summary": "Opening the NIA's two-day anti-terror conference in New Delhi, the Home Minister said the Centre is building a system that links police stations to state police chiefs under a common counter-terror plan. He asked every state's Anti-Terrorism Squad to strengthen its cyber units and said cutting off terror funding is essential.",
           "why_it_matters": null,
-          "importance": 2,
           "lead": false,
           "verified": false,
           "note": "Single source: All India Radio.",
-          "published_at": "2026-11-19T20:43:00+05:30",
+          "image": null,
+          "impact": [],
           "tags": [
-            "Security",
-            "Terrorism",
-            "NIA"
+            "Nepal",
+            "Diplomacy",
+            "Modi"
           ],
+          "id": "india-nepal-pm-shah-visit-2026-11-20",
+          "headline": "Nepal PM Balendra Shah to visit India on Nov 22-23 for talks with Modi",
+          "summary": "Nepal's Prime Minister Balendra Shah will visit India on November 22 and 23 at Prime Minister Modi's invitation. The two leaders are due to hold talks on November 23.",
+          "importance": 2,
+          "published_at": "2026-11-20T00:00:00+05:30",
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/hm-amit-shah-inaugurates-6th-anti-terror-conference-in-new-delhi/"
+              "url": "https://newsonair.gov.in/nepal-pm-balendra-shah-visits-india-on-nov-22-23-at-invitation-of-pm-narendra-modi/"
             }
-          ],
-          "image": null,
-          "impact": []
+          ]
         }
       ]
     },
@@ -255,263 +217,231 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-berlin-ukraine-allies-2026-11-19",
-          "headline": "Kushner says Russia is 'comfortable' with NATO-style guarantees for Ukraine",
-          "summary": "New since last night: after the Berlin meeting of Ukraine's allies, US envoy Jared Kushner said Russia is comfortable with postwar security guarantees modelled on NATO's Article 5, as part of a wider package that serves US interests. Germany's Merz called the Shenzhen summit a 'photo op' and said Europe must be at the table; Putin said he is not against European participation and proposed talks in Moscow. No date was set for talks with Russia.",
-          "why_it_matters": "A Russian acceptance of strong guarantees would remove one of the biggest blocks to a ceasefire deal.",
-          "importance": 4,
+          "why_it_matters": "It is the biggest step back towards closer UK-EU trade since Brexit, with knock-on effects for the pound and euro.",
           "lead": false,
           "verified": false,
-          "note": "Claim by US envoy Kushner; Russia has not publicly confirmed it. Single source: Al Jazeera.",
-          "published_at": "2026-11-19T00:00:00+00:00",
-          "tags": [
-            "Ukraine",
-            "Russia",
-            "US",
-            "Europe"
+          "note": "Single source: Al Jazeera. Deals were expected, not yet confirmed as signed, at the time of writing.",
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/05/ap_6a0f3df741591-1779383799.jpg?resize=1920%2C1440",
+            "credit": "AP",
+            "source_url": "https://www.aljazeera.com/news/2026/11/20/eu-and-britain-to-agree-steps-towards-relations-reset",
+            "alt": "EU and UK flags waved in front of Big Ben in London (file photo)"
+          },
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "Pound",
+              "level": "low",
+              "dir": "up",
+              "why": "Easier trade with the EU is a mild positive for the UK economy and the pound."
+            }
           ],
+          "tags": [
+            "UK",
+            "EU",
+            "Trade",
+            "Brexit"
+          ],
+          "id": "world-eu-uk-summit-brussels-2026-11-20",
+          "headline": "UK and EU meet in Brussels to seal food, carbon and youth mobility deals",
+          "summary": "UK Prime Minister Andy Burnham meets Ursula von der Leyen and Antonio Costa in Brussels on Friday. Deals expected include removing checks on trade in animal and plant products, which Britain values at £5.1 billion a year, mutual exemption from carbon border levies on goods like steel, and a youth scheme letting 100,000 people live and work in each other's territory for up to three years.",
+          "importance": 3,
+          "published_at": "2026-11-20T00:00:00+00:00",
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/19/european-leaders-unite-in-berlin-to-reaffirm-support-for-ukraine"
+              "url": "https://www.aljazeera.com/news/2026/11/20/eu-and-britain-to-agree-steps-towards-relations-reset"
             }
-          ],
-          "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1200%2C675",
-            "credit": "Annegret Hilse/Reuters",
-            "source_url": "https://www.aljazeera.com/news/2026/11/19/european-leaders-unite-in-berlin-to-reaffirm-support-for-ukraine",
-            "alt": "Zelensky, Merz, Macron and Kushner at a Coalition of the Willing press conference in Berlin"
-          },
-          "impact": []
+          ]
         },
         {
-          "id": "world-houthi-riyadh-tower-2026-11-19",
-          "headline": "Saudi Arabia says a Houthi attack damaged a tower in Riyadh's financial district",
-          "summary": "Saudi authorities say Houthi missile fire hit a tower in Riyadh's financial centre on Thursday; no casualties were reported. Qatar, Kuwait and the Gulf Cooperation Council condemned the attack. In Yemen, the Houthi health ministry says strikes on Sanaa killed 10 people over two days as the Saudi-led coalition and the Houthis trade fire.",
-          "why_it_matters": "Strikes on the Saudi capital widen the Gulf war and add risk to oil supply.",
-          "importance": 4,
+          "why_it_matters": "Higher shipping and insurance costs feed into the price India pays for Gulf crude.",
           "lead": false,
           "verified": false,
-          "note": "Claims by Saudi authorities and the Houthi health ministry; not independently confirmed. Single source: Al Jazeera.",
-          "published_at": "2026-11-19T00:00:00+00:00",
-          "tags": [
-            "Saudi Arabia",
-            "Yemen",
-            "Houthis",
-            "Gulf"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/20/iran-war-live-houthis-escalate-attacks-on-saudi-capital"
-            }
-          ],
+          "note": "Single source: Al Jazeera (documents obtained under a freedom-of-information request). MARAD did not comment.",
           "image": null,
           "impact": [
             {
               "on": "oil",
-              "level": "medium",
+              "level": "low",
               "dir": "up",
-              "why": "Attacks on Saudi Arabia raise the risk to Gulf oil supply."
+              "why": "Costlier insurance and fewer willing tankers add to the price of Gulf crude."
             }
-          ]
-        },
-        {
-          "id": "world-us-ai-chips-china-approvals-2026-11-19",
-          "headline": "US approved sales of over 879,000 AI chips to Chinese firms, House documents show",
-          "summary": "Documents released by the House Foreign Affairs Committee show the Commerce Department approved the sales, to buyers including Alibaba and Tencent, as of May; some went to firms the Pentagon lists as Chinese military companies. Nvidia and AMD made 3.4 million requests from December to May. Rep. Brian Mast says two companies named in Nvidia's applications are suspected smuggling fronts.",
-          "why_it_matters": null,
+          ],
+          "tags": [
+            "Iran",
+            "Hormuz",
+            "Shipping",
+            "Oil"
+          ],
+          "id": "world-marad-hormuz-insurance-memo-2026-11-20",
+          "headline": "US shipping agency memo warned Iran blockade was pushing up Gulf insurance costs",
+          "summary": "Documents obtained by Al Jazeera show the US Maritime Administration circulated an October alert saying the Hormuz threat had spread to Gulf anchorages and the Gulf of Oman, and warning of more war-risk premium spikes, crew refusals and less tanker capacity. OPEC data cited in the report show tanker insurance from the Middle East to East Asia reached $12.29 a barrel by end-October.",
           "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: CNBC. Smuggling-front claim is by Rep. Mast.",
-          "published_at": "2026-11-19T14:55:00-05:00",
-          "tags": [
-            "US",
-            "China",
-            "Chips",
-            "Export controls"
-          ],
-          "sources": [
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "company",
-              "detail": "Nvidia",
-              "level": "medium",
-              "dir": "down",
-              "why": "More scrutiny of its China sales adds pressure on the chipmaker."
-            }
-          ]
-        },
-        {
-          "id": "world-bangladesh-yunus-home-fire-2026-11-19",
-          "headline": "Former Bangladesh leader Muhammad Yunus's family home set on fire, police say",
-          "summary": "Police say attackers set fire to part of Yunus's ancestral home in Chittagong late on Wednesday; the blaze was put out quickly and no one was hurt. It came amid protests by the banned Awami League marking a year since Sheikh Hasina, who lives in India, was sentenced to death in absentia. Two BNP members were killed in clashes in Gopalganj.",
-          "why_it_matters": null,
-          "importance": 2,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera (Bangladesh police).",
-          "published_at": "2026-11-19T00:00:00+00:00",
-          "tags": [
-            "Bangladesh",
-            "Yunus",
-            "Hasina"
-          ],
+          "published_at": "2026-11-20T00:00:00+00:00",
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/19/home-of-bangladeshs-former-leader-muhammad-yunus-set-on-fire"
+              "url": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums"
             }
-          ],
-          "image": null,
-          "impact": []
+          ]
         }
       ]
     },
     {
       "id": "currency",
       "title": "Currency Desk",
-      "stories": []
+      "stories": [
+        {
+          "why_it_matters": "A stronger rupee cuts the cost of oil imports but trims earnings for IT and other exporters.",
+          "lead": false,
+          "verified": true,
+          "note": "Midday level from Yahoo Finance; PTI and Reuters reports gave an earlier intraday high of 92.995.",
+          "image": null,
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "high",
+              "dir": "up",
+              "why": "Record foreign equity inflows are lifting the rupee despite a firm dollar."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "low",
+              "dir": "down",
+              "why": "A stronger rupee slightly lowers IT exporters' rupee earnings."
+            }
+          ],
+          "tags": [
+            "Rupee",
+            "FPI flows",
+            "Forex"
+          ],
+          "id": "currency-rupee-breaks-93-2026-11-20",
+          "headline": "Rupee breaks past 93 to a seven-month high, near 92.82 by midday",
+          "summary": "The rupee opened at 93.25 against Thursday's 93.32 close and pushed past 93 for the first time since April, trading near 92.82 by about 1:40 pm. Foreign investors bought ₹7,411 crore of Indian shares on Thursday and have put over $12 billion into Indian equities this month as money leaves AI-heavy Asian markets. The rupee is up about 2% in November, the best in Asia.",
+          "importance": 5,
+          "published_at": "2026-11-20T13:15:00+05:30",
+          "sources": [
+            {
+              "name": "HDFC Sky (PTI)",
+              "url": "https://hdfcsky.com/news/rupee-strengthens-17-paise-to-93-15-against-us-dollar-in-early-trade-november-20-2026"
+            },
+            {
+              "name": "Business Recorder (Reuters)",
+              "url": "https://www.brecorder.com/news/40449954/global-risk-jitters-bolster-rupee-as-investors-turn-to-indian-assets"
+            },
+            {
+              "name": "Upstox",
+              "url": "https://upstox.com/news/market-news/latest-updates/rupee-rises-past-93-against-us-dollar-key-factors-driving-domestic-currency-to-a-7-month-high/article-203761/"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/INR=X"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Office for National Statistics (official data).",
+          "image": null,
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "Pound",
+              "level": "low",
+              "dir": "up",
+              "why": "Stronger UK shopping than expected supports the pound."
+            }
+          ],
+          "tags": [
+            "UK",
+            "Pound",
+            "Retail"
+          ],
+          "id": "currency-uk-retail-sales-october-2026-11-20",
+          "headline": "UK retail sales rise 0.7% in October, beating forecasts of no growth",
+          "summary": "Retail sales volumes in Great Britain grew 0.7% in October after a 0.6% fall in September, the Office for National Statistics said. Economists had expected a flat month.",
+          "importance": 2,
+          "published_at": "2026-11-20T07:00:00+00:00",
+          "sources": [
+            {
+              "name": "Office for National Statistics",
+              "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/latest"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "markets",
       "title": "Money & Markets",
       "stories": [
         {
-          "id": "markets-ai-selloff-wall-street-asia-2026-11-20",
-          "headline": "AI sell-off: Wall Street drops over 2%, Dow below 50,000; Asian tech stocks tumble",
-          "summary": "US stocks reversed early gains on Thursday: the S&P 500 fell 2.0% to 7,175.83, the Nasdaq 2.3% to 23,879.20 and the Dow 2.2% to 49,097.06, its first close under 50,000 since June. Anthropic's debut failed to revive AI shares and Nvidia hit a 52-week low. On Friday morning SoftBank fell about 16%, Tokyo Electron 7%, SK Hynix 6% and Korea's Kospi 3.7%.",
-          "why_it_matters": "A global tech sell-off can hit Indian IT stocks and foreign inflows when Dalal Street opens today.",
-          "importance": 5,
+          "why_it_matters": "Foreign money leaving AI-heavy markets is flowing into India, lifting stocks and the rupee together.",
           "lead": true,
           "verified": true,
-          "note": null,
-          "published_at": "2026-11-19T21:01:00-05:00",
-          "tags": [
-            "Wall Street",
-            "AI",
-            "Asia",
-            "Nvidia"
-          ],
-          "sources": [
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/%5EGSPC/"
-            }
-          ],
-          "image": null,
+          "note": "New since morning: Indian indices turned higher and Asian markets closed with steep losses. India VIX rose as much as 8.9%.",
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26230077681365-1795137729_4d634f-1795140801.jpg?resize=1200%2C630&quality=80",
+            "credit": "Eugene Hoshiko/AP Photo",
+            "source_url": "https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears",
+            "alt": "A person walks past the Tokyo Stock Exchange building"
+          },
           "impact": [
             {
-              "on": "us_stocks",
-              "detail": "Tech",
+              "on": "indian_stocks",
+              "detail": "Banks",
               "level": "high",
-              "dir": "down",
-              "why": "Investors are dumping AI-linked shares after a weak reaction to Anthropic's debut."
+              "dir": "up",
+              "why": "Strong foreign buying is lifting large banks and the wider market."
             },
             {
               "on": "indian_stocks",
               "detail": "IT",
               "level": "medium",
-              "dir": "down",
-              "why": "Global tech weakness usually weighs on Indian IT shares."
+              "dir": "up",
+              "why": "Indian IT services gained even as Asian chip stocks slumped."
             },
             {
-              "on": "crypto",
-              "level": "medium",
+              "on": "indian_stocks",
+              "detail": "Metals",
+              "level": "low",
               "dir": "down",
-              "why": "Risk-off mood pulled Bitcoin down over 2%."
+              "why": "Tata Steel and JSW Steel were among the biggest Nifty losers."
             }
-          ]
-        },
-        {
-          "id": "markets-anthropic-ipo-nasdaq-2026-11-19",
-          "headline": "Anthropic ends first day up 17% at $97.17 after opening at $111.50",
-          "summary": "Update: Anthropic's shares opened 34% above the $83 IPO price, briefly valuing it at about $2 trillion, then gave up half the gain to close at $97.17. CNBC puts its fully diluted value at about $1.8 trillion. The early lift to the Nasdaq faded and the index closed 2.3% lower.",
-          "why_it_matters": null,
-          "importance": 4,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-19T19:04:00-05:00",
-          "tags": [
-            "Anthropic",
-            "IPO",
-            "AI"
           ],
+          "tags": [
+            "Sensex",
+            "Nifty",
+            "Asia",
+            "AI stocks",
+            "FII"
+          ],
+          "id": "markets-sensex-nifty-defy-asia-rout-2026-11-20",
+          "headline": "Sensex up 775 points by midday as India shrugs off Asia’s worst AI sell-off",
+          "summary": "After opening about 0.3% lower, the Sensex rose 775 points (0.93%) to 83,797 and the Nifty 0.88% to 25,739 by 1:06 pm, led by banks and IT; TCS, HDFC Bank, Apollo Hospitals and Axis Bank gained, while Titan, Tata Steel, JSW Steel and Reliance fell. Elsewhere Taiwan's Taiex closed down 6.2%, the Kospi 5.2% and the Nikkei about 5%, as Thursday's AI sell-off on Wall Street spread.",
+          "importance": 5,
+          "published_at": "2026-11-20T13:20:00+05:30",
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html"
+              "name": "Upstox",
+              "url": "https://upstox.com/news/market-news/stocks/nifty-50-trades-above-25-700-sensex-gains-over-750-pts-dilip-buildcon-paytm-nhpc-among-buzzing-stocks/article-203765/"
             },
             {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/ANT/"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "company",
-              "detail": "Anthropic",
-              "level": "medium",
-              "dir": "mixed",
-              "why": "Shares closed well above the IPO price but far below the opening level."
-            }
-          ]
-        },
-        {
-          "id": "markets-gold-slump-3560-2026-11-20",
-          "headline": "Gold slides another 3% to about $3,563 as yields and Fed hike bets bite",
-          "summary": "New since last night: US gold futures fell about 3.3% to near $3,563 an ounce early Friday in Asia, after Thursday's drop below $3,700. CNBC cites higher Treasury yields, a firm dollar and talk of further Fed hikes, with one analyst seeing $3,500-3,600. Gold is now more than a third below January's record of $5,589.",
-          "why_it_matters": "Cheaper gold lowers India's import bill but hits gold loan firms and jewellers' inventories.",
-          "importance": 4,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-20T01:52:55+00:00",
-          "tags": [
-            "Gold",
-            "Fed",
-            "Commodities"
-          ],
-          "sources": [
-            {
-              "name": "Yahoo Finance (COMEX futures)",
-              "url": "https://finance.yahoo.com/quote/GC=F"
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html"
             },
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/19/gold-prices-fall-fed-rates-dollar.html"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "gold",
-              "level": "high",
-              "dir": "down",
-              "why": "Higher US yields and a strong dollar keep pushing gold lower."
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears"
             },
             {
-              "on": "silver",
-              "level": "medium",
-              "dir": "down",
-              "why": "Silver tends to follow gold in a broad metals sell-off."
+              "name": "Investing.com",
+              "url": "https://za.investing.com/news/stock-market-news/asia-stocks-slide-to-7mth-low-with-skorea-taiwan-worst-hit-by-ai-rout-4587733"
             }
           ]
         }
@@ -520,7 +450,32 @@
     {
       "id": "built",
       "title": "Built This Week",
-      "stories": []
+      "stories": [
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Google. Benchmark and cost figures are Google’s own claims.",
+          "image": null,
+          "impact": [],
+          "tags": [
+            "AI",
+            "Google",
+            "Gemini"
+          ],
+          "id": "built-google-gemini-4-neon-2026-11-18",
+          "headline": "Google launches Gemini 4 Neon, a cheaper mid-tier model for coding and agents",
+          "summary": "Google released Gemini 4 Neon, which sits between its top Carbon model and the fast Hydrogen model and costs about 32% less per task than Carbon. It has a 1 million-token context window, is priced at $3 per million input and $15 per million output tokens, and is rolling out in the Gemini app, API and Antigravity for paid users.",
+          "importance": 3,
+          "published_at": "2026-11-18T00:00:00-08:00",
+          "sources": [
+            {
+              "name": "Google",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+            }
+          ]
+        }
+      ]
     }
   ],
   "weekend_special": null,
@@ -550,6 +505,19 @@
         "name": "Philadelphia Fed",
         "url": "https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/mbos-2026-11"
       }
+    },
+    {
+      "country": "GBP",
+      "title": "Retail Sales m/m",
+      "date": "2026-11-20T02:00:00-05:00",
+      "impact": "Medium",
+      "actual": "0.7%",
+      "vs_forecast": "better",
+      "why": "British shoppers spent more than the flat month expected, a mild support for the pound.",
+      "source": {
+        "name": "Office for National Statistics",
+        "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/latest"
+      }
     }
   ],
   "week_ahead": [
@@ -557,19 +525,7 @@
       "date": "2026-11-20",
       "events": [
         {
-          "text": "Cyclone Akvan expected to cross north Andhra-south Odisha coast around noon",
-          "section": "india"
-        },
-        {
-          "text": "57th IFFI film festival opens in Goa",
-          "section": "india"
-        },
-        {
           "text": "RBI weekly forex reserves data",
-          "section": "currency"
-        },
-        {
-          "text": "UK October retail sales",
           "section": "currency"
         },
         {
@@ -588,8 +544,21 @@
       ]
     },
     {
+      "date": "2026-11-22",
+      "events": [
+        {
+          "text": "Nepal PM Balendra Shah begins two-day India visit",
+          "section": "india"
+        }
+      ]
+    },
+    {
       "date": "2026-11-23",
       "events": [
+        {
+          "text": "Modi holds talks with Nepal PM Balendra Shah",
+          "section": "india"
+        },
         {
           "text": "Mahanadi Coalfields IPO closes",
           "section": "markets"
