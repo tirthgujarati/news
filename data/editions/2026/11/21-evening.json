@@ -1,0 +1,530 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-21-evening",
+  "date": "2026-11-21",
+  "slot": "evening",
+  "title": "Saturday Evening Edition",
+  "generated_at": "2026-11-21T20:55:00+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "92.67",
+      "change": "-0.70%",
+      "dir": "down",
+      "as_of": "2026-11-20T17:59:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/rupee-appreciates-by-62-paise-against-us-dollar-to-close-at-seven-month-high/"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "101.60",
+      "change": "-0.65%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:41:46+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.84",
+      "change": "-0.06%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:59:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$705.34bn",
+      "change": "-1.97%",
+      "dir": "down",
+      "as_of": "2026-11-13T00:00:00+05:30",
+      "source": {
+        "name": "ANI (RBI data)",
+        "url": "https://aninews.in/news/business/india8217s-forex-reserves-fall-by-usd-142-billion-to-usd-70534-billion-in-week-ended-november-1320261120180825/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,800.60",
+      "change": "+1.12%",
+      "dir": "up",
+      "as_of": "2026-11-20T10:01:15+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "83,919.71",
+      "change": "+1.08%",
+      "dir": "up",
+      "as_of": "2026-11-20T10:02:29+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "6,910.39",
+      "change": "-3.70%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:35:54+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "22,617.73",
+      "change": "-5.28%",
+      "dir": "down",
+      "as_of": "2026-11-20T22:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,539.00",
+      "change": "-3.98%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:59:57+00:00",
+      "source": {
+        "name": "Yahoo Finance (COMEX futures)",
+        "url": "https://finance.yahoo.com/quote/GC=F"
+      }
+    },
+    {
+      "id": "gold_mcx",
+      "label": "Gold India (IBJA 24K)",
+      "value": "₹1,23,893/10g",
+      "change": "-4.4%",
+      "dir": "down",
+      "as_of": "2026-11-20T17:54:00+05:30",
+      "source": {
+        "name": "All India Radio (IBJA rates)",
+        "url": "https://newsonair.gov.in/gold-silver-prices-plunge-over-4/"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$60,202",
+      "change": "+2.39%",
+      "dir": "up",
+      "as_of": "2026-11-21T15:13:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD/"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.91%",
+      "change": "-2.73%",
+      "dir": "down",
+      "as_of": "2026-11-20T19:59:55+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "why_it_matters": "The bridge should ease traffic on the crowded Gandhi Setu and JP Setu and better link north and south Bihar.",
+          "lead": false,
+          "note": "Single source: All India Radio.",
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/Screenshot-2026-11-21-142201.jpg",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/pm-modi-inaugurates-nitish-setu-projects-worth-%e2%82%b934000-crore-in-bihar-2/",
+            "alt": "Prime Minister Modi cuts a ribbon on the new Nitish Setu bridge with Bihar leaders"
+          },
+          "impact": [
+            {
+              "on": "india_economy",
+              "level": "low",
+              "dir": "up",
+              "why": "New bridge, power and road projects add to public investment in Bihar."
+            }
+          ],
+          "id": "india-nitish-setu-bihar-2026-11-21",
+          "headline": "Modi opens 20-km Nitish Setu over the Ganga, launches ₹34,000 crore of Bihar projects",
+          "summary": "Prime Minister Narendra Modi opened the six-lane Nitish Setu in Vaishali, linking Kachchi Dargah near Patna with Bidupur across the Ganga. He also opened or laid stones for 227 projects worth over ₹34,000 crore, including a second 660 MW unit at the Buxar thermal plant, and flagged off 100 electric buses under PM-e-Bus.",
+          "importance": 3,
+          "verified": false,
+          "published_at": "2026-11-21T19:03:00+05:30",
+          "tags": [
+            "Bihar",
+            "infrastructure",
+            "Modi",
+            "power"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/pm-modi-inaugurates-nitish-setu-projects-worth-%e2%82%b934000-crore-in-bihar-2/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": "Single source: Al Jazeera (with AFP), quoting the Manipur chief minister.",
+          "image": null,
+          "impact": [],
+          "id": "india-manipur-illicit-alcohol-2026-11-21",
+          "headline": "Illicit alcohol kills 11 and puts over 180 in hospital in Manipur",
+          "summary": "At least 11 people have died in Manipur after drinking suspected toxic liquor, and more than 180 have been admitted to two hospitals, Chief Minister Yumnam Khemchand Singh said. Officials linked the alcohol to the Sugnu area; the chief minister ordered a probe and promised punishment. Manipur has been officially dry since 1990.",
+          "importance": 3,
+          "verified": false,
+          "published_at": "2026-11-21T00:00:00+00:00",
+          "tags": [
+            "Manipur",
+            "health",
+            "alcohol"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/21/suspected-toxic-alcohol-kills-at-least-11-people-in-northeast-india"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": "Single source: All India Radio.",
+          "image": null,
+          "impact": [],
+          "id": "india-ncb-dea-monsoon-thunder-2026-11-21",
+          "headline": "NCB and US DEA bust Indian arm of a drug network shipping pills to Americans",
+          "summary": "The Narcotics Control Bureau, working with the US Drug Enforcement Administration, broke up an Indian module that sold psychotropic and opioid tablets to buyers in the US through Telegram and WhatsApp. Six people were held and about 3,000 parcels with nearly 5 lakh tablets were traced. Home Minister Amit Shah and US Ambassador Sergio Gor praised the joint operation.",
+          "importance": 2,
+          "verified": false,
+          "published_at": "2026-11-21T17:17:00+05:30",
+          "tags": [
+            "drugs",
+            "NCB",
+            "India-US"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/hm-amit-shah-congratulates-ncb-us-dea-on-operation-monsoon-thunder/"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/us-ambassador-to-india-sergio-gor-hails-india-us-partnership-against-drug-trafficking/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "why_it_matters": "The war at sea is spreading into the Baltic, right next to NATO members Finland and Estonia.",
+          "lead": true,
+          "note": "Single source: Al Jazeera, citing Finland's defence ministry and Russian regional officials. Attacker not identified.",
+          "image": null,
+          "impact": [],
+          "id": "world-gulf-of-finland-ship-drones-2026-11-21",
+          "headline": "Drones hit a Russian cargo ship in the Gulf of Finland; it drifts into Finnish waters",
+          "summary": "Finland's defence ministry says two drones struck the Kaliningrad-bound cargo ship Sparta II on Saturday morning west of Gogland island, setting it on fire. The ship drifted into Finnish waters off Loviisa; no one was reported hurt. Finland sent Border Guard units, closed nearby air and sea traffic, and said the ship has links to Russia's military. Who launched the drones is not confirmed; Ukraine hit a Russian warship in the same gulf earlier this month.",
+          "importance": 4,
+          "verified": false,
+          "published_at": "2026-11-21T00:00:00+00:00",
+          "tags": [
+            "Russia",
+            "Finland",
+            "Ukraine war",
+            "Baltic",
+            "shipping"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": "Claim by Iran's army, denied by US Central Command; not independently confirmed. Single source: Al Jazeera.",
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "low",
+              "dir": "up",
+              "why": "More military incidents in the Gulf keep a small risk premium in crude."
+            }
+          ],
+          "id": "world-iran-f16-claim-2026-11-21",
+          "headline": "Iran's army says it hit a US F-16 over the Gulf; US says all its jets are safe",
+          "summary": "Iran's army says its air defences fired a missile at a US F-16 over the Gulf on Friday evening, damaging it and forcing it to land. US Central Command rejected the claim, saying all US fighter jets in the Middle East are safe and accounted for. It follows Iran's claim earlier on Saturday that it downed US drones over Hormuz, while efforts to end the war remain stalled.",
+          "importance": 3,
+          "verified": false,
+          "published_at": "2026-11-21T00:00:00+00:00",
+          "tags": [
+            "Iran",
+            "US",
+            "Gulf",
+            "Hormuz"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": "Single source: Al Jazeera (with AFP).",
+          "image": null,
+          "impact": [],
+          "id": "world-killer-robots-ccw-2026-11-21",
+          "headline": "128 nations agree to work on rules for AI \"killer robots\" over the next two years",
+          "summary": "At the UN weapons convention talks in Geneva, countries agreed to \"elaborate\" an instrument on lethal autonomous weapons by about 2028, after an all-night session. Nearly 100 states wanted binding rules quickly, but the US, Russia and Israel resisted, and the word \"negotiate\" was dropped. Campaign groups called the deal watered down.",
+          "importance": 2,
+          "verified": false,
+          "published_at": "2026-11-21T00:00:00+00:00",
+          "tags": [
+            "AI",
+            "weapons",
+            "UN",
+            "Geneva"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": []
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "why_it_matters": "A weekend rebound in crypto hints that Friday's tech sell-off may be easing before markets reopen.",
+          "lead": false,
+          "note": null,
+          "image": null,
+          "impact": [
+            {
+              "on": "crypto",
+              "level": "medium",
+              "dir": "up",
+              "why": "Buyers stepped back in after a four-month low."
+            }
+          ],
+          "id": "markets-bitcoin-four-month-low-2026-11-20",
+          "headline": "Update: Bitcoin bounces back above $60,000 on Saturday evening",
+          "summary": "Bitcoin recovered to about $60,200 by Saturday evening, India time, up from roughly $57,800 in this afternoon's edition and about 2.4% above Friday's close. It is still well below the $64,900 it traded at on Monday.",
+          "importance": 3,
+          "verified": true,
+          "published_at": "2026-11-21T15:13:59+00:00",
+          "tags": [
+            "bitcoin",
+            "crypto"
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/BTC-USD/"
+            },
+            {
+              "name": "CoinGecko",
+              "url": "https://www.coingecko.com/en/coins/bitcoin"
+            },
+            {
+              "name": "Coinbase",
+              "url": "https://www.coinbase.com/price/bitcoin"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "Easier rules for foreign funds, after this week's plan to speed up their sign-up, could help draw back overseas money.",
+          "lead": false,
+          "note": "Single source: All India Radio.",
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "level": "low",
+              "dir": "up",
+              "why": "Lighter rules for foreign funds may support foreign inflows over time."
+            }
+          ],
+          "id": "markets-sebi-offshore-funds-2026-11-21",
+          "headline": "SEBI proposes dropping extra ownership disclosures for offshore funds",
+          "summary": "SEBI has proposed removing the extra disclosure rules brought in in 2023 for higher-risk offshore funds, which make them reveal their ultimate owners in detail. The regulator says existing beneficial-ownership rules already give enough oversight, and that it wants to keep Indian markets attractive to foreign investors. It will take market feedback before deciding.",
+          "importance": 3,
+          "verified": false,
+          "published_at": "2026-11-21T17:18:00+05:30",
+          "tags": [
+            "SEBI",
+            "FPI",
+            "regulation"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/sebi-proposes-eliminating-additional-disclosure-requirements-for-offshore-funds/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "why_it_matters": "It is the biggest step yet towards testing solar-powered AI data centres in orbit.",
+          "lead": false,
+          "note": null,
+          "image": {
+            "url": "https://www.satellitetoday.com/wp-content/uploads/2025/11/gallery_ng2-8262.jpg",
+            "credit": "Blue Origin",
+            "source_url": "https://www.satellitetoday.com/launch/2026/11/19/google-orders-heavy-lift-launch-for-project-suncatcher-from-blue-origin/",
+            "alt": "Blue Origin's New Glenn rocket standing on its launch pad between towers"
+          },
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Google",
+              "level": "low",
+              "dir": "up",
+              "why": "A concrete step for its space-based AI computing plan."
+            }
+          ],
+          "id": "built-google-suncatcher-blue-origin-2026-11-19",
+          "headline": "Google books Blue Origin's New Glenn to fly its AI-chip satellites in 2029",
+          "summary": "Google signed a deal with Blue Origin for a dedicated New Glenn launch of Project Suncatcher satellites, which carry Google's TPU AI chips, targeted for early 2029 into a sun-synchronous orbit. Google's project lead says each satellite has roughly the computing power of a data-centre rack. Terms and satellite numbers were not disclosed; New Glenn is due to return to flight in January.",
+          "importance": 2,
+          "verified": true,
+          "published_at": "2026-11-19T00:00:00-05:00",
+          "tags": [
+            "Google",
+            "Blue Origin",
+            "space",
+            "AI chips"
+          ],
+          "sources": [
+            {
+              "name": "Google",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership/"
+            },
+            {
+              "name": "Via Satellite",
+              "url": "https://www.satellitetoday.com/launch/2026/11/19/google-orders-heavy-lift-launch-for-project-suncatcher-from-blue-origin/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "USD",
+      "title": "Revised UoM Consumer Sentiment",
+      "date": "2026-11-20T10:00:00-05:00",
+      "impact": "Medium",
+      "actual": "51.5",
+      "vs_forecast": "worse",
+      "why": "Final sentiment rose from 51.0 but came in just under the 51.7 forecast, a very small negative for the dollar.",
+      "source": {
+        "name": "investingLive",
+        "url": "https://investinglive.com/news/university-of-michigan-consumer-sentiment-51-5-versus-51-5-estimate/"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-22",
+      "events": [
+        {
+          "text": "Nepal PM Balendra Shah begins two-day India visit",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "events": [
+        {
+          "text": "Modi holds talks with Nepal PM Balendra Shah",
+          "section": "india"
+        },
+        {
+          "text": "RBI ₹50,000 crore 4-day repo auction (9:30-10:00 AM)",
+          "section": "currency"
+        },
+        {
+          "text": "Mahanadi Coalfields IPO closes",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "events": [
+        {
+          "text": "US stock markets closed for Thanksgiving",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "events": [
+        {
+          "text": "Mahanadi Coalfields shares due to list on BSE and NSE",
+          "section": "markets"
+        }
+      ]
+    }
+  ]
+}

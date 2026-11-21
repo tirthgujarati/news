@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-21-midday",
+  "edition_id": "2026-11-21-evening",
   "date": "2026-11-21",
-  "slot": "midday",
-  "title": "Saturday Midday Edition",
-  "generated_at": "2026-11-21T13:45:00+05:30",
+  "slot": "evening",
+  "title": "Saturday Evening Edition",
+  "generated_at": "2026-11-21T20:55:00+05:30",
   "snapshot": [
     {
       "id": "usdinr",
@@ -129,10 +129,10 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$57,753",
-      "change": "-1.78%",
-      "dir": "down",
-      "as_of": "2026-11-21T08:07:58+00:00",
+      "value": "$60,202",
+      "change": "+2.39%",
+      "dir": "up",
+      "as_of": "2026-11-21T15:13:59+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BTC-USD/"
@@ -157,75 +157,93 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-hpv-vaccine-1-crore-2026-11-21",
-          "headline": "India gives 1 crore HPV vaccine doses in under nine months",
-          "summary": "Health Minister J P Nadda said India has given 1 crore doses of the free HPV vaccine, which protects against cervical cancer, since the national campaign began less than nine months ago. That covers nearly 87% of this year's eligible 14-year-old girls. Six states, including Gujarat, Uttar Pradesh and Bihar, have reached 100%.",
-          "why_it_matters": "Cervical cancer is one of the biggest cancer killers of Indian women, and the drive covers almost the whole yearly group of girls.",
+          "why_it_matters": "The bridge should ease traffic on the crowded Gandhi Setu and JP Setu and better link north and south Bihar.",
+          "lead": false,
+          "note": "Single source: All India Radio.",
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/Screenshot-2026-11-21-142201.jpg",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/pm-modi-inaugurates-nitish-setu-projects-worth-%e2%82%b934000-crore-in-bihar-2/",
+            "alt": "Prime Minister Modi cuts a ribbon on the new Nitish Setu bridge with Bihar leaders"
+          },
+          "impact": [
+            {
+              "on": "india_economy",
+              "level": "low",
+              "dir": "up",
+              "why": "New bridge, power and road projects add to public investment in Bihar."
+            }
+          ],
+          "id": "india-nitish-setu-bihar-2026-11-21",
+          "headline": "Modi opens 20-km Nitish Setu over the Ganga, launches ₹34,000 crore of Bihar projects",
+          "summary": "Prime Minister Narendra Modi opened the six-lane Nitish Setu in Vaishali, linking Kachchi Dargah near Patna with Bidupur across the Ganga. He also opened or laid stones for 227 projects worth over ₹34,000 crore, including a second 660 MW unit at the Buxar thermal plant, and flagged off 100 electric buses under PM-e-Bus.",
           "importance": 3,
-          "lead": false,
           "verified": false,
-          "note": "Single source: All India Radio (citing Health Minister J P Nadda).",
-          "published_at": "2026-11-21T11:36:00+05:30",
+          "published_at": "2026-11-21T19:03:00+05:30",
           "tags": [
+            "Bihar",
+            "infrastructure",
+            "Modi",
+            "power"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/pm-modi-inaugurates-nitish-setu-projects-worth-%e2%82%b934000-crore-in-bihar-2/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": "Single source: Al Jazeera (with AFP), quoting the Manipur chief minister.",
+          "image": null,
+          "impact": [],
+          "id": "india-manipur-illicit-alcohol-2026-11-21",
+          "headline": "Illicit alcohol kills 11 and puts over 180 in hospital in Manipur",
+          "summary": "At least 11 people have died in Manipur after drinking suspected toxic liquor, and more than 180 have been admitted to two hospitals, Chief Minister Yumnam Khemchand Singh said. Officials linked the alcohol to the Sugnu area; the chief minister ordered a probe and promised punishment. Manipur has been officially dry since 1990.",
+          "importance": 3,
+          "verified": false,
+          "published_at": "2026-11-21T00:00:00+00:00",
+          "tags": [
+            "Manipur",
             "health",
-            "vaccine",
-            "cervical cancer"
+            "alcohol"
           ],
           "sources": [
             {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/india-crosses-historic-milestone-of-1-crore-hpv-vaccine-doses-administered-in-less-than-9-months/"
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/21/suspected-toxic-alcohol-kills-at-least-11-people-in-northeast-india"
             }
-          ],
-          "image": null,
-          "impact": []
+          ]
         },
         {
-          "id": "india-tripura-border-night-curbs-2026-11-21",
-          "headline": "West Tripura bans night movement near the Bangladesh border until January 20",
-          "summary": "West Tripura's district magistrate has barred people from going within 500 metres of the Bangladesh border between 8 PM and 5 AM in Sadar and Mohanpur subdivisions. The order, aimed at stopping anti-social activity, runs until January 20, 2027. Security forces, officials on duty and medical emergencies are exempt.",
           "why_it_matters": null,
-          "importance": 2,
           "lead": false,
-          "verified": false,
           "note": "Single source: All India Radio.",
-          "published_at": "2026-11-21T12:45:00+05:30",
+          "image": null,
+          "impact": [],
+          "id": "india-ncb-dea-monsoon-thunder-2026-11-21",
+          "headline": "NCB and US DEA bust Indian arm of a drug network shipping pills to Americans",
+          "summary": "The Narcotics Control Bureau, working with the US Drug Enforcement Administration, broke up an Indian module that sold psychotropic and opioid tablets to buyers in the US through Telegram and WhatsApp. Six people were held and about 3,000 parcels with nearly 5 lakh tablets were traced. Home Minister Amit Shah and US Ambassador Sergio Gor praised the joint operation.",
+          "importance": 2,
+          "verified": false,
+          "published_at": "2026-11-21T17:17:00+05:30",
           "tags": [
-            "Tripura",
-            "Bangladesh",
-            "border"
+            "drugs",
+            "NCB",
+            "India-US"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/west-tripura-imposes-night-movement-restrictions-along-india-bangladesh-border/"
-            }
-          ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "india-ladakh-panchayat-polls-2026-11-21",
-          "headline": "Ladakh votes in panchayat elections across all eight districts",
-          "summary": "Polling for panchayat seats began at 8 AM on Saturday in all eight districts of Ladakh. Of 192 sarpanch seats, 137 are being contested and 55 were decided unopposed; most of the 1,428 panch seats were also uncontested.",
-          "why_it_matters": null,
-          "importance": 2,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-21T12:15:00+05:30",
-          "tags": [
-            "Ladakh",
-            "elections"
-          ],
-          "sources": [
+              "url": "https://newsonair.gov.in/hm-amit-shah-congratulates-ncb-us-dea-on-operation-monsoon-thunder/"
+            },
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/panchayat-elections-underway-in-ladakh/"
+              "url": "https://newsonair.gov.in/us-ambassador-to-india-sergio-gor-hails-india-us-partnership-against-drug-trafficking/"
             }
-          ],
-          "image": null,
-          "impact": []
+          ]
         }
       ]
     },
@@ -234,121 +252,87 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-houthi-missiles-riyadh-2026-11-21",
-          "headline": "Saudi-led coalition says it shot down three Houthi missiles fired at Riyadh",
-          "summary": "The Saudi-led coalition says it intercepted three ballistic missiles that Yemen's Houthis fired at Riyadh early on Saturday, and later a drone heading for southern Saudi Arabia. It was the third day in a row of emergency alerts in the capital, two days after a Houthi strike damaged the Public Investment Fund tower. The Houthis have threatened Jeddah, other Red Sea ports and a power station, and told airlines Saudi airspace is unsafe.",
-          "why_it_matters": "Houthi threats to Saudi ports and airspace add a new risk to Gulf oil supply and shipping on top of the Iran war.",
-          "importance": 4,
+          "why_it_matters": "The war at sea is spreading into the Baltic, right next to NATO members Finland and Estonia.",
           "lead": true,
+          "note": "Single source: Al Jazeera, citing Finland's defence ministry and Russian regional officials. Attacker not identified.",
+          "image": null,
+          "impact": [],
+          "id": "world-gulf-of-finland-ship-drones-2026-11-21",
+          "headline": "Drones hit a Russian cargo ship in the Gulf of Finland; it drifts into Finnish waters",
+          "summary": "Finland's defence ministry says two drones struck the Kaliningrad-bound cargo ship Sparta II on Saturday morning west of Gogland island, setting it on fire. The ship drifted into Finnish waters off Loviisa; no one was reported hurt. Finland sent Border Guard units, closed nearby air and sea traffic, and said the ship has links to Russia's military. Who launched the drones is not confirmed; Ukraine hit a Russian warship in the same gulf earlier this month.",
+          "importance": 4,
           "verified": false,
-          "note": "Claim by the Saudi-led coalition, reported by Al Jazeera and AFP; no casualties or damage figures given.",
           "published_at": "2026-11-21T00:00:00+00:00",
           "tags": [
-            "Saudi Arabia",
-            "Houthis",
-            "Yemen",
-            "Gulf"
+            "Russia",
+            "Finland",
+            "Ukraine war",
+            "Baltic",
+            "shipping"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh"
-            },
-            {
-              "name": "Al Jazeera (live blog)",
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles"
-            }
-          ],
-          "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b010dd74d22-1795231191.jpg?resize=1200%2C675",
-            "credit": "AFP",
-            "source_url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh",
-            "alt": "File photo of skyscrapers in Riyadh's financial district, including an Aramco building"
-          },
-          "impact": [
-            {
-              "on": "oil",
-              "level": "medium",
-              "dir": "up",
-              "why": "Threats to Saudi Red Sea ports and airspace raise supply risk for Gulf crude."
+              "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland"
             }
           ]
         },
         {
-          "id": "world-peru-earthquake-2026-11-21",
-          "headline": "Strong quake shakes central Peru; no deaths reported so far",
-          "summary": "A deep earthquake struck the Andean region of Junin in central Peru and was felt in the capital, Lima. Peru's Geophysical Institute put it at magnitude 6.8; the US Geological Survey measured 6.7 at a depth of about 108 km. Early reports said there were no deaths or major damage.",
           "why_it_matters": null,
-          "importance": 3,
           "lead": false,
-          "verified": true,
-          "note": "Magnitude differs: 6.8 per Peru's Geophysical Institute (via All India Radio), 6.7 per USGS.",
-          "published_at": "2026-11-21T00:09:19+00:00",
-          "tags": [
-            "Peru",
-            "earthquake"
-          ],
-          "sources": [
+          "note": "Claim by Iran's army, denied by US Central Command; not independently confirmed. Single source: Al Jazeera.",
+          "image": null,
+          "impact": [
             {
-              "name": "USGS",
-              "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm"
-            },
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/6-8-magnitude-earthquake-strikes-central-peru/"
+              "on": "oil",
+              "level": "low",
+              "dir": "up",
+              "why": "More military incidents in the Gulf keep a small risk premium in crude."
             }
           ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "world-basra-power-station-fire-2026-11-21",
-          "headline": "Fire at Iraq's Hartha power station near Basra kills at least four",
-          "summary": "A fire at the 800-megawatt Hartha power station north of Basra spread to nearby homes, killing at least four people and injuring 35, Iraqi state media said. Civil defence teams put out the blaze, but the plant had to stop running. The cause is not yet known.",
-          "why_it_matters": null,
+          "id": "world-iran-f16-claim-2026-11-21",
+          "headline": "Iran's army says it hit a US F-16 over the Gulf; US says all its jets are safe",
+          "summary": "Iran's army says its air defences fired a missile at a US F-16 over the Gulf on Friday evening, damaging it and forcing it to land. US Central Command rejected the claim, saying all US fighter jets in the Middle East are safe and accounted for. It follows Iran's claim earlier on Saturday that it downed US drones over Hormuz, while efforts to end the war remain stalled.",
           "importance": 3,
-          "lead": false,
           "verified": false,
-          "note": "Single source: Al Jazeera, citing Iraqi state media.",
-          "published_at": "2026-11-21T00:00:00+00:00",
-          "tags": [
-            "Iraq",
-            "Basra",
-            "power"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/21/at-least-two-people-killed-as-fire-engulfs-power-station-in-southern-iraq"
-            }
-          ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "world-irgc-us-drone-claim-2026-11-21",
-          "headline": "Iran's Revolutionary Guards say they shot down a US MQ-9 drone over Hormuz",
-          "summary": "Iran's IRGC says it downed a US MQ-9 drone over the Strait of Hormuz, Iranian state broadcaster IRIB reported. The US military had not commented.",
-          "why_it_matters": null,
-          "importance": 2,
-          "lead": false,
-          "verified": false,
-          "note": "Claim by Iran's IRGC via state TV; not independently confirmed.",
           "published_at": "2026-11-21T00:00:00+00:00",
           "tags": [
             "Iran",
             "US",
-            "Hormuz",
-            "drone"
+            "Gulf",
+            "Hormuz"
           ],
           "sources": [
             {
-              "name": "Al Jazeera (live blog)",
+              "name": "Al Jazeera",
               "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles"
             }
-          ],
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": "Single source: Al Jazeera (with AFP).",
           "image": null,
-          "impact": []
+          "impact": [],
+          "id": "world-killer-robots-ccw-2026-11-21",
+          "headline": "128 nations agree to work on rules for AI \"killer robots\" over the next two years",
+          "summary": "At the UN weapons convention talks in Geneva, countries agreed to \"elaborate\" an instrument on lethal autonomous weapons by about 2028, after an all-night session. Nearly 100 states wanted binding rules quickly, but the US, Russia and Israel resisted, and the word \"negotiate\" was dropped. Campaign groups called the deal watered down.",
+          "importance": 2,
+          "verified": false,
+          "published_at": "2026-11-21T00:00:00+00:00",
+          "tags": [
+            "AI",
+            "weapons",
+            "UN",
+            "Geneva"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit"
+            }
+          ]
         }
       ]
     },
@@ -362,15 +346,24 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "id": "markets-bitcoin-four-month-low-2026-11-20",
-          "headline": "Update: Bitcoin slips further to about $57,800 on Saturday",
-          "summary": "Bitcoin kept falling after Friday's Wall Street rout, trading near $57,800 on Saturday morning, India time. That is below the roughly $58,900 in this morning's edition and about 6.5% lower than 24 hours earlier, per CoinGecko.",
-          "why_it_matters": "Crypto trades through the weekend, so it is the first sign of whether Friday's tech sell-off is still spreading.",
-          "importance": 3,
+          "why_it_matters": "A weekend rebound in crypto hints that Friday's tech sell-off may be easing before markets reopen.",
           "lead": false,
-          "verified": true,
           "note": null,
-          "published_at": "2026-11-21T08:07:58+00:00",
+          "image": null,
+          "impact": [
+            {
+              "on": "crypto",
+              "level": "medium",
+              "dir": "up",
+              "why": "Buyers stepped back in after a four-month low."
+            }
+          ],
+          "id": "markets-bitcoin-four-month-low-2026-11-20",
+          "headline": "Update: Bitcoin bounces back above $60,000 on Saturday evening",
+          "summary": "Bitcoin recovered to about $60,200 by Saturday evening, India time, up from roughly $57,800 in this afternoon's edition and about 2.4% above Friday's close. It is still well below the $64,900 it traded at on Monday.",
+          "importance": 3,
+          "verified": true,
+          "published_at": "2026-11-21T15:13:59+00:00",
           "tags": [
             "bitcoin",
             "crypto"
@@ -383,15 +376,41 @@
             {
               "name": "CoinGecko",
               "url": "https://www.coingecko.com/en/coins/bitcoin"
+            },
+            {
+              "name": "Coinbase",
+              "url": "https://www.coinbase.com/price/bitcoin"
             }
-          ],
+          ]
+        },
+        {
+          "why_it_matters": "Easier rules for foreign funds, after this week's plan to speed up their sign-up, could help draw back overseas money.",
+          "lead": false,
+          "note": "Single source: All India Radio.",
           "image": null,
           "impact": [
             {
-              "on": "crypto",
-              "level": "medium",
-              "dir": "down",
-              "why": "Selling in risky assets has carried into the weekend."
+              "on": "indian_stocks",
+              "level": "low",
+              "dir": "up",
+              "why": "Lighter rules for foreign funds may support foreign inflows over time."
+            }
+          ],
+          "id": "markets-sebi-offshore-funds-2026-11-21",
+          "headline": "SEBI proposes dropping extra ownership disclosures for offshore funds",
+          "summary": "SEBI has proposed removing the extra disclosure rules brought in in 2023 for higher-risk offshore funds, which make them reveal their ultimate owners in detail. The regulator says existing beneficial-ownership rules already give enough oversight, and that it wants to keep Indian markets attractive to foreign investors. It will take market feedback before deciding.",
+          "importance": 3,
+          "verified": false,
+          "published_at": "2026-11-21T17:18:00+05:30",
+          "tags": [
+            "SEBI",
+            "FPI",
+            "regulation"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/sebi-proposes-eliminating-additional-disclosure-requirements-for-offshore-funds/"
             }
           ]
         }
@@ -400,7 +419,50 @@
     {
       "id": "built",
       "title": "Built This Week",
-      "stories": []
+      "stories": [
+        {
+          "why_it_matters": "It is the biggest step yet towards testing solar-powered AI data centres in orbit.",
+          "lead": false,
+          "note": null,
+          "image": {
+            "url": "https://www.satellitetoday.com/wp-content/uploads/2025/11/gallery_ng2-8262.jpg",
+            "credit": "Blue Origin",
+            "source_url": "https://www.satellitetoday.com/launch/2026/11/19/google-orders-heavy-lift-launch-for-project-suncatcher-from-blue-origin/",
+            "alt": "Blue Origin's New Glenn rocket standing on its launch pad between towers"
+          },
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Google",
+              "level": "low",
+              "dir": "up",
+              "why": "A concrete step for its space-based AI computing plan."
+            }
+          ],
+          "id": "built-google-suncatcher-blue-origin-2026-11-19",
+          "headline": "Google books Blue Origin's New Glenn to fly its AI-chip satellites in 2029",
+          "summary": "Google signed a deal with Blue Origin for a dedicated New Glenn launch of Project Suncatcher satellites, which carry Google's TPU AI chips, targeted for early 2029 into a sun-synchronous orbit. Google's project lead says each satellite has roughly the computing power of a data-centre rack. Terms and satellite numbers were not disclosed; New Glenn is due to return to flight in January.",
+          "importance": 2,
+          "verified": true,
+          "published_at": "2026-11-19T00:00:00-05:00",
+          "tags": [
+            "Google",
+            "Blue Origin",
+            "space",
+            "AI chips"
+          ],
+          "sources": [
+            {
+              "name": "Google",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership/"
+            },
+            {
+              "name": "Via Satellite",
+              "url": "https://www.satellitetoday.com/launch/2026/11/19/google-orders-heavy-lift-launch-for-project-suncatcher-from-blue-origin/"
+            }
+          ]
+        }
+      ]
     }
   ],
   "weekend_special": null,
@@ -420,15 +482,6 @@
     }
   ],
   "week_ahead": [
-    {
-      "date": "2026-11-21",
-      "events": [
-        {
-          "text": "SCO Civilisational Dialogue Forum sessions in New Delhi (to Nov 22)",
-          "section": "india"
-        }
-      ]
-    },
     {
       "date": "2026-11-22",
       "events": [
@@ -451,6 +504,15 @@
         },
         {
           "text": "Mahanadi Coalfields IPO closes",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "events": [
+        {
+          "text": "US stock markets closed for Thanksgiving",
           "section": "markets"
         }
       ]
