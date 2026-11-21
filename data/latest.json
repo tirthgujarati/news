@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-21-morning",
+  "edition_id": "2026-11-21-midday",
   "date": "2026-11-21",
-  "slot": "morning",
-  "title": "Saturday Morning Edition",
-  "generated_at": "2026-11-21T07:45:15+05:30",
+  "slot": "midday",
+  "title": "Saturday Midday Edition",
+  "generated_at": "2026-11-21T13:45:00+05:30",
   "snapshot": [
     {
       "id": "usdinr",
@@ -129,10 +129,10 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$58,926",
-      "change": "-5.25%",
+      "value": "$57,753",
+      "change": "-1.78%",
       "dir": "down",
-      "as_of": "2026-11-21T02:14:31+00:00",
+      "as_of": "2026-11-21T08:07:58+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BTC-USD/"
@@ -157,111 +157,71 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-nikhil-gupta-sentenced-2026-11-20",
-          "headline": "US court jails Indian national Nikhil Gupta for 19½ years in Pannun murder plot",
-          "summary": "A New York federal judge sentenced Nikhil Gupta, 55, to 235 months in prison for conspiring to hire a hitman to kill US-based Sikh separatist Gurpatwant Singh Pannun. US prosecutors had said he worked with an Indian government official. Gupta, who pleaded guilty in February, faces deportation to India after his term.",
-          "why_it_matters": "The case keeps a sensitive issue alive in India-US ties; India has denied any state role in the plot.",
-          "importance": 4,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera, carrying AP and Reuters reports. Prosecutors had sought just over 24 years.",
-          "published_at": "2026-11-20T19:40:07+00:00",
-          "tags": [
-            "India-US",
-            "Courts",
-            "Pannun"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera (AP, Reuters)",
-              "url": "https://www.aljazeera.com/news/2026/11/20/indian-man-sentenced-to-19-years-in-us-sikh-separatist-assassination-plot"
-            }
-          ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "india-rbi-liquidity-vrr-2026-11-20",
-          "headline": "RBI pumps ₹75,000 crore into banks, plans ₹50,000 crore more on Monday",
-          "summary": "The RBI lent banks about ₹75,000 crore for three days through two repo auctions on Friday, at cut-off rates of 5.56% and 5.58%. Banks bid for about ₹1.6 lakh crore, more than double the amount offered. The RBI will hold another ₹50,000 crore, 4-day repo auction on Monday, November 23.",
-          "why_it_matters": "Strong bank demand for funds shows cash in the system is tight, and the RBI is stepping in to keep short-term rates in check.",
+          "id": "india-hpv-vaccine-1-crore-2026-11-21",
+          "headline": "India gives 1 crore HPV vaccine doses in under nine months",
+          "summary": "Health Minister J P Nadda said India has given 1 crore doses of the free HPV vaccine, which protects against cervical cancer, since the national campaign began less than nine months ago. That covers nearly 87% of this year's eligible 14-year-old girls. Six states, including Gujarat, Uttar Pradesh and Bihar, have reached 100%.",
+          "why_it_matters": "Cervical cancer is one of the biggest cancer killers of Indian women, and the drive covers almost the whole yearly group of girls.",
           "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: RBI press releases.",
-          "published_at": "2026-11-20T00:00:00+05:30",
+          "note": "Single source: All India Radio (citing Health Minister J P Nadda).",
+          "published_at": "2026-11-21T11:36:00+05:30",
           "tags": [
-            "RBI",
-            "Liquidity",
-            "Banks"
-          ],
-          "sources": [
-            {
-              "name": "RBI",
-              "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64007"
-            },
-            {
-              "name": "RBI",
-              "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64010"
-            },
-            {
-              "name": "RBI",
-              "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64016"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "rates",
-              "level": "low",
-              "dir": "down",
-              "why": "Extra cash from the RBI eases pressure on short-term borrowing rates."
-            }
-          ]
-        },
-        {
-          "id": "india-france-counter-terrorism-2026-11-21",
-          "headline": "India and France condemn cross-border terrorism at counter-terror talks in Delhi",
-          "summary": "India and France condemned terrorism in all forms, including cross-border terrorism, at the 18th meeting of their joint counter-terrorism working group in New Delhi. They also condemned the Pahalgam attack and the blast near Delhi's Red Fort, and discussed terrorists' misuse of new technologies such as fintech.",
-          "why_it_matters": null,
-          "importance": 2,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-21T07:16:00+05:30",
-          "tags": [
-            "India-France",
-            "Security",
-            "Diplomacy"
+            "health",
+            "vaccine",
+            "cervical cancer"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/india-france-unequivocally-condemn-terrorism-in-all-forms/"
+              "url": "https://newsonair.gov.in/india-crosses-historic-milestone-of-1-crore-hpv-vaccine-doses-administered-in-less-than-9-months/"
             }
           ],
           "image": null,
           "impact": []
         },
         {
-          "id": "india-modi-sco-dialogue-forum-2026-11-20",
-          "headline": "Modi opens first SCO civilisational forum, urges digital cultural ties",
-          "summary": "PM Narendra Modi opened the first Shanghai Cooperation Organisation Civilisational Dialogue Forum at Purana Qila in New Delhi. He said digital platforms make cultural exchange easier and that SCO members should use them, as the group marks 25 years.",
+          "id": "india-tripura-border-night-curbs-2026-11-21",
+          "headline": "West Tripura bans night movement near the Bangladesh border until January 20",
+          "summary": "West Tripura's district magistrate has barred people from going within 500 metres of the Bangladesh border between 8 PM and 5 AM in Sadar and Mohanpur subdivisions. The order, aimed at stopping anti-social activity, runs until January 20, 2027. Security forces, officials on duty and medical emergencies are exempt.",
           "why_it_matters": null,
           "importance": 2,
           "lead": false,
           "verified": false,
           "note": "Single source: All India Radio.",
-          "published_at": "2026-11-20T20:34:00+05:30",
+          "published_at": "2026-11-21T12:45:00+05:30",
           "tags": [
-            "Modi",
-            "SCO",
-            "Culture"
+            "Tripura",
+            "Bangladesh",
+            "border"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/pm-modi-says-sco-creates-fresh-opportunities-for-cultural-cooperation-to-bring-world-together/"
+              "url": "https://newsonair.gov.in/west-tripura-imposes-night-movement-restrictions-along-india-bangladesh-border/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "india-ladakh-panchayat-polls-2026-11-21",
+          "headline": "Ladakh votes in panchayat elections across all eight districts",
+          "summary": "Polling for panchayat seats began at 8 AM on Saturday in all eight districts of Ladakh. Of 192 sarpanch seats, 137 are being contested and 55 were decided unopposed; most of the 1,428 panch seats were also uncontested.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-21T12:15:00+05:30",
+          "tags": [
+            "Ladakh",
+            "elections"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/panchayat-elections-underway-in-ladakh/"
             }
           ],
           "image": null,
@@ -274,120 +234,117 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-trump-presser-iran-ai-2026-11-20",
-          "headline": "Trump says Iran won't offer an acceptable deal, warns firms over AI data centres abroad",
-          "summary": "At a White House news conference, Trump said Iran wants a deal but not one he can accept, nearly 10 months into the war. He warned US tech companies of 'tremendous' penalties if they build AI data centres in other countries, and defended his ties with Putin after this week's Shenzhen summit, where no major deals were announced.",
-          "why_it_matters": "No sign of an Iran deal keeps oil and Gulf shipping risks alive, and the data-centre threat could hit overseas AI projects, including in India.",
+          "id": "world-houthi-missiles-riyadh-2026-11-21",
+          "headline": "Saudi-led coalition says it shot down three Houthi missiles fired at Riyadh",
+          "summary": "The Saudi-led coalition says it intercepted three ballistic missiles that Yemen's Houthis fired at Riyadh early on Saturday, and later a drone heading for southern Saudi Arabia. It was the third day in a row of emergency alerts in the capital, two days after a Houthi strike damaged the Public Investment Fund tower. The Houthis have threatened Jeddah, other Red Sea ports and a power station, and told airlines Saudi airspace is unsafe.",
+          "why_it_matters": "Houthi threats to Saudi ports and airspace add a new risk to Gulf oil supply and shipping on top of the Iran war.",
           "importance": 4,
-          "lead": false,
+          "lead": true,
           "verified": false,
-          "note": "Single source: Al Jazeera.",
-          "published_at": "2026-11-20T21:05:07+00:00",
+          "note": "Claim by the Saudi-led coalition, reported by Al Jazeera and AFP; no casualties or damage figures given.",
+          "published_at": "2026-11-21T00:00:00+00:00",
           "tags": [
-            "US",
-            "Iran",
-            "AI",
-            "Trump"
+            "Saudi Arabia",
+            "Houthis",
+            "Yemen",
+            "Gulf"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us"
+              "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh"
             },
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/economy/2026/11/20/us-lawmakers-push-for-tougher-ai-chip-rules-amid-china-export-crackdown"
+              "name": "Al Jazeera (live blog)",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles"
             }
           ],
           "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b00ac25668c2-1795206181.jpg",
-            "credit": "Jacquelyn Martin/AP Photo",
-            "source_url": "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us",
-            "alt": "Donald Trump speaks at a podium in the White House briefing room"
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b010dd74d22-1795231191.jpg?resize=1200%2C675",
+            "credit": "AFP",
+            "source_url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh",
+            "alt": "File photo of skyscrapers in Riyadh's financial district, including an Aramco building"
           },
           "impact": [
             {
               "on": "oil",
-              "level": "low",
+              "level": "medium",
               "dir": "up",
-              "why": "No progress toward an Iran deal keeps a risk premium in oil."
-            },
-            {
-              "on": "us_stocks",
-              "detail": "Tech",
-              "level": "low",
-              "dir": "mixed",
-              "why": "Penalties on overseas data centres could raise costs for big US cloud firms."
+              "why": "Threats to Saudi Red Sea ports and airspace raise supply risk for Gulf crude."
             }
           ]
         },
         {
-          "id": "world-denmark-expels-russian-attache-2026-11-20",
-          "headline": "Denmark expels Russia's defence attaché, says Moscow plotted to kill a Ukrainian rapper",
-          "summary": "Denmark gave Russia's defence attaché seven days to leave after its intelligence service PET said Russian agents planned to kill a Ukrainian rapper at a concert near Copenhagen in September, with help from a banned Danish gang. Police stopped three people near the venue with guns and knives. Denmark is also weighing suspending Schengen visas for Russians.",
+          "id": "world-peru-earthquake-2026-11-21",
+          "headline": "Strong quake shakes central Peru; no deaths reported so far",
+          "summary": "A deep earthquake struck the Andean region of Junin in central Peru and was felt in the capital, Lima. Peru's Geophysical Institute put it at magnitude 6.8; the US Geological Survey measured 6.7 at a depth of about 108 km. Early reports said there were no deaths or major damage.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
-          "verified": false,
-          "note": "Claim by Danish intelligence; not independently confirmed. Single source: Al Jazeera.",
-          "published_at": "2026-11-21T01:12:48+00:00",
+          "verified": true,
+          "note": "Magnitude differs: 6.8 per Peru's Geophysical Institute (via All India Radio), 6.7 per USGS.",
+          "published_at": "2026-11-21T00:09:19+00:00",
           "tags": [
-            "Denmark",
-            "Russia",
-            "Europe"
+            "Peru",
+            "earthquake"
           ],
           "sources": [
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/21/denmark-expels-russian-diplomat-over-alleged-plot-to-kill-ukrainian-rapper"
+              "name": "USGS",
+              "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/6-8-magnitude-earthquake-strikes-central-peru/"
             }
           ],
           "image": null,
           "impact": []
         },
         {
-          "id": "world-estonia-closes-russia-border-2026-11-20",
-          "headline": "Estonia to shut road border with Russia from December 1; Moscow vows response",
-          "summary": "Estonia's government approved closing all road crossings with Russia for six months from December 1. It says the move will curb sabotage, recruitment and sanctions dodging. Russia called it a 'new Iron Curtain' and promised political and diplomatic measures in response.",
+          "id": "world-basra-power-station-fire-2026-11-21",
+          "headline": "Fire at Iraq's Hartha power station near Basra kills at least four",
+          "summary": "A fire at the 800-megawatt Hartha power station north of Basra spread to nearby homes, killing at least four people and injuring 35, Iraqi state media said. Civil defence teams put out the blaze, but the plant had to stop running. The cause is not yet known.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: Al Jazeera.",
-          "published_at": "2026-11-20T20:30:46+00:00",
+          "note": "Single source: Al Jazeera, citing Iraqi state media.",
+          "published_at": "2026-11-21T00:00:00+00:00",
           "tags": [
-            "Estonia",
-            "Russia",
-            "NATO"
+            "Iraq",
+            "Basra",
+            "power"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/20/russia-complains-of-new-iron-curtain-as-estonia-shuts-its-borders"
+              "url": "https://www.aljazeera.com/news/2026/11/21/at-least-two-people-killed-as-fire-engulfs-power-station-in-southern-iraq"
             }
           ],
           "image": null,
           "impact": []
         },
         {
-          "id": "world-cop31-overtime-2026-11-20",
-          "headline": "COP31 climate talks run into overtime as draft deal drops mention of fossil fuels",
-          "summary": "The COP31 summit in Antalya, Turkiye, missed its Friday deadline as nearly 200 countries remain split over a draft that no longer mentions fossil fuels. The EU warned the meeting risks becoming a 'fossil summit'. A new draft is expected on Saturday.",
+          "id": "world-irgc-us-drone-claim-2026-11-21",
+          "headline": "Iran's Revolutionary Guards say they shot down a US MQ-9 drone over Hormuz",
+          "summary": "Iran's IRGC says it downed a US MQ-9 drone over the Strait of Hormuz, Iranian state broadcaster IRIB reported. The US military had not commented.",
           "why_it_matters": null,
           "importance": 2,
           "lead": false,
           "verified": false,
-          "note": "Single source: Al Jazeera.",
-          "published_at": "2026-11-20T23:06:41+00:00",
+          "note": "Claim by Iran's IRGC via state TV; not independently confirmed.",
+          "published_at": "2026-11-21T00:00:00+00:00",
           "tags": [
-            "Climate",
-            "COP31",
-            "Energy"
+            "Iran",
+            "US",
+            "Hormuz",
+            "drone"
           ],
           "sources": [
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime"
+              "name": "Al Jazeera (live blog)",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles"
             }
           ],
           "image": null,
@@ -398,236 +355,43 @@
     {
       "id": "currency",
       "title": "Currency Desk",
-      "stories": [
-        {
-          "id": "currency-yen-haven-dollar-2026-11-20",
-          "headline": "Yen jumps as stock rout sends investors to safety; dollar eases from 19-month high",
-          "summary": "The yen rose about 0.7% to around 158.5 per dollar on Friday as stocks fell and US bond yields dropped. The dollar index slipped about 0.1% to near 103.8, just off Thursday's highest level since April 2025, but is still up about 1.7% in November. Sterling stayed near a one-year low around $1.309.",
-          "why_it_matters": "A firm dollar near 19-month highs is a headwind for the rupee if the global sell-off spills into Indian markets on Monday.",
-          "importance": 3,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-20T14:52:00-05:00",
-          "tags": [
-            "Dollar",
-            "Yen",
-            "Forex"
-          ],
-          "sources": [
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/amp/2026/11/20/dollar-price-currency-euro-yen.html"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "currency",
-              "detail": "Yen",
-              "level": "medium",
-              "dir": "up",
-              "why": "Falling stocks and yields lift demand for the yen as a safe haven."
-            },
-            {
-              "on": "currency",
-              "detail": "Dollar",
-              "level": "low",
-              "dir": "down",
-              "why": "Lower US yields take some shine off the dollar."
-            }
-          ]
-        }
-      ]
+      "stories": []
     },
     {
       "id": "markets",
       "title": "Money & Markets",
       "stories": [
         {
-          "id": "markets-wall-street-open-2026-11-20",
-          "headline": "Update: S&P 500 and Dow fall into correction; Nasdaq sinks 5.3% in AI rout",
-          "summary": "Friday's early dip turned into a rout. The S&P 500 fell 3.7% to 6,910.39 and the Dow lost 949.73 points (1.93%) to 48,147.33; both closed more than 10% below their records. The Nasdaq dropped 5.28% to 22,617.73, wiping out its 2026 gains and ending its worst week since March 2020, down 10%. Chip stocks led the fall, and the 10-year Treasury yield dropped to about 4.92%.",
-          "why_it_matters": "Indian markets were closed for the weekend, so Monday's open faces a sharp global sell-off, especially for IT and other tech-linked stocks.",
-          "importance": 5,
-          "lead": true,
-          "verified": true,
-          "note": "The evening edition reported Friday's open; this is the close.",
-          "published_at": "2026-11-20T18:53:00-05:00",
-          "tags": [
-            "Wall Street",
-            "AI",
-            "Stocks",
-            "Correction"
-          ],
-          "sources": [
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
-            }
-          ],
-          "image": {
-            "url": "https://s.yimg.com/lo/mysterio/api/59063dbaa152fd39103d02bf0d8d62a158a83e2ecf89233e1ddf47f217501378/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Ff69dd7e2-7a1c-4ed1-8c89-a0f2eedced6e",
-            "credit": "Yahoo Finance",
-            "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
-            "alt": "The New York Stock Exchange building seen from street level"
-          },
-          "impact": [
-            {
-              "on": "us_stocks",
-              "detail": "Tech",
-              "level": "high",
-              "dir": "down",
-              "why": "Both main indices are in correction and selling in AI stocks is still spreading."
-            },
-            {
-              "on": "indian_stocks",
-              "detail": "IT",
-              "level": "high",
-              "dir": "down",
-              "why": "Monday's open is likely to follow Wall Street's sharp losses, led by IT."
-            },
-            {
-              "on": "rates",
-              "level": "medium",
-              "dir": "down",
-              "why": "Investors bought bonds for safety, pulling the US 10-year yield back below 5%."
-            },
-            {
-              "on": "rupee",
-              "level": "low",
-              "dir": "down",
-              "why": "A global risk-off mood can pull foreign money out of Indian assets."
-            }
-          ]
-        },
-        {
-          "id": "markets-nvidia-huang-trump-2026-11-20",
-          "headline": "Nvidia sinks 14% for a 23% weekly loss; Trump says Jensen Huang deserves a second chance",
-          "summary": "Nvidia fell 14% on Friday to about $125.5 and lost about 23% over the week, after co-founder Jensen Huang quit as CEO on November 12. AMD and Broadcom fell more than 13%. Trump told reporters Huang should be given 'a second chance' and return after a 'big apology'.",
-          "why_it_matters": "Nvidia is the biggest name in the AI trade, so its slide drives chip and tech stocks worldwide.",
-          "importance": 4,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-21T01:49:07+00:00",
-          "tags": [
-            "Nvidia",
-            "Chips",
-            "AI"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/21/trump-calls-for-nvidia-to-reinstate-brilliant-jensen-huang"
-            },
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "company",
-              "detail": "Nvidia",
-              "level": "high",
-              "dir": "mixed",
-              "why": "After a 23% weekly drop, any sign of a leadership fix could steady the stock."
-            },
-            {
-              "on": "us_stocks",
-              "detail": "Tech",
-              "level": "high",
-              "dir": "down",
-              "why": "Chip stocks are leading the wider market lower."
-            }
-          ]
-        },
-        {
-          "id": "markets-gold-slump-3560-2026-11-20",
-          "headline": "Update: gold ends Friday near $3,539, down about 4%; silver drops over 7%",
-          "summary": "Gold futures closed near $3,539 an ounce, down about 4% on the day and their lowest in over a year, as traders bet on more US rate hikes. Silver fell more than 7% to about $41.",
-          "why_it_matters": "Lower global prices point to further falls in Indian gold and silver rates when markets reopen.",
-          "importance": 4,
-          "lead": false,
-          "verified": true,
-          "note": "Updated with Friday's close; the evening edition had gold near $3,570.",
-          "published_at": "2026-11-20T17:00:00-05:00",
-          "tags": [
-            "Gold",
-            "Silver",
-            "Commodities"
-          ],
-          "sources": [
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
-            },
-            {
-              "name": "Yahoo Finance (COMEX futures)",
-              "url": "https://finance.yahoo.com/quote/GC=F"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "gold",
-              "level": "high",
-              "dir": "down",
-              "why": "Bets on Fed rate hikes and a strong dollar keep selling pressure on gold."
-            },
-            {
-              "on": "silver",
-              "level": "high",
-              "dir": "down",
-              "why": "Silver is falling faster than gold as industrial and investment demand cools."
-            }
-          ]
-        },
-        {
           "id": "markets-bitcoin-four-month-low-2026-11-20",
-          "headline": "Bitcoin falls below $59,000, a four-month low, as the tech sell-off spreads",
-          "summary": "Bitcoin dropped about 5% to below $59,000, its lowest since July, and is down about 23% in November. Ether fell to around $1,625.",
-          "why_it_matters": null,
+          "headline": "Update: Bitcoin slips further to about $57,800 on Saturday",
+          "summary": "Bitcoin kept falling after Friday's Wall Street rout, trading near $57,800 on Saturday morning, India time. That is below the roughly $58,900 in this morning's edition and about 6.5% lower than 24 hours earlier, per CoinGecko.",
+          "why_it_matters": "Crypto trades through the weekend, so it is the first sign of whether Friday's tech sell-off is still spreading.",
           "importance": 3,
           "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-20T14:52:00-05:00",
+          "published_at": "2026-11-21T08:07:58+00:00",
           "tags": [
-            "Bitcoin",
-            "Crypto"
+            "bitcoin",
+            "crypto"
           ],
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/amp/2026/11/20/dollar-price-currency-euro-yen.html"
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/BTC-USD/"
             },
             {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+              "name": "CoinGecko",
+              "url": "https://www.coingecko.com/en/coins/bitcoin"
             }
           ],
           "image": null,
           "impact": [
             {
               "on": "crypto",
-              "level": "high",
+              "level": "medium",
               "dir": "down",
-              "why": "Crypto is trading like risky tech stocks and falling with them."
+              "why": "Selling in risky assets has carried into the weekend."
             }
           ]
         }
@@ -636,73 +400,11 @@
     {
       "id": "built",
       "title": "Built This Week",
-      "stories": [
-        {
-          "id": "built-microsoft-mai-models-ignite-2026-11-17",
-          "headline": "Microsoft launches seven in-house MAI models and puts its Maia 200 AI chip into production",
-          "summary": "At Ignite, Microsoft AI released seven of its own models for coding, cybersecurity, image editing, live speech and transcription. It says MAI Code 2 reaches about 98% of a leading rival's coding score at about 40% of the price. Its second-generation Maia 200 AI chip is now in production.",
-          "why_it_matters": "Cheaper in-house models cut Microsoft's reliance on outside AI labs and push down AI prices for businesses.",
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Company announcement; performance claims are Microsoft's own. Single source: Microsoft.",
-          "published_at": "2026-11-17T00:00:00-08:00",
-          "tags": [
-            "Microsoft",
-            "AI",
-            "Chips"
-          ],
-          "sources": [
-            {
-              "name": "Microsoft AI",
-              "url": "https://microsoft.ai/news/microsoft-ignite-2026/"
-            }
-          ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "built-google-genie-4-api-2026-11-19",
-          "headline": "Google opens Genie 4 to developers: AI-made 3D worlds you can walk through live",
-          "summary": "Google made Genie 4 available in the Gemini API and AI Studio. It builds interactive worlds at 720p and 24 frames a second, with sound and dialogue, from a text prompt or an image. Users can move around with the keyboard and change weather, lighting or events by typing.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Company announcement. Single source: Google.",
-          "published_at": "2026-11-19T00:00:00-08:00",
-          "tags": [
-            "Google",
-            "AI",
-            "Gaming"
-          ],
-          "sources": [
-            {
-              "name": "Google",
-              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/"
-            }
-          ],
-          "image": null,
-          "impact": []
-        }
-      ]
+      "stories": []
     }
   ],
   "weekend_special": null,
   "forex_results": [
-    {
-      "country": "GBP",
-      "title": "Retail Sales m/m",
-      "date": "2026-11-20T02:00:00-05:00",
-      "impact": "Medium",
-      "actual": "0.7%",
-      "vs_forecast": "better",
-      "why": "British shoppers spent more than the flat month expected, a mild support for the pound.",
-      "source": {
-        "name": "Office for National Statistics",
-        "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/latest"
-      }
-    },
     {
       "country": "USD",
       "title": "Revised UoM Consumer Sentiment",

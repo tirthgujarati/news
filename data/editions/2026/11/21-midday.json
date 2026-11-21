@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-21-midday",
+  "date": "2026-11-21",
+  "slot": "midday",
+  "title": "Saturday Midday Edition",
+  "generated_at": "2026-11-21T13:45:00+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "92.67",
+      "change": "-0.70%",
+      "dir": "down",
+      "as_of": "2026-11-20T17:59:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/rupee-appreciates-by-62-paise-against-us-dollar-to-close-at-seven-month-high/"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "101.60",
+      "change": "-0.65%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:41:46+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.84",
+      "change": "-0.06%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:59:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$705.34bn",
+      "change": "-1.97%",
+      "dir": "down",
+      "as_of": "2026-11-13T00:00:00+05:30",
+      "source": {
+        "name": "ANI (RBI data)",
+        "url": "https://aninews.in/news/business/india8217s-forex-reserves-fall-by-usd-142-billion-to-usd-70534-billion-in-week-ended-november-1320261120180825/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,800.60",
+      "change": "+1.12%",
+      "dir": "up",
+      "as_of": "2026-11-20T10:01:15+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "83,919.71",
+      "change": "+1.08%",
+      "dir": "up",
+      "as_of": "2026-11-20T10:02:29+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "6,910.39",
+      "change": "-3.70%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:35:54+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "22,617.73",
+      "change": "-5.28%",
+      "dir": "down",
+      "as_of": "2026-11-20T22:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,539.00",
+      "change": "-3.98%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:59:57+00:00",
+      "source": {
+        "name": "Yahoo Finance (COMEX futures)",
+        "url": "https://finance.yahoo.com/quote/GC=F"
+      }
+    },
+    {
+      "id": "gold_mcx",
+      "label": "Gold India (IBJA 24K)",
+      "value": "₹1,23,893/10g",
+      "change": "-4.4%",
+      "dir": "down",
+      "as_of": "2026-11-20T17:54:00+05:30",
+      "source": {
+        "name": "All India Radio (IBJA rates)",
+        "url": "https://newsonair.gov.in/gold-silver-prices-plunge-over-4/"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$57,753",
+      "change": "-1.78%",
+      "dir": "down",
+      "as_of": "2026-11-21T08:07:58+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD/"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.91%",
+      "change": "-2.73%",
+      "dir": "down",
+      "as_of": "2026-11-20T19:59:55+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-hpv-vaccine-1-crore-2026-11-21",
+          "headline": "India gives 1 crore HPV vaccine doses in under nine months",
+          "summary": "Health Minister J P Nadda said India has given 1 crore doses of the free HPV vaccine, which protects against cervical cancer, since the national campaign began less than nine months ago. That covers nearly 87% of this year's eligible 14-year-old girls. Six states, including Gujarat, Uttar Pradesh and Bihar, have reached 100%.",
+          "why_it_matters": "Cervical cancer is one of the biggest cancer killers of Indian women, and the drive covers almost the whole yearly group of girls.",
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio (citing Health Minister J P Nadda).",
+          "published_at": "2026-11-21T11:36:00+05:30",
+          "tags": [
+            "health",
+            "vaccine",
+            "cervical cancer"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/india-crosses-historic-milestone-of-1-crore-hpv-vaccine-doses-administered-in-less-than-9-months/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "india-tripura-border-night-curbs-2026-11-21",
+          "headline": "West Tripura bans night movement near the Bangladesh border until January 20",
+          "summary": "West Tripura's district magistrate has barred people from going within 500 metres of the Bangladesh border between 8 PM and 5 AM in Sadar and Mohanpur subdivisions. The order, aimed at stopping anti-social activity, runs until January 20, 2027. Security forces, officials on duty and medical emergencies are exempt.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-21T12:45:00+05:30",
+          "tags": [
+            "Tripura",
+            "Bangladesh",
+            "border"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/west-tripura-imposes-night-movement-restrictions-along-india-bangladesh-border/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "india-ladakh-panchayat-polls-2026-11-21",
+          "headline": "Ladakh votes in panchayat elections across all eight districts",
+          "summary": "Polling for panchayat seats began at 8 AM on Saturday in all eight districts of Ladakh. Of 192 sarpanch seats, 137 are being contested and 55 were decided unopposed; most of the 1,428 panch seats were also uncontested.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-21T12:15:00+05:30",
+          "tags": [
+            "Ladakh",
+            "elections"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/panchayat-elections-underway-in-ladakh/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-houthi-missiles-riyadh-2026-11-21",
+          "headline": "Saudi-led coalition says it shot down three Houthi missiles fired at Riyadh",
+          "summary": "The Saudi-led coalition says it intercepted three ballistic missiles that Yemen's Houthis fired at Riyadh early on Saturday, and later a drone heading for southern Saudi Arabia. It was the third day in a row of emergency alerts in the capital, two days after a Houthi strike damaged the Public Investment Fund tower. The Houthis have threatened Jeddah, other Red Sea ports and a power station, and told airlines Saudi airspace is unsafe.",
+          "why_it_matters": "Houthi threats to Saudi ports and airspace add a new risk to Gulf oil supply and shipping on top of the Iran war.",
+          "importance": 4,
+          "lead": true,
+          "verified": false,
+          "note": "Claim by the Saudi-led coalition, reported by Al Jazeera and AFP; no casualties or damage figures given.",
+          "published_at": "2026-11-21T00:00:00+00:00",
+          "tags": [
+            "Saudi Arabia",
+            "Houthis",
+            "Yemen",
+            "Gulf"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh"
+            },
+            {
+              "name": "Al Jazeera (live blog)",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b010dd74d22-1795231191.jpg?resize=1200%2C675",
+            "credit": "AFP",
+            "source_url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh",
+            "alt": "File photo of skyscrapers in Riyadh's financial district, including an Aramco building"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "Threats to Saudi Red Sea ports and airspace raise supply risk for Gulf crude."
+            }
+          ]
+        },
+        {
+          "id": "world-peru-earthquake-2026-11-21",
+          "headline": "Strong quake shakes central Peru; no deaths reported so far",
+          "summary": "A deep earthquake struck the Andean region of Junin in central Peru and was felt in the capital, Lima. Peru's Geophysical Institute put it at magnitude 6.8; the US Geological Survey measured 6.7 at a depth of about 108 km. Early reports said there were no deaths or major damage.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "Magnitude differs: 6.8 per Peru's Geophysical Institute (via All India Radio), 6.7 per USGS.",
+          "published_at": "2026-11-21T00:09:19+00:00",
+          "tags": [
+            "Peru",
+            "earthquake"
+          ],
+          "sources": [
+            {
+              "name": "USGS",
+              "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/6-8-magnitude-earthquake-strikes-central-peru/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-basra-power-station-fire-2026-11-21",
+          "headline": "Fire at Iraq's Hartha power station near Basra kills at least four",
+          "summary": "A fire at the 800-megawatt Hartha power station north of Basra spread to nearby homes, killing at least four people and injuring 35, Iraqi state media said. Civil defence teams put out the blaze, but the plant had to stop running. The cause is not yet known.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera, citing Iraqi state media.",
+          "published_at": "2026-11-21T00:00:00+00:00",
+          "tags": [
+            "Iraq",
+            "Basra",
+            "power"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/21/at-least-two-people-killed-as-fire-engulfs-power-station-in-southern-iraq"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-irgc-us-drone-claim-2026-11-21",
+          "headline": "Iran's Revolutionary Guards say they shot down a US MQ-9 drone over Hormuz",
+          "summary": "Iran's IRGC says it downed a US MQ-9 drone over the Strait of Hormuz, Iranian state broadcaster IRIB reported. The US military had not commented.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Claim by Iran's IRGC via state TV; not independently confirmed.",
+          "published_at": "2026-11-21T00:00:00+00:00",
+          "tags": [
+            "Iran",
+            "US",
+            "Hormuz",
+            "drone"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera (live blog)",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": []
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "id": "markets-bitcoin-four-month-low-2026-11-20",
+          "headline": "Update: Bitcoin slips further to about $57,800 on Saturday",
+          "summary": "Bitcoin kept falling after Friday's Wall Street rout, trading near $57,800 on Saturday morning, India time. That is below the roughly $58,900 in this morning's edition and about 6.5% lower than 24 hours earlier, per CoinGecko.",
+          "why_it_matters": "Crypto trades through the weekend, so it is the first sign of whether Friday's tech sell-off is still spreading.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-21T08:07:58+00:00",
+          "tags": [
+            "bitcoin",
+            "crypto"
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/BTC-USD/"
+            },
+            {
+              "name": "CoinGecko",
+              "url": "https://www.coingecko.com/en/coins/bitcoin"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "crypto",
+              "level": "medium",
+              "dir": "down",
+              "why": "Selling in risky assets has carried into the weekend."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": []
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "USD",
+      "title": "Revised UoM Consumer Sentiment",
+      "date": "2026-11-20T10:00:00-05:00",
+      "impact": "Medium",
+      "actual": "51.5",
+      "vs_forecast": "worse",
+      "why": "Final sentiment rose from 51.0 but came in just under the 51.7 forecast, a very small negative for the dollar.",
+      "source": {
+        "name": "investingLive",
+        "url": "https://investinglive.com/news/university-of-michigan-consumer-sentiment-51-5-versus-51-5-estimate/"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-21",
+      "events": [
+        {
+          "text": "SCO Civilisational Dialogue Forum sessions in New Delhi (to Nov 22)",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "events": [
+        {
+          "text": "Nepal PM Balendra Shah begins two-day India visit",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "events": [
+        {
+          "text": "Modi holds talks with Nepal PM Balendra Shah",
+          "section": "india"
+        },
+        {
+          "text": "RBI ₹50,000 crore 4-day repo auction (9:30-10:00 AM)",
+          "section": "currency"
+        },
+        {
+          "text": "Mahanadi Coalfields IPO closes",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "events": [
+        {
+          "text": "Mahanadi Coalfields shares due to list on BSE and NSE",
+          "section": "markets"
+        }
+      ]
+    }
+  ]
+}
