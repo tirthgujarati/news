@@ -1,0 +1,475 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-22-evening",
+  "date": "2026-11-22",
+  "slot": "evening",
+  "title": "Sunday Evening Edition",
+  "generated_at": "2026-11-22T20:50:00+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "92.67",
+      "change": "-0.70%",
+      "dir": "down",
+      "as_of": "2026-11-20T17:59:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/rupee-appreciates-by-62-paise-against-us-dollar-to-close-at-seven-month-high/"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "101.60",
+      "change": "-0.65%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:41:46+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.84",
+      "change": "-0.06%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:59:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$705.34bn",
+      "change": "-1.97%",
+      "dir": "down",
+      "as_of": "2026-11-13T00:00:00+05:30",
+      "source": {
+        "name": "ANI (RBI data)",
+        "url": "https://aninews.in/news/business/india8217s-forex-reserves-fall-by-usd-142-billion-to-usd-70534-billion-in-week-ended-november-1320261120180825/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,800.60",
+      "change": "+1.12%",
+      "dir": "up",
+      "as_of": "2026-11-20T10:01:15+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "83,919.71",
+      "change": "+1.08%",
+      "dir": "up",
+      "as_of": "2026-11-20T10:02:29+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "6,910.39",
+      "change": "-3.70%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:35:54+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "22,617.73",
+      "change": "-5.28%",
+      "dir": "down",
+      "as_of": "2026-11-20T22:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,515.40",
+      "change": "-4.62%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:59:57+00:00",
+      "source": {
+        "name": "Yahoo Finance (COMEX futures)",
+        "url": "https://finance.yahoo.com/quote/GC=F"
+      }
+    },
+    {
+      "id": "gold_mcx",
+      "label": "Gold India (IBJA 24K)",
+      "value": "₹1,23,893/10g",
+      "change": "-4.4%",
+      "dir": "down",
+      "as_of": "2026-11-20T17:54:00+05:30",
+      "source": {
+        "name": "All India Radio (IBJA rates)",
+        "url": "https://newsonair.gov.in/gold-silver-prices-plunge-over-4/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$89.95",
+      "change": "-2.21%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:59:18+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ=F"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$60,840",
+      "change": "+1.08%",
+      "dir": "up",
+      "as_of": "2026-11-22T15:12:28+00:00",
+      "source": {
+        "name": "CoinGecko",
+        "url": "https://www.coingecko.com/en/coins/bitcoin"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.91%",
+      "change": "-2.73%",
+      "dir": "down",
+      "as_of": "2026-11-20T19:59:55+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-nepal-pm-visit-2026-11-22",
+          "headline": "Update: Nepal PM Balendra Shah lands in Delhi; Jaishankar calls on him",
+          "summary": "Nepal's Prime Minister Balendra Shah arrived in New Delhi on Sunday afternoon and was received by Union Minister Jitin Prasada. External Affairs Minister S Jaishankar called on him in the evening. On Monday Shah gets a ceremonial welcome at Rashtrapati Bhavan, meets President Murmu and holds talks with Prime Minister Modi, where several agreements are due to be exchanged and projects launched.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio. New since the last edition: his arrival and the Jaishankar meeting.",
+          "published_at": "2026-11-22T19:45:00+05:30",
+          "tags": [
+            "Nepal",
+            "diplomacy",
+            "Jaishankar"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/india-nepal-to-exchange-mous-during-nepal-pm-balendra-shahs-visit/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-cop31-overtime-2026-11-20",
+          "headline": "Update: COP31 climate talks end with no deal after EU rejects final text",
+          "summary": "The UN climate summit in Antalya, Turkey, collapsed on Sunday after a record two days of overtime. COP31 president Murat Kurum told the closing session the text was not adopted because some countries opposed it. The EU, speaking through Ireland's Darragh O'Brien, said it would not back a deal that does not mention fossil fuels, and Panama also objected.",
+          "why_it_matters": "With no agreement, there is no new global push to cut oil, gas and coal use from this year's summit.",
+          "importance": 4,
+          "lead": true,
+          "verified": true,
+          "note": "Changed since the last edition: the final draft was rejected and no deal was adopted.",
+          "published_at": "2026-11-22T14:41:00+00:00",
+          "tags": [
+            "COP31",
+            "climate",
+            "EU",
+            "fossil fuels"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
+            },
+            {
+              "name": "RTÉ",
+              "url": "https://www.rte.ie/news/world/2026/1122/1600166-cop31-turkey/"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b025ad2-1795316434.jpg?resize=1920%2C1440",
+            "credit": "Murad Sezer/Reuters",
+            "source_url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime",
+            "alt": "COP31 president Murat Kurum surrounded by advisers at the summit in Antalya"
+          },
+          "impact": []
+        },
+        {
+          "id": "world-gulf-finland-ship-2026-11-22",
+          "headline": "Russian military cargo ship burns off Finland after drone strike",
+          "summary": "The Sparta II, a sanctioned Russian cargo ship run by a defence ministry logistics firm, was hit by drones on Saturday in the Gulf of Finland on its way to Kaliningrad. Finland's military says Ukraine likely carried out the strike; the ship drifted into Finnish waters and was still on fire on Sunday. All 16 crew were evacuated, and Finnish PM Petteri Orpo said the war is spilling over close to Finland.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera, citing Finnish officials.",
+          "published_at": "2026-11-22T00:00:00+00:00",
+          "tags": [
+            "Russia",
+            "Ukraine",
+            "Finland",
+            "Baltic"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-drone-attack"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-zelenskyy-patriots-2026-11-22",
+          "headline": "Zelenskyy urges US to release Patriot missiles as Russian strikes kill 3",
+          "summary": "Zelenskyy says Russia fired about 2,700 drones, 1,460 guided bombs and 165 missiles at Ukraine in the past week, and asked Washington to approve Patriot interceptors that partners have already paid for. Russian attacks on Sunday killed at least two people near Kyiv and one in Zaporizhzhia; in Dymer an apartment block partly collapsed and people are still missing.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera, citing Ukrainian officials.",
+          "published_at": "2026-11-22T00:00:00+00:00",
+          "tags": [
+            "Ukraine",
+            "Russia",
+            "US",
+            "Patriot"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-indonesia-factory-fire-2026-11-22",
+          "headline": "Indonesia sweets factory fire kills three; 36 workers missing",
+          "summary": "A fire at the Fonusa Agung Mulia sweets factory in Banten province, next to Jakarta, killed at least three people, and 36 are missing. The company says about 300 workers were inside; 15 have been rescued. Rescuers said parts of the building were still burning more than 12 hours later, and the cause is being investigated.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera, citing Indonesia's search and rescue agency and AP.",
+          "published_at": "2026-11-22T00:00:00+00:00",
+          "tags": [
+            "Indonesia",
+            "fire"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/22/indonesia-factory-fire-kills-three-36-missing"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": []
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "id": "markets-gurpurab-holiday-week-2026-11-22",
+          "headline": "Indian markets shut on Tuesday for Gurpurab in a four-day trading week",
+          "summary": "NSE and BSE will be closed on Tuesday, November 24, for Guru Nanak Jayanti; MCX skips only its morning session. In the shortened week, investors will watch the Middle East, foreign fund flows, the last company results, two new IPOs and two listings, plus US PCE inflation and GDP data on Wednesday.",
+          "why_it_matters": "A short week with key US inflation data and Gulf tensions could make trading choppy.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-22T19:17:00+05:30",
+          "tags": [
+            "NSE",
+            "BSE",
+            "holiday",
+            "week ahead"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/indian-stock-markets-to-remain-closed-on-tuesday-on-account-of-gurpurab/"
+            },
+            {
+              "name": "Zerodha holiday calendar",
+              "url": "https://zerodha.com/marketintel/HolidayCalendar"
+            }
+          ],
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/Indian-stock-markets-to-remain-closed-on-Tuesday-on-account-of-Gurpurab.jpg",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/indian-stock-markets-to-remain-closed-on-tuesday-on-account-of-gurpurab/",
+            "alt": "The Bombay Stock Exchange building in Mumbai with a stock ticker board"
+          },
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "level": "low",
+              "dir": "mixed",
+              "why": "One fewer trading day, with US inflation data due midweek."
+            }
+          ]
+        },
+        {
+          "id": "markets-gold-silver-weekly-loss-2026-11-22",
+          "headline": "Gold drops 10.9% and silver 16% on MCX in a second losing week",
+          "summary": "MCX gold for December ended the week down 10.9% at ₹1,21,778 per 10 grams, and silver fell about 16.2% to ₹1,47,813 a kg. On COMEX, gold settled at $3,515.4 an ounce, down 9.5% for the week. A stronger dollar, higher US Treasury yields and bets that the Fed will keep rates high weighed on both metals.",
+          "why_it_matters": "Cheaper gold eases India's import bill but hurts jewellery-stock and gold-loan collateral values.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "New since the last edition: the full-week MCX and COMEX totals. COMEX settle confirmed by Yahoo Finance.",
+          "published_at": "2026-11-22T17:32:00+05:30",
+          "tags": [
+            "gold",
+            "silver",
+            "MCX",
+            "COMEX"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/gold-and-silver-prices-plunge-amid-strong-us-dollar-and-rising-treasury-yields/"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/GC=F"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "gold",
+              "level": "medium",
+              "dir": "down",
+              "why": "A strong dollar and high yields keep pressure on gold."
+            },
+            {
+              "on": "silver",
+              "level": "medium",
+              "dir": "down",
+              "why": "Silver fell even faster than gold over the week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": []
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [],
+  "week_ahead": [
+    {
+      "date": "2026-11-23",
+      "events": [
+        {
+          "text": "Modi holds talks with Nepal PM Balendra Shah",
+          "section": "india"
+        },
+        {
+          "text": "RBI ₹50,000 crore 4-day repo auction (9:30-10:00 AM)",
+          "section": "currency"
+        },
+        {
+          "text": "Mahanadi Coalfields IPO closes",
+          "section": "markets"
+        },
+        {
+          "text": "Flash PMIs for euro area, UK and US (November)",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "events": [
+        {
+          "text": "NSE and BSE closed for Guru Nanak Jayanti; MCX opens for evening session",
+          "section": "markets"
+        },
+        {
+          "text": "US Conference Board consumer confidence (November)",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "events": [
+        {
+          "text": "US core PCE inflation and second estimate of Q3 GDP",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "events": [
+        {
+          "text": "US stock markets closed for Thanksgiving",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "events": [
+        {
+          "text": "Mahanadi Coalfields shares due to list on BSE and NSE",
+          "section": "markets"
+        }
+      ]
+    }
+  ]
+}

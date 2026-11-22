@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-22-midday",
+  "edition_id": "2026-11-22-evening",
   "date": "2026-11-22",
-  "slot": "midday",
-  "title": "Sunday Midday Edition",
-  "generated_at": "2026-11-22T13:41:05+05:30",
+  "slot": "evening",
+  "title": "Sunday Evening Edition",
+  "generated_at": "2026-11-22T20:50:00+05:30",
   "snapshot": [
     {
       "id": "usdinr",
@@ -105,8 +105,8 @@
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$3,539.00",
-      "change": "-3.98%",
+      "value": "$3,515.40",
+      "change": "-4.62%",
       "dir": "down",
       "as_of": "2026-11-20T21:59:57+00:00",
       "source": {
@@ -127,12 +127,24 @@
       }
     },
     {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$89.95",
+      "change": "-2.21%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:59:18+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ=F"
+      }
+    },
+    {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$59,011",
-      "change": "+2.13%",
+      "value": "$60,840",
+      "change": "+1.08%",
       "dir": "up",
-      "as_of": "2026-11-22T08:07:58+00:00",
+      "as_of": "2026-11-22T15:12:28+00:00",
       "source": {
         "name": "CoinGecko",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
@@ -157,112 +169,24 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-modi-gold-appeal-2026-11-22",
-          "headline": "Modi says buying less gold, as he asked, has helped bring prices down",
-          "summary": "Speaking in Lucknow, Prime Minister Narendra Modi thanked people for cutting gold purchases after his appeal, made when the West Asia war pushed up oil prices and strained forex reserves. All India Radio reports 24-carat gold fell to ₹12,523 a gram on Saturday from ₹15,250 on May 9, and gold imports dropped nearly 40% in April to October.",
-          "why_it_matters": "Lower gold imports ease pressure on India's trade deficit and the rupee.",
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-22T08:42:00+05:30",
-          "tags": [
-            "gold",
-            "Modi",
-            "imports",
-            "forex"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/pm-modi-says-public-response-to-gold-buying-appeal-helped-curb-prices/"
-            }
-          ],
-          "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/Modi-final.png",
-            "credit": "All India Radio",
-            "source_url": "https://newsonair.gov.in/pm-modi-says-public-response-to-gold-buying-appeal-helped-curb-prices/",
-            "alt": "Prime Minister Narendra Modi speaking at a podium"
-          },
-          "impact": [
-            {
-              "on": "rupee",
-              "level": "low",
-              "dir": "up",
-              "why": "Lower gold imports reduce dollar demand."
-            }
-          ]
-        },
-        {
           "id": "india-nepal-pm-visit-2026-11-22",
-          "headline": "Nepal PM Balendra Shah arrives in Delhi; meets Modi on Monday",
-          "summary": "Nepal's Prime Minister Balendra Shah arrives in New Delhi today on his first visit to India since taking office in March, and meets External Affairs Minister S Jaishankar. On Monday he calls on President Droupadi Murmu and holds talks with Prime Minister Modi, when several agreements are due to be exchanged on areas such as trade, energy, water and digital links.",
+          "headline": "Update: Nepal PM Balendra Shah lands in Delhi; Jaishankar calls on him",
+          "summary": "Nepal's Prime Minister Balendra Shah arrived in New Delhi on Sunday afternoon and was received by Union Minister Jitin Prasada. External Affairs Minister S Jaishankar called on him in the evening. On Monday Shah gets a ceremonial welcome at Rashtrapati Bhavan, meets President Murmu and holds talks with Prime Minister Modi, where several agreements are due to be exchanged and projects launched.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-22T07:48:00+05:30",
+          "verified": false,
+          "note": "Single source: All India Radio. New since the last edition: his arrival and the Jaishankar meeting.",
+          "published_at": "2026-11-22T19:45:00+05:30",
           "tags": [
             "Nepal",
             "diplomacy",
-            "Modi"
+            "Jaishankar"
           ],
           "sources": [
             {
               "name": "All India Radio",
               "url": "https://newsonair.gov.in/india-nepal-to-exchange-mous-during-nepal-pm-balendra-shahs-visit/"
-            },
-            {
-              "name": "Kathmandu Post",
-              "url": "https://kathmandupost.com/national/2026/11/16/shah-to-make-two-day-state-visit-to-india-from-november-22"
-            }
-          ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "india-youth-congress-meta-protest-2026-11-20",
-          "headline": "Youth Congress protests at Meta offices over blocked Instagram accounts",
-          "summary": "Congress's youth wing protested outside Meta offices in Hyderabad, Mumbai and Gurugram, saying the accounts of two of its leaders were withheld on the ruling BJP's orders. The group says those two accounts were restored after the protests and has given Meta seven days to lift curbs on other critics. Mumbai police filed a complaint against four leaders; Meta had not commented.",
-          "why_it_matters": null,
-          "importance": 2,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera (with Reuters). Claims by the Youth Congress; not independently confirmed.",
-          "published_at": "2026-11-21T00:00:00+00:00",
-          "tags": [
-            "Meta",
-            "Congress",
-            "social media"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/21/indias-opposition-stages-protests-against-meta-over-account-removals"
-            }
-          ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "india-kota-highway-crash-2026-11-22",
-          "headline": "Nine of a family killed in crash on Kota-Udaipur highway in Rajasthan",
-          "summary": "Nine members of a family from Dhule, Maharashtra, died and seven were hurt when their speeding vehicle hit a parked truck near Shambhupura, police said. They were returning from the Khatu Shyamji temple; the injured were taken to hospital in Kota.",
-          "why_it_matters": null,
-          "importance": 2,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-22T11:04:00+05:30",
-          "tags": [
-            "Rajasthan",
-            "road accident"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/9-killed-in-collision-on-kota-udaipur-national-highway/"
             }
           ],
           "image": null,
@@ -275,77 +199,19 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-iran-bahrain-hormuz-2026-11-21",
-          "headline": "Iran's Guards say they hit US radars in Bahrain; Bahrain says a factory was set ablaze",
-          "summary": "Iran's Revolutionary Guards say a missile and drone attack late on Saturday struck two US Patriot radars at Bahrain's Riffa and Awali bases, in reply to US drone flights over Iran. Bahrain denies any radar damage; it says it intercepted several Iranian attacks and one hit a civilian industrial site in Sitra, causing a fire but no injuries. On the same day UKMTO reported two tankers hit by projectiles near Khasab in the Strait of Hormuz, with no casualties.",
-          "why_it_matters": "Fresh attacks on Gulf states and Hormuz shipping put oil supply risk back in focus before markets reopen on Monday.",
-          "importance": 5,
+          "id": "world-cop31-overtime-2026-11-20",
+          "headline": "Update: COP31 climate talks end with no deal after EU rejects final text",
+          "summary": "The UN climate summit in Antalya, Turkey, collapsed on Sunday after a record two days of overtime. COP31 president Murat Kurum told the closing session the text was not adopted because some countries opposed it. The EU, speaking through Ireland's Darragh O'Brien, said it would not back a deal that does not mention fossil fuels, and Panama also objected.",
+          "why_it_matters": "With no agreement, there is no new global push to cut oil, gas and coal use from this year's summit.",
+          "importance": 4,
           "lead": true,
           "verified": true,
-          "note": "The attack is confirmed by Bahrain and Iran; the radar hits are a claim by Iran's IRGC that Bahrain denies. Tanker reports from UKMTO via Al Jazeera.",
-          "published_at": "2026-11-22T13:32:00+05:30",
-          "tags": [
-            "Iran",
-            "Bahrain",
-            "Hormuz",
-            "oil",
-            "Gulf"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility"
-            },
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/iran-claims-missile-drone-strikes-on-us-patriot-radars-in-bahrain/"
-            },
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping"
-            }
-          ],
-          "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-22T053057Z_780740070_RC2TSOAJD7NJ_RTRMADP_3_IRAN-CRISIS-BAHRAIN-1-1795327697.jpg?resize=770%2C513&quality=80",
-            "credit": "Social Media via Reuters",
-            "source_url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility",
-            "alt": "A building burns at night in Sitra, Bahrain, after what Bahrain says was an Iranian attack"
-          },
-          "impact": [
-            {
-              "on": "oil",
-              "level": "medium",
-              "dir": "up",
-              "why": "New attacks on Gulf sites and tankers raise the risk to Hormuz oil flows."
-            },
-            {
-              "on": "gold",
-              "level": "low",
-              "dir": "up",
-              "why": "Rising Gulf tension can lift demand for safe havens."
-            },
-            {
-              "on": "rupee",
-              "level": "low",
-              "dir": "down",
-              "why": "Higher oil prices raise India's import bill."
-            }
-          ]
-        },
-        {
-          "id": "world-cop31-overtime-2026-11-20",
-          "headline": "Update: COP31 nears a final deal that still leaves out fossil fuels",
-          "summary": "A new draft was released on Sunday in Antalya, two days after the summit was due to end, and COP31 president Murat Kurum called delegates back to approve it. The text does not name fossil fuels; it only points back to the 2023 Dubai agreement to move away from them. It keeps a goal for carbon capture at gigatonne scale by 2035 and a call to at least triple adaptation finance by 2035. Whether it was adopted was not yet known at the time of writing.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": true,
-          "note": "Approval not yet confirmed when this edition was written.",
-          "published_at": "2026-11-22T07:28:00+00:00",
+          "note": "Changed since the last edition: the final draft was rejected and no deal was adopted.",
+          "published_at": "2026-11-22T14:41:00+00:00",
           "tags": [
             "COP31",
             "climate",
-            "Turkey",
+            "EU",
             "fossil fuels"
           ],
           "sources": [
@@ -358,53 +224,82 @@
               "url": "https://www.rte.ie/news/world/2026/1122/1600166-cop31-turkey/"
             }
           ],
-          "image": null,
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b025ad2-1795316434.jpg?resize=1920%2C1440",
+            "credit": "Murad Sezer/Reuters",
+            "source_url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime",
+            "alt": "COP31 president Murat Kurum surrounded by advisers at the summit in Antalya"
+          },
           "impact": []
         },
         {
-          "id": "world-kryvyi-rih-strike-2026-11-21",
-          "headline": "Russian strike on Zelenskyy's hometown kills two and wounds 60",
-          "summary": "A Russian attack on Kryvyi Rih late on Friday killed a boy and a young woman and wounded 60, the city's administration head says, adding that more missiles hit rescuers. Separately, two Russian missiles and a suspected drone landed in south-east Poland on Friday; Poland's Donald Tusk called it a deliberate provocation and NATO's Mark Rutte pledged to defend Polish territory. Zelenskyy said he is less sure than Washington that Putin is ready to compromise.",
+          "id": "world-gulf-finland-ship-2026-11-22",
+          "headline": "Russian military cargo ship burns off Finland after drone strike",
+          "summary": "The Sparta II, a sanctioned Russian cargo ship run by a defence ministry logistics firm, was hit by drones on Saturday in the Gulf of Finland on its way to Kaliningrad. Finland's military says Ukraine likely carried out the strike; the ship drifted into Finnish waters and was still on fire on Sunday. All 16 crew were evacuated, and Finnish PM Petteri Orpo said the war is spilling over close to Finland.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: Al Jazeera, citing Ukrainian and Polish officials.",
-          "published_at": "2026-11-21T00:00:00+00:00",
+          "note": "Single source: Al Jazeera, citing Finnish officials.",
+          "published_at": "2026-11-22T00:00:00+00:00",
           "tags": [
-            "Ukraine",
             "Russia",
-            "Poland",
-            "NATO"
+            "Ukraine",
+            "Finland",
+            "Baltic"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown"
+              "url": "https://www.aljazeera.com/news/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-drone-attack"
             }
           ],
           "image": null,
           "impact": []
         },
         {
-          "id": "world-mexico-el-chapo-isidro-2026-11-21",
-          "headline": "Mexico captures cartel boss \"El Chapo Isidro\"; 11 killed in clashes",
-          "summary": "Mexican forces captured Fausto Isidro Meza Flores, known as \"El Chapo Isidro\" and on the FBI's 10 Most Wanted list, in Guasave, Sinaloa, on Friday. Mexico's Defence Ministry says seven suspected gunmen and four soldiers died in the gunfights, roadblocks and vehicle fires that followed. Two other alleged cartel figures were also arrested.",
+          "id": "world-zelenskyy-patriots-2026-11-22",
+          "headline": "Zelenskyy urges US to release Patriot missiles as Russian strikes kill 3",
+          "summary": "Zelenskyy says Russia fired about 2,700 drones, 1,460 guided bombs and 165 missiles at Ukraine in the past week, and asked Washington to approve Patriot interceptors that partners have already paid for. Russian attacks on Sunday killed at least two people near Kyiv and one in Zaporizhzhia; in Dymer an apartment block partly collapsed and people are still missing.",
           "why_it_matters": null,
-          "importance": 2,
+          "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: Al Jazeera, citing Mexico's Defence Ministry.",
+          "note": "Single source: Al Jazeera, citing Ukrainian officials.",
           "published_at": "2026-11-22T00:00:00+00:00",
           "tags": [
-            "Mexico",
-            "cartels",
-            "US"
+            "Ukraine",
+            "Russia",
+            "US",
+            "Patriot"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture"
+              "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-indonesia-factory-fire-2026-11-22",
+          "headline": "Indonesia sweets factory fire kills three; 36 workers missing",
+          "summary": "A fire at the Fonusa Agung Mulia sweets factory in Banten province, next to Jakarta, killed at least three people, and 36 are missing. The company says about 300 workers were inside; 15 have been rescued. Rescuers said parts of the building were still burning more than 12 hours later, and the cause is being investigated.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera, citing Indonesia's search and rescue agency and AP.",
+          "published_at": "2026-11-22T00:00:00+00:00",
+          "tags": [
+            "Indonesia",
+            "fire"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/22/indonesia-factory-fire-kills-three-36-missing"
             }
           ],
           "image": null,
@@ -422,36 +317,85 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "id": "markets-bitcoin-four-month-low-2026-11-20",
-          "headline": "Update: Bitcoin slips back to about $59,000 on Sunday",
-          "summary": "Bitcoin traded near $59,000 at midday India time on Sunday, giving up Saturday evening's climb above $60,200. It is still about 2% higher than 24 hours ago, but well below Monday's $64,900. Indian and US stock markets are closed for the weekend.",
-          "why_it_matters": null,
-          "importance": 2,
+          "id": "markets-gurpurab-holiday-week-2026-11-22",
+          "headline": "Indian markets shut on Tuesday for Gurpurab in a four-day trading week",
+          "summary": "NSE and BSE will be closed on Tuesday, November 24, for Guru Nanak Jayanti; MCX skips only its morning session. In the shortened week, investors will watch the Middle East, foreign fund flows, the last company results, two new IPOs and two listings, plus US PCE inflation and GDP data on Wednesday.",
+          "why_it_matters": "A short week with key US inflation data and Gulf tensions could make trading choppy.",
+          "importance": 3,
           "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-22T08:08:54+00:00",
+          "published_at": "2026-11-22T19:17:00+05:30",
           "tags": [
-            "bitcoin",
-            "crypto"
+            "NSE",
+            "BSE",
+            "holiday",
+            "week ahead"
           ],
           "sources": [
             {
-              "name": "CoinGecko",
-              "url": "https://www.coingecko.com/en/coins/bitcoin"
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/indian-stock-markets-to-remain-closed-on-tuesday-on-account-of-gurpurab/"
+            },
+            {
+              "name": "Zerodha holiday calendar",
+              "url": "https://zerodha.com/marketintel/HolidayCalendar"
+            }
+          ],
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/Indian-stock-markets-to-remain-closed-on-Tuesday-on-account-of-Gurpurab.jpg",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/indian-stock-markets-to-remain-closed-on-tuesday-on-account-of-gurpurab/",
+            "alt": "The Bombay Stock Exchange building in Mumbai with a stock ticker board"
+          },
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "level": "low",
+              "dir": "mixed",
+              "why": "One fewer trading day, with US inflation data due midweek."
+            }
+          ]
+        },
+        {
+          "id": "markets-gold-silver-weekly-loss-2026-11-22",
+          "headline": "Gold drops 10.9% and silver 16% on MCX in a second losing week",
+          "summary": "MCX gold for December ended the week down 10.9% at ₹1,21,778 per 10 grams, and silver fell about 16.2% to ₹1,47,813 a kg. On COMEX, gold settled at $3,515.4 an ounce, down 9.5% for the week. A stronger dollar, higher US Treasury yields and bets that the Fed will keep rates high weighed on both metals.",
+          "why_it_matters": "Cheaper gold eases India's import bill but hurts jewellery-stock and gold-loan collateral values.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "New since the last edition: the full-week MCX and COMEX totals. COMEX settle confirmed by Yahoo Finance.",
+          "published_at": "2026-11-22T17:32:00+05:30",
+          "tags": [
+            "gold",
+            "silver",
+            "MCX",
+            "COMEX"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/gold-and-silver-prices-plunge-amid-strong-us-dollar-and-rising-treasury-yields/"
             },
             {
               "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/BTC-USD/"
+              "url": "https://finance.yahoo.com/quote/GC=F"
             }
           ],
           "image": null,
           "impact": [
             {
-              "on": "crypto",
-              "level": "low",
-              "dir": "mixed",
-              "why": "Prices are swinging around $60,000 after last week's sell-off."
+              "on": "gold",
+              "level": "medium",
+              "dir": "down",
+              "why": "A strong dollar and high yields keep pressure on gold."
+            },
+            {
+              "on": "silver",
+              "level": "medium",
+              "dir": "down",
+              "why": "Silver fell even faster than gold over the week."
             }
           ]
         }
@@ -467,15 +411,6 @@
   "forex_results": [],
   "week_ahead": [
     {
-      "date": "2026-11-22",
-      "events": [
-        {
-          "text": "Nepal PM Balendra Shah begins two-day India visit",
-          "section": "india"
-        }
-      ]
-    },
-    {
       "date": "2026-11-23",
       "events": [
         {
@@ -488,6 +423,32 @@
         },
         {
           "text": "Mahanadi Coalfields IPO closes",
+          "section": "markets"
+        },
+        {
+          "text": "Flash PMIs for euro area, UK and US (November)",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "events": [
+        {
+          "text": "NSE and BSE closed for Guru Nanak Jayanti; MCX opens for evening session",
+          "section": "markets"
+        },
+        {
+          "text": "US Conference Board consumer confidence (November)",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "events": [
+        {
+          "text": "US core PCE inflation and second estimate of Q3 GDP",
           "section": "markets"
         }
       ]
