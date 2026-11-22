@@ -1,0 +1,514 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-22-midday",
+  "date": "2026-11-22",
+  "slot": "midday",
+  "title": "Sunday Midday Edition",
+  "generated_at": "2026-11-22T13:41:05+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "92.67",
+      "change": "-0.70%",
+      "dir": "down",
+      "as_of": "2026-11-20T17:59:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/rupee-appreciates-by-62-paise-against-us-dollar-to-close-at-seven-month-high/"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "101.60",
+      "change": "-0.65%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:41:46+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.84",
+      "change": "-0.06%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:59:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$705.34bn",
+      "change": "-1.97%",
+      "dir": "down",
+      "as_of": "2026-11-13T00:00:00+05:30",
+      "source": {
+        "name": "ANI (RBI data)",
+        "url": "https://aninews.in/news/business/india8217s-forex-reserves-fall-by-usd-142-billion-to-usd-70534-billion-in-week-ended-november-1320261120180825/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,800.60",
+      "change": "+1.12%",
+      "dir": "up",
+      "as_of": "2026-11-20T10:01:15+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "83,919.71",
+      "change": "+1.08%",
+      "dir": "up",
+      "as_of": "2026-11-20T10:02:29+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "6,910.39",
+      "change": "-3.70%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:35:54+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "22,617.73",
+      "change": "-5.28%",
+      "dir": "down",
+      "as_of": "2026-11-20T22:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,539.00",
+      "change": "-3.98%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:59:57+00:00",
+      "source": {
+        "name": "Yahoo Finance (COMEX futures)",
+        "url": "https://finance.yahoo.com/quote/GC=F"
+      }
+    },
+    {
+      "id": "gold_mcx",
+      "label": "Gold India (IBJA 24K)",
+      "value": "₹1,23,893/10g",
+      "change": "-4.4%",
+      "dir": "down",
+      "as_of": "2026-11-20T17:54:00+05:30",
+      "source": {
+        "name": "All India Radio (IBJA rates)",
+        "url": "https://newsonair.gov.in/gold-silver-prices-plunge-over-4/"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$59,011",
+      "change": "+2.13%",
+      "dir": "up",
+      "as_of": "2026-11-22T08:07:58+00:00",
+      "source": {
+        "name": "CoinGecko",
+        "url": "https://www.coingecko.com/en/coins/bitcoin"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.91%",
+      "change": "-2.73%",
+      "dir": "down",
+      "as_of": "2026-11-20T19:59:55+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-modi-gold-appeal-2026-11-22",
+          "headline": "Modi says buying less gold, as he asked, has helped bring prices down",
+          "summary": "Speaking in Lucknow, Prime Minister Narendra Modi thanked people for cutting gold purchases after his appeal, made when the West Asia war pushed up oil prices and strained forex reserves. All India Radio reports 24-carat gold fell to ₹12,523 a gram on Saturday from ₹15,250 on May 9, and gold imports dropped nearly 40% in April to October.",
+          "why_it_matters": "Lower gold imports ease pressure on India's trade deficit and the rupee.",
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-22T08:42:00+05:30",
+          "tags": [
+            "gold",
+            "Modi",
+            "imports",
+            "forex"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/pm-modi-says-public-response-to-gold-buying-appeal-helped-curb-prices/"
+            }
+          ],
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/Modi-final.png",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/pm-modi-says-public-response-to-gold-buying-appeal-helped-curb-prices/",
+            "alt": "Prime Minister Narendra Modi speaking at a podium"
+          },
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "up",
+              "why": "Lower gold imports reduce dollar demand."
+            }
+          ]
+        },
+        {
+          "id": "india-nepal-pm-visit-2026-11-22",
+          "headline": "Nepal PM Balendra Shah arrives in Delhi; meets Modi on Monday",
+          "summary": "Nepal's Prime Minister Balendra Shah arrives in New Delhi today on his first visit to India since taking office in March, and meets External Affairs Minister S Jaishankar. On Monday he calls on President Droupadi Murmu and holds talks with Prime Minister Modi, when several agreements are due to be exchanged on areas such as trade, energy, water and digital links.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-22T07:48:00+05:30",
+          "tags": [
+            "Nepal",
+            "diplomacy",
+            "Modi"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/india-nepal-to-exchange-mous-during-nepal-pm-balendra-shahs-visit/"
+            },
+            {
+              "name": "Kathmandu Post",
+              "url": "https://kathmandupost.com/national/2026/11/16/shah-to-make-two-day-state-visit-to-india-from-november-22"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "india-youth-congress-meta-protest-2026-11-20",
+          "headline": "Youth Congress protests at Meta offices over blocked Instagram accounts",
+          "summary": "Congress's youth wing protested outside Meta offices in Hyderabad, Mumbai and Gurugram, saying the accounts of two of its leaders were withheld on the ruling BJP's orders. The group says those two accounts were restored after the protests and has given Meta seven days to lift curbs on other critics. Mumbai police filed a complaint against four leaders; Meta had not commented.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera (with Reuters). Claims by the Youth Congress; not independently confirmed.",
+          "published_at": "2026-11-21T00:00:00+00:00",
+          "tags": [
+            "Meta",
+            "Congress",
+            "social media"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/21/indias-opposition-stages-protests-against-meta-over-account-removals"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "india-kota-highway-crash-2026-11-22",
+          "headline": "Nine of a family killed in crash on Kota-Udaipur highway in Rajasthan",
+          "summary": "Nine members of a family from Dhule, Maharashtra, died and seven were hurt when their speeding vehicle hit a parked truck near Shambhupura, police said. They were returning from the Khatu Shyamji temple; the injured were taken to hospital in Kota.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-22T11:04:00+05:30",
+          "tags": [
+            "Rajasthan",
+            "road accident"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/9-killed-in-collision-on-kota-udaipur-national-highway/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-iran-bahrain-hormuz-2026-11-21",
+          "headline": "Iran's Guards say they hit US radars in Bahrain; Bahrain says a factory was set ablaze",
+          "summary": "Iran's Revolutionary Guards say a missile and drone attack late on Saturday struck two US Patriot radars at Bahrain's Riffa and Awali bases, in reply to US drone flights over Iran. Bahrain denies any radar damage; it says it intercepted several Iranian attacks and one hit a civilian industrial site in Sitra, causing a fire but no injuries. On the same day UKMTO reported two tankers hit by projectiles near Khasab in the Strait of Hormuz, with no casualties.",
+          "why_it_matters": "Fresh attacks on Gulf states and Hormuz shipping put oil supply risk back in focus before markets reopen on Monday.",
+          "importance": 5,
+          "lead": true,
+          "verified": true,
+          "note": "The attack is confirmed by Bahrain and Iran; the radar hits are a claim by Iran's IRGC that Bahrain denies. Tanker reports from UKMTO via Al Jazeera.",
+          "published_at": "2026-11-22T13:32:00+05:30",
+          "tags": [
+            "Iran",
+            "Bahrain",
+            "Hormuz",
+            "oil",
+            "Gulf"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/iran-claims-missile-drone-strikes-on-us-patriot-radars-in-bahrain/"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-22T053057Z_780740070_RC2TSOAJD7NJ_RTRMADP_3_IRAN-CRISIS-BAHRAIN-1-1795327697.jpg?resize=770%2C513&quality=80",
+            "credit": "Social Media via Reuters",
+            "source_url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility",
+            "alt": "A building burns at night in Sitra, Bahrain, after what Bahrain says was an Iranian attack"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "New attacks on Gulf sites and tankers raise the risk to Hormuz oil flows."
+            },
+            {
+              "on": "gold",
+              "level": "low",
+              "dir": "up",
+              "why": "Rising Gulf tension can lift demand for safe havens."
+            },
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "down",
+              "why": "Higher oil prices raise India's import bill."
+            }
+          ]
+        },
+        {
+          "id": "world-cop31-overtime-2026-11-20",
+          "headline": "Update: COP31 nears a final deal that still leaves out fossil fuels",
+          "summary": "A new draft was released on Sunday in Antalya, two days after the summit was due to end, and COP31 president Murat Kurum called delegates back to approve it. The text does not name fossil fuels; it only points back to the 2023 Dubai agreement to move away from them. It keeps a goal for carbon capture at gigatonne scale by 2035 and a call to at least triple adaptation finance by 2035. Whether it was adopted was not yet known at the time of writing.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "Approval not yet confirmed when this edition was written.",
+          "published_at": "2026-11-22T07:28:00+00:00",
+          "tags": [
+            "COP31",
+            "climate",
+            "Turkey",
+            "fossil fuels"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
+            },
+            {
+              "name": "RTÉ",
+              "url": "https://www.rte.ie/news/world/2026/1122/1600166-cop31-turkey/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-kryvyi-rih-strike-2026-11-21",
+          "headline": "Russian strike on Zelenskyy's hometown kills two and wounds 60",
+          "summary": "A Russian attack on Kryvyi Rih late on Friday killed a boy and a young woman and wounded 60, the city's administration head says, adding that more missiles hit rescuers. Separately, two Russian missiles and a suspected drone landed in south-east Poland on Friday; Poland's Donald Tusk called it a deliberate provocation and NATO's Mark Rutte pledged to defend Polish territory. Zelenskyy said he is less sure than Washington that Putin is ready to compromise.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera, citing Ukrainian and Polish officials.",
+          "published_at": "2026-11-21T00:00:00+00:00",
+          "tags": [
+            "Ukraine",
+            "Russia",
+            "Poland",
+            "NATO"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-mexico-el-chapo-isidro-2026-11-21",
+          "headline": "Mexico captures cartel boss \"El Chapo Isidro\"; 11 killed in clashes",
+          "summary": "Mexican forces captured Fausto Isidro Meza Flores, known as \"El Chapo Isidro\" and on the FBI's 10 Most Wanted list, in Guasave, Sinaloa, on Friday. Mexico's Defence Ministry says seven suspected gunmen and four soldiers died in the gunfights, roadblocks and vehicle fires that followed. Two other alleged cartel figures were also arrested.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera, citing Mexico's Defence Ministry.",
+          "published_at": "2026-11-22T00:00:00+00:00",
+          "tags": [
+            "Mexico",
+            "cartels",
+            "US"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": []
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "id": "markets-bitcoin-four-month-low-2026-11-20",
+          "headline": "Update: Bitcoin slips back to about $59,000 on Sunday",
+          "summary": "Bitcoin traded near $59,000 at midday India time on Sunday, giving up Saturday evening's climb above $60,200. It is still about 2% higher than 24 hours ago, but well below Monday's $64,900. Indian and US stock markets are closed for the weekend.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-22T08:08:54+00:00",
+          "tags": [
+            "bitcoin",
+            "crypto"
+          ],
+          "sources": [
+            {
+              "name": "CoinGecko",
+              "url": "https://www.coingecko.com/en/coins/bitcoin"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/BTC-USD/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "crypto",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Prices are swinging around $60,000 after last week's sell-off."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": []
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [],
+  "week_ahead": [
+    {
+      "date": "2026-11-22",
+      "events": [
+        {
+          "text": "Nepal PM Balendra Shah begins two-day India visit",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "events": [
+        {
+          "text": "Modi holds talks with Nepal PM Balendra Shah",
+          "section": "india"
+        },
+        {
+          "text": "RBI ₹50,000 crore 4-day repo auction (9:30-10:00 AM)",
+          "section": "currency"
+        },
+        {
+          "text": "Mahanadi Coalfields IPO closes",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "events": [
+        {
+          "text": "US stock markets closed for Thanksgiving",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "events": [
+        {
+          "text": "Mahanadi Coalfields shares due to list on BSE and NSE",
+          "section": "markets"
+        }
+      ]
+    }
+  ]
+}

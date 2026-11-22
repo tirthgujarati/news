@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-21-evening",
-  "date": "2026-11-21",
-  "slot": "evening",
-  "title": "Saturday Evening Edition",
-  "generated_at": "2026-11-21T20:55:00+05:30",
+  "edition_id": "2026-11-22-midday",
+  "date": "2026-11-22",
+  "slot": "midday",
+  "title": "Sunday Midday Edition",
+  "generated_at": "2026-11-22T13:41:05+05:30",
   "snapshot": [
     {
       "id": "usdinr",
@@ -129,13 +129,13 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$60,202",
-      "change": "+2.39%",
+      "value": "$59,011",
+      "change": "+2.13%",
       "dir": "up",
-      "as_of": "2026-11-21T15:13:59+00:00",
+      "as_of": "2026-11-22T08:07:58+00:00",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/BTC-USD/"
+        "name": "CoinGecko",
+        "url": "https://www.coingecko.com/en/coins/bitcoin"
       }
     },
     {
@@ -157,93 +157,116 @@
       "title": "India",
       "stories": [
         {
-          "why_it_matters": "The bridge should ease traffic on the crowded Gandhi Setu and JP Setu and better link north and south Bihar.",
-          "lead": false,
-          "note": "Single source: All India Radio.",
-          "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/Screenshot-2026-11-21-142201.jpg",
-            "credit": "All India Radio",
-            "source_url": "https://newsonair.gov.in/pm-modi-inaugurates-nitish-setu-projects-worth-%e2%82%b934000-crore-in-bihar-2/",
-            "alt": "Prime Minister Modi cuts a ribbon on the new Nitish Setu bridge with Bihar leaders"
-          },
-          "impact": [
-            {
-              "on": "india_economy",
-              "level": "low",
-              "dir": "up",
-              "why": "New bridge, power and road projects add to public investment in Bihar."
-            }
-          ],
-          "id": "india-nitish-setu-bihar-2026-11-21",
-          "headline": "Modi opens 20-km Nitish Setu over the Ganga, launches ₹34,000 crore of Bihar projects",
-          "summary": "Prime Minister Narendra Modi opened the six-lane Nitish Setu in Vaishali, linking Kachchi Dargah near Patna with Bidupur across the Ganga. He also opened or laid stones for 227 projects worth over ₹34,000 crore, including a second 660 MW unit at the Buxar thermal plant, and flagged off 100 electric buses under PM-e-Bus.",
+          "id": "india-modi-gold-appeal-2026-11-22",
+          "headline": "Modi says buying less gold, as he asked, has helped bring prices down",
+          "summary": "Speaking in Lucknow, Prime Minister Narendra Modi thanked people for cutting gold purchases after his appeal, made when the West Asia war pushed up oil prices and strained forex reserves. All India Radio reports 24-carat gold fell to ₹12,523 a gram on Saturday from ₹15,250 on May 9, and gold imports dropped nearly 40% in April to October.",
+          "why_it_matters": "Lower gold imports ease pressure on India's trade deficit and the rupee.",
           "importance": 3,
+          "lead": false,
           "verified": false,
-          "published_at": "2026-11-21T19:03:00+05:30",
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-22T08:42:00+05:30",
           "tags": [
-            "Bihar",
-            "infrastructure",
+            "gold",
             "Modi",
-            "power"
+            "imports",
+            "forex"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/pm-modi-inaugurates-nitish-setu-projects-worth-%e2%82%b934000-crore-in-bihar-2/"
+              "url": "https://newsonair.gov.in/pm-modi-says-public-response-to-gold-buying-appeal-helped-curb-prices/"
+            }
+          ],
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/Modi-final.png",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/pm-modi-says-public-response-to-gold-buying-appeal-helped-curb-prices/",
+            "alt": "Prime Minister Narendra Modi speaking at a podium"
+          },
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "up",
+              "why": "Lower gold imports reduce dollar demand."
             }
           ]
         },
         {
+          "id": "india-nepal-pm-visit-2026-11-22",
+          "headline": "Nepal PM Balendra Shah arrives in Delhi; meets Modi on Monday",
+          "summary": "Nepal's Prime Minister Balendra Shah arrives in New Delhi today on his first visit to India since taking office in March, and meets External Affairs Minister S Jaishankar. On Monday he calls on President Droupadi Murmu and holds talks with Prime Minister Modi, when several agreements are due to be exchanged on areas such as trade, energy, water and digital links.",
           "why_it_matters": null,
-          "lead": false,
-          "note": "Single source: Al Jazeera (with AFP), quoting the Manipur chief minister.",
-          "image": null,
-          "impact": [],
-          "id": "india-manipur-illicit-alcohol-2026-11-21",
-          "headline": "Illicit alcohol kills 11 and puts over 180 in hospital in Manipur",
-          "summary": "At least 11 people have died in Manipur after drinking suspected toxic liquor, and more than 180 have been admitted to two hospitals, Chief Minister Yumnam Khemchand Singh said. Officials linked the alcohol to the Sugnu area; the chief minister ordered a probe and promised punishment. Manipur has been officially dry since 1990.",
           "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-22T07:48:00+05:30",
+          "tags": [
+            "Nepal",
+            "diplomacy",
+            "Modi"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/india-nepal-to-exchange-mous-during-nepal-pm-balendra-shahs-visit/"
+            },
+            {
+              "name": "Kathmandu Post",
+              "url": "https://kathmandupost.com/national/2026/11/16/shah-to-make-two-day-state-visit-to-india-from-november-22"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "india-youth-congress-meta-protest-2026-11-20",
+          "headline": "Youth Congress protests at Meta offices over blocked Instagram accounts",
+          "summary": "Congress's youth wing protested outside Meta offices in Hyderabad, Mumbai and Gurugram, saying the accounts of two of its leaders were withheld on the ruling BJP's orders. The group says those two accounts were restored after the protests and has given Meta seven days to lift curbs on other critics. Mumbai police filed a complaint against four leaders; Meta had not commented.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
           "verified": false,
+          "note": "Single source: Al Jazeera (with Reuters). Claims by the Youth Congress; not independently confirmed.",
           "published_at": "2026-11-21T00:00:00+00:00",
           "tags": [
-            "Manipur",
-            "health",
-            "alcohol"
+            "Meta",
+            "Congress",
+            "social media"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/21/suspected-toxic-alcohol-kills-at-least-11-people-in-northeast-india"
+              "url": "https://www.aljazeera.com/news/2026/11/21/indias-opposition-stages-protests-against-meta-over-account-removals"
             }
-          ]
+          ],
+          "image": null,
+          "impact": []
         },
         {
+          "id": "india-kota-highway-crash-2026-11-22",
+          "headline": "Nine of a family killed in crash on Kota-Udaipur highway in Rajasthan",
+          "summary": "Nine members of a family from Dhule, Maharashtra, died and seven were hurt when their speeding vehicle hit a parked truck near Shambhupura, police said. They were returning from the Khatu Shyamji temple; the injured were taken to hospital in Kota.",
           "why_it_matters": null,
-          "lead": false,
-          "note": "Single source: All India Radio.",
-          "image": null,
-          "impact": [],
-          "id": "india-ncb-dea-monsoon-thunder-2026-11-21",
-          "headline": "NCB and US DEA bust Indian arm of a drug network shipping pills to Americans",
-          "summary": "The Narcotics Control Bureau, working with the US Drug Enforcement Administration, broke up an Indian module that sold psychotropic and opioid tablets to buyers in the US through Telegram and WhatsApp. Six people were held and about 3,000 parcels with nearly 5 lakh tablets were traced. Home Minister Amit Shah and US Ambassador Sergio Gor praised the joint operation.",
           "importance": 2,
+          "lead": false,
           "verified": false,
-          "published_at": "2026-11-21T17:17:00+05:30",
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-22T11:04:00+05:30",
           "tags": [
-            "drugs",
-            "NCB",
-            "India-US"
+            "Rajasthan",
+            "road accident"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/hm-amit-shah-congratulates-ncb-us-dea-on-operation-monsoon-thunder/"
-            },
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/us-ambassador-to-india-sergio-gor-hails-india-us-partnership-against-drug-trafficking/"
+              "url": "https://newsonair.gov.in/9-killed-in-collision-on-kota-udaipur-national-highway/"
             }
-          ]
+          ],
+          "image": null,
+          "impact": []
         }
       ]
     },
@@ -252,87 +275,140 @@
       "title": "World",
       "stories": [
         {
-          "why_it_matters": "The war at sea is spreading into the Baltic, right next to NATO members Finland and Estonia.",
+          "id": "world-iran-bahrain-hormuz-2026-11-21",
+          "headline": "Iran's Guards say they hit US radars in Bahrain; Bahrain says a factory was set ablaze",
+          "summary": "Iran's Revolutionary Guards say a missile and drone attack late on Saturday struck two US Patriot radars at Bahrain's Riffa and Awali bases, in reply to US drone flights over Iran. Bahrain denies any radar damage; it says it intercepted several Iranian attacks and one hit a civilian industrial site in Sitra, causing a fire but no injuries. On the same day UKMTO reported two tankers hit by projectiles near Khasab in the Strait of Hormuz, with no casualties.",
+          "why_it_matters": "Fresh attacks on Gulf states and Hormuz shipping put oil supply risk back in focus before markets reopen on Monday.",
+          "importance": 5,
           "lead": true,
-          "note": "Single source: Al Jazeera, citing Finland's defence ministry and Russian regional officials. Attacker not identified.",
-          "image": null,
-          "impact": [],
-          "id": "world-gulf-of-finland-ship-drones-2026-11-21",
-          "headline": "Drones hit a Russian cargo ship in the Gulf of Finland; it drifts into Finnish waters",
-          "summary": "Finland's defence ministry says two drones struck the Kaliningrad-bound cargo ship Sparta II on Saturday morning west of Gogland island, setting it on fire. The ship drifted into Finnish waters off Loviisa; no one was reported hurt. Finland sent Border Guard units, closed nearby air and sea traffic, and said the ship has links to Russia's military. Who launched the drones is not confirmed; Ukraine hit a Russian warship in the same gulf earlier this month.",
-          "importance": 4,
-          "verified": false,
-          "published_at": "2026-11-21T00:00:00+00:00",
+          "verified": true,
+          "note": "The attack is confirmed by Bahrain and Iran; the radar hits are a claim by Iran's IRGC that Bahrain denies. Tanker reports from UKMTO via Al Jazeera.",
+          "published_at": "2026-11-22T13:32:00+05:30",
           "tags": [
-            "Russia",
-            "Finland",
-            "Ukraine war",
-            "Baltic",
-            "shipping"
+            "Iran",
+            "Bahrain",
+            "Hormuz",
+            "oil",
+            "Gulf"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland"
+              "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/iran-claims-missile-drone-strikes-on-us-patriot-radars-in-bahrain/"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping"
             }
-          ]
-        },
-        {
-          "why_it_matters": null,
-          "lead": false,
-          "note": "Claim by Iran's army, denied by US Central Command; not independently confirmed. Single source: Al Jazeera.",
-          "image": null,
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-22T053057Z_780740070_RC2TSOAJD7NJ_RTRMADP_3_IRAN-CRISIS-BAHRAIN-1-1795327697.jpg?resize=770%2C513&quality=80",
+            "credit": "Social Media via Reuters",
+            "source_url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility",
+            "alt": "A building burns at night in Sitra, Bahrain, after what Bahrain says was an Iranian attack"
+          },
           "impact": [
             {
               "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "New attacks on Gulf sites and tankers raise the risk to Hormuz oil flows."
+            },
+            {
+              "on": "gold",
               "level": "low",
               "dir": "up",
-              "why": "More military incidents in the Gulf keep a small risk premium in crude."
-            }
-          ],
-          "id": "world-iran-f16-claim-2026-11-21",
-          "headline": "Iran's army says it hit a US F-16 over the Gulf; US says all its jets are safe",
-          "summary": "Iran's army says its air defences fired a missile at a US F-16 over the Gulf on Friday evening, damaging it and forcing it to land. US Central Command rejected the claim, saying all US fighter jets in the Middle East are safe and accounted for. It follows Iran's claim earlier on Saturday that it downed US drones over Hormuz, while efforts to end the war remain stalled.",
-          "importance": 3,
-          "verified": false,
-          "published_at": "2026-11-21T00:00:00+00:00",
-          "tags": [
-            "Iran",
-            "US",
-            "Gulf",
-            "Hormuz"
-          ],
-          "sources": [
+              "why": "Rising Gulf tension can lift demand for safe havens."
+            },
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles"
+              "on": "rupee",
+              "level": "low",
+              "dir": "down",
+              "why": "Higher oil prices raise India's import bill."
             }
           ]
         },
         {
+          "id": "world-cop31-overtime-2026-11-20",
+          "headline": "Update: COP31 nears a final deal that still leaves out fossil fuels",
+          "summary": "A new draft was released on Sunday in Antalya, two days after the summit was due to end, and COP31 president Murat Kurum called delegates back to approve it. The text does not name fossil fuels; it only points back to the 2023 Dubai agreement to move away from them. It keeps a goal for carbon capture at gigatonne scale by 2035 and a call to at least triple adaptation finance by 2035. Whether it was adopted was not yet known at the time of writing.",
           "why_it_matters": null,
+          "importance": 3,
           "lead": false,
-          "note": "Single source: Al Jazeera (with AFP).",
-          "image": null,
-          "impact": [],
-          "id": "world-killer-robots-ccw-2026-11-21",
-          "headline": "128 nations agree to work on rules for AI \"killer robots\" over the next two years",
-          "summary": "At the UN weapons convention talks in Geneva, countries agreed to \"elaborate\" an instrument on lethal autonomous weapons by about 2028, after an all-night session. Nearly 100 states wanted binding rules quickly, but the US, Russia and Israel resisted, and the word \"negotiate\" was dropped. Campaign groups called the deal watered down.",
-          "importance": 2,
-          "verified": false,
-          "published_at": "2026-11-21T00:00:00+00:00",
+          "verified": true,
+          "note": "Approval not yet confirmed when this edition was written.",
+          "published_at": "2026-11-22T07:28:00+00:00",
           "tags": [
-            "AI",
-            "weapons",
-            "UN",
-            "Geneva"
+            "COP31",
+            "climate",
+            "Turkey",
+            "fossil fuels"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit"
+              "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
+            },
+            {
+              "name": "RTÉ",
+              "url": "https://www.rte.ie/news/world/2026/1122/1600166-cop31-turkey/"
             }
-          ]
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-kryvyi-rih-strike-2026-11-21",
+          "headline": "Russian strike on Zelenskyy's hometown kills two and wounds 60",
+          "summary": "A Russian attack on Kryvyi Rih late on Friday killed a boy and a young woman and wounded 60, the city's administration head says, adding that more missiles hit rescuers. Separately, two Russian missiles and a suspected drone landed in south-east Poland on Friday; Poland's Donald Tusk called it a deliberate provocation and NATO's Mark Rutte pledged to defend Polish territory. Zelenskyy said he is less sure than Washington that Putin is ready to compromise.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera, citing Ukrainian and Polish officials.",
+          "published_at": "2026-11-21T00:00:00+00:00",
+          "tags": [
+            "Ukraine",
+            "Russia",
+            "Poland",
+            "NATO"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-mexico-el-chapo-isidro-2026-11-21",
+          "headline": "Mexico captures cartel boss \"El Chapo Isidro\"; 11 killed in clashes",
+          "summary": "Mexican forces captured Fausto Isidro Meza Flores, known as \"El Chapo Isidro\" and on the FBI's 10 Most Wanted list, in Guasave, Sinaloa, on Friday. Mexico's Defence Ministry says seven suspected gunmen and four soldiers died in the gunfights, roadblocks and vehicle fires that followed. Two other alleged cartel figures were also arrested.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera, citing Mexico's Defence Ministry.",
+          "published_at": "2026-11-22T00:00:00+00:00",
+          "tags": [
+            "Mexico",
+            "cartels",
+            "US"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture"
+            }
+          ],
+          "image": null,
+          "impact": []
         }
       ]
     },
@@ -346,71 +422,36 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "why_it_matters": "A weekend rebound in crypto hints that Friday's tech sell-off may be easing before markets reopen.",
-          "lead": false,
-          "note": null,
-          "image": null,
-          "impact": [
-            {
-              "on": "crypto",
-              "level": "medium",
-              "dir": "up",
-              "why": "Buyers stepped back in after a four-month low."
-            }
-          ],
           "id": "markets-bitcoin-four-month-low-2026-11-20",
-          "headline": "Update: Bitcoin bounces back above $60,000 on Saturday evening",
-          "summary": "Bitcoin recovered to about $60,200 by Saturday evening, India time, up from roughly $57,800 in this afternoon's edition and about 2.4% above Friday's close. It is still well below the $64,900 it traded at on Monday.",
-          "importance": 3,
+          "headline": "Update: Bitcoin slips back to about $59,000 on Sunday",
+          "summary": "Bitcoin traded near $59,000 at midday India time on Sunday, giving up Saturday evening's climb above $60,200. It is still about 2% higher than 24 hours ago, but well below Monday's $64,900. Indian and US stock markets are closed for the weekend.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
           "verified": true,
-          "published_at": "2026-11-21T15:13:59+00:00",
+          "note": null,
+          "published_at": "2026-11-22T08:08:54+00:00",
           "tags": [
             "bitcoin",
             "crypto"
           ],
           "sources": [
             {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/BTC-USD/"
-            },
-            {
               "name": "CoinGecko",
               "url": "https://www.coingecko.com/en/coins/bitcoin"
             },
             {
-              "name": "Coinbase",
-              "url": "https://www.coinbase.com/price/bitcoin"
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/BTC-USD/"
             }
-          ]
-        },
-        {
-          "why_it_matters": "Easier rules for foreign funds, after this week's plan to speed up their sign-up, could help draw back overseas money.",
-          "lead": false,
-          "note": "Single source: All India Radio.",
+          ],
           "image": null,
           "impact": [
             {
-              "on": "indian_stocks",
+              "on": "crypto",
               "level": "low",
-              "dir": "up",
-              "why": "Lighter rules for foreign funds may support foreign inflows over time."
-            }
-          ],
-          "id": "markets-sebi-offshore-funds-2026-11-21",
-          "headline": "SEBI proposes dropping extra ownership disclosures for offshore funds",
-          "summary": "SEBI has proposed removing the extra disclosure rules brought in in 2023 for higher-risk offshore funds, which make them reveal their ultimate owners in detail. The regulator says existing beneficial-ownership rules already give enough oversight, and that it wants to keep Indian markets attractive to foreign investors. It will take market feedback before deciding.",
-          "importance": 3,
-          "verified": false,
-          "published_at": "2026-11-21T17:18:00+05:30",
-          "tags": [
-            "SEBI",
-            "FPI",
-            "regulation"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/sebi-proposes-eliminating-additional-disclosure-requirements-for-offshore-funds/"
+              "dir": "mixed",
+              "why": "Prices are swinging around $60,000 after last week's sell-off."
             }
           ]
         }
@@ -419,68 +460,11 @@
     {
       "id": "built",
       "title": "Built This Week",
-      "stories": [
-        {
-          "why_it_matters": "It is the biggest step yet towards testing solar-powered AI data centres in orbit.",
-          "lead": false,
-          "note": null,
-          "image": {
-            "url": "https://www.satellitetoday.com/wp-content/uploads/2025/11/gallery_ng2-8262.jpg",
-            "credit": "Blue Origin",
-            "source_url": "https://www.satellitetoday.com/launch/2026/11/19/google-orders-heavy-lift-launch-for-project-suncatcher-from-blue-origin/",
-            "alt": "Blue Origin's New Glenn rocket standing on its launch pad between towers"
-          },
-          "impact": [
-            {
-              "on": "company",
-              "detail": "Google",
-              "level": "low",
-              "dir": "up",
-              "why": "A concrete step for its space-based AI computing plan."
-            }
-          ],
-          "id": "built-google-suncatcher-blue-origin-2026-11-19",
-          "headline": "Google books Blue Origin's New Glenn to fly its AI-chip satellites in 2029",
-          "summary": "Google signed a deal with Blue Origin for a dedicated New Glenn launch of Project Suncatcher satellites, which carry Google's TPU AI chips, targeted for early 2029 into a sun-synchronous orbit. Google's project lead says each satellite has roughly the computing power of a data-centre rack. Terms and satellite numbers were not disclosed; New Glenn is due to return to flight in January.",
-          "importance": 2,
-          "verified": true,
-          "published_at": "2026-11-19T00:00:00-05:00",
-          "tags": [
-            "Google",
-            "Blue Origin",
-            "space",
-            "AI chips"
-          ],
-          "sources": [
-            {
-              "name": "Google",
-              "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership/"
-            },
-            {
-              "name": "Via Satellite",
-              "url": "https://www.satellitetoday.com/launch/2026/11/19/google-orders-heavy-lift-launch-for-project-suncatcher-from-blue-origin/"
-            }
-          ]
-        }
-      ]
+      "stories": []
     }
   ],
   "weekend_special": null,
-  "forex_results": [
-    {
-      "country": "USD",
-      "title": "Revised UoM Consumer Sentiment",
-      "date": "2026-11-20T10:00:00-05:00",
-      "impact": "Medium",
-      "actual": "51.5",
-      "vs_forecast": "worse",
-      "why": "Final sentiment rose from 51.0 but came in just under the 51.7 forecast, a very small negative for the dollar.",
-      "source": {
-        "name": "investingLive",
-        "url": "https://investinglive.com/news/university-of-michigan-consumer-sentiment-51-5-versus-51-5-estimate/"
-      }
-    }
-  ],
+  "forex_results": [],
   "week_ahead": [
     {
       "date": "2026-11-22",
