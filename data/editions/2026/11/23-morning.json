@@ -1,0 +1,541 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-23-morning",
+  "date": "2026-11-23",
+  "slot": "morning",
+  "title": "Monday Morning Edition",
+  "generated_at": "2026-11-23T07:40:00+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "92.67",
+      "change": "-0.70%",
+      "dir": "down",
+      "as_of": "2026-11-20T17:59:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/rupee-appreciates-by-62-paise-against-us-dollar-to-close-at-seven-month-high/"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "101.81",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-23T02:01:46+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.74",
+      "change": "-0.06%",
+      "dir": "flat",
+      "as_of": "2026-11-23T01:53:00+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$705.34bn",
+      "change": "-1.97%",
+      "dir": "down",
+      "as_of": "2026-11-13T00:00:00+05:30",
+      "source": {
+        "name": "ANI (RBI data)",
+        "url": "https://aninews.in/news/business/india8217s-forex-reserves-fall-by-usd-142-billion-to-usd-70534-billion-in-week-ended-november-1320261120180825/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,800.60",
+      "change": "+1.12%",
+      "dir": "up",
+      "as_of": "2026-11-20T10:01:15+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "83,919.71",
+      "change": "+1.08%",
+      "dir": "up",
+      "as_of": "2026-11-20T10:02:29+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "6,910.39",
+      "change": "-3.70%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:35:54+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "22,617.73",
+      "change": "-5.28%",
+      "dir": "down",
+      "as_of": "2026-11-20T22:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,602.60",
+      "change": "+2.48%",
+      "dir": "up",
+      "as_of": "2026-11-23T01:52:52+00:00",
+      "source": {
+        "name": "Yahoo Finance (COMEX futures)",
+        "url": "https://finance.yahoo.com/quote/GC=F"
+      }
+    },
+    {
+      "id": "gold_mcx",
+      "label": "Gold India (IBJA 24K)",
+      "value": "₹1,23,893/10g",
+      "change": "-4.4%",
+      "dir": "down",
+      "as_of": "2026-11-20T17:54:00+05:30",
+      "source": {
+        "name": "All India Radio (IBJA rates)",
+        "url": "https://newsonair.gov.in/gold-silver-prices-plunge-over-4/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$89.76",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-23T01:52:31+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ=F"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$60,807",
+      "change": "+1.28%",
+      "dir": "up",
+      "as_of": "2026-11-23T02:04:38+00:00",
+      "source": {
+        "name": "CoinGecko",
+        "url": "https://www.coingecko.com/en/coins/bitcoin"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.91%",
+      "change": "-2.73%",
+      "dir": "down",
+      "as_of": "2026-11-20T19:59:55+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-shah-arunachal-ndrf-2026-11-22",
+          "headline": "Amit Shah opens NDRF battalion campus and Rs 5,600 crore projects in Arunachal",
+          "summary": "Home Minister Amit Shah opened the campus of the National Disaster Response Force's 12th Battalion at Hollongi, near Itanagar, on Sunday; he said it will serve the whole Northeast. Projects worth over Rs 5,600 crore in education, power, rural roads and border areas were launched at an event in Itanagar. Shah said the Army and ITBP have been advised to buy farm produce directly from Arunachal farmers.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-22T21:11:14+05:30",
+          "tags": [
+            "Amit Shah",
+            "Arunachal Pradesh",
+            "NDRF",
+            "Northeast"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/hm-amit-shah-inaugurates-12th-ndrf-battalion-campus-in-arunachal-pradesh/"
+            }
+          ],
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/11-2.png",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/hm-amit-shah-inaugurates-12th-ndrf-battalion-campus-in-arunachal-pradesh/",
+            "alt": "Amit Shah with officials at the unveiling plaque of the NDRF 12th Battalion campus near Itanagar"
+          },
+          "impact": []
+        },
+        {
+          "id": "india-nepal-pm-visit-2026-11-22",
+          "headline": "Update: Modi and Nepal's PM to launch Ayodhya-Janakpurdham weekly train today",
+          "summary": "Prime Minister Modi holds talks with Nepal's Prime Minister Balendra Shah at Hyderabad House in New Delhi on Monday. All India Radio says the two leaders will also flag off, by video, the Saryu-Kamala Express, a new weekly Indian Railways train linking Ayodhya with Janakpurdham in Nepal. Agreements in energy, hydropower, railways and connectivity are expected after the talks.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio. New since the last edition: the Ayodhya-Janakpurdham train and the venue of the talks.",
+          "published_at": "2026-11-23T06:40:17+05:30",
+          "tags": [
+            "Nepal",
+            "Modi",
+            "railways",
+            "diplomacy"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/pm-modi-to-hold-bilateral-talks-with-nepal-pm-balendra-shah-in-new-delhi/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "india-trichy-road-crash-2026-11-22",
+          "headline": "Eight of a family killed as vehicle hits tree in Tamil Nadu's Tiruchirappalli",
+          "summary": "Eight people died and two were hurt when their vehicle went out of control and crashed into a roadside tree near Musiri in Tiruchirappalli district on Sunday. The family was returning from a function in Namakkal district. The President, Vice-President and Prime Minister expressed grief.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-23T06:58:00+05:30",
+          "tags": [
+            "Tamil Nadu",
+            "road accident"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/president-vice-president-pm-express-grief-over-loss-of-lives-in-road-accident-in-tiruchirappalli-tamil-nadu/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "india-manipur-illicit-alcohol-2026-11-21",
+          "headline": "Update: Manipur toxic liquor deaths rise to 17; six arrested",
+          "summary": "Deaths from suspected toxic liquor in Manipur have risen to 17, 16 of them in Chandel district and one in Kakching, state government spokesperson Thokchom Radheshyam Singh said on Sunday. Samples have gone to Kolkata for tests, a high-level committee will report within a month, about 4,600 litres of illicit liquor have been seized and six people arrested.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio (Hindi), quoting the state government. New since 21 Nov: toll up from 11 to 17, arrests and seizures.",
+          "published_at": "2026-11-22T21:36:32+05:30",
+          "tags": [
+            "Manipur",
+            "alcohol",
+            "health"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/hi/the-death-toll-from-consuming-suspected-poisonous-liquor-in-manipur-has-risen-to-17/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-drc-ebola-fighting-2026-11-22",
+          "headline": "WHO says fighting near a hospital in DR Congo's Ebola zone is disrupting the response",
+          "summary": "WHO chief Tedros Adhanom Ghebreyesus said heavy fighting near a hospital in Ituri province, close to where the Ebola outbreak began, forced health workers to shelter in a maternity ward for over 24 hours. The WHO is trying to arrange a safe exit for the team. It counts 5,678 deaths from 11,613 cases as of November 17, Congo's largest and deadliest Ebola outbreak.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera, quoting the WHO chief.",
+          "published_at": "2026-11-23T00:39:51+00:00",
+          "tags": [
+            "DR Congo",
+            "Ebola",
+            "WHO"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26224654243554-1795391797.jpg",
+            "credit": "AP",
+            "source_url": "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region",
+            "alt": "Health workers in protective suits carry a white coffin at a burial site in eastern DR Congo"
+          },
+          "impact": []
+        },
+        {
+          "id": "world-schumer-leadership-trump-2026-11-22",
+          "headline": "Trump says it would be 'very hard' to work with Schumer as Senate leader",
+          "summary": "Chuck Schumer is under pressure in his bid to become Senate majority leader when Democrats take control in January; Senator Chris Van Hollen, backed by progressives, is challenging him. On Sunday Trump wrote that working with Schumer as majority leader would be very hard. Senate Democrats vote in secret on December 1.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera.",
+          "published_at": "2026-11-22T23:22:59+00:00",
+          "tags": [
+            "US",
+            "Senate",
+            "Schumer",
+            "Trump"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/22/trump-criticises-schumer-amid-push-for-new-democrat-leadership-in-us-senate"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": []
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "id": "markets-asia-ai-selloff-2026-11-23",
+          "headline": "Asian stocks slide on AI fears; Kospi down about 3% as Seoul readies support fund",
+          "summary": "US stock futures held gains of about 2% overnight, but Asian markets fell on Monday. South Korea's Kospi dropped as much as 4.3% early and was about 3.2% lower near 4,714 by 7:15 AM IST, with Samsung and SK Hynix down; Taiwan and Hong Kong also fell, while Japan was shut for a holiday. Seoul says a market stabilisation fund is ready if the slide goes on, Taiwan tightened short-selling rules and Chinese exchanges eased margin rules.",
+          "why_it_matters": "Asia trades the same AI and chip stocks that crashed on Wall Street last week, so it sets the tone for Indian IT and global funds before Nifty opens.",
+          "importance": 5,
+          "lead": true,
+          "verified": true,
+          "note": "Kospi level from Yahoo Finance at 01:43 UTC. New since the Weekend Special: Asia's open fell despite the bounce in US futures.",
+          "published_at": "2026-11-23T00:18:03+00:00",
+          "tags": [
+            "Kospi",
+            "AI",
+            "Asia",
+            "chips",
+            "Samsung"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount"
+            },
+            {
+              "name": "Reuters (via Investing.com)",
+              "url": "https://ca.investing.com/news/economy-news/us-futures-bounce-while-asia-markets-brace-for-ai-wipeout-4974578"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5EKS11/"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-06T015144Z_77722265_RC21IOA70JJX_RTRMADP_3_SOUTHKOREA-MARKETS-1-1795393000_0f55a3-1795395323.jpg",
+            "credit": "Kim Hong-Ji/Reuters",
+            "source_url": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount",
+            "alt": "A currency dealer in a Seoul bank dealing room in front of a board showing the Kospi (file photo)"
+          },
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "high",
+              "dir": "down",
+              "why": "A fresh fall in Asian tech shares could weigh on Indian IT stocks at Monday's open."
+            },
+            {
+              "on": "indian_stocks",
+              "level": "medium",
+              "dir": "mixed",
+              "why": "Weak Asia pulls against the bounce in US futures and last week's foreign buying."
+            },
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "medium",
+              "dir": "mixed",
+              "why": "Futures are up about 2%, but Asia's slide shows the AI sell-off may not be over."
+            }
+          ]
+        },
+        {
+          "id": "markets-gold-rebound-3600-2026-11-23",
+          "headline": "Update: Gold extends its rebound to about $3,600, up nearly 2.5%",
+          "summary": "Gold futures climbed to about $3,600 an ounce in early Asian trade, up about 2.4% from Friday's settle of $3,515.4 and higher than the $3,576 seen at the Weekend Special. Silver rose about 2% to near $42.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "New since the Weekend Special: gold rose further from about $3,576.",
+          "published_at": "2026-11-23T01:52:52+00:00",
+          "tags": [
+            "gold",
+            "silver"
+          ],
+          "sources": [
+            {
+              "name": "Reuters (via Investing.com)",
+              "url": "https://ca.investing.com/news/economy-news/us-futures-bounce-while-asia-markets-brace-for-ai-wipeout-4974578"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/GC=F"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "gold",
+              "level": "medium",
+              "dir": "up",
+              "why": "Bargain buying after a 9.5% weekly drop is lifting prices."
+            },
+            {
+              "on": "silver",
+              "level": "low",
+              "dir": "up",
+              "why": "Silver is following gold higher after a 16% weekly fall on MCX."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": []
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [],
+  "week_ahead": [
+    {
+      "date": "2026-11-23",
+      "events": [
+        {
+          "text": "Modi holds talks with Nepal PM Balendra Shah",
+          "section": "india"
+        },
+        {
+          "text": "Modi and Nepal PM flag off Ayodhya-Janakpurdham Saryu-Kamala Express",
+          "section": "india"
+        },
+        {
+          "text": "RBI Rs 50,000 crore 4-day repo auction (9:30-10:00 AM)",
+          "section": "currency"
+        },
+        {
+          "text": "Mahanadi Coalfields IPO closes",
+          "section": "markets"
+        },
+        {
+          "text": "Flash PMIs for euro area, UK and US (November)",
+          "section": "markets"
+        },
+        {
+          "text": "Hewlett Packard Enterprise results after US close",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "events": [
+        {
+          "text": "NSE and BSE closed for Guru Nanak Jayanti; MCX opens for evening session",
+          "section": "markets"
+        },
+        {
+          "text": "US Conference Board consumer confidence (November)",
+          "section": "markets"
+        },
+        {
+          "text": "Dell and Workday results after US close; Best Buy before the bell",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "events": [
+        {
+          "text": "Australia October CPI",
+          "section": "currency"
+        },
+        {
+          "text": "US core PCE inflation, second estimate of Q3 GDP and jobless claims",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "events": [
+        {
+          "text": "US stock markets closed for Thanksgiving",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "events": [
+        {
+          "text": "Tripura votes in 16 urban local bodies, including Agartala",
+          "section": "india"
+        },
+        {
+          "text": "Mahanadi Coalfields shares due to list on BSE and NSE",
+          "section": "markets"
+        },
+        {
+          "text": "Tokyo core CPI (November); US markets close early",
+          "section": "currency"
+        }
+      ]
+    }
+  ]
+}

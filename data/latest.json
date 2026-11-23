@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-23-weekend",
+  "edition_id": "2026-11-23-morning",
   "date": "2026-11-23",
-  "slot": "weekend",
-  "title": "Monday Weekend Edition",
-  "generated_at": "2026-11-23T05:50:00+05:30",
+  "slot": "morning",
+  "title": "Monday Morning Edition",
+  "generated_at": "2026-11-23T07:40:00+05:30",
   "snapshot": [
     {
       "id": "usdinr",
@@ -21,10 +21,10 @@
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "101.61",
-      "change": "-0.64%",
-      "dir": "down",
-      "as_of": "2026-11-22T03:30:05+00:00",
+      "value": "101.81",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-23T02:01:46+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURINR=X"
@@ -33,10 +33,10 @@
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "103.84",
-      "change": "+0.03%",
+      "value": "103.74",
+      "change": "-0.06%",
       "dir": "flat",
-      "as_of": "2026-11-23T00:01:51+00:00",
+      "as_of": "2026-11-23T01:53:00+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
@@ -105,10 +105,10 @@
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$3,576.20",
-      "change": "+1.73%",
+      "value": "$3,602.60",
+      "change": "+2.48%",
       "dir": "up",
-      "as_of": "2026-11-23T00:05:49+00:00",
+      "as_of": "2026-11-23T01:52:52+00:00",
       "source": {
         "name": "Yahoo Finance (COMEX futures)",
         "url": "https://finance.yahoo.com/quote/GC=F"
@@ -129,10 +129,10 @@
     {
       "id": "brent",
       "label": "Brent crude",
-      "value": "$89.29",
-      "change": "-0.73%",
-      "dir": "down",
-      "as_of": "2026-11-23T00:03:18+00:00",
+      "value": "$89.76",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-23T01:52:31+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BZ=F"
@@ -141,10 +141,10 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$61,159",
-      "change": "+1.56%",
+      "value": "$60,807",
+      "change": "+1.28%",
       "dir": "up",
-      "as_of": "2026-11-23T00:13:06+00:00",
+      "as_of": "2026-11-23T02:04:38+00:00",
       "source": {
         "name": "CoinGecko",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
@@ -169,78 +169,102 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-nepal-pm-visit-2026-11-22",
-          "headline": "Update: Modi and Nepal PM Balendra Shah hold talks today; energy, rail pacts due",
-          "summary": "Nepal's Prime Minister Balendra Shah gets a ceremonial welcome at Rashtrapati Bhavan on Monday, visits Rajghat, calls on President Murmu and holds talks with Prime Minister Modi. All India Radio says agreements are expected in development partnership, energy, hydropower, railways, connectivity, climate and disaster resilience, infrastructure and technology. The two leaders will also open completed projects and lay foundation stones for new ones by video.",
+          "id": "india-shah-arunachal-ndrf-2026-11-22",
+          "headline": "Amit Shah opens NDRF battalion campus and Rs 5,600 crore projects in Arunachal",
+          "summary": "Home Minister Amit Shah opened the campus of the National Disaster Response Force's 12th Battalion at Hollongi, near Itanagar, on Sunday; he said it will serve the whole Northeast. Projects worth over Rs 5,600 crore in education, power, rural roads and border areas were launched at an event in Itanagar. Shah said the Army and ITBP have been advised to buy farm produce directly from Arunachal farmers.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: All India Radio. New since the last edition: the areas where agreements are expected.",
-          "published_at": "2026-11-22T21:18:00+05:30",
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-22T21:11:14+05:30",
           "tags": [
-            "Nepal",
-            "Modi",
-            "diplomacy",
-            "hydropower"
+            "Amit Shah",
+            "Arunachal Pradesh",
+            "NDRF",
+            "Northeast"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/india-nepal-to-exchange-mous-during-nepal-pm-balendra-shahs-visit/"
+              "url": "https://newsonair.gov.in/hm-amit-shah-inaugurates-12th-ndrf-battalion-campus-in-arunachal-pradesh/"
             }
           ],
           "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/0.png",
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/11-2.png",
             "credit": "All India Radio",
-            "source_url": "https://newsonair.gov.in/india-nepal-to-exchange-mous-during-nepal-pm-balendra-shahs-visit/",
-            "alt": "Nepal PM Balendra Shah shakes hands with Union Minister Jitin Prasada on arrival in New Delhi"
+            "source_url": "https://newsonair.gov.in/hm-amit-shah-inaugurates-12th-ndrf-battalion-campus-in-arunachal-pradesh/",
+            "alt": "Amit Shah with officials at the unveiling plaque of the NDRF 12th Battalion campus near Itanagar"
           },
           "impact": []
         },
         {
-          "id": "india-netherlands-strategic-talks-2026-11-22",
-          "headline": "India and Netherlands discuss defence, chips and clean energy ties",
-          "summary": "External Affairs Minister S Jaishankar met Dutch Foreign Minister Tom Berendsen in New Delhi on Sunday. They discussed water, health and agriculture, and newer areas such as defence, technology, semiconductors and renewable energy, under the strategic partnership and a joint roadmap. Berendsen meets Union Minister Ashwini Vaishnaw on Monday.",
+          "id": "india-nepal-pm-visit-2026-11-22",
+          "headline": "Update: Modi and Nepal's PM to launch Ayodhya-Janakpurdham weekly train today",
+          "summary": "Prime Minister Modi holds talks with Nepal's Prime Minister Balendra Shah at Hyderabad House in New Delhi on Monday. All India Radio says the two leaders will also flag off, by video, the Saryu-Kamala Express, a new weekly Indian Railways train linking Ayodhya with Janakpurdham in Nepal. Agreements in energy, hydropower, railways and connectivity are expected after the talks.",
           "why_it_matters": null,
-          "importance": 2,
+          "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-22T21:27:00+05:30",
+          "note": "Single source: All India Radio. New since the last edition: the Ayodhya-Janakpurdham train and the venue of the talks.",
+          "published_at": "2026-11-23T06:40:17+05:30",
           "tags": [
-            "Netherlands",
-            "Jaishankar",
-            "semiconductors"
+            "Nepal",
+            "Modi",
+            "railways",
+            "diplomacy"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/netherlands-foreign-minister-to-meet-eam-jaishankar-ib-minister-ashwini-vaishnaw/"
+              "url": "https://newsonair.gov.in/pm-modi-to-hold-bilateral-talks-with-nepal-pm-balendra-shah-in-new-delhi/"
             }
           ],
           "image": null,
           "impact": []
         },
         {
-          "id": "india-textiles-350bn-target-2026-11-22",
-          "headline": "Giriraj Singh says India aims for a $350 billion textile market by 2030-31",
-          "summary": "Textiles Minister Giriraj Singh said the Centre wants to grow India's textile market to $350 billion by 2030-31, with a focus on handlooms, handicrafts and the wider industry. At a review meeting in Pune he said western Maharashtra grows a lot of cotton but has few textile factories.",
+          "id": "india-trichy-road-crash-2026-11-22",
+          "headline": "Eight of a family killed as vehicle hits tree in Tamil Nadu's Tiruchirappalli",
+          "summary": "Eight people died and two were hurt when their vehicle went out of control and crashed into a roadside tree near Musiri in Tiruchirappalli district on Sunday. The family was returning from a function in Namakkal district. The President, Vice-President and Prime Minister expressed grief.",
           "why_it_matters": null,
           "importance": 2,
           "lead": false,
           "verified": false,
           "note": "Single source: All India Radio.",
-          "published_at": "2026-11-22T21:28:00+05:30",
+          "published_at": "2026-11-23T06:58:00+05:30",
           "tags": [
-            "textiles",
-            "Giriraj Singh",
-            "Maharashtra"
+            "Tamil Nadu",
+            "road accident"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/centre-aims-to-expand-indias-textile-market-to-350-billion-dollars-by-2030-31-says-union-minister-giriraj-singh/"
+              "url": "https://newsonair.gov.in/president-vice-president-pm-express-grief-over-loss-of-lives-in-road-accident-in-tiruchirappalli-tamil-nadu/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "india-manipur-illicit-alcohol-2026-11-21",
+          "headline": "Update: Manipur toxic liquor deaths rise to 17; six arrested",
+          "summary": "Deaths from suspected toxic liquor in Manipur have risen to 17, 16 of them in Chandel district and one in Kakching, state government spokesperson Thokchom Radheshyam Singh said on Sunday. Samples have gone to Kolkata for tests, a high-level committee will report within a month, about 4,600 litres of illicit liquor have been seized and six people arrested.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio (Hindi), quoting the state government. New since 21 Nov: toll up from 11 to 17, arrests and seizures.",
+          "published_at": "2026-11-22T21:36:32+05:30",
+          "tags": [
+            "Manipur",
+            "alcohol",
+            "health"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/hi/the-death-toll-from-consuming-suspected-poisonous-liquor-in-manipur-has-risen-to-17/"
             }
           ],
           "image": null,
@@ -253,77 +277,54 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-benghazi-russian-corvette-2026-11-22",
-          "headline": "Russian navy corvette hit by suspected sea drones at Libya's Benghazi port",
-          "summary": "The Russian corvette Merkury was hit by an explosion and fire while docked in Benghazi, eastern Libya, on Sunday; satellite images show it capsized with only its bow above water. Libyan officials told AP the drones were launched from a Ukrainian-run base in western Libya, but no one has claimed the attack and Russia has not commented. A Malta-flagged ship was also hit by a sea drone off Benghazi that evening; eastern Libya's prime minister asked the UN to investigate.",
-          "why_it_matters": "It follows Saturday's drone strike on a Russian cargo ship off Finland, showing the Ukraine war spreading to sea lanes far from the Black Sea.",
+          "id": "world-drc-ebola-fighting-2026-11-22",
+          "headline": "WHO says fighting near a hospital in DR Congo's Ebola zone is disrupting the response",
+          "summary": "WHO chief Tedros Adhanom Ghebreyesus said heavy fighting near a hospital in Ituri province, close to where the Ebola outbreak began, forced health workers to shelter in a maternity ward for over 24 hours. The WHO is trying to arrange a safe exit for the team. It counts 5,678 deaths from 11,613 cases as of November 17, Congo's largest and deadliest Ebola outbreak.",
+          "why_it_matters": null,
           "importance": 3,
           "lead": false,
-          "verified": true,
-          "note": "Blame on Ukraine is from unnamed Libyan officials; not confirmed. Reports differ on whether the ship sank or was badly damaged.",
-          "published_at": "2026-11-22T00:00:00+00:00",
+          "verified": false,
+          "note": "Single source: Al Jazeera, quoting the WHO chief.",
+          "published_at": "2026-11-23T00:39:51+00:00",
           "tags": [
-            "Russia",
-            "Ukraine",
-            "Libya",
-            "drones"
+            "DR Congo",
+            "Ebola",
+            "WHO"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya"
-            },
-            {
-              "name": "The Hill",
-              "url": "https://thehill.com/policy/international/6236346-russian-ship-docked-in-libya-hit-in-suspected-drone-attack/"
+              "url": "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region"
             }
           ],
-          "image": null,
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26224654243554-1795391797.jpg",
+            "credit": "AP",
+            "source_url": "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region",
+            "alt": "Health workers in protective suits carry a white coffin at a burial site in eastern DR Congo"
+          },
           "impact": []
         },
         {
-          "id": "world-israel-coalition-talks-2026-11-22",
-          "headline": "Netanyahu's Likud and Eisenkot's party end unity talks without a deal",
-          "summary": "Talks between Likud and Gadi Eisenkot's Yashar party on a unity government ended on Sunday without agreement; they split over who would lead and whether far-right minister Itamar Ben-Gvir would join. Eisenkot, whose bloc won 48 seats, has until December 6 to form a government and may seek a minority government backed from outside by Arab parties.",
+          "id": "world-schumer-leadership-trump-2026-11-22",
+          "headline": "Trump says it would be 'very hard' to work with Schumer as Senate leader",
+          "summary": "Chuck Schumer is under pressure in his bid to become Senate majority leader when Democrats take control in January; Senator Chris Van Hollen, backed by progressives, is challenging him. On Sunday Trump wrote that working with Schumer as majority leader would be very hard. Senate Democrats vote in secret on December 1.",
           "why_it_matters": null,
           "importance": 2,
           "lead": false,
           "verified": false,
           "note": "Single source: Al Jazeera.",
-          "published_at": "2026-11-22T00:00:00+00:00",
-          "tags": [
-            "Israel",
-            "Netanyahu",
-            "Eisenkot"
-          ],
-          "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/22/netanyahus-likud-eisenkots-yashar-end-coalition-talks-without-deal"
-            }
-          ],
-          "image": null,
-          "impact": []
-        },
-        {
-          "id": "world-us-house-democrats-2026-11-22",
-          "headline": "Democrats win their biggest US House majority since 1992",
-          "summary": "A recount in North Carolina's 5th district gave Democrat Chuck Hubbard a 330-vote win on Sunday, taking Democrats to at least 258 House seats with four races uncalled. They will also hold 56 Senate seats when the new Congress is sworn in on January 3; Trump has vowed to veto their bills.",
-          "why_it_matters": null,
-          "importance": 2,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: Al Jazeera.",
-          "published_at": "2026-11-22T00:00:00+00:00",
+          "published_at": "2026-11-22T23:22:59+00:00",
           "tags": [
             "US",
-            "Congress",
-            "Democrats"
+            "Senate",
+            "Schumer",
+            "Trump"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/22/democrats-win-largest-house-majority-since-1992-with-north-carolina-seat"
+              "url": "https://www.aljazeera.com/news/2026/11/22/trump-criticises-schumer-amid-push-for-new-democrat-leadership-in-us-senate"
             }
           ],
           "image": null,
@@ -341,53 +342,102 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "id": "markets-us-futures-sunday-2026-11-22",
-          "headline": "US stock futures jump about 2% as markets reopen; gold up 1.7%, Brent under $90",
-          "summary": "Nasdaq-100 futures were up about 2.6%, S&P 500 futures 1.9% and Dow futures 1.2% at 5:35 AM IST Monday, after Wall Street's worst week in years. Gold futures rose about 1.7% to near $3,576 an ounce and Brent eased 0.7% to about $89.30 a barrel. Japan is closed for a holiday and Australia's market opened little changed.",
-          "why_it_matters": "A firmer start in US futures is the first sign of calm after last week's AI-led rout and sets a better tone for Asian and Indian markets.",
-          "importance": 4,
+          "id": "markets-asia-ai-selloff-2026-11-23",
+          "headline": "Asian stocks slide on AI fears; Kospi down about 3% as Seoul readies support fund",
+          "summary": "US stock futures held gains of about 2% overnight, but Asian markets fell on Monday. South Korea's Kospi dropped as much as 4.3% early and was about 3.2% lower near 4,714 by 7:15 AM IST, with Samsung and SK Hynix down; Taiwan and Hong Kong also fell, while Japan was shut for a holiday. Seoul says a market stabilisation fund is ready if the slide goes on, Taiwan tightened short-selling rules and Chinese exchanges eased margin rules.",
+          "why_it_matters": "Asia trades the same AI and chip stocks that crashed on Wall Street last week, so it sets the tone for Indian IT and global funds before Nifty opens.",
+          "importance": 5,
           "lead": true,
           "verified": true,
-          "note": "Monday levels from Yahoo Finance; CNBC reported Sunday-evening futures gains of 1.1-2.5%.",
-          "published_at": "2026-11-23T00:05:00+00:00",
+          "note": "Kospi level from Yahoo Finance at 01:43 UTC. New since the Weekend Special: Asia's open fell despite the bounce in US futures.",
+          "published_at": "2026-11-23T00:18:03+00:00",
           "tags": [
-            "Futures",
-            "Wall Street",
-            "Gold",
-            "Oil"
+            "Kospi",
+            "AI",
+            "Asia",
+            "chips",
+            "Samsung"
           ],
           "sources": [
             {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount"
+            },
+            {
+              "name": "Reuters (via Investing.com)",
+              "url": "https://ca.investing.com/news/economy-news/us-futures-bounce-while-asia-markets-brace-for-ai-wipeout-4974578"
             },
             {
               "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/NQ%3DF/"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/ES%3DF/"
+              "url": "https://finance.yahoo.com/quote/%5EKS11/"
             }
           ],
           "image": {
-            "url": "https://s.yimg.com/lo/mysterio/api/59063dbaa152fd39103d02bf0d8d62a158a83e2ecf89233e1ddf47f217501378/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Ff69dd7e2-7a1c-4ed1-8c89-a0f2eedced6e",
-            "credit": "Yahoo Finance",
-            "source_url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
-            "alt": "The New York Stock Exchange building on Wall Street seen from street level"
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-06T015144Z_77722265_RC21IOA70JJX_RTRMADP_3_SOUTHKOREA-MARKETS-1-1795393000_0f55a3-1795395323.jpg",
+            "credit": "Kim Hong-Ji/Reuters",
+            "source_url": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount",
+            "alt": "A currency dealer in a Seoul bank dealing room in front of a board showing the Kospi (file photo)"
           },
           "impact": [
             {
-              "on": "us_stocks",
-              "level": "medium",
-              "dir": "up",
-              "why": "Futures point to a rebound at the US open after a week of heavy losses."
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "high",
+              "dir": "down",
+              "why": "A fresh fall in Asian tech shares could weigh on Indian IT stocks at Monday's open."
             },
             {
               "on": "indian_stocks",
+              "level": "medium",
+              "dir": "mixed",
+              "why": "Weak Asia pulls against the bounce in US futures and last week's foreign buying."
+            },
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "medium",
+              "dir": "mixed",
+              "why": "Futures are up about 2%, but Asia's slide shows the AI sell-off may not be over."
+            }
+          ]
+        },
+        {
+          "id": "markets-gold-rebound-3600-2026-11-23",
+          "headline": "Update: Gold extends its rebound to about $3,600, up nearly 2.5%",
+          "summary": "Gold futures climbed to about $3,600 an ounce in early Asian trade, up about 2.4% from Friday's settle of $3,515.4 and higher than the $3,576 seen at the Weekend Special. Silver rose about 2% to near $42.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "New since the Weekend Special: gold rose further from about $3,576.",
+          "published_at": "2026-11-23T01:52:52+00:00",
+          "tags": [
+            "gold",
+            "silver"
+          ],
+          "sources": [
+            {
+              "name": "Reuters (via Investing.com)",
+              "url": "https://ca.investing.com/news/economy-news/us-futures-bounce-while-asia-markets-brace-for-ai-wipeout-4974578"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/GC=F"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "gold",
+              "level": "medium",
+              "dir": "up",
+              "why": "Bargain buying after a 9.5% weekly drop is lifting prices."
+            },
+            {
+              "on": "silver",
               "level": "low",
               "dir": "up",
-              "why": "A calmer global tone supports a steady Indian open."
+              "why": "Silver is following gold higher after a 16% weekly fall on MCX."
             }
           ]
         }
@@ -399,376 +449,7 @@
       "stories": []
     }
   ],
-  "weekend_special": {
-    "title": "Weekend: Fri to Sun",
-    "stories": [
-      {
-        "rank": 1,
-        "id": "markets-ai-rout-futures-rebound-2026-11-20",
-        "headline": "Wall Street ends worst week since 2020 in AI rout; US futures bounce about 2% Sunday",
-        "summary": "On Friday the S&P 500 fell 3.7% to 6,910.39 and the Nasdaq 5.28% to 22,617.73; the S&P 500 and Dow closed in correction and the Nasdaq 100 lost about 10% on the week, its worst since March 2020. Nvidia sank 14% to $125.53 after Reuters reported the SEC is examining its accounting, and chip stocks had their worst week since 2001. When trading reopened on Sunday evening, S&P 500 futures were up about 1.9% and Nasdaq-100 futures about 2.6% by 5:35 AM IST Monday; Japan is shut for a holiday.",
-        "why_it_matters": "The AI unwind is pulling money out of tech-heavy markets like Taiwan, Korea and Japan, and India has gained from that rotation. A rebound in US futures eases the panic, but the Nvidia probe keeps tech fragile.",
-        "importance": 5,
-        "lead": false,
-        "verified": true,
-        "note": "Friday closes from CNBC and Yahoo Finance; Monday futures levels from Yahoo Finance (CNBC had S&P futures up 1.1-1.5% earlier on Sunday evening). The SEC probe report is from Reuters sources; the SEC declined to comment.",
-        "published_at": "2026-11-22T18:46:00-05:00",
-        "tags": [
-          "Wall Street",
-          "AI",
-          "Nvidia",
-          "Futures"
-        ],
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
-          },
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html"
-          },
-          {
-            "name": "Reuters (via Investing.com)",
-            "url": "https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460"
-          },
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
-          }
-        ],
-        "image": null,
-        "impact": [
-          {
-            "on": "us_stocks",
-            "level": "high",
-            "dir": "mixed",
-            "why": "Futures are rebounding, but chip stocks remain under pressure from the Nvidia probe.",
-            "detail": "Tech"
-          },
-          {
-            "on": "indian_stocks",
-            "level": "medium",
-            "dir": "up",
-            "why": "Firmer US futures and money leaving AI-heavy Asia support a steady start in India."
-          },
-          {
-            "on": "indian_stocks",
-            "level": "medium",
-            "dir": "mixed",
-            "why": "Indian IT exporters tend to track the Nasdaq and US tech spending.",
-            "detail": "IT"
-          },
-          {
-            "on": "company",
-            "level": "medium",
-            "dir": "mixed",
-            "why": "Nvidia rose about 4% after hours Friday but faces an SEC accounting probe.",
-            "detail": "Nvidia"
-          }
-        ],
-        "monday_effect": "Firmer US futures point to a calm or mildly positive start for Nifty and Sensex, which rose over 1% on Friday as money left AI-heavy Asia. IT names such as Infosys, TCS and HCLTech could swing with Nasdaq futures. Moderate confidence: a fresh slide in US futures before 9:15 AM would undo this.",
-        "watch_next": "Whether Nasdaq futures hold their gains into the US open; any Nvidia statement on the SEC probe; HPE results Monday and Dell Tuesday."
-      },
-      {
-        "rank": 2,
-        "id": "markets-fii-buying-rupee-2026-11-20",
-        "headline": "Foreign funds buy Rs 10,308 crore of Indian shares on Friday; rupee at 7-month high",
-        "summary": "Provisional NSE data show foreign institutions bought a net Rs 10,308 crore of Indian shares on Friday, their biggest day of the week, while domestic institutions sold Rs 4,860 crore. Over the week foreign funds bought about Rs 32,647 crore. The rupee rose 62 paise to close at 92.67 per dollar, a seven-month high. On Saturday SEBI proposed dropping the extra ownership disclosures it brought in for offshore funds in 2023, to keep India attractive to foreign investors.",
-        "why_it_matters": "Foreign money leaving AI-heavy Asian markets is flowing into India, lifting banks and the rupee. As long as that continues, it cushions Indian stocks from the global tech sell-off.",
-        "importance": 5,
-        "lead": false,
-        "verified": true,
-        "note": "FII figures are exchange provisional data reported by 5paisa and Tapetide; weekly total from one aggregator. Rupee close from All India Radio.",
-        "published_at": "2026-11-20T17:59:00+05:30",
-        "tags": [
-          "FPI",
-          "Rupee",
-          "SEBI",
-          "Banks"
-        ],
-        "sources": [
-          {
-            "name": "5paisa (NSE provisional data)",
-            "url": "https://www.5paisa.com/share-market-today/fii-dii-data"
-          },
-          {
-            "name": "Tapetide (NSE provisional data)",
-            "url": "https://tapetide.com/fii-dii-data"
-          },
-          {
-            "name": "All India Radio",
-            "url": "https://newsonair.gov.in/rupee-appreciates-by-62-paise-against-us-dollar-to-close-at-seven-month-high/"
-          },
-          {
-            "name": "All India Radio",
-            "url": "https://newsonair.gov.in/sebi-proposes-eliminating-additional-disclosure-requirements-for-offshore-funds/"
-          }
-        ],
-        "image": null,
-        "impact": [
-          {
-            "on": "indian_stocks",
-            "level": "high",
-            "dir": "up",
-            "why": "Heavy foreign buying has led Nifty's gains, especially in large banks.",
-            "detail": "Banks"
-          },
-          {
-            "on": "rupee",
-            "level": "high",
-            "dir": "up",
-            "why": "Dollar inflows from foreign funds keep the rupee near a seven-month high."
-          },
-          {
-            "on": "indian_stocks",
-            "level": "medium",
-            "dir": "up",
-            "why": "Steady FPI demand supports large caps over smaller stocks."
-          }
-        ],
-        "monday_effect": "If foreign buying continues, large banks such as HDFC Bank, Kotak Mahindra Bank and Axis Bank are likely to lead again, and the rupee could hold near Friday's 92.67. Smaller stocks may lag, as on Friday. Fairly confident the flow trend holds near term, but one day's data can surprise.",
-        "watch_next": "Monday's provisional FII figures; rupee staying below 93; RBI's Rs 50,000 crore 4-day repo auction this morning."
-      },
-      {
-        "rank": 3,
-        "id": "world-iran-hormuz-tankers-qatar-2026-11-21",
-        "headline": "Tankers hit near Hormuz and Iran strikes Bahrain as Qatar talks stall; Brent below $90",
-        "summary": "The UK's maritime agency UKMTO reported two tankers struck near Khasab, Oman, on Saturday, with no injuries; Iran's navy says tankers that entered a restricted area east of the strait caught fire. Bahrain says an Iranian attack set a civilian industrial site ablaze, and the US told Americans there to be extra vigilant. A Qatari delegation held talks in Tehran, but Iran's foreign minister said the US blockade must be lifted first; Trump says he is not rushing and may decide after the new year. Brent traded near $89.30 early Monday, down about 0.7% from Friday.",
-        "why_it_matters": "Oil is India's biggest import and drives the rupee and inflation. Supply is recovering, but tanker attacks keep a war-risk premium in crude.",
-        "importance": 5,
-        "lead": false,
-        "verified": true,
-        "note": "UKMTO strikes confirmed by CNBC and CBS; Iran's account of why the tankers caught fire is not independently confirmed. Bahrain's damage report is Bahrain's claim.",
-        "published_at": "2026-11-21T00:00:00+00:00",
-        "tags": [
-          "Iran",
-          "Hormuz",
-          "Oil",
-          "Qatar"
-        ],
-        "sources": [
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/11/21/two-tanker-attacks-reported-near-omans-khasab-ukmto-says.html"
-          },
-          {
-            "name": "CBS News",
-            "url": "https://www.cbsnews.com/live-updates/iran-war-trump-tehran-denies-chemical-weapons/"
-          },
-          {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat"
-          },
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/quote/BZ=F"
-          }
-        ],
-        "image": null,
-        "impact": [
-          {
-            "on": "oil",
-            "level": "high",
-            "dir": "mixed",
-            "why": "Gulf supply is recovering, but tanker attacks keep a risk premium in crude."
-          },
-          {
-            "on": "rupee",
-            "level": "medium",
-            "dir": "mixed",
-            "why": "Brent under $90 helps the rupee, but a new Gulf flare-up could reverse it."
-          },
-          {
-            "on": "indian_stocks",
-            "level": "medium",
-            "dir": "mixed",
-            "why": "Oil marketers, paint makers and airlines swing with every Hormuz headline.",
-            "detail": "OMCs"
-          },
-          {
-            "on": "gold",
-            "level": "low",
-            "dir": "up",
-            "why": "Gulf escalation adds some safe-haven demand."
-          }
-        ],
-        "monday_effect": "Brent just under $90 is mild relief, so oil marketers BPCL, HPCL and IOC, paint makers and IndiGo may open steady, and it supports the rupee. The risk leans to higher crude: a confirmed new tanker hit or strike could lift Brent quickly. Moderate confidence.",
-        "watch_next": "Iran's response after the Qatari talks; any new UKMTO tanker report; Brent back above $92 or down below $88."
-      },
-      {
-        "rank": 4,
-        "id": "markets-fed-hike-bets-ease-yields-2026-11-20",
-        "headline": "Fed hike bets ease slightly and US 10-year yield drops to 4.91% before PCE data",
-        "summary": "CME FedWatch showed about a 92% chance of a quarter-point Fed rate hike on December 9 after Friday's sell-off, down from about 95% earlier in the week, with traders pricing fewer hikes after that. The US 10-year Treasury yield fell to about 4.91% on Friday from 5.12% a week earlier as investors bought bonds for safety. Core PCE inflation and the second estimate of third-quarter GDP are due on Wednesday; US markets close Thursday for Thanksgiving.",
-        "why_it_matters": "Lower US yields make emerging markets like India more attractive and take pressure off the rupee. A hot PCE reading could revive hike bets and reverse that.",
-        "importance": 4,
-        "lead": false,
-        "verified": true,
-        "note": "FedWatch odds reported by 24/7 Wall St. and TheStreet; yield from Yahoo Finance.",
-        "published_at": "2026-11-21T00:00:00-05:00",
-        "tags": [
-          "Fed",
-          "Yields",
-          "PCE",
-          "Dollar"
-        ],
-        "sources": [
-          {
-            "name": "24/7 Wall St.",
-            "url": "https://247wallst.com/investing/2026/11/21/this-stock-market-selloff-could-block-the-feds-rate-hikes/"
-          },
-          {
-            "name": "TheStreet",
-            "url": "https://pro.thestreet.com/market-commentary/the-week-ahead-time-for-a-bounce"
-          },
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/quote/%5ETNX/"
-          },
-          {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
-          }
-        ],
-        "image": null,
-        "impact": [
-          {
-            "on": "rates",
-            "level": "high",
-            "dir": "down",
-            "why": "US yields fell sharply as investors sought safe bonds and trimmed hike bets."
-          },
-          {
-            "on": "rupee",
-            "level": "medium",
-            "dir": "up",
-            "why": "Lower US yields reduce the pull of dollar assets over Indian ones."
-          },
-          {
-            "on": "currency",
-            "level": "medium",
-            "dir": "mixed",
-            "why": "The dollar index is flat near 103.8; PCE data will set its next move.",
-            "detail": "Dollar"
-          },
-          {
-            "on": "indian_stocks",
-            "level": "low",
-            "dir": "up",
-            "why": "Lower yields help rate-sensitive stocks such as banks, NBFCs and realty.",
-            "detail": "Rate-sensitive"
-          }
-        ],
-        "monday_effect": "Lower US yields could help rate-sensitive Indian stocks such as Bajaj Finance and realty names, and keep the rupee firm. The effect is likely modest on Monday; the bigger test is Wednesday's PCE data. Moderate confidence.",
-        "watch_next": "US core PCE on Wednesday (forecast 0.3% m/m); FedWatch odds for December 9; the 10-year yield back above 5%."
-      },
-      {
-        "rank": 5,
-        "id": "markets-gold-silver-rebound-2026-11-23",
-        "headline": "Gold bounces about 1.7% to near $3,576 early Monday after a 9.5% weekly drop",
-        "summary": "Gold futures settled at $3,515.4 an ounce on Friday, down 9.5% for the week, and MCX gold fell 10.9% to Rs 1,21,778 per 10 grams; MCX silver lost about 16%. In early Monday trade in Asia, gold futures rose about 1.7% to around $3,576 and silver about 2.3% to about $42. The slide came from a strong dollar, high US yields and bets on more Fed hikes.",
-        "why_it_matters": "Gold and silver swings move Indian bullion prices, jewellery stocks and gold-loan collateral values. A bounce after a crash can be short-lived if yields rise again.",
-        "importance": 4,
-        "lead": false,
-        "verified": true,
-        "note": "Weekly figures from All India Radio; Monday levels from Yahoo Finance; a separate futures report also shows gold up about 2%.",
-        "published_at": "2026-11-23T00:05:00+00:00",
-        "tags": [
-          "Gold",
-          "Silver",
-          "MCX",
-          "Bullion"
-        ],
-        "sources": [
-          {
-            "name": "All India Radio",
-            "url": "https://newsonair.gov.in/gold-and-silver-prices-plunge-amid-strong-us-dollar-and-rising-treasury-yields/"
-          },
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/quote/GC=F"
-          },
-          {
-            "name": "HuggingNews",
-            "url": "https://huggingnews.com/us-markets/us-stock-futures-rebound-with-nasdaq-100-up-22percent-after-worst-week-s-501bab64"
-          }
-        ],
-        "image": null,
-        "impact": [
-          {
-            "on": "gold",
-            "level": "medium",
-            "dir": "up",
-            "why": "Bargain buying after the steepest weekly fall in months lifts prices."
-          },
-          {
-            "on": "silver",
-            "level": "medium",
-            "dir": "up",
-            "why": "Silver rebounds faster than gold after a 16% weekly drop."
-          },
-          {
-            "on": "indian_stocks",
-            "level": "low",
-            "dir": "mixed",
-            "why": "Jewellers and gold-loan firms move with bullion prices.",
-            "detail": "Jewellery"
-          }
-        ],
-        "monday_effect": "MCX gold and silver are likely to open higher after last week's crash, which could steady jewellers such as Titan and Kalyan Jewellers. A firm rupee trims the rise in rupee terms. Low to moderate confidence: the bounce could fade if US yields climb.",
-        "watch_next": "Gold holding above $3,500; US PCE data on Wednesday; the dollar index near 104."
-      },
-      {
-        "rank": 6,
-        "id": "markets-bitcoin-weekend-swing-2026-11-22",
-        "headline": "Bitcoin swings from about $55,000 on Saturday back above $61,000",
-        "summary": "Bitcoin fell to about $55,130 on Binance on Saturday, CryptoSlate says, then rebounded to close the day near $60,200 as short sellers were forced out. It traded near $61,160 at 5:43 AM IST Monday, up about 1.6% in 24 hours, per CoinGecko, with ether near $1,723. Bitcoin is still down about 23% in November.",
-        "why_it_matters": "Crypto has been the most fragile part of the global sell-off. A steady bitcoin above $60,000 would be another sign that panic selling is fading.",
-        "importance": 3,
-        "lead": false,
-        "verified": true,
-        "note": "Monday price confirmed by CoinGecko and Yahoo Finance; the Saturday low is from CryptoSlate (Binance data) only.",
-        "published_at": "2026-11-22T14:30:00+00:00",
-        "tags": [
-          "Bitcoin",
-          "Crypto",
-          "Ether"
-        ],
-        "sources": [
-          {
-            "name": "CoinGecko",
-            "url": "https://www.coingecko.com/en/coins/bitcoin"
-          },
-          {
-            "name": "Yahoo Finance",
-            "url": "https://finance.yahoo.com/quote/BTC-USD/"
-          },
-          {
-            "name": "CryptoSlate",
-            "url": "https://cryptoslate.com/bitcoin-reclaims-61000-before-giving-back-a-third-of-that-rally/"
-          }
-        ],
-        "image": null,
-        "impact": [
-          {
-            "on": "crypto",
-            "level": "high",
-            "dir": "mixed",
-            "why": "A sharp weekend low and quick rebound show fragile, short-driven trading."
-          },
-          {
-            "on": "us_stocks",
-            "level": "low",
-            "dir": "mixed",
-            "why": "Crypto moves are a gauge of risk appetite for tech stocks."
-          }
-        ],
-        "monday_effect": "No direct effect on Nifty or Sensex. A stable bitcoin would add to signs that the global risk sell-off is easing, which helps sentiment. Low confidence.",
-        "watch_next": "Bitcoin holding above $60,000; US spot bitcoin ETF flows on Monday."
-      }
-    ]
-  },
+  "weekend_special": null,
   "forex_results": [],
   "week_ahead": [
     {
@@ -776,6 +457,10 @@
       "events": [
         {
           "text": "Modi holds talks with Nepal PM Balendra Shah",
+          "section": "india"
+        },
+        {
+          "text": "Modi and Nepal PM flag off Ayodhya-Janakpurdham Saryu-Kamala Express",
           "section": "india"
         },
         {
@@ -838,6 +523,10 @@
     {
       "date": "2026-11-27",
       "events": [
+        {
+          "text": "Tripura votes in 16 urban local bodies, including Agartala",
+          "section": "india"
+        },
         {
           "text": "Mahanadi Coalfields shares due to list on BSE and NSE",
           "section": "markets"
