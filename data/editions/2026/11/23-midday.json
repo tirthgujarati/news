@@ -1,0 +1,601 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-23-midday",
+  "date": "2026-11-23",
+  "slot": "midday",
+  "title": "Monday Midday Edition",
+  "generated_at": "2026-11-23T13:45:00+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "92.93",
+      "change": "+0.29%",
+      "dir": "up",
+      "as_of": "2026-11-23T08:08:57+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/INR=X"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "102.16",
+      "change": "+0.56%",
+      "dir": "up",
+      "as_of": "2026-11-23T08:08:57+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.65",
+      "change": "-0.15%",
+      "dir": "down",
+      "as_of": "2026-11-23T07:59:01+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$705.34bn",
+      "change": "-1.97%",
+      "dir": "down",
+      "as_of": "2026-11-13T00:00:00+05:30",
+      "source": {
+        "name": "ANI (RBI data)",
+        "url": "https://aninews.in/news/business/india8217s-forex-reserves-fall-by-usd-142-billion-to-usd-70534-billion-in-week-ended-november-1320261120180825/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,457.85",
+      "change": "-1.33%",
+      "dir": "down",
+      "as_of": "2026-11-23T08:09:01+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "82,745.90",
+      "change": "-1.40%",
+      "dir": "down",
+      "as_of": "2026-11-23T07:54:01+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "6,910.39",
+      "change": "-3.70%",
+      "dir": "down",
+      "as_of": "2026-11-20T21:35:54+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "22,617.73",
+      "change": "-5.28%",
+      "dir": "down",
+      "as_of": "2026-11-20T22:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,618.60",
+      "change": "+2.94%",
+      "dir": "up",
+      "as_of": "2026-11-23T07:59:02+00:00",
+      "source": {
+        "name": "Yahoo Finance (COMEX futures)",
+        "url": "https://finance.yahoo.com/quote/GC=F"
+      }
+    },
+    {
+      "id": "gold_mcx",
+      "label": "Gold India (IBJA 24K)",
+      "value": "₹1,23,893/10g",
+      "change": "-4.4%",
+      "dir": "down",
+      "as_of": "2026-11-20T17:54:00+05:30",
+      "source": {
+        "name": "All India Radio (IBJA rates)",
+        "url": "https://newsonair.gov.in/gold-silver-prices-plunge-over-4/"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$89.51",
+      "change": "-0.49%",
+      "dir": "down",
+      "as_of": "2026-11-23T07:58:43+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BZ=F"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$61,351",
+      "change": "+3.88%",
+      "dir": "up",
+      "as_of": "2026-11-23T08:08:04+00:00",
+      "source": {
+        "name": "CoinGecko",
+        "url": "https://www.coingecko.com/en/coins/bitcoin"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.91%",
+      "change": "-2.73%",
+      "dir": "down",
+      "as_of": "2026-11-20T19:59:55+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "why_it_matters": "It is Shah's first bilateral visit abroad since taking office, and power and rail links with Nepal are on the table.",
+          "lead": false,
+          "note": "What changed: the talks have started; the list of signed agreements is not out yet.",
+          "tags": [
+            "Nepal",
+            "Diplomacy"
+          ],
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/Screenshot-2026-11-23-111832.jpg",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/pm-modi-to-hold-bilateral-talks-with-nepal-pm-balendra-shah-in-new-delhi/",
+            "alt": "Narendra Modi shakes hands with Nepal PM Balendra Shah in front of Indian and Nepali flags"
+          },
+          "impact": [],
+          "id": "india-nepal-pm-visit-2026-11-22",
+          "headline": "Update: Modi and Nepal PM Balendra Shah hold talks at Hyderabad House",
+          "summary": "Prime Minister Modi welcomed Nepal's Prime Minister Balendra Shah at Rashtrapati Bhavan on Monday, and the two leaders then began talks at Hyderabad House in New Delhi. Shah laid a wreath at Rajghat and calls on President Murmu in the afternoon. Agreements in energy, hydropower, railways and connectivity are expected after the talks, but none had been announced by midday.",
+          "importance": 3,
+          "verified": true,
+          "published_at": "2026-11-23T11:19:00+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/pm-modi-to-hold-bilateral-talks-with-nepal-pm-balendra-shah-in-new-delhi/"
+            },
+            {
+              "name": "Free Press Journal",
+              "url": "https://www.freepressjournal.in/india/pm-modi-nepal-pm-balendra-shah-hold-key-talks-at-hyderabad-house-to-strengthen-bilateral-ties-and-expand-cooperation-video"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "why_it_matters": "It would be Ukraine's first claimed strike on Russian navy ships far from the Black Sea, widening the war into the Mediterranean.",
+          "lead": false,
+          "note": "What changed: Ukraine has now claimed the attack. Claim by Ukraine's president; single source: Al Jazeera.",
+          "tags": [
+            "Ukraine",
+            "Russia",
+            "Libya"
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b03dca5ac8b-1795415205.jpg?resize=1920%2C1440",
+            "credit": "Vantor via AFP",
+            "source_url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya",
+            "alt": "Satellite photo of a capsized ship beside a scorched quay at Benghazi port"
+          },
+          "impact": [],
+          "id": "world-libya-russian-ship-drones-2026-11-22",
+          "headline": "Zelenskyy says Ukraine sank the Russian corvette hit at Libya's Benghazi port",
+          "summary": "Ukraine's President Zelenskyy said Ukraine launched seven home-made sea drones that sank the Russian corvette Merkury in Benghazi on Sunday, and also destroyed a Ka-27 helicopter and hit the Russian cargo ship Angara. Libya's eastern authorities say all crew were rescued and that Libya is not a party to the war. The UN mission in Libya called for an independent investigation.",
+          "importance": 4,
+          "verified": false,
+          "published_at": "2026-11-23T00:00:00+00:00",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "No agreed text leaves global climate action without a fresh signal on cutting oil, gas and coal use.",
+          "lead": false,
+          "note": null,
+          "tags": [
+            "Climate",
+            "COP31"
+          ],
+          "image": null,
+          "impact": [],
+          "id": "world-cop31-collapse-2026-11-22",
+          "headline": "COP31 climate talks in Antalya end without a deal over fossil fuels",
+          "summary": "The UN climate summit in Antalya, Türkiye, ended without an overall agreement, the first time since 2009, after running about 48 hours past its close. The EU, the UK, Panama and others rejected the final draft because it did not mention fossil fuels; Saudi Arabia and other oil producers had lobbied against such wording. Money for developing countries was also in dispute.",
+          "importance": 3,
+          "verified": true,
+          "published_at": "2026-11-23T08:47:00+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/cop31-climate-talks-collapse-after-member-states-reject-deal-for-not-mentioning-fossil-fuels/"
+            },
+            {
+              "name": "Euronews",
+              "url": "https://euronews.com/2026/11/23/europe-today-cop31-talks-collapsed-over-omission-of-fossil-fuels"
+            },
+            {
+              "name": "NBC News",
+              "url": "https://www.nbcnews.com/science/climate-change/cop31-climate-talks-break-angry-dispute-fossil-fuels-rcna610656"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": null,
+          "tags": [
+            "Indonesia"
+          ],
+          "image": null,
+          "impact": [],
+          "id": "world-indonesia-factory-fire-2026-11-23",
+          "headline": "24 killed in fire at a sweets factory in Indonesia's Banten province",
+          "summary": "Indonesian police have recovered 24 bodies after a fire at a confectionery factory in Banten province, west of Jakarta, and the search of the site is continuing.",
+          "importance": 2,
+          "verified": true,
+          "published_at": "2026-11-23T00:00:00+00:00",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/23/indonesian-police-remove-24-body-bags-from-factory-fire-site"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/24-killed-in-fire-at-confectionery-factory-in-banten-indonesia/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "why_it_matters": "Foreign inflows have been keeping the rupee firm; a stock sell-off tests that support.",
+          "lead": false,
+          "note": null,
+          "tags": [
+            "Rupee",
+            "Dollar"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "down",
+              "why": "Selling in Indian stocks may slow the foreign inflows that lifted the rupee last week."
+            }
+          ],
+          "id": "currency-rupee-midday-2026-11-23",
+          "headline": "Rupee gives up early gain and slips to about 92.9 per dollar as stocks fall",
+          "summary": "The rupee opened 21 paise stronger at 92.46 per dollar, Moneycontrol says, helped by foreign buying of Indian shares, and dealers say the RBI has not been buying dollars. As Indian stocks fell, it slipped to about 92.93 by 1:40 PM, weaker than Friday's close of about 92.67. The dollar index was a little lower at about 103.65.",
+          "importance": 4,
+          "verified": true,
+          "published_at": "2026-11-23T13:38:00+05:30",
+          "sources": [
+            {
+              "name": "Moneycontrol (via TradingView)",
+              "url": "https://www.tradingview.com/news/moneycontrol:abbc0abb2094b:0-currency-check-rupee-opens-21-paise-higher-at-92-46-per-dollar-asian-peers-trade-mixed/"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/INR=X"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "why_it_matters": "Indian markets are shut on Tuesday for Gurpurab, so today's close sets the level until Wednesday.",
+          "lead": true,
+          "note": null,
+          "tags": [
+            "Sensex",
+            "Nifty",
+            "IT"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Metals",
+              "level": "high",
+              "dir": "down",
+              "why": "Metal shares are the worst hit, led by Tata Steel and APL Apollo."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "medium",
+              "dir": "up",
+              "why": "Investors buy Indian IT as a way to avoid crowded global AI stocks."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "Banks",
+              "level": "medium",
+              "dir": "down",
+              "why": "PSU and private banks fell about 2% after Friday's record high."
+            }
+          ],
+          "id": "markets-india-midday-selloff-2026-11-23",
+          "headline": "Sensex and Nifty fall about 1.3% by midday; metals and banks drag, IT rises",
+          "summary": "The Nifty 50 was down about 1.3% at 25,458 and the Sensex about 1.4% at 82,746 around 1:40 PM, following an AI-led sell-off across Asia. Metals fell over 3% and PSU banks over 2%, while the Nifty IT index rose nearly 3% with TCS up about 5% and Tech Mahindra over 3%. Analysts say India's small listed AI exposure is drawing foreign money into its IT shares.",
+          "importance": 5,
+          "verified": true,
+          "published_at": "2026-11-23T13:39:00+05:30",
+          "sources": [
+            {
+              "name": "Moneycontrol (via TradingView)",
+              "url": "https://www.tradingview.com/news/moneycontrol:cea672df1094b:0-nifty-it-index-rallies-nearly-3-amid-global-ai-selloff-tcs-techm-lead-gains-check-reason-behind-optimism-in-indian-it-sector/"
+            },
+            {
+              "name": "Financial Express (via IndiaIPO)",
+              "url": "https://www.indiaipo.in/news/detail/live-sensex-nifty-slide-metal-stocks-plunge-ai-selloff-hits-asia-south-korea-plunges-5"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5ENSEI"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "It is one of the biggest Indian steel deals this year and pushed metal stocks to the day's worst sector fall.",
+          "lead": false,
+          "note": null,
+          "tags": [
+            "Tata Steel",
+            "APL Apollo",
+            "Deal"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Tata Steel",
+              "level": "high",
+              "dir": "down",
+              "why": "Investors worry about the cost of the deal; shares fell over 9%."
+            },
+            {
+              "on": "company",
+              "detail": "APL Apollo",
+              "level": "high",
+              "dir": "down",
+              "why": "The open offer price is below where the shares traded; stock fell over 19%."
+            }
+          ],
+          "id": "markets-tata-steel-apl-apollo-2026-11-23",
+          "headline": "Tata Steel to buy 26.4% of APL Apollo for Rs 15,510 crore; both shares tumble",
+          "summary": "Tata Steel will buy a 26.38% stake in APL Apollo Tubes from a promoter-group firm at Rs 2,100 a share, about Rs 15,510 crore ($1.67 billion), in three tranches, and make an open offer for 26% more at Rs 2,301.40. It would hold up to 52.38%. Tata Steel will also sell its tubes and colour-coated steel businesses to APL Apollo. Tata Steel fell over 9% and APL Apollo over 19%.",
+          "importance": 4,
+          "verified": true,
+          "published_at": "2026-11-22T23:17:00-05:00",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/23/tata-steel-acquisition-deal-apl-india.html"
+            },
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/companies/news/tata-steel-acquire-apl-apollo-stake-15510-crore-open-offer-business-deal-126112300184_1.html"
+            },
+            {
+              "name": "ANI",
+              "url": "https://aninews.in/news/business/tata-steel-to-acquire-up-to-5238-stake-in-apl-apollo-for-rs-32266-crore20261123092920/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": "What changed: Kospi closed and Taiwan reversed into gains.",
+          "tags": [
+            "Asia",
+            "Kospi",
+            "AI"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "medium",
+              "dir": "up",
+              "why": "US futures point to a rebound in tech shares after Friday's rout."
+            }
+          ],
+          "id": "markets-asia-ai-selloff-2026-11-23",
+          "headline": "Update: Kospi closes 3.3% lower; Taiwan swings to a 2.5% gain",
+          "summary": "South Korea's Kospi ended about 3.3% lower at 4,708.54, after falling as much as 5.8% during the day, with SK Hynix down about 16% at one point. Taiwan's Taiex turned around to rise about 2.5%, and Hong Kong pared losses to about 0.6%. US stock futures held gains, with Nasdaq futures up nearly 3%.",
+          "importance": 3,
+          "verified": true,
+          "published_at": "2026-11-23T12:03:00+05:30",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5EKS11"
+            },
+            {
+              "name": "Moneycontrol (via TradingView)",
+              "url": "https://www.tradingview.com/news/moneycontrol:cea672df1094b:0-nifty-it-index-rallies-nearly-3-amid-global-ai-selloff-tcs-techm-lead-gains-check-reason-behind-optimism-in-indian-it-sector/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "note": "What changed: gold rose further from the morning edition.",
+          "tags": [
+            "Gold",
+            "MCX"
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "gold",
+              "level": "medium",
+              "dir": "up",
+              "why": "Gold recovers part of last week's 9.5% drop."
+            }
+          ],
+          "id": "markets-gold-rebound-3600-2026-11-23",
+          "headline": "Update: Gold climbs to about $3,619, up nearly 3% on the day",
+          "summary": "Gold futures rose to about $3,619 an ounce by 1:30 PM IST, up about 2.9% from Friday's settle of $3,515.4 and above the $3,600 seen in the morning. MCX December gold was up about 2.5% near Rs 1.24 lakh per 10 grams, and silver about 2.4%.",
+          "importance": 3,
+          "verified": true,
+          "published_at": "2026-11-23T13:29:00+05:30",
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/GC=F"
+            },
+            {
+              "name": "Financial Express (via IndiaIPO)",
+              "url": "https://www.indiaipo.in/news/detail/live-sensex-nifty-slide-metal-stocks-plunge-ai-selloff-hits-asia-south-korea-plunges-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": []
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [],
+  "week_ahead": [
+    {
+      "date": "2026-11-23",
+      "events": [
+        {
+          "text": "US flash PMIs (November)",
+          "section": "markets"
+        },
+        {
+          "text": "Hewlett Packard Enterprise results after US close",
+          "section": "markets"
+        },
+        {
+          "text": "Tata Steel investor call on APL Apollo deal after market hours",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "events": [
+        {
+          "text": "NSE and BSE closed for Guru Nanak Jayanti; MCX opens for evening session",
+          "section": "markets"
+        },
+        {
+          "text": "US Conference Board consumer confidence (November)",
+          "section": "markets"
+        },
+        {
+          "text": "Dell and Workday results after US close; Best Buy before the bell",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "events": [
+        {
+          "text": "Australia October CPI",
+          "section": "currency"
+        },
+        {
+          "text": "US core PCE inflation, second estimate of Q3 GDP and jobless claims",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "events": [
+        {
+          "text": "US stock markets closed for Thanksgiving",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "events": [
+        {
+          "text": "Tripura votes in 16 urban local bodies, including Agartala",
+          "section": "india"
+        },
+        {
+          "text": "Mahanadi Coalfields shares due to list on BSE and NSE",
+          "section": "markets"
+        },
+        {
+          "text": "Tokyo core CPI (November); US markets close early",
+          "section": "currency"
+        }
+      ]
+    }
+  ]
+}
