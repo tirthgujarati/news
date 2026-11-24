@@ -1,0 +1,660 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-24-evening",
+  "date": "2026-11-24",
+  "slot": "evening",
+  "title": "Tuesday Evening Edition",
+  "generated_at": "2026-11-24T20:49:05+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "92.92",
+      "change": "+0.32%",
+      "dir": "up",
+      "as_of": "2026-11-23T00:00:00+05:30",
+      "source": {
+        "name": "PTI via Daily Excelsior",
+        "url": "https://www.dailyexcelsior.com/rupee-snaps-5-day-rally-tumbles-30-paise-to-settle-at-92-92-against-us-dollar/"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "101.90",
+      "change": "+0.58%",
+      "dir": "up",
+      "as_of": "2026-11-24T15:11:44+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.83",
+      "change": "-0.47%",
+      "dir": "down",
+      "as_of": "2026-11-24T15:05:28+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$705.34bn",
+      "change": "-1.97%",
+      "dir": "down",
+      "as_of": "2026-11-13T00:00:00+05:30",
+      "source": {
+        "name": "ANI (RBI data)",
+        "url": "https://aninews.in/news/business/india8217s-forex-reserves-fall-by-usd-142-billion-to-usd-70534-billion-in-week-ended-november-1320261120180825/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,349.65",
+      "change": "-1.75%",
+      "dir": "down",
+      "as_of": "2026-11-23T10:01:19+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "82,435.99",
+      "change": "-1.77%",
+      "dir": "down",
+      "as_of": "2026-11-23T10:02:26+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,205.34",
+      "change": "-0.44%",
+      "dir": "down",
+      "as_of": "2026-11-24T15:15:27+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "23,769.75",
+      "change": "-1.33%",
+      "dir": "down",
+      "as_of": "2026-11-24T15:15:27+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,611.10",
+      "change": "-1.10%",
+      "dir": "down",
+      "as_of": "2026-11-24T15:05:29+00:00",
+      "source": {
+        "name": "Yahoo Finance (COMEX futures)",
+        "url": "https://finance.yahoo.com/quote/GC=F"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$90.50",
+      "change": "+1.26%",
+      "dir": "up",
+      "as_of": "2026-11-24T15:05:28+00:00",
+      "source": {
+        "name": "Yahoo Finance (ICE Jan 2027)",
+        "url": "https://finance.yahoo.com/quote/BZF27.NYM"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$59,827",
+      "change": "-4.95%",
+      "dir": "down",
+      "as_of": "2026-11-24T15:17:24+00:00",
+      "source": {
+        "name": "CoinGecko",
+        "url": "https://www.coingecko.com/en/coins/bitcoin"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.92%",
+      "change": "-0.04%",
+      "dir": "flat",
+      "as_of": "2026-11-24T15:00:23+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "why_it_matters": "The reunion reshapes the Punjab race against the ruling AAP and Congress after the parties split in 2020 over the farm laws.",
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "image": null,
+          "impact": [],
+          "id": "india-bjp-sad-punjab-alliance-2026-11-24",
+          "headline": "BJP and Akali Dal team up again to fight 2027 Punjab election together",
+          "summary": "Home Minister Amit Shah announced in New Delhi that the BJP and the Shiromani Akali Dal will contest the 2027 Punjab Assembly polls as allies, bringing the NDA's oldest partner back. Shah said fighting drugs and corruption will be the top priority; SAD chief Sukhbir Singh Badal said Punjab saw peace and progress whenever the two governed together.",
+          "importance": 3,
+          "published_at": "2026-11-24T14:57:00+05:30",
+          "tags": [
+            "Punjab",
+            "BJP",
+            "Akali Dal",
+            "Elections"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/bjp-and-shiromani-akali-dal-to-contest-2027-punjab-assembly-polls-together/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "image": null,
+          "impact": [],
+          "id": "india-modi-merz-call-2026-11-24",
+          "headline": "Modi and German Chancellor Merz review ties; say India-EU trade deal opens doors",
+          "summary": "German Chancellor Friedrich Merz phoned PM Modi, and the two reviewed the India-Germany strategic partnership in its 75th year, pledging closer work on defence and advanced technology. They said the India-EU free trade agreement will open new chances for trade and investment.",
+          "importance": 2,
+          "published_at": "2026-11-24T19:57:00+05:30",
+          "tags": [
+            "Germany",
+            "Diplomacy",
+            "India-EU FTA"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/pm-modi-german-chancellor-merz-review-progress-in-strategic-partnership/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "image": null,
+          "impact": [],
+          "id": "india-space-economy-45bn-2026-11-24",
+          "headline": "Jitendra Singh says India's space economy can grow from $9bn to $45bn within a decade",
+          "summary": "Science Minister Jitendra Singh told the India International Space Conclave in New Delhi that the space economy, now near $9 billion, should reach $40 to 45 billion in under ten years. He said the sector has grown to almost 500 companies and urged private firms to invest more.",
+          "importance": 2,
+          "published_at": "2026-11-24T20:22:00+05:30",
+          "tags": [
+            "Space",
+            "Startups",
+            "ISRO"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/indias-space-economy-set-to-reach-45-billion-in-decade-union-minister-jitendra-singh/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio, citing Nepal's earthquake monitoring centre.",
+          "image": null,
+          "impact": [],
+          "id": "india-nepal-quake-tremors-2026-11-24",
+          "headline": "5.6 quake in eastern Nepal shakes Sikkim, North Bengal and Bihar; no casualties",
+          "summary": "An earthquake of magnitude 5.6 struck Nepal's Taplejung district near the Tibet border at about 7:17 am local time. Tremors were felt in Sikkim, Darjeeling, Siliguri and other parts of North Bengal and Bihar, causing panic, but no casualties were reported.",
+          "importance": 1,
+          "published_at": "2026-11-24T14:06:00+05:30",
+          "tags": [
+            "Earthquake",
+            "Nepal",
+            "Sikkim"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/earthquake-shakes-north-bengal-sikkim-and-parts-of-bihar/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "why_it_matters": "A new Baghdad-Erbil clash over oil could disrupt northern Iraqi exports at a time when Gulf supply is already strained.",
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera (with Reuters).",
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/07/reuters_6a5d64f3-1784505587.jpg?resize=1200%2C900",
+            "credit": "Alaa al-Marjani/Reuters",
+            "source_url": "https://www.aljazeera.com/news/2026/11/24/iraq-orders-takeover-of-oilfields-in-areas-under-kurdish-control",
+            "alt": "Valves and pipelines at an oilfield in the Dibis area near Kirkuk, Iraq"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "low",
+              "dir": "up",
+              "why": "A Baghdad-Kurdish dispute could interrupt some northern Iraqi oil flows."
+            }
+          ],
+          "id": "world-iraq-kurdish-oilfields-2026-11-24",
+          "headline": "Iraq orders federal takeover of oilfields in areas held by Kurdish forces",
+          "summary": "Iraqi PM Ali al-Zaidi ordered the federal Oil Ministry to run oilfields in parts of Diyala, Kirkuk, Salahuddin and Nineveh under Kurdish security control, and told border authorities to take over all crossings in the Kurdish region after an oil smuggling inquiry. Kurdish crude and fuel exports must now go only through the federal ministry. The head of the crossings authority was removed and North Oil Company's chief suspended.",
+          "importance": 4,
+          "published_at": "2026-11-24T11:19:04+00:00",
+          "tags": [
+            "Iraq",
+            "Kurds",
+            "Oil"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/24/iraq-orders-takeover-of-oilfields-in-areas-under-kurdish-control"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "Repeated strikes on the Saudi capital keep a risk premium on oil while Hormuz traffic is already disrupted.",
+          "lead": false,
+          "verified": false,
+          "note": "Claim by the Saudi-led coalition, with witness accounts via AFP; not independently confirmed.",
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "low",
+              "dir": "up",
+              "why": "Attacks on Saudi Arabia add to Gulf supply worries."
+            }
+          ],
+          "id": "world-riyadh-financial-district-strike-2026-11-24",
+          "headline": "Saudi-led coalition says Riyadh financial district tower hit, second time in a week",
+          "summary": "The Saudi-led coalition says a projectile struck a tower in Riyadh's King Abdullah Financial District on Tuesday and called it a terrorist attack; it has not named the building. Witnesses told AFP the strike targeted the Public Investment Fund skyscraper, which was damaged in a Houthi attack last week. No one has yet claimed the strike.",
+          "importance": 4,
+          "published_at": "2026-11-24T14:27:38+00:00",
+          "tags": [
+            "Saudi Arabia",
+            "Houthis",
+            "Riyadh"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/24/saudi-led-coalition-condemns-terrorist-attack-on-tower-in-riyadh"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "Her return plan puts India, where she has lived since 2024, at the centre of a sensitive dispute with Dhaka.",
+          "lead": false,
+          "verified": false,
+          "note": "Claim by Hasina's spokesperson; single source: Al Jazeera (with AP and Reuters).",
+          "image": null,
+          "impact": [],
+          "id": "world-hasina-return-plan-2026-11-24",
+          "headline": "Sheikh Hasina's spokesperson says she will return to Bangladesh from India on Dec 16",
+          "summary": "Former Bangladesh PM Sheikh Hasina, in exile in India since August 2024 and sentenced to death in absence, plans to fly home on December 16, her spokesperson said, asking PM Tarique Rahman's government to arrange a national airline flight. Dhaka says she can return only through extradition.",
+          "importance": 3,
+          "published_at": "2026-11-24T07:35:02+00:00",
+          "tags": [
+            "Bangladesh",
+            "Hasina",
+            "India"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/24/sheikh-hasina-plans-to-return-to-bangladesh-from-exile-on-december-16"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": true,
+          "note": "Death confirmed by both Gaza's interior ministry and Israel; accusations against him are Israel's.",
+          "image": null,
+          "impact": [],
+          "id": "world-hamas-security-chief-killed-2026-11-24",
+          "headline": "Israeli drone strike kills head of Hamas internal security in Gaza",
+          "summary": "An Israeli strike killed Naim Abu Nahl, 50, who led Hamas's internal security apparatus in Gaza; four others were wounded in a crowded area of displaced people. Gaza's interior ministry confirmed his death, and Israel's army and Shin Bet said he had broken the ceasefire and planned attacks.",
+          "importance": 2,
+          "published_at": "2026-11-24T13:55:11+00:00",
+          "tags": [
+            "Gaza",
+            "Israel",
+            "Hamas"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/israeli-forces-eliminate-head-of-hamas-internal-security-chief-in-airstrike/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera.",
+          "image": null,
+          "impact": [],
+          "id": "world-pakistan-astronaut-shenzhou24-2026-11-24",
+          "headline": "Pakistan's first astronaut set to fly to China's Tiangong station on Wednesday",
+          "summary": "Air force pilot Muhammad Zeeshan Ali, 40, is due to launch on China's Shenzhou-24 from Jiuquan at 05:48 IST on Wednesday as a payload specialist, spending about a week aboard Tiangong. China's space agency says it will be the first joint flight of Chinese and foreign astronauts in its programme.",
+          "importance": 2,
+          "published_at": "2026-11-24T07:55:18+00:00",
+          "tags": [
+            "Pakistan",
+            "China",
+            "Space"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/24/pakistans-zeeshan-ali-set-for-historic-flight-to-chinas-space-station"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "why_it_matters": "A softer dollar could help the rupee when trading reopens, though Wednesday's US PCE inflation data may swing it.",
+          "lead": false,
+          "verified": false,
+          "note": "Dollar index and euro-rupee from Yahoo Finance only; yields confirmed by CNBC.",
+          "image": null,
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "up",
+              "why": "A weaker dollar gives the rupee room to firm when trade resumes."
+            },
+            {
+              "on": "currency",
+              "detail": "Dollar",
+              "level": "low",
+              "dir": "down",
+              "why": "The dollar index slipped as US yields eased."
+            }
+          ],
+          "id": "currency-dollar-dips-us-open-2026-11-24",
+          "headline": "Dollar index slips 0.5% to about 103.8; rupee trading resumes on Wednesday",
+          "summary": "The dollar index eased about 0.5% to near 103.8 by mid-morning in New York, and the US 10-year yield held near 4.9%, despite a much stronger US consumer confidence reading. Offshore, the euro was about 101.9 rupees. Indian currency markets were shut for Gurpurab; the rupee last closed Monday at about 92.9 per dollar.",
+          "importance": 3,
+          "published_at": "2026-11-24T15:05:28+00:00",
+          "tags": [
+            "Dollar",
+            "Rupee",
+            "DXY"
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/indian-stock-markets-to-remain-closed-on-tuesday-on-account-of-gurpurab/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "why_it_matters": "Indian markets reopen Wednesday after Asia's chip rally; a cooling in US tech could temper that boost for IT stocks.",
+          "lead": true,
+          "verified": true,
+          "note": "Index levels from Yahoo Finance at about 15:15 UTC; CNBC's earlier update showed similar moves.",
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b049efd4a19f-1795464957.jpg?resize=1200%2C900",
+            "credit": "Jeffrey McWhorter/AP",
+            "source_url": "https://www.aljazeera.com/economy/2026/11/23/what-nvidias-jensen-huangs-return-means-for-washington-and-wall-street",
+            "alt": "Nvidia CEO Jensen Huang in a leather jacket in front of an Nvidia sign"
+          },
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Nvidia",
+              "level": "medium",
+              "dir": "down",
+              "why": "Traders took profits after Monday's record 31% jump."
+            },
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "medium",
+              "dir": "down",
+              "why": "Chip stocks gave back part of Monday's rally."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Asia's rally lifts sentiment, but US tech is cooling before India reopens."
+            }
+          ],
+          "id": "markets-us-open-nvidia-pullback-2026-11-24",
+          "headline": "Nasdaq slips 1.3% as Nvidia gives back 6%; Dow edges up on strong US confidence",
+          "summary": "An hour after the US open, the Nasdaq was down about 1.3% at 23,770 and the S&P 500 down 0.4% at 7,205, while the Dow rose 0.5% to about 49,840. Nvidia fell about 6% to near $155 after Monday's 31% jump on Jensen Huang's return. US consumer confidence jumped to 103.3 in November, its highest since January 2025 and far above the roughly 92.4 expected; retailers Dick's, Abercrombie and Kohl's rose after raising forecasts.",
+          "importance": 5,
+          "published_at": "2026-11-24T15:15:27+00:00",
+          "tags": [
+            "Wall Street",
+            "Nvidia",
+            "Nasdaq",
+            "Consumer confidence"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5EIXIC"
+            },
+            {
+              "name": "The Conference Board",
+              "url": "https://www.prnewswire.com/news-releases/us-consumer-confidence-surged-in-november-302949447.html"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/11/23/what-nvidias-jensen-huangs-return-means-for-washington-and-wall-street"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "Oil back above $90 adds to India's import bill, while weaker gold eases pressure on the trade deficit.",
+          "lead": false,
+          "verified": true,
+          "note": "Prices from Yahoo Finance and CoinGecko at about 15:05 UTC; CNBC confirms metals under pressure.",
+          "image": null,
+          "impact": [
+            {
+              "on": "gold",
+              "level": "medium",
+              "dir": "down",
+              "why": "Bets on a December Fed hike keep pressure on precious metals."
+            },
+            {
+              "on": "oil",
+              "level": "low",
+              "dir": "up",
+              "why": "Brent bounced back above $90 from near a three-month low."
+            },
+            {
+              "on": "crypto",
+              "level": "low",
+              "dir": "down",
+              "why": "Bitcoin slid about 5% in a day as risk appetite cooled."
+            }
+          ],
+          "id": "markets-gold-silver-slide-brent-up-2026-11-24",
+          "headline": "Gold falls 1.1% to $3,611 and silver 3%; Brent rises above $90",
+          "summary": "Since the midday edition, gold futures extended losses to about $3,611 an ounce, down 1.1% on the day, and silver fell about 3% to $41.8. Brent crude for January turned higher, up about 1.3% to $90.5 a barrel. Bitcoin was near $59,800, down about 5% over 24 hours.",
+          "importance": 3,
+          "published_at": "2026-11-24T15:05:29+00:00",
+          "tags": [
+            "Gold",
+            "Silver",
+            "Oil",
+            "Bitcoin"
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/GC=F"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "CoinGecko",
+              "url": "https://www.coingecko.com/en/coins/bitcoin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": []
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "USD",
+      "title": "CB Consumer Confidence",
+      "date": "2026-11-24T10:00:00-05:00",
+      "impact": "Medium",
+      "actual": "103.3",
+      "vs_forecast": "better",
+      "why": "Confidence jumped to its highest since January 2025, well above forecasts, which supports the dollar and Fed hike bets.",
+      "source": {
+        "name": "The Conference Board",
+        "url": "https://www.prnewswire.com/news-releases/us-consumer-confidence-surged-in-november-302949447.html"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-25",
+      "events": [
+        {
+          "text": "NSE, BSE and currency markets reopen after Gurpurab holiday",
+          "section": "markets"
+        },
+        {
+          "text": "Australia October CPI",
+          "section": "currency"
+        },
+        {
+          "text": "Shenzhou-24 launches with Pakistan's first astronaut",
+          "section": "world"
+        },
+        {
+          "text": "IORA senior officials meet in New Delhi (Nov 25-26)",
+          "section": "india"
+        },
+        {
+          "text": "US core PCE inflation, second estimate of Q3 GDP and jobless claims",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "events": [
+        {
+          "text": "US stock markets closed for Thanksgiving",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "events": [
+        {
+          "text": "Tripura votes in 16 urban local bodies, including Agartala",
+          "section": "india"
+        },
+        {
+          "text": "Mahanadi Coalfields shares due to list on BSE and NSE",
+          "section": "markets"
+        },
+        {
+          "text": "RBI weekly forex reserves data",
+          "section": "currency"
+        },
+        {
+          "text": "Tokyo core CPI (November); US markets close early",
+          "section": "currency"
+        }
+      ]
+    }
+  ]
+}
