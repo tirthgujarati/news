@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-23-evening",
-  "date": "2026-11-23",
-  "slot": "evening",
-  "title": "Monday Evening Edition",
-  "generated_at": "2026-11-23T20:53:49+05:30",
+  "edition_id": "2026-11-24-morning",
+  "date": "2026-11-24",
+  "slot": "morning",
+  "title": "Tuesday Morning Edition",
+  "generated_at": "2026-11-24T07:37:19+05:30",
   "snapshot": [
     {
       "id": "usdinr",
@@ -21,10 +21,10 @@
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "101.48",
-      "change": "-0.76%",
-      "dir": "down",
-      "as_of": "2026-11-23T15:11:44+00:00",
+      "value": "101.36",
+      "change": "+0.02%",
+      "dir": "flat",
+      "as_of": "2026-11-24T00:06:45+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURINR=X"
@@ -33,10 +33,10 @@
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "104.26",
-      "change": "+0.44%",
-      "dir": "up",
-      "as_of": "2026-11-23T15:05:50+00:00",
+      "value": "104.22",
+      "change": "-0.09%",
+      "dir": "down",
+      "as_of": "2026-11-24T01:51:28+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
@@ -81,10 +81,10 @@
     {
       "id": "spx",
       "label": "S&P 500",
-      "value": "7,246.31",
-      "change": "+4.86%",
+      "value": "7,237.17",
+      "change": "+4.73%",
       "dir": "up",
-      "as_of": "2026-11-23T15:15:53+00:00",
+      "as_of": "2026-11-23T21:42:33+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EGSPC"
@@ -93,10 +93,10 @@
     {
       "id": "nasdaq",
       "label": "Nasdaq",
-      "value": "24,167.02",
-      "change": "+6.85%",
+      "value": "24,089.56",
+      "change": "+6.51%",
       "dir": "up",
-      "as_of": "2026-11-23T15:15:48+00:00",
+      "as_of": "2026-11-23T22:15:59+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EIXIC"
@@ -105,10 +105,10 @@
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$3,669.30",
-      "change": "+4.38%",
+      "value": "$3,664.20",
+      "change": "+0.35%",
       "dir": "up",
-      "as_of": "2026-11-23T15:05:52+00:00",
+      "as_of": "2026-11-24T01:51:31+00:00",
       "source": {
         "name": "Yahoo Finance (COMEX futures)",
         "url": "https://finance.yahoo.com/quote/GC=F"
@@ -117,10 +117,10 @@
     {
       "id": "brent",
       "label": "Brent crude",
-      "value": "$87.05",
-      "change": "-3.22%",
+      "value": "$86.29",
+      "change": "-0.45%",
       "dir": "down",
-      "as_of": "2026-11-23T15:05:49+00:00",
+      "as_of": "2026-11-24T01:51:05+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/BZ=F"
@@ -129,10 +129,10 @@
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$63,059",
-      "change": "+3.75%",
+      "value": "$61,016",
+      "change": "+0.34%",
       "dir": "up",
-      "as_of": "2026-11-23T15:20:42+00:00",
+      "as_of": "2026-11-24T02:01:31+00:00",
       "source": {
         "name": "CoinGecko",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
@@ -141,10 +141,10 @@
     {
       "id": "us10y",
       "label": "US 10Y yield",
-      "value": "4.95%",
-      "change": "+0.78%",
+      "value": "4.92%",
+      "change": "+0.12%",
       "dir": "up",
-      "as_of": "2026-11-23T15:00:52+00:00",
+      "as_of": "2026-11-23T19:59:52+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5ETNX"
@@ -157,122 +157,110 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-nepal-pm-visit-2026-11-22",
-          "headline": "Update: India and Nepal sign 8 pacts; Modi offers NPR 24,000 crore aid package",
-          "summary": "After talks in New Delhi, India and Nepal signed eight agreements covering health, traditional medicine, a satellite communication network, training, urban development, research, and livestock and fisheries. Modi announced a development package of 24,000 crore Nepalese rupees for Nepal's flood recovery, and the two leaders flagged off the weekly Ayodhya-Janakpur Saryu-Kamala Express. They also laid foundation stones for the 669 MW Lower Arun hydro project and a Jhapa oil terminal, and opened phase II of the Motihari-Amlekhganj pipeline.",
-          "why_it_matters": "It is Shah's first bilateral visit abroad as PM, and it locks in Indian-backed power, fuel and rail links with Nepal.",
-          "importance": 3,
+          "id": "india-sebi-gmp-advisory-2026-11-23",
+          "headline": "SEBI tells market players to stop publishing IPO grey market premiums",
+          "summary": "SEBI asked all registered intermediaries and market participants to stop publishing or circulating grey market premium (GMP) figures for IPOs, on websites, apps, SMS or social media. It called the figures unofficial, unverified and unregulated, and warned investors that GMP-linked deals happen outside exchanges, with no settlement guarantee and no access to SEBI or exchange grievance systems.",
+          "why_it_matters": "GMP numbers drive a lot of retail IPO demand; curbing them could cool frenzied subscriptions and listing-day bets.",
+          "importance": 4,
           "lead": false,
           "verified": true,
-          "note": "What changed: the talks ended with 8 signed agreements, an aid package and new projects.",
-          "published_at": "2026-11-23T14:30:20+05:30",
+          "note": null,
+          "published_at": "2026-11-23T19:44:45+05:30",
           "tags": [
-            "Nepal",
-            "Diplomacy",
-            "Hydropower"
+            "SEBI",
+            "IPO",
+            "Regulation"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/india-nepal-ink-8-agreements-in-key-projects-including-hydropower-health-and-infrastructure/"
+              "url": "https://newsonair.gov.in/sebi-cautions-investors-against-relying-on-unofficial-grey-market-premium-figures-for-ipos/"
             },
             {
               "name": "Business Standard",
-              "url": "https://www.business-standard.com/amp/external-affairs-defence-security/news/india-nepal-sign-8-mous-advance-six-projects-to-deepen-bilateral-ties-126112300546_1.html"
+              "url": "https://www.business-standard.com/markets/news/sebi-asks-market-players-to-stop-publishing-grey-market-premiums-for-ipos-126112301145_1.html"
             },
             {
               "name": "ANI",
-              "url": "https://aninews.in/news/world/asia/india-nepal-sign-eight-mous-across-space-security-health-and-governance-during-pm-balen-shahs-visit20261123134446/"
-            }
-          ],
-          "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/Screenshot-2026-11-23-111832.jpg",
-            "credit": "All India Radio",
-            "source_url": "https://newsonair.gov.in/pm-modi-to-hold-bilateral-talks-with-nepal-pm-balendra-shah-in-new-delhi/",
-            "alt": "Narendra Modi shakes hands with Nepal PM Balendra Shah in front of Indian and Nepali flags"
-          },
-          "impact": []
-        },
-        {
-          "id": "india-sp-global-growth-outlook-2026-11-23",
-          "headline": "S&P Global sees India as Asia-Pacific's fastest-growing economy in 2027",
-          "summary": "S&P Global says India's economy can grow about 7% both this financial year and next (to March 2028), helped by strong goods exports, government-led investment, steady consumer spending and faster credit growth. It expects inflation to average 5.3% this year, with risks tilted higher, easing to 4.7% next year.",
-          "why_it_matters": "A 7% outlook from a major agency supports foreign investor interest in Indian assets.",
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio (Hindi service), reporting S&P Global's Asia-Pacific Q1 2027 outlook.",
-          "published_at": "2026-11-23T19:26:50+05:30",
-          "tags": [
-            "Growth",
-            "Inflation",
-            "S&P Global"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/hi/sp-global-has-projected-that-india-will-be-the-fastest-growing-economy-in-the-asia-pacific-region-in-2027/"
+              "url": "https://aninews.in/news/business/sebi-advises-market-intermediaries-to-stop-publishing-ipo-grey-market-premiums-cautions-investors20261123194445/"
             }
           ],
           "image": null,
           "impact": [
             {
-              "on": "india_economy",
+              "on": "indian_stocks",
+              "detail": "IPOs",
               "level": "low",
-              "dir": "up",
-              "why": "A steady 7% growth view supports confidence in India's economy."
+              "dir": "mixed",
+              "why": "Less GMP hype may temper retail rush and listing-day swings in new issues."
             }
           ]
         },
         {
-          "id": "india-rbi-dsib-list-2026-11-23",
-          "headline": "RBI keeps SBI, HDFC Bank and ICICI Bank on its 'too big to fail' list",
-          "summary": "The RBI's 2026 list of domestic systemically important banks again names State Bank of India, HDFC Bank and ICICI Bank. They must keep extra core capital of 0.80%, 0.40% and 0.20% of risk-weighted assets respectively, unchanged in bucket terms.",
-          "why_it_matters": null,
-          "importance": 2,
+          "id": "india-rbi-ebt-safeguards-draft-2026-11-23",
+          "headline": "RBI proposes new safeguards to give customers more control over digital payments",
+          "summary": "The RBI issued draft rules for all types of banks that would let customers control how and how much their digital payment channels can be used. It also proposes widening what counts as negligence by a bank in fraud cases, building on its June 2026 rules limiting customer liability. Comments are open until December 14, 2026.",
+          "why_it_matters": "A wider definition of bank negligence could shift more fraud losses from customers to banks.",
+          "importance": 3,
           "lead": false,
-          "verified": true,
-          "note": null,
+          "verified": false,
+          "note": "Single source: RBI.",
           "published_at": "2026-11-23T00:00:00+05:30",
           "tags": [
             "RBI",
-            "Banks"
+            "Digital payments",
+            "Fraud"
           ],
           "sources": [
             {
               "name": "RBI",
-              "url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64025"
-            },
-            {
-              "name": "Business Standard",
-              "url": "https://business-standard.com/finance/news/rbi-retains-sbi-hdfc-bank-icici-bank-as-systemically-important-banks-126112300912_1.html"
+              "url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64026"
             }
           ],
           "image": null,
           "impact": []
         },
         {
-          "id": "india-rbi-securitisation-rules-2026-11-23",
-          "headline": "RBI issues final securitisation rules, effective from April 1, 2027",
-          "summary": "The RBI issued final amendments to its securitisation directions to make the issue and transfer of securitisation notes more efficient, liquid and transparent. They cover commercial banks, small finance banks, NBFCs and all-India financial institutions, and follow feedback on a July draft.",
+          "id": "india-rbi-governor-nbfc-meet-2026-11-23",
+          "headline": "RBI Governor urges NBFCs and housing lenders to grow credit responsibly",
+          "summary": "The RBI Governor met heads of select NBFCs, housing finance companies and microfinance lenders in Mumbai on Monday, along with all four Deputy Governors. He asked them to keep credit growth sustainable, put customers first, follow fair recovery practices and tighten cyber security under board oversight.",
           "why_it_matters": null,
           "importance": 2,
           "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-23T19:27:35+05:30",
+          "verified": false,
+          "note": "Single source: RBI.",
+          "published_at": "2026-11-23T00:00:00+05:30",
           "tags": [
             "RBI",
-            "NBFCs"
+            "NBFC"
           ],
           "sources": [
             {
               "name": "RBI",
-              "url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64028"
-            },
+              "url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64032"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "india-i4c-whatsapp-web-advisory-2026-11-23",
+          "headline": "Home Ministry's cyber crime centre warns WhatsApp Web users of account misuse",
+          "summary": "The Indian Cyber Crime Coordination Centre (I4C) says a logged-in WhatsApp Web session can be misused to read and send messages as the user and run frauds on their contacts. It advises logging out after each use, avoiding public or borrowed computers and not sharing sensitive or official information over WhatsApp Web.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-23T21:27:00+05:30",
+          "tags": [
+            "Cyber security",
+            "WhatsApp"
+          ],
+          "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/rbi-issues-final-amendments-to-securitisation-directions-to-improve-efficiency-liquidity-and-transparency/"
+              "url": "https://newsonair.gov.in/home-ministry-advises-whatsapp-users-to-exercise-caution-while-using-whatsapp-web/"
             }
           ],
           "image": null,
@@ -285,68 +273,89 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-iran-blockade-trump-strikes-2026-11-23",
-          "headline": "Iran vows 'all available means' against US blockade; Trump eyes strikes in new year",
-          "summary": "Iran's foreign ministry spokesman Esmaeil Baghaei said on Monday Iran will use all available means to counter the US naval blockade, which he called an act of military aggression. On Sunday, Trump told Fox News he is inclined to resume strikes on Iran after the New Year if talks fail, and said ships running the blockade would be sunk. Qatar-mediated talks remain stalled.",
-          "why_it_matters": "Rising war risk around Hormuz can quickly push oil higher, which hurts India's import bill and the rupee.",
-          "importance": 4,
+          "id": "world-irgc-tankers-mines-hormuz-2026-11-24",
+          "headline": "Iran's IRGC says three tankers caught fire after hitting mines in Hormuz",
+          "summary": "Iran's Revolutionary Guards say three oil tankers struck naval mines over several hours in the Strait of Hormuz and caught fire, two of them while under US air escort. They gave no ship names, crew details or damage reports, and no independent maritime source has confirmed it. Qatar's prime minister told Al Jazeera the region cannot withstand another US-Iran escalation. Brent was slightly lower in Asia at about $86.3.",
+          "why_it_matters": "If confirmed, attacks on escorted tankers would raise the risk to Gulf oil flows that India depends on.",
+          "importance": 5,
           "lead": false,
-          "verified": true,
-          "note": "Statements by each side; both are reported by several outlets.",
-          "published_at": "2026-11-23T00:00:00+03:00",
+          "verified": false,
+          "note": "Claim by Iran's IRGC; not independently confirmed.",
+          "published_at": "2026-11-24T00:00:00+00:00",
           "tags": [
             "Iran",
-            "US",
             "Hormuz",
-            "Oil"
+            "Oil",
+            "Shipping"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/23/iran-says-it-will-use-all-available-means-to-counter-us-blockade"
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines"
             },
             {
-              "name": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-11-23/trump-iran-talks-continue-year-end-republican-party-midterms-middle-east-arab"
+              "name": "Jerusalem Post",
+              "url": "https://www.jpost.com/middle-east/iran-news/article-915899"
             },
             {
-              "name": "The Hill",
-              "url": "https://thehill.com/policy/international/6236693-donald-trump-iran-strikes-new-year/"
+              "name": "Yahoo Finance (Brent)",
+              "url": "https://finance.yahoo.com/quote/BZ=F"
             }
           ],
-          "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20261013__D3722EZ__v1__HighRes__UaeIranUsIsraelWarHormuzShipping-1795270231.jpg?resize=1200%2C900",
-            "credit": "AFP",
-            "source_url": "https://www.aljazeera.com/news/2026/11/23/iran-says-it-will-use-all-available-means-to-counter-us-blockade",
-            "alt": "A container ship sails through the Gulf of Oman off Khor Fakkan, UAE"
-          },
+          "image": null,
           "impact": [
             {
               "on": "oil",
               "level": "medium",
               "dir": "up",
-              "why": "Threats of new strikes and blockade clashes raise supply risk near Hormuz."
+              "why": "An attack on escorted tankers would raise supply risk, though Brent has not reacted so far."
             }
           ]
         },
         {
-          "id": "world-kyiv-region-strikes-2026-11-23",
-          "headline": "At least 15 killed as Russian strikes hit towns around Kyiv",
-          "summary": "Russian attacks killed at least 15 people in the Kyiv region, Ukrainian officials say. A strike on a five-storey building in Dymer killed at least 11, a supermarket strike in Vyshneve killed 3, and one person died in Bila Tserkva. Ukraine's drones hit oil storage sites in Russia's Tatarstan, Russian media say.",
+          "id": "world-eu-russia-sanctions-22nd-2026-11-23",
+          "headline": "EU proposes 22nd Russia sanctions package, cutting 60 banks from SWIFT",
+          "summary": "Commission President Ursula von der Leyen proposed new sanctions that would cut 60 Russian banks off the SWIFT payments system, set up a task force on crypto used to dodge sanctions and bar Russian teams and athletes from competing under Russia's flag at EU events. All 27 member states must approve it before it takes effect.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: Al Jazeera (citing Reuters and AFP).",
-          "published_at": "2026-11-23T00:00:00+03:00",
+          "note": "Single source: Al Jazeera.",
+          "published_at": "2026-11-23T23:26:16+00:00",
           "tags": [
-            "Ukraine",
-            "Russia"
+            "EU",
+            "Russia",
+            "Sanctions"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/23/death-toll-rises-after-deadly-russian-attacks-on-ukraine"
+              "url": "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-us-megaspeed-entity-list-2026-11-24",
+          "headline": "US blacklists Singapore's Megaspeed and six other Asian firms over chip exports",
+          "summary": "The US Commerce Department's Bureau of Industry and Security added Singapore-based Megaspeed International and six firms in Singapore, Malaysia and Thailand to its Entity List, so US suppliers now need a licence to ship them advanced tech such as top Nvidia AI chips. BIS said they acted against US security or foreign policy interests. Megaspeed is linked to the probe surrounding Nvidia.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera, citing the BIS Federal Register filing.",
+          "published_at": "2026-11-24T00:52:47+00:00",
+          "tags": [
+            "US",
+            "Export controls",
+            "Chips",
+            "Nvidia"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/11/24/us-adds-megaspeed-firm-at-centre-of-nvidia-scandal-to-export-control-list"
             }
           ],
           "image": null,
@@ -359,78 +368,43 @@
       "title": "Currency Desk",
       "stories": [
         {
-          "id": "currency-rupee-close-2026-11-23",
-          "headline": "Rupee ends 5-day winning run, falls 30 paise to 92.92 per dollar",
-          "summary": "The rupee settled 30 paise weaker at 92.92 per dollar (provisional), after touching 93.11 during the day. Dealers blamed the sharp fall in Indian shares and dollar buying by importers, including two large conglomerates, Business Standard says. Dealers see a 92.70 to 93.30 range in the near term.",
-          "why_it_matters": "It ends a five-day rise just as Indian markets shut for a holiday on Tuesday.",
-          "importance": 4,
-          "lead": false,
-          "verified": true,
-          "note": "Business Standard puts the close at 92.91; PTI reports 92.92.",
-          "published_at": "2026-11-23T00:00:00+05:30",
-          "tags": [
-            "Rupee",
-            "Dollar"
-          ],
-          "sources": [
-            {
-              "name": "Business Standard",
-              "url": "https://www.business-standard.com/finance/news/rupee-snaps-five-day-winning-streak-amid-strong-corporate-dollar-demand-126112301109_1.html"
-            },
-            {
-              "name": "PTI via Daily Excelsior",
-              "url": "https://www.dailyexcelsior.com/rupee-snaps-5-day-rally-tumbles-30-paise-to-settle-at-92-92-against-us-dollar/"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "rupee",
-              "level": "medium",
-              "dir": "down",
-              "why": "Importer dollar demand and the stock sell-off pushed the rupee lower."
-            }
-          ]
-        },
-        {
-          "id": "currency-dollar-fed-hike-bets-2026-11-23",
-          "headline": "Dollar and US yields rise as traders price a 96% chance of a December Fed hike",
-          "summary": "The dollar index rose about 0.4% to near 104.3. US 10-year yields climbed about 3 basis points to near 4.94% and 2-year yields more than 5 points to 4.67%. CME FedWatch shows about a 96% chance of a quarter-point Fed rate rise in December, up from about 92% on Friday.",
-          "why_it_matters": "Higher US rates and a firm dollar make it harder for the rupee to gain.",
+          "id": "currency-dollar-eases-asia-2026-11-24",
+          "headline": "Dollar index eases to about 104.2 in Asia; yen near 158.8 before US PCE data",
+          "summary": "The dollar index slipped about 0.1% to near 104.2 in early Asian trade after Monday's jump, while the dollar held near 158.8 yen and the euro edged up to about $1.092. FXStreet says the euro hit its lowest since April 2025 on Monday. Traders now look to Wednesday's core PCE inflation data, the next test for a December Fed hike. The onshore rupee last closed at 92.92 on Monday; Indian stock markets are shut today for Gurpurab.",
+          "why_it_matters": "A firm PCE reading would cement a Fed hike and keep pressure on the rupee.",
           "importance": 3,
           "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-23T05:15:00-05:00",
+          "verified": false,
+          "note": "Levels from Yahoo Finance; euro low per FXStreet. Not confirmed by a core trusted outlet.",
+          "published_at": "2026-11-24T01:51:28+00:00",
           "tags": [
             "Dollar",
-            "Fed",
-            "Treasuries"
+            "Yen",
+            "Euro",
+            "Fed"
           ],
           "sources": [
-            {
-              "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html"
-            },
             {
               "name": "Yahoo Finance",
               "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+            },
+            {
+              "name": "FXStreet",
+              "url": "https://www.fxstreet.com/news/euro-slides-to-lowest-level-since-april-2025-as-nvidia-led-stock-rally-lifts-sentiment-202611231606"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/indian-stock-markets-to-remain-closed-on-tuesday-on-account-of-gurpurab/"
             }
           ],
           "image": null,
           "impact": [
             {
               "on": "currency",
-              "level": "medium",
-              "dir": "up",
-              "why": "A near-certain Fed hike supports the dollar.",
-              "detail": "Dollar"
-            },
-            {
-              "on": "rates",
-              "level": "medium",
-              "dir": "up",
-              "why": "Short-term US yields rose on hike bets."
+              "detail": "Dollar",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Dollar is pausing near 104 as traders await Wednesday's US inflation data."
             }
           ]
         }
@@ -441,196 +415,123 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "id": "markets-us-rebound-nvidia-huang-2026-11-23",
-          "headline": "Wall Street jumps 4-6% as Nvidia soars about 30% on Huang's return as CEO",
-          "summary": "Nvidia's board unanimously reinstated Jensen Huang as CEO less than two weeks after he resigned, saying US government officials told it he poses no national security risk. Nvidia shares rose about 30%. Soon after the open the S&P 500 was up about 4.9% at 7,246 and the Nasdaq about 6.9%, after both ended Friday in a correction; Micron, AMD and CoreWeave also jumped.",
-          "why_it_matters": "It is a sharp turn after Wall Street's worst week since 2020 and could lift Indian IT and tech when Indian markets reopen on Wednesday.",
+          "id": "markets-asia-chip-rally-2026-11-24",
+          "headline": "Asia chip stocks soar: Taiwan up 9%, Kospi 7% after Nvidia's 31% jump",
+          "summary": "Asian markets followed Wall Street's surge after Nvidia rehired Jensen Huang as CEO. Taiwan's index rose about 9% and South Korea's Kospi about 7% to above 5,000, triggering a trading sidecar, while Japan's Nikkei, shut on Monday, gained about 4%. TSMC, Foxconn, MediaTek and SK Hynix rose near 10%, Samsung about 8%, and Advantest and Tokyo Electron 12-15%. Nvidia closed up 31% on Monday, adding about $950 billion in value.",
+          "why_it_matters": "The global AI-chip rebound could lift sentiment and IT and tech shares when Indian markets reopen on Wednesday.",
           "importance": 5,
           "lead": true,
           "verified": true,
-          "note": "Nvidia's independent review of Huang's conduct is still going on.",
-          "published_at": "2026-11-23T08:59:00-05:00",
+          "note": null,
+          "published_at": "2026-11-23T19:24:00-05:00",
           "tags": [
+            "Asia",
+            "Chips",
             "Nvidia",
-            "AI",
-            "Wall Street"
+            "TSMC",
+            "Kospi"
           ],
           "sources": [
             {
               "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
+              "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html"
             },
             {
-              "name": "Nvidia (SEC filing)",
-              "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+              "name": "Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/asia-chipmaking-stocks-soar-tracking-nvidia-rally-skorea-taiwan-lead-5046844"
             },
             {
-              "name": "CNN",
-              "url": "https://www.cnn.com/2026/11/23/tech/nvidia-reinstates-jensen-huang-ceo"
-            },
-            {
-              "name": "CNBC live",
-              "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/11/23/nvidia-board-reinstates-jensen-huang-as-ceo"
             }
           ],
           "image": {
-            "url": "https://media.cnn.com/api/v1/images/stellar/prod/c-2026-09-15t181638z-1764266560-rc2ujnavs7zn-rtrmadp-3-tech-ai.jpg?c=16x9&q=w_800,c_fill",
-            "credit": "Reuters",
-            "source_url": "https://www.cnn.com/2026/11/23/tech/nvidia-reinstates-jensen-huang-ceo",
-            "alt": "Nvidia CEO Jensen Huang in a black leather jacket at an event"
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26316465276155-1794989333.jpg?resize=1200%2C900",
+            "credit": "Mark Schiefelbein/AP Photo",
+            "source_url": "https://www.aljazeera.com/economy/2026/11/23/nvidia-board-reinstates-jensen-huang-as-ceo",
+            "alt": "Nvidia CEO Jensen Huang smiling and waving outdoors"
           },
           "impact": [
             {
-              "on": "company",
-              "level": "high",
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "medium",
               "dir": "up",
-              "why": "The board brought back Huang as CEO, ending the leadership crisis.",
-              "detail": "Nvidia"
+              "why": "A strong global tech rebound tends to lift Indian IT shares."
             },
             {
               "on": "us_stocks",
-              "level": "high",
-              "dir": "up",
-              "why": "AI and chip stocks led a broad rebound after a 10% correction.",
-              "detail": "Tech"
-            },
-            {
-              "on": "indian_stocks",
+              "detail": "Tech",
               "level": "medium",
               "dir": "up",
-              "why": "A US tech rally usually lifts Indian IT exporters.",
-              "detail": "IT"
+              "why": "Chip rally extends into Asia, supporting AI and semiconductor stocks."
             }
           ]
         },
         {
-          "id": "markets-india-close-selloff-2026-11-23",
-          "headline": "Sensex sinks 1,484 points, Nifty 1.75% in worst day in nine months",
-          "summary": "The Sensex fell 1,483.72 points (1.77%) to 82,435.99 and the Nifty 450.95 points (1.75%) to 25,349.65, ending a two-day rise. Nifty Metal fell about 3.6% and PSU and private bank indices over 3%; Tata Steel dropped about 8.5% after its APL Apollo deal, with Axis, HDFC and ICICI Bank down over 3%. Nifty IT rose about 2%. The US rally began only after Indian markets closed.",
-          "why_it_matters": "Indian markets are shut on Tuesday, so Wall Street's rebound will be priced in on Wednesday.",
-          "importance": 5,
+          "id": "markets-us-rebound-nvidia-huang-2026-11-23",
+          "headline": "Update: Nasdaq closes 6.5% higher in best day since April 2025; S&P up 4.7%",
+          "summary": "At the close, the S&P 500 rose 4.7% to 7,237.17, the Nasdaq 6.5% to 24,089.56 and the Dow 3% to 49,595.31, recovering from Friday's slide into correction. S&P tech stocks gained about 9%; Micron rose 19%, CoreWeave 22% and Tesla about 11%. US stock futures were up a further 0.3% in Asia.",
+          "why_it_matters": null,
+          "importance": 4,
           "lead": false,
           "verified": true,
-          "note": null,
-          "published_at": "2026-11-23T00:00:00+05:30",
+          "note": "Update: final closing levels; the previous edition had early-session figures.",
+          "published_at": "2026-11-23T16:00:00-05:00",
           "tags": [
-            "Sensex",
-            "Nifty",
-            "Banks",
-            "Metals"
+            "Wall Street",
+            "Nasdaq",
+            "S&P 500"
           ],
           "sources": [
             {
-              "name": "IANS via Telangana Today",
-              "url": "https://telanganatoday.com/sensex-nifty-end-sharply-lower-53d48fff"
-            },
-            {
-              "name": "Upstox",
-              "url": "https://upstox.com/news/market-news/stocks/profit-booking-nifty-50-drops-450-points-sensex-falls-1-77-metals-and-banks-among-top-laggards/article-203883/"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html"
             },
             {
               "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/%5ENSEI"
+              "url": "https://finance.yahoo.com/quote/%5EGSPC"
             }
           ],
           "image": null,
           "impact": [
             {
-              "on": "indian_stocks",
+              "on": "us_stocks",
+              "detail": "Tech",
               "level": "high",
-              "dir": "down",
-              "why": "Biggest one-day drop in nine months, led by banks and metals.",
-              "detail": "Banks"
-            },
-            {
-              "on": "company",
-              "level": "high",
-              "dir": "down",
-              "why": "Shares fell about 8.5% after the APL Apollo stake deal.",
-              "detail": "Tata Steel"
-            },
-            {
-              "on": "indian_stocks",
-              "level": "medium",
               "dir": "up",
-              "why": "IT stocks gained about 2% against the trend.",
-              "detail": "IT"
+              "why": "Biggest one-day tech rally in 19 months as AI fears ease."
             }
           ]
         },
         {
-          "id": "markets-gold-rebound-3600-2026-11-23",
-          "headline": "Update: Gold extends rebound to about $3,669, up over 4% on the day",
-          "summary": "US gold futures rose to about $3,669 an ounce by 8:35 PM IST, up about 4.4% from Friday's settle of $3,515.4 and above midday's $3,619, as the dollar's rally paused earlier and yields eased. Gold fell about 9% last week. In India, MCX gold rose back above Rs 1.25 lakh per 10 grams, reports say.",
+          "id": "markets-gold-oil-steady-asia-2026-11-24",
+          "headline": "Gold holds near $3,664 and Brent slips to $86.3 in Asian trade",
+          "summary": "US gold futures were about 0.35% higher at around $3,664 an ounce early Tuesday, holding Monday's 4% rebound. Brent crude eased about 0.45% to near $86.3 a barrel, little moved by Iran's claim of tanker mine hits. Silver futures were up about 0.4% at about $43.3.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
-          "verified": true,
-          "note": "What changed: gold rose further in the afternoon and evening.",
-          "published_at": "2026-11-23T15:05:52+00:00",
+          "verified": false,
+          "note": "Single source: Yahoo Finance price data.",
+          "published_at": "2026-11-24T01:51:31+00:00",
           "tags": [
             "Gold",
+            "Oil",
             "Silver"
           ],
           "sources": [
             {
               "name": "Yahoo Finance",
               "url": "https://finance.yahoo.com/quote/GC=F"
-            },
-            {
-              "name": "Reuters via MarketScreener",
-              "url": "https://www.marketscreener.com/news/gold-climbs-more-than-2-as-dollar-rally-pauses-ce7851dad98ffe25"
             }
           ],
           "image": null,
           "impact": [
             {
               "on": "gold",
-              "level": "medium",
+              "level": "low",
               "dir": "up",
-              "why": "Bargain buying after last week's 9% fall."
-            }
-          ]
-        },
-        {
-          "id": "markets-crowdstrike-zscaler-2026-11-23",
-          "headline": "CrowdStrike agrees to buy Zscaler in a $43.9 billion all-stock deal",
-          "summary": "CrowdStrike will buy rival Zscaler in an all-stock deal valuing it at about $43.9 billion, giving 1.135 CrowdStrike shares for each Zscaler share. CrowdStrike says the deal takes it into network security. Zscaler shares rose about 14% before the open and CrowdStrike fell about 8%.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-23T00:00:00-05:00",
-          "tags": [
-            "Cybersecurity",
-            "M&A"
-          ],
-          "sources": [
-            {
-              "name": "CrowdStrike (SEC filing)",
-              "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000110465926130785/tm2630454d1_ex99-1.htm"
-            },
-            {
-              "name": "CNBC live",
-              "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "company",
-              "level": "medium",
-              "dir": "down",
-              "why": "Shares fell on the cost of the all-stock deal.",
-              "detail": "CrowdStrike"
-            },
-            {
-              "on": "company",
-              "level": "medium",
-              "dir": "up",
-              "why": "Buyout at a premium lifted the stock.",
-              "detail": "Zscaler"
+              "why": "Gold steadies after its rebound as the dollar eases slightly."
             }
           ]
         }
@@ -639,7 +540,49 @@
     {
       "id": "built",
       "title": "Built This Week",
-      "stories": []
+      "stories": [
+        {
+          "id": "built-bridgebio-welgemda-lgmd-2026-11-23",
+          "headline": "BridgeBio wins first-ever US approval for a limb-girdle muscular dystrophy drug",
+          "summary": "The FDA gave full approval to BridgeBio's Welgemda (ribitol), a daily oral pill, as the first treatment for limb-girdle muscular dystrophy type 2I/R9, days ahead of its November 27 deadline. In the Phase 3 FORTIFY trial it improved walking speed and lung function over 12 months against placebo. BridgeBio plans an immediate US launch; about 7,000 people in the US and Europe have the condition or related disorders.",
+          "why_it_matters": "It is the first approved therapy for any form of limb-girdle muscular dystrophy, which until now was only managed for symptoms.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-23T13:47:30-07:00",
+          "tags": [
+            "BridgeBio",
+            "FDA",
+            "Rare disease",
+            "Drug"
+          ],
+          "sources": [
+            {
+              "name": "BridgeBio (press release)",
+              "url": "https://www.biospace.com/press-releases/welgemda-bbp-418-ribitol-receives-traditional-approval-as-the-first-and-only-treatment-for-individuals-living-with-lgmd2i-r9"
+            },
+            {
+              "name": "Muscular Dystrophy Association",
+              "url": "https://www.mda.org/press-releases/first-ever-treatment-for-limb-girdle-muscular-dystrophy-type-2ir9-approved-by-fda-a-milestone-for-a"
+            },
+            {
+              "name": "NeurologyLive",
+              "url": "https://www.neurologylive.com/view/fda-approves-bbp-418-first-treatment-limb-girdle-muscular-dystrophy-type-2i-r9"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "detail": "BridgeBio",
+              "level": "medium",
+              "dir": "up",
+              "why": "First-in-class full approval with an immediate launch and a priority review voucher."
+            }
+          ]
+        }
+      ]
     }
   ],
   "weekend_special": null,
