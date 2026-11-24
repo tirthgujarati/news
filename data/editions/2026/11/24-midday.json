@@ -1,0 +1,670 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-24-midday",
+  "date": "2026-11-24",
+  "slot": "midday",
+  "title": "Tuesday Midday Edition",
+  "generated_at": "2026-11-24T13:45:06+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "92.92",
+      "change": "+0.32%",
+      "dir": "up",
+      "as_of": "2026-11-23T00:00:00+05:30",
+      "source": {
+        "name": "PTI via Daily Excelsior",
+        "url": "https://www.dailyexcelsior.com/rupee-snaps-5-day-rally-tumbles-30-paise-to-settle-at-92-92-against-us-dollar/"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "101.37",
+      "change": "+0.07%",
+      "dir": "up",
+      "as_of": "2026-11-24T04:46:46+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "104.30",
+      "change": "-0.02%",
+      "dir": "flat",
+      "as_of": "2026-11-24T08:04:06+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$705.34bn",
+      "change": "-1.97%",
+      "dir": "down",
+      "as_of": "2026-11-13T00:00:00+05:30",
+      "source": {
+        "name": "ANI (RBI data)",
+        "url": "https://aninews.in/news/business/india8217s-forex-reserves-fall-by-usd-142-billion-to-usd-70534-billion-in-week-ended-november-1320261120180825/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,349.65",
+      "change": "-1.75%",
+      "dir": "down",
+      "as_of": "2026-11-23T10:01:19+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "82,435.99",
+      "change": "-1.77%",
+      "dir": "down",
+      "as_of": "2026-11-23T10:02:26+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,237.17",
+      "change": "+4.73%",
+      "dir": "up",
+      "as_of": "2026-11-23T21:42:33+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "24,089.56",
+      "change": "+6.51%",
+      "dir": "up",
+      "as_of": "2026-11-23T22:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,623.90",
+      "change": "-0.75%",
+      "dir": "down",
+      "as_of": "2026-11-24T08:04:06+00:00",
+      "source": {
+        "name": "Yahoo Finance (COMEX futures)",
+        "url": "https://finance.yahoo.com/quote/GC=F"
+      }
+    },
+    {
+      "id": "brent",
+      "label": "Brent crude",
+      "value": "$88.96",
+      "change": "-0.46%",
+      "dir": "down",
+      "as_of": "2026-11-24T08:03:48+00:00",
+      "source": {
+        "name": "Yahoo Finance (ICE Jan 2027)",
+        "url": "https://finance.yahoo.com/quote/BZF27.NYM"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$60,177",
+      "change": "-1.76%",
+      "dir": "down",
+      "as_of": "2026-11-24T08:13:02+00:00",
+      "source": {
+        "name": "CoinGecko",
+        "url": "https://www.coingecko.com/en/coins/bitcoin"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.92%",
+      "change": "+0.12%",
+      "dir": "up",
+      "as_of": "2026-11-23T19:59:52+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-sp-global-growth-outlook-2026-11-23",
+          "headline": "Update: S&P Global expects RBI to raise rates by 0.25% in December",
+          "summary": "In its Asia-Pacific outlook, S&P Global says it expects the RBI to lift its policy rate by another 25 basis points in December, and that the chance of one more hike in early 2027 has gone up. New since Monday's report of its 7% growth forecast for this year and next; it still sees inflation averaging 5.3% this year with risks tilted higher.",
+          "why_it_matters": "A December hike would raise borrowing costs for home, car and business loans and weigh on rate-sensitive stocks.",
+          "importance": 4,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio, reporting S&P Global's Asia-Pacific Q1 2027 outlook.",
+          "published_at": "2026-11-24T11:25:00+05:30",
+          "tags": [
+            "RBI",
+            "Rates",
+            "S&P Global",
+            "Inflation"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/sp-global-projects-indias-economy-to-grow-7-in-fy27-and-fy28/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "rates",
+              "level": "medium",
+              "dir": "up",
+              "why": "An expected December RBI hike points to higher Indian bond yields and loan rates."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "Banks",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Higher rates lift lending margins but can slow loan demand."
+            }
+          ]
+        },
+        {
+          "id": "india-hpv-one-crore-doses-2026-11-24",
+          "headline": "India gives over 1 crore HPV vaccine doses to 14-year-old girls; WHO congratulates",
+          "summary": "India has given more than 10 million HPV vaccine doses to 14-year-old girls, about 87% of the yearly group eligible, to prevent cervical cancer. The WHO praised the effort, and PM Modi called it a big step in preventive healthcare.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-24T08:40:00+05:30",
+          "tags": [
+            "Health",
+            "HPV",
+            "WHO"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/who-congratulates-india-on-administering-over-ten-million-doses-of-hpv-vaccine/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-australia-tech-fines-2026-11-24",
+          "headline": "Australia to fine tech giants up to 5% of global revenue for online harm",
+          "summary": "Australia's government says a new 'digital duty of care' law, agreed with the Greens and expected to pass Parliament this week, will let it fine platforms such as Google and Meta up to 5% of worldwide revenue, up from a planned A$109 million cap. People could also sue platforms and switch off algorithm feeds. Tech firms back the aim but say officials get too much say over what counts as harmful.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera (with Reuters photo).",
+          "published_at": "2026-11-24T00:00:00+03:00",
+          "tags": [
+            "Australia",
+            "Big Tech",
+            "Regulation"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/24/australia-warns-tech-giants-of-multibillion-dollar-fines-for-online-harm"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b052ce9-1795501289.jpg?resize=1200%2C900",
+            "credit": "Mick Tsikas/AAP via Reuters",
+            "source_url": "https://www.aljazeera.com/news/2026/11/24/australia-warns-tech-giants-of-multibillion-dollar-fines-for-online-harm",
+            "alt": "Australian Communications Minister Anika Wells speaking at a news conference in Canberra"
+          },
+          "impact": []
+        },
+        {
+          "id": "world-iran-seven-conditions-2026-11-24",
+          "headline": "Iran's Ghalibaf says no talks with US until it meets Tehran's seven conditions",
+          "summary": "Iran's parliament speaker Mohammad Bagher Ghalibaf says Tehran will not hold talks or take any step until Washington carries out Iran's seven conditions, and warned of a 'decisive response' if its enemies miscalculate. Earlier reports list demands such as lifting the US naval blockade, unfreezing Iranian funds and ending sanctions. The US has not responded.",
+          "why_it_matters": "A harder Iranian line keeps the Hormuz blockade and the oil supply risk in place for longer.",
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Statement by Iran; repeats conditions first set out in September.",
+          "published_at": "2026-11-24T00:00:00+03:00",
+          "tags": [
+            "Iran",
+            "US",
+            "Hormuz"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "low",
+              "dir": "up",
+              "why": "No talks means the Hormuz blockade risk stays priced into oil."
+            }
+          ]
+        },
+        {
+          "id": "world-guterres-ai-oversight-2026-11-24",
+          "headline": "UN chief Guterres asks countries to agree AI safety rules within a year",
+          "summary": "Speaking at an AI safety summit in Barbados on Monday, UN Secretary-General Antonio Guterres urged member states to build a global AI risk framework within the next year, with shared safety measures, testing and independent oversight. He said the UN, world finance and trade bodies still reflect the world of 1945 and need reform.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera (with AFP).",
+          "published_at": "2026-11-24T00:00:00+03:00",
+          "tags": [
+            "UN",
+            "AI",
+            "Regulation"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/24/un-chief-calls-for-world-to-agree-on-ai-oversight-within-a-year"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "id": "currency-rupee-holiday-2026-11-24",
+          "headline": "Rupee market shut for Gurpurab; dealers see 92.50 to 93.55 range when it reopens",
+          "summary": "Indian currency trading is closed today. The rupee last ended Monday near 92.9 per dollar after corporate dollar buying snapped a five-day rally (PTI put the close at 92.92, Business Standard at 92.91). Dealers quoted by Business Standard expect a 92.50 to 93.55 range, driven by fund flows. The dollar index was flat near 104.3 in Asia and Europe, and the yen weakened to about 159.4 per dollar.",
+          "why_it_matters": "A firm dollar before Wednesday's US inflation data limits room for the rupee to gain when trade resumes.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "Close differs by 1 paisa between PTI (92.92) and Business Standard (92.91).",
+          "published_at": "2026-11-24T08:04:06+00:00",
+          "tags": [
+            "Rupee",
+            "Dollar",
+            "Holiday"
+          ],
+          "sources": [
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/amp/finance/news/rupee-snaps-five-day-winning-streak-amid-strong-corporate-dollar-demand-126112301109_1.html"
+            },
+            {
+              "name": "FXStreet",
+              "url": "https://www.fxstreet.com/news/indian-rupee-hits-a-pause-after-a-rally-indias-hsbc-pmi-expands-again-202611230559"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Range-bound: fund flows and the dollar decide the next move."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "id": "markets-asia-chip-rally-2026-11-24",
+          "headline": "Update: Taiwan closes 9% higher, Kospi 6.3%, Nikkei 3.9% on Nvidia rebound",
+          "summary": "At the close, Taiwan's index jumped 9.0% to 40,122, South Korea's Kospi rose 6.3% to 5,006 and Japan's Nikkei 225 gained 3.9% to 58,645, after Nvidia rehired Jensen Huang as CEO. TSMC, Foxconn and MediaTek ended near Taiwan's 10% daily limit. Hong Kong's Hang Seng bucked the trend, slipping 0.8%. US stock futures were up about 0.1%. Indian markets are shut today and reopen on Wednesday.",
+          "why_it_matters": "A strong Asian rebound after Monday's 1.75% Nifty fall sets up a firmer start for Indian tech and broader stocks on Wednesday.",
+          "importance": 5,
+          "lead": true,
+          "verified": true,
+          "note": "Index closes from exchange data on Yahoo Finance; stock moves from CNBC.",
+          "published_at": "2026-11-24T06:45:02+00:00",
+          "tags": [
+            "Asia",
+            "Nvidia",
+            "Chips",
+            "Taiwan",
+            "Kospi"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5ETWII"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26316465276155-1794989333.jpg?resize=1200%2C900",
+            "credit": "Mark Schiefelbein/AP Photo",
+            "source_url": "https://www.aljazeera.com/economy/2026/11/23/nvidia-board-reinstates-jensen-huang-as-ceo",
+            "alt": "Nvidia CEO Jensen Huang smiling and waving outdoors"
+          },
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "level": "medium",
+              "dir": "up",
+              "why": "A big Asian rally points to a firmer Nifty open on Wednesday."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "medium",
+              "dir": "up",
+              "why": "The tech-led rebound helps Indian IT and electronics names."
+            }
+          ]
+        },
+        {
+          "id": "markets-oil-gold-slip-2026-11-24",
+          "headline": "Brent holds near three-month low at about $89; gold slips 0.75%",
+          "summary": "Brent crude for January eased about 0.5% to near $89 a barrel and WTI to about $79.8, staying near their lowest since late August as Middle East supply recovers and inventories grow, despite Iran's mine claims. Gold futures fell about 0.75% to $3,624 an ounce and silver about 2% to $42.2. Correction: this morning's Brent figure of $86.3 was a later-dated contract.",
+          "why_it_matters": "Cheaper oil eases India's import bill and supports the rupee.",
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-24T08:04:06+00:00",
+          "tags": [
+            "Oil",
+            "Gold",
+            "Silver",
+            "Brent"
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/BZF27.NYM"
+            },
+            {
+              "name": "Invezz",
+              "url": "https://invezz.com/news/2026/11/24/oil-price-today-brent-below-89-supply-glut-hormuz/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "down",
+              "why": "Recovering supply and rising stocks keep Brent near a three-month low."
+            },
+            {
+              "on": "rupee",
+              "level": "low",
+              "dir": "up",
+              "why": "Lower oil cuts India's dollar demand for imports."
+            },
+            {
+              "on": "gold",
+              "level": "low",
+              "dir": "down",
+              "why": "A firm dollar and Fed hike bets weigh on gold."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "id": "built-deepmind-quantum-algorithms-2026-11-23",
+          "headline": "Google DeepMind AI agents make quantum algorithms up to 11.8x cheaper",
+          "summary": "Google DeepMind and Google Quantum AI say teams of Gemini 4 agents improved known quantum algorithms and proved each result correct in the Lean theorem prover. A fusion simulation became 11.8 times cheaper to run and needed 4,338 instead of 5,650 error-corrected qubits; a drug-metabolism enzyme simulation improved 2.5 times. The code and proofs are open-sourced.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Google DeepMind blog.",
+          "published_at": "2026-11-23T00:00:00+00:00",
+          "tags": [
+            "Quantum",
+            "AI",
+            "Google"
+          ],
+          "sources": [
+            {
+              "name": "Google DeepMind",
+              "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "built-openai-cisco-shirudo-2026-11-23",
+          "headline": "OpenAI and Cisco release Shirudo, open-source tool to shield Linux servers before patches",
+          "summary": "OpenAI and Cisco launched Shirudo, an open-source runtime that uses Linux eBPF to put temporary 'shields' on running systems, blocking the code paths an exploit needs without a restart while patches are prepared. Security teams approve each shield. In a test, a Codex-made shield stopped a Java4Shell attack on a live Elasticsearch service.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: OpenAI.",
+          "published_at": "2026-11-23T00:00:00+00:00",
+          "tags": [
+            "Cybersecurity",
+            "OpenAI",
+            "Cisco",
+            "Open source"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/introducing-shirudo/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "EUR",
+      "title": "French Flash Manufacturing PMI",
+      "date": "2026-11-23T03:15:00-05:00",
+      "impact": "Medium",
+      "actual": "47.9",
+      "vs_forecast": "worse",
+      "why": "French factories shrank faster than expected, a weight on the euro.",
+      "source": {
+        "name": "FXStreet",
+        "url": "https://www.fxstreet.com/analysis/eu-flash-pmis-mixed-202611231050"
+      }
+    },
+    {
+      "country": "EUR",
+      "title": "French Flash Services PMI",
+      "date": "2026-11-23T03:15:00-05:00",
+      "impact": "Medium",
+      "actual": "46.6",
+      "vs_forecast": "worse",
+      "why": "French services stayed in contraction and missed forecasts, raising recession risk.",
+      "source": {
+        "name": "investingLive",
+        "url": "https://investinglive.com/news/france-november-flash-services-pmi-46-6-vs-47-5-expected/"
+      }
+    },
+    {
+      "country": "EUR",
+      "title": "German Flash Manufacturing PMI",
+      "date": "2026-11-23T03:30:00-05:00",
+      "impact": "Medium",
+      "actual": "55.0",
+      "vs_forecast": "better",
+      "why": "German factories grew at their fastest since 2022, a support for the euro.",
+      "source": {
+        "name": "FXStreet",
+        "url": "https://www.fxstreet.com/news/germanys-flash-manufacturing-pmi-unexpectedly-expands-at-a-faster-pace-to-550-in-november-202611230831"
+      }
+    },
+    {
+      "country": "GBP",
+      "title": "Flash Manufacturing PMI",
+      "date": "2026-11-23T04:30:00-05:00",
+      "impact": "Medium",
+      "actual": "52.7",
+      "vs_forecast": "worse",
+      "why": "UK factory index edged down and slightly missed forecasts.",
+      "source": {
+        "name": "Newsquawk",
+        "url": "https://www.newsquawk.com/headlines/uk-sp-global-manufacturing-pmi-flash-nov-527-vs-exp-528-prev-528"
+      }
+    },
+    {
+      "country": "GBP",
+      "title": "Flash Services PMI",
+      "date": "2026-11-23T04:30:00-05:00",
+      "impact": "Medium",
+      "actual": "52.0",
+      "vs_forecast": "worse",
+      "why": "UK services slowed to a five-month low; the pound slipped from its highs.",
+      "source": {
+        "name": "FXStreet",
+        "url": "https://www.fxstreet.com/news/united-kingdom-flash-sp-global-services-pmi-unexpectedly-drops-to-52-in-november-202611230933"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "Flash Manufacturing PMI",
+      "date": "2026-11-23T09:45:00-05:00",
+      "impact": "Medium",
+      "actual": "54.5",
+      "vs_forecast": "in_line",
+      "why": "US factory activity matched forecasts, so little effect on the dollar.",
+      "source": {
+        "name": "Newsquawk",
+        "url": "https://www.newsquawk.com/headlines/us-sp-global-manufacturing-pmi-flash-nov-545-vs-exp-545-prev-549"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "Flash Services PMI",
+      "date": "2026-11-23T09:45:00-05:00",
+      "impact": "Medium",
+      "actual": "54.7",
+      "vs_forecast": "worse",
+      "why": "US services growth slowed more than expected, a slight drag on the dollar.",
+      "source": {
+        "name": "investingLive",
+        "url": "https://investinglive.com/news/s-p-global-us-services-november-flash-pmi-54-7-vs-55-7-expected/"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-24",
+      "events": [
+        {
+          "text": "NSE and BSE closed for Guru Nanak Jayanti; MCX opens for evening session",
+          "section": "markets"
+        },
+        {
+          "text": "US Conference Board consumer confidence (November)",
+          "section": "markets"
+        },
+        {
+          "text": "Dell and Workday results after US close; Best Buy before the bell",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "events": [
+        {
+          "text": "Australia October CPI",
+          "section": "currency"
+        },
+        {
+          "text": "US core PCE inflation, second estimate of Q3 GDP and jobless claims",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "events": [
+        {
+          "text": "US stock markets closed for Thanksgiving",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "events": [
+        {
+          "text": "Tripura votes in 16 urban local bodies, including Agartala",
+          "section": "india"
+        },
+        {
+          "text": "Mahanadi Coalfields shares due to list on BSE and NSE",
+          "section": "markets"
+        },
+        {
+          "text": "Tokyo core CPI (November); US markets close early",
+          "section": "currency"
+        }
+      ]
+    }
+  ]
+}
