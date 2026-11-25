@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-25-midday",
+  "edition_id": "2026-11-25-evening",
   "date": "2026-11-25",
-  "slot": "midday",
-  "title": "Wednesday Midday Edition",
-  "generated_at": "2026-11-25T13:50:00+05:30",
+  "slot": "evening",
+  "title": "Wednesday Evening Edition",
+  "generated_at": "2026-11-25T21:00:00+05:30",
   "snapshot": [
     {
       "id": "usdinr",
       "label": "USD/INR",
-      "value": "92.26",
-      "change": "-0.69%",
+      "value": "92.22",
+      "change": "-0.75%",
       "dir": "down",
-      "as_of": "2026-11-25T08:11:10+00:00",
+      "as_of": "2026-11-25T14:44:08+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/INR=X"
@@ -21,10 +21,10 @@
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "100.81",
-      "change": "-1.06%",
+      "value": "100.92",
+      "change": "-0.34%",
       "dir": "down",
-      "as_of": "2026-11-25T08:00:31+00:00",
+      "as_of": "2026-11-25T15:06:44+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURINR=X"
@@ -33,10 +33,10 @@
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "104.05",
-      "change": "+0.23%",
+      "value": "104.00",
+      "change": "+0.18%",
       "dir": "up",
-      "as_of": "2026-11-25T08:02:24+00:00",
+      "as_of": "2026-11-25T15:02:25+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
@@ -57,10 +57,10 @@
     {
       "id": "nifty",
       "label": "Nifty 50",
-      "value": "25,709.00",
-      "change": "+1.42%",
+      "value": "25,819.25",
+      "change": "+1.85%",
       "dir": "up",
-      "as_of": "2026-11-25T13:42:10+05:30",
+      "as_of": "2026-11-25T15:31:29+05:30",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5ENSEI"
@@ -69,10 +69,10 @@
     {
       "id": "sensex",
       "label": "Sensex",
-      "value": "83,579.82",
-      "change": "+1.39%",
+      "value": "83,938.28",
+      "change": "+1.82%",
       "dir": "up",
-      "as_of": "2026-11-25T13:26:05+05:30",
+      "as_of": "2026-11-25T15:32:29+05:30",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EBSESN"
@@ -81,10 +81,10 @@
     {
       "id": "spx",
       "label": "S&P 500",
-      "value": "7,201.09",
-      "change": "-0.50%",
+      "value": "7,040.64",
+      "change": "-2.23%",
       "dir": "down",
-      "as_of": "2026-11-24T21:54:10+00:00",
+      "as_of": "2026-11-25T15:12:27+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EGSPC"
@@ -93,10 +93,10 @@
     {
       "id": "nasdaq",
       "label": "Nasdaq",
-      "value": "23,733.54",
-      "change": "-1.48%",
+      "value": "22,939.61",
+      "change": "-3.34%",
       "dir": "down",
-      "as_of": "2026-11-24T22:15:59+00:00",
+      "as_of": "2026-11-25T15:12:28+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5EIXIC"
@@ -105,10 +105,10 @@
     {
       "id": "gold_usd",
       "label": "Gold (USD/oz)",
-      "value": "$3,523.50",
-      "change": "-1.08%",
+      "value": "$3,495.40",
+      "change": "-1.87%",
       "dir": "down",
-      "as_of": "2026-11-25T08:02:03+00:00",
+      "as_of": "2026-11-25T14:58:53+00:00",
       "source": {
         "name": "Yahoo Finance (COMEX futures)",
         "url": "https://finance.yahoo.com/quote/GC=F"
@@ -117,46 +117,34 @@
     {
       "id": "gold_mcx",
       "label": "Gold MCX",
-      "value": "₹1,20,346",
-      "change": "-1.62%",
+      "value": "₹1,20,813",
+      "change": "-1.24%",
       "dir": "down",
-      "as_of": "2026-11-25T12:45:00+05:30",
+      "as_of": "2026-11-25T00:00:00+05:30",
       "source": {
-        "name": "Upstox (MCX Dec futures)",
-        "url": "https://upstox.com/news/market-news/commodities/gold-price-tracker-nov-25-mcx-gold-prices-mcx-silver-rates-comex-gold-comex-silver-us-pce-inflation-data-in-focus-check-silver-prices-today/liveblog-203915/"
-      }
-    },
-    {
-      "id": "brent",
-      "label": "Brent crude",
-      "value": "$89.54",
-      "change": "-2.04%",
-      "dir": "down",
-      "as_of": "2026-11-25T08:00:57+00:00",
-      "source": {
-        "name": "Yahoo Finance (ICE Jan 2027)",
-        "url": "https://finance.yahoo.com/quote/BZF27.NYM"
+        "name": "Kotak Neo",
+        "url": "https://www.kotakneo.com/news/market-news/sensex-nifty-recover-on-fii-buying-and-lower-crude-prices/"
       }
     },
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$58,742",
-      "change": "-2.40%",
+      "value": "$57,805",
+      "change": "-3.25%",
       "dir": "down",
-      "as_of": "2026-11-25T08:09:20+00:00",
+      "as_of": "2026-11-25T15:13:02+00:00",
       "source": {
-        "name": "CoinGecko",
-        "url": "https://www.coingecko.com/en/coins/bitcoin"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD"
       }
     },
     {
       "id": "us10y",
       "label": "US 10Y yield",
-      "value": "4.90%",
-      "change": "-0.29%",
+      "value": "4.82%",
+      "change": "-1.67%",
       "dir": "down",
-      "as_of": "2026-11-24T19:59:53+00:00",
+      "as_of": "2026-11-25T14:53:53+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5ETNX"
@@ -169,88 +157,119 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-mea-riyadh-attack-indians-hurt-2026-11-25",
-          "headline": "India condemns Houthi attack on Riyadh tower; two Indians among 11 injured",
-          "summary": "India's foreign ministry condemned Tuesday's attack on a tower in Riyadh's financial district and the wider strikes on Saudi civilian and energy sites. Saudi Civil Defense says 11 people were hurt, including two Indian residents. India's embassy in Riyadh is helping the injured and their families.",
-          "why_it_matters": "Saudi Arabia is home to a large Indian workforce, so attacks on its cities put Indian workers at risk.",
+          "id": "india-us-section301-tariffs-india-2026-11-25",
+          "headline": "US proposes new tariffs on India, China, EU and 11 others over factory overcapacity",
+          "summary": "The US Trade Representative proposed new Section 301 tariffs on 14 economies, including India, China, the EU, Japan and Vietnam, after an eight-month probe into excess factory capacity. China faces a proposed 20% extra duty; no rate has been given for India, which has no finished trade deal with the US. Hearings and public comments come first, so the duties are unlikely before January 2027.",
+          "why_it_matters": "Indian exporters to the US could face new duties just as foreign money is flowing back into Indian shares.",
+          "importance": 5,
+          "lead": true,
+          "verified": true,
+          "note": "No rate for India yet; exact rates are due in a Federal Register notice.",
+          "published_at": "2026-11-25T13:42:49+00:00",
+          "tags": [
+            "Tariffs",
+            "USTR",
+            "Trade",
+            "India-US"
+          ],
+          "sources": [
+            {
+              "name": "RTÉ News",
+              "url": "https://www.rte.ie/news/us/2026/1125/1600630-us-tariffs/"
+            },
+            {
+              "name": "The Washington Times",
+              "url": "https://www.washingtontimes.com/news/2026/nov/25/us-tariffs-target-china-eu-12-trading-partners-excess-factory/"
+            },
+            {
+              "name": "ANI",
+              "url": "https://aninews.in/news/business/us-proposes-fresh-tariffs-on-india-china-12-other-trading-partners-over-excess-industrial-capacity20261125192012"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+            }
+          ],
+          "image": {
+            "url": "https://www.rte.ie/images/00223e3c-1600.jpg",
+            "credit": "Getty Images",
+            "source_url": "https://www.rte.ie/news/us/2026/1125/1600630-us-tariffs/",
+            "alt": "Container ship and red cranes at a busy container port"
+          },
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "level": "medium",
+              "dir": "down",
+              "why": "Exporters to the US may face new duties from early 2027."
+            },
+            {
+              "on": "us_stocks",
+              "level": "medium",
+              "dir": "down",
+              "why": "New tariffs added to Wednesday's sell-off on Wall Street."
+            },
+            {
+              "on": "currency",
+              "detail": "Yuan",
+              "level": "low",
+              "dir": "down",
+              "why": "China faces the steepest proposed rate, a weight on the yuan."
+            }
+          ]
+        },
+        {
+          "id": "india-cabinet-silchar-airport-kamarajar-2026-11-25",
+          "headline": "Cabinet clears ₹2,014 crore Silchar airport and ₹4,288 crore Kamarajar port terminal",
+          "summary": "The Cabinet Committee on Economic Affairs approved a new greenfield airport at Doloo near Silchar in Assam, to be fully funded by the Airports Authority of India. It will replace a civil enclave inside a defence airfield and handle about 1 million passengers a year. A second container terminal at Kamarajar Port in Tamil Nadu was also cleared.",
+          "why_it_matters": null,
           "importance": 3,
           "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-25T12:26:00+05:30",
+          "published_at": "2026-11-25T20:13:00+05:30",
           "tags": [
-            "MEA",
-            "Saudi Arabia",
-            "Houthis",
-            "Indians abroad"
+            "Cabinet",
+            "Airports",
+            "Ports",
+            "Assam"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/india-condemns-houthi-attack-on-riyadh-financial-district-tower/"
+              "url": "https://newsonair.gov.in/pm-modi-hails-approval-for-greenfield-airport-in-silchar/"
             },
             {
-              "name": "Anadolu Agency (Saudi Civil Defense)",
-              "url": "https://www.aa.com.tr/en/middle-east/11-injured-in-houthi-attack-on-riyadh-s-financial-district-tower-saudi-civil-defense/4136093"
+              "name": "The Sentinel Assam",
+              "url": "https://sentinelassam.com/breakingnews/doloo-airport-project-centre-approves-rs-2014-crore-airport-in-silchar"
+            },
+            {
+              "name": "Swarajya",
+              "url": "https://swarajyamag.com/news-brief/union-cabinet-clears-2014-crore-greenfield-airport-project-at-doloo-in-silchars-barak-valley"
             }
           ],
           "image": null,
           "impact": []
         },
         {
-          "id": "india-rbi-overnight-repo-tight-cash-2026-11-25",
-          "headline": "RBI adds ₹1 lakh crore via two overnight repos as banks run short of cash",
-          "summary": "The RBI lent banks ₹50,007 crore twice on Wednesday in one-day repo auctions. Demand in the first auction was ₹1.62 lakh crore, more than three times the amount offered, and rates cleared at 5.66% and 5.68%, above the 5.50% policy repo rate.",
-          "why_it_matters": "Bids far above the offer and rates above the repo rate show tight bank cash, which can keep short-term borrowing costs high.",
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: RBI.",
-          "published_at": "2026-11-25T00:00:00+05:30",
-          "tags": [
-            "RBI",
-            "Liquidity",
-            "Money market"
-          ],
-          "sources": [
-            {
-              "name": "RBI",
-              "url": "https://rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64035"
-            },
-            {
-              "name": "RBI",
-              "url": "https://rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64038"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "rates",
-              "level": "low",
-              "dir": "up",
-              "why": "Tight cash pushes overnight rates above the RBI's repo rate."
-            }
-          ]
-        },
-        {
-          "id": "india-sc-imam-khalid-interim-bail-2026-11-25",
-          "headline": "Supreme Court declines interim bail for Umar Khalid, Sharjeel Imam for now",
-          "summary": "A bench led by Chief Justice Surya Kant refused, for now, interim bail to activists Umar Khalid and Sharjeel Imam in the 2020 Delhi riots conspiracy case under UAPA. It asked Delhi Police to respond and sent the matter to be heard by a three-judge bench.",
+          "id": "india-rbi-bulletin-us-policy-2026-11-25",
+          "headline": "RBI study says US policy moves weaken the rupee and push up Indian bond yields",
+          "summary": "An article in the RBI's November Bulletin finds US monetary policy announcements tend to weaken the rupee, lift 10-year government bond yields and cut Indian share returns. Another article says imported items are 8.5% of the new CPI basket but made up about 18% of October's inflation.",
           "why_it_matters": null,
           "importance": 2,
           "lead": false,
           "verified": false,
           "note": "Single source: All India Radio.",
-          "published_at": "2026-11-25T13:35:00+05:30",
+          "published_at": "2026-11-25T20:28:00+05:30",
           "tags": [
-            "Supreme Court",
-            "UAPA",
-            "Delhi riots"
+            "RBI",
+            "Inflation",
+            "Fed"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/sc-refuses-interim-bail-to-sharjeel-imam-umar-khalid-in-2020-northeast-delhi-riots-conspiracy-case/"
+              "url": "https://newsonair.gov.in/us-monetary-policy-developments-impact-indian-financial-markets-says-rbi/"
             }
           ],
           "image": null,
@@ -263,92 +282,79 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-coalition-bombs-hodeidah-2026-11-25",
-          "headline": "Saudi-led coalition says it bombed Yemen's Hodeidah port, despite Houthi threat",
-          "summary": "The Saudi-led coalition says it struck Houthi \"operational capabilities\" at the Red Sea port of Hodeidah early on Wednesday, plus sites in two northern provinces near the Saudi border. Before the strikes the Houthis had said they would hit Jeddah and other Saudi Red Sea ports if Hodeidah was attacked. Change since last edition: the strike the coalition warned of has now happened.",
-          "why_it_matters": "A Houthi reprisal on Saudi Red Sea ports would widen the Gulf conflict and add to oil and shipping risks.",
+          "id": "world-saudi-drones-ras-tanura-2026-11-25",
+          "headline": "Saudi-led coalition says it downed Houthi drones over Ras Tanura oil hub",
+          "summary": "Coalition spokesman Turki Al-Maliki says four drones were destroyed over Ras Tanura in eastern Saudi Arabia on Wednesday morning and three more in the Eastern Province, with no casualties found so far. It comes a day after the coalition struck Yemen's Hodeidah port. Change since last edition: the Houthis have now struck back toward Saudi oil sites.",
+          "why_it_matters": "Ras Tanura is one of Saudi Arabia's biggest oil export terminals, so attacks there raise supply fears.",
           "importance": 4,
           "lead": false,
           "verified": false,
           "note": "Claim by the Saudi-led coalition; not independently confirmed.",
           "published_at": "2026-11-25T00:00:00+00:00",
           "tags": [
-            "Yemen",
             "Saudi Arabia",
             "Houthis",
-            "Red Sea"
+            "Oil",
+            "Yemen"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order"
-            }
-          ],
-          "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/2024-08-01T035513Z_63533505_RC2969AGYGNT_RTRMADP_3_ISRAEL-PALESTINIANS-YEMEN-PORT-1-1795586022.jpg?resize=770%2C513&quality=80",
-            "credit": "Khaled Abdullah/Reuters",
-            "source_url": "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order",
-            "alt": "Cargo ship and cranes at Hodeidah port, Yemen (file photo)"
-          },
-          "impact": [
-            {
-              "on": "oil",
-              "level": "low",
-              "dir": "up",
-              "why": "Escalation near Saudi Red Sea ports adds to Gulf supply risk."
-            }
-          ]
-        },
-        {
-          "id": "world-irgc-two-more-tankers-mines-2026-11-25",
-          "headline": "Iran's IRGC says two more tankers hit mines and caught fire in Hormuz",
-          "summary": "Iran's Revolutionary Guards navy says two oil tankers struck mines early on Wednesday off the southern and eastern shores of the Strait of Hormuz, after trying an \"unauthorized route\". It named no ships and gave no crew details. This follows several tanker hits reported on Monday and Tuesday.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Claim by Iran's IRGC; not independently confirmed.",
-          "published_at": "2026-11-25T00:00:00+03:00",
-          "tags": [
-            "Iran",
-            "Hormuz",
-            "Tankers"
-          ],
-          "sources": [
-            {
-              "name": "Anadolu Agency (IRIB)",
-              "url": "https://www.aa.com.tr/en/middle-east/iran-says-2-rogue-oil-tankers-hit-naval-mines-catch-fire-in-strait-of-hormuz/4136585"
+              "url": "https://www.aljazeera.com/news/2026/11/25/saudi-led-coalition-intercepts-houthi-attacks-after-hodeidah-strike"
             }
           ],
           "image": null,
           "impact": [
             {
               "on": "oil",
-              "level": "low",
+              "level": "medium",
               "dir": "up",
-              "why": "More tanker attacks keep a risk premium on crude, though prices fell today."
+              "why": "Drone attacks near a major Saudi oil terminal add to Gulf supply risk."
             }
           ]
         },
         {
-          "id": "world-bangladesh-garment-wage-rise-2026-11-25",
-          "headline": "Bangladesh raises garment workers' minimum wage 36% after weeks of protests",
-          "summary": "Bangladesh's garment wage board raised the minimum monthly wage to 17,500 taka ($136) from 12,500 taka, effective December. Workers had demanded 30,000 taka, and it is unclear if protesters will accept the offer.",
+          "id": "world-russia-strikes-ukraine-power-2026-11-25",
+          "headline": "Russian strikes kill five in Ukraine and cut power in five regions",
+          "summary": "Ukrainian officials say Russian attacks killed at least five people and knocked out power in Dnipropetrovsk, Donetsk, Zaporizhia, Odesa and Kharkiv. The Russian-held Zaporizhzhia nuclear plant lost outside power and switched to diesel generators, its 17th such loss this year. Russia says a Ukrainian drone killed one person in Samara, a refining hub.",
           "why_it_matters": null,
-          "importance": 2,
+          "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: Al Jazeera.",
+          "note": "Single source: Al Jazeera (with Reuters).",
           "published_at": "2026-11-25T00:00:00+00:00",
           "tags": [
-            "Bangladesh",
-            "Garments",
-            "Wages"
+            "Ukraine",
+            "Russia",
+            "Energy"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/25/bangladesh-garment-workers-win-36-pay-rise-after-weeks-of-protest"
+              "url": "https://www.aljazeera.com/news/2026/11/25/russian-strikes-on-ukraine-cause-power-outages-in-five-regions"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-sudan-rsf-drones-blue-nile-2026-11-25",
+          "headline": "Rights group says RSF drone attacks killed 19 in Sudan's Blue Nile state",
+          "summary": "The Emergency Lawyers group says drone strikes on Damazin and Roseires killed at least 19 people, including six women, and hit power facilities and a large dam. A Sudanese army source blamed the Rapid Support Forces.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera; toll from a rights group.",
+          "published_at": "2026-11-25T00:00:00+00:00",
+          "tags": [
+            "Sudan",
+            "RSF"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/25/overnight-rsf-drone-attacks-kill-19-in-sudan"
             }
           ],
           "image": null,
@@ -361,36 +367,32 @@
       "title": "Currency Desk",
       "stories": [
         {
-          "id": "currency-rupee-seven-month-high-2026-11-25",
-          "headline": "Rupee hits seven-month high near 92.3 per dollar on heavy foreign buying",
-          "summary": "The rupee opened at 92.65 per dollar, up from Monday's 92.85, and strengthened to about 92.26 by 1:40 pm. Foreign investors bought a net ₹5,673 crore of Indian shares on Monday, and cheaper oil helped too. The dollar index was firmer at about 104 ahead of US inflation and GDP data at 7 pm IST.",
-          "why_it_matters": "A stronger rupee lowers India's import bill for oil and gold, but it trims export earnings for IT companies.",
+          "id": "currency-rupee-eight-month-high-2026-11-25",
+          "headline": "Rupee jumps 69 paise to 92.16 per dollar, its strongest close in eight months",
+          "summary": "The rupee closed at 92.16 (provisional), up from 92.85, after touching about 92.19 late in the day. Record foreign buying of Indian shares, over $14 billion in November so far, and cheaper oil drove the gain, wiping out all of the rupee's losses this financial year. Change since last edition: closing level.",
+          "why_it_matters": "A stronger rupee cuts India's oil and gold import bill but trims IT exporters' earnings.",
           "importance": 4,
           "lead": false,
           "verified": true,
-          "note": "Previous close per PTI is 92.85; Yahoo shows 92.90.",
-          "published_at": "2026-11-25T11:18:00+05:30",
+          "note": "PTI gives a provisional close of 92.16; NationPress reports 92.23.",
+          "published_at": "2026-11-25T00:00:00+05:30",
           "tags": [
             "Rupee",
             "Dollar",
-            "FII"
+            "FPI"
           ],
           "sources": [
             {
-              "name": "Business Standard (PTI)",
-              "url": "https://www.business-standard.com/finance/news/rupee-jumps-23-paise-to-92-62-against-us-dollar-during-early-trade-126112500154_1.html"
+              "name": "Deccan Herald (PTI)",
+              "url": "https://www.deccanherald.com/business/markets/rupee-soars-69-paise-to-settle-at-its-eight-month-high-of-9216-against-us-dollar-4230736"
             },
             {
               "name": "The Pioneer (PTI)",
-              "url": "https://dailypioneer.com/business/rupee-jumps-23-paise-to-9262-against-us-dollar-in-early-trade"
+              "url": "https://dailypioneer.com/business/rupee-rises-69-paise-eight-month-high-9216-us-dollar"
             },
             {
-              "name": "Outlook Money",
-              "url": "https://www.outlookmoney.com/invest/sensex-nifty-50-stock-market-rally"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/INR=X"
+              "name": "NationPress",
+              "url": "https://www.nationpress.com/business/rupee-hits-fy-high-of-9218-on-fpi-surge"
             }
           ],
           "image": null,
@@ -399,14 +401,61 @@
               "on": "rupee",
               "level": "medium",
               "dir": "up",
-              "why": "Strong foreign inflows into Indian shares are pulling the rupee higher."
+              "why": "Record foreign inflows and lower oil support the rupee."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "low",
+              "dir": "down",
+              "why": "A stronger rupee trims IT exporters' rupee earnings."
+            }
+          ]
+        },
+        {
+          "id": "currency-us-pce-gdp-fed-hike-2026-11-25",
+          "headline": "US inflation rises to 3.8% and growth is revised up to 4.3%; Fed hike bets near 98%",
+          "summary": "US PCE prices rose 0.3% in October and 3.8% from a year ago, the highest since 2023; core inflation was 3.3%. Third-quarter growth was revised up to a 4.3% annual rate from 3.4%. Traders now see about a 97-98% chance the Fed raises rates in December, and the dollar index held near 104.",
+          "why_it_matters": "Higher US rates keep the dollar firm and can pull money away from emerging markets like India.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-25T08:30:00-05:00",
+          "tags": [
+            "Fed",
+            "PCE",
+            "GDP",
+            "Dollar"
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+            },
+            {
+              "name": "Fox Business",
+              "url": "https://www.foxbusiness.com/markets/stocks-11-25-2026"
+            },
+            {
+              "name": "BEA",
+              "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "rates",
+              "level": "high",
+              "dir": "up",
+              "why": "Hot inflation and strong growth make a December Fed hike near-certain."
             },
             {
               "on": "currency",
               "detail": "Dollar",
-              "level": "low",
+              "level": "medium",
               "dir": "up",
-              "why": "The dollar is firm against majors before US inflation data."
+              "why": "A likely Fed hike supports the dollar."
             }
           ]
         }
@@ -417,94 +466,152 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "id": "markets-sensex-nifty-rebound-2026-11-25",
-          "headline": "Sensex, Nifty rebound over 1.4% as money moves out of Asian chip stocks",
-          "summary": "The Sensex jumped as much as 2,062 points to 84,498 and the Nifty touched 25,952 as markets reopened after Tuesday's holiday, before giving back part of the gain. At about 1:30 pm the Sensex was up 1.4% near 83,580 and the Nifty 1.4% near 25,709. HDFC Bank and ICICI Bank rose over 3%, and IT stocks such as TCS and Infosys gained, while Tata Steel and Titan slipped.",
-          "why_it_matters": "Analysts say foreign money is shifting from costly Asian AI stocks to India, which supports Indian shares and the rupee.",
+          "id": "markets-wall-street-opens-lower-2026-11-25",
+          "headline": "Wall Street tumbles at the open: Nasdaq down 3.3%, S&P 2.2% as Nvidia slides 7%",
+          "summary": "US stocks fell sharply in early trade as the AI chip sell-off deepened, inflation came in hot and new tariffs were proposed. By about 10:10 am New York time the Nasdaq was down 3.3% near 22,940 and the S&P 500 2.2% near 7,041. Nvidia fell about 7%, Anthropic traded below its $83 IPO price, and the VIX fear gauge jumped about 27%.",
+          "why_it_matters": "A deep US tech sell-off could weigh on Indian IT stocks and global risk appetite when markets reopen.",
           "importance": 5,
-          "lead": true,
+          "lead": false,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-25T12:59:00+05:30",
+          "published_at": "2026-11-25T09:38:00-05:00",
+          "tags": [
+            "Wall Street",
+            "Nasdaq",
+            "Nvidia",
+            "AI"
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+            },
+            {
+              "name": "Fox Business",
+              "url": "https://www.foxbusiness.com/markets/stocks-11-25-2026"
+            }
+          ],
+          "image": {
+            "url": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2026/11/0/0/wall-street-ai-stock-market-crash-2026.jpg?ve=1&tl=1",
+            "credit": "Bloomberg",
+            "source_url": "https://www.foxbusiness.com/markets/stocks-11-25-2026",
+            "alt": "A trader holds his head in front of screens showing a falling chart"
+          },
+          "impact": [
+            {
+              "on": "us_stocks",
+              "level": "high",
+              "dir": "down",
+              "why": "Chip and AI stocks lead a broad sell-off."
+            },
+            {
+              "on": "us_stocks",
+              "detail": "Tech",
+              "level": "high",
+              "dir": "down",
+              "why": "Nvidia, AMD and Micron fell 6-8% early."
+            },
+            {
+              "on": "indian_stocks",
+              "level": "medium",
+              "dir": "down",
+              "why": "US weakness may cool Thursday's start after today's rally."
+            },
+            {
+              "on": "crypto",
+              "level": "medium",
+              "dir": "down",
+              "why": "Bitcoin fell over 3% with risky assets."
+            }
+          ]
+        },
+        {
+          "id": "markets-sensex-nifty-rebound-2026-11-25",
+          "headline": "Update: Sensex closes 1,502 points up at 83,938; Nifty ends at 25,819",
+          "summary": "The Sensex rose 1.82% and the Nifty 469.6 points, or 1.85%, as foreign buying in big stocks and cheaper crude lifted markets. Private banks led, up 2.2%, and IT gained 1.1%, while metals fell 2% and media 4.4%. Change since last edition: closing figures; gains widened into the close.",
+          "why_it_matters": "Strong foreign buying is lifting Indian shares even as Asian chip stocks slump.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-25T16:20:28+05:30",
           "tags": [
             "Sensex",
             "Nifty",
             "Banks",
-            "IT",
             "FII"
           ],
           "sources": [
             {
-              "name": "Business Standard",
-              "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
-            },
-            {
               "name": "Business Today",
-              "url": "https://www.businesstoday.in/markets/stocks/story/why-market-is-rising-today-sensex-gains-over-1300-pts-nifty-crosses-25700-569286-2026-11-25"
+              "url": "https://www.businesstoday.in/markets/stocks/story/bt-closing-bell-sensex-nifty-reverse-previous-session-losses-heres-what-cheered-investors-569444-2026-11-25"
             },
             {
-              "name": "Outlook Money",
-              "url": "https://www.outlookmoney.com/invest/sensex-nifty-50-stock-market-rally"
+              "name": "Kotak Neo",
+              "url": "https://www.kotakneo.com/news/market-news/sensex-nifty-recover-on-fii-buying-and-lower-crude-prices/"
             }
           ],
           "image": null,
           "impact": [
             {
               "on": "indian_stocks",
-              "level": "high",
+              "level": "medium",
               "dir": "up",
-              "why": "Foreign buying and lower oil lift Indian shares after Monday's 1.8% fall."
+              "why": "Foreign buying pushed both indices up about 1.8%."
             },
             {
               "on": "indian_stocks",
               "detail": "Banks",
               "level": "medium",
               "dir": "up",
-              "why": "HDFC Bank and ICICI Bank rose over 3%, leading the gains."
+              "why": "Private banks led with a 2.2% gain."
             },
             {
               "on": "indian_stocks",
-              "detail": "IT",
-              "level": "medium",
-              "dir": "up",
-              "why": "IT stocks gained up to 4% as investors saw them as shielded from the chip sell-off."
+              "detail": "Metals",
+              "level": "low",
+              "dir": "down",
+              "why": "Metal stocks fell about 2%."
             }
           ]
         },
         {
-          "id": "markets-asia-chip-selloff-2026-11-25",
-          "headline": "Update: Asian chip rout deepens: Kospi closes 6.2% down, SK Hynix falls 11%",
-          "summary": "South Korea's Kospi fell 6.2%, Japan's Nikkei 2.8% and Hong Kong's Hang Seng 1.2%, while Taiwan closed 4.8% lower after falling more than 8% earlier. SK Hynix dropped 11.1%, Samsung Electronics 9.9%, Tokyo Electron 12.5% and Advantest 12.9%, as doubts about AI spending returned. Change since last edition: closing figures; Korea's losses deepened.",
-          "why_it_matters": "The chip sell-off is pushing foreign money toward markets such as India that have few AI hardware stocks.",
-          "importance": 4,
+          "id": "markets-gold-silver-slump-2026-11-25",
+          "headline": "Gold falls 3.1% and silver over 6% in Indian bullion markets",
+          "summary": "Gold dropped 3.1% to ₹1,21,038 per 10 grams and silver over 6.3% to ₹1,42,945 per kg at the India Bullion and Jewellers Association close. Global gold futures were about 1.9% lower near $3,495 an ounce as the dollar held firm before and after US inflation data.",
+          "why_it_matters": null,
+          "importance": 3,
           "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-25T00:00:00+00:00",
+          "verified": false,
+          "note": "Indian bullion rates single source: All India Radio (IBJA). MCX gold fell a smaller 1.24% per Kotak Neo.",
+          "published_at": "2026-11-25T19:41:00+05:30",
           "tags": [
-            "Asia",
-            "Chips",
-            "Kospi",
-            "AI"
+            "Gold",
+            "Silver"
           ],
           "sources": [
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom"
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/gold-falls-3-1-silver-plunges-over-6-3-in-bullion-market/"
             },
             {
-              "name": "Business Today",
-              "url": "https://www.businesstoday.in/markets/stocks/story/why-market-is-rising-today-sensex-gains-over-1300-pts-nifty-crosses-25700-569286-2026-11-25"
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/GC=F"
             }
           ],
           "image": null,
           "impact": [
             {
-              "on": "us_stocks",
-              "detail": "Tech",
+              "on": "gold",
               "level": "medium",
               "dir": "down",
-              "why": "A deeper Asian chip rout could weigh on US chipmakers again."
+              "why": "A firm dollar and Fed hike bets weigh on gold."
+            },
+            {
+              "on": "silver",
+              "level": "high",
+              "dir": "down",
+              "why": "Silver fell over 6% in India."
             }
           ]
         }
@@ -518,19 +625,6 @@
   ],
   "weekend_special": null,
   "forex_results": [
-    {
-      "country": "USD",
-      "title": "CB Consumer Confidence",
-      "date": "2026-11-24T10:00:00-05:00",
-      "impact": "Medium",
-      "actual": "103.3",
-      "vs_forecast": "better",
-      "why": "Confidence jumped to its highest since January 2025, well above forecasts, which supports the dollar and Fed hike bets.",
-      "source": {
-        "name": "The Conference Board",
-        "url": "https://www.prnewswire.com/news-releases/us-consumer-confidence-surged-in-november-302949447.html"
-      }
-    },
     {
       "country": "AUD",
       "title": "CPI y/y",
@@ -556,22 +650,35 @@
         "name": "Australian Bureau of Statistics",
         "url": "https://www.abs.gov.au/media-centre/media-releases/cpi-rose-49-year-october-2026"
       }
+    },
+    {
+      "country": "USD",
+      "title": "Core PCE Price Index m/m",
+      "date": "2026-11-25T08:30:00-05:00",
+      "impact": "High",
+      "actual": "0.3%",
+      "vs_forecast": "in_line",
+      "why": "Core prices rose 0.3% as expected, but the yearly rate climbed to 3.3%, keeping a December Fed hike near-certain.",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "Prelim GDP q/q",
+      "date": "2026-11-25T08:30:00-05:00",
+      "impact": "High",
+      "actual": "4.3%",
+      "vs_forecast": "better",
+      "why": "Growth was revised up to 4.3% from 3.4%, above the 3.5% forecast, which supports the dollar and Fed hike bets.",
+      "source": {
+        "name": "BEA",
+        "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026"
+      }
     }
   ],
   "week_ahead": [
-    {
-      "date": "2026-11-25",
-      "events": [
-        {
-          "text": "IORA senior officials meet in New Delhi (Nov 25-26)",
-          "section": "india"
-        },
-        {
-          "text": "US core PCE inflation, second estimate of Q3 GDP and jobless claims (7 pm IST)",
-          "section": "markets"
-        }
-      ]
-    },
     {
       "date": "2026-11-26",
       "events": [
