@@ -1,0 +1,634 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-26-midday",
+  "date": "2026-11-26",
+  "slot": "midday",
+  "title": "Thursday Midday Edition",
+  "generated_at": "2026-11-26T13:50:00+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "92.48",
+      "change": "+0.28%",
+      "dir": "up",
+      "as_of": "2026-11-26T08:14:36+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/INR=X"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "101.48",
+      "change": "+0.22%",
+      "dir": "up",
+      "as_of": "2026-11-26T08:14:50+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.71",
+      "change": "+0.04%",
+      "dir": "up",
+      "as_of": "2026-11-26T08:04:51+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$705.34bn",
+      "change": "-1.97%",
+      "dir": "down",
+      "as_of": "2026-11-13T00:00:00+05:30",
+      "source": {
+        "name": "ANI (RBI data)",
+        "url": "https://aninews.in/news/business/india8217s-forex-reserves-fall-by-usd-142-billion-to-usd-70534-billion-in-week-ended-november-1320261120180825/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,850.75",
+      "change": "+0.12%",
+      "dir": "up",
+      "as_of": "2026-11-26T08:14:52+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "84,113.35",
+      "change": "+0.21%",
+      "dir": "up",
+      "as_of": "2026-11-26T07:59:53+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,182.78",
+      "change": "-0.25%",
+      "dir": "down",
+      "as_of": "2026-11-25T21:32:06+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "23,585.80",
+      "change": "-0.62%",
+      "dir": "down",
+      "as_of": "2026-11-25T22:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,597.00",
+      "change": "+1.73%",
+      "dir": "up",
+      "as_of": "2026-11-26T08:04:51+00:00",
+      "source": {
+        "name": "Yahoo Finance (COMEX futures)",
+        "url": "https://finance.yahoo.com/quote/GC%3DF"
+      }
+    },
+    {
+      "id": "gold_mcx",
+      "label": "Gold MCX",
+      "value": "₹1,22,469",
+      "change": "+1.10%",
+      "dir": "up",
+      "as_of": "2026-11-26T12:53:00+05:30",
+      "source": {
+        "name": "Upstox",
+        "url": "https://upstox.com/news/market-news/commodities/gold-price-tracker-nov-26-mcx-gold-prices-mcx-silver-rates-comex-gold-comex-silver-us-pce-inflation-gold-prices-today-silver-price-today/liveblog-203983/"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$60,538",
+      "change": "+0.26%",
+      "dir": "up",
+      "as_of": "2026-11-26T08:14:49+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.85%",
+      "change": "-1.14%",
+      "dir": "down",
+      "as_of": "2026-11-25T19:59:53+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-foodgrain-record-378mt-2026-11-26",
+          "headline": "Govt says India grew a record 378 million tonnes of foodgrain in 2025-26",
+          "summary": "Agriculture Minister Shivraj Singh Chouhan said 2025-26 foodgrain output topped 378 million tonnes, about 20.8 million tonnes more than the year before. Rice passed 155 million tonnes and wheat hit a record of nearly 122 million tonnes; pulses rose to about 27.2 million tonnes.",
+          "why_it_matters": "Bigger grain stocks help keep food prices, and so retail inflation, in check.",
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio. The May third advance estimate was 376.56 million tonnes.",
+          "published_at": "2026-11-26T13:05:00+05:30",
+          "tags": [
+            "Agriculture",
+            "Foodgrain",
+            "Inflation"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/india-achieves-historic-foodgrain-production-of-378-million-tonnes-in-2025-26-shivraj-singh-chouhan/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "india_economy",
+              "level": "low",
+              "dir": "up",
+              "why": "A record harvest supports rural incomes and eases pressure on food prices."
+            }
+          ]
+        },
+        {
+          "id": "india-sebi-kyc-norms-2026-11-26",
+          "headline": "SEBI simplifies KYC so investors share details once with KYC agencies",
+          "summary": "A new SEBI circular centralises common client details such as income range, occupation, CKYC ID and DIGIPIN at KYC registration agencies, so brokers and funds need not collect them again. Separate mobile checks become optional if the number is already Aadhaar-verified. The rules start on 24 December 2026.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-26T06:32:00+05:30",
+          "tags": [
+            "SEBI",
+            "KYC",
+            "Investors"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/sebi-streamlines-kyc-norms-to-ease-client-onboarding/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-tanker-projectile-dubai-2026-11-26",
+          "headline": "UKMTO says projectile exploded near a tanker 50 nautical miles west of Dubai",
+          "summary": "Britain's maritime security agency UKMTO said a tanker's master reported an explosion from an unknown projectile close to the ship, inside the Gulf about 50 nautical miles west of Dubai. The crew is safe and there was no damage. No one has said who fired it.",
+          "why_it_matters": "Attacks are now reaching shipping deep inside the Gulf, which keeps a risk premium in oil prices.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": "Reports differ on timing: most say Thursday, one says 21:30 GMT Wednesday.",
+          "published_at": "2026-11-26T00:00:00+00:00",
+          "tags": [
+            "Gulf",
+            "Shipping",
+            "Oil",
+            "UKMTO"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh"
+            },
+            {
+              "name": "Arab News",
+              "url": "https://www.arabnews.com/middle-east/ukmto-reports-explosion-near-tanker-west-of-dubai-3014072"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "Threats to Gulf tankers raise supply risk and support crude prices."
+            }
+          ]
+        },
+        {
+          "id": "world-kim-tactical-nukes-2026-11-26",
+          "headline": "Kim Jong Un says North Korea should widen deployment of tactical nuclear arms",
+          "summary": "State media KCNA said Kim, on a visit to nuclear material and weapons research sites, called for tactical nuclear weapons to be deployed across several domains and said production of nuclear material is being expanded. He said any attempt to deny North Korea's nuclear status would be a declaration of war.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Claim by North Korea via KCNA; not independently confirmed. Single source: Al Jazeera (with Reuters).",
+          "published_at": "2026-11-26T00:00:00+03:00",
+          "tags": [
+            "North Korea",
+            "Nuclear",
+            "Korea"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-houthis-saudi-red-sea-ports-2026-11-25",
+          "headline": "Update: Saudi-led coalition says it shot down two Houthi missiles over Riyadh",
+          "summary": "New since this morning: the Saudi-led coalition says its air defences intercepted two ballistic missiles fired by the Houthis towards Riyadh. An explosion also hit Yemen's capital Sanaa after air strikes near its airport; who carried out the strikes was not stated.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Claim by the Saudi-led coalition; not independently confirmed. Single source: Al Jazeera.",
+          "published_at": "2026-11-26T00:00:00+03:00",
+          "tags": [
+            "Yemen",
+            "Houthis",
+            "Saudi Arabia"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-congo-ebola-12000-2026-11-26",
+          "headline": "DR Congo's Ebola outbreak passes 12,000 cases as fighting hampers response",
+          "summary": "Government data show at least 12,021 infections and 5,904 deaths in eight of 26 provinces, the country's deadliest outbreak on record. It is caused by the Bundibugyo strain, which has no approved vaccine or treatment. Clashes in Ituri have forced health workers out of some areas.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera (citing government data, AP and Reuters).",
+          "published_at": "2026-11-26T00:00:00+03:00",
+          "tags": [
+            "Ebola",
+            "DR Congo",
+            "Health"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/26/dr-congo-ebola-cases-surpass-12000-as-fighting-disrupts-response-in-east"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "id": "currency-rupee-slips-92-40-2026-11-26",
+          "headline": "Rupee slips 20 paise to 92.40 as oil and US tariff worries lift dollar demand",
+          "summary": "After its best close of the financial year at 92.20 on Wednesday, the rupee opened at 92.50 and traded near 92.40 in the morning. It was around 92.48 per dollar by 1:45 PM. Higher crude and the proposed US tariff of up to 25% on Indian goods weighed; strong foreign buying of Indian shares limited the fall.",
+          "why_it_matters": "The rupee is still about 5% stronger than its 8 October record low of 96.88, but oil and tariffs could stall the recovery.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": "Brent levels differ by source: PTI quoted $95.34 a barrel; Yahoo Finance's futures quote was near $90.6.",
+          "published_at": "2026-11-26T10:11:00+05:30",
+          "tags": [
+            "Rupee",
+            "Dollar",
+            "Oil",
+            "Tariffs"
+          ],
+          "sources": [
+            {
+              "name": "Free Press Journal (PTI)",
+              "url": "https://www.freepressjournal.in/business/rupee-slips-20-paise-to-9240-against-us-dollar-crude-oil-rally-tariff-fears-cloud-outlook"
+            },
+            {
+              "name": "Kotak Neo",
+              "url": "https://www.kotakneo.com/news/global-markets/usd-inr-exchange-rate-rupee-falls-against-us-dollar-crude-oil-prices-tariff-concerns/"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/INR=X"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "down",
+              "why": "Oil importers' dollar demand and tariff worries weigh on the rupee."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "id": "markets-it-rally-wipro-bp-2026-11-26",
+          "headline": "Sensex, Nifty hold small gains as IT rallies; Wipro jumps 4% on bp deal",
+          "summary": "The Sensex rose nearly 400 points at the open but gave back much of it; at 1:45 PM it was about 84,113 (+0.2%) and the Nifty 25,851 (+0.1%). IT led again, with the Nifty IT index up over 2% early. Wipro hit Rs 196.95 after bp agreed to move about 3,000 finance staff in India, Hungary and Malaysia to it from 2027.",
+          "why_it_matters": "Foreign funds are shifting money from AI-heavy Korea and Taiwan into Indian IT and banks, keeping the November rally alive.",
+          "importance": 5,
+          "lead": true,
+          "verified": true,
+          "note": "Index levels from Yahoo Finance at 1:45 PM IST; deal value was not disclosed.",
+          "published_at": "2026-11-26T09:45:00+05:30",
+          "tags": [
+            "Sensex",
+            "Nifty",
+            "IT",
+            "Wipro",
+            "bp"
+          ],
+          "sources": [
+            {
+              "name": "Business Today",
+              "url": "https://www.businesstoday.in/markets/stocks/story/wipro-shares-surge-4-after-bp-deal-lead-nifty-it-gainers-569586-2026-11-26"
+            },
+            {
+              "name": "Kotak Neo",
+              "url": "https://www.kotakneo.com/news/market-news/why-is-the-stock-market-up-today/"
+            },
+            {
+              "name": "Assam Tribune (PTI)",
+              "url": "https://assamtribune.com/business/sensex-climbs-400-points-as-it-stocks-gain-nifty-below-25900-1623292"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5ENSEI"
+            }
+          ],
+          "image": {
+            "url": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202611/6b07b0e375a88-wipro-stock-touched-a-high-of-rs-19695--rising-437-from-its-previous-close-of-rs-18870-260906304-16x9.jpg",
+            "credit": "Business Today",
+            "source_url": "https://www.businesstoday.in/markets/stocks/story/wipro-shares-surge-4-after-bp-deal-lead-nifty-it-gainers-569586-2026-11-26",
+            "alt": "Wipro sign on top of an office building"
+          },
+          "impact": [
+            {
+              "on": "company",
+              "detail": "Wipro",
+              "level": "high",
+              "dir": "up",
+              "why": "A large multi-year finance outsourcing deal with bp adds to Wipro's order book."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "IT",
+              "level": "medium",
+              "dir": "up",
+              "why": "IT shares lead for a fifth day on foreign buying."
+            }
+          ]
+        },
+        {
+          "id": "markets-asia-rebound-bok-hike-2026-11-26",
+          "headline": "Update: Asian markets close higher, looking past new US tariffs",
+          "summary": "New since this morning: Asian markets closed in the green. Japan's Nikkei rose 0.86% to 57,499, South Korea's Kospi 0.29% and Australia's ASX 200 0.82%, while Hong Kong's Hang Seng was up about 1.5% late. Chip stocks led, with SoftBank up over 7%.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: CNBC.",
+          "published_at": "2026-11-25T18:48:00-05:00",
+          "tags": [
+            "Asia",
+            "Nikkei",
+            "Kospi",
+            "Tariffs"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "markets-gold-recovers-mcx-low-2026-11-26",
+          "headline": "Update: MCX gold up 1.1% and silver 2.6% as metals bounce from lows",
+          "summary": "New since this morning: MCX December gold was at Rs 1,22,469 per 10 grams at 12:53 PM, up Rs 1,332, after touching Rs 1,23,888. Silver was at Rs 1,46,325 per kg, up 2.6%. Bargain buyers stepped in after the post-PCE sell-off; COMEX gold was near $3,597.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-26T12:53:00+05:30",
+          "tags": [
+            "Gold",
+            "Silver",
+            "MCX"
+          ],
+          "sources": [
+            {
+              "name": "Upstox",
+              "url": "https://upstox.com/news/market-news/commodities/gold-price-tracker-nov-26-mcx-gold-prices-mcx-silver-rates-comex-gold-comex-silver-us-pce-inflation-gold-prices-today-silver-price-today/liveblog-203983/"
+            },
+            {
+              "name": "Goodreturns",
+              "url": "https://www.goodreturns.in/news/gold-rate-india-silver-rate-today-26-11-2026-live-comex-silver-price-mcx-gold-24k-22k-18k-gold-price-1549751.html"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "gold",
+              "level": "low",
+              "dir": "up",
+              "why": "Oversold gold draws bargain buyers, though Fed hike bets cap gains."
+            },
+            {
+              "on": "silver",
+              "level": "low",
+              "dir": "up",
+              "why": "Silver rebounds with gold after a sharp fall."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "id": "built-aerospacelab-satellite-factory-2026-11-26",
+          "headline": "Aerospacelab opens Europe's largest satellite factory to rival Starlink",
+          "summary": "Belgium's Aerospacelab opened a 20,000 square-metre plant near Charleroi that can build up to 500 satellites a year. It holds a EUR 2.4 billion contract to build 264 of the 348 satellites for IRIS2, the EU's secure network. Production is due to start by end-2028.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: CNBC.",
+          "published_at": "2026-11-26T02:45:00-05:00",
+          "tags": [
+            "Space",
+            "Satellites",
+            "Europe",
+            "IRIS2"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/26/starlink-satellites-aerospacelab-factory-belgium.html"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "USD",
+      "title": "Core PCE Price Index m/m",
+      "date": "2026-11-25T08:30:00-05:00",
+      "impact": "High",
+      "actual": "0.3%",
+      "vs_forecast": "in_line",
+      "why": "Core prices rose 0.3% as expected, but the yearly rate climbed to 3.3%, keeping a December Fed hike near-certain.",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+      }
+    },
+    {
+      "country": "USD",
+      "title": "Prelim GDP q/q",
+      "date": "2026-11-25T08:30:00-05:00",
+      "impact": "High",
+      "actual": "4.3%",
+      "vs_forecast": "better",
+      "why": "Growth was revised up to 4.3% from 3.4%, above the 3.5% forecast, which supports the dollar and Fed hike bets.",
+      "source": {
+        "name": "BEA",
+        "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026"
+      }
+    },
+    {
+      "country": "GBP",
+      "title": "Monetary Policy Report Hearings",
+      "date": "2026-11-25T09:15:00-05:00",
+      "impact": "Medium",
+      "actual": "Hawkish",
+      "vs_forecast": "better",
+      "why": "Bailey said further hikes are more likely than not if energy prices stay high, which supports the pound.",
+      "source": {
+        "name": "FXStreet",
+        "url": "https://www.fxstreet.com/news/pound-heads-into-boe-stability-report-flat-after-rate-hearing-202611252236"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-26",
+      "events": [
+        {
+          "text": "US stock markets closed for Thanksgiving",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "events": [
+        {
+          "text": "25th IORA Council of Ministers meets in New Delhi",
+          "section": "india"
+        },
+        {
+          "text": "Tripura votes in 16 urban local bodies, including Agartala",
+          "section": "india"
+        },
+        {
+          "text": "Mahanadi Coalfields shares due to list on BSE and NSE",
+          "section": "markets"
+        },
+        {
+          "text": "RBI weekly forex reserves data",
+          "section": "currency"
+        },
+        {
+          "text": "Tokyo core CPI (November); US markets close early",
+          "section": "currency"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "events": [
+        {
+          "text": "Spain holds a general election",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "events": [
+        {
+          "text": "India Q2 (July-September) GDP data",
+          "section": "india"
+        }
+      ]
+    }
+  ]
+}
