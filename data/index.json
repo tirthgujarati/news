@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-25T20:47:39+05:30",
+  "updated_at": "2026-11-26T07:40:45+05:30",
   "editions": [
+    {
+      "edition_id": "2026-11-26-morning",
+      "title": "Thursday Morning Edition",
+      "path": "editions/2026/11/26-morning.json",
+      "story_count": 16
+    },
     {
       "edition_id": "2026-11-25-evening",
       "title": "Wednesday Evening Edition",
@@ -126,24 +132,6 @@
       "title": "Thursday Morning Edition",
       "path": "editions/2026/11/19-morning.json",
       "story_count": 13
-    },
-    {
-      "edition_id": "2026-11-18-evening",
-      "title": "Wednesday Evening Edition",
-      "path": "editions/2026/11/18-evening.json",
-      "story_count": 14
-    },
-    {
-      "edition_id": "2026-11-18-midday",
-      "title": "Wednesday Midday Edition",
-      "path": "editions/2026/11/18-midday.json",
-      "story_count": 11
-    },
-    {
-      "edition_id": "2026-11-18-morning",
-      "title": "Wednesday Morning Edition",
-      "path": "editions/2026/11/18-morning.json",
-      "story_count": 11
     }
   ]
 }
