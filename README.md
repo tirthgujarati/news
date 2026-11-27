@@ -191,10 +191,13 @@ and which way. The app shows each as a coloured chip, e.g. "● GOLD ▼" in red
   - a currency other than the rupee, with `on: "currency"` and `detail`:
     `"Dollar"`, `"Euro"`, `"Yen"`, `"Yuan"`, `"Pound"`. `dir` is that currency's
     likely move.
+  For a company chip, add `"symbol"` (its NSE symbol from
+  `data/nifty100.json`, e.g. `"HAL"`) when it is in the Nifty 100; leave it
+  out otherwise (e.g. Apple).
   `company` and `currency` always need `detail`. If the link is indirect or a
   guess, use the broader target (e.g. `indian_stocks`) or leave it out.
 - Example for a story on HAL winning a defence order:
-  `{"on": "company", "detail": "HAL", "level": "high", "dir": "up", ...}` and
+  `{"on": "company", "detail": "HAL", "symbol": "HAL", "level": "high", "dir": "up", ...}` and
   `{"on": "indian_stocks", "detail": "Defence", "level": "medium", "dir": "up", ...}`.
 - `level`: `high` (red) = likely to move it noticeably today or this week, or a
   big policy shift; `medium` (orange) = a real but smaller push; `low` (yellow)

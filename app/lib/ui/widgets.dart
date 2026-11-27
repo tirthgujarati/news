@@ -308,7 +308,7 @@ class SectionTabs extends StatelessWidget {
 
   Widget _tab(BuildContext context, Look look, Section s) {
     final on = s.id == selected;
-    final color = look.section(s.id);
+    final color = s.id == 'watchlist' ? watchStar : look.section(s.id);
     final title = look.uppercaseTabs ? s.title.toUpperCase() : s.title;
     return Semantics(
       selected: on,
@@ -585,13 +585,16 @@ class ImpactChips extends StatelessWidget {
   Widget build(BuildContext context) {
     if (impact.isEmpty) return const SizedBox.shrink();
     final look = Look.of(context);
+    final watch = AppScope.maybeOf(context)?.watchlist ?? const <String>{};
+    final ink = onPhoto ? const Color(0xFFE9EDF2) : look.ink;
     return Wrap(
       spacing: 6,
       runSpacing: 6,
       children: [
         for (final t in impact)
           Semantics(
-            label: '${t.level} impact on ${t.label}, likely ${t.dir}',
+            label: '${t.level} impact on ${t.label}, likely ${t.dir}'
+                '${t.companies.isEmpty ? '' : ', ${t.companies.length} companies most affected'}',
             child: ExcludeSemantics(
               child: Container(
                 padding: const EdgeInsets.fromLTRB(7, 3, 8, 3),
@@ -608,11 +611,16 @@ class ImpactChips extends StatelessWidget {
                         color: look.impact(t.level), shape: BoxShape.circle),
                   ),
                   const SizedBox(width: 5),
-                  Text(
-                    '${t.label.toUpperCase()} ${t.arrow}',
-                    style: look.label(10,
-                        color: onPhoto ? const Color(0xFFE9EDF2) : look.ink),
-                  ),
+                  if (t.symbols.any(watch.contains)) ...[
+                    const Icon(Icons.star_rounded, size: 12, color: watchStar),
+                    const SizedBox(width: 2),
+                  ],
+                  Text('${t.label.toUpperCase()} ${t.arrow}', style: look.label(10, color: ink)),
+                  if (t.companies.isNotEmpty) ...[
+                    const SizedBox(width: 5),
+                    Icon(Icons.apartment_rounded, size: 11, color: ink.withValues(alpha: 0.75)),
+                    Text('${t.companies.length}', style: look.label(10, color: ink)),
+                  ],
                 ]),
               ),
             ),
@@ -643,19 +651,78 @@ class ImpactBox extends StatelessWidget {
         for (final t in impact)
           Padding(
             padding: const EdgeInsets.only(bottom: 10),
-            child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              ImpactChips(impact: [t]),
-              const SizedBox(width: 10),
-              Expanded(
-                child: Padding(
-                  padding: const EdgeInsets.only(top: 2),
-                  child: Text(t.why, style: look.body(13.5, color: look.ink, height: 1.4)),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                ImpactChips(impact: [t]),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.only(top: 2),
+                    child: Text(t.why, style: look.body(13.5, color: look.ink, height: 1.4)),
+                  ),
                 ),
-              ),
+              ]),
+              if (t.companies.isNotEmpty) MostAffected(companies: t.companies),
             ]),
           ),
         Text('Red = big impact · Orange = medium · Yellow = small · ▲▼ likely direction',
             style: look.body(11)),
+        if (impact.any((t) => t.companies.isNotEmpty))
+          Padding(
+            padding: const EdgeInsets.only(top: 4),
+            child: Text('Direct = the news is about that company · Exposure = hit through its business',
+                style: look.body(11)),
+          ),
+      ]),
+    );
+  }
+}
+
+/// Gold star for watchlist companies.
+const watchStar = Color(0xFFF2B01E);
+
+/// The companies a chip moves most, strongest first: rank, name, arrow,
+/// Direct/Exposure and the reason.
+class MostAffected extends StatelessWidget {
+  const MostAffected({super.key, required this.companies});
+  final List<CompanyHit> companies;
+
+  @override
+  Widget build(BuildContext context) {
+    final look = Look.of(context);
+    final app = AppScope.maybeOf(context);
+    return Container(
+      margin: const EdgeInsets.only(top: 8, left: 4),
+      padding: const EdgeInsets.only(left: 10),
+      decoration: BoxDecoration(border: Border(left: BorderSide(color: look.line, width: 2))),
+      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+        Text('MOST AFFECTED', style: look.label(9.5)),
+        const SizedBox(height: 6),
+        for (final (i, c) in companies.indexed)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 8),
+            child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              SizedBox(width: 18, child: Text('${i + 1}.', style: look.number(12.5, color: look.muted))),
+              Expanded(
+                child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                  Wrap(crossAxisAlignment: WrapCrossAlignment.center, spacing: 6, children: [
+                    if (app?.watches(c.symbol) ?? false)
+                      const Icon(Icons.star_rounded, size: 15, color: watchStar),
+                    Text(c.name, style: look.body(14, color: look.ink, weight: FontWeight.w700)),
+                    Container(
+                      width: 8,
+                      height: 8,
+                      decoration: BoxDecoration(color: look.impact(c.level), shape: BoxShape.circle),
+                    ),
+                    Text('${c.level} ${c.arrow}', style: look.label(10.5, color: look.impact(c.level))),
+                    Text(c.direct ? 'Direct' : 'Exposure', style: look.body(11.5)),
+                  ]),
+                  const SizedBox(height: 2),
+                  Text(c.why, style: look.body(13, color: look.ink, height: 1.35)),
+                ]),
+              ),
+            ]),
+          ),
       ]),
     );
   }
@@ -663,14 +730,15 @@ class ImpactBox extends StatelessWidget {
 
 /// Shown when a section has no stories this edition.
 class EmptySection extends StatelessWidget {
-  const EmptySection({super.key});
+  const EmptySection({super.key, this.text});
+  final String? text;
 
   @override
   Widget build(BuildContext context) {
     final look = Look.of(context);
     return Padding(
       padding: const EdgeInsets.all(28),
-      child: Text('No real news in this section this edition.',
+      child: Text(text ?? 'No real news in this section this edition.',
           style: look.body(14), textAlign: TextAlign.center),
     );
   }

@@ -42,7 +42,8 @@ Future<AppController> makeTestApp(
 }) async {
   SharedPreferences.setMockInitialValues({'style': style.name, 'theme': theme.name});
   final settings = await Settings.load();
-  final store = EditionStore(dir);
+  // Pinned to the fixture's week so its Forex results count as recent.
+  final store = EditionStore(dir, clock: () => DateTime(2026, 11, 2, 12));
   await store.init();
   final raw = File('test/fixtures/edition.json').readAsStringSync();
   await store.save(raw, parseEdition(raw));

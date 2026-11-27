@@ -31,12 +31,12 @@ void main() {
   test('editor results attach to the right event and stay on the phone', () async {
     final dir = await Directory.systemTemp.createTemp('forex_test');
     addTearDown(() => dir.delete(recursive: true));
-    final store = EditionStore(dir);
+    final store = EditionStore(dir, clock: () => DateTime(2026, 11, 2, 12));
     await store.init();
     await store.save(edition(), parseEdition(edition()));
     await store.saveForexFeeds([feed()]);
 
-    final again = EditionStore(dir);
+    final again = EditionStore(dir, clock: () => DateTime(2026, 11, 2, 12));
     await again.init();
     final events = parseForexFeeds(await again.readForexFeeds());
     final ism = events.firstWhere((e) => e.title == 'ISM Manufacturing PMI');

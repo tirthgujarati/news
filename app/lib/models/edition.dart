@@ -38,6 +38,48 @@ class StoryImage {
 
 /// How much a story is likely to move one thing, and which way.
 /// Shown as a chip: red = high, orange = medium, yellow = low.
+/// One of the "Most affected" companies on a chip.
+class CompanyHit {
+  /// NSE symbol, from the Nifty 100 list ("BPCL").
+  final String symbol;
+  final String name;
+  final String level;
+  final String dir;
+  final String why;
+
+  /// "direct" (the news is about it) or "exposure" (through its business).
+  final String basis;
+
+  const CompanyHit({
+    required this.symbol,
+    required this.name,
+    required this.level,
+    required this.dir,
+    required this.why,
+    required this.basis,
+  });
+
+  factory CompanyHit.fromJson(Map<String, dynamic> j) => CompanyHit(
+        symbol: j['symbol'] as String,
+        name: j['name'] as String,
+        level: j['level'] as String,
+        dir: j['dir'] as String,
+        why: j['why'] as String,
+        basis: j['basis'] as String,
+      );
+
+  Map<String, dynamic> toJson() =>
+      {'symbol': symbol, 'name': name, 'level': level, 'dir': dir, 'why': why, 'basis': basis};
+
+  bool get direct => basis == 'direct';
+
+  String get arrow => switch (dir) {
+        'up' => '▲',
+        'down' => '▼',
+        _ => '±',
+      };
+}
+
 class ImpactTag {
   /// indian_stocks, gold, silver, oil, rupee, crypto, rates, us_stocks,
   /// india_economy, company, currency.
@@ -54,12 +96,20 @@ class ImpactTag {
   final String dir;
   final String why;
 
+  /// For a company chip: its NSE symbol when it's in the Nifty 100.
+  final String? symbol;
+
+  /// Most affected companies, strongest first (up to 3).
+  final List<CompanyHit> companies;
+
   const ImpactTag({
     required this.on,
     required this.detail,
     required this.level,
     required this.dir,
     required this.why,
+    this.symbol,
+    this.companies = const [],
   });
 
   factory ImpactTag.fromJson(Map<String, dynamic> j) => ImpactTag(
@@ -68,7 +118,15 @@ class ImpactTag {
         level: j['level'] as String,
         dir: j['dir'] as String,
         why: j['why'] as String,
+        symbol: j['symbol'] as String?,
+        companies: [
+          for (final c in (j['companies'] as List?) ?? const [])
+            CompanyHit.fromJson(c as Map<String, dynamic>)
+        ],
       );
+
+  /// Every company this chip names: itself, or its most affected list.
+  Iterable<String> get symbols => [?symbol, for (final c in companies) c.symbol];
 
   static const _labels = {
     'indian_stocks': 'Indian stocks',
@@ -112,6 +170,8 @@ class ImpactTag {
         'level': level,
         'dir': dir,
         'why': why,
+        if (symbol != null) 'symbol': symbol,
+        if (companies.isNotEmpty) 'companies': [for (final c in companies) c.toJson()],
       };
 
   /// 0 = high, 1 = medium, 2 = low (for sorting).
@@ -179,6 +239,9 @@ class Story {
   String get sectionId => id.split('-').first;
 
   bool get singleSource => !verified;
+
+  /// NSE symbols of the companies its chips name.
+  Set<String> get symbols => {for (final t in impact) ...t.symbols};
 
   factory Story.fromJson(Map<String, dynamic> j) {
     final published = j['published_at'] as String;

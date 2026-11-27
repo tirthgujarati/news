@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "app/**"
+      - "data/nifty100.json"
       - ".github/workflows/build-apk.yml"
   workflow_dispatch:
 
@@ -53,6 +54,9 @@ jobs:
             echo "::error::ANDROID_KEYSTORE_BASE64 secret is missing"; exit 1
           fi
           echo "$ANDROID_KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/release.p12"
+
+      - name: Bundle the current Nifty 100 list (watchlist)
+        run: cp ../data/nifty100.json assets/nifty100.json
 
       - name: Add Firebase config (push notifications)
         env:

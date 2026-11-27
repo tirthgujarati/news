@@ -4,6 +4,7 @@ import '../data/settings.dart';
 import '../models/forex.dart' show forexCurrencies;
 import '../theme/look.dart';
 import 'format.dart';
+import 'watchlist_screen.dart';
 import 'widgets.dart';
 
 /// Shown in Settings. CI passes the real version with --dart-define.
@@ -106,6 +107,20 @@ class SettingsScreen extends StatelessWidget {
               onChanged: (v) => s.photosWifiOnly = v,
             ),
             const _StorageUsed(),
+            heading('Watchlist'),
+            ListTile(
+              contentPadding: const EdgeInsets.symmetric(horizontal: 18),
+              title: Text('Companies I follow', style: look.body(15, color: look.ink)),
+              subtitle: Text(
+                  app.watchlist.isEmpty
+                      ? 'Empty: star Nifty 100 companies to highlight them in the news'
+                      : '${app.watchlist.length} starred · stays on this phone',
+                  style: look.body(12.5)),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => Navigator.of(context).push(
+                MaterialPageRoute<void>(builder: (_) => const WatchlistScreen()),
+              ),
+            ),
             heading('Forex calendar currencies'),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 18),

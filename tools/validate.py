@@ -62,6 +62,12 @@ def check_companies(st: dict, bad) -> None:
     """The "Most affected" lists on a story's impact chips."""
     allowed = nifty100()
     for chip in st.get("impact", []):
+        sym = chip.get("symbol")
+        if sym is not None:
+            if chip.get("on") != "company":
+                bad(f"story '{st.get('id')}': only a company chip has a symbol")
+            elif sym not in allowed:
+                bad(f"story '{st.get('id')}': company chip symbol '{sym}' is not in data/nifty100.json")
         hits = chip.get("companies") or []
         if not hits:
             continue

@@ -242,6 +242,11 @@
           "enum": ["up", "down", "mixed"]
         },
         "why": { "type": "string", "minLength": 1, "maxLength": 120 },
+        "symbol": {
+          "description": "For on=company: its NSE symbol when it is in data/nifty100.json (lets the app star watchlist companies)",
+          "type": "string",
+          "pattern": "^[A-Z0-9&-]{1,20}$"
+        },
         "companies": {
           "description": "Most affected: up to 3 Nifty 100 companies (data/nifty100.json), most strongly pushed first",
           "type": "array",

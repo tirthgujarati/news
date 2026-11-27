@@ -50,6 +50,7 @@ class Settings extends ChangeNotifier {
   static const _kKeepPhotos = 'keep_photo_days';
   static const _kWifiOnly = 'photos_wifi_only';
   static const _kForex = 'forex_currencies';
+  static const _kWatchlist = 'watchlist';
 
   AppStyle get style =>
       AppStyle.values.asNameMap()[_prefs.getString(_kStyle)] ?? AppStyle.night;
@@ -80,6 +81,11 @@ class Settings extends ChangeNotifier {
   set forexShown(Set<String> v) => _set(() => _prefs.setStringList(
       _kForex, [for (final c in forexCurrencies) if (v.contains(c)) c]));
   set photosWifiOnly(bool v) => _set(() => _prefs.setBool(_kWifiOnly, v));
+
+  /// NSE symbols of the companies Tirth follows. Empty by default; stays on
+  /// the phone.
+  Set<String> get watchlist => (_prefs.getStringList(_kWatchlist) ?? const []).toSet();
+  set watchlist(Set<String> v) => _set(() => _prefs.setStringList(_kWatchlist, v.toList()..sort()));
 
   // -1 is stored for "forever" so it differs from "never set".
   int? _readDays(String key, int? fallback) {

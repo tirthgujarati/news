@@ -190,6 +190,18 @@ class AppController extends ChangeNotifier {
 
   bool isSaved(Story s) => store.isSaved(s.id);
 
+  /// Companies starred in Settings -> Watchlist (NSE symbols).
+  Set<String> get watchlist => settings.watchlist;
+
+  bool watches(String symbol) => settings.watchlist.contains(symbol);
+
+  void setWatched(String symbol, bool on) {
+    final next = {...settings.watchlist};
+    on ? next.add(symbol) : next.remove(symbol);
+    settings.watchlist = next;
+    notifyListeners();
+  }
+
   Future<bool> toggleSaved(Story story, Edition inEdition) async {
     final now = await store.toggleSaved(story, inEdition);
     if (now && story.image != null) {

@@ -130,9 +130,12 @@ class SavedStory {
 ///   search_index.json            [SearchHit] list for every stored story
 ///   saved.json                   [SavedStory] list, newest first
 class EditionStore {
-  EditionStore(this.root);
+  EditionStore(this.root, {DateTime Function()? clock}) : _clock = clock ?? DateTime.now;
 
   final Directory root;
+
+  /// "Now", for dropping old Forex results (tests pin it).
+  final DateTime Function() _clock;
 
   List<EditionEntry> _entries = [];
   List<SearchHit> _hits = [];
@@ -216,7 +219,7 @@ class EditionStore {
         _fxResults[r.key] = r;
       }
       // Results older than ~2 weeks are no longer on the calendar.
-      final cutoff = DateTime.now().subtract(const Duration(days: 16));
+      final cutoff = _clock().subtract(const Duration(days: 16));
       _fxResults.removeWhere((_, r) => r.date.isBefore(cutoff));
       await _writeList(_fxResultsFile, _fxResults.values.map((r) => r.toJson()));
     }

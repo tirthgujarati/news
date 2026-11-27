@@ -8,6 +8,9 @@ import 'story_sheet.dart';
 import 'weekend_screen.dart';
 import 'widgets.dart';
 
+/// Id of Home's Watchlist tab (not a real section).
+const watchlistTab = 'watchlist';
+
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
@@ -47,7 +50,21 @@ class _HomeScreenState extends State<HomeScreen> {
       );
     }
 
-    final section = edition.section(_section) ?? edition.sections.first;
+    // With a watchlist, a last tab gathers the stories that name its companies.
+    final watch = app.watchlist;
+    final tabs = [
+      ...edition.sections,
+      if (watch.isNotEmpty)
+        Section(
+          id: watchlistTab,
+          title: 'Watchlist',
+          stories: [
+            for (final s in [...edition.allStories, ...?edition.weekendSpecial?.stories])
+              if (s.symbols.any(watch.contains)) s
+          ],
+        ),
+    ];
+    final section = tabs.firstWhere((s) => s.id == _section, orElse: () => tabs.first);
     final lead = edition.leadStory;
 
     return RefreshIndicator(
@@ -80,14 +97,18 @@ class _HomeScreenState extends State<HomeScreen> {
             delegate: _TabsHeader(
               look: look,
               child: SectionTabs(
-                sections: edition.sections,
+                sections: tabs,
                 selected: section.id,
                 onSelect: (id) => setState(() => _section = id),
               ),
             ),
           ),
           if (section.stories.isEmpty)
-            const SliverToBoxAdapter(child: EmptySection())
+            SliverToBoxAdapter(
+                child: EmptySection(
+                    text: section.id == watchlistTab
+                        ? 'No news names your watchlist companies in this edition.'
+                        : null))
           else
             SliverList.builder(
               itemCount: section.stories.length,

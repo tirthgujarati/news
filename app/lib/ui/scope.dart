@@ -10,4 +10,8 @@ class AppScope extends InheritedNotifier<AppController> {
 
   static AppController of(BuildContext context) =>
       context.dependOnInheritedWidgetOfExactType<AppScope>()!.notifier!;
+
+  /// Null outside the app (widgets drawn on their own in tests).
+  static AppController? maybeOf(BuildContext context) =>
+      context.dependOnInheritedWidgetOfExactType<AppScope>()?.notifier;
 }
