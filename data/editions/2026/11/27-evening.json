@@ -1,0 +1,671 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-27-evening",
+  "date": "2026-11-27",
+  "slot": "evening",
+  "title": "Friday Evening Edition",
+  "generated_at": "2026-11-27T20:55:00+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "92.99",
+      "change": "+0.60%",
+      "dir": "up",
+      "as_of": "2026-11-27T17:50:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/indian-rupee-falls-55-paise-against-us-dollar/"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "101.80",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-27T15:06:47+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.98",
+      "change": "+0.29%",
+      "dir": "up",
+      "as_of": "2026-11-27T15:02:46+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$700.9bn",
+      "change": "-0.62%",
+      "dir": "down",
+      "as_of": "2026-11-20T00:00:00+05:30",
+      "source": {
+        "name": "All India Radio (RBI data)",
+        "url": "https://newsonair.gov.in/indias-forex-reserves-decline-by-4-4-billion-dollars-to-700-9-billion-dollars/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,607.20",
+      "change": "-1.07%",
+      "dir": "down",
+      "as_of": "2026-11-27T18:06:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/sensex-falls-882-points-nifty-sheds-256-points-in-late-trade/"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "83,339.26",
+      "change": "-1.17%",
+      "dir": "down",
+      "as_of": "2026-11-27T18:06:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/sensex-falls-882-points-nifty-sheds-256-points-in-late-trade/"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,237.40",
+      "change": "+0.76%",
+      "dir": "up",
+      "as_of": "2026-11-27T15:17:00+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "23,825.38",
+      "change": "+1.02%",
+      "dir": "up",
+      "as_of": "2026-11-27T15:16:56+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,660.60",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-27T15:02:46+00:00",
+      "source": {
+        "name": "Yahoo Finance (COMEX futures)",
+        "url": "https://finance.yahoo.com/quote/GC=F"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$59,482",
+      "change": "-1.67%",
+      "dir": "down",
+      "as_of": "2026-11-27T15:12:44+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.90%",
+      "change": "+1.03%",
+      "dir": "up",
+      "as_of": "2026-11-27T14:57:44+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "id": "india-eu-fta-signing-date-2026-11-27",
+          "headline": "EU envoy says India-EU trade pact will be signed in Brussels on December 16",
+          "summary": "EU Ambassador Jean-Eric Paquet said the India-EU free trade agreement will be formally signed on December 16 during PM Narendra Modi's visit to Brussels. He said talks are complete and the deal then goes to the European Parliament for approval. This sets a firm date, after Commerce Minister Piyush Goyal said earlier today he hoped it would be signed this year.",
+          "why_it_matters": "Lower EU duties would help Indian exporters of textiles, food and other goods once the pact takes effect.",
+          "importance": 5,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio (EU ambassador's remarks).",
+          "published_at": "2026-11-27T17:57:00+05:30",
+          "tags": [
+            "Trade",
+            "EU",
+            "FTA"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/india-eu-free-trade-pact-to-be-signed-on-16th-next-month-says-eu-ambassador/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "level": "medium",
+              "dir": "up",
+              "why": "Lower EU tariffs would lift exporters' prospects.",
+              "detail": "Textiles"
+            }
+          ]
+        },
+        {
+          "id": "india-rbi-crr-daily-90pc-2026-11-27",
+          "headline": "RBI lets banks keep less cash daily, cutting minimum CRR balance to 90% from 99%",
+          "summary": "The Reserve Bank cut the minimum share of the cash reserve ratio that banks must hold each day to 90% from 99%, from the fortnight starting December 1. The fortnightly average rule is unchanged. The move follows banking-system cash turning into deficit for the first time in five months, due to GST outflows and RBI dollar sales.",
+          "why_it_matters": "Banks get more room to manage day-to-day cash, which should ease short-term money-market rates.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-27T00:00:00+05:30",
+          "tags": [
+            "RBI",
+            "Liquidity",
+            "Banks"
+          ],
+          "sources": [
+            {
+              "name": "RBI",
+              "url": "https://rbi.org.in/scripts/NotificationUser.aspx?Id=13759&Mode=0"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/rbi-reduces-daily-minimum-crr-maintenance-requirement-for-banks-to-90/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "rates",
+              "level": "medium",
+              "dir": "down",
+              "why": "More flexible cash rules ease pressure on overnight rates."
+            },
+            {
+              "on": "indian_stocks",
+              "level": "low",
+              "dir": "up",
+              "why": "Easier liquidity helps lenders manage funding.",
+              "detail": "Banks"
+            }
+          ]
+        },
+        {
+          "id": "india-sebi-fpi-commodity-futures-2026-11-27",
+          "headline": "SEBI lets foreign investors trade physically settled metal and energy futures",
+          "summary": "SEBI will allow foreign portfolio investors to trade non-farm commodity derivatives that are settled by delivery, not just cash-settled ones; options on goods stay excluded. FPIs must close or roll over positions before the delivery period starts. The rules take effect on June 1, 2027.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio (SEBI circular).",
+          "published_at": "2026-11-27T20:19:00+05:30",
+          "tags": [
+            "SEBI",
+            "Commodities",
+            "FPI"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/sebi-opens-non-agricultural-commodity-derivatives-to-fpis/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "level": "low",
+              "dir": "up",
+              "why": "More foreign players could raise volumes on commodity exchanges.",
+              "detail": "MCX"
+            }
+          ]
+        },
+        {
+          "id": "india-six-urea-plants-2026-11-27",
+          "headline": "Government approves six new urea plants to cut fertiliser imports",
+          "summary": "Fertilizer Secretary Rajat Kumar Mishra said six new plants, including NFL Nangal, CFCL Gadepan and Matix Panagarh, have been approved. He said they will take India's annual urea capacity to about four crore tonnes, helping the country become self-reliant in urea.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-27T20:15:00+05:30",
+          "tags": [
+            "Fertiliser",
+            "Urea",
+            "Agriculture"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/government-approves-six-plants-to-expand-urea-production-capacity/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "id": "world-un-hunger-hotspots-2026-11-27",
+          "headline": "UN warns hunger will worsen in 16 hotspots, with famine risk in Sudan and Yemen",
+          "summary": "The FAO and World Food Programme said Sudan, South Sudan, Somalia, northern Nigeria and Yemen face the gravest risk over December to May. Conflict drives hunger in 12 of the 16 hotspots, up from 13 in June, and a strong El Nino adds to the risk in Southern Africa, Central America and Uganda. Aid funding is shrinking.",
+          "why_it_matters": "Rising food, fuel and transport costs are pushing more countries toward famine as aid falls.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-27T13:16:28+00:00",
+          "tags": [
+            "UN",
+            "Food",
+            "El Nino"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/27/famine-expect-to-rise-due-to-global-conflict-el-nino-warns-un"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/un-agencies-warn-hunger-to-worsen-in-16-countries-over-next-six-months/"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6b09798a92-1795783050.jpg?resize=1920%2C1440",
+            "credit": "Hajarah Nalwadda/Getty Images",
+            "source_url": "https://www.aljazeera.com/news/2026/11/27/famine-expect-to-rise-due-to-global-conflict-el-nino-warns-un",
+            "alt": "A worker carries a sack of maize in a World Food Programme warehouse in Uganda"
+          },
+          "impact": []
+        },
+        {
+          "id": "world-saudi-strike-taiz-2026-11-27",
+          "headline": "Houthi media say Saudi air strikes killed 11 civilians in Yemen's Taiz",
+          "summary": "Houthi-run media said Saudi strikes hit a residential building in al-Turbah, south of Taiz city, on Friday, killing 11 people, mostly children. The Saudi-led coalition did not comment, but later said it destroyed a Houthi drone heading for the Riyadh region. Fighting in Yemen resumed in July as the US war on Iran widened.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Claim by Houthi media; Al Jazeera could not independently verify it.",
+          "published_at": "2026-11-27T12:00:22+00:00",
+          "tags": [
+            "Yemen",
+            "Saudi Arabia",
+            "Houthis"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/27/saudi-strike-kills-11-civilians-in-yemens-taiz-houthi-media"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "world-zelensky-black-sea-food-2026-11-27",
+          "headline": "Zelenskyy says Black Sea export disruption threatens food for millions worldwide",
+          "summary": "Ukraine's President Volodymyr Zelenskyy said Russia's war has made shipping grain, flour and sunflower oil out of the Black Sea much harder. He warned that the disruption could cause shortages and higher food prices in countries that rely on Ukrainian supplies.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-27T18:03:00+05:30",
+          "tags": [
+            "Ukraine",
+            "Russia",
+            "Food"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/ukrainian-president-warns-black-sea-export-disruptions-threaten-global-food-supplies/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "id": "currency-rupee-closes-92-99-2026-11-27",
+          "headline": "Rupee closes 55 paise weaker at 92.99 per dollar",
+          "summary": "The rupee ended at 92.99 against the US dollar, down 55 paise on the day and weaker than the 92.86 seen at midday. The dollar index was near 103.8 during Indian trading. Higher oil and the fall in Indian shares weighed on the currency.",
+          "why_it_matters": "A weaker rupee makes oil and other imports dearer for India.",
+          "importance": 4,
+          "lead": false,
+          "verified": true,
+          "note": "Close from All India Radio; Yahoo Finance quoted 92.98.",
+          "published_at": "2026-11-27T17:50:00+05:30",
+          "tags": [
+            "Rupee",
+            "Dollar"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/indian-rupee-falls-55-paise-against-us-dollar/"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/INR=X"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "down",
+              "why": "Oil costs and equity outflows keep dollar demand high."
+            }
+          ]
+        },
+        {
+          "id": "currency-forex-reserves-700-9bn-2026-11-27",
+          "headline": "India's forex reserves fall $4.4 billion to $700.9 billion as gold value drops",
+          "summary": "Reserves fell to $700.9 billion in the week to November 20, RBI data showed. Most of the drop came from gold, down over $4 billion to $94.5 billion, while foreign currency assets slipped $266 million to $583.2 billion.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio (RBI data).",
+          "published_at": "2026-11-27T18:57:00+05:30",
+          "tags": [
+            "Forex reserves",
+            "RBI",
+            "Gold"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/indias-forex-reserves-decline-by-4-4-billion-dollars-to-700-9-billion-dollars/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "id": "markets-sensex-nifty-close-lower-2026-11-27",
+          "headline": "Sensex closes 989 points lower as IT stocks drag; Nifty ends at 25,607",
+          "summary": "The Sensex fell 1.17% to 83,339 and the Nifty 1.07% to 25,607, ending a two-day rally and extending midday losses. HCL Tech dropped 2.8% and Infosys and TCS 2.5%; BEL, Titan and IndiGo rose. Mid and small caps held up, and more BSE shares rose than fell.",
+          "why_it_matters": "The selloff in IT and big-cap stocks shows nervousness ahead of next week's GDP data and oil risks.",
+          "importance": 5,
+          "lead": true,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-27T18:06:00+05:30",
+          "tags": [
+            "Sensex",
+            "Nifty",
+            "IT"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/sensex-falls-882-points-nifty-sheds-256-points-in-late-trade/"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5EBSESN"
+            }
+          ],
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/Indian-stock-markets-to-remain-closed-on-Tuesday-on-account-of-Gurpurab.jpg",
+            "credit": "Akashvani News",
+            "source_url": "https://newsonair.gov.in/sensex-falls-882-points-nifty-sheds-256-points-in-late-trade/",
+            "alt": "The Bombay Stock Exchange building in Mumbai with a share-price ticker below it"
+          },
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "level": "medium",
+              "dir": "down",
+              "why": "Broad selling, led by IT, pulled the main indices lower.",
+              "detail": "IT"
+            },
+            {
+              "on": "company",
+              "level": "medium",
+              "dir": "down",
+              "why": "HCL Tech was the Sensex's biggest loser, down 2.8%.",
+              "detail": "HCL Tech"
+            }
+          ]
+        },
+        {
+          "id": "markets-wall-street-opens-higher-2026-11-27",
+          "headline": "Wall Street opens higher in shortened post-Thanksgiving session",
+          "summary": "About 45 minutes after the open, the S&P 500 was up about 0.8% at 7,237, the Nasdaq about 1% higher at 23,825 and the Dow up about 350 points at 50,537, against Wednesday's close. Trading ends early at 1 p.m. New York time. The indices are heading for strong weekly gains.",
+          "why_it_matters": null,
+          "importance": 4,
+          "lead": false,
+          "verified": false,
+          "note": "Index levels from Yahoo Finance quotes; Quartz reported similar early gains.",
+          "published_at": "2026-11-27T20:47:00+05:30",
+          "tags": [
+            "Wall Street",
+            "S&P 500",
+            "Nasdaq"
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/%5EGSPC"
+            },
+            {
+              "name": "Quartz",
+              "url": "https://qz.com/sp500-nasdaq-dow-weekly-gains-ai-turbulence-112726"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "us_stocks",
+              "level": "medium",
+              "dir": "up",
+              "why": "Tech-led buying lifts the main indices on a holiday-thin day.",
+              "detail": "Tech"
+            }
+          ]
+        },
+        {
+          "id": "markets-china-chip-stocks-record-2026-11-27",
+          "headline": "Chinese chip stocks post record one-day jump after Beijing pledges market support",
+          "summary": "A CSI semiconductor index jumped 17.6%, its biggest one-day gain on record, and the CSI 300 rose 4% after a State Council meeting chaired by Premier Li Qiang promised more buying by state-backed funds. The Shanghai Composite closed 3.7% higher. The CSI 300 had hit a low on Thursday.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "published_at": "2026-11-27T05:07:00-05:00",
+          "tags": [
+            "China",
+            "Chips",
+            "Stocks"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/asian-markets-close-higher-led-by-south-koreas-kospi/"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "currency",
+              "level": "low",
+              "dir": "up",
+              "why": "State support for stocks may draw money back into China.",
+              "detail": "Yuan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "id": "built-vindhyagiri-frigate-delivered-2026-11-27",
+          "headline": "Navy receives Vindhyagiri, the last of seven Nilgiri-class stealth frigates",
+          "summary": "Garden Reach Shipbuilders delivered Vindhyagiri to the Indian Navy in Kolkata, completing Project 17A. The Defence Ministry says the ships have 75% local content and all seven were delivered within 23 months. Vindhyagiri is the third of the class built by GRSE; the rest came from Mazagon Dock.",
+          "why_it_matters": "It completes a major home-built warship programme and frees shipyard capacity for new orders.",
+          "importance": 4,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio (Defence Ministry statement).",
+          "published_at": "2026-11-27T20:22:00+05:30",
+          "tags": [
+            "Navy",
+            "Defence",
+            "Shipbuilding"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/indian-navy-receives-seventh-and-final-project-17a-frigate-vindhyagiri/"
+            }
+          ],
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/Vindhyagiri.jpg",
+            "credit": "Akashvani News",
+            "source_url": "https://newsonair.gov.in/indian-navy-receives-seventh-and-final-project-17a-frigate-vindhyagiri/",
+            "alt": "Navy officers and GRSE officials beside a 'Built by GRSE' plaque on the frigate Vindhyagiri"
+          },
+          "impact": [
+            {
+              "on": "company",
+              "level": "low",
+              "dir": "up",
+              "why": "Delivering the last frigate completes a key GRSE contract.",
+              "detail": "GRSE"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "JPY",
+      "title": "Tokyo Core CPI y/y",
+      "date": "2026-11-26T18:30:00-05:00",
+      "impact": "Medium",
+      "actual": "2.9%",
+      "vs_forecast": "worse",
+      "why": "Tokyo inflation rose but came in just below the 3.0% forecast, slightly easing pressure on the Bank of Japan to hike.",
+      "source": {
+        "name": "Trading Economics",
+        "url": "https://tradingeconomics.com/japan/tokyo-core-cpi"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-29",
+      "events": [
+        {
+          "text": "OPEC+ ministers meet on output quotas",
+          "section": "markets"
+        },
+        {
+          "text": "Spain holds a general election",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "events": [
+        {
+          "text": "India Q2 (July-September) GDP data",
+          "section": "india"
+        },
+        {
+          "text": "Lok Sabha reconvenes for essential government business",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-01",
+      "events": [
+        {
+          "text": "RBI's lower 90% daily CRR floor for banks takes effect",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-02",
+      "events": [
+        {
+          "text": "Rajya Sabha reconvenes",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-03",
+      "events": [
+        {
+          "text": "Both Houses of Parliament may end their sittings",
+          "section": "india"
+        }
+      ]
+    }
+  ]
+}
