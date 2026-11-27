@@ -1,0 +1,667 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-27-morning",
+  "date": "2026-11-27",
+  "slot": "morning",
+  "title": "Friday Morning Edition",
+  "generated_at": "2026-11-27T07:40:00+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "92.44",
+      "change": "0.00%",
+      "dir": "flat",
+      "as_of": "2026-11-26T22:32:45+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/INR=X"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "101.46",
+      "change": "+0.36%",
+      "dir": "up",
+      "as_of": "2026-11-26T22:51:47+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "103.76",
+      "change": "+0.09%",
+      "dir": "up",
+      "as_of": "2026-11-27T01:54:23+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$705.34bn",
+      "change": "-1.97%",
+      "dir": "down",
+      "as_of": "2026-11-13T00:00:00+05:30",
+      "source": {
+        "name": "ANI (RBI data)",
+        "url": "https://aninews.in/news/business/india8217s-forex-reserves-fall-by-usd-142-billion-to-usd-70534-billion-in-week-ended-november-1320261120180825/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,884.50",
+      "change": "+0.25%",
+      "dir": "up",
+      "as_of": "2026-11-26T10:01:27+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "84,328.59",
+      "change": "+0.46%",
+      "dir": "up",
+      "as_of": "2026-11-26T10:02:28+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EBSESN"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,182.78",
+      "change": "-0.25%",
+      "dir": "down",
+      "as_of": "2026-11-25T21:32:06+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "23,585.80",
+      "change": "-0.62%",
+      "dir": "down",
+      "as_of": "2026-11-25T22:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC"
+      }
+    },
+    {
+      "id": "gold_usd",
+      "label": "Gold (USD/oz)",
+      "value": "$3,610.10",
+      "change": "+2.10%",
+      "dir": "up",
+      "as_of": "2026-11-27T01:54:23+00:00",
+      "source": {
+        "name": "Yahoo Finance (COMEX futures)",
+        "url": "https://finance.yahoo.com/quote/GC=F"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$60,723",
+      "change": "+0.57%",
+      "dir": "up",
+      "as_of": "2026-11-27T02:04:20+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BTC-USD"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.85%",
+      "change": "-1.14%",
+      "dir": "down",
+      "as_of": "2026-11-25T19:59:53+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "why_it_matters": "The meeting sets IORA's next policy steps on Indian Ocean trade, shipping and security at a time of war-hit sea routes in the Gulf and Red Sea.",
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/iora-1.jpg",
+            "credit": "All India Radio",
+            "source_url": "https://newsonair.gov.in/india-to-host-25th-iora-council-of-ministers-meeting-in-new-delhi-today/",
+            "alt": "A row of national flags of Indian Ocean Rim Association member countries"
+          },
+          "impact": [],
+          "id": "india-iora-ministers-delhi-2026-11-27",
+          "headline": "India hosts 25th IORA foreign ministers' meeting in New Delhi today",
+          "summary": "Ministers and senior officials from 23 Indian Ocean Rim Association members and 12 dialogue partners meet in New Delhi under India's 2025-27 chairship. On the eve of the meeting, External Affairs Minister S. Jaishankar held separate talks with the foreign ministers of Sri Lanka, Maldives, Seychelles and Mauritius.",
+          "importance": 3,
+          "published_at": "2026-11-27T07:27:00+05:30",
+          "tags": [
+            "IORA",
+            "Jaishankar",
+            "Indian Ocean",
+            "Diplomacy"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/india-to-host-25th-iora-council-of-ministers-meeting-in-new-delhi-today/"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/eam-jaishankar-holds-talks-with-counterparts-from-sri-lanka-maldives-seychelles-and-mauritius/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "image": null,
+          "impact": [],
+          "id": "india-prebudget-consultations-end-2026-11-26",
+          "headline": "Sitharaman ends pre-budget talks for 2027-28 with a first-ever youth session",
+          "summary": "Finance Minister Nirmala Sitharaman held the 13th and last pre-budget consultation for the 2027-28 Union Budget, with young people, in New Delhi on Thursday evening. The talks began on 16 November and drew more than 200 participants from 13 groups; the youth suggestions covered jobs, manufacturing, farming, housing and education.",
+          "importance": 2,
+          "published_at": "2026-11-26T20:54:00+05:30",
+          "tags": [
+            "Budget 2027-28",
+            "Sitharaman",
+            "Finance Ministry"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/fm-sitharaman-hold-final-pre-budget-consultation-meeting-with-youth/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "why_it_matters": "Attacks on Saudi refineries add a war-risk premium to crude, which raises India's import bill and weighs on the rupee.",
+          "lead": true,
+          "verified": false,
+          "note": "Strike and damage reported by Saudi Energy Ministry; blame on the Houthis is a claim by the Saudi-led coalition, not independently confirmed.",
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b089a77b51e8-1795725943.jpg",
+            "credit": "AP Photo",
+            "source_url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations",
+            "alt": "File photo: smoke rises behind trucks on a road after an attack on a Saudi oil facility in October"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "high",
+              "dir": "up",
+              "why": "A strike on a large Saudi refinery raises fears for Gulf oil supply."
+            },
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "down",
+              "why": "Dearer crude lifts India's import bill and dollar demand."
+            }
+          ],
+          "id": "world-jazan-refinery-strike-2026-11-26",
+          "headline": "Strike on Saudi Jazan refinery kills a worker; coalition says Houthis did it",
+          "summary": "Saudi Arabia's Energy Ministry says a projectile hit the 400,000-barrel-a-day Jazan refinery on the Red Sea coast on Thursday, killing a Nepali worker, injuring several others and halting some operations. The Saudi-led coalition says the Houthis carried out the attack and that it destroyed the missile launcher in Yemen's Hodeidah. The Houthis have not commented.",
+          "importance": 5,
+          "published_at": "2026-11-26T00:00:00+00:00",
+          "tags": [
+            "Saudi Arabia",
+            "Houthis",
+            "Jazan",
+            "Refinery",
+            "Oil"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations"
+            },
+            {
+              "name": "Bloomberg (via The Spokesman-Review)",
+              "url": "https://www.spokesman.com/stories/2026/nov/26/oil-climbs-as-yemens-houthi-rebels-strike-key-saud/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "The new ECB chief will steer euro interest rates, which move the euro and global bond markets.",
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera (reporting Antonio Costa's announcement).",
+          "image": null,
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "Euro",
+              "level": "low",
+              "dir": "mixed",
+              "why": "A new ECB chief may change the bank's rate path from next year."
+            }
+          ],
+          "id": "world-ecb-hernandez-de-cos-2026-11-26",
+          "headline": "Euro zone picks Spain's Pablo Hernandez de Cos to succeed Lagarde at the ECB",
+          "summary": "European Council President Antonio Costa said euro zone leaders agreed to recommend Pablo Hernandez de Cos, head of the Bank for International Settlements and a former Bank of Spain governor, as the next ECB president. He would take over in February, when Christine Lagarde leaves early; formal appointment is expected at the December EU summit.",
+          "importance": 4,
+          "published_at": "2026-11-26T00:00:00+00:00",
+          "tags": [
+            "ECB",
+            "Lagarde",
+            "Euro",
+            "Hernandez de Cos"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/26/spanish-economist-to-become-new-european-central-bank-chief"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera. Both sides' statements are their own claims.",
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Talk of a deal could ease the war premium, but attacks on Gulf states continue."
+            }
+          ],
+          "id": "world-kuwait-drone-debris-italians-2026-11-26",
+          "headline": "Update: Iran denies Kuwait drone attack and calls it 'suspicious'",
+          "summary": "New since last night: Iran denied carrying out the drone attack in Kuwait that killed two Italians. Foreign Minister Abbas Araghchi called the incident suspicious and a \"pre-cooked recipe for war\". US President Donald Trump says Washington has \"victory at hand\" and is giving Tehran a chance to negotiate a deal.",
+          "importance": 3,
+          "published_at": "2026-11-27T00:00:00+03:00",
+          "tags": [
+            "Iran",
+            "Kuwait",
+            "Araghchi",
+            "Trump",
+            "Gulf war"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/27/iran-war-live-irans-araghchi-calls-deadly-kuwait-attack-suspicious"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera.",
+          "image": null,
+          "impact": [],
+          "id": "world-eu-budget-ukraine-loan-2026-11-26",
+          "headline": "EU leaders fail to agree long-term budget and new $49bn Ukraine loan",
+          "summary": "EU leaders in Brussels stayed split on Thursday over a roughly $1.76 trillion budget for 2028-34 and a $49 billion loan for Ukraine next year, with talks possibly running into Friday. Italy's Giorgia Meloni said the sides were \"light-years away\", and Germany's Friedrich Merz threatened to hold up the budget without a joint commitment to Ukraine.",
+          "importance": 3,
+          "published_at": "2026-11-26T00:00:00+00:00",
+          "tags": [
+            "EU",
+            "Budget",
+            "Ukraine",
+            "Brussels summit"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/11/26/eu-leaders-struggle-to-agree-on-long-term-budget-more-money-for-ukraine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": [
+        {
+          "why_it_matters": "A firm dollar and expected Fed hike keep pressure on the rupee, which closed at 92.44 on Thursday.",
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "image": null,
+          "impact": [
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "down",
+              "why": "A firm dollar and Fed hike bets weigh on emerging-market currencies."
+            },
+            {
+              "on": "currency",
+              "detail": "Dollar",
+              "level": "medium",
+              "dir": "up",
+              "why": "Markets almost fully expect a December Fed rate rise."
+            }
+          ],
+          "id": "currency-dollar-steady-fed-hike-2026-11-27",
+          "headline": "Dollar holds near 2026 highs in holiday trade as Fed hike bets stay near 96%",
+          "summary": "The dollar index stayed near 103.7 in thin Thanksgiving trading, just below this year's peak. The euro slipped about 0.2% to $1.096 and the yen held near 159.2 per dollar, close to the 160 level that brought Japanese intervention earlier this year. CME FedWatch puts the odds of a December Fed rate rise at about 96%.",
+          "importance": 4,
+          "published_at": "2026-11-26T04:53:00+00:00",
+          "tags": [
+            "Dollar index",
+            "Fed",
+            "Euro",
+            "Yen"
+          ],
+          "sources": [
+            {
+              "name": "Investing.com",
+              "url": "https://www.investing.com/news/forex-news/asia-fx-won-muted-after-bok-hikes-rates-dollar-steady-5052015"
+            },
+            {
+              "name": "Reuters (via Devdiscourse)",
+              "url": "https://www.devdiscourse.com/article/international/4012742-forex-dollar-rally-pauses-for-thanksgiving"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Trading Economics (Japan statistics data).",
+          "image": null,
+          "impact": [
+            {
+              "on": "currency",
+              "detail": "Yen",
+              "level": "low",
+              "dir": "mixed",
+              "why": "Faster inflation supports a BoJ hike, but the miss versus forecast tempers it."
+            }
+          ],
+          "id": "currency-tokyo-cpi-november-2026-11-27",
+          "headline": "Tokyo core inflation rises to 2.9% in November, just under forecasts",
+          "summary": "Core consumer prices in Tokyo's central wards rose 2.9% from a year earlier in November, up from 2.6% in October but slightly below the 3.0% economists expected. The data came out early Friday, India time.",
+          "importance": 3,
+          "published_at": "2026-11-26T23:30:00+00:00",
+          "tags": [
+            "Japan",
+            "Inflation",
+            "Yen",
+            "Bank of Japan"
+          ],
+          "sources": [
+            {
+              "name": "Trading Economics",
+              "url": "https://tradingeconomics.com/japan/tokyo-core-cpi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "why_it_matters": "Crude near $96 raises India's import bill and costs for oil marketers, airlines and paint makers.",
+          "lead": false,
+          "verified": true,
+          "note": "Prices differ by time of quote: Bloomberg 'near $96', All India Radio $95.38 at about 8 PM IST.",
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "high",
+              "dir": "up",
+              "why": "Gulf refinery attacks and the OPEC+ meeting keep supply risks in focus."
+            },
+            {
+              "on": "indian_stocks",
+              "detail": "Oil marketers",
+              "level": "medium",
+              "dir": "down",
+              "why": "Higher crude squeezes margins of fuel retailers."
+            },
+            {
+              "on": "rupee",
+              "level": "medium",
+              "dir": "down",
+              "why": "Costlier oil raises India's dollar demand."
+            }
+          ],
+          "id": "markets-brent-jazan-opec-2026-11-26",
+          "headline": "Brent trades near $96 after Saudi refinery strike; OPEC+ meets on Sunday",
+          "summary": "Brent crude traded near $96 a barrel on Thursday after rising almost 6% over two sessions, as the strike on Saudi Arabia's Jazan refinery added to Gulf supply worries; All India Radio put Brent at $95.38, up 0.8%, and WTI at $84.65 in the evening. US trading was thin for Thanksgiving. OPEC+ meets on Sunday, when it may roll current output quotas into January.",
+          "importance": 5,
+          "published_at": "2026-11-26T17:40:00-08:00",
+          "tags": [
+            "Brent",
+            "Crude oil",
+            "OPEC+",
+            "Jazan"
+          ],
+          "sources": [
+            {
+              "name": "Bloomberg (via The Spokesman-Review)",
+              "url": "https://www.spokesman.com/stories/2026/nov/26/oil-climbs-as-yemens-houthi-rebels-strike-key-saud/"
+            },
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/oil-prices-up-9/"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: CNBC.",
+          "image": null,
+          "impact": [
+            {
+              "on": "us_stocks",
+              "level": "medium",
+              "dir": "up",
+              "why": "Futures point to gains in a thin holiday session."
+            },
+            {
+              "on": "indian_stocks",
+              "level": "low",
+              "dir": "up",
+              "why": "Firm global cues support Indian shares at the open."
+            }
+          ],
+          "id": "markets-us-futures-half-day-2026-11-27",
+          "headline": "US stock futures rise 0.7% before a half-day session; Asia opens higher",
+          "summary": "S&P 500 futures rose 0.7% and Nasdaq-100 futures 0.6% on Thursday evening ahead of Friday's shortened session, which ends at 1 p.m. New York time. The S&P 500 is up 3.9% this week so far and the Nasdaq 4.3%. In early Asian trade on Friday, Japan's Nikkei rose 0.3%, Korea's Kospi 0.6% and Australia's ASX 200 0.4%.",
+          "importance": 4,
+          "published_at": "2026-11-26T20:45:00-05:00",
+          "tags": [
+            "Wall Street",
+            "S&P 500",
+            "Nasdaq",
+            "Asia markets"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": true,
+          "note": "Spot gold. COMEX December futures in the snapshot trade at a higher price.",
+          "image": null,
+          "impact": [
+            {
+              "on": "gold",
+              "level": "medium",
+              "dir": "down",
+              "why": "Expected Fed rate rises reduce the appeal of non-yielding gold."
+            }
+          ],
+          "id": "markets-gold-slips-fed-bets-2026-11-27",
+          "headline": "Gold slips back toward $3,550-3,565 as Fed hike bets weigh",
+          "summary": "Spot gold eased in Asian trade on Friday to the mid-$3,500s after briefly topping $3,600 on Thursday, as traders priced an almost certain US rate rise in December. It is still well above Wednesday's 15-month low near $3,427.",
+          "importance": 3,
+          "published_at": "2026-11-26T23:37:00+00:00",
+          "tags": [
+            "Gold",
+            "Fed",
+            "Precious metals"
+          ],
+          "sources": [
+            {
+              "name": "FXStreet",
+              "url": "https://www.fxstreet.com/news/gold-declines-to-near-3-550-amid-hawkish-fed-expectations-202611262337"
+            },
+            {
+              "name": "Mitrade",
+              "url": "https://www.mitrade.com/au/insights/news/live-news/article-2-2280978-20261127"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": []
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [
+    {
+      "country": "JPY",
+      "title": "Tokyo Core CPI y/y",
+      "date": "2026-11-26T18:30:00-05:00",
+      "impact": "Medium",
+      "actual": "2.9%",
+      "vs_forecast": "worse",
+      "why": "Tokyo inflation rose but came in just below the 3.0% forecast, slightly easing pressure on the Bank of Japan to hike.",
+      "source": {
+        "name": "Trading Economics",
+        "url": "https://tradingeconomics.com/japan/tokyo-core-cpi"
+      }
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-11-27",
+      "events": [
+        {
+          "text": "25th IORA Council of Ministers meets in New Delhi",
+          "section": "india"
+        },
+        {
+          "text": "Tripura votes in 16 urban local bodies, including Agartala",
+          "section": "india"
+        },
+        {
+          "text": "Mahanadi Coalfields shares due to list on BSE and NSE",
+          "section": "markets"
+        },
+        {
+          "text": "RBI weekly forex reserves data",
+          "section": "currency"
+        },
+        {
+          "text": "US markets close early (1 p.m. New York time)",
+          "section": "markets"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "events": [
+        {
+          "text": "OPEC+ ministers meet on output quotas",
+          "section": "markets"
+        },
+        {
+          "text": "Spain holds a general election",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "events": [
+        {
+          "text": "India Q2 (July-September) GDP data",
+          "section": "india"
+        },
+        {
+          "text": "Lok Sabha reconvenes for essential government business",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-02",
+      "events": [
+        {
+          "text": "Rajya Sabha reconvenes",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-03",
+      "events": [
+        {
+          "text": "Both Houses of Parliament may end their sittings",
+          "section": "india"
+        }
+      ]
+    }
+  ]
+}
