@@ -10,6 +10,7 @@ Exits with status 1 and prints every problem found if anything is invalid.
 from __future__ import annotations
 
 import datetime as dt
+import functools
 import json
 import sys
 from pathlib import Path
@@ -22,6 +23,8 @@ except ImportError:
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 SCHEMA_PATH = ROOT / "schema" / "edition.schema.json"
+NIFTY100_PATH = DATA / "nifty100.json"
+LEVEL_RANK = {"high": 0, "medium": 1, "low": 2}
 
 SECTION_ORDER = ["india", "world", "currency", "markets", "built"]
 SECTION_TITLES = {
@@ -47,6 +50,33 @@ def load_json(path: Path, errors: list[str]):
     except json.JSONDecodeError as e:
         errors.append(f"{path}: not valid JSON ({e})")
     return None
+
+
+@functools.cache
+def nifty100() -> set[str]:
+    with NIFTY100_PATH.open(encoding="utf-8") as f:
+        return {c["symbol"] for c in json.load(f)["companies"]}
+
+
+def check_companies(st: dict, bad) -> None:
+    """The "Most affected" lists on a story's impact chips."""
+    allowed = nifty100()
+    for chip in st.get("impact", []):
+        hits = chip.get("companies") or []
+        if not hits:
+            continue
+        where = f"story '{st.get('id')}' chip '{chip.get('on')}'"
+        if chip.get("on") == "company":
+            bad(f"{where}: a company chip doesn't list other companies")
+        symbols = [h.get("symbol") for h in hits]
+        if len(symbols) != len(set(symbols)):
+            bad(f"{where}: the same company is listed twice")
+        for sym in symbols:
+            if sym not in allowed:
+                bad(f"{where}: '{sym}' is not in data/nifty100.json")
+        levels = [LEVEL_RANK.get(h.get("level"), 3) for h in hits]
+        if levels != sorted(levels):
+            bad(f"{where}: most affected companies must be listed strongest first")
 
 
 def schema_errors(validator: Draft202012Validator, doc, label: str) -> list[str]:
@@ -118,6 +148,7 @@ def rule_errors(ed: dict, label: str) -> list[str]:
             targets = [(i.get("on"), i.get("detail")) for i in st.get("impact", [])]
             if len(targets) != len(set(targets)):
                 bad(f"story '{stid}' lists the same impact target twice")
+            check_companies(st, bad)
             source_names = {s.get("name") for s in st.get("sources", [])}
             if st.get("verified") is True and len(source_names) < 2:
                 bad(f"story '{stid}' is verified, so it needs at least 2 different sources")
@@ -144,6 +175,7 @@ def rule_errors(ed: dict, label: str) -> list[str]:
                 bad("weekend_special stories must have lead=false (the lead lives in sections)")
             if st.get("image") is not None:
                 bad("weekend_special stories carry no photo")
+            check_companies(st, bad)
             if monday_special:
                 for field in ("monday_effect", "watch_next"):
                     if not st.get(field):

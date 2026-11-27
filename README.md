@@ -23,6 +23,7 @@ data/
   index.json              editions still in the repo, newest first (rebuilt by prune.py)
   editions/YYYY/MM/DD-<slot>.json
   flash/<issue>.json      flash desk results (hot news checked by Opus)
+  nifty100.json           companies allowed in "Most affected" lists (NSE Nifty 100)
 schema/edition.schema.json
 schema/flash.schema.json
 tools/
@@ -205,6 +206,50 @@ and which way. The app shows each as a coloured chip, e.g. "● GOLD ▼" in red
   moves; many stories (e.g. most World and Built stories) have `[]`. Never
   invent an effect to fill the list. Weekend Special stories always get
   chips: they are picked because they move markets.
+
+### Most affected companies
+
+A chip on a sector, commodity, currency, rates or the economy (any `on`
+except `company`) may carry `companies`: the **up to 3 Indian companies most
+strongly pushed** by this news, so Tirth knows exactly which bank, refiner or
+IT firm feels it most, not only "Banks ▲".
+
+```json
+{"on": "oil", "level": "high", "dir": "down",
+ "why": "Brent fell 8% on the US-Iran deal.",
+ "companies": [
+   {"symbol": "BPCL", "name": "BPCL", "level": "high", "dir": "up",
+    "why": "Buys crude to refine, so fuel margins widen.", "basis": "exposure"},
+   {"symbol": "IOC", "name": "Indian Oil", "level": "high", "dir": "up",
+    "why": "Same: refiner and fuel retailer.", "basis": "exposure"},
+   {"symbol": "ONGC", "name": "ONGC", "level": "medium", "dir": "down",
+    "why": "Sells crude, so it earns less per barrel.", "basis": "exposure"}
+ ]}
+```
+
+- Only companies in `data/nifty100.json` (use its `symbol` exactly; `name` is
+  the short common name, e.g. "HDFC Bank", "L&T", "Indian Oil"). The
+  validator rejects any other symbol.
+- Rank by how strongly the news pushes each company, strongest first. Both
+  directions are allowed in one list: the same news often helps some and hurts
+  others (cheaper crude: refiners up, ONGC down).
+- `basis`: `direct` when the news is about that company itself; `exposure`
+  when it is hit through its business mix (where it earns, what it buys, what
+  it borrows, what it sells). An `exposure` reason must be sourced: the
+  company's own disclosures (annual report, results, investor presentation)
+  or a trusted outlet's analysis you read. Say the mechanism in `why`;
+  never invent a percentage or number.
+- **No solid reason, no list.** Leave `companies` out rather than guess. Most
+  chips on World or Built stories have none. Never name a company to fill the
+  list.
+- This is about who is most exposed to the news, never a buy/sell call or a
+  price target.
+- Use it in morning, midday, evening and the Weekend Special (Flash results
+  don't need it).
+- The list changes when NSE rebalances the index (March and September): if a
+  run sees that the Nifty 100 changed, update `data/nifty100.json` from
+  https://nsearchives.nseindia.com/content/indices/ind_nifty100list.csv
+  (symbol, short name, NSE industry) in the same commit.
 
 ## Forex results
 

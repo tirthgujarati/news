@@ -241,7 +241,29 @@
           "description": "Likely push: up, down, or mixed when it could go either way",
           "enum": ["up", "down", "mixed"]
         },
-        "why": { "type": "string", "minLength": 1, "maxLength": 120 }
+        "why": { "type": "string", "minLength": 1, "maxLength": 120 },
+        "companies": {
+          "description": "Most affected: up to 3 Nifty 100 companies (data/nifty100.json), most strongly pushed first",
+          "type": "array",
+          "maxItems": 3,
+          "items": { "$ref": "#/$defs/company_hit" }
+        }
+      }
+    },
+    "company_hit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["symbol", "name", "level", "dir", "why", "basis"],
+      "properties": {
+        "symbol": { "description": "NSE symbol, e.g. HINDPETRO", "type": "string", "pattern": "^[A-Z0-9&-]{1,20}$" },
+        "name": { "description": "Short name, e.g. HPCL", "type": "string", "minLength": 1, "maxLength": 40 },
+        "level": { "enum": ["high", "medium", "low"] },
+        "dir": { "enum": ["up", "down", "mixed"] },
+        "why": { "type": "string", "minLength": 1, "maxLength": 120 },
+        "basis": {
+          "description": "direct = the news is about this company; exposure = hit through its business mix (sourced)",
+          "enum": ["direct", "exposure"]
+        }
       }
     },
     "section_story": {
