@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "edition_id": "2026-11-27-evening",
-  "date": "2026-11-27",
-  "slot": "evening",
-  "title": "Friday Evening Edition",
-  "generated_at": "2026-11-27T20:55:00+05:30",
+  "edition_id": "2026-11-28-morning",
+  "date": "2026-11-28",
+  "slot": "morning",
+  "title": "Saturday Morning Edition",
+  "generated_at": "2026-11-28T07:58:00+05:30",
   "snapshot": [
     {
       "id": "usdinr",
@@ -21,10 +21,10 @@
     {
       "id": "eurinr",
       "label": "EUR/INR",
-      "value": "101.80",
+      "value": "101.70",
       "change": null,
       "dir": "flat",
-      "as_of": "2026-11-27T15:06:47+00:00",
+      "as_of": "2026-11-27T22:26:46+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURINR=X"
@@ -33,10 +33,10 @@
     {
       "id": "dxy",
       "label": "Dollar index",
-      "value": "103.98",
-      "change": "+0.29%",
+      "value": "104.01",
+      "change": "+0.33%",
       "dir": "up",
-      "as_of": "2026-11-27T15:02:46+00:00",
+      "as_of": "2026-11-27T21:59:59+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
@@ -81,58 +81,46 @@
     {
       "id": "spx",
       "label": "S&P 500",
-      "value": "7,237.40",
-      "change": "+0.76%",
+      "value": "7,297.49",
+      "change": "+1.60%",
       "dir": "up",
-      "as_of": "2026-11-27T15:17:00+00:00",
+      "as_of": "2026-11-27T18:38:39+00:00",
       "source": {
-        "name": "Yahoo Finance",
+        "name": "Yahoo Finance (CNBC confirms)",
         "url": "https://finance.yahoo.com/quote/%5EGSPC"
       }
     },
     {
       "id": "nasdaq",
       "label": "Nasdaq",
-      "value": "23,825.38",
-      "change": "+1.02%",
+      "value": "24,129.50",
+      "change": "+2.31%",
       "dir": "up",
-      "as_of": "2026-11-27T15:16:56+00:00",
+      "as_of": "2026-11-27T19:15:59+00:00",
       "source": {
-        "name": "Yahoo Finance",
+        "name": "Yahoo Finance (CNBC confirms)",
         "url": "https://finance.yahoo.com/quote/%5EIXIC"
-      }
-    },
-    {
-      "id": "gold_usd",
-      "label": "Gold (USD/oz)",
-      "value": "$3,660.60",
-      "change": null,
-      "dir": "flat",
-      "as_of": "2026-11-27T15:02:46+00:00",
-      "source": {
-        "name": "Yahoo Finance (COMEX futures)",
-        "url": "https://finance.yahoo.com/quote/GC=F"
       }
     },
     {
       "id": "btc",
       "label": "Bitcoin",
-      "value": "$59,482",
-      "change": "-1.67%",
-      "dir": "down",
-      "as_of": "2026-11-27T15:12:44+00:00",
+      "value": "$60,085",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-28T02:05:00+00:00",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/BTC-USD"
+        "name": "Coinbase (Yahoo Finance confirms)",
+        "url": "https://www.coinbase.com/price/bitcoin"
       }
     },
     {
       "id": "us10y",
       "label": "US 10Y yield",
-      "value": "4.90%",
-      "change": "+1.03%",
+      "value": "4.94%",
+      "change": "+1.82%",
       "dir": "up",
-      "as_of": "2026-11-27T14:57:44+00:00",
+      "as_of": "2026-11-27T19:59:54+00:00",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/%5ETNX"
@@ -145,130 +133,85 @@
       "title": "India",
       "stories": [
         {
-          "id": "india-eu-fta-signing-date-2026-11-27",
-          "headline": "EU envoy says India-EU trade pact will be signed in Brussels on December 16",
-          "summary": "EU Ambassador Jean-Eric Paquet said the India-EU free trade agreement will be formally signed on December 16 during PM Narendra Modi's visit to Brussels. He said talks are complete and the deal then goes to the European Parliament for approval. This sets a firm date, after Commerce Minister Piyush Goyal said earlier today he hoped it would be signed this year.",
-          "why_it_matters": "Lower EU duties would help Indian exporters of textiles, food and other goods once the pact takes effect.",
-          "importance": 5,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio (EU ambassador's remarks).",
-          "published_at": "2026-11-27T17:57:00+05:30",
-          "tags": [
-            "Trade",
-            "EU",
-            "FTA"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/india-eu-free-trade-pact-to-be-signed-on-16th-next-month-says-eu-ambassador/"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "indian_stocks",
-              "level": "medium",
-              "dir": "up",
-              "why": "Lower EU tariffs would lift exporters' prospects.",
-              "detail": "Textiles"
-            }
-          ]
-        },
-        {
-          "id": "india-rbi-crr-daily-90pc-2026-11-27",
-          "headline": "RBI lets banks keep less cash daily, cutting minimum CRR balance to 90% from 99%",
-          "summary": "The Reserve Bank cut the minimum share of the cash reserve ratio that banks must hold each day to 90% from 99%, from the fortnight starting December 1. The fortnightly average rule is unchanged. The move follows banking-system cash turning into deficit for the first time in five months, due to GST outflows and RBI dollar sales.",
-          "why_it_matters": "Banks get more room to manage day-to-day cash, which should ease short-term money-market rates.",
+          "id": "india-indigo-resumes-jeddah-madinah-2026-11-28",
+          "headline": "IndiGo restarts some Jeddah and Madinah flights; Riyadh and Dammam stay off till Dec 7",
+          "summary": "IndiGo has resumed selected flights to Jeddah and Madinah in Saudi Arabia after reviewing the security situation. Flights to Riyadh and Dammam remain suspended until December 7, and the Indian Embassy in Riyadh has issued an advisory confirming this. Earlier cancellations to all four cities ran until November 30.",
+          "why_it_matters": "Partial resumption helps Umrah pilgrims and Gulf workers, but tension around Saudi Arabia still limits travel.",
           "importance": 4,
           "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-27T00:00:00+05:30",
-          "tags": [
-            "RBI",
-            "Liquidity",
-            "Banks"
-          ],
-          "sources": [
-            {
-              "name": "RBI",
-              "url": "https://rbi.org.in/scripts/NotificationUser.aspx?Id=13759&Mode=0"
-            },
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/rbi-reduces-daily-minimum-crr-maintenance-requirement-for-banks-to-90/"
-            }
-          ],
-          "image": null,
-          "impact": [
-            {
-              "on": "rates",
-              "level": "medium",
-              "dir": "down",
-              "why": "More flexible cash rules ease pressure on overnight rates."
-            },
-            {
-              "on": "indian_stocks",
-              "level": "low",
-              "dir": "up",
-              "why": "Easier liquidity helps lenders manage funding.",
-              "detail": "Banks"
-            }
-          ]
-        },
-        {
-          "id": "india-sebi-fpi-commodity-futures-2026-11-27",
-          "headline": "SEBI lets foreign investors trade physically settled metal and energy futures",
-          "summary": "SEBI will allow foreign portfolio investors to trade non-farm commodity derivatives that are settled by delivery, not just cash-settled ones; options on goods stay excluded. FPIs must close or roll over positions before the delivery period starts. The rules take effect on June 1, 2027.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
           "verified": false,
-          "note": "Single source: All India Radio (SEBI circular).",
-          "published_at": "2026-11-27T20:19:00+05:30",
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-28T07:31:25+05:30",
           "tags": [
-            "SEBI",
-            "Commodities",
-            "FPI"
+            "Aviation",
+            "Saudi Arabia",
+            "IndiGo"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/sebi-opens-non-agricultural-commodity-derivatives-to-fpis/"
+              "url": "https://newsonair.gov.in/hi/indigo-flight-services-resumed/"
             }
           ],
-          "image": null,
+          "image": {
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/HYLRQZJasAAXWnE.jpg",
+            "credit": "Akashvani News",
+            "source_url": "https://newsonair.gov.in/hi/indigo-flight-services-resumed/",
+            "alt": "An IndiGo Airbus A320 parked on a wet runway under a blue sky"
+          },
           "impact": [
             {
               "on": "company",
               "level": "low",
               "dir": "up",
-              "why": "More foreign players could raise volumes on commodity exchanges.",
-              "detail": "MCX"
+              "why": "Some Gulf routes come back, though Riyadh and Dammam remain shut.",
+              "detail": "IndiGo",
+              "symbol": "INDIGO"
             }
           ]
         },
         {
-          "id": "india-six-urea-plants-2026-11-27",
-          "headline": "Government approves six new urea plants to cut fertiliser imports",
-          "summary": "Fertilizer Secretary Rajat Kumar Mishra said six new plants, including NFL Nangal, CFCL Gadepan and Matix Panagarh, have been approved. He said they will take India's annual urea capacity to about four crore tonnes, helping the country become self-reliant in urea.",
+          "id": "india-mlff-toll-evasion-penalty-2026-11-27",
+          "headline": "Government sets five-times-toll penalty for dodging barrier-free tolls",
+          "summary": "The Road Transport Ministry says vehicles that hide or tamper with number plates, or skip FASTag, to avoid paying on Multi-Lane Free Flow toll roads will pay five times the toll on top of the fee. Cameras that read number plates will catch offenders, and the rule will apply wherever barrier-free tolling is used.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-27T20:15:00+05:30",
+          "note": "Single source: All India Radio (Road Transport Ministry statement).",
+          "published_at": "2026-11-27T20:29:25+05:30",
           "tags": [
-            "Fertiliser",
-            "Urea",
-            "Agriculture"
+            "Highways",
+            "FASTag",
+            "Tolls"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/government-approves-six-plants-to-expand-urea-production-capacity/"
+              "url": "https://newsonair.gov.in/government-announces-fivefold-penalty-for-toll-fee-evasion-under-mlff/"
+            }
+          ],
+          "image": null,
+          "impact": []
+        },
+        {
+          "id": "india-parliament-special-sitting-bills-2026-11-27",
+          "headline": "Rijiju says government will bring major bills in four-day Lok Sabha sitting from Monday",
+          "summary": "Parliamentary Affairs Minister Kiren Rijiju said significant bills will be taken up in the Lok Sabha's special sitting starting Monday, then in the Rajya Sabha from December 2. He rejected opposition charges that the special sitting breaks the rules and urged all parties to let the Houses run smoothly.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio.",
+          "published_at": "2026-11-27T20:55:44+05:30",
+          "tags": [
+            "Parliament",
+            "Policy"
+          ],
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/union-parliamentary-affairs-minister-urges-mps-to-engage-in-meaningful-debate-in-four-day-parliament-session-set-to-begin-on-monday/"
             }
           ],
           "image": null,
@@ -281,81 +224,119 @@
       "title": "World",
       "stories": [
         {
-          "id": "world-un-hunger-hotspots-2026-11-27",
-          "headline": "UN warns hunger will worsen in 16 hotspots, with famine risk in Sudan and Yemen",
-          "summary": "The FAO and World Food Programme said Sudan, South Sudan, Somalia, northern Nigeria and Yemen face the gravest risk over December to May. Conflict drives hunger in 12 of the 16 hotspots, up from 13 in June, and a strong El Nino adds to the risk in Southern Africa, Central America and Uganda. Aid funding is shrinking.",
-          "why_it_matters": "Rising food, fuel and transport costs are pushing more countries toward famine as aid falls.",
+          "id": "world-us-disables-ship-iran-blockade-2026-11-27",
+          "headline": "US military says it disabled a ship trying to run its blockade of Iranian ports",
+          "summary": "US Central Command says its aircraft fired at the stern of the Palau-flagged Pacific Archer in the Gulf of Oman after it left Bandar Abbas, knocking out its engines; it says the crew was unharmed. It is at least the 15th ship the US says it has disabled since the blockade began in April. Iran's navy chief vowed operations to break the blockade.",
+          "why_it_matters": "Each new clash near Hormuz keeps oil supply risks, and prices, high for importers like India.",
+          "importance": 5,
+          "lead": false,
+          "verified": false,
+          "note": "Claim by US Central Command; not independently confirmed.",
+          "published_at": "2026-11-27T22:22:02+00:00",
+          "tags": [
+            "Iran",
+            "Hormuz",
+            "Shipping"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera (with AP)",
+              "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade"
+            }
+          ],
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6afba6a9-1794877097.jpg?resize=1920%2C1440",
+            "credit": "Razieh Poudat/Reuters",
+            "source_url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade",
+            "alt": "Cargo ships and tankers anchored in the Strait of Hormuz off Bandar Abbas, Iran"
+          },
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "Attacks on shipping near Hormuz keep supply fears alive."
+            }
+          ]
+        },
+        {
+          "id": "world-irgc-tankers-mines-hormuz-2026-11-28",
+          "headline": "Iran's IRGC says two tankers hit mines and caught fire near the Strait of Hormuz",
+          "summary": "Iran's Revolutionary Guards say two oil tankers caught fire and exploded after striking naval mines, one near Oman's Khasab port and one in the eastern Strait of Hormuz. On Friday the IRGC had said tankers tried to use an unauthorised route. The claims could not be independently verified.",
+          "why_it_matters": "Mines in the world's main oil chokepoint would raise tanker insurance and freight costs.",
           "importance": 4,
           "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-27T13:16:28+00:00",
+          "verified": false,
+          "note": "Claim by Iran's IRGC; not independently confirmed.",
+          "published_at": "2026-11-28T00:00:00+00:00",
           "tags": [
-            "UN",
-            "Food",
-            "El Nino"
+            "Iran",
+            "Hormuz",
+            "Oil"
           ],
           "sources": [
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/27/famine-expect-to-rise-due-to-global-conflict-el-nino-warns-un"
-            },
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/un-agencies-warn-hunger-to-worsen-in-16-countries-over-next-six-months/"
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran"
             }
           ],
-          "image": {
-            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6b09798a92-1795783050.jpg?resize=1920%2C1440",
-            "credit": "Hajarah Nalwadda/Getty Images",
-            "source_url": "https://www.aljazeera.com/news/2026/11/27/famine-expect-to-rise-due-to-global-conflict-el-nino-warns-un",
-            "alt": "A worker carries a sack of maize in a World Food Programme warehouse in Uganda"
-          },
-          "impact": []
+          "image": null,
+          "impact": [
+            {
+              "on": "oil",
+              "level": "medium",
+              "dir": "up",
+              "why": "Mine claims in Hormuz add to supply risk for crude."
+            }
+          ]
         },
         {
-          "id": "world-saudi-strike-taiz-2026-11-27",
-          "headline": "Houthi media say Saudi air strikes killed 11 civilians in Yemen's Taiz",
-          "summary": "Houthi-run media said Saudi strikes hit a residential building in al-Turbah, south of Taiz city, on Friday, killing 11 people, mostly children. The Saudi-led coalition did not comment, but later said it destroyed a Houthi drone heading for the Riyadh region. Fighting in Yemen resumed in July as the US war on Iran widened.",
+          "id": "world-kuwait-summons-iran-envoy-2026-11-27",
+          "headline": "Kuwait summons Iran's envoy; Italy says drone that killed two Italians was Iranian-made",
+          "summary": "Kuwait handed Iran's ambassador a formal protest over a Thursday drone strike on a vital site that killed two Italians. Italy's foreign minister Antonio Tajani says Kuwait's investigation shows the drone was made in Iran. Iran denies launching it and has offered to join a joint inquiry.",
           "why_it_matters": null,
           "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Claim by Houthi media; Al Jazeera could not independently verify it.",
-          "published_at": "2026-11-27T12:00:22+00:00",
+          "note": "Kuwait's protest reported by All India Radio; drone origin is a claim by Italy and Kuwait, denied by Iran.",
+          "published_at": "2026-11-27T22:04:16+05:30",
           "tags": [
-            "Yemen",
-            "Saudi Arabia",
-            "Houthis"
+            "Kuwait",
+            "Iran",
+            "Italy"
           ],
           "sources": [
             {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/kuwait-summons-iranian-envoy-over-continued-attacks/"
+            },
+            {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/11/27/saudi-strike-kills-11-civilians-in-yemens-taiz-houthi-media"
+              "url": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran"
             }
           ],
           "image": null,
           "impact": []
         },
         {
-          "id": "world-zelensky-black-sea-food-2026-11-27",
-          "headline": "Zelenskyy says Black Sea export disruption threatens food for millions worldwide",
-          "summary": "Ukraine's President Volodymyr Zelenskyy said Russia's war has made shipping grain, flour and sunflower oil out of the Black Sea much harder. He warned that the disruption could cause shortages and higher food prices in countries that rely on Ukrainian supplies.",
+          "id": "world-mecca-pact-houthi-saudi-2026-11-27",
+          "headline": "Pakistan, Saudi Arabia and Turkiye vow to defend Saudi Arabia against Houthi attacks",
+          "summary": "Foreign and defence ministers of the Mecca defence pact met in Islamabad and condemned repeated Houthi attacks on Saudi cities and oil sites, pledging to help protect the kingdom. No new military steps were announced. Saudi authorities say at least 26 people have died in suspected Houthi strikes since September 23.",
           "why_it_matters": null,
-          "importance": 2,
+          "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: All India Radio.",
-          "published_at": "2026-11-27T18:03:00+05:30",
+          "note": "Single source: Al Jazeera.",
+          "published_at": "2026-11-27T17:41:24+00:00",
           "tags": [
-            "Ukraine",
-            "Russia",
-            "Food"
+            "Saudi Arabia",
+            "Houthis",
+            "Pakistan"
           ],
           "sources": [
             {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/ukrainian-president-warns-black-sea-export-disruptions-threaten-global-food-supplies/"
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/27/mecca-pact-allies-condemn-heinous-houthi-attacks-on-saudi-arabia"
             }
           ],
           "image": null,
@@ -368,27 +349,32 @@
       "title": "Currency Desk",
       "stories": [
         {
-          "id": "currency-rupee-closes-92-99-2026-11-27",
-          "headline": "Rupee closes 55 paise weaker at 92.99 per dollar",
-          "summary": "The rupee ended at 92.99 against the US dollar, down 55 paise on the day and weaker than the 92.86 seen at midday. The dollar index was near 103.8 during Indian trading. Higher oil and the fall in Indian shares weighed on the currency.",
-          "why_it_matters": "A weaker rupee makes oil and other imports dearer for India.",
+          "id": "currency-dollar-near-104-fed-hike-bets-2026-11-27",
+          "headline": "Dollar index ends week near 104 as traders bet on a December Fed hike",
+          "summary": "The dollar index closed Friday at about 104.0, up roughly 0.3% from Wednesday, as markets priced in a near-certain Federal Reserve rate rise in December. This week's PCE inflation data strengthened bets on several hikes in coming months. Indian markets were shut on Saturday; the rupee last closed at 92.99 per dollar on Friday.",
+          "why_it_matters": "A firm dollar and rising US yields keep pressure on the rupee when trading resumes Monday.",
           "importance": 4,
           "lead": false,
           "verified": true,
-          "note": "Close from All India Radio; Yahoo Finance quoted 92.98.",
-          "published_at": "2026-11-27T17:50:00+05:30",
+          "note": null,
+          "published_at": "2026-11-27T21:59:59+00:00",
           "tags": [
-            "Rupee",
-            "Dollar"
+            "Dollar",
+            "Fed",
+            "Rupee"
           ],
           "sources": [
             {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/indian-rupee-falls-55-paise-against-us-dollar/"
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "FXStreet",
+              "url": "https://www.fxstreet.com/news/us-dollar-index-stalls-below-10400-as-hawkish-fed-bets-cushion-downside-202611271247"
             },
             {
               "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/INR=X"
+              "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
             }
           ],
           "image": null,
@@ -397,33 +383,16 @@
               "on": "rupee",
               "level": "medium",
               "dir": "down",
-              "why": "Oil costs and equity outflows keep dollar demand high."
+              "why": "Fed hike bets lift the dollar and US yields, pulling money from emerging markets."
+            },
+            {
+              "on": "currency",
+              "level": "medium",
+              "dir": "up",
+              "why": "Markets expect a December Fed rate rise.",
+              "detail": "Dollar"
             }
           ]
-        },
-        {
-          "id": "currency-forex-reserves-700-9bn-2026-11-27",
-          "headline": "India's forex reserves fall $4.4 billion to $700.9 billion as gold value drops",
-          "summary": "Reserves fell to $700.9 billion in the week to November 20, RBI data showed. Most of the drop came from gold, down over $4 billion to $94.5 billion, while foreign currency assets slipped $266 million to $583.2 billion.",
-          "why_it_matters": null,
-          "importance": 3,
-          "lead": false,
-          "verified": false,
-          "note": "Single source: All India Radio (RBI data).",
-          "published_at": "2026-11-27T18:57:00+05:30",
-          "tags": [
-            "Forex reserves",
-            "RBI",
-            "Gold"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/indias-forex-reserves-decline-by-4-4-billion-dollars-to-700-9-billion-dollars/"
-            }
-          ],
-          "image": null,
-          "impact": []
         }
       ]
     },
@@ -432,122 +401,149 @@
       "title": "Money & Markets",
       "stories": [
         {
-          "id": "markets-sensex-nifty-close-lower-2026-11-27",
-          "headline": "Sensex closes 989 points lower as IT stocks drag; Nifty ends at 25,607",
-          "summary": "The Sensex fell 1.17% to 83,339 and the Nifty 1.07% to 25,607, ending a two-day rally and extending midday losses. HCL Tech dropped 2.8% and Infosys and TCS 2.5%; BEL, Titan and IndiGo rose. Mid and small caps held up, and more BSE shares rose than fell.",
-          "why_it_matters": "The selloff in IT and big-cap stocks shows nervousness ahead of next week's GDP data and oil risks.",
+          "id": "markets-wall-street-best-week-2026-11-27",
+          "headline": "Wall Street ends its best week since 2022 as tech stocks rebound",
+          "summary": "In a shortened post-Thanksgiving session, the S&P 500 rose 1.6% to 7,297.49, the Nasdaq jumped 2.31% to 24,129.50 and the Dow added 592 points to 50,774.94. All three gained over 5% for the week; it was the Dow's best week since October 2022. Amazon, Meta and Broadcom led, and newly listed Anthropic jumped about 8 to 11%.",
+          "why_it_matters": "A strong Wall Street finish could support Indian IT and broader sentiment on Monday after Friday's fall.",
           "importance": 5,
           "lead": true,
           "verified": true,
           "note": null,
-          "published_at": "2026-11-27T18:06:00+05:30",
-          "tags": [
-            "Sensex",
-            "Nifty",
-            "IT"
-          ],
-          "sources": [
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/sensex-falls-882-points-nifty-sheds-256-points-in-late-trade/"
-            },
-            {
-              "name": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/quote/%5EBSESN"
-            }
-          ],
-          "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/Indian-stock-markets-to-remain-closed-on-Tuesday-on-account-of-Gurpurab.jpg",
-            "credit": "Akashvani News",
-            "source_url": "https://newsonair.gov.in/sensex-falls-882-points-nifty-sheds-256-points-in-late-trade/",
-            "alt": "The Bombay Stock Exchange building in Mumbai with a share-price ticker below it"
-          },
-          "impact": [
-            {
-              "on": "indian_stocks",
-              "level": "medium",
-              "dir": "down",
-              "why": "Broad selling, led by IT, pulled the main indices lower.",
-              "detail": "IT"
-            },
-            {
-              "on": "company",
-              "level": "medium",
-              "dir": "down",
-              "why": "HCL Tech was the Sensex's biggest loser, down 2.8%.",
-              "detail": "HCL Tech"
-            }
-          ]
-        },
-        {
-          "id": "markets-wall-street-opens-higher-2026-11-27",
-          "headline": "Wall Street opens higher in shortened post-Thanksgiving session",
-          "summary": "About 45 minutes after the open, the S&P 500 was up about 0.8% at 7,237, the Nasdaq about 1% higher at 23,825 and the Dow up about 350 points at 50,537, against Wednesday's close. Trading ends early at 1 p.m. New York time. The indices are heading for strong weekly gains.",
-          "why_it_matters": null,
-          "importance": 4,
-          "lead": false,
-          "verified": false,
-          "note": "Index levels from Yahoo Finance quotes; Quartz reported similar early gains.",
-          "published_at": "2026-11-27T20:47:00+05:30",
+          "published_at": "2026-11-27T13:11:00-05:00",
           "tags": [
             "Wall Street",
-            "S&P 500",
-            "Nasdaq"
+            "Tech",
+            "US stocks"
           ],
           "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html"
+            },
             {
               "name": "Yahoo Finance",
               "url": "https://finance.yahoo.com/quote/%5EGSPC"
-            },
-            {
-              "name": "Quartz",
-              "url": "https://qz.com/sp500-nasdaq-dow-weekly-gains-ai-turbulence-112726"
             }
           ],
           "image": null,
           "impact": [
             {
               "on": "us_stocks",
+              "level": "high",
+              "dir": "up",
+              "why": "Big tech rebound drove the best week since 2022.",
+              "detail": "Tech"
+            },
+            {
+              "on": "indian_stocks",
               "level": "medium",
               "dir": "up",
-              "why": "Tech-led buying lifts the main indices on a holiday-thin day.",
-              "detail": "Tech"
+              "why": "A strong US tech close tends to lift Indian IT shares.",
+              "detail": "IT"
             }
           ]
         },
         {
-          "id": "markets-china-chip-stocks-record-2026-11-27",
-          "headline": "Chinese chip stocks post record one-day jump after Beijing pledges market support",
-          "summary": "A CSI semiconductor index jumped 17.6%, its biggest one-day gain on record, and the CSI 300 rose 4% after a State Council meeting chaired by Premier Li Qiang promised more buying by state-backed funds. The Shanghai Composite closed 3.7% higher. The CSI 300 had hit a low on Thursday.",
-          "why_it_matters": null,
-          "importance": 3,
+          "id": "markets-brent-weekly-gain-houthi-2026-11-27",
+          "headline": "Brent slips on Friday but heads for a weekly gain on Houthi strikes on Saudi oil",
+          "summary": "Brent crude fell more than 2% on Friday to just above $94 a barrel but was still up nearly 2% for the week, CNBC said. Attacks by Yemen's Houthis on Saudi energy sites, including a deadly hit on the Jazan refinery on Thursday, kept supply worries alive. US crude was near $82.",
+          "why_it_matters": "Brent above $90 raises India's import bill and costs for fuel retailers.",
+          "importance": 4,
           "lead": false,
-          "verified": true,
-          "note": null,
-          "published_at": "2026-11-27T05:07:00-05:00",
+          "verified": false,
+          "note": "Single source: CNBC. Yahoo Finance futures data shows a lower Brent price, so no price is given in the snapshot.",
+          "published_at": "2026-11-27T13:11:00-05:00",
           "tags": [
-            "China",
-            "Chips",
-            "Stocks"
+            "Oil",
+            "Brent",
+            "Saudi Arabia"
           ],
           "sources": [
             {
               "name": "CNBC",
-              "url": "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html"
-            },
-            {
-              "name": "All India Radio",
-              "url": "https://newsonair.gov.in/asian-markets-close-higher-led-by-south-koreas-kospi/"
+              "url": "https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html"
             }
           ],
           "image": null,
           "impact": [
             {
-              "on": "currency",
+              "on": "oil",
+              "level": "medium",
+              "dir": "mixed",
+              "why": "Houthi strikes on Saudi sites lift risk, but prices eased Friday."
+            },
+            {
+              "on": "rupee",
               "level": "low",
+              "dir": "down",
+              "why": "High crude keeps India's import bill heavy."
+            }
+          ]
+        },
+        {
+          "id": "markets-silver-jumps-2026-11-27",
+          "headline": "Silver jumps about 5% as precious metals bounce after a weak November",
+          "summary": "Silver futures rose about 5% to near $43.70 an ounce on Friday, while gold moved less. Both metals are still sharply down for November as rising US yields and Fed rate-hike bets weighed on them.",
+          "why_it_matters": null,
+          "importance": 3,
+          "lead": false,
+          "verified": true,
+          "note": "CNBC entries differ on gold's move; gold price left out.",
+          "published_at": "2026-11-27T13:11:00-05:00",
+          "tags": [
+            "Silver",
+            "Gold",
+            "Commodities"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/SI%3DF"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "silver",
+              "level": "medium",
               "dir": "up",
-              "why": "State support for stocks may draw money back into China.",
-              "detail": "Yuan"
+              "why": "Bargain buying after a steep monthly fall."
+            }
+          ]
+        },
+        {
+          "id": "markets-openai-countersues-apple-2026-11-27",
+          "headline": "OpenAI countersues Apple, accusing it of stealing trade secrets",
+          "summary": "OpenAI filed counterclaims in a California federal court on Friday, saying Apple used a re-hired former employee to obtain details of OpenAI's planned devices and blocked its access to hardware suppliers. This answers Apple's suit accusing OpenAI of poaching staff. Apple did not immediately comment.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Reuters, via Al Jazeera.",
+          "published_at": "2026-11-27T20:40:51+00:00",
+          "tags": [
+            "Apple",
+            "OpenAI",
+            "AI"
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera (Reuters)",
+              "url": "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up"
+            }
+          ],
+          "image": null,
+          "impact": [
+            {
+              "on": "company",
+              "level": "low",
+              "dir": "down",
+              "why": "Legal fight with OpenAI over AI devices adds uncertainty.",
+              "detail": "Apple"
             }
           ]
         }
@@ -558,61 +554,63 @@
       "title": "Built This Week",
       "stories": [
         {
-          "id": "built-vindhyagiri-frigate-delivered-2026-11-27",
-          "headline": "Navy receives Vindhyagiri, the last of seven Nilgiri-class stealth frigates",
-          "summary": "Garden Reach Shipbuilders delivered Vindhyagiri to the Indian Navy in Kolkata, completing Project 17A. The Defence Ministry says the ships have 75% local content and all seven were delivered within 23 months. Vindhyagiri is the third of the class built by GRSE; the rest came from Mazagon Dock.",
-          "why_it_matters": "It completes a major home-built warship programme and frees shipyard capacity for new orders.",
-          "importance": 4,
+          "id": "built-rishikesh-karnaprayag-tunnel14-2026-11-27",
+          "headline": "Railways break through 6.59-km tunnel on the Rishikesh-Karnaprayag line",
+          "summary": "Indian Railways completed the main breakthrough of Tunnel-14, a 6.59 km bore in Uttarakhand's Rudraprayag district, joining a 4.7 km drive from one end with a 1.79 km drive from the other. Crews used daytime-only controlled blasting near villages and special ventilation inside the tunnel. The Himalayan line will link Rishikesh with Karnaprayag.",
+          "why_it_matters": null,
+          "importance": 3,
           "lead": false,
           "verified": false,
-          "note": "Single source: All India Radio (Defence Ministry statement).",
-          "published_at": "2026-11-27T20:22:00+05:30",
+          "note": "Single source: All India Radio (Railway Ministry).",
+          "published_at": "2026-11-27T20:40:58+05:30",
           "tags": [
-            "Navy",
-            "Defence",
-            "Shipbuilding"
+            "Railways",
+            "Infrastructure",
+            "Uttarakhand"
           ],
           "sources": [
             {
               "name": "All India Radio",
-              "url": "https://newsonair.gov.in/indian-navy-receives-seventh-and-final-project-17a-frigate-vindhyagiri/"
+              "url": "https://newsonair.gov.in/indian-railways-achieves-breakthrough-in-6-59-km-tunnel-in-uttarakhand/"
             }
           ],
           "image": {
-            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/Vindhyagiri.jpg",
+            "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/Indian-Railways-achieves-breakthrough-in-659-km-tunnel-in-Uttarakhand.jpg",
             "credit": "Akashvani News",
-            "source_url": "https://newsonair.gov.in/indian-navy-receives-seventh-and-final-project-17a-frigate-vindhyagiri/",
-            "alt": "Navy officers and GRSE officials beside a 'Built by GRSE' plaque on the frigate Vindhyagiri"
+            "source_url": "https://newsonair.gov.in/indian-railways-achieves-breakthrough-in-6-59-km-tunnel-in-uttarakhand/",
+            "alt": "Workers in hard hats hold Indian flags at the rock face of Tunnel-14 after breakthrough"
           },
-          "impact": [
+          "impact": []
+        },
+        {
+          "id": "built-russia-perm-yasen-submarine-2026-11-27",
+          "headline": "Russia says new Perm nuclear submarine is its first armed with Zircon hypersonic missiles",
+          "summary": "President Vladimir Putin attended the flag-raising for the Yasen-M class submarine Perm at the Sevmash yard in Severodvinsk, handing it to the navy. Moscow says it is the first submarine fitted with Zircon hypersonic missiles, and Putin said five more nuclear submarines will join the fleet by 2030.",
+          "why_it_matters": null,
+          "importance": 2,
+          "lead": false,
+          "verified": false,
+          "note": "Zircon claim by Russia; not independently confirmed. Single source: Al Jazeera (with AFP, Reuters).",
+          "published_at": "2026-11-27T20:39:57+00:00",
+          "tags": [
+            "Russia",
+            "Defence",
+            "Submarine"
+          ],
+          "sources": [
             {
-              "on": "company",
-              "level": "low",
-              "dir": "up",
-              "why": "Delivering the last frigate completes a key GRSE contract.",
-              "detail": "GRSE"
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons"
             }
-          ]
+          ],
+          "image": null,
+          "impact": []
         }
       ]
     }
   ],
   "weekend_special": null,
-  "forex_results": [
-    {
-      "country": "JPY",
-      "title": "Tokyo Core CPI y/y",
-      "date": "2026-11-26T18:30:00-05:00",
-      "impact": "Medium",
-      "actual": "2.9%",
-      "vs_forecast": "worse",
-      "why": "Tokyo inflation rose but came in just below the 3.0% forecast, slightly easing pressure on the Bank of Japan to hike.",
-      "source": {
-        "name": "Trading Economics",
-        "url": "https://tradingeconomics.com/japan/tokyo-core-cpi"
-      }
-    }
-  ],
+  "forex_results": [],
   "week_ahead": [
     {
       "date": "2026-11-29",
