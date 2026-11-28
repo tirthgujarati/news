@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "edition_id": "2026-11-28-midday",
+  "date": "2026-11-28",
+  "slot": "midday",
+  "title": "Saturday Midday Edition",
+  "generated_at": "2026-11-28T13:41:01+05:30",
+  "snapshot": [
+    {
+      "id": "usdinr",
+      "label": "USD/INR",
+      "value": "92.99",
+      "change": "+0.60%",
+      "dir": "up",
+      "as_of": "2026-11-27T17:50:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/indian-rupee-falls-55-paise-against-us-dollar/"
+      }
+    },
+    {
+      "id": "eurinr",
+      "label": "EUR/INR",
+      "value": "101.70",
+      "change": null,
+      "dir": "flat",
+      "as_of": "2026-11-27T22:26:46+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/EURINR=X"
+      }
+    },
+    {
+      "id": "dxy",
+      "label": "Dollar index",
+      "value": "104.01",
+      "change": "+0.33%",
+      "dir": "up",
+      "as_of": "2026-11-27T21:59:59+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/DX-Y.NYB"
+      }
+    },
+    {
+      "id": "fx_reserves",
+      "label": "India forex reserves",
+      "value": "$700.9bn",
+      "change": "-0.62%",
+      "dir": "down",
+      "as_of": "2026-11-20T00:00:00+05:30",
+      "source": {
+        "name": "All India Radio (RBI data)",
+        "url": "https://newsonair.gov.in/indias-forex-reserves-decline-by-4-4-billion-dollars-to-700-9-billion-dollars/"
+      }
+    },
+    {
+      "id": "nifty",
+      "label": "Nifty 50",
+      "value": "25,607.20",
+      "change": "-1.07%",
+      "dir": "down",
+      "as_of": "2026-11-27T18:06:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/sensex-falls-882-points-nifty-sheds-256-points-in-late-trade/"
+      }
+    },
+    {
+      "id": "sensex",
+      "label": "Sensex",
+      "value": "83,339.26",
+      "change": "-1.17%",
+      "dir": "down",
+      "as_of": "2026-11-27T18:06:00+05:30",
+      "source": {
+        "name": "All India Radio",
+        "url": "https://newsonair.gov.in/sensex-falls-882-points-nifty-sheds-256-points-in-late-trade/"
+      }
+    },
+    {
+      "id": "spx",
+      "label": "S&P 500",
+      "value": "7,297.49",
+      "change": "+1.60%",
+      "dir": "up",
+      "as_of": "2026-11-27T18:38:39+00:00",
+      "source": {
+        "name": "Yahoo Finance (CNBC confirms)",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC"
+      }
+    },
+    {
+      "id": "nasdaq",
+      "label": "Nasdaq",
+      "value": "24,129.50",
+      "change": "+2.31%",
+      "dir": "up",
+      "as_of": "2026-11-27T19:15:59+00:00",
+      "source": {
+        "name": "Yahoo Finance (CNBC confirms)",
+        "url": "https://finance.yahoo.com/quote/%5EIXIC"
+      }
+    },
+    {
+      "id": "us10y",
+      "label": "US 10Y yield",
+      "value": "4.94%",
+      "change": "+1.82%",
+      "dir": "up",
+      "as_of": "2026-11-27T19:59:54+00:00",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ETNX"
+      }
+    },
+    {
+      "id": "btc",
+      "label": "Bitcoin",
+      "value": "$59,709",
+      "change": "-3.14%",
+      "dir": "down",
+      "as_of": "2026-11-28T08:09:00+00:00",
+      "source": {
+        "name": "Coinbase (Yahoo Finance confirms)",
+        "url": "https://www.coinbase.com/price/bitcoin"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "india",
+      "title": "India",
+      "stories": [
+        {
+          "why_it_matters": "A 50% rise in seats and a women's quota would reshape Parliament and state assemblies from 2029.",
+          "lead": true,
+          "verified": true,
+          "note": "Business Standard dates the Cabinet decision to November 27; the minister's announcement came on November 28.",
+          "image": null,
+          "impact": [],
+          "tags": [
+            "Parliament",
+            "Delimitation",
+            "Women's reservation"
+          ],
+          "id": "india-cabinet-delimitation-womens-quota-bill-2026-11-28",
+          "headline": "Cabinet clears new delimitation bill tied to 33% women's quota in Lok Sabha",
+          "summary": "The Union Cabinet has approved a fresh Delimitation Amendment Bill and a related women's reservation bill, Law Minister Arjun Ram Meghwal announced. He said the plan raises the number of seats in every state by 50% and gives women 33% of seats from the 2029 Lok Sabha election. Business Standard reports the bills are due in the Lok Sabha's special sitting that starts Monday.",
+          "importance": 5,
+          "published_at": "2026-11-28T13:28:00+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/cabinet-approves-the-delimitation-amendment-bill-bill-related-to-womens-reservation/"
+            },
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/amp/politics/cabinet-clears-fresh-women-s-reservation-bill-with-50-seat-rise-formula-126112701271_1.html"
+            }
+          ]
+        },
+        {
+          "why_it_matters": "Extra export orders help Indian garment makers while Bangladesh, a key rival, is hit by unrest.",
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio (citing a Reuters report based on three factory owners).",
+          "image": null,
+          "impact": [
+            {
+              "on": "indian_stocks",
+              "detail": "Textiles",
+              "level": "medium",
+              "dir": "up",
+              "why": "Orders moving out of Bangladesh add business for Indian garment exporters."
+            }
+          ],
+          "tags": [
+            "Textiles",
+            "Exports",
+            "Bangladesh"
+          ],
+          "id": "india-garment-orders-shift-from-bangladesh-2026-11-28",
+          "headline": "Big fashion brands move $254 million of orders from Bangladesh, mostly to India",
+          "summary": "Global fashion brands shifted roughly $254 million of clothing orders out of Bangladesh between November 1 and 18, with India the biggest winner, according to a Reuters report cited by All India Radio. Bangladesh's garment exporters' body says labour protests over a 36% minimum-wage rise have cost more than $400 million in output.",
+          "importance": 4,
+          "published_at": "2026-11-28T13:31:00+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/global-fashion-brands-shift-254-million-in-orders-from-bangladesh-to-india-amid-unrest/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio (citing the External Affairs Ministry).",
+          "image": null,
+          "impact": [],
+          "tags": [
+            "Diplomacy",
+            "IORA",
+            "Indian Ocean"
+          ],
+          "id": "india-iora-delhi-communique-2026-11-28",
+          "headline": "Indian Ocean Rim ministers adopt Delhi Communique; India gives $500,000 grant",
+          "summary": "The 25th IORA Council of Ministers, chaired by External Affairs Minister S Jaishankar in New Delhi, adopted the Delhi Communique 2026 on a peaceful and stable Indian Ocean. Members backed two Indian centres of excellence, a digital innovation hub in Goa and a maritime law centre in Gujarat, and India pledged $500,000 for capacity-building.",
+          "importance": 3,
+          "published_at": "2026-11-28T08:24:00+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/india-announces-500000-grant-for-indian-ocean-rim-association-institutions-capacity-building-adopts-delhi-communique-2026-for-peaceful-and-stable-indian-ocean/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "stories": [
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera. Results were not yet in at the time of writing.",
+          "image": {
+            "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6b0a320262-1795830274.jpg?resize=1920%2C1440",
+            "credit": "Cheng Chia Huang/Getty Images",
+            "source_url": "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders",
+            "alt": "A man holding his young daughter casts a ballot at a polling station in Taipei"
+          },
+          "impact": [],
+          "tags": [
+            "Taiwan",
+            "Elections",
+            "China"
+          ],
+          "id": "world-taiwan-local-elections-2026-11-28",
+          "headline": "Taiwan votes in local elections seen as a test before the 2028 presidential race",
+          "summary": "Taiwan held 'nine-in-one' local elections on Saturday for about 11,000 posts across 22 cities and counties, with polls closing at 4pm local time. The closest-watched race is Taipei, where KMT mayor Chiang Wan-an faces the DPP's Puma Shen, whom China has called a separatist. Taiwan's defence ministry counted about 33 Chinese military aircraft sorties around the vote.",
+          "importance": 3,
+          "published_at": "2026-11-28T00:00:00+00:00",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: All India Radio (citing Bangladeshi police and local media).",
+          "image": null,
+          "impact": [],
+          "tags": [
+            "Bangladesh",
+            "Security"
+          ],
+          "id": "world-dhaka-crude-bomb-blasts-2026-11-28",
+          "headline": "Crude bombs go off across Dhaka and three buses are torched near the capital",
+          "summary": "Crude bombs exploded at several places in Dhaka on Friday evening and night, including Kalabagan, Wari, Dhanmondi and Hatirpool, Bangladesh police said; no one was reported hurt and one suspect was detained. Three buses were set on fire early on Saturday in Ashulia and Savar outside the capital.",
+          "importance": 3,
+          "published_at": "2026-11-28T13:34:00+05:30",
+          "sources": [
+            {
+              "name": "All India Radio",
+              "url": "https://newsonair.gov.in/crude-bomb-blasts-at-multiple-locations-in-dhaka-3-buses-set-ablaze-near-capital/"
+            }
+          ]
+        },
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Claims by MSF and Israel's military; single source: Al Jazeera.",
+          "image": null,
+          "impact": [],
+          "tags": [
+            "Gaza",
+            "Israel",
+            "MSF"
+          ],
+          "id": "world-msf-gaza-clinic-strike-2026-11-28",
+          "headline": "MSF says Israeli strike on its Gaza City clinic killed two staff",
+          "summary": "Doctors Without Borders (MSF) says an Israeli strike made a direct hit on one of its clinics in Gaza City, killing two watchmen and raising its staff death toll in Gaza to 17. Israel's military says the two were Hamas members but gave no evidence. WHO chief Tedros called the attack unacceptable.",
+          "importance": 3,
+          "published_at": "2026-11-28T00:00:00+00:00",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency Desk",
+      "stories": []
+    },
+    {
+      "id": "markets",
+      "title": "Money & Markets",
+      "stories": [
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": true,
+          "note": null,
+          "image": null,
+          "impact": [
+            {
+              "on": "crypto",
+              "level": "medium",
+              "dir": "down",
+              "why": "Bitcoin keeps losing ground below the $60,000 mark."
+            }
+          ],
+          "tags": [
+            "Bitcoin",
+            "Crypto"
+          ],
+          "id": "markets-bitcoin-slips-below-60k-2026-11-28",
+          "headline": "Update: Bitcoin slips under $60,000 again, down about 3% in a day",
+          "summary": "Bitcoin traded near $59,700 on Saturday afternoon India time, down about 3.1% over 24 hours on Coinbase after touching a low of $58,700. It was about $60,085 at the time of the morning edition. Indian stock markets are shut for the weekend.",
+          "importance": 2,
+          "published_at": "2026-11-28T08:09:00+00:00",
+          "sources": [
+            {
+              "name": "Coinbase",
+              "url": "https://www.coinbase.com/price/bitcoin"
+            },
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/quote/BTC-USD/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built",
+      "title": "Built This Week",
+      "stories": [
+        {
+          "why_it_matters": null,
+          "lead": false,
+          "verified": false,
+          "note": "Single source: Al Jazeera (citing the Uganda Virus Research Institute).",
+          "image": null,
+          "impact": [],
+          "tags": [
+            "Vaccines",
+            "Ebola",
+            "Moderna"
+          ],
+          "id": "built-uganda-mrna-ebola-vaccine-trial-2026-11-28",
+          "headline": "Uganda starts Africa's first mRNA trial against the Bundibugyo Ebola strain",
+          "summary": "The Uganda Virus Research Institute says it has begun a trial of Moderna's mRNA vaccine against Bundibugyo, the Ebola strain behind the outbreak in Congo. It aims to enrol 224 volunteers, including children from age one, a group the vaccine has not been tested in before. CEPI is helping fund the vaccine.",
+          "importance": 3,
+          "published_at": "2026-11-28T00:00:00+00:00",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/28/uganda-starts-mrna-ebola-vaccine-trial-in-first-for-africa"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "weekend_special": null,
+  "forex_results": [],
+  "week_ahead": [
+    {
+      "date": "2026-11-29",
+      "events": [
+        {
+          "text": "OPEC+ ministers meet on output quotas",
+          "section": "markets"
+        },
+        {
+          "text": "Spain holds a general election",
+          "section": "world"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "events": [
+        {
+          "text": "India Q2 (July-September) GDP data",
+          "section": "india"
+        },
+        {
+          "text": "Lok Sabha reconvenes for essential government business",
+          "section": "india"
+        },
+        {
+          "text": "Delimitation and women's reservation bills expected in the Lok Sabha",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-01",
+      "events": [
+        {
+          "text": "RBI's lower 90% daily CRR floor for banks takes effect",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-02",
+      "events": [
+        {
+          "text": "Rajya Sabha reconvenes",
+          "section": "india"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-03",
+      "events": [
+        {
+          "text": "Both Houses of Parliament may end their sittings",
+          "section": "india"
+        }
+      ]
+    }
+  ]
+}
